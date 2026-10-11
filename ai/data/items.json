@@ -12,6 +12,18 @@
   "firstSeen": "2026-10-09T00:18:26.262Z"
  },
  {
+  "id": "006e59f6c16e",
+  "theme": "sponsors",
+  "title": "SoftBank raises $11.1 billion in world's biggest high-yield corporate bond sale",
+  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeldGcjFrNndNWHBkZ3ppV1hNSklkU3BNWGw5ZWFZQ1VyMWptRmJTN2pEMVBfUVFoLU0xOUhaUVN4VVR3RTNKeXNySkFGZ2tsRWVLRkY0SnhTdDUwcTZwWS1PYVBPdklXN0NLd1phMEt6Uzc3blZleGxGYUh0ZmhLY1RVREJxcE5VNFBsenVhcXpnV0R2WGVXWk9uUGdvT3BRSVRDVFFZSk1aZl92ZGxwSG1sbWg?oc=5",
+  "date": "2026-09-24T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Reuters",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "010aa511cd1d",
   "theme": "platforms",
   "title": "Microsoft Debuts New Windows PCs, Features Powered by On-Device AI",
@@ -732,6 +744,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "0f61e9cdbf50",
+  "theme": "ma",
+  "title": "Amazon in talks to acquire AI startup Decart for $7B: WSJ (AMZN:NASDAQ)",
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeFdTSWlWN3Zxem1JY1NQOWxybTdPRlNwWVY1a2d6dU5IdENwbjlnVEI3YU96d0hSNUt6ZXBqWkJEVi1PRmdQZlJPS2dZdUU2UFVKQ29vdkhMVVNGaktzMUdEUi1Ra0tNUm5WSEJJUVNpTEszVXozOW9PT1VfbW02b1kzMGUwQ2doLVhEeUdZRGY5T292Q0tpYg?oc=5",
+  "date": "2026-10-11T23:17:24.000Z",
+  "summary": "",
+  "publisher": "Seeking Alpha",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "0fa5ea286dc2",
   "theme": "platforms",
   "title": "Agoda Releases AI Developer Report 2026: Agentic AI Adoption Outpaces Enterprise Readiness Across Southeast Asia and India",
@@ -1152,6 +1176,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "187aa98c7f2f",
+  "theme": "sponsors",
+  "title": "SoftBank Boosts Credit Line to $6.5 Billion as AI Debts Mount",
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTlVNXcwU3VPdDEzZnRUNlJjakJISHp4M2Rfc0Rua18tczg5dHVMWnl6eDJ5Z3pNc3J4WFJPbF9VRUFVcGhpRTNJenRWUGZZenozTVZmSnI4T1hBYjZjWXQ5UngwNVFMRUhVQlZuOF9hbmprUW9UbW9HTk13bjFyYlJuVjZXZmZNOTM2Zy1wdFNPVjJxNVFUdw?oc=5",
+  "date": "2026-09-18T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Yahoo Finance",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "1893d1e53f99",
   "theme": "ma",
   "title": "Redhawk Federal Solutions, LLC Secures Regions Bank Financing to Support Geneva Software Acquisition and Accelerate Growth",
@@ -1536,6 +1572,18 @@
   "firstSeen": "2026-10-08T00:21:57.193Z"
  },
  {
+  "id": "20132e0fbb95",
+  "theme": "platforms",
+  "title": "ServiceNow Launches AI Workflow Factory for Enterprise Automation",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUTVRQzhrSXpCTXhrczBBVXpBbkUxZXo5cVkwUDdUXzVZNTRVd2pWSDdONENRR2Q2SldjZU5qNGsxUWlqemFXUG15RnVGancwM3lWZFpIR01rdEVxenFjeDVDQlVkcm1CU1hXRkJJTHhPR0FGRGs0WVgtVVRzZFl5LXpBdW9BSkRwdTdBNWM2eVAzM09HeWtkVFEycmVFYlk1S3dqSWUtMXQ0YnVOSWpqQmlzaVVSdw?oc=5",
+  "date": "2026-10-08T15:53:16.000Z",
+  "summary": "",
+  "publisher": "HPCwire",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "203a5a9955c5",
   "theme": "labs",
   "title": "Reflection’s first open-weight model, Beam, aims at China’s GLM-5.2",
@@ -1726,6 +1774,18 @@
   "source": "incumbents",
   "official": false,
   "firstSeen": "2026-10-09T00:18:26.262Z"
+ },
+ {
+  "id": "24ea835e5477",
+  "theme": "platforms",
+  "title": "Anthropic Launches Claude Dashboards and Motion, Takes Docs Out of Beta",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWVJZMTZuNjhhWUdzajY5bzZQTklEbThJUXJmLU1BZTVZUklnZG9uNU1CWXRheDN5blFlU2lBTFkwT1lVVHpXS1NKa2RSRVFfamU2cEVJTHRxZUIzemRIY3JuTmhNbllJb0hvc1VNRHBPUmY3aHBrMk1CWmhZZ3JPQlRDVnhNMk5wVU9iTEY2YWRzWTAyX29n?oc=5",
+  "date": "2026-10-09T21:53:01.000Z",
+  "summary": "",
+  "publisher": "Unite.AI",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
  },
  {
   "id": "24eae88d76e8",
@@ -2304,6 +2364,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "318ea0cbf18a",
+  "theme": "ma",
+  "title": "Nvidia may be planning for more stake or acquisition deal for $25 billion in open-source AI startup",
+  "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQMWtWV0tqVjZhTmQ5V2R1OV9zN2ppRC1XUl8xUkhPb0otNzVoOXVCcUljWmlCaG1KNW4wbTV5d0RIcmVMRVRFdEZNVmtweU9kaE9MWWVYRW4xOF8xZDdfb0RSNTdKcXFTclRXT0VkaG1WNkpPWFZPeVVPT0J4akwzQ2JxalpHdGRvMVY5LWdkNWY5aEc5TjF5cHNiVnFmeXA3SmpmdXh1blo1MC1OX2FQZnFvYmowU2dxZFBhQzZvQndqcjVkR0lBRDUyNmhOX2xsUlRtSlhmNDkwWEtjeW14Ulo5cWVzWHlKcmdQVXhCQTdyZW5DbklmajZHOUVacndQbXpVdWg4SF92SEczNVHSAZMCQVVfeXFMTThwU1pXRlNGVER5XzdzUXdNOEpqUHd6NkVjWS15U0J6bkNVRmFvVl9JeUhHSW1ucHhXa3p3RzlFOXA1OFBNVVF0N3gzdHRJYnVTeDhUaGU1Z1VzZXpMancxUXpETUl5ZW1KMHZ1czczTkwxRWJBQWw0Skc4ei1ZRjNIdVg3eDl2Y0pCSnUwT19zb3dDSjRQZWFRTjk4Q29URDRYeDdJMV9sLTZmWWlwZWc3N1dYRG5qVHJsbkFIbTN1VGdpb1ZHTUE2TmlxN014QXE0YUxGQURjQTg0dHRsbXJidWlxblRpb1YtWGllVmhWeGpIQ09VUW9yejdxNVBTalphbXNLbUkyVEJkSG00SV9mdlk?oc=5",
+  "date": "2026-10-11T11:03:00.000Z",
+  "summary": "",
+  "publisher": "The Times of India",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "319f9eb14d28",
   "theme": "listings",
   "title": "Ligent Technologies to Debut After $727 Million in Hong Kong IPO",
@@ -2518,6 +2590,18 @@
   "source": "power",
   "official": false,
   "firstSeen": "2026-10-05T07:46:33.871Z"
+ },
+ {
+  "id": "3734854b9670",
+  "theme": "ma",
+  "title": "Amazon in talks to acquire AI startup Decart for $7 bln- WSJ",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSVlqWnZiMW00RF9iUUl2WDZGcmJlZERST2Fnb0ZpeDFsYTVsV0tqZVJNNVJPZ1IyWkhfRzBtS3gwd0c4bFp1Yl83RHBKRVFsTHBxeEhFWFRqRmJLbXVvMVU1a1RueHg3SnRhSlZ4X3hpcTBNa2plSXhtRDNickJVS1lYWFAwSFB0bVNZMFNRRVBHbnljTGV4ZkRtcXhZaUpPZWd1UG1SU05HNGdTVUluQTItXzVpQQ?oc=5",
+  "date": "2026-10-11T23:31:45.000Z",
+  "summary": "",
+  "publisher": "Investing.com",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
  },
  {
   "id": "3770e8576616",
@@ -3036,6 +3120,18 @@
   "firstSeen": "2026-10-07T00:18:46.308Z"
  },
  {
+  "id": "4501c59968d7",
+  "theme": "platforms",
+  "title": "Meta’s Sandhya Devanathan joins OpenAI as VP for Southeast Asia, Australia",
+  "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRXR3UlBkbUdTZ0tpRzJFWEdxX0hpY0k3WDAxYzVzQXZ4NnhwbzRMVFJJdmk0MjNyUWxCdjVaRFhYTW9UZG9IaHBpMWE5UVFXdGtMMVczejl6cTlWeWIyR2VLQk1KR0laUWJqVFZBVVNzMnRtV0RRZ1dUVTRFNlNxaGx4RHdPME5xV3VHX3MyWjE0YlFhaGhLRUJZcmFlRERwNjZXSU5kalpWbzh2Q01xMHNsRTB2a3Y0RnlQb1J3azFzdEs5NklwZUE2OWZMZlE1ejBoeFd5cGhPTWRXWmFJ0gHkAUFVX3lxTE1ka1l0N3poM3RRcS1KTlFoVGpHbk5CZkR6N0xOTzlwSi11ZUJWMzB2QV9DRUlKUkZZbEJMQWx4NTE2RzUwSGloaHNIOWFkcDJkZU52LVBsRGpQbUVoZmtmWnVkUGpyRE1NLUdvTlcxTkI2UGZod2drZWp6dWRZbm8xSUx6ZUYtNzhNYXQ4MklyYy1UZGxFdjhkalV6cWJwUGpjTGdQZUtmUUVWZFlrRHZIOGRZS2otT2VQbVJ6ZmVBS1VTMTdPOWJTQXJTcTQtNWRBcTI1Z2pxYW1GN2pmVnB0X0dSTA?oc=5",
+  "date": "2026-08-29T07:00:00.000Z",
+  "summary": "",
+  "publisher": "ET Enterprise AI",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "45622f656f90",
   "theme": "infra",
   "title": "Samsung, LG Display Call Displays a National Security Asset, Demand Tax Credit Extension and Direct Refund System in South Korea",
@@ -3360,6 +3456,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "4e593ef46514",
+  "theme": "listings",
+  "title": "Anthropic's IPO is a $300 billion test for Amazon",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDJ6SlViYVdlaWtOZlJCRjRPQjJmdWRORFQ2cmZWdk9rTVhYcWdLaWdpZzI0OTM2RDJRVDlLWk5QQ3JaWXhfQS1renp6Tk1JNDNiUmFkZWNUdlZfN3JjYWZkb2QzRnZOM2xHU0xneTZucXpzZkdrTDRnR2t5OHowUm4yQ0dhVVhMZUZnN2ExMWJ4eTdGbi1ZMEQ1TQ?oc=5",
+  "date": "2026-09-26T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Yahoo Finance",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "4e6e81f6259e",
   "theme": "capital",
   "title": "EXCLUSIVE: Anthropic's IPO prospectus shows sweeping AI vision, surging costs",
@@ -3502,6 +3610,18 @@
   "source": "process",
   "official": false,
   "firstSeen": "2026-10-09T23:48:08.047Z"
+ },
+ {
+  "id": "5215356e091c",
+  "theme": "listings",
+  "title": "Reflecting On Vertical Software Stocks’ Q2 Earnings: Doximity (NYSE:DOCS)",
+  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaVVUNEI3VHVvSHZtZWM4Y01tUmU2cHBxd1pkVnhSdVhBQ1J6Z29SY1hFbzNndnduTVY2d0dkOFp4cnlvZDdRY1UyRG1hV2ZjSkU0SFZJWnhRSEE2ZU80OU9hU0lEZWxsa19ZMHhKSjRfckdieDhaQ29ybVBrVkdKOXZTQzVOOFMzWk9ZUmRJcG9FWGRRa3lCa2otUXNXMzN1VkstbmU0RVpFbmNSbElBX1JaclR5dVpoc1FOVFoyLWJWNVU?oc=5",
+  "date": "2026-10-08T07:00:00.000Z",
+  "summary": "",
+  "publisher": "StockStory",
+  "source": "comps",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
  },
  {
   "id": "5287deab2e08",
@@ -4008,6 +4128,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "5defecb43054",
+  "theme": "listings",
+  "title": "Moonshot AI Secretly Files for Hong Kong IPO at $50 Billion Valuation",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1SVjJmalNuX3I4b2EtbzBDbkp4S0o5UjZUVWV4b2Y5cFExbDFsS2NsODJ3cmF5SEotRmpXdGdrLUNEYUREV0dkbk80eWJTMjhMZnhicEd6c2F6bHRjN29VdGlxZTNTNlFVYlBhRW52OTFjSEFVdVE?oc=5",
+  "date": "2026-09-02T07:00:00.000Z",
+  "summary": "",
+  "publisher": "finance.biggo.com",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "5e3d4648920f",
   "theme": "agents",
   "title": "Classie launches Supervise to track, control and account for enterprise AI agents in real time",
@@ -4512,6 +4644,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "6909a59b7433",
+  "theme": "sponsors",
+  "title": "How AI Data Center Financing Could Lift TPG Stock And Other Credit Plays",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY2xQQlFxVHlNcnZmSVdvbmYxUWx1SjBEcXFDZFpvQS0wVklwRHdDU3B2NTgzdVRxS05VeFdaU211bmdhTm1NczQxSEtJRGtHZ2hCeG9aNjRwV3dHNDlEVkxiTTRxMlFVS1B2TVdqVjFpTGM2SWpBX3R2YTJvbWJDSWluR21XaFVLN3ppVUsyM2hvY2lQTHpWNklQcw?oc=5",
+  "date": "2026-09-20T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Yahoo Finance",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "69356cdb13f3",
   "theme": "capital",
   "title": "Nebius acquires 10-month-old stealth AI startup Inferize in $100-150 million deal",
@@ -4716,6 +4860,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "6d40f00afea4",
+  "theme": "listings",
+  "title": "Moonshot AI Targets Hong Kong Listing at $50 Billion Valuation as DeepSeek Raises Fresh Capital - High Estimate Range",
+  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVEkwWktELTM0S2J4U0xZNFJlWWxTUGwtY28wMzdJVEJKR3BTUlVXQW1tM3Z3Y29IckVxVk9sT2VZOGlUUzIwLWVXT1BHd0F4NWNWR3JLM1dDNkJVODA5bzZlNVlCeEFEWDJ4cUQ0cEFrWXd4UmVRSlZUU0k4QzlSQjFLbmNCWV9RLUotRVlBUU5ES0JmbmplVGZnUGgzVnNQOWZ2ZWJmWUVFZkl2ZnVVOVJGZC0wdlpSdms5c2ZEOGxZNjAwUjdIZVJnaTdNV0lzQWtuNA?oc=5",
+  "date": "2026-10-06T13:06:29.000Z",
+  "summary": "",
+  "publisher": "https://www.dars.gov.et/",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "6d413af1621b",
   "theme": "targets",
   "title": "Qupital raises $300M Series C",
@@ -4882,6 +5038,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-07T11:38:17.671Z"
+ },
+ {
+  "id": "70696decaeb2",
+  "theme": "platforms",
+  "title": "Work4Flow Launches 90-Day Program to Accelerate Salesforce-to-ServiceNow CRM Migration",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa1FoYUQwNHB0cE9FSnp0NU1RVzdaQ1JzRHJUc2p5dzZ6UTVLSWphaFdhZ3l5NDdiQmJQUndCR3IwZ2RCQ1N4Y0MxbFpyS08wakZqRTFEWnZ5ZDBzZnkzQkNUZlNfMXNVR2VGVkRyNGdsNk5FNnM2NFBWbDd0aDVUWnhEYVFYT3l1Nk1pUm5aSEVUcGZqXy1SUkExQUdBUQ?oc=5",
+  "date": "2026-10-08T17:12:00.000Z",
+  "summary": "",
+  "publisher": "Yahoo Finance",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
  },
  {
   "id": "707576db1974",
@@ -5232,6 +5400,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "7928b78fc04c",
+  "theme": "platforms",
+  "title": "ServiceNow (NOW) Expands AI Deployments, Is The Upside Already Priced In?",
+  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1NPeEhUYkpZUU5ZUWZfOEUyOWZMcHZmSzlCQnV2dDBwVDlENmxhVHhYWHBGSzA0c1NGU2hhTGVVREQ0XzBmWFRiMXR3QTFjZ0JBR0VqYnE3QjNZWVc3Zmt6azhXZDRRYy15bVhWSDdlU3hmLUpRN3JVbG9MNFpwUlR0bUU0SWNtYXZTQzdueGFIdTRXLU9KMkh2dXdXdGxEMng0M1BHMFNmQzJpQ0NLRzA5UnItdGVGZkJPSlBPVkk3Mk3SAcgBQVVfeXFMTUpWRU5LNU1sWTY3a2JVamNFQmh3YnRVZ1Z4amhqQUh1VElNM3hHaUctZmNWQlNNS0NHbTlCVlZLZDJUSUF4bHY0a1BwSklDbVhCUV91UUtKeXZyaTZKcEdFQ1A2U01peUpvTEt6STF6MjJVYzk0cWZMS0FDWlI3M3lieTgyY1VUYjRjV3BudjI2Tk5CZVJIUmpBbHdib0JkU1ZZUWtERHZTWDVfSlJGSlByRkRFS2VNZ1JQTkZJSllKMVpLX1BWNG8?oc=5",
+  "date": "2026-10-11T10:35:05.000Z",
+  "summary": "",
+  "publisher": "Simply Wall Street",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "795421af3651",
   "theme": "agents",
   "title": "Australia launches terror probe into flydubai copilot after revelation he studied in country",
@@ -5290,6 +5470,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-08T00:21:57.193Z"
+ },
+ {
+  "id": "7aef7655013d",
+  "theme": "platforms",
+  "title": "Microsoft Launches AI PCs with Execution Containers on Windows 11",
+  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOV9YVlRwN21YakR2REFvWnoyT3lHdEtTZklzMHZvWHJGay1yS1NzVDgtc2stY3JoVzlZMTZHRTYtXy1VdU44d29uaDZXQVdFa3JJWUxpYUE5MVNDcXRrd09sWDVncTZNLVBKQ2luT3ZGRExWeXlIaVhDb1AzREhhdFljb2phbkphblFEdHFkZTVSTmNJazFNcng4SDhVSzFO?oc=5",
+  "date": "2026-10-07T22:11:06.000Z",
+  "summary": "",
+  "publisher": "Brief IA",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
  },
  {
   "id": "7b32b5c0f317",
@@ -5700,6 +5892,30 @@
   "firstSeen": "2026-10-09T00:18:26.262Z"
  },
  {
+  "id": "85a738882843",
+  "theme": "platforms",
+  "title": "Goldman Sachs Upgrades Palantir Stock to Buy on Sovereign AI Demand",
+  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RYy1HYzlIRFJiajBjV2hKbDB0MkFLZzVjODZhbG5iWVUzMlhqQjN0QTNHclRWNTZoS0RjT2MyeWdfN3d0UDlSN2R6eXA2dmQ0SFJ0NlQ2WF9jaFJaRzM2VjdkMVlQOGxsLXZuQmxrVHAxNjhURDE4S3FCRjdwTkE?oc=5",
+  "date": "2026-10-09T12:54:47.000Z",
+  "summary": "",
+  "publisher": "TIKR.com",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
+  "id": "85ac8fa7255a",
+  "theme": "listings",
+  "title": "Firmus IPO Flop Stirs ASX AI Confidence",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTHAtd1ZjMFp1N1ZkRjBWNUNSWEpPcUctaVJBcXNySFFDU2Y4SkFfRWJuNjFzZWRTUll2bFAtWVp3RjNtTXd1TmxFVTJBYWNZVGdndWhrVEk1Z19fZWxnbEtuejctVlZvQXRsdW9oa2JQZ1VCQmJJdTRPNnRuMm5xelJBWDZuRmM?oc=5",
+  "date": "2026-10-11T21:13:51.000Z",
+  "summary": "",
+  "publisher": "Sharecafe",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "85c95beae6f9",
   "theme": "infra",
   "title": "Chinese AI Chips Could Flood the Market. Alibaba’s New Chip Is 3X Better Than Its Predecessor.",
@@ -5806,6 +6022,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-10-08T00:21:57.193Z"
+ },
+ {
+  "id": "8645a2c366dc",
+  "theme": "listings",
+  "title": "AI infrastructure firm Accelevation targets up to $5.4 billion valuation in US IPO",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcWRwZS1feHZJdllyNHhVSlFtb0FpTjdSaEpSMUJCdXVhOE9WVk5xX2NpWHJmWFV1cHk2eDVLbHdPSUhVQnVUdmhtMG1RbGU1dk9qN3FRNE5va01YRHNocHZEaGRhdzVXbHY5eEVaZGFWd3Z1Y2hxYmxXRWtQYy1rd3A0NExUc2prS3BBWENxV1V0ZnFFckhEdXhBbk8?oc=5",
+  "date": "2026-09-22T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Reuters",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
  },
  {
   "id": "868df8c8f5b2",
@@ -6372,6 +6600,18 @@
   "firstSeen": "2026-10-07T00:18:46.308Z"
  },
  {
+  "id": "96aab516a465",
+  "theme": "ma",
+  "title": "Amazon Is in Talks to Buy AI Startup Decart, WSJ Reports",
+  "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQlp0dEhQeUJEblZQcDdEQmMyOGVkSFFlbzRVaXhuT0xFUFpNc21laThfRWNnVmpRMHdiVG1BbzJiTjliOFNCR0xDWEl3X0hES3FXWlZ5LUNjZnFFRkdwWTRoVC11VHllTkM3bS1sVi04cG1EVjlBbGw5R2tNRUxmWlp2QlFrZk1uemJBMUt1QjlLRnFtdDhyVWY1UTVHZE1HTmR4NjRmSDlvQQ?oc=5",
+  "date": "2026-10-11T20:46:52.000Z",
+  "summary": "",
+  "publisher": "Bloomberg.com",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "9767e5a1a473",
   "theme": "listings",
   "title": "Software Stocks Get an Earnings Gut Check After Hot Summer Rally",
@@ -6430,6 +6670,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-09T23:48:08.047Z"
+ },
+ {
+  "id": "97f78c478ac5",
+  "theme": "listings",
+  "title": "Musk vows affordable Starlink in India days before Ambani’s record Jio IPO",
+  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRWg3ZlJhODRINVQ3VUlPSWdrTDFDc2l3eFFaRW9yV3ZUUjNZTXBVUldXTkVTSWhDNjhmajRJSi1taG01RFBIWUViM0w1bFQwMWtIWWNGX3JsZVdWcHdLb1lFMWxNeUVZT0gtMUI2T3FSQktaaUZIaWFOdGJKdzU3MkJUeU5VcnVZaEthcDRqZmFTY2tXb1hJTVY3N1RqUFJaM3ZrVngyV3JSZ2ZHV3JPS2R4VkJvMUxUREJ5ZmpkY2t3Z21tRmFXWXQ0RXM?oc=5",
+  "date": "2026-10-11T08:28:00.000Z",
+  "summary": "",
+  "publisher": "The Business Times",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
  },
  {
   "id": "98c59c124156",
@@ -6660,6 +6912,18 @@
   "firstSeen": "2026-10-06T00:02:17.930Z"
  },
  {
+  "id": "9d6c6b2f7637",
+  "theme": "ma",
+  "title": "ServiceNow acquires Israeli AI startup Sweep in deal estimated at hundreds of millions",
+  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SeVUwXzBscDhKMmFoMDExR0x0M19LRTRXMkhRSGNpaEFMYnBXeFprV0xBYS16Um9ERy16bkxoRTNRUFRQckFKbktNdjIzRVJoTHV6VVB3TDFJRDE5UHU0TXhFLTdnNmkz?oc=5",
+  "date": "2026-09-03T07:00:00.000Z",
+  "summary": "",
+  "publisher": "CTech",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
+ },
+ {
   "id": "9d97cabfbab3",
   "theme": "ma",
   "title": "Anthropic reportedly walks away from US$6 billion acquisition of AI startup Decart",
@@ -6826,6 +7090,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-06T00:18:51.367Z"
+ },
+ {
+  "id": "a1963892cf0e",
+  "theme": "targets",
+  "title": "TypeSafe, a Judgment-Specialized AI Startup, Raises ¥87 Billion Led by a16z at ¥1.2 Trillion Valuation",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xa3h5MDZ0NjJ6SEloSWR4dm9QdExuLXlrMlRVdHpNRTV2WHc5LUJVdVhCR2dVTnJ3TlkyWnFUTG5Od01faDdzYVF0aUhkOVpVOGpYWmtjWmRQcWNKVmJ5QmVJZllPaV84RVhhQXBCN1lLQ0dObHc?oc=5",
+  "date": "2026-10-09T21:35:00.000Z",
+  "summary": "",
+  "publisher": "BigGo Finance",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
  },
  {
   "id": "a1b1c5134d34",
@@ -7378,6 +7654,18 @@
   "source": "power",
   "official": false,
   "firstSeen": "2026-10-07T00:18:46.308Z"
+ },
+ {
+  "id": "affcabf96709",
+  "theme": "ma",
+  "title": "Nvidia reportedly in early talks to buy, acquihire or invest more in Reflection AI",
+  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUE1IRUtLSnYtdUtYcTBObTNBVFliMWNLNEZydFRsaWpLY1lrWVdFcFJIUTZ3UHhxbGNpR3lNcGZ4QlpjMU02MTNoRnR6WUpXY19iaE9YdVVKY2xHNy1HSnYxX2V3bE5Iejc0UjFScmVXdE9JdFhlNHBxVFg4R3VKZkQzWHY0ckZWUC05TE05YWV1cko5OEVTSy1TcHNIUEg2eGNHOW95ZGhlblNMbTgzc29ieGxUVzBRV0VZ?oc=5",
+  "date": "2026-10-11T22:38:00.000Z",
+  "summary": "",
+  "publisher": "SiliconANGLE",
+  "source": "strategics",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
  },
  {
   "id": "b00ecda3cf6d",
@@ -7990,6 +8278,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-07T00:18:46.308Z"
+ },
+ {
+  "id": "c18bf45d9339",
+  "theme": "sponsors",
+  "title": "SoftBank's Sarawak AI Pact Lands Alongside a Ransomware Outage at Its Cloud Unit",
+  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWUtLM3Y3UFFxdWNKZlBSajY1djFMUVdrT0N6OUJZVEc2VWl1aTRISFFWWm82cXdKN3FjNkZpNzJGRDJBN0hJTTFVemVXWGhEbi1UUWRsdGhtQlZ4RHRSdVVrVGwtWnNXUDZTcmdWTWR6cVlOLVRJNURUdnlxVWFjSGVhUTJYeWNsdlZMc1hNbFlab1JsY3hWeDgtRmRLc1pTeGhudDk5SHdnZTJ3ZDFENk9fbEFKVUdfVjEtR2lVeTZyaThnb0FvbG9CQVpJU3dWRU1xVEtPd0s?oc=5",
+  "date": "2026-10-08T22:01:02.000Z",
+  "summary": "",
+  "publisher": "ad-hoc-news.de",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
  },
  {
   "id": "c1ba9f0ce931",
@@ -8986,6 +9286,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-07T11:38:17.671Z"
+ },
+ {
+  "id": "d7241364cf59",
+  "theme": "ma",
+  "title": "Nvidia Weighs Deeper Stake or Full Takeover of AI Startup Reflection",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9yWUtxLWoyZTJrWS1DZVlOaFpyUDNkeGNRX2FYd1gza3JEaW5rVm5GVER1RHhvQmpRM2hkV0xqUVY4bm1hVWw0M0oyeUZINXBvVzBZVXVUNFJNblJJRmpmMjZuQ1RjVEpiNEh2YXlsUy16ZmVibkE?oc=5",
+  "date": "2026-10-11T01:35:00.000Z",
+  "summary": "",
+  "publisher": "BigGo Finance",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-11T23:47:58.451Z"
  },
  {
   "id": "d76417443b04",
