@@ -131,7 +131,7 @@ a { color: inherit; }
 .pc .more { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--rule); }
 .pc .more .why { margin: 0; font-size: 14px; line-height: 1.45; }
 .pc .more .sig { margin-top: 9px; }
-.pc .open-hint { margin-top: 8px; font-family: var(--mono); font-size: 10.5px; color: var(--faint); letter-spacing: .06em; text-transform: uppercase; }
+.pc .open-hint, .sit .open-hint { margin-top: 8px; font-family: var(--mono); font-size: 10.5px; color: var(--faint); letter-spacing: .06em; text-transform: uppercase; }
 .th, .apac { font-size: 11.5px; font-weight: 500; border-radius: 4px; padding: 2px 7px; color: var(--info); background: var(--info-soft); }
 .th i { font-style: normal; font-weight: 400; opacity: .75; margin-left: 5px; }
 .apac { color: var(--ok); background: var(--ok-soft); }
@@ -155,6 +155,44 @@ a { color: inherit; }
   background: var(--fg); color: var(--bg); font-size: 13px; font-weight: 500; padding: 8px 14px; border-radius: 999px; opacity: 0; pointer-events: none; transition: opacity .18s, transform .18s; }
 .toast.on { opacity: 1; transform: translate(-50%, 0); }
 @media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
+
+/* ── the Morning Brief: what is new since the last publish, with the angle on each ── */
+.brief { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 11px 13px 4px; margin-top: 6px; }
+.brief-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; padding-bottom: 7px; }
+.brief-head h2 { font-family: var(--display); font-weight: 700; font-size: 17px; margin: 0; letter-spacing: .01em; }
+.brief-head .sub { font-size: 12.5px; color: var(--muted); }
+.brief-head .lnk { margin-left: auto; }
+.bi { padding: 9px 0 10px; border-top: 1px solid var(--rule); }
+.bi .t { display: block; margin-top: 4px; font-family: var(--display); font-weight: 600; font-size: 16.5px; line-height: 1.25; text-decoration: none; text-wrap: balance; }
+.bi .t:hover { color: var(--accent); }
+.bi p { margin: 5px 0 0; font-size: 13.5px; line-height: 1.45; }
+.bi p b { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); font-weight: 500; margin-right: 5px; }
+.bi .call { color: var(--fg); padding-left: 10px; border-left: 2px solid var(--accent); }
+.bi .carried { font-family: var(--mono); font-size: 10.5px; color: var(--faint); letter-spacing: .06em; text-transform: uppercase; }
+
+/* ── situations: one card per deal, round or process, with the phase it has reached ── */
+.tag.ph-rumour { color: var(--info); background: var(--info-soft); }
+.tag.ph-process { color: var(--hot); background: var(--hot-soft); }
+.tag.ph-signed { color: var(--ok); background: var(--ok-soft); }
+.tag.ph-closed { color: var(--muted); background: var(--bg); border: 1px solid var(--rule); }
+.sit { cursor: pointer; }
+.sit .name { display: block; margin-top: 6px; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.2; }
+.sit .arc { margin: 6px 0 0; font-size: 13px; color: var(--muted); line-height: 1.45; }
+.sit .arc a { color: var(--fg); text-decoration: none; font-weight: 500; }
+.sit .arc a:hover { color: var(--accent); }
+.tl { margin-top: 9px; padding-left: 10px; border-left: 2px solid var(--rule); display: flex; flex-direction: column; gap: 6px; }
+.tl a { font-size: 13.5px; line-height: 1.35; text-decoration: none; color: var(--fg); }
+.tl a:hover { color: var(--accent); }
+.tl .d { font-family: var(--mono); font-size: 11px; color: var(--faint); margin-right: 6px; }
+.tl .pub { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.tl .ph { margin-left: 6px; font-size: 9.5px; padding: 1px 5px; vertical-align: 1px; }
+.sitlink { font-size: 11.5px; font-weight: 500; border-radius: 4px; padding: 2px 7px; color: var(--accent); background: var(--accent-soft); }
+
+/* ── the hold clock: years held, as a bar that fills to seven and turns hot past four ── */
+.holdbar { display: inline-block; width: 54px; height: 4px; border-radius: 2px; background: var(--rule); vertical-align: middle; margin-left: 7px; position: relative; overflow: hidden; }
+.holdbar i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--muted); border-radius: 2px; }
+.hold.ripe .holdbar { background: var(--hot-soft); }
+.hold.ripe .holdbar i { background: var(--hot); }
 </style>
 
 <div class="wrap">
@@ -168,6 +206,7 @@ a { color: inherit; }
     <div class="firms" id="firms"></div>
     <div class="tabs" id="tabs">
       <button data-tab="news">Announcements</button>
+      <button data-tab="situations">Situations</button>
       <button data-tab="portcos">Portcos</button>
       <button data-tab="targets">Potential Targets</button>
     </div>
@@ -178,11 +217,13 @@ a { color: inherit; }
     <div class="focus" id="focus"><span class="focus-label">Focus areas</span><div class="chips" id="chips"></div></div>
     <div class="banner" id="banner" hidden></div>
   </div>
+  <section class="brief" id="brief" hidden aria-label="Morning Brief"></section>
   <div class="list" id="list">
     <div class="empty"><b>Loading announcements.</b><br>Each one will show the event, the thesis it fits, and the SSG pitch it opens.</div>
   </div>
+  <p class="foot" id="footSits" hidden>Situations group the stories of one deal, round or process across the weeks it runs, by the company they are about (read from the headline; a known portco or target wins) and by shared words, so twenty headlines on one takeover read as one card. The phase is the furthest any report got: Reported (explores, weighs, in talks), In process (advisers hired, data room, bids, shortlist, an unaccepted offer), Agreed, Completed. The heat is the hottest story's. A card is shown when a situation has more than one story or is in process; tap it for every story.</p>
   <p class="foot" id="footNews">Priority is ordered by Heat, a 0–100 score for the Singapore SSG team: APAC relevance (25 — Singapore and SE Asia first, then India and ANZ, then North Asia), live process (20), technology intensity (20), sponsor relationship (15), deal size (10) and recency (10). Tap the flame number for the breakdown. An item is on the list when it is relevant: an APAC item whenever it carries an event or a focus area; a global item only when it is live or signed and in a focus area, or a fund close, a new platform or a senior hire. The rest is kept behind the link at the bottom; the page carries the last 90 days and the archive in the repo keeps everything. Event, thesis and APAC are read from the headline by keyword; the matched words sit under each tag. A portfolio company buying something is an add-on and is listed here with the buyer's name, whether or not the headline names the firm. A story tagged BACKGROUND is a profile page or a re-told old deal (the text, the url or the holding date gives it away) and sits below the bar. <span id="footTriage">Pursue, Watch, Dismiss and notes are saved and shared with anyone who can open this page.</span></p>
-  <p class="foot" id="footPortcos" hidden>Portcos are the firm's current portfolio companies that matter to SSG: focus-area companies first, APAC-weighted, and within that the longest held at the top, because four or more years is where a sponsor starts planning the exit. A reported sale or IPO process is tagged on the card. Tap a card for the business in a sentence and its five latest headlines, which are the hand-kept signals plus a daily news search on the company's own name. Valuations are estimates with their basis beside them.</p>
+  <p class="foot" id="footPortcos" hidden>Portcos are the firm's current portfolio companies that matter to SSG: focus-area companies first, APAC-weighted, and within that the longest held at the top, because four or more years is where a sponsor starts planning the exit. The hold clock on each card fills to seven years and turns hot past four, the exit window; a story about a portco in the window scores extra Heat. A reported sale or IPO process is tagged on the card. Tap a card for the business in a sentence and its five latest headlines, which are the hand-kept signals plus a daily news search on the company's own name. Valuations are estimates with their basis beside them.</p>
   <p class="foot" id="footTargets" hidden>Targets are Jobi's candidates, not anything Warburg Pincus has said: companies in a focus area that look like what the firm buys, with the signals that make the case. A live process is reported by the press; everything else is a watch. Priority puts sponsor-owned companies first, longest hold at the top: a fund four or more years in is the seller most likely to run a process.</p>
 </div>
 <div class="toast" id="toast"></div>
@@ -216,11 +257,11 @@ const FIRMS = [{
   theses: [{"id":"software","label":"Software","short":"Software","strong":["software","saas","enterprise software","vertical software","cybersecurity","security software","cloud platform","erp","workflow","developer tools","infrastructure software","artificial intelligence","machine learning","generative ai","genai","agentic","ai-native","ai-powered","ai-driven","ai platform","vertical software","vertical saas","llm","computer vision","workflow automation"],"weak":["cloud","platform","automation","technology","digital","it services"]},{"id":"fintech","label":"Fintech","short":"Fintech","strong":["fintech","financial technology","payments","payment","insurtech","wealthtech","wealth tech","regtech","core banking","banking software","lending platform","neobank","digital bank","remittance","investment accounting","trading platform","brokerage","buy now pay later","bnpl","merchant acquiring","card issuing","fund administration","wealth management platform"],"weak":["financial services","lending","credit","banking","insurance","wealth","asset management","capital markets","treasury","compliance"]},{"id":"data","label":"Data","short":"Data","strong":["information services","data provider","market data","data and analytics","data & analytics","analytics","intelligence","benchmarking","ratings","credit data","risk data","pricing data","data platform","proprietary data","research and data","index provider","data business","databases","data connectivity","data integration","data management","data infrastructure"],"weak":["data","insights","research","information","content","index","reporting"]},{"id":"internet","label":"Internet & Media","short":"Internet","strong":["consumer internet","digital media","streaming","gaming","social platform","creator","e-commerce platform","ecommerce platform","online platform","subscription","app","marketplace","marketplaces","two-sided","network effects","classifieds","b2b platform","b2b marketplace","e-commerce platform","ecommerce platform","online platform","aggregator","booking platform","travel distribution","freight network","exchange platform","super app","super-app"],"weak":["media","entertainment","consumer","online","content","sports","network","brand"]}]
 }];
 
-const RUMOUR = /\b(opens? (?:its |the )?(?:books|door|data room)|due diligence|data room|sweetens?|(?:improved|revised|higher|sweetened|rival|unsolicited) (?:[^\s]+ ){0,4}?(?:bid|offer|proposal)|lifts? (?:its |the )?(?:bid|offer)|raises? (?:its |the )?(?:bid|offer)|vies? for|vying for|weighs? (?:a )?bids?|in talks|talks to|weighs|weighing|considers|considering|explores?|exploring|mulls|mulling|eyes?|eyeing|nears|nearing|said to|sources say|people familiar|according to people|in the running|shortlist(?:ed)?|binding bids?|non-binding|frontrunner|front-runner|bid for|bids for|takeover bid|takeover offer|revised offer|higher bid|could sell|could buy|plans to sell|seeks? buyers?|hires? (?:banks?|advisers?|advisors?)|kicks off sale|sale process|strategic review|strategic options|strategic alternatives|joins? (?:the )?race|race for|(?:wanting|looking|seeking|keen) to (?:buy|acquire)|interested in (?:buying|acquiring)|suitors?|bid talks|circles?|circling)\b/i;
+const RUMOUR = /\b(opens? (?:its |the )?(?:books|door|data room)|due diligence|data room|sweetens?|(?:improved|revised|higher|sweetened|rival|unsolicited) (?:[^\s]+ ){0,4}?(?:bid|offer|proposal)|lifts? (?:[^\s]+ ){0,4}?(?:bid|offer)|raises? (?:[^\s]+ ){0,4}?(?:bid|offer)|sweetens? (?:[^\s]+ ){0,4}?(?:bid|offer)|vies? for|vying for|weighs? (?:a )?bids?|in talks|talks to|weighs|weighing|considers|considering|explores?|exploring|mulls|mulling|eyes?|eyeing|nears|nearing|said to|sources say|people familiar|according to people|in the running|shortlist(?:ed)?|binding bids?|non-binding|frontrunner|front-runner|bid for|bids for|takeover bid|takeover offer|revised offer|higher bid|could sell|could buy|plans to sell|seeks? buyers?|hires? (?:banks?|advisers?|advisors?)|kicks off sale|sale process|strategic review|strategic options|strategic alternatives|joins? (?:the )?race|race for|(?:wanting|looking|seeking|keen) to (?:buy|acquire)|interested in (?:buying|acquiring)|suitors?|bid talks|circles?|circling)\b/i;
 const EVENTS = [["fund", /\b(closes?|closed|closing of|raises?|raised|final close|first close|hard cap)\b.{0,80}?\bfund\b|\bfund\b.{0,60}?\b(close|closes|closed|closing)\b/i],
   ["people", /\b(appoints?|appointed|names|named|hires|hired|joins|promotes?|promoted|welcomes|shifts|moves|relocates|transfers)\b.{0,80}?\b(partner|managing director|md|principal|head|chief|ceo|cfo|cto|chair(?:man|woman)?|operating partner|senior advis[oe]r|dealmaker)\b/i],
   ["exit", /\b(sells?|selling|sold|sale of|to divest|divests?|divestiture|exits?|exiting|ipo|initial public offering|lists on|files? for (?:an? )?(?:ipo|listing)|offload|offloads|stake sale|secondary sale|to be acquired by|acquired by|agrees to be acquired|completes sale|sale to)\b/i],
-  ["acquire", /\b(acquires?|acquired|acquiring|acquisition|to buy|buys|buyout|take[- ]private|takes? private|takeover|controlling (?:interest|stake)|majority (?:interest|stake)|merger|merge|tender offer|(?:improved|revised|higher|sweetened|final|binding|non-binding|indicative|cash|rival|unsolicited) (?:[^\s]+ ){0,4}?(?:bid|offer|proposal)|(?:bid|bids|offer|proposal)s? (?:for|to (?:buy|acquire))|(?:lifts?|raises?|sweetens?|bumps?|ups?) (?:its |the )?(?:bid|offer)|opens? (?:its |the )?(?:books|door|data room)|due diligence|data room|vies? for|vying for|weighs? (?:a )?bids?|vie for|joins? (?:the )?race|race for|(?:wanting|looking|seeking|keen) to (?:buy|acquire)|interested in (?:buying|acquiring)|(?:among|one of) (?:the )?(?:investors|bidders|suitors|parties)|bid talks|circles?|circling)\b/i],
+  ["acquire", /\b(acquires?|acquired|acquiring|acquisition|to buy|buys|buyout|take[- ]private|takes? private|takeover|controlling (?:interest|stake)|majority (?:interest|stake)|merger|merge|tender offer|(?:improved|revised|higher|sweetened|final|binding|non-binding|indicative|cash|rival|unsolicited) (?:[^\s]+ ){0,4}?(?:bid|offer|proposal)|(?:bid|bids|offer|proposal)s? (?:for|to (?:buy|acquire))|(?:lifts?|raises?|sweetens?|bumps?|ups?) (?:[^\s]+ ){0,4}?(?:bid|offer)|opens? (?:its |the )?(?:books|door|data room)|due diligence|data room|vies? for|vying for|weighs? (?:a )?bids?|vie for|joins? (?:the )?race|race for|(?:wanting|looking|seeking|keen) to (?:buy|acquire)|interested in (?:buying|acquiring)|(?:among|one of) (?:the )?(?:investors|bidders|suitors|parties)|bid talks|circles?|circling)\b/i],
   ["platform", /\b(establishes|launches|forms|creates|unveils|opens)\b.{0,60}?\b(platform|strategy|team|office|business)\b/i],
   ["invest", /\b(invests?|investment|invested|investing|growth equity|minority (?:stake|investment)|leads?|led|series [a-h]\b|funding round|raises|backs|commits?|capital from|strategic partnership|(?:seals?|inks?|strikes?|agrees?|signs?|clinch(?:es)?|closes?) (?:[^\s]+ ){0,3}?deals?|picks? up (?:[^\s]+ ){0,3}?stakes?|snaps? up|scoops? up|injects?|pours?|puts? (?:[^\s]+ ){0,3}?into)\b/i]];
 const ANGLES = {
@@ -391,6 +432,14 @@ function classify(f, raw, held) {
   if (kind === 'exit' && new RegExp(`\\b(?:to|by)\\s+(?:an?\\s+|the\\s+)?(?:[\\w&.'-]+\\s+){0,4}?(?:${f.match.source})`, 'i').test(title)) {
     kind = 'acquire';
   }
+  // "GIC acquires hotel portfolio from KKR": the firm is the seller. Buying *from* the firm is the
+  // firm exiting, unless the firm itself leads the headline as the buyer.
+  if (kind === 'acquire' && new RegExp(`\\b(?:from|owned by)\\s+(?:an?\\s+|the\\s+)?(?:[\\w&.'-]+\\s+){0,3}?(?:${f.match.source})`, 'i').test(title)
+      && !/\b(bids?|offers?|proposals?|approach(?:es)?)\b/i.test(title) && !new RegExp(`^(?:${f.match.source})`, 'i').test(title.replace(/^the\s+/i, ''))) {
+    kind = 'exit';
+  }
+  // A meeting, a visit or a forum with "investment" in it is not an investment.
+  if (kind === 'invest' && /\b(meets?|meeting|discuss(?:es|ed)?|visits?|summit|conference|forum|roundtable|dialogue)\b/i.test(title)) kind = 'other';
   // A firm-backed company buying something, or any acquisition headline that does not name the
   // firm at all (a release on the firm's own feed, or coverage that only names it further down),
   // is a portfolio company buying — an add-on.
@@ -411,6 +460,11 @@ function classify(f, raw, held) {
   const ageDays = raw.date ? Math.max(0, (Date.now() - Date.parse(raw.date)) / 86400000) : 30;
   const retro = retrospective(raw, held, f);
   const buyer = held ? portcoBuyer(title, held) : null;
+  // The held portco the story is about, if any: the one the story was found for (slug), else the one
+  // named in the title. The Heat Score reads its holding date for the exit-window bonus.
+  const heldList = held ? (Array.isArray(held) ? held : [held]).filter(Boolean) : [];
+  const about = heldList.find((h) => typeof h === 'string' || (h.slug && raw.portco && h.slug === raw.portco) || (h.name && (companyRe(h.name) || /$^/).test(title)));
+  const holding = about ? (typeof about === 'string' ? { name: null, heldSince: about } : { name: about.name || null, heldSince: about.heldSince || null }) : null;
   // The buying portco's own industry, for the Heat Score's tech read when the headline has no sector word.
   const buyerIndustry = buyer ? (((Array.isArray(held) ? held : [held]).find((h) => h && h.name === buyer) || {}).industry || null) : null;
   // A portco named as the acquirer is an add-on whatever the firm's own name does in the headline.
@@ -446,6 +500,7 @@ function classify(f, raw, held) {
     retro,
     buyer,
     buyerIndustry,
+    holding,
     move: retro || !angle ? null : angle.move,
     heat: !angle || ageDays > 30 ? 'cool'
       : base >= 3 && th.length && ageDays <= 10 ? 'hot'
@@ -454,7 +509,7 @@ function classify(f, raw, held) {
   };
 }
 
-const HEAT = {"WEIGHTS":{"apac":25,"live":20,"tech":20,"sponsor":15,"size":10,"recency":10},"BANDS":{"hot":65,"warm":40},"APAC":[[25,"Singapore / SE Asia",/\b(singapore|singaporean|sgd|malaysia|malaysian|kuala lumpur|ringgit|indonesia|indonesian|jakarta|rupiah|vietnam|vietnamese|hanoi|ho chi minh|thailand|thai|bangkok|baht|philippines?|filipino|manila|cambodia|myanmar|brunei|asean|southeast asia|south-east asia|south east asia|sea ltd|shopee|grab|gojek|goto|temasek|gic|khazanah|dbs|ocbc|uob|sea-based)\b|(?:^|[^A-Za-z])S\$/i],[20,"India / ANZ",/\b(india|indian|mumbai|bengaluru|bangalore|delhi|gurugram|gurgaon|hyderabad|chennai|pune|noida|crore|cr|lakh|rupees?|inr|nse|bse|sebi|australia|australian|aussie|sydney|melbourne|brisbane|perth|asx|aud|new zealand|nz|nzx)\b|₹|\bRs\.?\s?\d|(?:^|[^A-Za-z])(?:A|NZ)\$/i],[16,"Japan / Korea / Greater China",/\b(japan|japanese|tokyo|osaka|jpy|yen|nikkei|korea|korean|seoul|kospi|kosdaq|china|chinese|beijing|shanghai|shenzhen|hangzhou|yuan|rmb|cny|hong kong|hkd|hkex|taiwan|taiwanese|taipei|twd|macau)\b|¥|(?:^|[^A-Za-z])(?:HK|NT)\$/i],[10,"Asia (regional)",/\b(asia|asian|apac|asia[- ]pacific|softbank|samsung|alibaba|tencent|bytedance|reliance industries|jio|tata|infosys|wipro|nomura|mizuho|mufg|mitsubishi|sumitomo|hyundai|sk hynix|rakuten|kakao|naver|ntt|kddi|sony|hitachi|fujitsu|nec)\b/i]],"LIVE":{"deals":{"acquire:rumour":20,"addon:rumour":20,"exit:rumour":20,"acquire:signed":14,"addon:signed":14,"invest:rumour":12,"exit:signed":10,"fund":10,"invest:signed":8,"acquire:closed":6,"addon:closed":6,"exit:closed":6,"invest:closed":6,"platform":6,"people":6,"rumour":8},"items":{"process":20,"deal:rumour":20,"ipo:rumour":16,"deal:announced":14,"ipo:announced":12,"funding:rumour":10,"ipo:live":10,"fund":10,"funding":8,"deal:live":6,"earnings":6,"market":6,"pricing":6,"people":5,"launch":3,"partnership":3,"regulation":3,"incident":2,"research":2,"rumour":6}},"SECTORS":[{"id":"data","strong":["information services","data provider","market data","data and analytics","data & analytics","analytics","intelligence","benchmarking","ratings","credit data","risk data","pricing data","data platform","proprietary data","research and data","index provider","data business","databases","data connectivity","data integration","data management","data infrastructure"],"weak":["data","insights","research","information","content","index","reporting"]},{"id":"fintech","strong":["fintech","financial technology","payments","payment","insurtech","wealthtech","wealth tech","regtech","core banking","banking software","lending platform","neobank","digital bank","remittance","investment accounting","trading platform","brokerage","buy now pay later","bnpl","merchant acquiring","card issuing","fund administration","wealth management platform"],"weak":["financial services","lending","credit","banking","insurance","wealth","asset management","capital markets","treasury","compliance"]},{"id":"ai","strong":["artificial intelligence","machine learning","generative ai","genai","agentic","ai-native","ai-powered","ai-driven","ai platform","vertical software","vertical saas","llm","computer vision","workflow automation"],"weak":["software","saas","cloud","automation","platform","workflow","erp","cybersecurity"]},{"id":"markets","strong":["marketplace","marketplaces","two-sided","network effects","classifieds","b2b platform","b2b marketplace","e-commerce platform","ecommerce platform","online platform","aggregator","booking platform","travel distribution","freight network","exchange platform","super app","super-app"],"weak":["network","e-commerce","ecommerce","online","travel","logistics","exchange","connects","buyers and sellers","community"]},{"id":"software","strong":["software","saas","enterprise software","vertical software","cybersecurity","security software","cloud platform","erp","workflow","developer tools","infrastructure software","artificial intelligence","machine learning","generative ai","genai","agentic","ai-native","ai-powered","ai-driven","ai platform","vertical software","vertical saas","llm","computer vision","workflow automation"],"weak":["cloud","platform","automation","technology","digital","it services"]},{"id":"healthit","strong":["healthcare it","health it","healthtech","health tech","digital health","medical software","clinical software","healthcare data","health data","care management","electronic health","ehr","emr","telehealth","medtech software"],"weak":["healthcare","health","clinical","hospital","care","patient","pharma","life sciences"]}],"TECH_TIER":{"software":1,"ai":1,"fintech":1,"healthit":1,"data":1,"cyber":1,"devtools":1,"internet":2,"markets":2},"TECH_PTS":{"1":[20,15],"2":[14,10],"3":[8,6]},"TECH_WORDS":/\b(software|saas|platform|digital|tech|technology|technologies|cloud|apps?|online|e-?commerce|it services|outsourcing|bpo|analytics|cyber(?:security)?|semiconductors?|chips?|telecoms?|internet)\b/i,"INFRA_WORDS":/\b(data cent(?:re|er)s?|fibre|fiber|towers?|hyperscale|datacenters?)\b/i,"TECH_WORD_PTS":6,"INFRA_PTS":5,"TRACKED":[{"id":"warburg-pincus","name":"Warburg Pincus","match":/warburg/i,"exclude":null,"tier":"A"},{"id":"kkr","name":"KKR","match":/\bKKR\b/,"exclude":null,"tier":"A"},{"id":"tpg","name":"TPG","match":/\bTPG\b(?!\s*(?:telecom|telecoms|mobile|internet))/i,"exclude":/\bTPG\s+Telecom\b|\bthe points guy\b|\bpoints and miles\b|\bTPG Online Daily\b|\bTPG Architecture\b|\bTPG (?:Mortgage|RE Finance)\b|\bTRTX\b|\bTPG(?:['’]s)?\b(?:\W+\w+){0,3}?\W+(?:5g|4g|mobile|broadband|nbn|prepaid|sim|customers|subscribers|outage)\b|\b(?:telco|vodafone|iinet|felix mobile|lebara|ASX:\s?TPG)\b/i,"tier":"A"},{"id":"eqt","name":"EQT","match":/\bEQT\b|\bBPEA\b|[Bb]aring [Pp]rivate [Ee]quity [Aa]sia/,"exclude":/\bEQT (?:Corp|Corporation|Production|Midstream|Holdings)\b|\bEquity Trustees\b|\bASX:\s?EQT\b|\bnatural gas\b|\bshale\b|\bAppalachi|\bMarcellus\b|\bEquitrans\b|\bNYSE:\s?EQT\b|\bmcfe?\b|\bgas producer\b|\bgas pipeline\b|\bdrilling\b|\bwellhead\b|\bLNG\b|\badidas\b|\bjersey\b|\bsneaker|\btrainers?\b|\bEQT (?:Support|Concept|Gazelle)\b/i,"tier":"A"},{"id":"navis","name":"Navis Capital","match":/\bNavis\b/i,"exclude":/\bKaleris\b|\bCargotec\b|\bterminal operating\b|\bNavis N4\b|\byacht|\bNavis (?:Technologies|Ltd|Marine|Clinic)\b|\bport (?:software|automation)\b/i,"tier":"B"},{"id":"ta-associates","name":"TA Associates","match":/\bTA Associates\b|\bTA[- ]backed\b/i,"exclude":/\bTA Instruments\b|\bTA Securities\b|\bTA Global\b/i,"tier":"B"},{"id":"macquarie-capital","name":"Macquarie Capital","match":/\bMacquarie Capital\b|\bMacquarie['’]s? (?:principal|private[- ]equity|technology|tech|growth|venture)\b|\bMacquarie[- ]backed\b/,"exclude":/\bMacquarie University\b|\bMacquarie Island\b|\bLake Macquarie\b|\bPort Macquarie\b|\bMacquarie Dictionary\b|\bMacquarie Park\b|\bMacquarie Street\b|\bMacquarie Bank (?:term deposit|savings|home loan|mortgage)/i,"tier":"B"}],"TIER_PTS":{"A":15,"B":12},"REMOVED":3,"OTHER_SPONSOR":8,"GENERIC_SPONSOR":5,"SPONSORS":[["blackstone",/\bblackstone\b/i],["bain-capital",/\bbain capital\b/i],["carlyle",/\bcarlyle\b/i],["advent",/\badvent\b/i],["permira",/\bpermira\b/i],["cvc",/\bcvc\b/],["pag",/\bPAG\b/],["apax",/\bapax\b/i],["hg",/\bHg\b(?! \w+ (?:road|street))/],["thoma-bravo",/\bthoma bravo\b/i],["vista",/\bvista equity\b|\bvista\b(?= (?:equity|partners|to|buys|acquires))/i],["general-atlantic",/\bgeneral atlantic\b/i],["insight",/\binsight partners\b/i],["silver-lake",/\bsilver lake\b/i],["brookfield",/\bbrookfield\b/i],["temasek",/\btemasek\b/i],["gic",/\bGIC\b/],["softbank",/\bsoftbank\b/i],["baring",/\bbaring\b/i],["chryscapital",/\bchryscapital\b/i],["kedaara",/\bkedaara\b/i],["true-north",/\btrue north\b/i],["multiples",/\bmultiples\b/i],["everstone",/\beverstone\b/i],["pacific-equity-partners",/\bpacific equity partners\b|\bPEP\b/],["quadrant",/\bquadrant\b/i],["bgh",/\bBGH\b/],["affinity",/\baffinity equity\b/i],["mbk",/\bMBK\b/],["hillhouse",/\bhillhouse\b/i],["primavera",/\bprimavera\b/i],["bain",/\bbain\b(?! capital)/i],["partners-group",/\bpartners group\b/i],["cppib",/\bCPP(?:IB)?\b|\bcanada pension\b/i],["otpp",/\bOTPP\b|\bontario teachers\b/i],["adia",/\bADIA\b|\babu dhabi investment authority\b/i],["mubadala",/\bmubadala\b/i],["goldman",/\bgoldman sachs\b/i],["tpg-newquest",/\bnewquest\b/i],["stonepeak",/\bstonepeak\b/i],["digitalbridge",/\bdigitalbridge\b/i],["eqt-exeter",/\bexeter\b/i],["clearlake",/\bclearlake\b/i],["francisco-partners",/\bfrancisco partners\b/i],["warburg-pincus",/\bwarburg\b/i],["accel-kkr",/\baccel-kkr\b/i],["hellman-friedman",/\bhellman\b/i],["leonard-green",/\bleonard green\b/i],["genstar",/\bgenstar\b/i],["nordic-capital",/\bnordic capital\b/i],["ardian",/\bardian\b/i],["bc-partners",/\bBC Partners\b/],["l-catterton",/\bl catterton\b/i],["kohlberg",/\bkohlberg\b(?! kravis)/i],["veritas",/\bveritas capital\b/i],["gtcr",/\bGTCR\b/],["summit-partners",/\bsummit partners\b/i],["tiger-global",/\btiger global\b/i],["coatue",/\bcoatue\b/i]],"GENERIC":/\b(private equity|buyout|take[- ]private|sponsor-backed|pe-backed|growth equity|financial sponsor|-backed)\b/i,"FX":{"USD":1,"SGD":0.75,"AUD":0.65,"NZD":0.6,"EUR":1.1,"GBP":1.3,"JPY":0.0067,"INR":0.012,"HKD":0.13,"CNY":0.14,"KRW":0.00072,"MYR":0.22,"CAD":0.73,"TWD":0.031},"SIZE":[[10,10],[3,9],[1,8],[0.5,6],[0.25,5],[0.1,4],[0.025,2],[0,1]],"RECENCY":[[1,10],[2,9],[3,8],[7,6],[14,4],[30,2],[90,1]]};
+const HEAT = {"WEIGHTS":{"apac":25,"live":20,"tech":20,"sponsor":15,"size":10,"recency":10},"BANDS":{"hot":65,"warm":40},"APAC":[[25,"Singapore / SE Asia",/\b(singapore|singaporean|sgd|malaysia|malaysian|kuala lumpur|ringgit|indonesia|indonesian|jakarta|rupiah|vietnam|vietnamese|hanoi|ho chi minh|thailand|thai|bangkok|baht|philippines?|filipino|manila|cambodia|myanmar|brunei|asean|southeast asia|south-east asia|south east asia|sea ltd|shopee|grab|gojek|goto|temasek|gic|khazanah|dbs|ocbc|uob|sea-based)\b|(?:^|[^A-Za-z])S\$/i],[20,"India / ANZ",/\b(india|indian|mumbai|bengaluru|bangalore|delhi|gurugram|gurgaon|hyderabad|chennai|pune|noida|crore|cr|lakh|rupees?|inr|nse|bse|sebi|australia|australian|aussie|sydney|melbourne|brisbane|perth|asx|aud|new zealand|nz|nzx)\b|₹|\bRs\.?\s?\d|(?:^|[^A-Za-z])(?:A|NZ)\$/i],[16,"Japan / Korea / Greater China",/\b(japan|japanese|tokyo|osaka|jpy|yen|nikkei|korea|korean|seoul|kospi|kosdaq|china|chinese|beijing|shanghai|shenzhen|hangzhou|yuan|rmb|cny|hong kong|hkd|hkex|taiwan|taiwanese|taipei|twd|macau)\b|¥|(?:^|[^A-Za-z])(?:HK|NT)\$/i],[10,"Asia (regional)",/\b(asia|asian|apac|asia[- ]pacific|softbank|samsung|alibaba|tencent|bytedance|reliance industries|jio|tata|infosys|wipro|nomura|mizuho|mufg|mitsubishi|sumitomo|hyundai|sk hynix|rakuten|kakao|naver|ntt|kddi|sony|hitachi|fujitsu|nec)\b/i]],"LIVE":{"deals":{"acquire:rumour":20,"addon:rumour":20,"exit:rumour":20,"acquire:signed":14,"addon:signed":14,"invest:rumour":12,"exit:signed":10,"fund":10,"invest:signed":8,"acquire:closed":6,"addon:closed":6,"exit:closed":6,"invest:closed":6,"platform":6,"people":6,"rumour":8},"items":{"process":20,"deal:rumour":20,"ipo:rumour":16,"deal:announced":14,"ipo:announced":12,"funding:rumour":10,"ipo:live":10,"fund":10,"funding":8,"deal:live":6,"earnings":6,"market":6,"pricing":6,"people":5,"launch":3,"partnership":3,"regulation":3,"incident":2,"research":2,"rumour":6}},"SECTORS":[{"id":"data","strong":["information services","data provider","market data","data and analytics","data & analytics","analytics","intelligence","benchmarking","ratings","credit data","risk data","pricing data","data platform","proprietary data","research and data","index provider","data business","databases","data connectivity","data integration","data management","data infrastructure"],"weak":["data","insights","research","information","content","index","reporting"]},{"id":"fintech","strong":["fintech","financial technology","payments","payment","insurtech","wealthtech","wealth tech","regtech","core banking","banking software","lending platform","neobank","digital bank","remittance","investment accounting","trading platform","brokerage","buy now pay later","bnpl","merchant acquiring","card issuing","fund administration","wealth management platform"],"weak":["financial services","lending","credit","banking","insurance","wealth","asset management","capital markets","treasury","compliance"]},{"id":"ai","strong":["artificial intelligence","machine learning","generative ai","genai","agentic","ai-native","ai-powered","ai-driven","ai platform","vertical software","vertical saas","llm","computer vision","workflow automation"],"weak":["software","saas","cloud","automation","platform","workflow","erp","cybersecurity"]},{"id":"markets","strong":["marketplace","marketplaces","two-sided","network effects","classifieds","b2b platform","b2b marketplace","e-commerce platform","ecommerce platform","online platform","aggregator","booking platform","travel distribution","freight network","exchange platform","super app","super-app"],"weak":["network","e-commerce","ecommerce","online","travel","logistics","exchange","connects","buyers and sellers","community"]},{"id":"software","strong":["software","saas","enterprise software","vertical software","cybersecurity","security software","cloud platform","erp","workflow","developer tools","infrastructure software","artificial intelligence","machine learning","generative ai","genai","agentic","ai-native","ai-powered","ai-driven","ai platform","vertical software","vertical saas","llm","computer vision","workflow automation"],"weak":["cloud","platform","automation","technology","digital","it services"]},{"id":"healthit","strong":["healthcare it","health it","healthtech","health tech","digital health","medical software","clinical software","healthcare data","health data","care management","electronic health","ehr","emr","telehealth","medtech software"],"weak":["healthcare","health","clinical","hospital","care","patient","pharma","life sciences"]}],"TECH_TIER":{"software":1,"ai":1,"fintech":1,"healthit":1,"data":1,"cyber":1,"devtools":1,"internet":2,"markets":2},"TECH_PTS":{"1":[20,15],"2":[14,10],"3":[8,6]},"TECH_WORDS":/\b(software|saas|platform|digital|tech|technology|technologies|cloud|apps?|online|e-?commerce|it services|outsourcing|bpo|analytics|cyber(?:security)?|semiconductors?|chips?|telecoms?|internet)\b/i,"INFRA_WORDS":/\b(data cent(?:re|er)s?|fibre|fiber|towers?|hyperscale|datacenters?)\b/i,"TECH_WORD_PTS":6,"INFRA_PTS":5,"TRACKED":[{"id":"warburg-pincus","name":"Warburg Pincus","match":/warburg/i,"exclude":null,"tier":"A"},{"id":"kkr","name":"KKR","match":/\bKKR\b/,"exclude":null,"tier":"A"},{"id":"tpg","name":"TPG","match":/\bTPG\b(?!\s*(?:telecom|telecoms|mobile|internet))/i,"exclude":/\bTPG\s+Telecom\b|\bthe points guy\b|\bpoints and miles\b|\bTPG Online Daily\b|\bTPG Architecture\b|\bTPG (?:Mortgage|RE Finance)\b|\bTRTX\b|\bTPG(?:['’]s)?\b(?:\W+\w+){0,3}?\W+(?:5g|4g|mobile|broadband|nbn|prepaid|sim|customers|subscribers|outage)\b|\b(?:telco|vodafone|iinet|felix mobile|lebara|ASX:\s?TPG)\b/i,"tier":"A"},{"id":"eqt","name":"EQT","match":/\bEQT\b|\bBPEA\b|[Bb]aring [Pp]rivate [Ee]quity [Aa]sia/,"exclude":/\bEQT (?:Corp|Corporation|Production|Midstream|Holdings)\b|\bEquity Trustees\b|\bASX:\s?EQT\b|\bnatural gas\b|\bshale\b|\bAppalachi|\bMarcellus\b|\bEquitrans\b|\bNYSE:\s?EQT\b|\bmcfe?\b|\bgas producer\b|\bgas pipeline\b|\bdrilling\b|\bwellhead\b|\bLNG\b|\badidas\b|\bjersey\b|\bsneaker|\btrainers?\b|\bEQT (?:Support|Concept|Gazelle)\b/i,"tier":"A"},{"id":"navis","name":"Navis Capital","match":/\bNavis\b/i,"exclude":/\bKaleris\b|\bCargotec\b|\bterminal operating\b|\bNavis N4\b|\byacht|\bNavis (?:Technologies|Ltd|Marine|Clinic)\b|\bport (?:software|automation)\b/i,"tier":"B"},{"id":"ta-associates","name":"TA Associates","match":/\bTA Associates\b|\bTA[- ]backed\b/i,"exclude":/\bTA Instruments\b|\bTA Securities\b|\bTA Global\b/i,"tier":"B"},{"id":"macquarie-capital","name":"Macquarie Capital","match":/\bMacquarie Capital\b|\bMacquarie['’]s? (?:principal|private[- ]equity|technology|tech|growth|venture)\b|\bMacquarie[- ]backed\b/,"exclude":/\bMacquarie University\b|\bMacquarie Island\b|\bLake Macquarie\b|\bPort Macquarie\b|\bMacquarie Dictionary\b|\bMacquarie Park\b|\bMacquarie Street\b|\bMacquarie Bank (?:term deposit|savings|home loan|mortgage)/i,"tier":"B"}],"TIER_PTS":{"A":15,"B":12},"REMOVED":3,"OTHER_SPONSOR":8,"GENERIC_SPONSOR":5,"SPONSORS":[["blackstone",/\bblackstone\b/i],["bain-capital",/\bbain capital\b/i],["carlyle",/\bcarlyle\b/i],["advent",/\badvent\b/i],["permira",/\bpermira\b/i],["cvc",/\bcvc\b/],["pag",/\bPAG\b/],["apax",/\bapax\b/i],["hg",/\bHg\b(?! \w+ (?:road|street))/],["thoma-bravo",/\bthoma bravo\b/i],["vista",/\bvista equity\b|\bvista\b(?= (?:equity|partners|to|buys|acquires))/i],["general-atlantic",/\bgeneral atlantic\b/i],["insight",/\binsight partners\b/i],["silver-lake",/\bsilver lake\b/i],["brookfield",/\bbrookfield\b/i],["temasek",/\btemasek\b/i],["gic",/\bGIC\b/],["softbank",/\bsoftbank\b/i],["baring",/\bbaring\b/i],["chryscapital",/\bchryscapital\b/i],["kedaara",/\bkedaara\b/i],["true-north",/\btrue north\b/i],["multiples",/\bmultiples\b/i],["everstone",/\beverstone\b/i],["pacific-equity-partners",/\bpacific equity partners\b|\bPEP\b/],["quadrant",/\bquadrant\b/i],["bgh",/\bBGH\b/],["affinity",/\baffinity equity\b/i],["mbk",/\bMBK\b/],["hillhouse",/\bhillhouse\b/i],["primavera",/\bprimavera\b/i],["bain",/\bbain\b(?! capital)/i],["partners-group",/\bpartners group\b/i],["cppib",/\bCPP(?:IB)?\b|\bcanada pension\b/i],["otpp",/\bOTPP\b|\bontario teachers\b/i],["adia",/\bADIA\b|\babu dhabi investment authority\b/i],["mubadala",/\bmubadala\b/i],["goldman",/\bgoldman sachs\b/i],["tpg-newquest",/\bnewquest\b/i],["stonepeak",/\bstonepeak\b/i],["digitalbridge",/\bdigitalbridge\b/i],["eqt-exeter",/\bexeter\b/i],["clearlake",/\bclearlake\b/i],["francisco-partners",/\bfrancisco partners\b/i],["warburg-pincus",/\bwarburg\b/i],["accel-kkr",/\baccel-kkr\b/i],["hellman-friedman",/\bhellman\b/i],["leonard-green",/\bleonard green\b/i],["genstar",/\bgenstar\b/i],["nordic-capital",/\bnordic capital\b/i],["ardian",/\bardian\b/i],["bc-partners",/\bBC Partners\b/],["l-catterton",/\bl catterton\b/i],["kohlberg",/\bkohlberg\b(?! kravis)/i],["veritas",/\bveritas capital\b/i],["gtcr",/\bGTCR\b/],["summit-partners",/\bsummit partners\b/i],["tiger-global",/\btiger global\b/i],["coatue",/\bcoatue\b/i]],"GENERIC":/\b(private equity|buyout|take[- ]private|sponsor-backed|pe-backed|growth equity|financial sponsor|-backed)\b/i,"FX":{"USD":1,"SGD":0.75,"AUD":0.65,"NZD":0.6,"EUR":1.1,"GBP":1.3,"JPY":0.0067,"INR":0.012,"HKD":0.13,"CNY":0.14,"KRW":0.00072,"MYR":0.22,"CAD":0.73,"TWD":0.031},"SIZE":[[10,10],[3,9],[1,8],[0.5,6],[0.25,5],[0.1,4],[0.025,2],[0,1]],"RECENCY":[[1,10],[2,9],[3,8],[7,6],[14,4],[30,2],[90,1]],"HOLD":[[6,10],[5,7],[4,4]]};
 const HEAT_MONEY = /(US\$|USD|A\$|AUD|S\$|SGD|HK\$|HKD|NZ\$|NZD|C\$|CAD|¥|JPY|₹|Rs\.?|INR|€|EUR|£|GBP|RM|NT\$|TWD|RMB|CNY|KRW|\$)?\s?(\d+(?:[.,]\d+)*)\s?(tn|trillion|bn|billion|b\b|mn|million|m\b|crore|cr\b|lakh)/i;
 const HEAT_CCY = {"us$":"USD","usd":"USD","$":"USD","a$":"AUD","aud":"AUD","s$":"SGD","sgd":"SGD","hk$":"HKD","hkd":"HKD","nz$":"NZD","nzd":"NZD","c$":"CAD","cad":"CAD","¥":"JPY","jpy":"JPY","₹":"INR","rs":"INR","rs.":"INR","inr":"INR","€":"EUR","eur":"EUR","£":"GBP","gbp":"GBP","rm":"MYR","nt$":"TWD","twd":"TWD","rmb":"CNY","cny":"CNY","krw":"KRW"};
 function HEAT_amount(text) {
@@ -488,7 +543,22 @@ function heatFacts(col, row, cls) {
   for (const s of cls.theses || cls.lenses || []) if (s && s.id && !sectors.some((x) => x.id === s.id)) sectors.push({ id: s.id, score: s.score || 2 });
   sectors.sort((a, b) => b.score - a.score);
   return { col, kind: cls.kind || 'other', stage: cls.stage || '', rumour: !!cls.rumour, official: !!row.official,
-    firm: row.firm || null, text, sectors, money, date: row.date || null, retro: cls.retro || null, buyerIndustry: cls.buyerIndustry || null };
+    firm: row.firm || null, text, sectors, money, date: row.date || null, retro: cls.retro || null, buyerIndustry: cls.buyerIndustry || null,
+    heldSince: cls.holding && cls.holding.heldSince ? cls.holding.heldSince : null };
+}
+function HEAT_heldYears(heldSince, at) {
+  if (!heldSince) return null;
+  const s = String(heldSince);
+  const t = Date.parse(s.length === 4 ? `${s}-07-01` : s.length === 7 ? `${s}-15` : s);
+  if (Number.isNaN(t)) return null;
+  const y = ((at || Date.now()) - t) / (365.25 * 86400000);
+  return y < 0 ? 0 : y;
+}
+function HEAT_heldLabel(y) {
+  if (y === null || y === undefined) return '';
+  let yrs = Math.floor(y), mo = Math.round((y - yrs) * 12);
+  if (mo === 12) { yrs += 1; mo = 0; }
+  return yrs ? `${yrs}y${mo ? ` ${mo}m` : ''}` : `${mo}m`;
 }
 function heatScore(f, now) {
   const W = HEAT.WEIGHTS;
@@ -504,6 +574,11 @@ function heatScore(f, now) {
   // A retrospective story (a profile page, a re-told old deal) is not a live anything: no process
   // and no deal size, whatever the headline's verbs say.
   if (f.retro) { parts.live = 0; why.live = 'background: ' + f.retro.reason; }
+  // The exit window: a portco held four years or more makes any story about it more live.
+  if (!f.retro && f.heldSince) {
+    const y = HEAT_heldYears(f.heldSince, now || Date.parse(f.date) || Date.now());
+    if (y !== null) for (const [yrs, pts] of HEAT.HOLD) if (y >= yrs) { parts.live += pts; why.live = `${why.live ? why.live + ' · ' : ''}held ${HEAT_heldLabel(y)}, exit window`; break; }
+  }
   // tech
   if (f.sectors.length) {
     const top = f.sectors[0];
@@ -553,6 +628,218 @@ function heatLabel(h) {
 }
 
 
+const SIT = {"WINDOW_DAYS":60,"PHASE_RANK":{"rumour":1,"process":2,"signed":3,"closed":4},"PHASE_LABEL":{"rumour":"Reported","process":"In process","signed":"Agreed","closed":"Completed"},"PROCESS":/\b(sale process|auction|dual[- ]track|data room|due diligence|non-binding|binding (?:bids?|offers?)|first[- ]round|second[- ]round|final (?:round|bids?|offers?)|bids? (?:are )?due|shortlist(?:ed|s)?|frontrunner|front-runner|hires? (?:banks?|advis[eo]rs?|bankers?)|mandates?|kicks? off|launch(?:es|ed)? (?:a |the )?sale|strategic review|opens? (?:its |the )?books|in the running|joins? (?:the )?race|race for|exclusive talks|exclusivity|preferred bidder|tender offer|formal offer|firm offer|board(?:'s)? (?:to )?(?:review|consider|assess|weigh|mull)s?|(?:higher|revised|sweetened|improved|increased|raised|fresh|second|third) (?:takeover )?(?:bid|offer|proposal)|(?:rejects?|rebuffs?|spurns?|knocks? back) (?:a |the |an |its )?(?:takeover )?(?:bid|offer|proposal|approach)|files? (?:confidentially )?(?:for|to)\b[^.,;?]{0,30}?\b(?:ipo|listing|float)|confidential(?:ly)? fil(?:es|ing)|prospectus|bookbuild(?:ing)?|roadshow|price range|sets? (?:ipo |listing )?terms)\b/i,"FAMILY":{"acquire":"deal","addon":"deal","exit":"deal","invest":"round","fund":"fund","people":"people","platform":"platform","other":"news","process":"deal","deal":"deal","ipo":"listing","funding":"round","launch":"product","pricing":"product","partnership":"product","earnings":"numbers","market":"numbers","regulation":"news","incident":"news","research":"news"},"LEAD":/^(?:first|second|third|new|united|general|national|global|digital|open|smart|one|next|true|blue|red|green|black|white|gold|silver|star|sun|north|south|east|west|great|grand|royal)$/i,"CORP":/^(?:media|group|holdings?|capital|partners|international|global|digital|energy|health|healthcare|financial|technologies|technology|tech|systems|solutions|services|industries|rental|bank|insurance|pharma|logistics|foods?|motors?|electric|electronics|semiconductor|software|networks?|labs?|studios?|ventures|investments?|management|properties|realty|retail|mobility|infrastructure|power|airlines?|airways|telecom|communications?|resources|materials|chemicals?|steel|mining|shipping|marine|hotels?|resorts?|entertainment|games|gaming|sports?|education|university|hospital|clinic|pay|cloud|data|ai|robotics|semiconductors)$/i,"BIDDING":/\b(offers?|bids?|bidding|proposals?|approach(?:es)?|rejects?|rejected|rebuffs?|spurns?|knocks? back|sweetens?|sweetened|raises? (?:its |the )?(?:offer|bid)|lifts? (?:its |the )?(?:offer|bid)|non-exclusive|due diligence|data room|shortlist(?:ed)?|frontrunner|front-runner|preferred bidder|exclusive talks|binding|talks|takeover (?:bid|offer|proposal|approach|attempt|interest|battle|tussle|saga|of)|suitors?|pursuit|circl(?:es|ing))\b/i,"AGREED":/\b(agree[sd]? to (?:be acquired|be bought|acquire|buy|sell|merge|take)|agree[sd]? (?:to )?(?:a |the |an )?(?:deal|sale|takeover|acquisition|merger|buyout)|accept(?:s|ed)? (?:the |an? |its )?(?:offer|bid|proposal|takeover)|recommend(?:s|ed)? (?:the |an? |its )?(?:offer|bid|proposal|takeover)|definitive agreement|signs? (?:a |an )?(?:definitive |binding )?(?:agreement|deal)|to acquire|acquires|to buy|buys|to sell|sells|sale of|divests?|completes?|completed|clinch(?:es|ed)?|wins?|won|seals?|sealed|strikes?|struck|sweetened offer accepted)\b/i,"FAMILY_LABEL":{"deal":"Deal","round":"Round","fund":"Fund","people":"People","platform":"Platform","listing":"Listing","product":"Product","numbers":"Numbers","news":"News"},"NOT_NAME":/^(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?|monday|tuesday|wednesday|thursday|friday|saturday|sunday|asia|asian|pacific|apac|india|indian|japan|japanese|singapore|singaporean|australia|australian|aussie|china|chinese|korea|korean|europe|european|us|u\.s\.?|usa|uk|u\.k\.?|britain|british|america|american|hong|kong|indonesia|indonesian|vietnam|vietnamese|thailand|thai|malaysia|malaysian|philippines|philippine|taiwan|taiwanese|zealand|london|york|tokyo|mumbai|sydney|melbourne|delhi|bengaluru|bangalore|jakarta|seoul|beijing|shanghai|shenzhen|dubai|reuters|bloomberg|ft|wsj|nikkei|cnbc|techcrunch|dealstreetasia|mergermarket|exclusive|update|updated|private|equity|pe|ipo|ceo|cfo|cto|coo|md|chief|chairman|chairwoman|chair|president|partner|partners|fund|funds|capital|group|inc|ltd|co|corp|corporation|holdings|holding|plc|llc|pte|limited|the|a|an|in|on|to|for|of|and|or|with|from|by|at|as|its|is|are|be|been|was|were|has|have|had|will|would|could|may|might|can|after|over|under|amid|says|said|say|report|reports|reported|sources|source|deal|deals|buyout|stake|stakes|sale|bid|bids|offer|offers|talks|round|series|q[1-4]|h[12]|fy\d*|ai|m&a|billion|million|trillion|bn|mn|tn|crore|cr|lakh|rs|usd|sgd|aud|inr|us\$|s\$|a\$|hk\$|nz\$|new|first|second|third|big|top|how|why|what|who|where|when|here|this|that|these|those|his|her|their|our|your|more|most|than|against|into|up|down|out|off|yet|not|no|all|also|about|back|again|now|just|still|only|other|some|any|near|nears|nearing|weighs|weighing|weigh|explores|exploring|explore|eyes|eyeing|eye|mulls|mulling|mull|seeks|seeking|seek|plans|planning|plan|set|sets|agrees|agreed|agree|acquires|acquire|acquiring|acquired|acquisition|acquisitions|buys|buy|buying|bought|sells|sell|selling|sold|invests|invest|investing|invested|investment|investments|raises|raise|raising|raised|closes|close|closing|closed|completes|complete|completed|completion|launches|launch|launched|names|name|named|appoints|appoint|appointed|hires|hire|hired|joins|join|joined|exits|exit|exiting|backs|back|backed|leads|lead|led|wins|win|won|loses|lose|lost|takes|take|taking|took|taken|makes|make|making|made|gets|get|getting|got|puts|put|unit|units|business|businesses|asset|assets|company|companies|firm|firms|portfolio|platform|team|arm|division|subsidiary|controlling|majority|minority|strategic|growth|venture|investor|investors|bidder|bidders|suitor|suitors|buyer|buyers|seller|sellers|share|shares|shareholder|shareholders|stock|stocks|market|markets|valuation|valued|worth|price|priced|pricing|per|cent|pct|percent|year|years|week|weeks|month|months|day|days|today|yesterday|tomorrow|latest|breaking|live|analysis|opinion|explainer|profile|list|lists|software|saas|fintech|tech|technology|technologies|digital|data|cloud|cyber|cybersecurity|health|healthcare|healthtech|services|solutions|systems|global|international|plus|via|vs|slumps|surges|jumps|falls|rises|soars|drops|gains|rejects|accepts|parent|owner|owners|founder|founders|boss|bosses|exec|execs|executive|executives|wealth|asset|management|banking|bank|banks|lender|lenders|insurer|insurance|payments|logistics|energy|infrastructure|infra|retail|consumer|media|games|gaming|education|hospital|hospitals|clinic|clinics|pharma|biotech|property|real|estate|reit|reits|telecom|telecoms|news|press|release|statement|interview|podcast|video|photos?|watch|read|see|look|inside|behind|meet|q&a|takeover|takeovers|bidding|race|vie|vies|vying|bankers|banker|stockholm|late|early|mid|postpones?|postponed|centers?|centres?|data|infra|infrastructure|terminals?|tank|tanks|undervalued|overvalued|fair|value|stock|may|might|reaffirms?|package|industrial|proposals?|intent|letter|statement|implementation|focus|middle|eastern|western|northern|southern|central|line|lines|reportedly|allegedly|officially|formally|finally|advances?|flop|flops|stirs?|confidence|dents?|boosts?|hits?|hurts?|shakes?|rattles?|sparks?|fuels?|tests?|signals?|shows?|reveals?|marks?|opens?|ends?|begins?|starts?|looms?|pulls?|pulled|shelves?|shelved|scraps?|cancels?|withdraws?|targets?|targeting|refined|specialized|specialised|startup|startups|unicorn|giant|giants|operator|operators|maker|makers|provider|providers|developer|developers|storage|closer|getting|path|change|changes|spotlight|suddenly|tries|disrupt|persist|nixes|sweeter|lands|wants|board|scheme|remains|effect|security|per|indicative|unsolicited|revised|higher|lower|second|third|another|rival|improved|revised|sweetened|sweetens?|higher|final|flat|hotel|hotels|commits?|committed|chatter|split|non|binding|hybrid|structure|existing|stalls?|stalled|headlines?|approves?|approved|approval|conditions?|conditional|stark|contrast|submits?|submitted|joint|state|owned|head|heads|access|expands?|expanding|expansion|provide|provides|initial|pre-market|premarket|due|diligence|prized|principal|forces?|bulk|block|offloads?|dumps?|trims?|pares?|buyback|tender|rejection|rebuffs?|spurns?|dropped|drops|walks?|away|abandons?|scraps?|pauses?|paused|delays?|delayed|revives?|revived|restarts?|relaunch(?:es)?|cash|debt|loan|loans|bond|bonds|financing|refinancing|credit|yield|dividend|dividends|profit|profits|revenue|revenues|earnings|results|quarter|quarterly|annual|outlook|guidance|forecast|forecasts|rating|ratings|analyst|analysts|target|targets|upgrade|upgrades|downgrade|downgrades|investing\.com|marketscreener|tradingview|yahoo|finance|sky|cna|moneycontrol|livemint|mint|et|economic|times|business|standard|financial|express|dealroom|tracxn|crunchbase|pitchbook|bse|nse|hkex|asx|nasdaq|nyse|tsx|lse|otc|otcmkts|says?|roundup|round-up|wrap|brief|briefing|digest|weekly|daily|morning|evening|pm|am|edition|special|feature|focus|spotlight|deep|dive|lessons?|takeaways?|things|reasons|ways|signs|stocks?|shares?)$/i};
+function subjectKey(name) {
+  return String(name || '').toLowerCase().replace(/\s*\((.*?)\)\s*/g, ' ').replace(/,?\s+(inc|ltd|limited|pte|plc|llc|corp|corporation|co|group|holdings?)\.?$/i, '').replace(/[^a-z0-9]+/g, ' ').trim();
+}
+function subjectNames(title, drop, known, opts) {
+  opts = opts || {};
+  const names = [];
+  const seen = new Set();
+  const push = (n) => { const k = subjectKey(n); if (k && k.length >= 2 && !seen.has(k)) { seen.add(k); names.push(n); } };
+  let t = ` ${String(title || '')} `;
+  for (const k of known || []) { const re = companyRe(k); if (re && re.test(t)) push(k); }
+  // Take out the sponsors (the tracked one and the others), possessives, "-backed", the money.
+  if (drop) t = t.replace(new RegExp(drop.source, 'gi'), ' ');
+  if (opts.sponsors !== false) for (const [, re] of HEAT.SPONSORS) t = t.replace(new RegExp(re.source, re.flags.includes('i') ? 'gi' : 'g'), ' ');
+  // A label before a colon ("Deal Roundup:", "PRE-MARKET AUSTRALIAN STOCKS NEWS:"), a trailing
+  // "By Outlet", anything in brackets (tickers, "(INA AT)"), bare tickers, web addresses.
+  t = t.replace(/^\s*(?:[A-Za-z][\w&'-]*\s+){0,4}[A-Za-z][\w&'-]*:\s+(?=\S)/, ' ').replace(/\s+(?:by|via|-)\s+[A-Z][\w.]*(?:\.com|\.co\.\w+|\.net|\.org)\b.*$/i, ' ')
+    .replace(/\([^)]*\)/g, ' ').replace(/\b[A-Z]{2,8}:\s?[A-Z0-9.]{1,8}\b/g, ' ').replace(/\b(?:https?:\/\/|www\.)\S+/gi, ' ').replace(/\S+\.(?:com|net|org|co\.\w+)\/\S*/gi, ' ');
+  t = t.replace(/[‘’“”"]/g, "'").replace(/\b(\w+)'s\b/g, '$1').replace(/'/g, ' ').replace(/-backed\b|\bbacked by\b|-owned\b|\bowned by\b|-led\b/gi, ' ')
+    .replace(/(?:US|S|A|HK|NZ|C)?\$\s?[\d.,]+\s?(?:tn|trillion|bn|billion|b|mn|million|m|k)?(?:-plus)?\b/gi, ' ').replace(/\b[\d.,]+\s?(?:tn|trillion|bn|billion|mn|million|crore|cr|lakh|%|pct|per cent)\b/gi, ' ');
+  // Words. A hyphenated name stays whole ("Sea-Moon"); a dash between spaces is a break.
+  const words = t.split(/\s+-\s+|\s+–\s+|\s+—\s+|[\s,;:()[\]|?!]+/).map((w) => w.replace(/^[^A-Za-z0-9&]+|[^A-Za-z0-9&.+]+$/g, '').replace(/\.$/, '')).filter(Boolean);
+  // Title-case headlines capitalise everything, so the shape of a word says nothing; the stop list
+  // has to do the work alone there.
+  const long = words.filter((w) => /^[A-Za-z]{4,}$/.test(w));
+  const titleCase = long.length >= 4 && long.filter((w) => /^[A-Z]/.test(w)).length / long.length > 0.7;
+  const nameish = (w) => {
+    if (/^\d/.test(w) || SIT.NOT_NAME.test(w)) return false;
+    if (w.includes('-') && w.split('-').every((p) => !p || SIT.NOT_NAME.test(p))) return false;
+    if (titleCase) return /^[A-Za-z][\w&.+'-]*$/.test(w);
+    return /^(?:[A-Z][\w&.+'-]*|[a-z]{1,2}[A-Z][\w&.+'-]*)$/.test(w);   // Capitalised, or iFlytek / eToro
+  };
+  const runs = []; let cur = [];
+  for (let i = 0; i < words.length; i++) {
+    const w = words[i];
+    const next = i + 1 < words.length ? words[i + 1] : '';
+    if (nameish(w) || (cur.length && w === '&' && next && nameish(next)) || (!cur.length && SIT.LEAD.test(w) && /^[A-Z]/.test(w) && next && nameish(next))
+      || (cur.length && SIT.CORP.test(w) && /^[A-Z]/.test(w) && !titleCase)) cur.push(w);
+    else { if (cur.length) runs.push(cur); cur = []; }
+  }
+  if (cur.length) runs.push(cur);
+  for (const r of runs) {
+    while (r.length && r[r.length - 1] === '&') r.pop();
+    if (!r.length || r.length > 4) continue;   // five capitalised words in a row is a clause, not a name
+    if (r.length === 1 && r[0].length < 3) continue;
+    push(r.join(' '));
+  }
+  return names;
+}
+function phaseOf(col, row, c) {
+  const title = row.title || '';
+  if (c.stage === 'closed' || (col === 'items' && c.stage === 'live' && (c.kind === 'deal' || c.kind === 'ipo' || c.kind === 'process'))) return 'closed';
+  if (c.rumour || c.stage === 'rumour' || c.kind === 'process') return SIT.PROCESS.test(title) ? 'process' : 'rumour';
+  // Commentary (no event read) and a question never move a situation forward; a bid story that is
+  // not agreed is still in process. "An offer to acquire" is an offer, not an agreement.
+  const bidding = SIT.PROCESS.test(title) || SIT.BIDDING.test(title);
+  if (c.kind === 'other' || /\?/.test(title)) return bidding ? 'process' : 'rumour';
+  if (col === 'items' && c.kind === 'ipo' && SIT.PROCESS.test(title)) return 'process';
+  if (col === 'deals' && !row.official && bidding && !SIT.AGREED.test(title.replace(/\b(?:offer|bid|proposal|approach)s? to (?:acquire|buy|take)\b/gi, 'offer for'))) return 'process';
+  return 'signed';
+}
+function situationsOf(rows, opts) {
+  const col = opts.col || 'deals';
+  const now = opts.now || Date.now();
+  const dropOf = opts.dropOf || (() => null);
+  const knownOf = opts.knownOf || (() => []);
+  const heatOf = opts.heatOf || ((r) => (r.hstatic != null ? r.hstatic : r.hs || 0));
+  const groupOf = (r) => r.firm || r.theme || '';
+  const live = rows.filter((r) => r && !r.retro && r.relevant !== false && r.title && !Number.isNaN(Date.parse(r.date)))
+    .slice().sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
+  const sits = [];
+  for (const r of live) {
+    const t = Date.parse(r.date);
+    const drop = dropOf(r);
+    const names = subjectNames(r.title, drop, knownOf(r));
+    // The names that identify the story: the first three, each at least four characters.
+    const keys = names.slice(0, 3).map(subjectKey).filter((k) => k.length >= 4);
+    const family = (r.kind === 'invest' && /\b(?:bids?|offers?|takeover|proposals?)\b/i.test(r.title)) ? 'deal' : SIT.FAMILY[r.kind] || 'news';
+    const tok = storyTokens(r.title, drop);
+    const phase = phaseOf(col, r, r);
+    const group = groupOf(r);
+    let s = null, dup = null;
+    for (const x of sits) {
+      if (x.group !== group || x.family !== family || t - x.latestAt > SIT.WINDOW_DAYS * 86400000) continue;
+      const shared = keys.length && x.keys.some((k) => keys.some((j) => j === k || j.startsWith(k + ' ') || k.startsWith(j + ' ')));
+      const story = x.stories.find((y) => Math.abs(Date.parse(y.date) - t) <= 3 * 86400000 && sameStory(tok, y.tok));
+      if (shared || story) { s = x; dup = story || null; break; }
+    }
+    const outlets = [r.publisher, ...((r.also || []).map((a) => a.publisher))].filter(Boolean);
+    if (!s) {
+      s = { group, family, keys: [], names: [], stories: [], latestAt: t, firstAt: t, outletSet: new Set(), apac: false, heat: 0 };
+      sits.push(s);
+    }
+    for (const k of keys) if (!s.keys.includes(k)) s.keys.push(k);
+    // Every mention counts once per story, so the company most stories name becomes the subject.
+    for (const n of names.slice(0, 3)) { const k = subjectKey(n); const hit = s.names.find((x) => subjectKey(x.name) === k); if (hit) hit.n++; else s.names.push({ name: n, n: 1, known: (knownOf(r) || []).some((z) => subjectKey(z) === k) }); }
+    for (const o of outlets) s.outletSet.add(o);
+    s.apac = s.apac || !!r.apac;
+    s.heat = Math.max(s.heat, heatOf(r) || 0);
+    s.latestAt = Math.max(s.latestAt, t); s.firstAt = Math.min(s.firstAt, t);
+    if (dup) {
+      dup.reports.push({ id: r.id, publisher: r.publisher || null, url: r.url, title: r.title });
+      if (SIT.PHASE_RANK[phase] > SIT.PHASE_RANK[dup.phase]) dup.phase = phase;
+      continue;
+    }
+    s.stories.push({ id: r.id, date: r.date, title: r.title, url: r.url, publisher: r.publisher || null, kind: r.kind, stage: r.stage, phase, tok, hs: r.hs || null, reports: [] });
+  }
+  return sits.map((s) => {
+    const stories = s.stories.slice().sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
+    const first = stories[stories.length - 1], latest = stories[0];
+    // The phase reached: the furthest any story got, and when.
+    let phase = 'rumour', phaseAt = first.date;
+    for (const y of stories.slice().reverse()) if (SIT.PHASE_RANK[y.phase] >= SIT.PHASE_RANK[phase]) { phase = y.phase; phaseAt = y.date; }
+    const kinds = {}; for (const y of stories) kinds[y.kind] = (kinds[y.kind] || 0) + 1;
+    const kind = Object.keys(kinds).sort((a, b) => kinds[b] - kinds[a])[0];
+    const named = s.names.map((x, i) => ({ ...x, i })).sort((a, b) => (b.known - a.known) || (b.n - a.n) || (a.i - b.i));
+    const subject = named.length ? named[0].name : null;
+    const recency = (() => { const age = (now - s.latestAt) / 86400000; for (const [d, p] of HEAT.RECENCY) if (age <= d) return p; return 0; })();
+    return {
+      id: `${s.group}|${subjectKey(subject) || storyTokens(first.title, null).size + ':' + first.id}|${s.family}`.replace(/[^a-z0-9|:-]+/gi, '-'),
+      group: s.group, subject, names: named.map((x) => x.name), family: s.family, familyLabel: SIT.FAMILY_LABEL[s.family] || 'News', kind,
+      phase, phaseLabel: SIT.PHASE_LABEL[phase], phaseAt,
+      first: { date: first.date, publisher: first.publisher, title: first.title, url: first.url },
+      latest: { date: latest.date, publisher: latest.publisher, title: latest.title, url: latest.url },
+      count: stories.length, outlets: s.outletSet.size, apac: s.apac,
+      heat: Math.min(100, s.heat + recency), hstatic: s.heat,
+      stories: stories.map(({ tok, ...y }) => y),
+    };
+  }).sort((a, b) => b.heat - a.heat || Date.parse(b.latest.date) - Date.parse(a.latest.date));
+}
+const isSituation = (s) => s.count >= 2 || s.phase === 'process';
+
+
+const BRIEF = {"MAX":10,"MIN":5,"BACKFILL_HOURS":72,"SECTOR":{"software":"software","ai":"AI","fintech":"fintech","healthit":"health IT","data":"data and analytics","cyber":"cybersecurity","devtools":"developer tools","internet":"consumer internet","markets":"a marketplace","infra":"digital infrastructure","semis":"semiconductors","agents":"AI agents","models":"AI models","cloud":"cloud","pricing":"software pricing"},"REGION":{"Singapore / SE Asia":"Southeast Asia","India / ANZ":"India or ANZ","Japan / Korea / Greater China":"North Asia","Asia (regional)":"Asia"},"TIER_WORD":{"A":"a Tier A client","B":"a Tier B client"},"DEALS":{"acquire:rumour":["{firm} is reported to be moving on {subj}{where}{size}: a buy-side tech DD is being scoped now{sector_as}.","Call the {firm} {region}deal team today and offer to scope the buy-side tech DD before advisers are set."],"acquire:process":["{firm} is in a live process for {subj}{where}{size}{sector_as}: bids are moving and the diligence window is open.","Call the {firm} {region}deal team now: confirmatory tech DD, and a red-flag view on the stack if they are not yet in exclusivity."],"acquire:signed":["{firm} has agreed to buy {subj}{where}{size}{sector_as}: buy-side DD is done and the post-close tech agenda is open.","Pitch the {firm} deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work."],"acquire:closed":["{firm} has completed {subj}{where}{size}: the value-creation window opens.","Pitch the {firm} portfolio team on tech roadmap, platform consolidation and R&D productivity."],"addon:rumour":["{buyer}, a {firm} portfolio company, is looking at {subj}{where}{size}: tech DD on the target plus integration fit with the platform.","Call the {firm} deal team covering {buyer}: offer target tech DD and an integration plan."],"addon:process":["{buyer}, a {firm} portfolio company, is in a process for {subj}{where}{size}.","Call the {firm} deal team covering {buyer}: target tech DD plus an integration plan."],"addon:signed":["{buyer}, a {firm} portfolio company, is buying {subj}{where}{size}: the integration plan is the open question.","Call the {firm} deal team covering {buyer}: stack consolidation, data migration and product overlap."],"addon:closed":["{buyer}, a {firm} portfolio company, has closed its purchase of {subj}{where}: integration is now, and buy-and-build platforms keep buying.","Get on {buyer}’s next add-on early: a standing tech DD and integration role."],"exit:rumour":["{firm} is preparing to sell {subj}{where}{size}{hold}: sell-side tech VDD gets scoped before banks are picked.","Call the {firm} portfolio team this week and pitch the sell-side tech VDD."],"exit:process":["{firm} is running a sale of {subj}{where}{size}{hold}: the process is live.","If SSG is not on the sell side, call the likely bidders’ deal teams and offer buy-side tech DD."],"exit:signed":["{firm} has agreed to sell {subj}{where}{size}{hold}: VDD is spent; the buyer owns integration and {firm} has proceeds to redeploy.","Two calls: the buyer’s deal team on integration, and the {firm} team on what the proceeds go into next."],"exit:closed":["{firm} has exited {subj}{where}{size}: capital is returning to the fund and the deal team is free for the next platform.","Relationship touchpoint with the {firm} team: ask what the next platform in {region_or_apac} is."],"invest:rumour":["{firm} is in talks on a growth round in {subj}{where}{size}{sector_as}: a lighter, faster confirmatory tech review.","Call the {firm} growth team: offer a confirmatory tech review scoped to the round’s timetable."],"invest:process":["{firm} is in a process for a stake in {subj}{where}{size}{sector_as}.","Call the {firm} growth team: offer a confirmatory tech review scoped to the round’s timetable."],"invest:signed":["{firm} is backing {subj}{where}{size}{sector_as}: confirmatory DD is likely done.","Offer the {firm} team an AI-readiness or scale-up diagnostic as the follow-on."],"invest:closed":["{firm} has closed its investment in {subj}{where}{size}{sector_as}.","Offer the {firm} team an AI-readiness or scale-up diagnostic as the follow-on."],"fund:signed":["{firm} has raised a fund{size}{where}: fresh dry powder and a deployment pipeline about to fill.","Relationship touchpoint: congratulate the {firm} team and ask where the new fund deploys in APAC."],"fund:closed":["{firm} has closed a fund{size}{where}: fresh dry powder and a deployment pipeline about to fill.","Relationship touchpoint: congratulate the {firm} team and ask where the new fund deploys in APAC."],"people:signed":["A senior move at {at}{where}: a relationship to open before their first deal needs an adviser.","Send a note this week and ask for 20 minutes; bring the APAC software view."],"platform:signed":["{firm} has set up a new strategy or team{where}: they will need repeatable diligence partners.","Ask the {firm} team how the new platform picks advisers, and get SSG on the panel early."],"exit:ipo":["{firm} is preparing a listing of {subj}{where}{size}{hold}: pre-IPO tech VDD and the equity story get scoped now.","Call the {firm} portfolio team this week: pitch the pre-IPO tech VDD and the technology chapter of the equity story."],"exit:pulled":["{firm} has pulled or paused the sale of {subj}{where}{size}{hold}: the asset will come back to market.","Stay close to the {firm} portfolio team; a paused process is usually re-run within the year."],"acquire:pulled":["{firm} has walked away from {subj}{where}{size}: the asset is still for sale.","Call the other bidders’ deal teams; the one that stays in needs tech DD."],"invest:pledge":["{firm} plans to deploy{size}{where}: a pipeline about to fill.","Relationship touchpoint: ask the {firm} team which sectors the capital goes to, and get SSG on the diligence panel."],"other:rumour":["A reported move by {firm}{where}{size}: not yet an event, but worth a watch.","Watch; no call yet. Re-read when the next report lands."],"other:process":["A reported process touching {firm}{where}{size}.","Confirm who is running the process before calling."],"other:signed":["{firm} is in the news{where}{size}.","No call yet; note it for the next conversation."],"other:closed":["{firm} is in the news{where}{size}.","No call yet; note it for the next conversation."]},"ITEMS":{"process:rumour":["A sale process or bid talks involving {subj}{where}{size}{sector_as}: an asset in play in a sector SSG diligences.","Map which sponsors are natural buyers and get the tech view ready before they call."],"process:process":["A running sale involving {subj}{where}{size}{sector_as}.","Map which sponsors are natural buyers and get the tech view ready before they call."],"process:signed":["An asset in play involving {subj}{where}{size}{sector_as}.","Map which sponsors are natural buyers and get the tech view ready before they call."],"deal:rumour":["A reported deal involving {subj}{where}{size}{sector_as}: a comp in the making.","Note the mooted multiple and who is bidding; call any sponsor in the frame."],"deal:process":["A live sale involving {subj}{where}{size}{sector_as}.","Call any sponsor in the frame and offer buy-side tech DD."],"deal:signed":["An acquisition involving {subj}{where}{size}{sector_as}: a fresh comp for the targets SSG watches.","Record the multiple and the buyer’s rationale; use it in the next {sector} pitch."],"deal:closed":["The {subj} deal has closed{where}{size}{sector_as}.","Record the multiple; the buyer now owns integration."],"ipo:rumour":["{subj} is heading for a listing{where}{size}{sector_as}: the comps are about to reset.","Check the sponsor-backed names in the same sector; a listing window reopens exits."],"ipo:signed":["{subj} has filed to list{where}{size}{sector_as}.","Check the sponsor-backed names in the same sector; a listing window reopens exits."],"ipo:closed":["{subj} has listed{where}{size}{sector_as}: a public comp from today.","Update the comps set; tell the sponsors holding similar assets."],"ipo:pulled":["{subj} has pulled or delayed its listing{where}{size}{sector_as}: the window is shut for now.","A pulled IPO is a future sale: note the owner and the asset, and who the sponsors in the sector are."],"deal:pulled":["The {subj} deal is off{where}{size}{sector_as}.","Watch for the asset to come back to market."],"funding:signed":["{subj} raised a round{where}{size}{sector_as}: a future target, priced today.","Add it to the watchlist and note the investors; the next round or exit is where SSG comes in."],"funding:rumour":["{subj} is raising{where}{size}{sector_as}.","Add it to the watchlist; a round that closes is a future target."],"fund:signed":["A sponsor has raised a fund{size}{where}: dry powder for the sectors SSG works in.","Relationship touchpoint: ask where it deploys in APAC."],"launch:signed":["{subj} shipped a platform move{sector_as}: it changes what a target in that stack is worth.","Fold it into the tech view on every {sector} target in the pipeline."],"launch:closed":["{subj} shipped a platform move{sector_as}: it changes what a target in that stack is worth.","Fold it into the tech view on every {sector} target in the pipeline."],"pricing:signed":["A pricing move by {subj}{sector_as}: margins and moats in the category shift with it.","Re-run the pricing assumption on any {sector} target under review."],"earnings:signed":["{subj} reported numbers{where}: the public comp for the sector moved.","Update the comps set before the next pitch."],"market:signed":["A market move around {subj}{where}{size}.","Note it for the comps discussion."],"people:signed":["A senior move at {subj}{where}.","A relationship to open before their first mandate."],"regulation:signed":["Regulation touching {subj}{where}{sector_as}.","Check which targets in the pipeline it reaches."],"other:rumour":["A reported development at {subj}{where}{size}.","Watch; no call yet."],"other:signed":["{subj} is in the news{where}{size}.","No call yet; note it for the next conversation."]}};
+function briefSubject(names, c) {
+  const key = (n) => String(n || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  return (c && c.buyer ? names.find((n) => key(n) !== key(c.buyer)) : names[0]) || names[0] || null;
+}
+function briefFill(tpl, v) {
+  return tpl.replace(/\{(\w+)\}/g, (_, k) => v[k] || '').replace(/\s+([,.:;])/g, '$1').replace(/ {2,}/g, ' ').replace(/\( /g, '(').trim().replace(/^[a-z]/, (ch) => ch.toUpperCase());
+}
+function briefAngle(col, r, c, h, x) {
+  x = x || {};
+  const T = col === 'deals' ? BRIEF.DEALS : BRIEF.ITEMS;
+  let phase = x.phase || (c.rumour ? 'rumour' : c.stage === 'closed' || c.stage === 'live' ? 'closed' : 'signed');
+  const kind = c.kind || 'other';
+  const title = r.title || '';
+  // A listing is its own story whatever its phase; a pulled deal or listing too; a deployment
+  // pledge with no company in it is not a round.
+  if (/\b(pulls?|pulled|shelves?|shelved|postpones?|postponed|delays?|delayed|scraps?|scrapped|cancels?|cancelled|withdraws?|withdrawn|walks? away|abandons?|collapses?)\b/i.test(title) && (kind === 'exit' || kind === 'acquire' || kind === 'ipo' || kind === 'deal')) phase = 'pulled';
+  else if (kind === 'exit' && /\b(ipo|listing|lists?|list on|float|flotation|dual[- ]track|files? (?:for|to)|adr)\b/i.test(title)) phase = 'ipo';
+  else if (kind === 'ipo' && /\b(debuts?|flop|flops|falls|slumps|drops|soars|jumps|surges|first day|trading|shares (?:rise|fall|open))\b/i.test(title)) phase = 'closed';
+  else if (col === 'deals' && kind === 'invest' && !x.subject) phase = 'pledge';
+  const tpl = T[`${kind}:${phase}`] || T[`${kind}:signed`] || T[`other:${phase}`] || T['other:signed'];
+  const apac = h && h.why && h.why.apac ? BRIEF.REGION[h.why.apac] || h.why.apac : '';
+  const sector = x.sector ? BRIEF.SECTOR[x.sector] || x.sector : '';
+  const v = {
+    firm: x.firmName || r.firm || '',
+    subj: x.subject || (col === 'deals' ? 'a target' : 'a company'),
+    buyer: c.buyer || 'A portfolio company',
+    at: c.holding && c.holding.name ? `${c.holding.name}, a ${x.firmName || r.firm || ''} portfolio company` : (x.firmName || r.firm || ''),
+    where: apac ? ` in ${apac}` : '',
+    size: h && h.why && h.why.size ? ` (${h.why.size})` : '',
+    sector,
+    sector_as: sector ? ` in ${sector}` : '',
+    hold: x.heldYears != null && x.heldYears >= 4 ? ` after ${HEAT_heldLabel(x.heldYears)}, in the exit window` : '',
+    region: apac ? `${apac} ` : '',
+    region_or_apac: apac || 'APAC',
+    tier: x.tier ? BRIEF.TIER_WORD[x.tier] || '' : '',
+  };
+  let why = briefFill(tpl[0], v);
+  // The hold clock, appended when the template did not already say it.
+  if (x.heldYears != null && x.heldYears >= 4 && !v.hold) why = `${why} Held ${HEAT_heldLabel(x.heldYears)}, in the exit window.`;
+  return { why, call: briefFill(tpl[1], v) };
+}
+function briefPick(rows, opts) {
+  const now = opts.now || Date.now();
+  const since = typeof opts.since === 'string' ? Date.parse(opts.since) : opts.since || 0;
+  const max = opts.max || BRIEF.MAX, min = opts.min || BRIEF.MIN;
+  const dropOf = opts.dropOf || (() => null);
+  const sitKeyOf = opts.sitKeyOf || (() => null);
+  const isNew = (r) => { const t = Date.parse(r.firstSeen || r.date); return !Number.isNaN(t) && t > since; };
+  // Commentary never makes the brief: a question, an explainer, an analyst take.
+  const commentary = (r) => /\?/.test(r.title) || /^(?:why|what|how|is|can|does|should|will|inside|meet|here)\b/i.test(r.title);
+  const live = rows.filter((r) => r && r.relevant !== false && !r.retro && r.title && !commentary(r));
+  // One entry per story, and one per situation: the hottest report of a deal stands for it. A
+  // later report folds into an entry already kept, or into one of `seed` (the entries picked
+  // before this pass), so the backfill never repeats a story the fresh list carries.
+  const fold = (list, seed) => {
+    const kept = (seed || []).slice(), added = [];
+    for (const r of list) {
+      const tok = storyTokens(r.title, dropOf(r));
+      const key = sitKeyOf(r);
+      const prev = kept.find((k) => (Math.abs(Date.parse(k.date) - Date.parse(r.date)) <= 3 * 86400000 && sameStory(tok, k._tok)) || (key && k._key === key));
+      if (prev) { prev._also = prev._also || []; prev._also.push(r); continue; }
+      const k = Object.assign({}, r, { _tok: tok, _key: key }); kept.push(k); added.push(k);
+    }
+    return added;
+  };
+  const byHeat = (a, b) => (b.hs || 0) - (a.hs || 0) || Date.parse(b.date) - Date.parse(a.date);
+  const fresh = fold(live.filter(isNew).sort(byHeat));
+  let picked = fresh.slice(0, max).map((r) => ({ ...r, carried: false }));
+  let carried = 0;
+  if (picked.length < min) {
+    const ids = new Set(picked.map((r) => r.id));
+    const recent = fold(live.filter((r) => !ids.has(r.id) && now - Date.parse(r.date) <= BRIEF.BACKFILL_HOURS * 3600000).sort(byHeat), picked);
+    for (const r of recent) { if (picked.length >= min) break; picked.push({ ...r, carried: true }); carried++; }
+  }
+  return { items: picked.sort(byHeat), counts: { newSince: fresh.length, relevant: live.length, hot: fresh.filter((r) => r.heat === 'hot').length, carried } };
+}
+
+
 const DATA = { base: 'data/' };
 const PUBLIC = typeof DATA !== 'undefined';
 
@@ -580,8 +867,12 @@ let targets = [];        // candidate companies, seeded by Jobi
 let portcos = [];        // the firm's current portfolio companies, seeded by Jobi, signals kept by the daily pull
 const openPortco = new Set();   // cards expanded this visit
 let pull = null;         // { at, added } — written by the morning routine
+let prevPull = null;     // the publish before this one (public meta.prevPull), the Morning Brief's "since"
 let targetTriage = {};   // id → { status, note, at }
 let db = null, canWrite = true, editing = null, loaded = false;
+const openSit = new Set();   // situation cards expanded this visit
+let sitPhase = 'all';        // the Situations tab's phase filter
+let sitOf = {};              // story id → its situation, for the chip on an announcement card
 
 // Calendar days in the viewer's time zone, so "today", the sort bucket and the day header agree:
 // two reports on 1 Oct are one day however many hours apart they were published.
@@ -602,19 +893,106 @@ function toast(msg) {
   clearTimeout(toastTimer); toastTimer = setTimeout(() => el.classList.remove('on'), 2200);
 }
 
-function classified() {
-  // A story found by a portco's own news search belongs in Announcements if it names the firm, or if
-  // the portco is the buyer (an add-on is SSG work whether or not the sponsor is in the headline).
-  const held = portcos.filter((p) => p.firm === firm.id).map((p) => ({ name: p.name, heldSince: p.heldSince, industry: p.industry }));
-  return items.filter((i) => (i.firm || FIRMS[0].id) === firm.id).map((i) => {
-    const t = triage[i.id] || {};
-    const c = classify(firm, i, held.length ? held : null);
-    if (i.portco && !c.buyer && !firm.match.test(`${i.title} ${i.summary || ''}`)) return null;
+// Every client's announcements, classified and priced: the Morning Brief reads all of them, the
+// tabs read the selected client's. A story found by a portco's own news search belongs in
+// Announcements if it names the firm, or if the portco is the buyer (an add-on is SSG work whether
+// or not the sponsor is in the headline). The held portcos go in with their slug and holding date,
+// so the classifier can say which one a story is about and the Heat Score can read the hold clock.
+const heldOf = (firmId) => portcos.filter((p) => p.firm === firmId).map((p) => ({ name: p.name, heldSince: p.heldSince, industry: p.industry, slug: p.slug }));
+const knownOf = (r) => portcos.filter((p) => p.firm === r.firm).map((p) => p.name);
+function classifyAll() {
+  return items.map((i) => {
+    const f = FIRMS.find((x) => x.id === (i.firm || FIRMS[0].id)); if (!f) return null;
+    const held = heldOf(f.id);
+    const c = classify(f, i, held.length ? held : null);
+    if (i.portco && !c.buyer && !f.match.test(`${i.title} ${i.summary || ''}`)) return null;
     // The Heat Score (lib/heat.js): one 0–100 number for the Singapore SSG team; its band replaces
     // the classifier's hot/warm/cool so the border, the count and the order all read the same rule.
-    const h = heatScore(heatFacts('deals', i, c), Date.now());
-    return { ...i, ...c, heat: h.band, hs: h.score, hparts: h.parts, hwhy: h.why, hlabel: heatLabel(h), status: t.status || 'new', note: t.note || '' };
+    const facts = heatFacts('deals', i, c); const h = heatScore(facts, Date.now());
+    const t = triage[i.id] || {};
+    return { ...i, ...c, _f: f, _facts: facts, _h: h, heat: h.band, hs: h.score, hparts: h.parts, hwhy: h.why, hlabel: heatLabel(h), status: t.status || 'new', note: t.note || '' };
   }).filter(Boolean);
+}
+const classified = (all) => (all || classifyAll()).filter((i) => i.firm === firm.id);
+
+// ── the Morning Brief ─────────────────────────────────────────────────────────
+// The stories first seen since the previous publish that matter most, every client, with the SSG
+// angle on each (lib/brief.js, the same rules the fold used for the 07:55 push). The public copy
+// knows the previous publish from meta.json; the private page takes the last 26 hours.
+const briefCtxCache = new Map();
+function briefCtx(r) {
+  if (briefCtxCache.has(r.id)) return briefCtxCache.get(r.id);
+  const names = subjectNames(r.title, ownName(r._f), knownOf(r));
+  const x = { firmName: r._f.name, tier: (HEAT.TRACKED.find((t) => t.id === r.firm) || {}).tier || 'B', subject: briefSubject(names, r),
+    sector: (r._facts.sectors[0] || {}).id || r.buyerIndustry || null, phase: phaseOf('deals', r, r),
+    heldYears: r.holding && r.holding.heldSince ? HEAT_heldYears(r.holding.heldSince, Date.now()) : null };
+  briefCtxCache.set(r.id, x);
+  return x;
+}
+const briefKey = () => `pe-brief.hidden`;
+const briefHidden = () => { try { return localStorage.getItem(briefKey()) === String(pull && pull.at); } catch { return false; } };
+function renderBrief(all) {
+  const el = $('brief');
+  if (view.tab !== 'news' || !loaded || !all.length) { el.hidden = true; return; }
+  const at = pull && pull.at ? Date.parse(pull.at) : Date.now();
+  const since = prevPull ? Date.parse(prevPull) : at - 26 * 3600000;
+  const b = briefPick(all, { since, now: Date.now(), dropOf: (r) => ownName(r._f), sitKeyOf: (r) => { const x = briefCtx(r); return x.subject ? `${r.firm}|${subjectKey(x.subject)}|${SIT.FAMILY[r.kind] || 'news'}` : null; } });
+  if (!b.items.length) { el.hidden = true; return; }
+  const hidden = briefHidden();
+  const sub = `${b.counts.newSince} new since ${dayLabel(new Date(since).toISOString())}${b.counts.hot ? ` · ${b.counts.hot} hot` : ''}${b.counts.carried ? ` · ${b.counts.carried} carried` : ''}`;
+  el.hidden = false;
+  el.innerHTML = `<div class="brief-head"><h2>Morning Brief</h2><span class="sub">${esc(sub)}</span><button class="lnk" data-brief="1">${hidden ? 'show' : 'hide'}</button></div>`
+    + (hidden ? '' : b.items.map((r) => {
+      const a = briefAngle('deals', r, r, r._h, briefCtx(r));
+      const outlets = 1 + (r._also || []).length + (r.also || []).length;
+      return `<div class="bi" data-id="${esc(r.id)}">
+        <div class="meta"><span class="hs ${r.heat}" title="${esc(r.hlabel)}">${r.hs}</span><span class="kind">${esc(r._f.name)}</span><span>${esc(r.publisher || '')}${outlets > 1 ? ` +${outlets - 1}` : ''}</span>${r.carried ? '<span class="carried">carried</span>' : ''}<span class="when">${esc(dayLabel(r.date))}</span></div>
+        <a class="t" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a>
+        <p><b>Why</b>${esc(a.why)}</p>
+        <p class="call"><b>Call</b>${esc(a.call)}</p>
+      </div>`; }).join(''));
+}
+$('brief').addEventListener('click', (e) => {
+  if (!e.target.closest('[data-brief]')) return;
+  try { if (briefHidden()) localStorage.removeItem(briefKey()); else localStorage.setItem(briefKey(), String(pull && pull.at)); } catch {}
+  render();
+});
+
+// ── situations ────────────────────────────────────────────────────────────────
+// The selected client's stories grouped into the deals, rounds and processes they report
+// (lib/situations.js): one card per situation, the phase it has reached, every story under it.
+const sitsFor = (rows) => situationsOf(rows, { col: 'deals', now: Date.now(), dropOf: (r) => ownName(r._f), knownOf, heatOf: (r) => r._h.static });
+function sitCard(s) {
+  const open = openSit.has(s.id);
+  const band = s.heat >= HEAT.BANDS.hot ? 'hot' : s.heat >= HEAT.BANDS.warm ? 'warm' : 'cool';
+  const shown = open ? s.stories : s.stories.slice(0, 3);
+  const line = (y) => `<div><a href="${esc(y.url)}" target="_blank" rel="noopener noreferrer"><span class="d">${esc(dayLabel(y.date))}</span>${esc(y.title)}</a> <span class="pub">${esc(y.publisher || '')}${y.reports.length ? ` +${y.reports.length}` : ''}</span><span class="tag ph ph-${y.phase}">${esc(SIT.PHASE_LABEL[y.phase])}</span></div>`;
+  return `
+    <article class="deal sit ${band}" data-sid="${esc(s.id)}">
+      <div class="meta">
+        <span class="hs ${band}" title="the hottest story's Heat, with today's recency">${s.heat}</span>
+        <span class="tag ph-${s.phase}">${esc(s.phaseLabel.toUpperCase())}</span>
+        <span class="kind">${esc(KIND[s.kind] || s.familyLabel)}</span>
+        ${s.apac ? '<span class="apac">APAC</span>' : ''}
+        <span class="when">${esc(dayLabel(s.latest.date))}</span>
+      </div>
+      <div class="name">${esc(s.subject || s.first.title)}</div>
+      <p class="arc">${s.count} ${s.count === 1 ? 'story' : 'stories'} across ${s.outlets} outlet${s.outlets === 1 ? '' : 's'} · first reported by ${esc(s.first.publisher || 'the press')} ${esc(dayLabel(s.first.date))}${s.phaseAt !== s.first.date ? ` · ${esc(s.phaseLabel.toLowerCase())} ${esc(dayLabel(s.phaseAt))}` : ''}</p>
+      <div class="tl">${shown.map(line).join('')}</div>
+      ${s.count > 3 ? `<div class="open-hint">${open ? 'tap to show the latest three' : `tap for all ${s.count} stories`}</div>` : ''}
+    </article>`;
+}
+function renderSituations(rows) {
+  const sits = sitsFor(rows).filter(isSituation);
+  const n = (pred) => { const k = sits.filter(pred).length; return k ? ` · ${k}` : ''; };
+  const chip = (id, label) => `<button class="chip${sitPhase === id ? ' on' : ''}" data-ph="${id}">${esc(label)}</button>`;
+  $('chips').innerHTML = ['rumour', 'process', 'signed', 'closed'].map((p) => chip(p, SIT.PHASE_LABEL[p] + n((s) => s.phase === p))).join('')
+    + `<button class="chip${view.apac ? ' on' : ''}" data-apac="1">APAC${n((s) => s.apac)}</button>`;
+  let list = sits;
+  if (sitPhase !== 'all') list = list.filter((s) => s.phase === sitPhase);
+  if (view.apac) list = list.filter((s) => s.apac);
+  const emptyMsg = !loaded ? '<b>Loading situations.</b>' : sits.length ? 'No situations in this phase.' : '<b>No situations yet.</b><br>A situation needs two stories, or one running process.';
+  $('list').innerHTML = list.length ? list.map(sitCard).join('') : `<div class="empty">${emptyMsg}</div>`;
 }
 // The breakdown under a card when its heat badge is tapped: part by part, with the words that set it.
 const openHeat = new Set();
@@ -622,8 +1000,13 @@ const heatRow = (i) => `<div class="hsx">${[['apac', 'APAC'], ['live', 'Live'], 
   .map(([k, n]) => `<span>${n} <b>${i.hparts[k]}</b>/${HEAT.WEIGHTS[k]}${i.hwhy[k] ? ` · ${esc(i.hwhy[k])}` : ''}</span>`).join('')}</div>`;
 
 function card(i) {
+  // The hold clock on a story about a held portco, and the situation it belongs to when there is one.
+  const hy = i.holding && i.holding.heldSince ? HEAT_heldYears(i.holding.heldSince, Date.now()) : null;
+  const s = sitOf[i.id];
   const fit = i.theses.map((t) => `<span class="th" title="${esc(t.terms.join(', '))}">${esc(t.label)}<i>${esc(t.terms.slice(0, 2).join(' · '))}</i></span>`).join('')
-    + (i.apac ? '<span class="apac">APAC</span>' : '');
+    + (i.apac ? '<span class="apac">APAC</span>' : '')
+    + (hy !== null ? `<span class="hold${hy >= 4 ? ' ripe' : ''}" title="${esc(i.holding.name || '')} held since ${esc(i.holding.heldSince)}">${esc(i.holding.name ? i.holding.name + ' ' : '')}held <b>${esc(HEAT_heldLabel(hy))}</b>${hy >= 4 ? ' · exit window' : ''}</span>` : '')
+    + (s && s.count > 1 ? `<button class="sitlink" data-sit="${esc(s.id)}" title="open the situation">${s.count} stories · ${esc(s.phaseLabel)}</button>` : '');
   const btn = (s, l) => PUBLIC ? '' : `<button class="btn${i.status === s ? ' sel' : ''}" data-st="${s}"${canWrite ? '' : ' disabled'}>${l}</button>`;
   const noteBox = PUBLIC ? '' : editing === i.id ? `
     <div class="noted">
@@ -762,7 +1145,7 @@ function portcoCard(p) {
       <div class="name">${esc(p.name)}</div>
       <div class="where">${esc([p.hq, p.stake && p.stake !== 'unknown' ? `${p.stake} stake` : ''].filter(Boolean).join(' · '))}</div>
       <div class="facts">
-        ${y !== null ? `<span class="hold${y >= 4 ? ' ripe' : ''}"><b>${y.toFixed(1)} yrs</b> since ${esc(sinceLabel(p))}</span>` : ''}
+        ${y !== null ? `<span class="hold${y >= 4 ? ' ripe' : ''}" title="held ${esc(HEAT_heldLabel(y))} since ${esc(sinceLabel(p))}${y >= 4 ? '; past four years is the exit window' : ''}">held <b>${esc(HEAT_heldLabel(y))}</b> since ${esc(sinceLabel(p))}${y >= 4 ? ' · exit window' : ''}<span class="holdbar"><i style="width:${Math.min(100, y / 7 * 100).toFixed(0)}%"></i></span></span>` : '<span class="hold">hold date n/a</span>'}
         ${(p.geos || []).length ? `<span class="fact">${esc(p.geos.join(' · '))}</span>` : ''}
         ${val}
       </div>
@@ -798,7 +1181,8 @@ function render() {
   if (PUBLIC) { $('seg').hidden = true; if (view.seg === 'pipeline') view.seg = 'priority'; }
   if (view.seg === 'latest') view.seg = 'priority';   // a preference saved before Latest was removed
   firm = FIRMS.find((f) => f.id === view.firm) || FIRMS[0];
-  if (view.tab !== 'portcos' && firm.theses.every((t) => t.id !== view.thesis)) view.thesis = 'all';
+  if (!['news', 'situations', 'portcos', 'targets'].includes(view.tab)) view.tab = 'news';
+  if (view.tab !== 'portcos' && view.tab !== 'situations' && firm.theses.every((t) => t.id !== view.thesis)) view.thesis = 'all';
   $('firms').innerHTML = FIRMS.map((f) => { const [m, c] = MONO[f.id] || [f.name.slice(0, 3).toUpperCase(), '#444']; return `
     <button class="firm${f.id === firm.id ? ' on' : ''}" data-firm="${f.id}">
       <svg class="firm-logo" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="6" fill="${c}"/><text x="20" y="26" text-anchor="middle" font-family="Archivo Narrow, Arial Narrow, sans-serif" font-weight="700" font-size="${m.length > 2 ? 15 : 19}" fill="#fff" letter-spacing=".3">${m}</text></svg>
@@ -806,12 +1190,17 @@ function render() {
     </button>`; }).join('');
   $('tabs').querySelectorAll('button').forEach((b) => b.classList.toggle('on', b.dataset.tab === view.tab));
   $('footNews').hidden = view.tab !== 'news';
+  $('footSits').hidden = view.tab !== 'situations';
   $('footTargets').hidden = view.tab !== 'targets';
   $('footPortcos').hidden = view.tab !== 'portcos';
-  $('seg').hidden = PUBLIC || view.tab === 'portcos';
+  $('seg').hidden = PUBLIC || view.tab === 'portcos' || view.tab === 'situations';
   $('list').classList.toggle('pgrid', view.tab === 'portcos');
-  $('focus').hidden = view.seg === 'pipeline' && view.tab !== 'portcos';
+  $('focus').hidden = view.seg === 'pipeline' && view.tab !== 'portcos' && view.tab !== 'situations';
+  $('focus').querySelector('.focus-label').textContent = view.tab === 'situations' ? 'Phase' : 'Focus areas';
+  const everything = loaded ? classifyAll() : [];
+  renderBrief(everything);
   if (view.tab === 'portcos') return renderPortcos();
+  if (view.tab === 'situations') return renderSituations(classified(everything));
   if (view.tab === 'targets') {
     const pipe = targets.filter((t) => ['pursue', 'watch'].includes((targetTriage[t.id] || {}).status)).length;
     $('seg').querySelectorAll('button').forEach((b) => {
@@ -820,7 +1209,10 @@ function render() {
     });
     return renderTargets();
   }
-  const all = classified();
+  const all = classified(everything);
+  // The situations the selected client's stories sit in, so a card can point at its own.
+  sitOf = {};
+  for (const s of sitsFor(all)) for (const y of s.stories) { sitOf[y.id] = s; for (const r of y.reports) sitOf[r.id] = s; }
   const at = pull && pull.at;
   $('stamp').textContent = !loaded ? 'loading' : at ? `pulled ${dayLabel(at)} ${new Date(at).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}` : 'no pull recorded';
   const pipeline = all.filter((i) => i.status === 'pursue' || i.status === 'watch');
@@ -906,7 +1298,8 @@ $('tabs').addEventListener('click', (e) => { const b = e.target.closest('[data-t
 $('seg').addEventListener('click', (e) => { const b = e.target.closest('[data-seg]'); if (!b) return; view.seg = b.dataset.seg; savePrefs(); render(); });
 $('chips').addEventListener('click', (e) => {
   const b = e.target.closest('button'); if (!b) return;
-  if (b.dataset.th) view.thesis = view.thesis === b.dataset.th ? 'all' : b.dataset.th; else view.apac = !view.apac;
+  if (b.dataset.ph) sitPhase = sitPhase === b.dataset.ph ? 'all' : b.dataset.ph;
+  else if (b.dataset.th) view.thesis = view.thesis === b.dataset.th ? 'all' : b.dataset.th; else view.apac = !view.apac;
   savePrefs(); render();
 });
 $('list').addEventListener('click', (e) => {
@@ -916,7 +1309,17 @@ $('list').addEventListener('click', (e) => {
   if (openPortco.has(id)) openPortco.delete(id); else openPortco.add(id);
   renderPortcos();
 });
+// A situation card expands to every story; a situation chip on an announcement opens its card.
+$('list').addEventListener('click', (e) => {
+  const chipEl = e.target.closest('[data-sit]');
+  if (chipEl) { openSit.add(chipEl.dataset.sit); view.tab = 'situations'; sitPhase = 'all'; savePrefs(); render(); const c = document.querySelector(`[data-sid="${chipEl.dataset.sit.replace(/"/g, '')}"]`); if (c) c.scrollIntoView({ block: 'start' }); return; }
+  if (view.tab !== 'situations' || e.target.closest('a')) return;
+  const c = e.target.closest('.sit'); if (!c) return;
+  if (openSit.has(c.dataset.sid)) openSit.delete(c.dataset.sid); else openSit.add(c.dataset.sid);
+  renderSituations(classified());
+});
 $('list').addEventListener('click', async (e) => {
+  if (view.tab === 'situations') return;
   const cardEl = e.target.closest('.deal'); if (!cardEl) return;
   const id = cardEl.dataset.id;
   if (e.target.closest('[data-heat]')) { if (openHeat.has(id)) openHeat.delete(id); else openHeat.add(id); render(); return; }
@@ -946,7 +1349,7 @@ render();
       const [d, t, m, pc] = await Promise.all([fetch(`${DATA.base}deals.json${bust}`), fetch(`${DATA.base}targets.json${bust}`), fetch(`${DATA.base}meta.json${bust}`).catch(() => null), fetch(`${DATA.base}portcos.json${bust}`).catch(() => null)]);
       items = await d.json(); targets = await t.json();
       if (pc && pc.ok) { try { portcos = await pc.json(); } catch { portcos = []; } }
-      if (m && m.ok) { const meta = await m.json(); pull = meta.pull || null; }
+      if (m && m.ok) { const meta = await m.json(); pull = meta.pull || null; prevPull = meta.prevPull || null; }
       $('footTriage').textContent = `Read-only copy${pull && pull.at ? `, last pulled ${dayLabel(pull.at)}` : ''}.`;
     } catch (e) {
       $('banner').hidden = false; $('banner').className = 'banner warn'; $('banner').textContent = 'Could not load the data files. Reload to try again.';
