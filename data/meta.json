@@ -1,11 +1,11 @@
 {
  "pull": {
-  "at": "2026-10-11T23:37:27Z",
-  "added": 130
+  "at": "2026-10-12T23:37:11Z",
+  "added": 217
  },
- "prevPull": null,
+ "prevPull": "2026-10-11T23:37:27Z",
  "counts": {
-  "deals": 2470,
+  "deals": 2671,
   "targets": 37,
   "portcos": 96
  },
