@@ -891,7 +891,8 @@ let targetTriage = {};   // id → { status, note, at }
 let db = null, canWrite = true, editing = null, loaded = false;
 const openSit = new Set();   // situation cards expanded this visit
 let sitPhase = 'all';        // the Situations tab's phase filter
-let sitOf = {};              // story id → its situation, for the chip on an announcement card
+let sitOf = {};
+let sitEvent = {};           // story id → situation id: reports of one situation within three days are one card, however worded              // story id → its situation, for the chip on an announcement card
 
 // Calendar days in the viewer's time zone, so "today", the sort bucket and the day header agree:
 // two reports on 1 Oct are one day however many hours apart they were published.
@@ -1186,8 +1187,8 @@ function render() {
   }
   const all = classified(everything);
   // The situations the selected client's stories sit in, so a card can point at its own.
-  sitOf = {};
-  for (const s of sitsFor(all)) for (const y of s.stories) { sitOf[y.id] = s; for (const r of y.reports) sitOf[r.id] = s; }
+  sitOf = {}; sitEvent = {};
+  for (const s of sitsFor(all)) for (const y of s.stories) { sitOf[y.id] = s; sitEvent[y.id] = s.id; for (const r of y.reports) { sitOf[r.id] = s; sitEvent[r.id] = sitEvent[y.id]; } }
   const at = pull && pull.at;
   $('stamp').textContent = !loaded ? 'loading' : at ? `pulled ${dayLabel(at)} ${new Date(at).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}` : 'no pull recorded';
   const pipeline = all.filter((i) => i.status === 'pursue' || i.status === 'watch');
@@ -1228,7 +1229,10 @@ function render() {
     const kept = [];
     for (const i of list) {
       const tok = storyTokens(i.title, ownName(firm));
-      const prev = kept.find((k) => Math.abs(Date.parse(k.date) - Date.parse(i.date)) <= 3 * 86400000 && sameStory(tok, k._tok));
+      // The same story: shared words, or the same situation within three days ("Unit4 acquires
+      // Napta", "Unit4 buys France's Napta" and "Unit4 completes acquisition of Napta" share two
+      // words and one event; the situation card keeps the development in view).
+      const prev = kept.find((k) => Math.abs(Date.parse(k.date) - Date.parse(i.date)) <= 3 * 86400000 && (sameStory(tok, k._tok) || (sitEvent[i.id] && sitEvent[i.id] === sitEvent[k.id])));
       if (prev) { prev._also = prev._also || []; prev._also.push(i); continue; }
       kept.push(Object.assign({}, i, { _tok: tok }));
     }

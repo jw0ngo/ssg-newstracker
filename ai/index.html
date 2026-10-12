@@ -901,7 +901,8 @@ let pull = null;         // { at, added } — written by the morning routine
 let db = null, canWrite = true, editing = null, loaded = false;
 const openSit = new Set();   // situation cards expanded this visit
 let sitPhase = 'all';        // the Situations segment's phase filter
-let sitOf = {};              // story id → its situation, for the chip on a card
+let sitOf = {};
+let sitEvent = {};           // story id → situation id: reports of one situation within three days are one card, however worded              // story id → its situation, for the chip on a card
 
 // Calendar days in the viewer's time zone, so "today", the sort bucket and the day header agree:
 // two reports on 1 Oct are one day however many hours apart they were published.
@@ -1039,8 +1040,8 @@ function render() {
   });
   if (v.seg === 'situations') return renderSituations(all);
   // The situations the stories sit in, so a card can point at its own.
-  sitOf = {};
-  for (const s of sitsFor(all.filter((i) => i.status !== 'dismiss' && i.relevant))) for (const y of s.stories) { sitOf[y.id] = s; for (const r of y.reports) sitOf[r.id] = s; }
+  sitOf = {}; sitEvent = {};
+  for (const s of sitsFor(all.filter((i) => i.status !== 'dismiss' && i.relevant))) for (const y of s.stories) { sitOf[y.id] = s; sitEvent[y.id] = s.id; for (const r of y.reports) { sitOf[r.id] = s; sitEvent[r.id] = sitEvent[y.id]; } }
   const chip = (id, label) => `<button class="chip${v.lens === id ? ' on' : ''}" data-ln="${id}">${esc(label)}</button>`;
   // No "all" chip: tapping the selected lens again clears it. Each carries its count.
   const live = all.filter((i) => i.status !== 'dismiss');
@@ -1068,7 +1069,10 @@ function render() {
     const kept = [];
     for (const i of list) {
       const tok = storyTokens(i.title, ownName(themeOf(i)));
-      const prev = kept.find((k) => Math.abs(Date.parse(k.date) - Date.parse(i.date)) <= 3 * 86400000 && sameStory(tok, k._tok));
+      // The same story: shared words, or the same situation within three days ("Unit4 acquires
+      // Napta", "Unit4 buys France's Napta" and "Unit4 completes acquisition of Napta" share two
+      // words and one event; the situation card keeps the development in view).
+      const prev = kept.find((k) => Math.abs(Date.parse(k.date) - Date.parse(i.date)) <= 3 * 86400000 && (sameStory(tok, k._tok) || (sitEvent[i.id] && sitEvent[i.id] === sitEvent[k.id])));
       if (prev) { prev._also = prev._also || []; prev._also.push(i); continue; }
       kept.push(Object.assign({}, i, { _tok: tok }));
     }
