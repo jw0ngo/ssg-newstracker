@@ -6,12 +6,13 @@ every morning. Built from [`jw0ngo/jobi`](https://github.com/jw0ngo/jobi).
 
 | Section | Page | Data |
 |---|---|---|
+| **Morning Brief** — the five to ten stories first seen since the previous publish that matter most, from both sections, each with why it matters to SSG and the call to make; the same text is pushed to the team at 07:55 SGT | `brief/index.html` | `data/brief.json`, `ai/data/brief.json` |
 | **PE Clients** — what Warburg Pincus, KKR, TPG and EQT are announcing, their portfolio companies with the hold clock on each, and a set of potential targets per firm, each read for the technology due diligence it could open | `index.html` | `data/deals.json`, `data/portcos.json`, `data/targets.json`, `data/meta.json`, `data/brief.json`, `data/brief.md` |
 | **AI & Tech** — what the AI and tech industry is announcing, read for what each development does to the technology thesis of a software company | `ai/index.html` | `ai/data/items.json`, `ai/data/meta.json`, `ai/data/brief.json`, `ai/data/brief.md` |
 
-Each section opens with the **Morning Brief**: the five to ten stories first seen since the previous
-publish that matter most, each with two lines on why it matters to SSG and the call to make. The same
-brief is written as `brief.json` (for the page) and `brief.md` (the text pushed to the team's phones at
+The **Morning Brief** is its own section: the five to ten stories first seen since the previous
+publish that matter most, each with two lines on why it matters to SSG and the call to make. Each fold
+writes its brief as `brief.json` (for the page) and `brief.md` (the text pushed to the team's phones at
 07:55 SGT). **Situations** group the stories of one deal, round or process across outlets and weeks
 into one card with the phase it has reached (Reported, In process, Agreed, Completed), who reported it
 first and the latest development. The **hold clock** on every PE portfolio company shows how long the

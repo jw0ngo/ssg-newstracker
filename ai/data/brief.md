@@ -61,4 +61,4 @@ SSG Newstracker · Morning Brief · AI & Tech · Mon 12 Oct, 07:47 SGT
    Call: Record the multiple and the buyer’s rationale; use it in the next software pitch.
    https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdzIzU0xoQ2plOHZLTmVkSUp2X3YwZWgyTkw3Z3dIeTZrTkNsOHdmWExGZlFzLVZfRW1EbXB2Y3Y1RTJ6NzBBMF9RWVJCOU1lUngyeVdOT3lHelJNN002Wi1fN3JDcnNDZVA3bjh4YnpfNXA5cE8xc1dqVXE0RVhiUThJd05qOE5xa0NUYlRyU3d0U2I4cVJqM3FrNDdwc2RlRWtzY2RTNTJHbzNaUUdEdGt5ZEVYZDdEQ3BVak43WUs?oc=5
 
-Full page: https://jw0ngo.github.io/ssg-newstracker/ai/
+Full page: https://jw0ngo.github.io/ssg-newstracker/brief/

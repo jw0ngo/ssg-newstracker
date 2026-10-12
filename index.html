@@ -156,20 +156,6 @@ a { color: inherit; }
 .toast.on { opacity: 1; transform: translate(-50%, 0); }
 @media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
 
-/* ── the Morning Brief: what is new since the last publish, with the angle on each ── */
-.brief { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 11px 13px 4px; margin-top: 6px; }
-.brief-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; padding-bottom: 7px; }
-.brief-head h2 { font-family: var(--display); font-weight: 700; font-size: 17px; margin: 0; letter-spacing: .01em; }
-.brief-head .sub { font-size: 12.5px; color: var(--muted); }
-.brief-head .lnk { margin-left: auto; }
-.bi { padding: 9px 0 10px; border-top: 1px solid var(--rule); }
-.bi .t { display: block; margin-top: 4px; font-family: var(--display); font-weight: 600; font-size: 16.5px; line-height: 1.25; text-decoration: none; text-wrap: balance; }
-.bi .t:hover { color: var(--accent); }
-.bi p { margin: 5px 0 0; font-size: 13.5px; line-height: 1.45; }
-.bi p b { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); font-weight: 500; margin-right: 5px; }
-.bi .call { color: var(--fg); padding-left: 10px; border-left: 2px solid var(--accent); }
-.bi .carried { font-family: var(--mono); font-size: 10.5px; color: var(--faint); letter-spacing: .06em; text-transform: uppercase; }
-
 /* ── situations: one card per deal, round or process, with the phase it has reached ── */
 .tag.ph-rumour { color: var(--info); background: var(--info-soft); }
 .tag.ph-process { color: var(--hot); background: var(--hot-soft); }
@@ -217,7 +203,6 @@ a { color: inherit; }
     <div class="focus" id="focus"><span class="focus-label">Focus areas</span><div class="chips" id="chips"></div></div>
     <div class="banner" id="banner" hidden></div>
   </div>
-  <section class="brief" id="brief" hidden aria-label="Morning Brief"></section>
   <div class="list" id="list">
     <div class="empty"><b>Loading announcements.</b><br>Each one will show the event, the thesis it fits, and the SSG pitch it opens.</div>
   </div>
@@ -229,10 +214,10 @@ a { color: inherit; }
 <div class="toast" id="toast"></div>
 
 <script>
-const NAV = {"here":"pe","pe":"./","ai":"ai/"};
+const NAV = {"here":"pe","brief":"brief/","pe":"./","ai":"ai/"};
 // The two sections of one site. In the public copy the links are relative paths inside the repo;
 // in the private artifacts they are the other artifact's URL.
-document.getElementById('nav').innerHTML = [['pe', 'PE Clients'], ['ai', 'AI &amp; Tech']]
+document.getElementById('nav').innerHTML = [['brief', 'Morning Brief'], ['pe', 'PE Clients'], ['ai', 'AI &amp; Tech']]
   .map(([k, l]) => `<a href="${String(NAV[k]).replace(/"/g, '&quot;')}"${NAV.here === k ? ' class="on"' : ''}>${l}</a>`).join('');
 const FIRMS = [{
   id: "warburg-pincus", name: "Warburg Pincus", match: /warburg/i,
@@ -902,7 +887,6 @@ let targets = [];        // candidate companies, seeded by Jobi
 let portcos = [];        // the firm's current portfolio companies, seeded by Jobi, signals kept by the daily pull
 const openPortco = new Set();   // cards expanded this visit
 let pull = null;         // { at, added } — written by the morning routine
-let prevPull = null;     // the publish before this one (public meta.prevPull), the Morning Brief's "since"
 let targetTriage = {};   // id → { status, note, at }
 let db = null, canWrite = true, editing = null, loaded = false;
 const openSit = new Set();   // situation cards expanded this visit
@@ -949,49 +933,6 @@ function classifyAll() {
   }).filter(Boolean);
 }
 const classified = (all) => (all || classifyAll()).filter((i) => i.firm === firm.id);
-
-// ── the Morning Brief ─────────────────────────────────────────────────────────
-// The stories first seen since the previous publish that matter most, every client, with the SSG
-// angle on each (lib/brief.js, the same rules the fold used for the 07:55 push). The public copy
-// knows the previous publish from meta.json; the private page takes the last 26 hours.
-const briefCtxCache = new Map();
-function briefCtx(r) {
-  if (briefCtxCache.has(r.id)) return briefCtxCache.get(r.id);
-  const names = subjectNames(r.title, ownName(r._f), knownOf(r));
-  const x = { firmName: r._f.name, tier: (HEAT.TRACKED.find((t) => t.id === r.firm) || {}).tier || 'B', subject: briefSubject(names, r),
-    sector: (r._facts.sectors[0] || {}).id || r.buyerIndustry || null, phase: phaseOf('deals', r, r),
-    heldYears: r.holding && r.holding.heldSince ? HEAT_heldYears(r.holding.heldSince, Date.now()) : null };
-  briefCtxCache.set(r.id, x);
-  return x;
-}
-const briefKey = () => `pe-brief.hidden`;
-const briefHidden = () => { try { return localStorage.getItem(briefKey()) === String(pull && pull.at); } catch { return false; } };
-function renderBrief(all) {
-  const el = $('brief');
-  if (view.tab !== 'news' || !loaded || !all.length) { el.hidden = true; return; }
-  const at = pull && pull.at ? Date.parse(pull.at) : Date.now();
-  const since = prevPull ? Date.parse(prevPull) : at - 26 * 3600000;
-  const b = briefPick(all, { since, now: Date.now(), dropOf: (r) => ownName(r._f), sitKeyOf: (r) => { const x = briefCtx(r); return x.subject ? `${r.firm}|${subjectKey(x.subject)}|${SIT.FAMILY[r.kind] || 'news'}` : null; } });
-  if (!b.items.length) { el.hidden = true; return; }
-  const hidden = briefHidden();
-  const sub = `${b.counts.newSince} new since ${dayLabel(new Date(since).toISOString())}${b.counts.hot ? ` · ${b.counts.hot} hot` : ''}${b.counts.carried ? ` · ${b.counts.carried} carried` : ''}`;
-  el.hidden = false;
-  el.innerHTML = `<div class="brief-head"><h2>Morning Brief</h2><span class="sub">${esc(sub)}</span><button class="lnk" data-brief="1">${hidden ? 'show' : 'hide'}</button></div>`
-    + (hidden ? '' : b.items.map((r) => {
-      const a = briefAngle('deals', r, r, r._h, briefCtx(r));
-      const outlets = 1 + (r._also || []).length + (r.also || []).length;
-      return `<div class="bi" data-id="${esc(r.id)}">
-        <div class="meta"><span class="hs ${r.heat}" title="${esc(r.hlabel)}">${r.hs}</span><span class="kind">${esc(r._f.name)}</span><span>${esc(r.publisher || '')}${outlets > 1 ? ` +${outlets - 1}` : ''}</span>${r.carried ? '<span class="carried">carried</span>' : ''}<span class="when">${esc(dayLabel(r.date))}</span></div>
-        <a class="t" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a>
-        <p><b>Why</b>${esc(a.why)}</p>
-        <p class="call"><b>Call</b>${esc(a.call)}</p>
-      </div>`; }).join(''));
-}
-$('brief').addEventListener('click', (e) => {
-  if (!e.target.closest('[data-brief]')) return;
-  try { if (briefHidden()) localStorage.removeItem(briefKey()); else localStorage.setItem(briefKey(), String(pull && pull.at)); } catch {}
-  render();
-});
 
 // ── situations ────────────────────────────────────────────────────────────────
 // The selected client's stories grouped into the deals, rounds and processes they report
@@ -1233,7 +1174,6 @@ function render() {
   $('focus').hidden = view.seg === 'pipeline' && view.tab !== 'portcos' && view.tab !== 'situations';
   $('focus').querySelector('.focus-label').textContent = view.tab === 'situations' ? 'Phase' : 'Focus areas';
   const everything = loaded ? classifyAll() : [];
-  renderBrief(everything);
   if (view.tab === 'portcos') return renderPortcos();
   if (view.tab === 'situations') return renderSituations(classified(everything));
   if (view.tab === 'targets') {
@@ -1384,7 +1324,7 @@ render();
       const [d, t, m, pc] = await Promise.all([fetch(`${DATA.base}deals.json${bust}`), fetch(`${DATA.base}targets.json${bust}`), fetch(`${DATA.base}meta.json${bust}`).catch(() => null), fetch(`${DATA.base}portcos.json${bust}`).catch(() => null)]);
       items = await d.json(); targets = await t.json();
       if (pc && pc.ok) { try { portcos = await pc.json(); } catch { portcos = []; } }
-      if (m && m.ok) { const meta = await m.json(); pull = meta.pull || null; prevPull = meta.prevPull || null; }
+      if (m && m.ok) { const meta = await m.json(); pull = meta.pull || null; }
       $('footTriage').textContent = `Read-only copy${pull && pull.at ? `, last pulled ${dayLabel(pull.at)}` : ''}.`;
     } catch (e) {
       $('banner').hidden = false; $('banner').className = 'banner warn'; $('banner').textContent = 'Could not load the data files. Reload to try again.';

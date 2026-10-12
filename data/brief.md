@@ -61,4 +61,4 @@ SSG Newstracker · Morning Brief · PE Clients · Mon 12 Oct, 07:37 SGT
    Call: Send a note this week and ask for 20 minutes; bring the APAC software view.
    https://news.google.com/rss/articles/CBMingFBVV95cUxPNVZWUWszZ05FNC1idTBYdV9od0hGanJrQ3ZkY3VfZ0NRWVRZMVVxRVMxOXdHMVM2SUFsYkFmMmRJOWl1N3gwemZyS1YtZUxoMXMzd25faEI1YzRteko5Zmw4OTE1MWJKa185THhvcW8wMW5yS3FLbW1XZVdfVnNvV01SdUVxNEVDekFLY1JpWHZVTWkwc2V4Q3NuZnFLUQ?oc=5
 
-Full page: https://jw0ngo.github.io/ssg-newstracker/
+Full page: https://jw0ngo.github.io/ssg-newstracker/brief/
