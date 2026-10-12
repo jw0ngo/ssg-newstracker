@@ -3,9 +3,9 @@
  "since": "2026-10-10T21:47:14.000Z",
  "section": "AI & Tech",
  "counts": {
-  "newSince": 35,
+  "newSince": 23,
   "relevant": 891,
-  "hot": 2,
+  "hot": 1,
   "carried": 0
  },
  "items": [
@@ -34,33 +34,6 @@
    "why": "An acquisition involving SoftBank in Asia ($100 billion) in AI: a fresh comp for the targets SSG watches.",
    "call": "Record the multiple and the buyer’s rationale; use it in the next AI pitch.",
    "outlets": 1,
-   "carried": false
-  },
-  {
-   "id": "b6e38e0e5f0e",
-   "title": "Moonshot AI reportedly files confidentially for Hong Kong IPO, targeting $3bn+ raise",
-   "url": "https://www.scmp.com/tech/big-tech/article/3366271/moonshot-ai-creator-kimi-k3-model-has-filed-hong-kong-ipo-sources",
-   "publisher": "SCMP",
-   "date": "2026-09-03T00:00:00Z",
-   "firstSeen": "2026-10-10T22:52:00Z",
-   "group": "IPOs",
-   "groupId": "listings",
-   "kind": "ipo",
-   "phase": "process",
-   "subject": "Moonshot AI",
-   "heat": 65,
-   "band": "hot",
-   "parts": {
-    "apac": 16,
-    "live": 16,
-    "tech": 15,
-    "sponsor": 8,
-    "size": 9,
-    "recency": 1
-   },
-   "why": "Moonshot AI has filed to list in North Asia ($3bn) in AI.",
-   "call": "Check the sponsor-backed names in the same sector; a listing window reopens exits.",
-   "outlets": 2,
    "carried": false
   },
   {
@@ -199,33 +172,6 @@
    "carried": false
   },
   {
-   "id": "187aa98c7f2f",
-   "title": "SoftBank Boosts Credit Line to $6.5 Billion as AI Debts Mount",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTlVNXcwU3VPdDEzZnRUNlJjakJISHp4M2Rfc0Rua18tczg5dHVMWnl6eDJ5Z3pNc3J4WFJPbF9VRUFVcGhpRTNJenRWUGZZenozTVZmSnI4T1hBYjZjWXQ5UngwNVFMRUhVQlZuOF9hbmprUW9UbW9HTk13bjFyYlJuVjZXZmZNOTM2Zy1wdFNPVjJxNVFUdw?oc=5",
-   "publisher": "Yahoo Finance",
-   "date": "2026-09-18T07:00:00.000Z",
-   "firstSeen": "2026-10-11T23:47:58.451Z",
-   "group": "Sponsors",
-   "groupId": "sponsors",
-   "kind": "pricing",
-   "phase": "signed",
-   "subject": "SoftBank",
-   "heat": 50,
-   "band": "warm",
-   "parts": {
-    "apac": 10,
-    "live": 6,
-    "tech": 15,
-    "sponsor": 8,
-    "size": 9,
-    "recency": 2
-   },
-   "why": "A pricing move by SoftBank in AI: margins and moats in the category shift with it.",
-   "call": "Re-run the pricing assumption on any AI target under review.",
-   "outlets": 1,
-   "carried": false
-  },
-  {
    "id": "318ea0cbf18a",
    "title": "Nvidia may be planning for more stake or acquisition deal for $25 billion in open-source AI startup",
    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQMWtWV0tqVjZhTmQ5V2R1OV9zN2ppRC1XUl8xUkhPb0otNzVoOXVCcUljWmlCaG1KNW4wbTV5d0RIcmVMRVRFdEZNVmtweU9kaE9MWWVYRW4xOF8xZDdfb0RSNTdKcXFTclRXT0VkaG1WNkpPWFZPeVVPT0J4akwzQ2JxalpHdGRvMVY5LWdkNWY5aEc5TjF5cHNiVnFmeXA3SmpmdXh1blo1MC1OX2FQZnFvYmowU2dxZFBhQzZvQndqcjVkR0lBRDUyNmhOX2xsUlRtSlhmNDkwWEtjeW14Ulo5cWVzWHlKcmdQVXhCQTdyZW5DbklmajZHOUVacndQbXpVdWg4SF92SEczNVHSAZMCQVVfeXFMTThwU1pXRlNGVER5XzdzUXdNOEpqUHd6NkVjWS15U0J6bkNVRmFvVl9JeUhHSW1ucHhXa3p3RzlFOXA1OFBNVVF0N3gzdHRJYnVTeDhUaGU1Z1VzZXpMancxUXpETUl5ZW1KMHZ1czczTkwxRWJBQWw0Skc4ei1ZRjNIdVg3eDl2Y0pCSnUwT19zb3dDSjRQZWFRTjk4Q29URDRYeDdJMV9sLTZmWWlwZWc3N1dYRG5qVHJsbkFIbTN1VGdpb1ZHTUE2TmlxN014QXE0YUxGQURjQTg0dHRsbXJidWlxblRpb1YtWGllVmhWeGpIQ09VUW9yejdxNVBTalphbXNLbUkyVEJkSG00SV9mdlk?oc=5",
@@ -276,6 +222,60 @@
    },
    "why": "An acquisition involving Hexagon ($535m) in software: a fresh comp for the targets SSG watches.",
    "call": "Record the multiple and the buyer’s rationale; use it in the next software pitch.",
+   "outlets": 1,
+   "carried": false
+  },
+  {
+   "id": "97f78c478ac5",
+   "title": "Musk vows affordable Starlink in India days before Ambani’s record Jio IPO",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRWg3ZlJhODRINVQ3VUlPSWdrTDFDc2l3eFFaRW9yV3ZUUjNZTXBVUldXTkVTSWhDNjhmajRJSi1taG01RFBIWUViM0w1bFQwMWtIWWNGX3JsZVdWcHdLb1lFMWxNeUVZT0gtMUI2T3FSQktaaUZIaWFOdGJKdzU3MkJUeU5VcnVZaEthcDRqZmFTY2tXb1hJTVY3N1RqUFJaM3ZrVngyV3JSZ2ZHV3JPS2R4VkJvMUxUREJ5ZmpkY2t3Z21tRmFXWXQ0RXM?oc=5",
+   "publisher": "The Business Times",
+   "date": "2026-10-11T08:28:00.000Z",
+   "firstSeen": "2026-10-11T23:47:58.451Z",
+   "group": "IPOs",
+   "groupId": "listings",
+   "kind": "ipo",
+   "phase": "signed",
+   "subject": "Musk",
+   "heat": 42,
+   "band": "warm",
+   "parts": {
+    "apac": 20,
+    "live": 12,
+    "tech": 0,
+    "sponsor": 0,
+    "size": 0,
+    "recency": 10
+   },
+   "why": "Musk has filed to list in India or ANZ.",
+   "call": "Check the sponsor-backed names in the same sector; a listing window reopens exits.",
+   "outlets": 1,
+   "carried": false
+  },
+  {
+   "id": "c18bf45d9339",
+   "title": "SoftBank's Sarawak AI Pact Lands Alongside a Ransomware Outage at Its Cloud Unit",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWUtLM3Y3UFFxdWNKZlBSajY1djFMUVdrT0N6OUJZVEc2VWl1aTRISFFWWm82cXdKN3FjNkZpNzJGRDJBN0hJTTFVemVXWGhEbi1UUWRsdGhtQlZ4RHRSdVVrVGwtWnNXUDZTcmdWTWR6cVlOLVRJNURUdnlxVWFjSGVhUTJYeWNsdlZMc1hNbFlab1JsY3hWeDgtRmRLc1pTeGhudDk5SHdnZTJ3ZDFENk9fbEFKVUdfVjEtR2lVeTZyaThnb0FvbG9CQVpJU3dWRU1xVEtPd0s?oc=5",
+   "publisher": "ad-hoc-news.de",
+   "date": "2026-10-08T22:01:02.000Z",
+   "firstSeen": "2026-10-11T23:47:58.451Z",
+   "group": "Sponsors",
+   "groupId": "sponsors",
+   "kind": "incident",
+   "phase": "signed",
+   "subject": "SoftBank Sarawak",
+   "heat": 41,
+   "band": "warm",
+   "parts": {
+    "apac": 10,
+    "live": 2,
+    "tech": 15,
+    "sponsor": 8,
+    "size": 0,
+    "recency": 6
+   },
+   "why": "SoftBank Sarawak is in the news in Asia.",
+   "call": "No call yet; note it for the next conversation.",
    "outlets": 1,
    "carried": false
   }
