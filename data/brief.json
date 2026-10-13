@@ -1,26 +1,26 @@
 {
- "at": "2026-10-12T23:37:11Z",
- "since": "2026-10-11T23:37:27.000Z",
+ "at": "2026-10-13T23:37:18Z",
+ "since": "2026-10-12T23:37:11.000Z",
  "section": "PE Clients",
  "counts": {
-  "newSince": 9,
-  "relevant": 425,
+  "newSince": 11,
+  "relevant": 430,
   "hot": 1,
   "carried": 0
  },
  "items": [
   {
-   "id": "9c985cf2b2bf",
-   "title": "Samsung SDS buys Woojung Air to boost South Korea air logistics - CHOSUNBIZ",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xeFI5eUxQQkZIS21YQ3A4czVQVVVseW4xcXJGLV95cEc0MmI3N25pX1M4b2dtVzB1WlVjQW9GN1JUOGRWVXFlSUJWZjRHVHFXeWw0X0UzS3U3eUNwa2N2RlFJR3lCc3pNcm5na1h0WXV2YWg3WkkyZjZn0gGOAUFVX3lxTE5mSWhGV3Rzc1BMeHFLQXpPb3phOERMSkxwUlllRUl0SlRvZlE0WkJZMGdKU2JsV0MzT1pvZ2djQkwzZ2dnTUxEOEhhQ1FMWkhUT2NjRFRMcU5jaUZxRmZYWHJtVmNuM1FUbXlDdTIwOUFqNXZPMVhTZE5mYWRqNXpsTTczMVpRc3RCcWI2ZkE?oc=5",
-   "publisher": "Chosunbiz",
-   "date": "2026-10-12T04:43:00.000Z",
-   "firstSeen": "2026-10-12T23:37:41.243Z",
+   "id": "beba14986a8e",
+   "title": "Samsung SDS to Acquire 100% of Air Cargo Consolidator Woojung Air, Expanding Logistics Visibility in South Korea",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jZGRuaXlnWk1jSkV0UXNjcEtmektzWDY3RW5CbkxQUXdNY2JndlZvVWx1MVVCWUdTSDZrdHdXSUxpUWJQUzRMZjVudEJYRmZxOXVtN1FzYUVjQURNSEpJcHpSSmxENVlaUGlSVEt1QzRDaUZVdGc?oc=5",
+   "publisher": "BigGo Finance",
+   "date": "2026-10-13T00:55:00.000Z",
+   "firstSeen": "2026-10-13T23:37:51.052Z",
    "group": "KKR",
    "groupId": "kkr",
    "kind": "addon",
    "phase": "signed",
-   "subject": "Woojung Air",
+   "subject": "Visibility",
    "heat": 67,
    "band": "hot",
    "parts": {
@@ -31,9 +31,63 @@
     "size": 0,
     "recency": 10
    },
-   "why": "Samsung SDS, a KKR portfolio company, is buying Woojung Air in North Asia: the integration plan is the open question.",
+   "why": "Samsung SDS, a KKR portfolio company, is buying Visibility in North Asia: the integration plan is the open question.",
    "call": "Call the KKR deal team covering Samsung SDS: stack consolidation, data migration and product overlap.",
-   "outlets": 7,
+   "outlets": 8,
+   "carried": false
+  },
+  {
+   "id": "ccd5f702ae77",
+   "title": "Samsung SDS Acquires Woojung Air, Aims to Improve Logistics Margin Stuck Around 1%",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBydDhsSnZzaFhhTTh2bUhTeUxlYzZHVzZZVlNuWUFKNW1yVjBnbGFMa2liQUdJM0h6TWZfbWZiUFFxamotOERYZE0xaXYzMVlaOVR3cDdrbFk3djRsdlk3c1VWRTY?oc=5",
+   "publisher": "아시아경제",
+   "date": "2026-10-12T01:36:40.000Z",
+   "firstSeen": "2026-10-12T23:37:41.243Z",
+   "group": "KKR",
+   "groupId": "kkr",
+   "kind": "addon",
+   "phase": "signed",
+   "subject": "Woojung Air Aims",
+   "heat": 60,
+   "band": "warm",
+   "parts": {
+    "apac": 10,
+    "live": 14,
+    "tech": 15,
+    "sponsor": 12,
+    "size": 0,
+    "recency": 9
+   },
+   "why": "Samsung SDS, a KKR portfolio company, is buying Woojung Air Aims in Asia: the integration plan is the open question.",
+   "call": "Call the KKR deal team covering Samsung SDS: stack consolidation, data migration and product overlap.",
+   "outlets": 1,
+   "carried": false
+  },
+  {
+   "id": "de80dac0cd4d",
+   "title": "TPG Sells Shadowfax Shares Worth Over Rs 700 Cr Since August",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdk02NUZGTWVUQkQ0RDNEWDhYNVVuUy1hUlFpd2VKV1dEX0NGOXZsN25VOWxzYW9qODFTYkhqalVQbWdOcU5IUDBGNDBKRUtMOHA4ODMzaGRlMEQ5RUxkbFZodHFVQmlNSzZFWkNfQ1ZCa2lYTnV6bVJEYTVhRXdSSzctR0Z0SnZRV1phMy1pekVIS0JzT2t2Wkk4OTA2ME5FeHVN?oc=5",
+   "publisher": "BW Disrupt",
+   "date": "2026-10-13T04:25:55.000Z",
+   "firstSeen": "2026-10-13T23:37:51.052Z",
+   "group": "TPG",
+   "groupId": "tpg",
+   "kind": "exit",
+   "phase": "signed",
+   "subject": "Shadowfax",
+   "heat": 57,
+   "band": "warm",
+   "parts": {
+    "apac": 20,
+    "live": 10,
+    "tech": 0,
+    "sponsor": 15,
+    "size": 2,
+    "recency": 10
+   },
+   "why": "TPG has agreed to sell Shadowfax in India or ANZ (Rs 700 Cr): VDD is spent; the buyer owns integration and TPG has proceeds to redeploy.",
+   "call": "Two calls: the buyer’s deal team on integration, and the TPG team on what the proceeds go into next.",
+   "outlets": 1,
    "carried": false
   },
   {
@@ -48,7 +102,7 @@
    "kind": "acquire",
    "phase": "signed",
    "subject": "Truston",
-   "heat": 54,
+   "heat": 53,
    "band": "warm",
    "parts": {
     "apac": 16,
@@ -56,37 +110,10 @@
     "tech": 0,
     "sponsor": 15,
     "size": 0,
-    "recency": 9
+    "recency": 8
    },
    "why": "KKR has agreed to buy Truston in North Asia: buy-side DD is done and the post-close tech agenda is open.",
    "call": "Pitch the KKR deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.",
-   "outlets": 1,
-   "carried": false
-  },
-  {
-   "id": "05fafe52afe2",
-   "title": "TPG Explores Hybrid ADR Structure With New and Existing Shares as Kakao Mobility Exit Stalls",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLQk9nMXQzNEQzOFo4SkxPM2lNamVMNDc0R3BwNEFxTGFMMFBfMGJaZ2J6SkZpN3hXVDNRUGtjV3JhbE9ndWVxYlBwNWxsdkNRYjgzOW9XTFNpOVZ2akU4dDZXS3pHZXBSekhrYmJ1RF94Mnh5NWc?oc=5",
-   "publisher": "BigGo Finance",
-   "date": "2026-10-10T22:25:00.000Z",
-   "firstSeen": "2026-10-11T23:38:23.157Z",
-   "group": "TPG",
-   "groupId": "tpg",
-   "kind": "exit",
-   "phase": "rumour",
-   "subject": "Kakao Mobility",
-   "heat": 53,
-   "band": "warm",
-   "parts": {
-    "apac": 10,
-    "live": 20,
-    "tech": 0,
-    "sponsor": 15,
-    "size": 0,
-    "recency": 8
-   },
-   "why": "TPG is preparing a listing of Kakao Mobility in Asia after 9y 3m, in the exit window: pre-IPO tech VDD and the equity story get scoped now.",
-   "call": "Call the TPG portfolio team this week: pitch the pre-IPO tech VDD and the technology chapter of the equity story.",
    "outlets": 1,
    "carried": false
   },
@@ -102,7 +129,7 @@
    "kind": "exit",
    "phase": "rumour",
    "subject": "Chilean",
-   "heat": 50,
+   "heat": 49,
    "band": "warm",
    "parts": {
     "apac": 0,
@@ -110,10 +137,37 @@
     "tech": 5,
     "sponsor": 15,
     "size": 0,
-    "recency": 10
+    "recency": 9
    },
    "why": "KKR is preparing to sell Chilean: sell-side tech VDD gets scoped before banks are picked.",
    "call": "Call the KKR portfolio team this week and pitch the sell-side tech VDD.",
+   "outlets": 1,
+   "carried": false
+  },
+  {
+   "id": "152dcc7e9836",
+   "title": "Texas Teachers sold $1B PE portfolio to Coller EQT",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcF9Ec0FhbEhTYWR0MDk2WHczcFNncW1KT1pVZDBXNi1OZXhQRHEzS1F3WUl1VDhJblZaX0VoTGIwUXdXWXg0cDBWeGVZVzY0cUFOempWVThzdUJsdW5IWHhzeHVvOTlVczhoU0I1VUZFTUdSaG5mYUFyQlV3eWtwLW1CUnVRMFNUbTVPajd3?oc=5",
+   "publisher": "PitchBook",
+   "date": "2026-10-12T21:19:52.000Z",
+   "firstSeen": "2026-10-13T23:37:51.052Z",
+   "group": "EQT",
+   "groupId": "eqt",
+   "kind": "acquire",
+   "phase": "signed",
+   "subject": "Texas Teachers",
+   "heat": 46,
+   "band": "warm",
+   "parts": {
+    "apac": 0,
+    "live": 14,
+    "tech": 0,
+    "sponsor": 15,
+    "size": 8,
+    "recency": 9
+   },
+   "why": "EQT has agreed to buy Texas Teachers ($1B): buy-side DD is done and the post-close tech agenda is open.",
+   "call": "Pitch the EQT deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.",
    "outlets": 1,
    "carried": false
   },
@@ -129,7 +183,7 @@
    "kind": "acquire",
    "phase": "signed",
    "subject": "TotalEnergies",
-   "heat": 47,
+   "heat": 46,
    "band": "warm",
    "parts": {
     "apac": 0,
@@ -137,7 +191,7 @@
     "tech": 0,
     "sponsor": 15,
     "size": 8,
-    "recency": 10
+    "recency": 9
    },
    "why": "KKR has agreed to buy TotalEnergies ($1.2B): buy-side DD is done and the post-close tech agenda is open.",
    "call": "Pitch the KKR deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.",
@@ -156,7 +210,7 @@
    "kind": "addon",
    "phase": "rumour",
    "subject": "Vodafone Oak",
-   "heat": 45,
+   "heat": 44,
    "band": "warm",
    "parts": {
     "apac": 0,
@@ -164,7 +218,7 @@
     "tech": 0,
     "sponsor": 15,
     "size": 0,
-    "recency": 10
+    "recency": 9
    },
    "why": "A portfolio company, a KKR portfolio company, is looking at Vodafone Oak: tech DD on the target plus integration fit with the platform.",
    "call": "Call the KKR deal team covering A portfolio company: offer target tech DD and an integration plan.",
@@ -183,7 +237,7 @@
    "kind": "acquire",
    "phase": "rumour",
    "subject": "Norges prepared",
-   "heat": 45,
+   "heat": 44,
    "band": "warm",
    "parts": {
     "apac": 0,
@@ -191,7 +245,7 @@
     "tech": 0,
     "sponsor": 15,
     "size": 0,
-    "recency": 10
+    "recency": 9
    },
    "why": "EQT is reported to be moving on Norges prepared: a buy-side tech DD is being scoped now.",
    "call": "Call the EQT deal team today and offer to scope the buy-side tech DD before advisers are set.",
@@ -210,33 +264,6 @@
    "kind": "acquire",
    "phase": "process",
    "subject": "Peet Lodges Draft",
-   "heat": 45,
-   "band": "warm",
-   "parts": {
-    "apac": 0,
-    "live": 20,
-    "tech": 0,
-    "sponsor": 15,
-    "size": 0,
-    "recency": 10
-   },
-   "why": "Warburg Pincus is in a live process for Peet Lodges Draft: bids are moving and the diligence window is open.",
-   "call": "Call the Warburg Pincus deal team now: confirmatory tech DD, and a red-flag view on the stack if they are not yet in exclusivity.",
-   "outlets": 1,
-   "carried": false
-  },
-  {
-   "id": "768f08994167",
-   "title": "Cleanaway Waste Management, EQT Infrastructure Extend Exclusivity Period for Proposed Deal as Due Diligence Continues",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNcUhHNzlpVGhBZHE5QThRcUNxcDdUUldIeVViSWUyamp0Yjk3T1lxdUM0WERUaEN6dFZDa3R0QW0yRmRPdmZob3BvdGFtazVUa1p1TUxyd2NrNEItT0pBUFJWMGFFU3R6cUZndS10M1MtQ0ZqVFVUcWtQQTBrM0swdUp4WnZQQkxFdEdDM0pxeVlYazN3Mm5TWURCbmxqRmlWSVhNMjVjRjdxQ08wc0lkckpjcmpGM25LY1M5bmkyZzhya3hpMl9ubGhlZmpsY1hyZHdpbGlWa0RjdlhsMS1jaG9DNDRBRmM?oc=5",
-   "publisher": "www.marketscreener.com",
-   "date": "2026-10-11T22:55:22.000Z",
-   "firstSeen": "2026-10-12T23:37:41.243Z",
-   "group": "EQT",
-   "groupId": "eqt",
-   "kind": "acquire",
-   "phase": "process",
-   "subject": "Cleanaway Waste",
    "heat": 44,
    "band": "warm",
    "parts": {
@@ -247,8 +274,8 @@
     "size": 0,
     "recency": 9
    },
-   "why": "EQT is in a live process for Cleanaway Waste: bids are moving and the diligence window is open.",
-   "call": "Call the EQT deal team now: confirmatory tech DD, and a red-flag view on the stack if they are not yet in exclusivity.",
+   "why": "Warburg Pincus is in a live process for Peet Lodges Draft: bids are moving and the diligence window is open.",
+   "call": "Call the Warburg Pincus deal team now: confirmatory tech DD, and a red-flag view on the stack if they are not yet in exclusivity.",
    "outlets": 1,
    "carried": false
   }
