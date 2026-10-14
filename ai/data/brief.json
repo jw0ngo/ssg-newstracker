@@ -3,9 +3,9 @@
  "since": "2026-10-12T23:47:08.000Z",
  "section": "AI & Tech",
  "counts": {
-  "newSince": 66,
+  "newSince": 75,
   "relevant": 1031,
-  "hot": 8,
+  "hot": 7,
   "carried": 0
  },
  "items": [
@@ -96,12 +96,12 @@
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdXBKbklsbGN6cDFnN05FLWQxZE5QNElOZ09MMEpyMDB6NFJOUFBPX1Joa2VqMUFLNl9FdnF2ZThwTEN5cDJhMS05YmdJbVNHdFVYUnBwa3I4eDk5M0kzQWxyTG1JN2Y0SEVHSEJldTVTQldBWk13V0FIczF5SFhFR0ZocXJKT1hEZnpuSnU2RHdLSWhXb2FrZVROa1hoUVZJeUhGaHpVNXJ0QTFDcGpZVjZJSjlfU0ZTNnc?oc=5",
    "publisher": "PYMNTS.com",
    "date": "2026-10-13T23:53:38.000Z",
-   "firstSeen": null,
+   "firstSeen": "2026-10-14T00:26:00Z",
    "group": "M&A",
    "groupId": "ma",
    "kind": "process",
    "phase": "rumour",
-   "subject": "ServiceNow Denies",
+   "subject": "Decagon",
    "heat": 66,
    "band": "hot",
    "parts": {
@@ -112,9 +112,9 @@
     "size": 8,
     "recency": 10
    },
-   "why": "A sale process or bid talks involving ServiceNow Denies (no price yet, early) in AI: an asset in play in a sector SSG diligences.",
+   "why": "A sale process or bid talks involving Decagon in AI: an asset in play in a sector SSG diligences.",
    "call": "Map which sponsors are natural buyers and get the tech view ready before they call.",
-   "outlets": 6,
+   "outlets": 8,
    "carried": false
   },
   {
@@ -128,7 +128,7 @@
    "groupId": "ma",
    "kind": "process",
    "phase": "rumour",
-   "subject": "OpenAI",
+   "subject": "Trail",
    "heat": 66,
    "band": "hot",
    "parts": {
@@ -139,34 +139,7 @@
     "size": 8,
     "recency": 10
    },
-   "why": "A sale process or bid talks involving OpenAI (no price yet, early) in cybersecurity: an asset in play in a sector SSG diligences.",
-   "call": "Map which sponsors are natural buyers and get the tech view ready before they call.",
-   "outlets": 1,
-   "carried": false
-  },
-  {
-   "id": "24b0936ca99c",
-   "title": "ServiceNow Discusses Decagon Acquisition Talks in AI Market",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80aENNMnMzNU5VWmdqQ01GM1NwWXBMLVJKbWNuSTVyLXU1NjdfbWM5Mm1sNUpqRU1UTmlVUUFwWU5QY3FSREhiQWlmVkdWTXNzUkw0YUstd1cyN0NNdWpld1Jn?oc=5",
-   "publisher": "SuaraGarut.ID",
-   "date": "2026-10-13T19:39:00.000Z",
-   "firstSeen": null,
-   "group": "M&A",
-   "groupId": "ma",
-   "kind": "process",
-   "phase": "rumour",
-   "subject": "ServiceNow Discusses Decagon",
-   "heat": 66,
-   "band": "hot",
-   "parts": {
-    "apac": 0,
-    "live": 20,
-    "tech": 20,
-    "sponsor": 8,
-    "size": 8,
-    "recency": 10
-   },
-   "why": "A sale process or bid talks involving ServiceNow Discusses Decagon (no price yet, early) in AI: an asset in play in a sector SSG diligences.",
+   "why": "A sale process or bid talks involving Trail in cybersecurity: an asset in play in a sector SSG diligences.",
    "call": "Map which sponsors are natural buyers and get the tech view ready before they call.",
    "outlets": 1,
    "carried": false
@@ -209,7 +182,7 @@
    "groupId": "ma",
    "kind": "process",
    "phase": "rumour",
-   "subject": "Amazon",
+   "subject": "Decart",
    "heat": 66,
    "band": "hot",
    "parts": {
@@ -220,9 +193,9 @@
     "size": 9,
     "recency": 9
    },
-   "why": "A sale process or bid talks involving Amazon ($7bn) in AI: an asset in play in a sector SSG diligences.",
+   "why": "A sale process or bid talks involving Decart ($7bn) in AI: an asset in play in a sector SSG diligences.",
    "call": "Map which sponsors are natural buyers and get the tech view ready before they call.",
-   "outlets": 20,
+   "outlets": 19,
    "carried": false
   },
   {
@@ -247,7 +220,7 @@
     "size": 8,
     "recency": 9
    },
-   "why": "A sale process or bid talks involving CCC Intelligent (no price yet, early) in AI: an asset in play in a sector SSG diligences.",
+   "why": "A sale process or bid talks involving CCC Intelligent in AI: an asset in play in a sector SSG diligences.",
    "call": "Map which sponsors are natural buyers and get the tech view ready before they call.",
    "outlets": 1,
    "carried": false
@@ -276,6 +249,33 @@
    },
    "why": "Moonshot is heading for a listing in North Asia ($50 Billion) in AI: the comps are about to reset.",
    "call": "Check the sponsor-backed names in the same sector; a listing window reopens exits.",
+   "outlets": 1,
+   "carried": false
+  },
+  {
+   "id": "6e4151e0f254",
+   "title": "Amazon reportedly weighs $7B startup acquisition as AI spending accelerates",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JR2hYdFlsT1h4YUMxS0QxRUdRekpiT05mWkpfNld6WkdKcXVqTF9EUEhuR2JpR3dYa2J3ckYyUU5GTVZIVlJ5MFZPUTdpQWZidjRvZ2N5c3EyRExzT1dEWnBUakttNk05cEFxcnJEdVJOS2JrcHc?oc=5",
+   "publisher": "MyNorthwest.com",
+   "date": "2026-10-12T17:09:34.000Z",
+   "firstSeen": "2026-10-12T23:47:35.683Z",
+   "group": "M&A",
+   "groupId": "ma",
+   "kind": "deal",
+   "phase": "rumour",
+   "subject": "Amazon",
+   "heat": 61,
+   "band": "warm",
+   "parts": {
+    "apac": 0,
+    "live": 20,
+    "tech": 15,
+    "sponsor": 8,
+    "size": 9,
+    "recency": 9
+   },
+   "why": "A reported deal involving Amazon ($7B) in AI: a comp in the making.",
+   "call": "Note the mooted multiple and who is bidding; call any sponsor in the frame.",
    "outlets": 1,
    "carried": false
   }
