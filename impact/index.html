@@ -1,0 +1,546 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>AI Impact · SSG Newstracker</title><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style></head><body><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* AI Impact — the map of how AI moves the value of what the sponsors buy, bid on and hold.
+   Desktop first: a three-column stage (filters · map · detail); on a phone the map fills the
+   screen and the detail slides up as a sheet. Same tokens and type as the other sections. */
+:root {
+  --bg: #f3f5f6; --surface: #ffffff; --fg: #16202a; --muted: #5b6b78; --faint: #8a98a4; --rule: #d9e0e5;
+  --accent: #0f6e73; --accent-soft: #dcefef; --hot: #c9661a; --hot-soft: #fbe9d9;
+  --tail: #0f6e73; --mixed: #b9801a; --head: #b5443f; --firm: #2b3a4c; --firm-ink: #ffffff; --sector-fill: rgba(22,32,42,.04);
+  --map: #eef1f3; --grid: rgba(22,32,42,.05); --link: rgba(22,32,42,.16); --glow: rgba(15,110,115,.28);
+  --sans: "IBM Plex Sans", system-ui, -apple-system, Segoe UI, sans-serif; --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace; --head-font: "Archivo Narrow", "IBM Plex Sans", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1316; --surface: #151b20; --fg: #e6ebee; --muted: #9aa8b2; --faint: #65737d; --rule: #243038;
+    --accent: #4fc0c3; --accent-soft: #123538; --hot: #e38a45; --hot-soft: #3a2415;
+    --tail: #3fbcbf; --mixed: #d9a441; --head: #e0706a; --firm: #dfe6ec; --firm-ink: #0e1316; --sector-fill: rgba(230,235,238,.05);
+    --map: #0b0f12; --grid: rgba(230,235,238,.045); --link: rgba(230,235,238,.14); --glow: rgba(79,192,195,.35);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1316; --surface: #151b20; --fg: #e6ebee; --muted: #9aa8b2; --faint: #65737d; --rule: #243038;
+  --accent: #4fc0c3; --accent-soft: #123538; --hot: #e38a45; --hot-soft: #3a2415;
+  --tail: #3fbcbf; --mixed: #d9a441; --head: #e0706a; --firm: #dfe6ec; --firm-ink: #0e1316; --sector-fill: rgba(230,235,238,.05);
+  --map: #0b0f12; --grid: rgba(230,235,238,.045); --link: rgba(230,235,238,.14); --glow: rgba(79,192,195,.35);
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.45 var(--sans); -webkit-font-smoothing: antialiased; overflow: hidden; }
+a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; padding: 0; }
+.site { display: flex; align-items: center; gap: 18px; padding: 10px 18px; border-bottom: 1px solid var(--rule); background: var(--surface); height: 48px; }
+.brand { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--faint); white-space: nowrap; }
+.nav { display: flex; gap: 4px; margin-left: auto; }
+.nav a { padding: 6px 12px; border-radius: 999px; color: var(--muted); font-weight: 500; font-size: 13px; }
+.nav a.on { background: var(--accent-soft); color: var(--accent); }
+.app { display: grid; grid-template-columns: 272px 1fr 400px; height: calc(100% - 48px); }
+.side, .panel { background: var(--surface); overflow: auto; }
+.side { border-right: 1px solid var(--rule); padding: 18px 16px; }
+.panel { border-left: 1px solid var(--rule); padding: 20px 20px 40px; }
+h1 { font-family: var(--head-font); font-weight: 700; font-size: 30px; line-height: 1; letter-spacing: -.01em; margin: 0 0 6px; }
+.sub { color: var(--muted); font-size: 13px; margin: 0 0 16px; }
+.k { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); margin: 18px 0 8px; }
+.k:first-child { margin-top: 0; }
+.search { width: 100%; padding: 8px 10px; border: 1px solid var(--rule); border-radius: 8px; background: var(--bg); color: var(--fg); font: inherit; outline: none; }
+.search:focus { border-color: var(--accent); }
+.hits { margin: 6px 0 0; padding: 0; list-style: none; }
+.hits li button { display: block; width: 100%; text-align: left; padding: 5px 8px; border-radius: 6px; font-size: 13px; }
+.hits li button:hover { background: var(--accent-soft); }
+.hits small { color: var(--faint); margin-left: 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { padding: 5px 10px; border: 1px solid var(--rule); border-radius: 999px; font-size: 12.5px; color: var(--muted); background: var(--surface); transition: background .15s, color .15s, border-color .15s; }
+.chip:hover { border-color: var(--accent); color: var(--accent); }
+.chip.on { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+.chip .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: 0; }
+.legend { display: grid; gap: 7px; font-size: 12.5px; color: var(--muted); }
+.legend span { display: flex; align-items: center; gap: 9px; }
+.legend i { flex: none; display: inline-block; border-radius: 50%; }
+.legend i.firm { width: 16px; height: 16px; background: var(--firm); }
+.legend i.sector { width: 14px; height: 14px; border: 2px solid var(--accent); }
+.legend i.co { width: 10px; height: 10px; }
+.legend i.live { width: 10px; height: 10px; background: var(--tail); box-shadow: 0 0 0 3px var(--glow); }
+.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.stat { padding: 10px; border: 1px solid var(--rule); border-radius: 10px; background: var(--bg); }
+.stat b { display: block; font-family: var(--head-font); font-size: 22px; line-height: 1; }
+.stat small { color: var(--faint); font-size: 11.5px; }
+.stage { position: relative; background: var(--map); overflow: hidden; }
+canvas { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; }
+canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
+.tip { position: absolute; pointer-events: none; padding: 6px 9px; border-radius: 7px; background: var(--surface); border: 1px solid var(--rule); box-shadow: 0 4px 16px rgba(0,0,0,.12); font-size: 12.5px; white-space: nowrap; transform: translate(12px, 12px); opacity: 0; transition: opacity .12s; }
+.tip b { display: block; } .tip small { color: var(--muted); }
+.hud { position: absolute; right: 14px; bottom: 14px; display: flex; flex-direction: column; gap: 6px; }
+.hud button { width: 32px; height: 32px; border-radius: 8px; background: var(--surface); border: 1px solid var(--rule); color: var(--muted); font-size: 16px; line-height: 1; }
+.hud button:hover { color: var(--accent); border-color: var(--accent); }
+.stamp { position: absolute; left: 14px; bottom: 12px; font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 13px; }
+/* the detail panel */
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+.panel h2 { font-family: var(--head-font); font-weight: 700; font-size: 26px; line-height: 1.05; margin: 0 0 8px; letter-spacing: -.01em; }
+.panel h3 { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); font-weight: 500; margin: 22px 0 8px; }
+.panel p { margin: 0 0 10px; }
+.panel .lead { font-size: 15px; line-height: 1.5; }
+.panel .muted { color: var(--muted); font-size: 13px; }
+.read { display: inline-flex; align-items: center; gap: 6px; padding: 3px 9px; border-radius: 999px; font-family: var(--mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: #fff; }
+.read.tailwind { background: var(--tail); } .read.mixed { background: var(--mixed); } .read.headwind { background: var(--head); }
+.read.stage { background: transparent; color: var(--muted); border: 1px solid var(--rule); }
+.bars { display: grid; gap: 7px; }
+.bar { display: grid; grid-template-columns: 112px 1fr 30px; align-items: center; gap: 10px; font-size: 12.5px; }
+.bar i { height: 7px; border-radius: 4px; background: var(--rule); position: relative; overflow: hidden; display: block; }
+.bar i b { position: absolute; left: 0; top: 0; bottom: 0; background: var(--accent); border-radius: 4px; transition: width .5s cubic-bezier(.2,.7,.2,1); }
+.bar small { font-family: var(--mono); color: var(--faint); text-align: right; }
+.force { display: grid; grid-template-columns: 92px auto 1fr; gap: 10px; align-items: start; font-size: 12.5px; padding: 6px 0; border-top: 1px solid var(--rule); }
+.force:first-of-type { border-top: 0; }
+.force .n { font-weight: 500; text-transform: capitalize; }
+.force .dots { display: flex; gap: 3px; padding-top: 5px; }
+.force .dots i { width: 7px; height: 7px; border-radius: 50%; background: var(--rule); }
+.force .dots i.on { background: var(--accent); }
+.force .w { color: var(--muted); }
+.list { margin: 0; padding: 0; list-style: none; }
+.list li { padding: 8px 0; border-top: 1px solid var(--rule); font-size: 13px; }
+.list li:first-child { border-top: 0; }
+.list .m { display: block; font-family: var(--mono); font-size: 11px; color: var(--faint); margin-top: 2px; }
+.list .sbj { display: inline-block; font-weight: 600; margin-right: 6px; }
+.links { display: flex; flex-wrap: wrap; gap: 6px; }
+.links button { padding: 5px 10px; border-radius: 999px; border: 1px solid var(--rule); font-size: 12.5px; color: var(--fg); background: var(--surface); transition: border-color .15s, background .15s; }
+.links button:hover { border-color: var(--accent); background: var(--accent-soft); }
+.links button i { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+.links button.live i { box-shadow: 0 0 0 3px var(--glow); }
+.ql { margin: 0; padding-left: 18px; color: var(--fg); font-size: 13px; } .ql li { margin: 4px 0; }
+.close { display: none; position: absolute; right: 14px; top: 12px; width: 30px; height: 30px; border-radius: 50%; background: var(--bg); color: var(--muted); font-size: 16px; }
+.role { display: block; padding: 8px 10px; border-radius: 8px; background: var(--bg); border: 1px solid var(--rule); font-size: 13px; margin-bottom: 6px; }
+.role b { font-weight: 600; }
+.role .x { display: block; color: var(--muted); margin-top: 3px; font-size: 12.5px; }
+.foot { color: var(--faint); font-size: 12px; margin-top: 24px; line-height: 1.5; }
+@media (max-width: 1100px) { .app { grid-template-columns: 240px 1fr 340px; } }
+@media (max-width: 860px) {
+  body { overflow: auto; }
+  .site { padding: 8px 12px; height: auto; flex-wrap: wrap; gap: 8px; } .nav { margin-left: 0; width: 100%; overflow-x: auto; }
+  .app { display: flex; flex-direction: column; height: auto; }
+  .stage { order: 0; height: 62vh; min-height: 400px; }
+  .side { order: 1; border-right: 0; border-top: 1px solid var(--rule); padding: 14px 16px 30px; }
+  .side .legend, .side .stats, .side h1, .side h1 + .sub { display: none; }
+  .side .k:first-child { margin-top: 0; }
+  .stamp { display: none; }
+  .panel { position: fixed; left: 0; right: 0; bottom: 0; max-height: 62vh; border-left: 0; border-top: 1px solid var(--rule); border-radius: 16px 16px 0 0; box-shadow: 0 -8px 30px rgba(0,0,0,.18); transform: translateY(100%); transition: transform .28s cubic-bezier(.2,.7,.2,1); padding: 18px 16px 30px; z-index: 5; }
+  .panel.open { transform: none; }
+  .close { display: grid; place-items: center; }
+  h1 { font-size: 26px; }
+}
+@media (prefers-reduced-motion: reduce) { .bar i b { transition: none; } .panel { transition: none; } }
+</style>
+
+<div class="site"><span class="brand">SSG Newstracker</span><nav class="nav" id="nav" aria-label="Sections"></nav></div>
+<div class="app">
+  <aside class="side">
+    <h1>AI Impact</h1>
+    <p class="sub">How AI is moving the enterprise value of what the sponsors buy, bid on and hold — the knowledge base for AI diligence.</p>
+    <div class="k">Find</div>
+    <input class="search" id="q" type="search" placeholder="A company, a sponsor, a sector" autocomplete="off">
+    <ul class="hits" id="hits"></ul>
+    <div class="k">Show</div>
+    <div class="chips" id="filters">
+      <button class="chip on" data-f="all">Everything</button>
+      <button class="chip" data-f="live">Live now</button>
+      <button class="chip" data-f="target">Targets</button>
+      <button class="chip" data-f="portco">Portfolio</button>
+    </div>
+    <div class="k">AI read</div>
+    <div class="chips" id="reads">
+      <button class="chip on" data-r="tailwind"><span class="dot" style="background:var(--tail)"></span>Tailwind</button>
+      <button class="chip on" data-r="mixed"><span class="dot" style="background:var(--mixed)"></span>Mixed</button>
+      <button class="chip on" data-r="headwind"><span class="dot" style="background:var(--head)"></span>Headwind</button>
+    </div>
+    <div class="k">Sponsor</div>
+    <div class="chips" id="firms"></div>
+    <div class="k">Legend</div>
+    <div class="legend">
+      <span><i class="firm"></i>A tracked sponsor — size is activity</span>
+      <span><i class="sector"></i>A sector — ring colour is the AI read</span>
+      <span><i class="co" style="background:var(--mixed)"></i>A company — colour is its AI read</span>
+      <span><i class="live"></i>A live process pulses</span>
+    </div>
+    <div class="k">On the map</div>
+    <div class="stats" id="stats"></div>
+  </aside>
+  <main class="stage" id="stage">
+    <canvas id="map"></canvas>
+    <div class="tip" id="tip"></div>
+    <div class="hud"><button id="zin" title="zoom in">+</button><button id="zout" title="zoom out">−</button><button id="zfit" title="fit">⌂</button></div>
+    <div class="stamp" id="stamp"></div>
+    <div class="loading" id="loading">Loading the map…</div>
+  </main>
+  <aside class="panel" id="panel"><button class="close" id="close" aria-label="close">×</button><div id="detail"></div></aside>
+</div>
+
+<script>
+const NAV = {"here":"impact","impact":"./","brief":"../brief/","pe":"../","ai":"../ai/"};
+const DATA = { base: 'data/' };
+document.getElementById('nav').innerHTML = [['impact', 'AI Impact'], ['brief', 'Morning Brief'], ['pe', 'PE Clients'], ['ai', 'AI &amp; Tech']]
+  .map(([k, l]) => `<a href="${String(NAV[k]).replace(/"/g, '&quot;')}"${NAV.here === k ? ' class="on"' : ''}>${l}</a>`).join('');
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const MOBILE = () => matchMedia('(max-width: 860px)').matches;
+const fmtDate = (iso) => { const d = new Date(iso); return Number.isNaN(d) ? '' : d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }); };
+const READ_LABEL = { tailwind: 'Tailwind', mixed: 'Mixed', headwind: 'Headwind' };
+const STAGE_LABEL = { pilot: 'adoption: pilots', scaling: 'adoption: scaling', core: 'adoption: core' };
+const ROLE = { target: 'target', portco: 'portfolio' };
+
+// ── state ─────────────────────────────────────────────────────────────────────
+let D = null;                       // impact.json
+const N = [], L = [];               // nodes, links
+const byId = {};
+const v = { filter: 'all', reads: new Set(['tailwind', 'mixed', 'headwind']), firm: null, sel: null, hover: null, q: '' };
+const cam = { x: 0, y: 0, k: 1 };   // world → screen: screen = (world − centre) · k + size/2 + (x, y)
+let W = 0, H = 0, dpr = 1;
+const canvas = $('map'), ctx = canvas.getContext('2d');
+
+// ── colours ───────────────────────────────────────────────────────────────────
+let C = {};
+function palette() {
+  C = { tailwind: css('--tail'), mixed: css('--mixed'), headwind: css('--head'), firm: css('--firm'), firmInk: css('--firm-ink'), fg: css('--fg'), muted: css('--muted'), faint: css('--faint'),
+    link: css('--link'), grid: css('--grid'), map: css('--map'), sectorFill: css('--sector-fill'), glow: css('--glow'), surface: css('--surface') };
+}
+const readColor = (r) => C[r] || C.mixed;
+const alphaOf = (hex, a) => { const m = /^#([0-9a-f]{6})$/i.exec(hex); if (!m) return hex; const n = parseInt(m[1], 16); return `rgba(${n >> 16},${(n >> 8) & 255},${n & 255},${a})`; };
+
+// ── the graph ─────────────────────────────────────────────────────────────────
+function buildGraph() {
+  N.length = 0; L.length = 0; for (const k in byId) delete byId[k];
+  const add = (n) => { N.push(n); byId[n.id] = n; return n; };
+  const maxInterest = Math.max(1, ...D.firms.map((f) => Object.values(f.interest).reduce((a, b) => a + b, 0)));
+  const nf = D.firms.length;
+  D.firms.forEach((f, i) => {
+    const act = Object.values(f.interest).reduce((a, b) => a + b, 0);
+    const a = -Math.PI / 2 + (i / nf) * Math.PI * 2;
+    add({ id: f.id, type: 'firm', label: f.name, r: 22 + 14 * Math.sqrt(act / maxInterest), data: f, x: Math.cos(a) * 330, y: Math.sin(a) * 330, ax: Math.cos(a) * 330, ay: Math.sin(a) * 330, vx: 0, vy: 0, h: 0, seed: Math.random() * 1000 });
+  });
+  const maxSec = Math.max(1, ...D.sectors.map((s) => s.firms.reduce((a, x) => a + x.weight, 0)));
+  const ns = D.sectors.length;
+  D.sectors.forEach((s, i) => {
+    const w = s.firms.reduce((a, x) => a + x.weight, 0);
+    const a = -Math.PI / 2 + Math.PI / ns + (i / ns) * Math.PI * 2;
+    add({ id: s.id, type: 'sector', label: s.label, r: 20 + 20 * Math.sqrt(w / maxSec), read: s.rubric.read, data: s, x: Math.cos(a) * 160, y: Math.sin(a) * 160, vx: 0, vy: 0, h: 0, seed: Math.random() * 1000 });
+  });
+  D.companies.forEach((c) => {
+    const sec = byId[c.sector]; const a = Math.random() * Math.PI * 2; const d = sec.r + 36 + Math.random() * 50;
+    add({ id: c.id, type: 'company', label: c.name, r: c.live ? 7.5 : 5.5, read: c.impact.read, live: c.live, data: c, x: sec.x + Math.cos(a) * d, y: sec.y + Math.sin(a) * d, vx: 0, vy: 0, h: 0, seed: Math.random() * 1000 });
+  });
+  for (const l of D.links) {
+    const a = byId[l.from], b = byId[l.to]; if (!a || !b) continue;
+    L.push({ a, b, kind: l.kind, w: l.weight, len: l.kind === 'interest' ? 190 : l.kind === 'sector' ? 72 : 190, k: l.kind === 'interest' ? 0.02 + 0.02 * Math.min(1, l.weight / 8) : l.kind === 'sector' ? 0.06 : 0.01, particles: [] });
+  }
+  for (const n of N) { n.nb = new Set(); } for (const l of L) { l.a.nb.add(l.b.id); l.b.nb.add(l.a.id); }
+}
+
+// ── filters ───────────────────────────────────────────────────────────────────
+function applyFilters() {
+  for (const n of N) {
+    let on = true;
+    if (n.type === 'company') {
+      const c = n.data;
+      if (v.filter === 'live') on = c.live;
+      else if (v.filter === 'target' || v.filter === 'portco') on = c.links.some((l) => l.role === v.filter);
+      if (on && !v.reads.has(c.impact.read)) on = false;
+      if (on && v.firm && !c.links.some((l) => l.firm === v.firm)) on = false;
+    }
+    n.hidden = !on;
+  }
+  for (const l of L) l.hidden = l.a.hidden || l.b.hidden;
+  renderStats();
+}
+
+// ── simulation ────────────────────────────────────────────────────────────────
+let alpha = 1, t0 = performance.now(), last = t0;
+function tick(dt) {
+  const vis = N.filter((n) => !n.hidden);
+  // springs
+  for (const l of L) { if (l.hidden) continue;
+    const dx = l.b.x - l.a.x, dy = l.b.y - l.a.y, d = Math.hypot(dx, dy) || 1, f = (d - l.len) * l.k * alpha;
+    const fx = dx / d * f, fy = dy / d * f;
+    if (!l.a.pin) { l.a.vx += fx; l.a.vy += fy; } if (!l.b.pin) { l.b.vx -= fx; l.b.vy -= fy; }
+  }
+  // repulsion + collision
+  for (let i = 0; i < vis.length; i++) { const a = vis[i];
+    for (let j = i + 1; j < vis.length; j++) { const b = vis[j];
+      let dx = b.x - a.x, dy = b.y - a.y; let d2 = dx * dx + dy * dy; if (d2 < 1) { dx = Math.random() - .5; dy = Math.random() - .5; d2 = 1; }
+      const d = Math.sqrt(d2); const min = a.r + b.r + 9;
+      const big = (a.type !== 'company') + (b.type !== 'company');
+      let f = (160 + 260 * big) * alpha / d2;
+      if (d < min) f += (min - d) * 0.25;
+      const fx = dx / d * f, fy = dy / d * f;
+      if (!a.pin) { a.vx -= fx; a.vy -= fy; } if (!b.pin) { b.vx += fx; b.vy += fy; }
+    }
+  }
+  // gravity and the firms' ring anchors
+  for (const n of vis) { if (n.pin) continue;
+    n.vx -= n.x * 0.0015 * alpha; n.vy -= n.y * 0.0015 * alpha;
+    if (n.type === 'firm') { n.vx += (n.ax - n.x) * 0.02; n.vy += (n.ay - n.y) * 0.02; }
+    if (!REDUCED) { const t = (performance.now() + n.seed * 97) / 2600; n.vx += Math.sin(t) * 0.012 * (n.type === 'company' ? 1 : .4); n.vy += Math.cos(t * 1.3) * 0.012 * (n.type === 'company' ? 1 : .4); }
+    n.vx *= 0.82; n.vy *= 0.82;
+    const sp = Math.hypot(n.vx, n.vy); if (sp > 6) { n.vx *= 6 / sp; n.vy *= 6 / sp; }
+    n.x += n.vx; n.y += n.vy;
+  }
+  alpha = Math.max(REDUCED ? 0.004 : 0.012, alpha * 0.985);
+  // once the layout has settled after a load, fit it to the stage a second time
+  if (refit && alpha < 0.05) { refit = false; fit(); }
+}
+let refit = false;
+
+// ── drawing ───────────────────────────────────────────────────────────────────
+const toScreen = (x, y) => [(x + cam.x) * cam.k + W / 2, (y + cam.y) * cam.k + H / 2];
+const toWorld = (sx, sy) => [(sx - W / 2) / cam.k - cam.x, (sy - H / 2) / cam.k - cam.y];
+function draw(now) {
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.fillStyle = C.map; ctx.fillRect(0, 0, W, H);
+  // a faint grid that drifts with the camera
+  ctx.strokeStyle = C.grid; ctx.lineWidth = 1; const g = 48 * cam.k; const ox = ((cam.x * cam.k + W / 2) % g + g) % g, oy = ((cam.y * cam.k + H / 2) % g + g) % g;
+  ctx.beginPath(); for (let x = ox; x < W; x += g) { ctx.moveTo(x, 0); ctx.lineTo(x, H); } for (let y = oy; y < H; y += g) { ctx.moveTo(0, y); ctx.lineTo(W, y); } ctx.stroke();
+  const focus = v.sel || v.hover; const nb = focus ? focus.nb : null;
+  const dim = (n) => focus && n !== focus && !nb.has(n.id);
+  // links
+  for (const l of L) { if (l.hidden) continue;
+    const [ax, ay] = toScreen(l.a.x, l.a.y), [bx, by] = toScreen(l.b.x, l.b.y);
+    const on = focus && (l.a === focus || l.b === focus);
+    const faded = focus && !on;
+    let alpha_ = l.kind === 'interest' ? 0.35 + 0.5 * Math.min(1, l.w / 10) : l.kind === 'sector' ? 0.45 : 0.3;
+    if (faded) alpha_ *= 0.12; if (on) alpha_ = Math.min(0.9, alpha_ + 0.3);
+    ctx.globalAlpha = alpha_;
+    ctx.strokeStyle = on ? (l.a.type === 'company' ? readColor(l.a.read) : alphaOf(C.fg, 0.55)) : C.link;
+    ctx.lineWidth = (l.kind === 'interest' ? Math.max(1, Math.min(4, 0.8 + l.w * 0.3)) : on ? 1.4 : 1) * Math.sqrt(cam.k);
+    if (l.kind === 'target' || l.kind === 'portco') ctx.setLineDash([3 * cam.k, 5 * cam.k]); else ctx.setLineDash([]);
+    ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(bx, by); ctx.stroke();
+    ctx.setLineDash([]);
+    // interest flows as particles from the firm to the sector
+    if (l.kind === 'interest' && !REDUCED && !faded) {
+      const rate = 0.25 + l.w * 0.12;
+      if (Math.random() < rate * 0.02) l.particles.push({ t: 0, s: 0.0025 + Math.random() * 0.002 });
+      ctx.fillStyle = on ? C.fg : C.muted;
+      for (const p of l.particles) { p.t += p.s * (now - last); const x = ax + (bx - ax) * p.t, y = ay + (by - ay) * p.t; ctx.globalAlpha = (on ? 0.9 : 0.55) * Math.sin(Math.PI * Math.min(1, p.t)); ctx.beginPath(); ctx.arc(x, y, 1.6 * Math.sqrt(cam.k), 0, Math.PI * 2); ctx.fill(); }
+      l.particles = l.particles.filter((p) => p.t < 1);
+    }
+  }
+  ctx.globalAlpha = 1;
+  // nodes, companies first so the big ones sit on top
+  const order = N.filter((n) => !n.hidden).sort((a, b) => (a.type === 'company' ? 0 : a.type === 'sector' ? 1 : 2) - (b.type === 'company' ? 0 : b.type === 'sector' ? 1 : 2));
+  ctx.font = `600 ${12}px ${css('--sans')}`;
+  for (const n of order) {
+    const [x, y] = toScreen(n.x, n.y);
+    n.h += ((n === v.hover || n === v.sel ? 1 : 0) - n.h) * 0.18;
+    const r = n.r * cam.k * (1 + 0.18 * n.h);
+    const a = dim(n) ? 0.18 : 1;
+    ctx.globalAlpha = a;
+    if (n.type === 'company') {
+      const col = readColor(n.read);
+      if (n.live && !REDUCED) { const ph = (Math.sin((now + n.seed * 50) / 520) + 1) / 2; ctx.fillStyle = alphaOf(col, 0.12 + 0.18 * (1 - ph)); ctx.beginPath(); ctx.arc(x, y, r + 5 + 9 * ph, 0, Math.PI * 2); ctx.fill(); }
+      else if (n.live) { ctx.fillStyle = alphaOf(col, 0.22); ctx.beginPath(); ctx.arc(x, y, r + 8, 0, Math.PI * 2); ctx.fill(); }
+      ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
+      if (n === v.sel) { ctx.strokeStyle = C.fg; ctx.lineWidth = 2; ctx.stroke(); }
+      const near = focus && (n === focus || nb.has(n.id));
+      if (cam.k >= 1.5 || n.h > 0.3 || near) { ctx.globalAlpha = a * Math.max(near ? 0.95 : 0, n.h, Math.min(1, (cam.k - 1.4) * 2)); ctx.fillStyle = C.fg; ctx.font = `500 ${11.5}px ${css('--sans')}`; ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillText(n.label, x + r + 5, y); }
+    } else if (n.type === 'sector') {
+      const col = readColor(n.read);
+      ctx.fillStyle = C.sectorFill; ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
+      ctx.strokeStyle = col; ctx.lineWidth = (n === v.sel ? 3.5 : 2.2) * Math.sqrt(cam.k); ctx.stroke();
+      ctx.fillStyle = C.fg; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.font = `600 ${Math.max(10, Math.min(14, 12 * cam.k))}px ${css('--sans')}`;
+      wrapText(n.label, x, y, r * 1.7, 13 * Math.max(0.85, Math.min(1.2, cam.k)));
+    } else {
+      ctx.fillStyle = C.firm; ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
+      if (n === v.sel) { ctx.strokeStyle = C.fg; ctx.lineWidth = 3; ctx.stroke(); }
+      ctx.fillStyle = C.firmInk; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.font = `700 ${Math.max(10, Math.min(15, 12.5 * cam.k))}px ${css('--head-font')}`;
+      wrapText(n.label, x, y, r * 2.05, 14 * Math.max(0.85, Math.min(1.2, cam.k)));
+    }
+  }
+  ctx.globalAlpha = 1;
+  last = now;
+}
+function wrapText(text, x, y, maxW, lh) {
+  const words = text.split(' '); const lines = []; let cur = '';
+  for (const w of words) { const t = cur ? cur + ' ' + w : w; if (ctx.measureText(t).width > maxW && cur) { lines.push(cur); cur = w; } else cur = t; }
+  if (cur) lines.push(cur);
+  const y0 = y - (lines.length - 1) * lh / 2;
+  lines.forEach((l, i) => ctx.fillText(l, x, y0 + i * lh));
+}
+function frame(now) {
+  if (D) { tick(now - last); draw(now); }
+  requestAnimationFrame(frame);
+}
+
+// ── interaction ───────────────────────────────────────────────────────────────
+function resize() {
+  const st = $('stage'); W = st.clientWidth; H = st.clientHeight; dpr = Math.min(2, devicePixelRatio || 1);
+  canvas.width = W * dpr; canvas.height = H * dpr;
+}
+function nodeAt(sx, sy) {
+  const [wx, wy] = toWorld(sx, sy); let best = null, bd = Infinity;
+  for (const n of N) { if (n.hidden) continue; const d = Math.hypot(n.x - wx, n.y - wy) - Math.max(n.r, 10 / cam.k); if (d < 0 && d < bd) { bd = d; best = n; } }
+  return best;
+}
+function fit() {
+  const vis = N.filter((n) => !n.hidden); if (!vis.length) return;
+  let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+  for (const n of vis) { x0 = Math.min(x0, n.x - n.r); y0 = Math.min(y0, n.y - n.r); x1 = Math.max(x1, n.x + n.r); y1 = Math.max(y1, n.y + n.r); }
+  const pad = 120; cam.k = Math.min(2, Math.max(0.35, Math.min((W - pad) / (x1 - x0 + 1), (H - pad) / (y1 - y0 + 1))));
+  cam.x = -(x0 + x1) / 2; cam.y = -(y0 + y1) / 2;
+}
+let drag = null;
+canvas.addEventListener('pointerdown', (e) => {
+  canvas.setPointerCapture(e.pointerId);
+  const n = nodeAt(e.offsetX, e.offsetY);
+  drag = { n, sx: e.offsetX, sy: e.offsetY, cx: cam.x, cy: cam.y, moved: false };
+  if (n) { n.pin = true; } else canvas.classList.add('drag');
+});
+canvas.addEventListener('pointermove', (e) => {
+  if (drag) {
+    const dx = e.offsetX - drag.sx, dy = e.offsetY - drag.sy; if (Math.hypot(dx, dy) > 3) drag.moved = true;
+    if (drag.n) { const [wx, wy] = toWorld(e.offsetX, e.offsetY); drag.n.x = wx; drag.n.y = wy; drag.n.vx = drag.n.vy = 0; alpha = Math.max(alpha, 0.08); }
+    else { cam.x = drag.cx + dx / cam.k; cam.y = drag.cy + dy / cam.k; }
+    return;
+  }
+  const n = nodeAt(e.offsetX, e.offsetY);
+  v.hover = n; canvas.classList.toggle('hand', !!n);
+  const tip = $('tip');
+  if (n) { tip.style.left = e.offsetX + 'px'; tip.style.top = e.offsetY + 'px'; tip.innerHTML = tipOf(n); tip.style.opacity = 1; } else tip.style.opacity = 0;
+});
+const endDrag = (e) => {
+  if (!drag) return;
+  if (drag.n) { drag.n.pin = false; if (!drag.moved) select(drag.n); }
+  else if (!drag.moved) select(null);
+  canvas.classList.remove('drag'); drag = null;
+};
+canvas.addEventListener('pointerup', endDrag); canvas.addEventListener('pointercancel', endDrag);
+canvas.addEventListener('pointerleave', () => { v.hover = null; $('tip').style.opacity = 0; });
+canvas.addEventListener('wheel', (e) => { e.preventDefault(); zoomAt(e.offsetX, e.offsetY, Math.exp(-e.deltaY * 0.0012)); }, { passive: false });
+function zoomAt(sx, sy, f) {
+  const k1 = Math.max(0.3, Math.min(3.5, cam.k * f)); const [wx, wy] = toWorld(sx, sy);
+  cam.k = k1; cam.x = (sx - W / 2) / k1 - wx; cam.y = (sy - H / 2) / k1 - wy;
+}
+$('zin').addEventListener('click', () => zoomAt(W / 2, H / 2, 1.25));
+$('zout').addEventListener('click', () => zoomAt(W / 2, H / 2, 0.8));
+$('zfit').addEventListener('click', fit);
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') select(null); });
+$('close').addEventListener('click', () => select(null));
+function tipOf(n) {
+  if (n.type === 'firm') return `<b>${esc(n.label)}</b><small>${n.data.bidding.length} in talks · ${n.data.buying.length} bought · ${n.data.portfolio} held</small>`;
+  if (n.type === 'sector') return `<b>${esc(n.label)}</b><small>${READ_LABEL[n.read]} · ${n.data.companies} companies · ${n.data.live} live</small>`;
+  const c = n.data; return `<b>${esc(c.name)}</b><small>${esc(c.sectorLabel.split(' · ')[0])} · ${READ_LABEL[c.impact.read]}${c.live ? ' · live' : ''}</small>`;
+}
+function select(n, pan) {
+  v.sel = n; renderDetail(); $('panel').classList.toggle('open', !!n);
+  if (n && pan !== false) { const [sx, sy] = toScreen(n.x, n.y); if (sx < 60 || sx > W - 60 || sy < 60 || sy > H - 60 || pan) { cam.x = -n.x; cam.y = -n.y; } }
+}
+
+// ── the detail panel ──────────────────────────────────────────────────────────
+const chip = (n, extra = '') => { if (!n) return ''; const col = n.type === 'firm' ? css('--firm') : readColor(n.read); return `<button data-go="${esc(n.id)}" class="${n.live ? 'live' : ''}"><i style="background:${col}"></i>${esc(n.label)}${extra}</button>`; };
+const readTag = (r) => `<span class="read ${r}">${READ_LABEL[r]}</span>`;
+const item = (e) => `<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a><span class="m">${esc(e.publisher || e.firm || '')}${e.publisher || e.firm ? ' · ' : ''}${fmtDate(e.date)}${e.source === 'ai' ? ' · AI & Tech' : e.source === 'pe' ? ' · PE Clients' : e.source === 'signal' ? ' · signal' : ''}</span></li>`;
+function renderDetail() {
+  const el = $('detail'); const n = v.sel;
+  if (!n) { el.innerHTML = overview(); } else if (n.type === 'firm') el.innerHTML = firmDetail(n); else if (n.type === 'sector') el.innerHTML = sectorDetail(n); else el.innerHTML = companyDetail(n);
+  el.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => { const t = byId[b.dataset.go]; if (t) { t.hidden = false; select(t, true); } }));
+  if (!MOBILE()) $('panel').scrollTop = 0;
+}
+function overview() {
+  const live = D.companies.filter((c) => c.live).slice(0, 10);
+  const secs = D.sectors.map((s) => ({ s, w: s.firms.reduce((a, x) => a + x.weight, 0) })).sort((a, b) => b.w - a.w);
+  const max = Math.max(1, ...secs.map((x) => x.w));
+  return `<div class="eyebrow">The map</div><h2>Where AI meets the deal flow</h2>
+    <p class="lead">Seven sponsors in the outer ring, the sectors they are looking at inside it, and the companies they are buying, bidding on and holding around each sector. Every company carries an AI read — tailwind, mixed or headwind for its enterprise value — and the evidence behind it.</p>
+    <p class="muted">Click a bubble for the detail. Interest flows from a sponsor to a sector as particles; a company in a live process pulses. Drag to move, scroll to zoom.</p>
+    <h3>Where the sponsors are looking · last ${D.window} days</h3>
+    <div class="bars">${secs.map(({ s, w }) => `<div class="bar"><span>${esc(s.label)}</span><i><b style="width:${Math.round(100 * w / max)}%;background:${readColor(s.rubric.read)}"></b></i><small>${w}</small></div>`).join('')}</div>
+    <h3>Live now</h3>
+    <div class="links">${live.map((c) => chip(byId[c.id])).join('') || '<span class="muted">Nothing in process.</span>'}</div>
+    <h3>The AI read</h3>
+    <p class="muted">${readTag('tailwind')} AI compounds what the company already has — data, rails, capacity.<br>${readTag('mixed')} AI is a margin lever and a pricing threat at once; the diligence decides which wins.<br>${readTag('headwind')} AI re-routes the demand or the labour the business was priced on.</p>
+    <p class="muted">Reads start from a sector rubric written by Jobi (16 Oct 2026) and move one step towards tailwind when AI is in the product as the company describes it. A hand assessment overrides the rubric when there is one.</p>`;
+}
+function firmDetail(n) {
+  const f = n.data; const tot = Object.values(f.interest).reduce((a, b) => a + b, 0) || 1;
+  const secs = Object.entries(f.interest).sort((a, b) => b[1] - a[1]);
+  const cos = D.companies.filter((c) => c.links.some((l) => l.firm === f.id));
+  const portco = cos.filter((c) => c.links.some((l) => l.firm === f.id && l.role === 'portco')), targets = cos.filter((c) => c.links.some((l) => l.firm === f.id && l.role === 'target'));
+  const entry = (e) => `<li>${e.subject ? `<span class="sbj">${esc(e.subject)}</span>` : ''}<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a><span class="m">${esc(e.publisher || '')} · ${fmtDate(e.date)}${e.sector ? ' · ' + esc((byId[e.sector] || {}).label || e.sector) : ''}</span></li>`;
+  return `<div class="eyebrow">Sponsor · tier ${esc(f.tier)}</div><h2>${esc(f.name)}</h2>
+    <p class="muted">${f.deals} headlines in the last ${D.window} days · ${f.bidding.length} in talks · ${f.buying.length} signed or closed · ${f.portfolio} held · ${f.targets} targets</p>
+    <h3>Sector interest</h3>
+    <div class="bars">${secs.map(([s, w]) => `<div class="bar"><span>${esc((byId[s] || {}).label || s)}</span><i><b style="width:${Math.round(100 * w / tot)}%;background:${readColor((byId[s] || {}).read)}"></b></i><small>${w}</small></div>`).join('') || '<span class="muted">No sector read yet.</span>'}</div>
+    <h3>Bidding on · reported talks and processes</h3>
+    <ul class="list">${f.bidding.map(entry).join('') || '<li class="muted">Nothing reported in the window.</li>'}</ul>
+    <h3>Buying · signed or closed</h3>
+    <ul class="list">${f.buying.map(entry).join('') || '<li class="muted">Nothing signed in the window.</li>'}</ul>
+    <h3>Targets · Jobi's candidates</h3>
+    <div class="links">${targets.map((c) => chip(byId[c.id])).join('') || '<span class="muted">None.</span>'}</div>
+    <h3>Portfolio on the map</h3>
+    <div class="links">${portco.map((c) => chip(byId[c.id])).join('') || '<span class="muted">None.</span>'}</div>`;
+}
+function sectorDetail(n) {
+  const s = n.data; const r = s.rubric;
+  const cos = D.companies.filter((c) => c.sector === s.id);
+  const dots = (k) => `<span class="dots">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= r.force[k].score ? 'on' : ''}"></i>`).join('')}</span>`;
+  return `<div class="eyebrow">Sector ${readTag(r.read)} <span class="read stage">${STAGE_LABEL[r.stage]}</span></div><h2>${esc(s.label)}</h2>
+    <p class="lead">${esc(r.headline)}</p>
+    <h3>How AI moves value here</h3>
+    ${['automation', 'moat', 'pricing', 'entrants'].map((k) => `<div class="force"><span class="n">${k === 'moat' ? 'Data moat' : k === 'entrants' ? 'New entrants' : k}</span>${dots(k)}<span class="w">${esc(r.force[k].why)}</span></div>`).join('')}
+    <h3>What a diligence would test</h3>
+    <ol class="ql">${r.diligence.map((q) => `<li>${esc(q)}</li>`).join('')}</ol>
+    <h3>Sponsors looking here</h3>
+    <div class="links">${s.firms.map((x) => chip(byId[x.id], ` <small style="color:var(--faint)">${x.weight}</small>`)).join('') || '<span class="muted">None in the window.</span>'}</div>
+    <h3>Companies · ${cos.length}${s.live ? ` · ${s.live} live` : ''}</h3>
+    <div class="links">${cos.map((c) => chip(byId[c.id])).join('') || '<span class="muted">None yet.</span>'}</div>`;
+}
+function companyDetail(n) {
+  const c = n.data;
+  const roles = c.links.map((l) => {
+    const f = byId[l.firm]; const who = f ? `<button data-go="${esc(f.id)}" style="all:unset;cursor:pointer;font-weight:600">${esc(f.label)}</button>` : esc(l.firm);
+    if (l.role === 'portco') return `<span class="role">${who} portfolio${l.heldSince ? ` since ${esc(l.heldSince)}` : ''}${l.stake ? ` · ${esc(l.stake)}` : ''}${l.valuation ? ` · ${esc(l.valuation)}` : ''}${l.exit && l.exit.status === 'process' ? ' · <b>sale process</b>' : ''}${l.exit && l.exit.note ? `<span class="x">${esc(l.exit.note)}</span>` : ''}</span>`;
+    return `<span class="role">${who} target${l.live ? ' · <b>live process</b>' : ' · watch'}${l.owner ? ` · owned by ${esc(l.owner)}${l.ownerSince ? ` since ${esc(l.ownerSince.slice(0, 4))}` : ''}` : l.ownership ? ` · ${esc(l.ownership)}` : ''}${l.listed ? ` · ${esc(l.listed)}` : ''}${l.why ? `<span class="x">${esc(l.why)}</span>` : ''}${l.move ? `<span class="x"><b>The move:</b> ${esc(l.move)}</span>` : ''}</span>`;
+  }).join('');
+  const sec = byId[c.sector];
+  return `<div class="eyebrow">${c.live ? 'Live · ' : ''}${esc(c.sectorLabel.split(' · ')[0])}${c.hq ? ' · ' + esc(c.hq) : ''}${c.apac ? ' · APAC' : ''}</div><h2>${esc(c.name)}</h2>
+    ${c.sectorLabel.includes(' · ') ? `<p class="muted">${esc(c.sectorLabel.split(' · ').slice(1).join(' · '))}</p>` : ''}
+    ${roles}
+    <h3>AI read ${readTag(c.impact.read)} <span class="read stage">${STAGE_LABEL[c.impact.stage]}</span></h3>
+    <ul class="ql">${c.impact.reasons.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
+    <p class="muted">Basis: ${c.impact.basis === 'rubric' ? 'the sector rubric' : 'a hand assessment'}${c.impact.aiMentions ? ` · ${c.impact.aiMentions} AI headline${c.impact.aiMentions > 1 ? 's' : ''} in the evidence` : ''}. ${sec ? `<button data-go="${esc(sec.id)}" style="all:unset;cursor:pointer;color:var(--accent)">Open the ${esc(sec.label)} rubric →</button>` : ''}</p>
+    <h3>What a diligence would test</h3>
+    <ol class="ql">${(sec ? sec.data.rubric.diligence.slice(0, 3) : []).map((q) => `<li>${esc(q)}</li>`).join('')}</ol>
+    <h3>Evidence · ${c.evidence.length}</h3>
+    <ul class="list">${c.evidence.map(item).join('') || '<li class="muted">No headline about this company in the window yet.</li>'}</ul>`;
+}
+function renderStats() {
+  const cos = N.filter((n) => n.type === 'company' && !n.hidden).map((n) => n.data);
+  const cnt = (r) => cos.filter((c) => c.impact.read === r).length;
+  $('stats').innerHTML = `<div class="stat"><b>${cos.length}</b><small>companies</small></div><div class="stat"><b>${cos.filter((c) => c.live).length}</b><small>live now</small></div>
+    <div class="stat"><b style="color:var(--tail)">${cnt('tailwind')}</b><small>tailwind</small></div><div class="stat"><b style="color:var(--head)">${cnt('headwind')}</b><small>headwind</small></div>`;
+}
+function renderFirms() {
+  $('firms').innerHTML = `<button class="chip on" data-firm="">All</button>` + D.firms.map((f) => `<button class="chip" data-firm="${esc(f.id)}">${esc(f.name.replace(' Capital', '').replace(' Associates', ''))}</button>`).join('');
+  $('firms').querySelectorAll('[data-firm]').forEach((b) => b.addEventListener('click', () => { v.firm = b.dataset.firm || null; $('firms').querySelectorAll('.chip').forEach((x) => x.classList.toggle('on', x === b)); applyFilters(); alpha = Math.max(alpha, 0.2); }));
+}
+$('filters').querySelectorAll('[data-f]').forEach((b) => b.addEventListener('click', () => { v.filter = b.dataset.f; $('filters').querySelectorAll('.chip').forEach((x) => x.classList.toggle('on', x === b)); applyFilters(); alpha = Math.max(alpha, 0.2); }));
+$('reads').querySelectorAll('[data-r]').forEach((b) => b.addEventListener('click', () => { const r = b.dataset.r; if (v.reads.has(r) && v.reads.size > 1) v.reads.delete(r); else v.reads.add(r); b.classList.toggle('on', v.reads.has(r)); applyFilters(); alpha = Math.max(alpha, 0.2); }));
+$('q').addEventListener('input', () => {
+  const q = $('q').value.trim().toLowerCase(); const hits = $('hits');
+  if (q.length < 2) { hits.innerHTML = ''; return; }
+  const found = N.filter((n) => n.label.toLowerCase().includes(q)).slice(0, 8);
+  hits.innerHTML = found.map((n) => `<li><button data-id="${esc(n.id)}">${esc(n.label)}<small>${n.type === 'company' ? esc(n.data.sectorLabel.split(' · ')[0]) : n.type}</small></button></li>`).join('') || '<li class="muted" style="padding:4px 8px;color:var(--faint)">No match.</li>';
+  hits.querySelectorAll('[data-id]').forEach((b) => b.addEventListener('click', () => { const n = byId[b.dataset.id]; if (n) { n.hidden = false; select(n, true); } $('q').value = ''; hits.innerHTML = ''; }));
+});
+
+// ── boot ──────────────────────────────────────────────────────────────────────
+palette();
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', palette);
+resize(); new ResizeObserver(() => { resize(); }).observe($('stage'));
+requestAnimationFrame(frame);
+fetch(DATA.base + 'impact.json', { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((d) => {
+  D = d; buildGraph(); applyFilters(); renderFirms(); renderDetail();
+  for (let i = 0; i < 120; i++) tick(16);   // settle before the first frame
+  fit(); refit = true;
+  $('loading').remove();
+  $('stamp').textContent = `built ${new Date(d.at).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })} · ${d.counts.companies} companies · ${d.counts.deals} deals in ${d.window}d`;
+}).catch((e) => { $('loading').innerHTML = `<b>The map could not be loaded.</b>&nbsp;${esc(e.message)}`; });
+</script>
+</body></html>

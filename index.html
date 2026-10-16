@@ -214,10 +214,10 @@ a { color: inherit; }
 <div class="toast" id="toast"></div>
 
 <script>
-const NAV = {"here":"pe","brief":"brief/","pe":"./","ai":"ai/"};
+const NAV = {"here":"pe","impact":"impact/","brief":"brief/","pe":"./","ai":"ai/"};
 // The two sections of one site. In the public copy the links are relative paths inside the repo;
 // in the private artifacts they are the other artifact's URL.
-document.getElementById('nav').innerHTML = [['brief', 'Morning Brief'], ['pe', 'PE Clients'], ['ai', 'AI &amp; Tech']]
+document.getElementById('nav').innerHTML = [['impact', 'AI Impact'], ['brief', 'Morning Brief'], ['pe', 'PE Clients'], ['ai', 'AI &amp; Tech']]
   .map(([k, l]) => `<a href="${String(NAV[k]).replace(/"/g, '&quot;')}"${NAV.here === k ? ' class="on"' : ''}>${l}</a>`).join('');
 const FIRMS = [{
   id: "warburg-pincus", name: "Warburg Pincus", match: /warburg/i,

@@ -217,9 +217,9 @@ a { color: inherit; }
 </div>
 
 <script>
-const NAV = {"here":"brief","brief":"./","pe":"../","ai":"../ai/"};
+const NAV = {"here":"brief","impact":"../impact/","brief":"./","pe":"../","ai":"../ai/"};
 const DATA = { pe: '../data/', ai: '../ai/data/' };
-document.getElementById('nav').innerHTML = [['brief', 'Morning Brief'], ['pe', 'PE Clients'], ['ai', 'AI &amp; Tech']]
+document.getElementById('nav').innerHTML = [['impact', 'AI Impact'], ['brief', 'Morning Brief'], ['pe', 'PE Clients'], ['ai', 'AI &amp; Tech']]
   .map(([k, l]) => `<a href="${String(NAV[k]).replace(/"/g, '&quot;')}"${NAV.here === k ? ' class="on"' : ''}>${l}</a>`).join('');
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
