@@ -215,14 +215,14 @@ function buildGraph() {
   D.firms.forEach((f, i) => {
     const act = Object.values(f.interest).reduce((a, b) => a + b, 0);
     const a = -Math.PI / 2 + (i / nf) * Math.PI * 2;
-    add({ id: f.id, type: 'firm', label: f.name, r: 22 + 14 * Math.sqrt(act / maxInterest), data: f, x: Math.cos(a) * 330, y: Math.sin(a) * 330, ax: Math.cos(a) * 330, ay: Math.sin(a) * 330, vx: 0, vy: 0, h: 0, seed: Math.random() * 1000 });
+    add({ id: f.id, type: 'firm', label: f.name, r: Math.max(radiusFor(f.name, css('--head-font'), 700, 12.5), 22 + 14 * Math.sqrt(act / maxInterest)), data: f, x: Math.cos(a) * 330, y: Math.sin(a) * 330, ax: Math.cos(a) * 330, ay: Math.sin(a) * 330, vx: 0, vy: 0, h: 0, seed: Math.random() * 1000 });
   });
   const maxSec = Math.max(1, ...D.sectors.map((s) => s.firms.reduce((a, x) => a + x.weight, 0)));
   const ns = D.sectors.length;
   D.sectors.forEach((s, i) => {
     const w = s.firms.reduce((a, x) => a + x.weight, 0);
     const a = -Math.PI / 2 + Math.PI / ns + (i / ns) * Math.PI * 2;
-    add({ id: s.id, type: 'sector', label: s.label, r: 20 + 20 * Math.sqrt(w / maxSec), read: s.rubric.read, data: s, x: Math.cos(a) * 160, y: Math.sin(a) * 160, vx: 0, vy: 0, h: 0, seed: Math.random() * 1000 });
+    add({ id: s.id, type: 'sector', label: s.label, r: Math.max(radiusFor(s.label, css('--sans'), 600, 12), 20 + 20 * Math.sqrt(w / maxSec)), read: s.rubric.read, data: s, x: Math.cos(a) * 160, y: Math.sin(a) * 160, vx: 0, vy: 0, h: 0, seed: Math.random() * 1000 });
   });
   D.companies.forEach((c) => {
     const sec = byId[c.sector]; const a = Math.random() * Math.PI * 2; const d = sec.r + 36 + Math.random() * 50;
@@ -347,14 +347,15 @@ function draw(now) {
       const col = readColor(n.read);
       ctx.fillStyle = C.sectorFill; ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
       ctx.strokeStyle = col; ctx.lineWidth = (n === v.sel ? 3.5 : 2.2) * Math.sqrt(cam.k); ctx.stroke();
-      ctx.fillStyle = C.fg; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.font = `600 ${Math.max(10, Math.min(14, 12 * cam.k))}px ${css('--sans')}`;
-      wrapText(n.label, x, y, r * 1.7, 13 * Math.max(0.85, Math.min(1.2, cam.k)));
+      ctx.fillStyle = C.fg; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      // a ring too small for its name at 8px is named beside it instead, by the label pass
+      if (!fitText(n.label, x, y, r, css('--sans'), 600, Math.max(8, Math.min(14, 12 * cam.k)))) labels.push({ n, x, y, r, a, pri: 2, font: `600 11px ${css('--sans')}` });
       taken.push([x - r, y - r, x + r, y + r]);
     } else {
       ctx.fillStyle = C.firm; ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
       if (n === v.sel) { ctx.strokeStyle = C.fg; ctx.lineWidth = 3; ctx.stroke(); }
-      ctx.fillStyle = C.firmInk; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.font = `700 ${Math.max(10, Math.min(15, 12.5 * cam.k))}px ${css('--head-font')}`;
-      wrapText(n.label, x, y, r * 2.05, 14 * Math.max(0.85, Math.min(1.2, cam.k)));
+      ctx.fillStyle = C.firmInk; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      if (!fitText(n.label, x, y, r, css('--head-font'), 700, Math.max(8, Math.min(15, 12.5 * cam.k)))) labels.push({ n, x, y, r, a, pri: 2, font: `700 11.5px ${css('--head-font')}` });
       taken.push([x - r, y - r, x + r, y + r]);
     }
   }
@@ -368,10 +369,11 @@ function draw(now) {
 // one always is. A halo in the map colour keeps the text legible over the links.
 const hits = (b, boxes) => boxes.some((t) => b[0] < t[2] && b[2] > t[0] && b[1] < t[3] && b[3] > t[1]);
 function placeLabels(labels, taken) {
-  ctx.font = `500 ${11.5}px ${css('--sans')}`; ctx.textBaseline = 'middle';
+  ctx.textBaseline = 'middle';
   const h = 14, pad = 3;
   labels.sort((p, q) => p.pri - q.pri);
   for (const l of labels) {
+    ctx.font = l.font || `500 11.5px ${css('--sans')}`;
     const w = ctx.measureText(l.n.label).width;
     const gap = l.r + 5;
     const spots = [
@@ -389,12 +391,34 @@ function placeLabels(labels, taken) {
     ctx.fillStyle = C.fg; ctx.fillText(l.n.label, spot[1], spot[2]);
   }
 }
-function wrapText(text, x, y, maxW, lh) {
+// Text inside a bubble. `linesIn` wraps a label at a font size and returns the lines with their
+// vertical offsets when every line sits within the circle's chord at its own height (else null);
+// `fitText` draws at the first size from `size0` down that fits, and leaves a label that cannot
+// fit at 8px to the tooltip; `radiusFor` is the smallest radius that holds a label at a size.
+function linesIn(text, r, font, weight, size) {
+  ctx.font = `${weight} ${size}px ${font}`;
+  const lh = size * 1.12, pad = 5;
   const words = text.split(' '); const lines = []; let cur = '';
-  for (const w of words) { const t = cur ? cur + ' ' + w : w; if (ctx.measureText(t).width > maxW && cur) { lines.push(cur); cur = w; } else cur = t; }
+  for (const w of words) { const t = cur ? cur + ' ' + w : w; if (ctx.measureText(t).width > r * 1.8 && cur) { lines.push(cur); cur = w; } else cur = t; }
   if (cur) lines.push(cur);
-  const y0 = y - (lines.length - 1) * lh / 2;
-  lines.forEach((l, i) => ctx.fillText(l, x, y0 + i * lh));
+  const y0 = -(lines.length - 1) * lh / 2;
+  for (let i = 0; i < lines.length; i++) {
+    const far = Math.abs(y0 + i * lh) + lh / 2;            // the line's edge furthest from the centre
+    const chord = far < r ? 2 * Math.sqrt(r * r - far * far) : 0;
+    if (ctx.measureText(lines[i]).width > chord - pad) return null;
+  }
+  return { lines, lh, y0 };
+}
+function fitText(text, x, y, r, font, weight, size0) {
+  for (let size = size0; size >= 8; size -= 0.5) {
+    const fit = linesIn(text, r, font, weight, size);
+    if (fit) { fit.lines.forEach((l, i) => ctx.fillText(l, x, y + fit.y0 + i * fit.lh)); return true; }
+  }
+  return false;
+}
+function radiusFor(text, font, weight, size) {
+  for (let r = 16; r < 80; r += 1) if (linesIn(text, r, font, weight, size)) return r;
+  return 80;
 }
 function frame(now) {
   if (D) { tick(now - last); easeCam(); draw(now); }
