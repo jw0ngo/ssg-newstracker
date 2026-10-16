@@ -1,95 +1,14 @@
 {
- "at": "2026-10-15T23:37:10Z",
- "since": "2026-10-14T23:37:10.000Z",
+ "at": "2026-10-16T23:37:00Z",
+ "since": "2026-10-15T23:37:10.000Z",
  "section": "PE Clients",
  "counts": {
-  "newSince": 15,
-  "relevant": 467,
-  "hot": 3,
+  "newSince": 12,
+  "relevant": 476,
+  "hot": 0,
   "carried": 0
  },
  "items": [
-  {
-   "id": "799a3238ef83",
-   "title": "IHH Healthcare considers bidding for TPG-owned Malaysian hospital assets",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS1pJSlBWdV9vRDZ4RHVmSFM4YmI3Mk80aUNaWHlxMFRwU01rd29KdURpR05BMy1xWmt1WmN0d0dSbW8zRWgyelpBV015X2dRY2VVckdFLXVucy1nVmZBMGwxTEFEc2ZwUWdVTVc2Znc1N0NiQS1LVS16UzYxQzg3SmIteEw4M0dmcGpqWktfRlFkZVB1aGFjdEFwUlRORV9UX3dIZg?oc=5",
-   "publisher": "Traders Union",
-   "date": "2026-10-14T04:11:39.000Z",
-   "firstSeen": "2026-10-14T23:37:43.978Z",
-   "group": "TPG",
-   "groupId": "tpg",
-   "kind": "acquire",
-   "phase": "rumour",
-   "subject": "IHH Healthcare",
-   "heat": 84,
-   "band": "hot",
-   "parts": {
-    "apac": 25,
-    "live": 20,
-    "tech": 15,
-    "sponsor": 15,
-    "size": 0,
-    "recency": 9
-   },
-   "why": "TPG is reported to be moving on IHH Healthcare in Southeast Asia: a buy-side tech DD is being scoped now in health IT.",
-   "call": "Call the TPG Southeast Asia deal team today and offer to scope the buy-side tech DD before advisers are set.",
-   "outlets": 3,
-   "carried": false
-  },
-  {
-   "id": "f296a7279aaa",
-   "title": "IHH said to join race for TPG’s Malaysian hospitals",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1abm5vRlpJLXlPOVZyM3hJODBRZFg1UTZxM3Y4ajJIOGRSWTF6ekFHYkMxSGRLRlV4TkdpRjNGazhXWVYxTWozQnVTRGdHQnBW?oc=5",
-   "publisher": "The Edge Malaysia",
-   "date": "2026-10-14T03:52:16.000Z",
-   "firstSeen": "2026-10-14T23:37:43.978Z",
-   "group": "TPG",
-   "groupId": "tpg",
-   "kind": "acquire",
-   "phase": "process",
-   "subject": "IHH",
-   "heat": 69,
-   "band": "hot",
-   "parts": {
-    "apac": 25,
-    "live": 20,
-    "tech": 0,
-    "sponsor": 15,
-    "size": 0,
-    "recency": 9
-   },
-   "why": "TPG is in a live process for IHH in Southeast Asia: bids are moving and the diligence window is open.",
-   "call": "Call the TPG Southeast Asia deal team now: confirmatory tech DD, and a red-flag view on the stack if they are not yet in exclusivity.",
-   "outlets": 1,
-   "carried": false
-  },
-  {
-   "id": "ebd6b25e4761",
-   "title": "Warburg Pincus says Ingenia takeover bid is 'best and final' after initial due diligence",
-   "url": "https://www.capitalbrief.com/briefing/warburg-pincus-says-ingenia-takeover-bid-is-best-and-final-after-initial-due-diligence-5ea951ab-ab7c-4bcd-96f6-1b69cdd156eb/",
-   "publisher": "Capital Brief",
-   "date": "2026-10-15T00:00:00.000Z",
-   "firstSeen": "2026-10-15T22:53:57Z",
-   "group": "Warburg Pincus",
-   "groupId": "warburg-pincus",
-   "kind": "acquire",
-   "phase": "process",
-   "subject": "Ingenia",
-   "heat": 65,
-   "band": "hot",
-   "parts": {
-    "apac": 20,
-    "live": 20,
-    "tech": 0,
-    "sponsor": 15,
-    "size": 0,
-    "recency": 10
-   },
-   "why": "Warburg Pincus is in a live process for Ingenia in India or ANZ: bids are moving and the diligence window is open.",
-   "call": "Call the Warburg Pincus India or ANZ deal team now: confirmatory tech DD, and a red-flag view on the stack if they are not yet in exclusivity.",
-   "outlets": 2,
-   "carried": false
-  },
   {
    "id": "e34e40decee4",
    "title": "Global Investors in Talks with EQT Over ₹2,500 Crore Investment in Hyderabad’s AIG Hospitals",
@@ -109,8 +28,7 @@
     "live": 12,
     "tech": 0,
     "sponsor": 15,
-    "size": 5,
-    "recency": 10
+    "size": 5
    },
    "why": "EQT is in talks on a growth round in Hyderabad AIG in India or ANZ (₹2,500 Crore): a lighter, faster confirmatory tech review.",
    "call": "Call the EQT growth team: offer a confirmatory tech review scoped to the round’s timetable.",
@@ -136,12 +54,11 @@
     "live": 20,
     "tech": 0,
     "sponsor": 15,
-    "size": 0,
-    "recency": 10
+    "size": 0
    },
    "why": "EQT is reported to be moving on Kakaku.com in North Asia: a buy-side tech DD is being scoped now.",
    "call": "Call the EQT North Asia deal team today and offer to scope the buy-side tech DD before advisers are set.",
-   "outlets": 3,
+   "outlets": 1,
    "carried": false
   },
   {
@@ -163,11 +80,36 @@
     "live": 14,
     "tech": 0,
     "sponsor": 15,
-    "size": 0,
-    "recency": 10
+    "size": 0
    },
    "why": "Warburg Pincus is in a live process for Ingenia Communities in India or ANZ: bids are moving and the diligence window is open.",
    "call": "Call the Warburg Pincus India or ANZ deal team now: confirmatory tech DD, and a red-flag view on the stack if they are not yet in exclusivity.",
+   "outlets": 1,
+   "carried": false
+  },
+  {
+   "id": "c84d43d88be1",
+   "title": "EQT assets rise to €354bn as Coller acquisition boosts fundraising",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSW9tM3hwbmhGZmFCcFkya3Ixc3ZzcnZ5Qm1za1c1ZnhCR3Zjb2UzX0pBbXVLbndMTTA2LWdXeC1ETmlPTC00V2M0azEtX1dISV94TnZHNWp0djYxUlNtdXJERFotSEdLM1lvSTlCbU9aZzVsd0JTbUdxZlBQQmVhVjBJYXMwS013RkxGdk1DcUQ2Y25MdjFVcHVqelcyVDdWU3lMdDA2WjlSRzdxZUVsVS1oR1lfUEU?oc=5",
+   "publisher": "Alternative Credit Investor",
+   "date": "2026-10-16T14:43:44.000Z",
+   "firstSeen": "2026-10-16T23:37:45.990Z",
+   "group": "EQT",
+   "groupId": "eqt",
+   "kind": "acquire",
+   "phase": "signed",
+   "subject": "Coller",
+   "heat": 49,
+   "band": "warm",
+   "parts": {
+    "apac": 0,
+    "live": 14,
+    "tech": 0,
+    "sponsor": 15,
+    "size": 10
+   },
+   "why": "EQT has agreed to buy Coller (€354bn): buy-side DD is done and the post-close tech agenda is open.",
+   "call": "Pitch the EQT deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.",
    "outlets": 1,
    "carried": false
   },
@@ -190,8 +132,7 @@
     "live": 14,
     "tech": 0,
     "sponsor": 15,
-    "size": 10,
-    "recency": 10
+    "size": 10
    },
    "why": "EQT has agreed to buy Stockbridge Adding (US$16.5B): buy-side DD is done and the post-close tech agenda is open.",
    "call": "Pitch the EQT deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.",
@@ -217,8 +158,7 @@
     "live": 14,
     "tech": 0,
     "sponsor": 15,
-    "size": 10,
-    "recency": 10
+    "size": 10
    },
    "why": "EQT has agreed to buy Sectors ($27B): buy-side DD is done and the post-close tech agenda is open.",
    "call": "Pitch the EQT deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.",
@@ -244,8 +184,7 @@
     "live": 14,
     "tech": 0,
     "sponsor": 15,
-    "size": 10,
-    "recency": 10
+    "size": 10
    },
    "why": "EQT has agreed to buy Alternatives ($16B): buy-side DD is done and the post-close tech agenda is open.",
    "call": "Pitch the EQT deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.",
@@ -253,29 +192,80 @@
    "carried": false
   },
   {
-   "id": "910df1a7053c",
-   "title": "EQT fee-generating AUM jumps 40% to €195bn as exits lag",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWVhHc0hWZld4TUl4VjNoU2ZFeXNqTVp1M2tfbUtQOGhENlZOQXdlVWVMSVFsSU80YWpPNkRjb2VObWxPN0ExaEhZODUxUXp2aGYwSFBDUHVpUGJfX0t3dXk1eDFORzM0QWlqMGV3cTRSS3hyRWdYbnZGSWNiX3ZZai1PNmhIbTgx?oc=5",
-   "publisher": "Alternatives Watch",
-   "date": "2026-10-15T21:26:34.000Z",
+   "id": "d4714e03183b",
+   "title": "G+T-Led Ingenia Gets $2.1B Final Warburg Pincus Bid",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX3poY3g4Mkl1eF9rb0d1cGZLQ1BQcXktNVdoVlRFcXcxYkxhQXNsNnRLVlNOMDlWOTRUVlFoT2dWc1R3UmVubG9CQ21ieVh0Vm5HUEJ6b2tZTV9TUXNwSF9Kb1pDU09oa3FOb3lMZW1QSHZ2NVp6LUxIQzBheHNRVm80TG45VFl3cl9yWHBZM0lSVktz0gFYQVVfeXFMUHZLYVFiU0ZuTmdFeGUxV1g0QkNfTWQxc1EtT3lnQi1OLVRpeEFSdlFsMFk1YmhHRWRsdDVBTEx6TV82MFJkNmpobEdjWkNaRkQxRG52b0lYLQ?oc=5",
+   "publisher": "Law360",
+   "date": "2026-10-16T05:03:38.000Z",
+   "firstSeen": "2026-10-16T23:37:45.990Z",
+   "group": "Warburg Pincus",
+   "groupId": "warburg-pincus",
+   "kind": "acquire",
+   "phase": "process",
+   "subject": "G+T Ingenia",
+   "heat": 47,
+   "band": "warm",
+   "parts": {
+    "apac": 0,
+    "live": 14,
+    "tech": 0,
+    "sponsor": 15,
+    "size": 8
+   },
+   "why": "Warburg Pincus is in a live process for G+T Ingenia ($2.1B): bids are moving and the diligence window is open.",
+   "call": "Call the Warburg Pincus deal team now: confirmatory tech DD, and a red-flag view on the stack if they are not yet in exclusivity.",
+   "outlets": 1,
+   "carried": false
+  },
+  {
+   "id": "0a9630fdee50",
+   "title": "Warburg Pincus sticks to $2.14B offer for Ingenia",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONDVGdkJrWmViaXBSZlp2Y2w4QmxpZk5FRC1NcTlpa3ZNTWtkMFlDbm4zc2RhV2luVWdCT0tJa21mRGwyZmxMSi1Jb1lBSGNQaENLRGJzQ3c3UWZkZUVpeDlia3BpN1RhNUI3RmhJLU84XzBzY2JlV0l4V0xmRlhwRER2UQ?oc=5",
+   "publisher": "Lawyerly",
+   "date": "2026-10-15T17:25:54.000Z",
    "firstSeen": "2026-10-15T23:37:51.023Z",
+   "group": "Warburg Pincus",
+   "groupId": "warburg-pincus",
+   "kind": "acquire",
+   "phase": "process",
+   "subject": "Ingenia",
+   "heat": 47,
+   "band": "warm",
+   "parts": {
+    "apac": 0,
+    "live": 14,
+    "tech": 0,
+    "sponsor": 15,
+    "size": 8
+   },
+   "why": "Warburg Pincus is in a live process for Ingenia ($2.14B): bids are moving and the diligence window is open.",
+   "call": "Call the Warburg Pincus deal team now: confirmatory tech DD, and a red-flag view on the stack if they are not yet in exclusivity.",
+   "outlets": 1,
+   "carried": false
+  },
+  {
+   "id": "e9b817b02eae",
+   "title": "Cleanaway shares fall more than 4% as EQT takeover deadline nears",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM2dEc0dTd0d5aXJGRFA2eWxOcjVCXy15QXdXbnNwc0ptWWxsdDlXaGlnT2JRaGNDdjZoT2NETlFwNXNGWVdpWnQ5Q2lLamJaQlZzM2JiUGNJM1lweXFaa0pYZy1Sc1BfYllXZUlQOG5wZUk5aUhhZ0lSYS1NOWZ0ZUV1Yw?oc=5",
+   "publisher": "Yahoo Finance Australia",
+   "date": "2026-10-16T00:44:00.000Z",
+   "firstSeen": "2026-10-16T23:37:45.990Z",
    "group": "EQT",
    "groupId": "eqt",
-   "kind": "exit",
-   "phase": "signed",
-   "subject": "AUM",
+   "kind": "acquire",
+   "phase": "rumour",
+   "subject": "Cleanaway",
    "heat": 45,
    "band": "warm",
    "parts": {
     "apac": 0,
-    "live": 10,
+    "live": 20,
     "tech": 0,
     "sponsor": 15,
-    "size": 10,
-    "recency": 10
+    "size": 0
    },
-   "why": "EQT has agreed to sell AUM (€195bn): VDD is spent; the buyer owns integration and EQT has proceeds to redeploy.",
-   "call": "Two calls: the buyer’s deal team on integration, and the EQT team on what the proceeds go into next.",
+   "why": "EQT is reported to be moving on Cleanaway: a buy-side tech DD is being scoped now.",
+   "call": "Call the EQT deal team today and offer to scope the buy-side tech DD before advisers are set.",
    "outlets": 1,
    "carried": false
   }
