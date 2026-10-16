@@ -6,7 +6,8 @@
 :root {
   --bg: #f3f5f6; --surface: #ffffff; --fg: #16202a; --muted: #5b6b78; --faint: #8a98a4; --rule: #d9e0e5;
   --accent: #0f6e73; --accent-soft: #dcefef; --hot: #c9661a; --hot-soft: #fbe9d9;
-  --tail: #0f6e73; --mixed: #b9801a; --head: #b5443f; --firm: #2b3a4c; --firm-ink: #ffffff; --sector-fill: rgba(22,32,42,.04);
+  --firm: #2b3a4c; --firm-ink: #ffffff; --sector-fill: rgba(22,32,42,.04);
+  --s-software: #4c6ef5; --s-ai: #9b51e0; --s-fintech: #12a594; --s-healthit: #e64980; --s-data: #228be6; --s-markets: #f08c00; --s-internet: #d9480f; --s-infra: #2f9e44; --s-other: #868e96;
   --map: #eef1f3; --grid: rgba(22,32,42,.05); --link: rgba(22,32,42,.16); --glow: rgba(15,110,115,.28);
   --sans: "IBM Plex Sans", system-ui, -apple-system, Segoe UI, sans-serif; --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace; --head-font: "Archivo Narrow", "IBM Plex Sans", sans-serif;
 }
@@ -14,14 +15,16 @@
   :root:not([data-theme="light"]) {
     --bg: #0e1316; --surface: #151b20; --fg: #e6ebee; --muted: #9aa8b2; --faint: #65737d; --rule: #243038;
     --accent: #4fc0c3; --accent-soft: #123538; --hot: #e38a45; --hot-soft: #3a2415;
-    --tail: #3fbcbf; --mixed: #d9a441; --head: #e0706a; --firm: #dfe6ec; --firm-ink: #0e1316; --sector-fill: rgba(230,235,238,.05);
+    --firm: #dfe6ec; --firm-ink: #0e1316; --sector-fill: rgba(230,235,238,.05);
+    --s-software: #748ffc; --s-ai: #b388f0; --s-fintech: #38d9c0; --s-healthit: #f783ac; --s-data: #4dabf7; --s-markets: #ffa94d; --s-internet: #ff8c5a; --s-infra: #69db7c; --s-other: #adb5bd;
     --map: #0b0f12; --grid: rgba(230,235,238,.045); --link: rgba(230,235,238,.14); --glow: rgba(79,192,195,.35);
   }
 }
 :root[data-theme="dark"] {
   --bg: #0e1316; --surface: #151b20; --fg: #e6ebee; --muted: #9aa8b2; --faint: #65737d; --rule: #243038;
   --accent: #4fc0c3; --accent-soft: #123538; --hot: #e38a45; --hot-soft: #3a2415;
-  --tail: #3fbcbf; --mixed: #d9a441; --head: #e0706a; --firm: #dfe6ec; --firm-ink: #0e1316; --sector-fill: rgba(230,235,238,.05);
+  --firm: #dfe6ec; --firm-ink: #0e1316; --sector-fill: rgba(230,235,238,.05);
+  --s-software: #748ffc; --s-ai: #b388f0; --s-fintech: #38d9c0; --s-healthit: #f783ac; --s-data: #4dabf7; --s-markets: #ffa94d; --s-internet: #ff8c5a; --s-infra: #69db7c; --s-other: #adb5bd;
   --map: #0b0f12; --grid: rgba(230,235,238,.045); --link: rgba(230,235,238,.14); --glow: rgba(79,192,195,.35);
 }
 * { box-sizing: border-box; }
@@ -59,7 +62,12 @@ h1 { font-family: var(--head-font); font-weight: 700; font-size: 30px; line-heig
 .legend i.firm { width: 16px; height: 16px; background: var(--firm); }
 .legend i.sector { width: 14px; height: 14px; border: 2px solid var(--accent); }
 .legend i.co { width: 10px; height: 10px; }
-.legend i.live { width: 10px; height: 10px; background: var(--tail); box-shadow: 0 0 0 3px var(--glow); }
+.legend i.live { width: 10px; height: 10px; background: var(--accent); box-shadow: 0 0 0 3px var(--glow); }
+.legend.sectors { grid-template-columns: 1fr 1fr; gap: 5px 10px; font-size: 12px; }
+.legend.sectors i { width: 9px; height: 9px; }
+.legend.sectors button { display: flex; align-items: center; gap: 7px; text-align: left; color: var(--muted); }
+.legend.sectors button:hover { color: var(--accent); }
+.chip .g { font-family: var(--mono); margin-right: 5px; color: var(--faint); }
 .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .stat { padding: 10px; border: 1px solid var(--rule); border-radius: 10px; background: var(--bg); }
 .stat b { display: block; font-family: var(--head-font); font-size: 22px; line-height: 1; }
@@ -82,7 +90,7 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
 .panel .lead { font-size: 15px; line-height: 1.5; }
 .panel .muted { color: var(--muted); font-size: 13px; }
 .read { display: inline-flex; align-items: center; gap: 6px; padding: 3px 9px; border-radius: 999px; font-family: var(--mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: #fff; }
-.read.tailwind { background: var(--tail); } .read.mixed { background: var(--mixed); } .read.headwind { background: var(--head); }
+.read.tailwind, .read.mixed, .read.headwind { background: var(--fg); color: var(--bg); } .read b { font-weight: 600; }
 .read.stage { background: transparent; color: var(--muted); border: 1px solid var(--rule); }
 .bars { display: grid; gap: 7px; }
 .bar { display: grid; grid-template-columns: 112px 1fr 30px; align-items: center; gap: 10px; font-size: 12.5px; }
@@ -147,18 +155,20 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
     </div>
     <div class="k">AI read</div>
     <div class="chips" id="reads">
-      <button class="chip on" data-r="tailwind"><span class="dot" style="background:var(--tail)"></span>Tailwind</button>
-      <button class="chip on" data-r="mixed"><span class="dot" style="background:var(--mixed)"></span>Mixed</button>
-      <button class="chip on" data-r="headwind"><span class="dot" style="background:var(--head)"></span>Headwind</button>
+      <button class="chip on" data-r="tailwind"><span class="g">↑</span>Tailwind</button>
+      <button class="chip on" data-r="mixed"><span class="g">→</span>Mixed</button>
+      <button class="chip on" data-r="headwind"><span class="g">↓</span>Headwind</button>
     </div>
     <div class="k">Sponsor</div>
     <div class="chips" id="firms"></div>
+    <div class="k">Sectors</div>
+    <div class="legend sectors" id="sectorLegend"></div>
     <div class="k">Legend</div>
     <div class="legend">
       <span><i class="firm"></i>A tracked sponsor — size is activity</span>
-      <span><i class="sector"></i>A sector — ring colour is the AI read</span>
-      <span><i class="co" style="background:var(--mixed)"></i>A company — colour is its AI read</span>
+      <span><i class="sector"></i>A sector ring, and its companies in the same colour</span>
       <span><i class="live"></i>A live process pulses</span>
+      <span><b style="font-family:var(--mono);color:var(--faint)">↑ → ↓</b>The AI read: tailwind, mixed, headwind</span>
     </div>
     <div class="k">On the map</div>
     <div class="stats" id="stats"></div>
@@ -185,6 +195,8 @@ const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const MOBILE = () => matchMedia('(max-width: 860px)').matches;
 const fmtDate = (iso) => { const d = new Date(iso); return Number.isNaN(d) ? '' : d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }); };
 const READ_LABEL = { tailwind: 'Tailwind', mixed: 'Mixed', headwind: 'Headwind' };
+const READ_GLYPH = { tailwind: '↑', mixed: '→', headwind: '↓' };
+const readWord = (r) => `${READ_GLYPH[r]} ${READ_LABEL[r]}`;
 const STAGE_LABEL = { pilot: 'adoption: pilots', scaling: 'adoption: scaling', core: 'adoption: core' };
 const ROLE = { target: 'target', portco: 'portfolio' };
 
@@ -200,10 +212,12 @@ const canvas = $('map'), ctx = canvas.getContext('2d');
 // ── colours ───────────────────────────────────────────────────────────────────
 let C = {};
 function palette() {
-  C = { tailwind: css('--tail'), mixed: css('--mixed'), headwind: css('--head'), firm: css('--firm'), firmInk: css('--firm-ink'), fg: css('--fg'), muted: css('--muted'), faint: css('--faint'),
+  C = { firm: css('--firm'), firmInk: css('--firm-ink'), fg: css('--fg'), muted: css('--muted'), faint: css('--faint'),
     link: css('--link'), grid: css('--grid'), map: css('--map'), sectorFill: css('--sector-fill'), glow: css('--glow'), surface: css('--surface') };
 }
-const readColor = (r) => C[r] || C.mixed;
+// Colour means sector: the ring and every company in it share a hue (the tokens --s-<sector>).
+const sectorColor = (id) => css(`--s-${id}`) || css('--s-other');
+const nodeColor = (n) => n.type === 'firm' ? C.firm : sectorColor(n.type === 'sector' ? n.id : n.data.sector);
 const alphaOf = (hex, a) => { const m = /^#([0-9a-f]{6})$/i.exec(hex); if (!m) return hex; const n = parseInt(m[1], 16); return `rgba(${n >> 16},${(n >> 8) & 255},${n & 255},${a})`; };
 
 // ── the graph ─────────────────────────────────────────────────────────────────
@@ -308,7 +322,7 @@ function draw(now) {
     let alpha_ = l.kind === 'interest' ? 0.35 + 0.5 * Math.min(1, l.w / 10) : l.kind === 'sector' ? 0.45 : 0.3;
     if (faded) alpha_ *= 0.12; if (on) alpha_ = Math.min(0.9, alpha_ + 0.3);
     ctx.globalAlpha = alpha_;
-    ctx.strokeStyle = on ? (l.a.type === 'company' ? readColor(l.a.read) : alphaOf(C.fg, 0.55)) : C.link;
+    ctx.strokeStyle = on ? (l.a.type === 'company' ? nodeColor(l.a) : alphaOf(C.fg, 0.55)) : C.link;
     ctx.lineWidth = (l.kind === 'interest' ? Math.max(1, Math.min(4, 0.8 + l.w * 0.3)) : on ? 1.4 : 1) * Math.sqrt(cam.k);
     if (l.kind === 'target' || l.kind === 'portco') ctx.setLineDash([3 * cam.k, 5 * cam.k]); else ctx.setLineDash([]);
     ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(bx, by); ctx.stroke();
@@ -334,7 +348,7 @@ function draw(now) {
     const a = dim(n) ? 0.18 : 1;
     ctx.globalAlpha = a;
     if (n.type === 'company') {
-      const col = readColor(n.read);
+      const col = nodeColor(n);
       if (n.live && !REDUCED) { const ph = (Math.sin((now + n.seed * 50) / 520) + 1) / 2; ctx.fillStyle = alphaOf(col, 0.12 + 0.18 * (1 - ph)); ctx.beginPath(); ctx.arc(x, y, r + 5 + 9 * ph, 0, Math.PI * 2); ctx.fill(); }
       else if (n.live) { ctx.fillStyle = alphaOf(col, 0.22); ctx.beginPath(); ctx.arc(x, y, r + 8, 0, Math.PI * 2); ctx.fill(); }
       ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
@@ -344,7 +358,7 @@ function draw(now) {
       if (want) labels.push({ n, x, y, r, a: a * Math.max(near ? 0.95 : 0, n.h, Math.min(1, (cam.k - 1.4) * 2)), pri: n === v.sel ? 0 : n === v.hover ? 1 : n.live ? 2 : 3 });
       else taken.push([x - r, y - r, x + r, y + r]);
     } else if (n.type === 'sector') {
-      const col = readColor(n.read);
+      const col = nodeColor(n);
       ctx.fillStyle = C.sectorFill; ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
       ctx.strokeStyle = col; ctx.lineWidth = (n === v.sel ? 3.5 : 2.2) * Math.sqrt(cam.k); ctx.stroke();
       ctx.fillStyle = C.fg; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
@@ -493,8 +507,8 @@ document.addEventListener('keydown', (e) => { if (e.key === 'Escape') select(nul
 $('close').addEventListener('click', () => select(null));
 function tipOf(n) {
   if (n.type === 'firm') return `<b>${esc(n.label)}</b><small>${n.data.bidding.length} in talks · ${n.data.buying.length} bought · ${n.data.portfolio} held</small>`;
-  if (n.type === 'sector') return `<b>${esc(n.label)}</b><small>${READ_LABEL[n.read]} · ${n.data.companies} companies · ${n.data.live} live</small>`;
-  const c = n.data; return `<b>${esc(c.name)}</b><small>${esc(c.sectorLabel.split(' · ')[0])} · ${READ_LABEL[c.impact.read]}${c.live ? ' · live' : ''}</small>`;
+  if (n.type === 'sector') return `<b>${esc(n.label)}</b><small>${readWord(n.read)} · ${n.data.companies} companies · ${n.data.live} live</small>`;
+  const c = n.data; return `<b>${esc(c.name)}</b><small>${esc(c.sectorLabel.split(' · ')[0])} · ${readWord(c.impact.read)}${c.live ? ' · live' : ''}</small>`;
 }
 function select(n, pan) {
   v.sel = n; renderDetail(); $('panel').classList.toggle('open', !!n);
@@ -502,8 +516,8 @@ function select(n, pan) {
 }
 
 // ── the detail panel ──────────────────────────────────────────────────────────
-const chip = (n, extra = '') => { if (!n) return ''; const col = n.type === 'firm' ? css('--firm') : readColor(n.read); return `<button data-go="${esc(n.id)}" class="${n.live ? 'live' : ''}"><i style="background:${col}"></i>${esc(n.label)}${extra}</button>`; };
-const readTag = (r) => `<span class="read ${r}">${READ_LABEL[r]}</span>`;
+const chip = (n, extra = '') => { if (!n) return ''; const col = nodeColor(n); return `<button data-go="${esc(n.id)}" class="${n.live ? 'live' : ''}"><i style="background:${col}"></i>${esc(n.label)}${extra}</button>`; };
+const readTag = (r) => `<span class="read ${r}"><b>${READ_GLYPH[r]}</b> ${READ_LABEL[r]}</span>`;
 const item = (e) => `<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a><span class="m">${esc(e.publisher || e.firm || '')}${e.publisher || e.firm ? ' · ' : ''}${fmtDate(e.date)}${e.source === 'ai' ? ' · AI & Tech' : e.source === 'pe' ? ' · PE Clients' : e.source === 'signal' ? ' · signal' : ''}</span></li>`;
 function renderDetail() {
   const el = $('detail'); const n = v.sel;
@@ -519,7 +533,7 @@ function overview() {
     <p class="lead">Seven sponsors in the outer ring, the sectors they are looking at inside it, and the companies they are buying, bidding on and holding around each sector. Every company carries an AI read — tailwind, mixed or headwind for its enterprise value — and the evidence behind it.</p>
     <p class="muted">Click a bubble for the detail. Interest flows from a sponsor to a sector as particles; a company in a live process pulses. Drag to move, scroll to zoom.</p>
     <h3>Where the sponsors are looking · last ${D.window} days</h3>
-    <div class="bars">${secs.map(({ s, w }) => `<div class="bar"><span>${esc(s.label)}</span><i><b style="width:${Math.round(100 * w / max)}%;background:${readColor(s.rubric.read)}"></b></i><small>${w}</small></div>`).join('')}</div>
+    <div class="bars">${secs.map(({ s, w }) => `<div class="bar"><span>${esc(s.label)}</span><i><b style="width:${Math.round(100 * w / max)}%;background:${sectorColor(s.id)}"></b></i><small>${w}</small></div>`).join('')}</div>
     <h3>Live now</h3>
     <div class="links">${live.map((c) => chip(byId[c.id])).join('') || '<span class="muted">Nothing in process.</span>'}</div>
     <h3>The AI read</h3>
@@ -535,7 +549,7 @@ function firmDetail(n) {
   return `<div class="eyebrow">Sponsor · tier ${esc(f.tier)}</div><h2>${esc(f.name)}</h2>
     <p class="muted">${f.deals} headlines in the last ${D.window} days · ${f.bidding.length} in talks · ${f.buying.length} signed or closed · ${f.portfolio} held · ${f.targets} targets</p>
     <h3>Sector interest</h3>
-    <div class="bars">${secs.map(([s, w]) => `<div class="bar"><span>${esc((byId[s] || {}).label || s)}</span><i><b style="width:${Math.round(100 * w / tot)}%;background:${readColor((byId[s] || {}).read)}"></b></i><small>${w}</small></div>`).join('') || '<span class="muted">No sector read yet.</span>'}</div>
+    <div class="bars">${secs.map(([s, w]) => `<div class="bar"><span>${esc((byId[s] || {}).label || s)}</span><i><b style="width:${Math.round(100 * w / tot)}%;background:${sectorColor(s)}"></b></i><small>${w}</small></div>`).join('') || '<span class="muted">No sector read yet.</span>'}</div>
     <h3>Bidding on · reported talks and processes</h3>
     <ul class="list">${f.bidding.map(entry).join('') || '<li class="muted">Nothing reported in the window.</li>'}</ul>
     <h3>Buying · signed or closed</h3>
@@ -583,7 +597,11 @@ function renderStats() {
   const cos = N.filter((n) => n.type === 'company' && !n.hidden).map((n) => n.data);
   const cnt = (r) => cos.filter((c) => c.impact.read === r).length;
   $('stats').innerHTML = `<div class="stat"><b>${cos.length}</b><small>companies</small></div><div class="stat"><b>${cos.filter((c) => c.live).length}</b><small>live now</small></div>
-    <div class="stat"><b style="color:var(--tail)">${cnt('tailwind')}</b><small>tailwind</small></div><div class="stat"><b style="color:var(--head)">${cnt('headwind')}</b><small>headwind</small></div>`;
+    <div class="stat"><b>↑ ${cnt('tailwind')}</b><small>tailwind</small></div><div class="stat"><b>↓ ${cnt('headwind')}</b><small>headwind</small></div>`;
+}
+function renderSectorLegend() {
+  $('sectorLegend').innerHTML = D.sectors.map((s) => `<button data-sec="${esc(s.id)}"><i style="background:${sectorColor(s.id)}"></i>${esc(s.label)}</button>`).join('');
+  $('sectorLegend').querySelectorAll('[data-sec]').forEach((b) => b.addEventListener('click', () => select(byId[b.dataset.sec], true)));
 }
 function renderFirms() {
   $('firms').innerHTML = `<button class="chip on" data-firm="">All</button>` + D.firms.map((f) => `<button class="chip" data-firm="${esc(f.id)}">${esc(f.name.replace(' Capital', '').replace(' Associates', ''))}</button>`).join('');
@@ -605,7 +623,7 @@ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', palette);
 resize(); new ResizeObserver(() => { resize(); }).observe($('stage'));
 requestAnimationFrame(frame);
 fetch(DATA.base + 'impact.json', { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((d) => {
-  D = d; buildGraph(); applyFilters(); renderFirms(); renderDetail();
+  D = d; buildGraph(); applyFilters(); renderFirms(); renderSectorLegend(); renderDetail();
   for (let i = 0; i < 120; i++) tick(16);   // settle before the first frame
   fit(); refit = true;
   $('loading').remove();
