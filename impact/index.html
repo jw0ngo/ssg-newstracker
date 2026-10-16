@@ -165,8 +165,9 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
     <div class="legend sectors" id="sectorLegend"></div>
     <div class="k">Legend</div>
     <div class="legend">
-      <span><i class="firm"></i>A tracked sponsor — size is activity</span>
-      <span><i class="sector"></i>A sector ring, and its companies in the same colour</span>
+      <span><i class="firm"></i>A sponsor — sized by assets managed and activity</span>
+      <span><i class="sector"></i>A sector ring, sized by its companies and activity; its companies share its colour</span>
+      <span><i class="co" style="background:var(--faint)"></i>A company — sized by valuation and activity</span>
       <span><i class="live"></i>A live process pulses</span>
       <span><b style="font-family:var(--mono);color:var(--faint)">↑ → ↓</b>The AI read: tailwind, mixed, headwind</span>
     </div>
@@ -224,23 +225,21 @@ const alphaOf = (hex, a) => { const m = /^#([0-9a-f]{6})$/i.exec(hex); if (!m) r
 function buildGraph() {
   N.length = 0; L.length = 0; for (const k in byId) delete byId[k];
   const add = (n) => { N.push(n); byId[n.id] = n; return n; };
-  const maxInterest = Math.max(1, ...D.firms.map((f) => Object.values(f.interest).reduce((a, b) => a + b, 0)));
+  // Bubble area follows the data's size (0–1): sponsors by scale and activity, sectors by companies
+  // and activity, companies by valuation and activity. A ring is never smaller than its name needs.
   const nf = D.firms.length;
   D.firms.forEach((f, i) => {
-    const act = Object.values(f.interest).reduce((a, b) => a + b, 0);
     const a = -Math.PI / 2 + (i / nf) * Math.PI * 2;
-    add({ id: f.id, type: 'firm', label: f.name, r: Math.max(radiusFor(f.name, css('--head-font'), 700, 12.5), 22 + 14 * Math.sqrt(act / maxInterest)), data: f, x: Math.cos(a) * 330, y: Math.sin(a) * 330, ax: Math.cos(a) * 330, ay: Math.sin(a) * 330, vx: 0, vy: 0, h: 0, seed: Math.random() * 1000 });
+    add({ id: f.id, type: 'firm', label: f.name, r: Math.max(radiusFor(f.name, css('--head-font'), 700, 12.5), 18 + 34 * Math.sqrt(f.size || 0)), data: f, x: Math.cos(a) * 330, y: Math.sin(a) * 330, ax: Math.cos(a) * 330, ay: Math.sin(a) * 330, vx: 0, vy: 0, h: 0, seed: Math.random() * 1000 });
   });
-  const maxSec = Math.max(1, ...D.sectors.map((s) => s.firms.reduce((a, x) => a + x.weight, 0)));
   const ns = D.sectors.length;
   D.sectors.forEach((s, i) => {
-    const w = s.firms.reduce((a, x) => a + x.weight, 0);
     const a = -Math.PI / 2 + Math.PI / ns + (i / ns) * Math.PI * 2;
-    add({ id: s.id, type: 'sector', label: s.label, r: Math.max(radiusFor(s.label, css('--sans'), 600, 12), 20 + 20 * Math.sqrt(w / maxSec)), read: s.rubric.read, data: s, x: Math.cos(a) * 160, y: Math.sin(a) * 160, vx: 0, vy: 0, h: 0, seed: Math.random() * 1000 });
+    add({ id: s.id, type: 'sector', label: s.label, r: Math.max(radiusFor(s.label, css('--sans'), 600, 12), 18 + 36 * Math.sqrt(s.size || 0)), read: s.rubric.read, data: s, x: Math.cos(a) * 160, y: Math.sin(a) * 160, vx: 0, vy: 0, h: 0, seed: Math.random() * 1000 });
   });
   D.companies.forEach((c) => {
     const sec = byId[c.sector]; const a = Math.random() * Math.PI * 2; const d = sec.r + 36 + Math.random() * 50;
-    add({ id: c.id, type: 'company', label: c.name, r: c.live ? 7.5 : 5.5, read: c.impact.read, live: c.live, data: c, x: sec.x + Math.cos(a) * d, y: sec.y + Math.sin(a) * d, vx: 0, vy: 0, h: 0, seed: Math.random() * 1000 });
+    add({ id: c.id, type: 'company', label: c.name, r: 3 + 13 * (c.size || 0) + (c.live ? 1 : 0), read: c.impact.read, live: c.live, data: c, x: sec.x + Math.cos(a) * d, y: sec.y + Math.sin(a) * d, vx: 0, vy: 0, h: 0, seed: Math.random() * 1000 });
   });
   for (const l of D.links) {
     const a = byId[l.from], b = byId[l.to]; if (!a || !b) continue;
@@ -506,9 +505,9 @@ $('zfit').addEventListener('click', fit);
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') select(null); });
 $('close').addEventListener('click', () => select(null));
 function tipOf(n) {
-  if (n.type === 'firm') return `<b>${esc(n.label)}</b><small>${n.data.bidding.length} in talks · ${n.data.buying.length} bought · ${n.data.portfolio} held</small>`;
+  if (n.type === 'firm') return `<b>${esc(n.label)}</b><small>${n.data.aum ? `~US$${n.data.aum}bn AUM · ` : ''}${n.data.bidding.length} in talks · ${n.data.buying.length} bought · ${n.data.portfolio} held</small>`;
   if (n.type === 'sector') return `<b>${esc(n.label)}</b><small>${readWord(n.read)} · ${n.data.companies} companies · ${n.data.live} live</small>`;
-  const c = n.data; return `<b>${esc(c.name)}</b><small>${esc(c.sectorLabel.split(' · ')[0])} · ${readWord(c.impact.read)}${c.live ? ' · live' : ''}</small>`;
+  const c = n.data; return `<b>${esc(c.name)}</b><small>${esc(c.sectorLabel.split(' · ')[0])}${c.valuation ? ' · ' + esc(c.valuation.text) : ''} · ${readWord(c.impact.read)}${c.live ? ' · live' : ''}</small>`;
 }
 function select(n, pan) {
   v.sel = n; renderDetail(); $('panel').classList.toggle('open', !!n);
@@ -548,6 +547,7 @@ function firmDetail(n) {
   const entry = (e) => `<li>${e.subject ? `<span class="sbj">${esc(e.subject)}</span>` : ''}<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a><span class="m">${esc(e.publisher || '')} · ${fmtDate(e.date)}${e.sector ? ' · ' + esc((byId[e.sector] || {}).label || e.sector) : ''}</span></li>`;
   return `<div class="eyebrow">Sponsor · tier ${esc(f.tier)}</div><h2>${esc(f.name)}</h2>
     <p class="muted">${f.deals} headlines in the last ${D.window} days · ${f.bidding.length} in talks · ${f.buying.length} signed or closed · ${f.portfolio} held · ${f.targets} targets</p>
+    <p class="muted">Sized by ${f.aum ? `~US$${f.aum}bn under management` : 'scale (not known)'} and activity ${f.activity}.</p>
     <h3>Sector interest</h3>
     <div class="bars">${secs.map(([s, w]) => `<div class="bar"><span>${esc((byId[s] || {}).label || s)}</span><i><b style="width:${Math.round(100 * w / tot)}%;background:${sectorColor(s)}"></b></i><small>${w}</small></div>`).join('') || '<span class="muted">No sector read yet.</span>'}</div>
     <h3>Bidding on · reported talks and processes</h3>
@@ -571,6 +571,7 @@ function sectorDetail(n) {
     <ol class="ql">${r.diligence.map((q) => `<li>${esc(q)}</li>`).join('')}</ol>
     <h3>Sponsors looking here</h3>
     <div class="links">${s.firms.map((x) => chip(byId[x.id], ` <small style="color:var(--faint)">${x.weight}</small>`)).join('') || '<span class="muted">None in the window.</span>'}</div>
+    <p class="muted">Sized by its ${cos.length} companies and activity ${s.activity} (sponsor interest and live processes).</p>
     <h3>Companies · ${cos.length}${s.live ? ` · ${s.live} live` : ''}</h3>
     <div class="links">${cos.map((c) => chip(byId[c.id])).join('') || '<span class="muted">None yet.</span>'}</div>`;
 }
@@ -590,6 +591,7 @@ function companyDetail(n) {
     <p class="muted">Basis: ${c.impact.basis === 'rubric' ? 'the sector rubric' : 'a hand assessment'}${c.impact.aiMentions ? ` · ${c.impact.aiMentions} AI headline${c.impact.aiMentions > 1 ? 's' : ''} in the evidence` : ''}. ${sec ? `<button data-go="${esc(sec.id)}" style="all:unset;cursor:pointer;color:var(--accent)">Open the ${esc(sec.label)} rubric →</button>` : ''}</p>
     <h3>What a diligence would test</h3>
     <ol class="ql">${(sec ? sec.data.rubric.diligence.slice(0, 3) : []).map((q) => `<li>${esc(q)}</li>`).join('')}</ol>
+    <p class="muted">Sized by ${c.valuation ? `a stated ${esc(c.valuation.text)}` : 'no stated figure (reads as the median)'} and activity ${c.activity} (${c.evidence.length} headlines${c.live ? ', in process' : ''}${c.impact.aiMentions ? `, ${c.impact.aiMentions} on AI` : ''}).</p>
     <h3>Evidence · ${c.evidence.length}</h3>
     <ul class="list">${c.evidence.map(item).join('') || '<li class="muted">No headline about this company in the window yet.</li>'}</ul>`;
 }
