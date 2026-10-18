@@ -121,6 +121,40 @@ a { color: inherit; }
   background: var(--fg); color: var(--bg); font-size: 13px; font-weight: 500; padding: 8px 14px; border-radius: 999px; opacity: 0; pointer-events: none; transition: opacity .18s, transform .18s; }
 .toast.on { opacity: 1; transform: translate(-50%, 0); }
 @media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
+.more { display: block; width: 100%; text-align: center; padding: 10px 12px; }
+
+/* ── phones: one column; the chip row scrolls sideways instead of wrapping; the sticky strip
+   folds to the segment control once the list is under way (.mini, set on scroll), and a button
+   brings the top back. ── */
+.totop { display: none; position: fixed; right: 14px; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 6; width: 42px; height: 42px; border-radius: 50%;
+  background: var(--surface); border: 1px solid var(--rule); color: var(--muted); font-size: 18px; box-shadow: 0 2px 10px rgba(0,0,0,.14); }
+@media (max-width: 640px) {
+  .wrap { padding-inline: 14px; padding-bottom: 40px; min-width: 0; }
+  .top { padding-top: 10px; gap: 8px; }
+  .site { flex-wrap: wrap; gap: 6px 12px; }
+  .nav { width: 100%; overflow-x: auto; scrollbar-width: none; margin-inline: -14px; padding-inline: 14px; gap: 2px; }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a { flex: none; white-space: nowrap; padding: 6px 8px; font-size: 13px; }
+  .mast h1 { font-size: 24px; }
+  .stamp { font-size: 10.5px; }
+  .blurb { font-size: 12.5px; }
+  .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: -14px; padding-inline: 14px; padding-bottom: 2px; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: none; white-space: nowrap; }
+  .focus-label, .day { font-size: 11px; }
+  .top.mini .site, .top.mini .mast, .top.mini .blurb, .top.mini .focus { display: none; }
+  .top.mini { padding-top: 6px; padding-bottom: 8px; box-shadow: 0 1px 0 var(--rule); }
+  .item { padding: 10px 11px 11px; border-radius: 9px; }
+  .title { font-size: 18px; }
+  .totop:not([hidden]) { display: grid; place-items: center; }
+}
+@media (max-width: 380px) { .nav a { padding: 6px 6px; font-size: 12.5px; } }
+@media (pointer: coarse) {
+  .chip { padding: 7px 12px; }
+  .btn { padding: 8px 12px; }
+  .sitlink, .ln, .apac { padding: 3px 8px; }
+  .hs { padding: 2px 8px; }
+}
 
 /* ── situations: one card per deal, round or process, with the phase it has reached ── */
 .tag.ph-rumour { color: var(--info); background: var(--info-soft); }
@@ -141,7 +175,7 @@ a { color: inherit; }
 </style>
 
 <div class="wrap">
-  <div class="top">
+  <div class="top" id="top">
     <div class="site"><span class="brand">SSG Newstracker</span><nav class="nav" id="nav" aria-label="Sections"></nav></div>
     <div class="mast">
       <h1 id="h1">AI & Tech Tracker</h1>
@@ -162,6 +196,7 @@ a { color: inherit; }
   <p class="foot" id="footSits" hidden>Situations group the stories of one deal, round, listing or process across the weeks it runs, by the company they are about (read from the headline) and by shared words, so a dozen headlines on one sale process read as one card. The phase is the furthest any report got: Reported (explores, weighs, in talks), In process (advisers hired, data room, bids, an unaccepted offer), Agreed, Completed. The heat is the hottest story's. A card is shown when a situation has more than one story or is in process; tap it for every story.</p>
   <p class="foot" id="foot">Priority is ordered by Heat, a 0–100 score for the Singapore SSG team: APAC relevance (25 — Singapore and SE Asia first, then India and ANZ, then North Asia), live process (20), technology intensity (20), sponsor relationship (15), deal size (10) and ten for the day it breaks; from then on the whole number fades with age — full for two days, two-thirds at a week, half at ten days — so the list always leads with the latest. Tap the flame number for the breakdown. An item is on the list when it is relevant: an APAC item whenever it carries an event or a sector; a global item when it is a transaction — a sale process, a deal or a listing in one of SSG's sectors, a growth round of $100m or more, anything with a billion-dollar figure — or a platform shift that reaches a sector. The rest is kept behind the link at the bottom; the page carries the last 90 days and the archive in the repo keeps everything. Event, sector and APAC are read from the headline by keyword; the matched words sit under each tag, and the small label is the beat the story came from. A story tagged BACKGROUND is a profile page or a re-told old deal and sits below the bar. <span id="footTriage">Pursue, Watch, Dismiss and notes are saved and shared with anyone who can open this page.</span></p>
 </div>
+<button class="totop" id="toTop" hidden aria-label="Back to top">↑</button>
 <div class="toast" id="toast"></div>
 
 <script>
@@ -925,6 +960,9 @@ let pull = null;         // { at, added } — written by the morning routine
 let db = null, canWrite = true, editing = null, loaded = false;
 const openSit = new Set();   // situation cards expanded this visit
 let sitPhase = 'all';        // the Situations segment's phase filter
+// The list comes in pages of sixty: a phone is not asked to lay out a thousand cards, and the
+// page is a morning read, not an archive. The count resets when the view changes.
+const PAGE = 60; let shown = PAGE, shownKey = '';
 let sitOf = {};
 let sitEvent = {};           // story id → situation id: reports of one situation within three days are one card, however worded              // story id → its situation, for the chip on a card
 
@@ -1111,7 +1149,14 @@ function render() {
   // Pipeline keeps its own order and no labels.
   const BAND = { hot: `Hot · ${HEAT.BANDS.hot}+`, warm: `Warm · ${HEAT.BANDS.warm}–${HEAT.BANDS.hot - 1}`, cool: `Cool · under ${HEAT.BANDS.warm}` };
   let lastBand = '';
-  $('list').innerHTML = list.length ? list.map((i) => { const k = v.seg === 'priority' ? i.heat : ''; const head = k && k !== lastBand ? `<div class="day">${BAND[k]}</div>` : ''; lastBand = k; return head + card(i); }).join('') : `<div class="empty">${emptyMsg}</div>`;
+  const key = [v.seg, v.lens, v.apac, v.showDismissed].join('|');
+  if (key !== shownKey) { shownKey = key; shown = PAGE; }
+  const page = list.slice(0, shown);
+  $('list').innerHTML = page.length ? page.map((i) => { const k = v.seg === 'priority' ? i.heat : ''; const head = k && k !== lastBand ? `<div class="day">${BAND[k]}</div>` : ''; lastBand = k; return head + card(i); }).join('') : `<div class="empty">${emptyMsg}</div>`;
+  if (list.length > shown) {
+    $('list').insertAdjacentHTML('beforeend', `<div class="foot"><button class="btn more" id="showMore">Show the next ${Math.min(PAGE, list.length - shown)} of ${list.length}</button></div>`);
+    $('showMore').addEventListener('click', () => { shown += PAGE; render(); });
+  }
   const gone = hidden.length + dismissed.length;
   if (v.seg === 'priority' && gone) {
     const what = [hidden.length ? `${hidden.length} below the bar` : '', dismissed.length ? `${dismissed.length} dismissed` : ''].filter(Boolean).join(', ');
@@ -1171,6 +1216,21 @@ $('list').addEventListener('click', async (e) => {
     if (await saveTriage(id, { note })) { editing = null; toast(note ? 'Note saved' : 'Note cleared'); render(); }
   }
 });
+
+// ── phones: the sticky strip folds to the segment control once the list is under way, and a
+// button brings the top back. The fold scrolls by the height it gives up, so the card being read
+// stays where it is; unfolding happens at the top, where the strip is wanted whole.
+const topEl = $('top'), toTop = $('toTop'), phone = matchMedia('(max-width: 640px)');
+let mini = false;
+function onScroll() {
+  const y = window.scrollY;
+  toTop.hidden = !(phone.matches && y > 900);
+  if (!phone.matches) { if (mini) { mini = false; topEl.classList.remove('mini'); } return; }
+  if (!mini && y > 320) { const h = topEl.offsetHeight; mini = true; topEl.classList.add('mini'); window.scrollBy(0, topEl.offsetHeight - h); }
+  else if (mini && y < 24) { mini = false; topEl.classList.remove('mini'); }
+}
+addEventListener('scroll', onScroll, { passive: true });
+toTop.addEventListener('click', () => { mini = false; topEl.classList.remove('mini'); window.scrollTo(0, 0); });
 
 render();
 

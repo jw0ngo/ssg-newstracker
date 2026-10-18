@@ -156,6 +156,54 @@ a { color: inherit; }
   background: var(--fg); color: var(--bg); font-size: 13px; font-weight: 500; padding: 8px 14px; border-radius: 999px; opacity: 0; pointer-events: none; transition: opacity .18s, transform .18s; }
 .toast.on { opacity: 1; transform: translate(-50%, 0); }
 @media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
+.more { display: block; width: 100%; text-align: center; padding: 10px 12px; }
+
+/* ── phones: one column; the control rows scroll sideways instead of wrapping; the sticky strip
+   folds to the firm and tab rows once the list is under way (.mini, set on scroll), and a button
+   brings the top back. The tab row never wraps or widens the page at any width. ── */
+.tabs { overflow-x: auto; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tabs button { flex: none; white-space: nowrap; }
+.totop { display: none; position: fixed; right: 14px; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 6; width: 42px; height: 42px; border-radius: 50%;
+  background: var(--surface); border: 1px solid var(--rule); color: var(--muted); font-size: 18px; box-shadow: 0 2px 10px rgba(0,0,0,.14); }
+@media (max-width: 640px) {
+  .wrap { padding-inline: 14px; padding-bottom: 40px; min-width: 0; }
+  .top { padding-top: 10px; gap: 8px; }
+  .site { flex-wrap: wrap; gap: 6px 12px; }
+  .nav { width: 100%; overflow-x: auto; scrollbar-width: none; margin-inline: -14px; padding-inline: 14px; gap: 2px; }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a { flex: none; white-space: nowrap; padding: 6px 8px; font-size: 13px; }
+  .mast h1 { font-size: 24px; }
+  .stamp { font-size: 10.5px; }
+  .blurb { font-size: 12.5px; }
+  .firms { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: -14px; padding-inline: 14px; gap: 5px; }
+  .firms::-webkit-scrollbar { display: none; }
+  .firm { flex: none; padding: 3px; gap: 7px; }
+  .firm.on { padding-right: 10px; }
+  .firm:not(.on) .firm-name { display: none; }
+  .firm-logo { width: 30px; height: 30px; border-radius: 7px; }
+  .tabs { gap: 14px; margin-inline: -14px; padding-inline: 14px; }
+  .tabs button { font-size: 15px; padding: 4px 0 8px; }
+  .tabs .long { display: none; }
+  .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: -14px; padding-inline: 14px; padding-bottom: 2px; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: none; white-space: nowrap; }
+  .focus-label, .day { font-size: 11px; }
+  .top.mini .site, .top.mini .mast, .top.mini .blurb, .top.mini .focus { display: none; }
+  .top.mini { padding-top: 6px; padding-bottom: 8px; box-shadow: 0 1px 0 var(--rule); }
+  .deal, .pc { padding: 10px 11px 11px; border-radius: 9px; }
+  .title { font-size: 18px; }
+  .list.pgrid { grid-template-columns: 1fr; }
+  .totop:not([hidden]) { display: grid; place-items: center; }
+}
+@media (max-width: 380px) { .nav a { padding: 6px 6px; font-size: 12.5px; } }
+@media (pointer: coarse) {
+  .chip { padding: 7px 12px; }
+  .btn { padding: 8px 12px; }
+  .sitlink, .th, .apac, .hold, .fact { padding: 3px 8px; }
+  .hs { padding: 2px 8px; }
+  .firm { padding-block: 4px; }
+}
 
 /* ── situations: one card per deal, round or process, with the phase it has reached ── */
 .tag.ph-rumour { color: var(--info); background: var(--info-soft); }
@@ -200,6 +248,8 @@ a { color: inherit; }
 .bi .call { color: var(--fg); padding-left: 10px; border-left: 2px solid var(--accent); }
 .bi .carried { font-family: var(--mono); font-size: 10.5px; color: var(--faint); letter-spacing: .06em; text-transform: uppercase; }
 .blurb { margin: 0; font-size: 14px; color: var(--muted); line-height: 1.45; }
+/* No controls on this page, so on a phone the masthead scrolls away with the rest. */
+@media (max-width: 640px) { .top { position: static; } .sec-head h2 { font-size: 19px; } }
 </style>
 
 <div class="wrap">

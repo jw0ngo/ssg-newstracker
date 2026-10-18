@@ -35,7 +35,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .site { display: flex; align-items: center; gap: 18px; padding: 10px 18px; border-bottom: 1px solid var(--rule); background: var(--surface); height: 48px; }
 .brand { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--faint); white-space: nowrap; }
 .nav { display: flex; gap: 4px; margin-left: auto; }
-.nav a { padding: 6px 12px; border-radius: 999px; color: var(--muted); font-weight: 500; font-size: 13px; }
+.nav a { padding: 6px 12px; border-radius: 999px; color: var(--muted); font-weight: 500; font-size: 13px; flex: none; white-space: nowrap; }
 .nav a.on { background: var(--accent-soft); color: var(--accent); }
 .app { display: grid; grid-template-columns: 272px 1fr 400px; height: calc(100% - 48px); }
 .side, .panel { background: var(--surface); overflow: auto; }
@@ -123,7 +123,7 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
 @media (max-width: 1100px) { .app { grid-template-columns: 240px 1fr 340px; } }
 @media (max-width: 860px) {
   body { overflow: auto; }
-  .site { padding: 8px 12px; height: auto; flex-wrap: wrap; gap: 8px; } .nav { margin-left: 0; width: 100%; overflow-x: auto; }
+  .site { padding: 8px 12px; height: auto; flex-wrap: wrap; gap: 8px; } .nav { margin-left: 0; width: 100%; overflow-x: auto; gap: 2px; } .nav a { padding: 6px 9px; }
   .app { display: flex; flex-direction: column; height: auto; }
   .stage { order: 0; height: 62vh; min-height: 400px; }
   .side { order: 1; border-right: 0; border-top: 1px solid var(--rule); padding: 14px 16px 30px; }
@@ -135,6 +135,7 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
   .close { display: grid; place-items: center; }
   h1 { font-size: 26px; }
 }
+@media (pointer: coarse) { .hud button { width: 40px; height: 40px; font-size: 18px; } .chip { padding: 7px 12px; } .close { width: 36px; height: 36px; } .nav { scrollbar-width: none; } .nav::-webkit-scrollbar { display: none; } }
 @media (prefers-reduced-motion: reduce) { .bar i b { transition: none; } .panel { transition: none; } }
 </style>
 
