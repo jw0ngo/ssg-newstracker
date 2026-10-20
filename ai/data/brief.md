@@ -1,64 +1,64 @@
-SSG Newstracker · Morning Brief · AI & Tech · Tue 20 Oct, 07:46 SGT
-30 new stories since the last publish.
+SSG Newstracker · Morning Brief · AI & Tech · Wed 21 Oct, 07:47 SGT
+27 new stories since the last publish.
 
-1. [WARM 63] SoftBank reportedly considering Allied Universal acquisition as AI and robotics strategy expands into security
-   Sponsors · Asia Pacific Security Magazine · 19 Oct
-   Why: A reported deal involving SoftBank in Asia in AI: a comp in the making.
-   Call: Note the mooted multiple and who is bidding; call any sponsor in the frame.
-   https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMlhsTHJWRGViQ0VNNXE3eHoyM2lmTDhuR19UMU9nbUFSd3dJa0JwelVqUVFrQklqaTVDYktneWl4clZhaFFOdFpLeGlBSTVyVDhMQXBHTFUzQ3ZBSmQ0dHdQbk5QY0x3aEp1YUpDOFA1UmNVQkJ2V3o5ZE1XVkpNLXdrb0I0aUZMQk1yMTBzSnpvbnc4Rzc3STAxUXBlVG5JSk1lbHNtWXRGRUQ4azFObk1UVVN6YTFhM3BhU2lSbFY0dkFoZ2VKeTRKWXA1RVdHWkFIeTNWamZQUEphWXhUeDhNUEVDTE5vb3Ew?oc=5
-
-2. [WARM 53] Anthropic's Valuation Cut 25%: South Korean AI IPO Hopefuls Face the Task of Proving Profitability
-   IPOs · BigGo Finance · 19 Oct
-   Why: Cut has filed to list in North Asia in AI.
+1. [WARM 55] China's Weiyi Intelligent Manufacturing Launches Hong Kong IPO, Seeking Up to HK$800 Million in October 28 Listing Aimed at 'First Industrial Embodied AI Stock'
+   IPOs · BigGo Finance · 20 Oct
+   Why: Weiyi Intelligent Manufacturing is heading for a listing in North Asia (HK$800 Million) in AI: the comps are about to reset.
    Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMidkFVX3lxTE42VFBZMnZzZW9hZEd6emVVTkk3RUNKQjBkRHBqTG1tSEZwZURwdDZQVG1NdjgwZFdXdkE0SVBpSlptak9IUm5PUlJxa2tIa0kzRDY0azhRZFowM1A0cG5lWVpibFNBcFhmNkZ6WW1xXzRMdURuckE?oc=5
+   https://news.google.com/rss/articles/CBMidkFVX3lxTE5tcnpuNWtmV25aVTI4RXZYb3pkQ2dRbmQtREJHWWpGSzY4d01EakVXcTF5aUlpSGV5cVEzRzd2ajRpbktpSnVzdHdZTnJwNlF0UXM3WDVyX1RJd0ZCajdfd0NBNFZWYjdOZDFGUHZZUDNYZjZZbHc?oc=5
 
-3. [WARM 50] Former Huawei engineer’s robot AI startup Gewu Tongzhi raises nearly RMB 100 million
-   Targets · TechNode · 19 Oct
-   Why: Former Huawei raised a round in North Asia (RMB 100 million) in AI: a future target, priced today.
-   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxNYndCWmlvRXNodGpMZUgtck0zRVpBeEJ1dUljeGhUdDZQcnVTYlE5bndDV2hHN0stSXVwRU1BWU5nMTMyVDQtRG02eE42ajJaN1FBb0pvNVltd1ZYSnUxV1Bubmh6RlUyekhSa0w5ek5KdXpNaEIxYURZckI4RF9QZEdwSHY4aUxCQTljTkp4MFBHWWpKVTF3UnhyLVI2VWNvVU5EMmlFMFJkV0ZNci0xT05wVFpaZ1k?oc=5
+2. [WARM 53] Elice IPO: Korean AI cloud firm falls 32% on its first trading day
+   IPOs · The Next Web · 21 Oct
+   Why: A company has listed in North Asia in AI: a public comp from today.
+   Call: Update the comps set; tell the sponsors holding similar assets.
+   https://news.google.com/rss/articles/CBMijAFBVV95cUxQeGNMaEdVNEl5cmNINFdWYlh6ZUEtSHBBcFhPZTdOWUR4cjd0MEpVS0N0ZTNzLVMwVXJnU2xaSncwdkVZWTB2bFdCbTlhYlhFbEtRTWhCbVdScHVfV19CRHNBS21uRkZzRWQ5YkZaQXlDTk1HazBsTlQtbm1tUzJEcTVOZWdqNjdjVndJbg?oc=5
 
-4. [WARM 48] From Uri strikes and Operation Sindoor to Rs 852-crore IPO: How Arvind Lakshmikumar built defence tech...
-   IPOs · Moneycontrol.com · 19 Oct
-   Why: Uri has filed to list in India or ANZ.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMipAJBVV95cUxQaUl2Y0VzZ2N2WDFnZ0M1ZHlKeGdDcnlTMzRlZmJzbkNPbmVTSm4yZzZ1bXFaVE9fc18zY3ZKa24yQWpicWZrMkFSWlVHeTRNLXFrd3VVOGF3OHd2RnB4NWlSQlc1Q2FMeHcyRWRfbkZqVTFYZlFmMTFIaUtHY0FwRzdtZlV1M1lNSTVkdk1ySnVFX2V5eE5ieEhJMXhiMEtCSjF4MlRLSUE0NHoySlJaQ3hDM2NsNzE5NEFnZ1ZrVEZscmJYZjFEVUJwa1FBeThZOGJjMzA4MlAxdzRWRTU3RExGN2RfZy13ZXVWcnVDeWdhMGpoYm1XWExoTWFqVVgxT3NrbXQxZnJpVG01dF95cFF6QmFVVGZpQ0RDNFE4SWo2YldT0gGqAkFVX3lxTE1HcFR2czRhU2R6R09FSnJBTVBRN3NmcEZMOTA5c1VERXF0MFZpNFhidGgzRjhfTkFsWWpEUmxXb1hJSE1aYWNMYy1iUzItcFpPSm9acjVUNExXSGNBV0ZaS1FOeDhWeFpUUVJVbWRGZHY0bW5ETkFOVmxOejN4RUtWNmR5NlczSUhRZks2eGY5THNvNjZUN3ZEQThtRENvSG9RQnltdkdORmxsRlNhUlR1ZVhlS29BNzA0REVZX2dxR3A0emVtUzQ5Y3R5R3pTZWJZREtVdllSYVBBaTBkelFad1NPa2RWX24zSUJrV01WVTZSWV9ZWGtQTUJjN00yblZUQjBRb05fbHZQRzdYSkRycHl1VzBRUi1XRHZuNEtJRHduaEVRSTVyU0E?oc=5
-
-5. [WARM 47] Apple Acquires Audio AI Firm Samplab to Supercharge Logic Pro
-   M&A · The Mac Observer · 19 Oct
-   Why: An acquisition involving Audio in AI: a fresh comp for the targets SSG watches.
+3. [WARM 52] Workday acquires agentic identity platform C1.ai to secure access for people and AI agents
+   Platforms · Portal ERP · 20 Oct · 2 outlets
+   Why: An acquisition involving C1.ai in AI: a fresh comp for the targets SSG watches.
    Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
-   https://news.google.com/rss/articles/CBMimwFBVV95cUxNeGY3T1lkczNaTVZuaXFqT2xkMHVwbW9VMHNWOFgtdUdmdUZrcU9ORHhTa2VNeGJMd3pXU0VkS05EYUVvSDJEUEZOcHVCUkRwTl9jQWpOd0tvUmpxR3REQ0ZIZ0xuaGVzRUQyV3ZOaFFmcUptYjhOSi1qc3RMdnh3czNmUGxGZEd0ZTZZdzUzTFd0TUpzaUFWV1VmYw?oc=5
+   https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeDltYkZNV3JWQTQtSDljaV9Bc01rTmdEZDl4Yk44aURsQlNGdUtscTBWRWhZSHJHTi1ZWjNZLUFPZldrdk1La2c0M0Q2d1RVV09IcFpabElrV2hpbTRrM3JBb0RxTkpqdDk0b3pSTjBUTTBxbVVVck1YSlU4VmRqTDI4MEhXQzFQbVNSS1R4YWQ5VTVxaE9CQnVKeTZNbzdZbEZLdXFKbGQ0UGJsNXMzWHUwQzY4c1Jr?oc=5
 
-6. [WARM 47] Anthropic Acquires Confidential AI Startup Opaque Systems
-   M&A · SecurityWeek · 19 Oct
-   Why: An acquisition involving Confidential in AI: a fresh comp for the targets SSG watches.
+4. [WARM 51] SoftBank credit default swaps hit highest level since 2022 as AI funding worries grow
+   Sponsors · Quartz · 20 Oct · 3 outlets
+   Why: SoftBank raised a round in Asia in AI: a future target, priced today.
+   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
+   https://news.google.com/rss/articles/CBMieEFVX3lxTE5LZEtFTVVVQTBYM05fYXAweVN0LWFoZGRHam5LMzdXaVpudlRFVTF3YkNVUkoxS24td3lYYkFjcWx4ckw5Uzc3TVQwV2d6cXA2NWpmSEx2V04zaERUUEpkM0xMS255M01nQkFVMEgzb0UweG8xRFlSLQ?oc=5
+
+5. [WARM 51] From algorithms to intelligent agents: Aditya University and Oracle Academy explore applied AI in India
+   Platforms · Oracle Blogs · 20 Oct
+   Why: A reported development at Aditya University in India or ANZ.
+   Call: Watch; no call yet.
+   https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTENrNE9wU3p4T2dDdjc2eWZJUnUyeTUtRGtMSTZCY2Nrb3dhbldmNXpHU0hlXzhweG0zbHEwUUxBTm0tcGU3NW1HVU04VkxrVkpoc2RNR2ExbDl3b2VfWjR0aVJKUVVhRlhnRmkzTmMxQ2lkbU5KZjJHMlNIZlNOY1FkbmpjSFFHQldUVk1seUdGZzNOeG9TVUV6TEJ2WDA5aG95SWlMaGt4blJ3TC1ObnZLSVk3aTJ6UmZOc1JwWFYzakJ6WWttNmZWMzZqOHJt?oc=5
+
+6. [WARM 47] OpenAI Buys Orchestra Bio to Put AI Agents in Charge of Drug Development Grunt Work
+   Platforms · Decrypt · 21 Oct · 2 outlets
+   Why: An acquisition involving Orchestra Bio in AI: a fresh comp for the targets SSG watches.
    Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
-   https://news.google.com/rss/articles/CBMikAFBVV95cUxQcGx1UnU3dGVlTklBS0ZIMFlZZnpwbUJoWnlPVW1RR1JtdVRqZm4wVHBFa19mOHNGeEt0SU9hXzJtWWVyV0ZIZ3RtWnlNNHltRUhabjJhcjVVWGNNcmZPR1VDUC1tRkZ0YWZSX1I0LXFpcGpXWW5fQXplOVpnOUhzTm5WTjJobnotMFNHWkhrZDnSAZYBQVVfeXFMTTRRUEl3Z2hLYy1oNnlsMGt1ZEVRN0R4eGRhNU9VV2ZJQVl0N29kN3ZMWHFBbFNUeTZHaXk1THVHOE1CNFNjZExVODVQd3ZoOHA5REZjWmhvOS1zcWd0cndycFJ6dzZfNHFMcUJaeFB1eThFV1FsaUdkdjJtWlI1R1dEZlpqbnctZlRBeDVqMEVuY2NaQ2xn?oc=5
+   https://news.google.com/rss/articles/CBMihAFBVV95cUxPM1I3TkF5ZXpjTV9ZNmZpdGRXQThwZ3lPVU03enhiOXQ5SFBJcVBSYTFVaUFQYVFsYU9WQTRfQ1dyMWhzOTNxQ2szeWxSZHBzUDhaSEZUTzdndUNJZFdBakpBLUNlQi0xR3lucV96MXZfazlackY2YkNQMWpNRXpjMThwdnI?oc=5
 
-7. [WARM 47] Jio Platforms IPO: 5G, Broadband and AI could power its next growth phase
-   IPOs · Daily Pioneer · 18 Oct
-   Why: Broadband is heading for a listing in Asia in AI: the comps are about to reset.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMiqwFBVV95cUxQelo4UHlzQTVMMy1XQ2Z5WnB0NzdPNmxLcUxXaW16TFlWcWdsMWxSSHhMOEVrb2tXVFRpeDBMLUY2TTR2WHNnZzdhZVB3SUJhcEZwRkV6Qml3VmRRMnFQYk1IeVJmbWV3a0xFMkNPeU5pUW5mYWhqZ2dRM3lWS0lSUnN2SnN3NndsNGxGUUhPal9idnFMTkVoa3lxRjJEYnh6bVE1Wl9oaXF0Y2_SAbgBQVVfeXFMUC14WkJfYjAtT1Z3RlliUXFfYmlrM29rN2lmcjZRbXA5WmkxWFZ4LWxrYjE4aGh3eVJ4NFlLLUFWVHVkM0lhWUw4eWpWa3hpRWltVFZudks3Y3B4Skw4TmszUFhHbGJTVmVkNjhUTW83T2xCS3MxUndDdGhzTnJNTE5UT1BGZGJiNEJyQ1Mwa1d1cWJtckg0LWhTNlJhTy1yd21FVVptYVdsWVdRTkVlS3VSVzdOclNVZA?oc=5
+7. [WARM 47] Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion
+   M&A · WSJ · 20 Oct
+   Why: An acquisition involving Customer-Engagement ($5.7 Billion): a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next pitch.
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxQVm9JQ3VzOXEwMFRKaXF3ekhnekdUUjNhcUNjT3AtS0lEWnE5Wno5dFFZOWYySWlQMnNIa0VBdDR6Q2hhNk9jTFpDVS1PT01rZDVxa3hNeHhyYUQ2eTBkclpyWXFmazhTa2pYaURKaFc5OUNSSjNVRW1faXcyYzlyOVU1MERCWHVyQTJtUmRzeFNuQU1YQXNHWl80bF9PUEE2czVVUUdta3lxZnB6TXRvQVlPNA?oc=5
 
-8. [WARM 44] Alibaba Launches Qwen Glasses N1 for 2,218 Yuan
-   Platforms · Retail News Asia · 19 Oct
-   Why: Qwen Glasses N1 shipped a platform move in AI: it changes what a target in that stack is worth.
-   Call: Fold it into the tech view on every AI target in the pipeline.
-   https://news.google.com/rss/articles/CBMiekFVX3lxTE5wZ0Z2NUZSUkhtei1yMEVEZ3J3TWxtTThRNk1kaUFnR240X2c5Q0JuZWlraTMyMm56V2NyaUE4YkRqOWM1NFQtb1dORlJhUXJXRUxXT3RsdU8tSDEyY3BTenNWTktMZmhySDJDTS02elhqYm12ZWQ5ZWhR?oc=5
+8. [WARM 44] Stout acquires agentic AI company
+   M&A · Accounting Today · 21 Oct
+   Why: An acquisition involving Stout in AI: a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
+   https://news.google.com/rss/articles/CBMib0FVX3lxTE5pa1h3alhnYXRPSWFKc1U4c3Ewei00ckg4TDJqR0N0b0tSWnhtNVVUQ2haNmFwb1VldDc2WE1Ebl9xSjdPNFhJZjEweVNONk5CYkEzVWFrVkVkWU03V0VzY0dxLURXZ2VwNk5XbDNqWQ?oc=5
 
-9. [WARM 43] Anthropic: Claude, Enterprise AI Agents and $965bn Valuation
-   Platforms · AI Magazine · 19 Oct
-   Why: Claude Enterprise raised a round ($965bn) in AI: a future target, priced today.
-   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMijgFBVV95cUxQX094N1RhQldFWjZOUkwzUGVGUUVNNDlobGlRLTZGMUxvVXB0WGJXUjE2Zl8tRGt1b2hwZDNaWkcxTEFCU2QwNUpPdmJzaGhjMUp0WkFwdUctVkI2cklEWF9zNmNkS1ppaXZKck9CX0ZqT0hnVkJvajhHUmc3UGZYcE0wenBxaU9PYmk5TVFB?oc=5
+9. [WARM 44] U.S. bans DeepSeek from government agency systems amid AI rift with China
+   Platforms · CNBC · 20 Oct · 3 outlets
+   Why: Regulation touching DeepSeek in North Asia in AI.
+   Call: Check which targets in the pipeline it reaches.
+   https://news.google.com/rss/articles/CBMidkFVX3lxTE9BMm5ISmplcUtod2txVlV0ajlNUHFPanpRa09GWnBMdjdOaUFCSTZOUXk2SnVNclplakZrckJWZDZTYU96Z3pKTVZieUZiVXkwM3Fza0FibjVLaGhBR2dNMUVwNW1yTllMZlI5R1N6ek1MZXI5OXfSAXtBVV95cUxOMTd2ZFNDSGNCclhSb3lSYl9MdnVtZ3BiYlp6VFQyZUpNR25oNFlsYnRnMThxWmJTZ2tWd3BGWV9PWGFSdHMzMFotTmNpbUFuQzZLaVdkOTJtSmxHeEpLdFcyU013c1dUMktXNWt4blRDZFYzeEk2VkF6WVU?oc=5
 
-10. [WARM 43] Cardiovascular imaging AI startup Corologic raises seed round from Kakao Ventures, SNU Holdings
-   Targets · Dealroom · 18 Oct
-   Why: Cardiovascular raised a round in Asia in AI: a future target, priced today.
-   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMixwFBVV95cUxOc3hoVVlPc1d3dGpHWUNNTFdpRlk5ZERUaTB5R0hsM0M2ZHRCTFp2UnpuUlJlbm42QUs4cVhoT0lmVVJqclZQWTZMTEd4R29IVHp0eGtJM1diX0Z5ckpuTEMyb3hfNmxsVGtFRnNmTHR2dm5zdU1hRUdYSy1MeWw2X3F3Z1FrdVhTWUxiVy1FelZKNXM5R3lKSXBnWWt5N2p4U2lCSm1acWt5TWJhaFg5MThpZi1XQzdqYUtMR2NhbXUxRW5ZRjZV?oc=5
+10. [WARM 44] Japan's JAIC acquires software developer Axia in AI-driven expansion
+   M&A · Dealroom · 17 Oct
+   Why: An acquisition involving JAIC in North Asia in AI: a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxNQmt4OUtnanNucjh5Y01KTmw2ajNaOHBpd0VvVGR5Uk5JQUZSaU94aXVwb1BZT29ycFBiUC0xeklTdmJrVFFKZUg1dkdLd0RnZEdpbGpLdENQR2c4emNZdTZpSFhiZ1llZ0tNanpCRzd3aF9yNGkyQW9KcGt3SndvaUJNRXVWWlZDUWVmN0JsN0RJTGdlaXNva09EQlJJdUtZNEt1Rg?oc=5
 
 Full page: https://jw0ngo.github.io/ssg-newstracker/brief/
