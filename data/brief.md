@@ -1,23 +1,23 @@
-SSG Newstracker · Morning Brief · PE Clients · Fri 23 Oct, 07:37 SGT
-26 new stories since the last publish, 1 hot.
+SSG Newstracker · Morning Brief · PE Clients · Sat 24 Oct, 07:37 SGT
+24 new stories since the last publish, 1 hot.
 
-1. [HOT 67] Temasek Invests in EQT’s €5 Billion Scaleup Europe Fund
-   EQT · Fintech Singapore · 21 Oct
-   Why: EQT is backing s Scaleup in Southeast Asia (€5 Billion): confirmatory DD is likely done.
-   Call: Offer the EQT team an AI-readiness or scale-up diagnostic as the follow-on.
-   https://news.google.com/rss/articles/CBMiekFVX3lxTE1ZMXAzTDYwTXk2NG5xWDdvSmxyQWNPOWc4ZjlOLXNMem5CQThxalFYMjE3a2pqNEU4MjB0bVF5X0R6d0x5cHZsNTd1SEFXMjVveUhoSUFSLXVwVVNXZG93X0RGcXd4MllwbTgwVDQwVHhtVDdSdm14ektn?oc=5
-
-2. [WARM 61] Warburg Is Said to Consider Sale of Chinese Car Park Firm Sunsea
-   Warburg Pincus · Bloomberg.com · 21 Oct
-   Why: Warburg Pincus is preparing to sell Consider in North Asia: sell-side tech VDD gets scoped before banks are picked.
+1. [HOT 70] Blackstone, Warburg Pincus eye USD 10 billion-plus sale of fintech IntraFi
+   Warburg Pincus · https://internationalfinance.com/ · 23 Oct
+   Why: Warburg Pincus is preparing to sell IntraFi (USD 10 billion): sell-side tech VDD gets scoped before banks are picked.
    Call: Call the Warburg Pincus portfolio team this week and pitch the sell-side tech VDD.
-   https://news.google.com/rss/articles/CBMitgFBVV95cUxONjVaekNmRk1vakdyYzFZdFVsVWRPS0dVVW9oeklqRzFfNUxNRjZlbGVMdjNaTllpcHVnWE1CTnY3dC1Bc3BTWjUzb3NCWE9OU18ycDlLOXpHSDRDTm9wbTlZWWhpc0NYZV9fYTZkZmhnZ013SnItSVFPNk5Ed0dldThVNWh3THJCWVFfMnRlRmIwRllxSlZTcGlvTXpvcWpqOXVFZkt5aEM1eS1iQVdlYy1oWFV6QQ?oc=5
+   https://news.google.com/rss/articles/CBMitgFBVV95cUxOOHRiS05GRkpueTJBbVlpUXBycHg2OE53bG9FdGxkMzZaenVjSk92NUdOOUJMcUlRR2lORFQtdURMVUQ0bGFfQmRSUEwzX1h5S004VnU2U1lCYnVVdDZ5UlNKSTFqOURPaXBWWEJiR0NUbXg3Q0toN3dpM3ZfN25SNnJwX2lJLWtldWthTFJTWk4wN05RX2lzZE9jNlVLRllOYmI4VkJRdnliamdaWTd0VGZaREVmUQ?oc=5
 
-3. [WARM 60] SCHOTT Poonawalla, backed by Germany’s SCHOTT Pharma and TPG Growth, begins work on $400 million India IPO
-   TPG · CNBC TV18 · 21 Oct
-   Why: TPG is preparing a listing of SCHOTT Poonawalla Germany SCHOTT in India or ANZ ($400 million): pre-IPO tech VDD and the equity story get scoped now.
-   Call: Call the TPG portfolio team this week: pitch the pre-IPO tech VDD and the technology chapter of the equity story.
-   https://news.google.com/rss/articles/CBMi4AFBVV95cUxQeHV2NXBpby1lcGZyTTJPSVgwbTU1UUx5TEdfQUdfbzNwMEpRV1lOQVhBc09ZOFkyUWYzdmZ3RGczOWZoUTRFOUJNbkc3REE5bXJiaW9kcWhUYnFjMEJEWk1lMVBnS0xiNmlPWWU3anVnWHdmRDFNT3JCS1Z0U3U5Y0x5YW1HSWl6bndzZHZSRUxkMTVTNDIwbmtJMUJEQXRpbk1ITnVTMjN4TXpGeXV2TDVmeXRYZ2pubERDMldsY3N3aTJVY0xTTTBDcHMwQm5WdEFDc08wbTNmbXU1QzdHd9IB5gFBVV95cUxPNEJZU2d3R0xpUllfNEVRY1l5RERmdHNnUlQ1aDhLa2syRGxTVHBQaG40TkE5ZkJzc3pYT3l5SU44Tkh5bGVXbW5KVnl1NG1MUURPYmtWdXdNZUhJVm9NUHNXdHF6OHk5RTFDak5uQi1QX0pLUm5KZkRXN1c4d2hZT2VmaHJwSFE0MEtmQW9lQUx1RS15SV9jZDc1UnVjYlNVaHI0NXdQaVBoNkxDdzJyMXh3ZGdjbzNzS250S2FBb3FJcGpaVFotaVc1SkpOU1JpaDQ3SDE5MUlWdVg5VWozVlV4Wjg2UQ?oc=5
+2. [WARM 61] Warburg Pincus is said to consider sale of Chinese car park firm Sunsea
+   Warburg Pincus · Bloomberg · 21 Oct
+   Why: Warburg Pincus is preparing to sell Sunsea in North Asia ($300m): sell-side tech VDD gets scoped before banks are picked.
+   Call: Call the Warburg Pincus portfolio team this week and pitch the sell-side tech VDD.
+   https://bloomberg.com/news/articles/2026-10-21/warburg-is-said-to-consider-sale-of-chinese-car-park-firm-sunsea
+
+3. [WARM 60] India pre-IPO fund hits first close; KKR, Fengate line up industrial, fiber deals
+   KKR · Alternatives Watch · 23 Oct
+   Why: KKR has raised a fund in India or ANZ: fresh dry powder and a deployment pipeline about to fill.
+   Call: Relationship touchpoint: congratulate the KKR team and ask where the new fund deploys in APAC.
+   https://news.google.com/rss/articles/CBMipgFBVV95cUxNOWxBejNDV00xOVVFTXpxa292UWZocVhBbzhPMXZCeFd2cGZMd1Y0SDV5OEJHdUY1THNzSUdSYkFqOTlTTk5LZk9lM0pNaEZLcDY4ZUpwTWh2d0thMDBCX2NENmNHZlFHLXMtTFRWYmY2TUQ1ck5BOVZhUl8zMXVNVmVaY0J0ZXc5M0l2LVJPaklWRTFMVDdWb3k1THZGcjNrVno3Nk9R?oc=5
 
 4. [WARM 59] India Digest: Oyo halves IPO size; EQT-backed Sagility buys US co
    EQT · DealStreetAsia · 22 Oct
@@ -37,28 +37,28 @@ SSG Newstracker · Morning Brief · PE Clients · Fri 23 Oct, 07:37 SGT
    Call: Pitch the EQT deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.
    https://news.google.com/rss/articles/CBMitwFBVV95cUxON2E1b0x4STRXUXVaV1VlallfN01SMmxjWFNsLW5OcU5Jci1fX2NRWFRicXZPc0h3ekQzWUxVYTZ0WFhLdmZMMTVTa2o5V3c0YXpza1pNRkpVYmZvQWE5VWxhSWVFMFpNZUhNV0xRUEszTExXamh1amFVa0hXMXY4cWxSYWxmd2VUQ21sblh0cWRPWnlxRC05bktEbFF6S1pzQ3BtU3BjcXdnek5lVjBadWpOcVZkY2s?oc=5
 
-7. [WARM 57] Boomi Acquires Elementary Data, Expanding Its AI Push From Conshohocken
-   TPG · MONTCO.Today · 21 Oct
-   Why: Boomi, a TPG portfolio company, is buying Elementary: the integration plan is the open question.
-   Call: Call the TPG deal team covering Boomi: stack consolidation, data migration and product overlap.
-   https://news.google.com/rss/articles/CBMiggFBVV95cUxQeEIyM1ZUYkl6a3lhOUJ3M1NwSzI1ZDJRdEFaWXBtRzhPZVdXVURieEV6NDRpbzVmU2JSOUJsLWV6M3J3U0pQUE1xVnBHR2ZNODUwTkw1NEtuaVdnUEVKMm5uSHpvVGhhMlRvU0FXUHRyVHFNRWN4TGdGTlpTOWZhU3dn?oc=5
+7. [WARM 58] EQT-backed Sagility acquires clinical documentation and coding firm Chirok Health
+   EQT · PEI Private Equity · 24 Oct
+   Why: A portfolio company, a EQT portfolio company, is buying Sagility: the integration plan is the open question.
+   Call: Call the EQT deal team covering A portfolio company: stack consolidation, data migration and product overlap.
+   https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVTdpc1RNU0pzRERxMUJWVGhaTVZETHFFLXJlbF9SX2VBWnFjT3k5TE0zZ0E3bGFJQ1NNMFJDTUZ3bVktUnV3V09LaWMtaUZOQ1h1aXI4eWpBaWVXODRrRF9lUGhtWk1ySTRUZVJITFlOdWo0XzJzSkswZVNvT08zaEpBWWJra1QxYUxWTmR0NnFYMExPZFgxVWVkVHgtSGV3ZHdKZmNmYXZ3bWZBQXRHUGdHZUo5LVZTMU1HME5nYlZIMmc?oc=5
 
-8. [WARM 55] Swedish investor EQT launches €10.8 billion bid for Germany's Qiagen
+8. [WARM 55] Bain & Co: Software portcos should tap into payment flow value; Platinum completes $6.6bn sale of Spanish waste business to Blackstone, EQT
+   EQT · PEI Private Equity · 23 Oct
+   Why: EQT has exited Platinum ($6.6bn): capital is returning to the fund and the deal team is free for the next platform.
+   Call: Relationship touchpoint with the EQT team: ask what the next platform in APAC is.
+   https://news.google.com/rss/articles/CBMivwFBVV95cUxNdzltMTIwRXBHclJ3YU03VWx0RmdPa2pjMFFvZWlOa3dPN0lSRHFPYURackIyRFVxS2huNUNXOHRDWFNyS0U2RHBnaTdBQmVqbmhZczdGaXUyYXJkVWgtQURqTGtLcGdONkRzckowYjRpRlVkcUhFOVVGRGNlYi01ODlUS1duV3lydDJNck1DdFBMZ0cxekJQNGlnTFNwQW5DZm9MLVBIVkJiZnNPNll4ZjhfaEpvWkpIcERVTnFYMA?oc=5
+
+9. [WARM 55] Swedish investor EQT launches €10.8 billion bid for Germany's Qiagen
    EQT · Yahoo Finance · 22 Oct
    Why: EQT is reported to be moving on Swedish (€10.8 billion): a buy-side tech DD is being scoped now.
    Call: Call the EQT deal team today and offer to scope the buy-side tech DD before advisers are set.
    https://news.google.com/rss/articles/CBMimAFBVV95cUxNTmtJZnpBNlhiQUVDU0U5ckZGUWVBT2E4cFZ4dmxleTZUUEI2YkZ6bGc2TXFycW1KbGVMN0tQekt4c3hVNXc2aGZIZWgtUks0eWN4OFNaeU04UkpUbHZGTUFxQ1ExdGc3QTU4V0duZ0JzcmJMajdrWi1FZWNKTWZSa2N6SlVqQkRNbUJXNkdzS0lXUUZ5S1E5ZA?oc=5
 
-9. [WARM 55] EQT Nears €9.6 Billion Deal for Molecular Testing Firm Qiagen
-   EQT · Bloomberg.com · 22 Oct · 6 outlets
-   Why: EQT is reported to be moving on Molecular Testing (€9.6 Billion): a buy-side tech DD is being scoped now.
-   Call: Call the EQT deal team today and offer to scope the buy-side tech DD before advisers are set.
-   https://news.google.com/rss/articles/CBMisAFBVV95cUxQY2h3aUlzSVhKcy10N0RHVjV6NWUwdXV1ajJLTHhNeG5ULVlWdERFNVhuaFdQX3pXWGhySE5SbWxHbTlIcUJUanBMUzZsak5kT3Z0ZXQteEFRQktfblBNOGtaeGF1RTFHSFJNVVd0UDFEaHh1M2E2bXdDN01OcmMtR3JZLVVDck5SU1lVTHI2UDBvNEFYTVpDRzNsWTYzOU5ib3NxMURRb1BaQUJwT2pmYw?oc=5
-
-10. [WARM 55] EQT AB Nears $10.8B Acquisition of Qiagen (QGEN) as Shares Rise 2%
-   EQT · GuruFocus · 22 Oct · 15 outlets
-   Why: EQT is reported to be moving on Qiagen ($10.8B): a buy-side tech DD is being scoped now.
-   Call: Call the EQT deal team today and offer to scope the buy-side tech DD before advisers are set.
-   https://news.google.com/rss/articles/CBMiogFBVV95cUxNWGJodTBoYVdLSEo5TDlZYUFVSHhyWXNKU00tUFRPd01qRVpWYzlmaDhlM2h5UUplLVJrdXBfakpHczFtakNQWEJCUmZLQlRPQ2lEdmtIX1doZFZjRXRPNzVfSXFvcTRma013Q0FMVDVSTW1Nd1NpbXZpMC03LThrN3BQZ1Y4S1puVFM5TWFhMjluRFJHUkVybzdnRHE5Y1FnZEE?oc=5
+10. [WARM 54] Cleanaway Shares Jump 19% on A$9.3 Billion EQT Buyout
+   EQT · Serrari Group · 19 Oct
+   Why: EQT has agreed to buy Cleanaway in India or ANZ (A$9.3 Billion): buy-side DD is done and the post-close tech agenda is open.
+   Call: Pitch the EQT deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.
+   https://news.google.com/rss/articles/CBMigwFBVV95cUxPN3Ntbm1tU1hlZ2FvdGVHVDZqc01TcXQwak1ndlR4a1NnZzdKQWIwZFJsYzJNV3R2WnJ2WFVRTTBjdGcwX2w1Smx3TWVwUGt2OEVSSXpraFhsVjRKLW5FaWgtSUhBSnpoRmttZ01kM28wcEdzR0ZKdmJ2WlQwN2ttRXJiWQ?oc=5
 
 Full page: https://jw0ngo.github.io/ssg-newstracker/brief/
