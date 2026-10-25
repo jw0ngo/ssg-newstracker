@@ -1596,6 +1596,18 @@
   "firstSeen": "2026-10-14T23:46:58.861Z"
  },
  {
+  "id": "15b1e6aa2851",
+  "theme": "sponsors",
+  "title": "MBK Partners tender offer to take Japan's Sharingtechnology private at 1,550 yen a share",
+  "url": "https://hedgeco.net/news/?p=95746",
+  "date": "2026-09-10T00:00:00Z",
+  "summary": "MBK Partners' vehicle is bidding for TSE Growth-listed home-services and lifestyle platform Sharingtechnology (3989) at JPY1,550 a share; board supports it, tender runs 10 Sep to 27 Oct 2026.",
+  "publisher": "HedgeCo",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-10-25T22:52:38Z"
+ },
+ {
   "id": "15b78adb8f5a",
   "theme": "platforms",
   "title": "Why Anthropic’s draft bill sets $1 billion threshold for AI risk",
@@ -4140,6 +4152,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "36c0b836ea77",
+  "theme": "listings",
+  "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObldYTjhoTmFEaERKM28wVnVERmV3SDVoaXpQOXR6ZFU2Z01MbDFyMWRCUTVuR09KTi0tSVlnbnZuT1NIZnlPSHVTMVhTR29SYlhNUkpjclNyRHk0cmdqN1lJU2tsdEdBTWpuZjVweW5OMjBDSFllTkRYTWUwY2xnQ2puVGNCRU9VOVo1UXB3eUx4eFRRNkFfVWh2eTYtRWU4RW1hclNB0gGrAUFVX3lxTE9DcFk4em5ETVduSDQwc0VwV0l1SWd6ckxzdVV6emMzZEJWNWVESXFCMTFiVi14N1RSSjB3NjVrT0IzZ0FKSjBXd3BlZ09xQUI3Rm11Y2tMX0RoVExZZU5RWm5xSTRjRkQ3U3dzRGVxZ3pkRkgzQWZkSklxU0tDVFpVWVR4YUt6R0FTWHdydWk2WDhiTm4waEZ0Z28teWtwMkVRU0U3ZzZuSEYwRQ?oc=5",
+  "date": "2026-10-23T21:49:08.000Z",
+  "summary": "",
+  "publisher": "CNBC",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
+ },
+ {
   "id": "36e3ae584297",
   "theme": "ma",
   "title": "PayTabs to acquire Amazon Payment Services MENA in $100m deal",
@@ -5556,6 +5580,18 @@
   "firstSeen": "2026-10-22T23:49:28.706Z"
  },
  {
+  "id": "4da0aeedbf05",
+  "theme": "platforms",
+  "title": "ServiceNow’s Moment of Truth: Can Agentic AI Growth Justify a Premium 80x Earnings Multiple on Oct. 28?",
+  "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNUR5Qk1wNWRUNE56VVFTZzNES21JeUl0U2F0WG9PUmNhV2w3bTJyLWxsWHNfQjVzWGdDTFRPYnFUOEpTaExVQWg1UUpOMnBwOE9DWGJGVklRS3VHbGphb2tkRUF6ckY5SUplemRpZWNob3pxMk12VUJtUndWS251RGVmclEtTXltRXJxZnkwa0dUR3hZRDhJRFo2VndTbEQ1SENWRkZjSlZyQkppc1lHekRFQW8xQzQ1TFdsdEVIRzJqSmRkN1NlWXZjWFo2dVlYT1BYajFmZ3UyWjA?oc=5",
+  "date": "2026-10-24T15:47:00.000Z",
+  "summary": "",
+  "publisher": "24/7 Wall St.",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
+ },
+ {
   "id": "4db23b4a67d9",
   "theme": "platforms",
   "title": "Xero launches Gemini integration for live financial data",
@@ -6624,6 +6660,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "5ca95b1f241b",
+  "theme": "platforms",
+  "title": "Microsoft Says Frontier AI Models Can No Longer Be Trusted, Launches Security Watchdogs",
+  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNk91RkxlaHhMN2FxM1lWSm1pVlF6eU9aWS1wMTlUbXR2cTczaDdHdFQxVzBVT0h3SkhyWXFXZ2xmYV9TZms1Vm8wYWJWMkt1dFdVN1liN3JlcndxeTNtUXgxbm43UFRmMlpVVFd1Qk8xbVBKQU9rcUdyVU93aDZYRnpHMDZoUQ?oc=5",
+  "date": "2026-10-21T23:51:23.000Z",
+  "summary": "",
+  "publisher": "Android Headlines",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
+ },
+ {
   "id": "5d51d2f86a64",
   "theme": "capital",
   "title": "IIT Delhi Grads' Startup ByteAsk Raises $1M Pre-Seed Round Led by Y Combinator",
@@ -6826,6 +6874,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-15T23:47:34.146Z"
+ },
+ {
+  "id": "6074f883467f",
+  "theme": "targets",
+  "title": "AI Planning Platform Pigment Raises $250M Series E at $2.3B Valuation",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aejY2bDgteC04elpNbXpuZ3pKMGZxc3hYcV9tWWdRVEpVbHBTa2djUnExdVJIWHNCcFpqLXBOc2tkTjA3QVRKbFUyUzVPaEpnSE9F?oc=5",
+  "date": "2026-10-22T09:38:52.000Z",
+  "summary": "",
+  "publisher": "Wowtale",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
  },
  {
   "id": "60bba7382bd9",
@@ -7078,6 +7138,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-14T23:46:58.861Z"
+ },
+ {
+  "id": "6421586e57c1",
+  "theme": "sponsors",
+  "title": "SoftBank's market cap halves from peak over AI fears",
+  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWkZNTzdTc05pcUd1Tl9IRi02U2dvWmVYZFBRVnJRQVl0WHdlMENuNzg2N3J1eGYyc2xfVUJaeWt5akxxR0RjLWJ2M3VRX2xnSjlkY2VLXzNCaWZ2eFdDVEZoTmNJdEV0bk1TRl8wbTdieXRaUTktMTBYYXFwMl9BbmY1c0hkQ1NIc0hKemdkME1DVFFDTVJGaF82b0t1VDJfbmxwOE1RZnlfTzd3bTRBQWFoZFcyVTBsTVVaZWVhakd0UkJtY29KRktBTWxwZ9IB0wFBVV95cUxNOWQzN3RqM0l6QnJKakpZaXZWQ1p0c203YWYyX3V3eWlKc2VZemRKU2FENXVBY1kyenR0ZXkyWkpkYjdkR0hIUTJVRWh6RFo3TEZ0Sm81c2haeVRDbTUxa3l2dWFUNlhvR2tFOWpjLWtuNGVEcXdOa3NFY3FpRzJPUlNMd0M5cHZVVngzT3NwTVhvZzVhT2x0SkVUemVWZEZ6X2U1elMzeXU4eUVJWDZDUldZX0tQYWp2TmhZbmZXaXpZV2FwbldNci1QUFcxNlBFMTc0?oc=5",
+  "date": "2026-10-22T18:57:39.000Z",
+  "summary": "",
+  "publisher": "The Economic Times",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
  },
  {
   "id": "642f6fd31c4e",
@@ -8292,6 +8364,18 @@
   "firstSeen": "2026-10-16T23:49:38.774Z"
  },
  {
+  "id": "734703ce7d9d",
+  "theme": "sponsors",
+  "title": "LSEG to buy Octus from Permira for $3.5bn, lifts full-year guidance",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM1RlejJ5c0VJMUVBbjk1d0ZzaGt4WEZScVFLb2dMaXY1M2hxOHhrTlUxZGVwRmY4OGxJNllCS3Y0OHZ5anBkbklEMGdJeHZsUklFYkdOeVdTdS1pYXF5VExCRjNGTnJSbWdvekhpazVzZ0FuVmJnZ3RMdnpkOU9ZbUk1VjZweHJFa0NNMDJ4clVHN19UOFo2cWxPUE50ZWlfNklocGkydXdNZDhMczYyUHZ2NzlWem5qbmw0NmI5aVc?oc=5",
+  "date": "2026-10-22T07:14:06.000Z",
+  "summary": "",
+  "publisher": "Sharecast.com",
+  "source": "buyouts",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
+ },
+ {
   "id": "73a51cb76f04",
   "theme": "platforms",
   "title": "Tereina launches SAP Pay for business payments",
@@ -8472,6 +8556,18 @@
   "firstSeen": "2026-10-10T23:47:30.382Z"
  },
  {
+  "id": "7641d9244f1a",
+  "theme": "ma",
+  "title": "Itochu to take Japan's Dentsu Soken private via tender offer",
+  "url": "https://english.adnkronos.com/2026/08/28/japanese-system-developer-dentsu-soken-to-go-private/",
+  "date": "2026-08-28T00:00:00Z",
+  "summary": "Trading house Itochu plans a tender offer through a subsidiary to take Japanese system developer Dentsu Soken private; offer starts early November at the earliest, pending competition approvals.",
+  "publisher": "Adnkronos",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-10-25T22:52:38Z"
+ },
+ {
   "id": "76aba6b53dae",
   "theme": "labs",
   "title": "OpenAI launches cute, ‘capable’ AI agents after shelving deceptive model",
@@ -8626,6 +8722,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-13T22:51:59Z"
+ },
+ {
+  "id": "78b8d0b99aaa",
+  "theme": "listings",
+  "title": "Hong Kong watchdog investigates IPO rigging, suspends ChaPanda shares",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcURoYVdzMmFtV29Pd2xVeE1SaHlRY2xNVUFQdkFQeTA5T0Nma0FJZ3FEa1BiOGVvcFNpWEF4dC1UWC1WYmtFazdMQkU0SzIzQ1lpQmI4Mi1DTVJYV0JuOXo0ZWJFd0R2VF80SWF2VGx4SjEzejR3YjV6ZmdsaUFlaU9xZVVjZWhTdkU5Wmd2b2VoU01nMHZIMktFTjAyTTBXX2tuM1hxOVlVVWh1Ujdfb0lRQ1lMcEhzZXc?oc=5",
+  "date": "2026-10-13T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Nikkei Asia",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
  },
  {
   "id": "78c1670a8bf6",
@@ -8976,6 +9084,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "7dda4b4842cf",
+  "theme": "platforms",
+  "title": "Chinese Hackers Use AI Agents to Breach Thousands of Companies via ConnectWise",
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM1JHV2ZuVEVqOEpUS0N5Y3lpTzNkYXZjWjNacTNwVDlDWGZ0T2d3dU5kdGtzak1vcDR0WDZqN3ZhQlNNRkZBcnlqby0tZFRHRnlHWEVMcDVJVUtveUF0V0ZHUElCd0FwWVdXYWtNX3VQSTduTGdFTzZPSVhOVjVFYUxYLXlyZ1BfRDhXcTNPOF9ab2tBS292UmJLd0h6VVhyUm5MU1RVUDR2QVk5c3o5ZDdnSHV6LVk?oc=5",
+  "date": "2026-10-24T18:53:26.000Z",
+  "summary": "",
+  "publisher": "AI Insider",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
+ },
+ {
   "id": "7dfe101989b7",
   "theme": "platforms",
   "title": "Ex-OpenAI Science Head Launches Startup With $215 Million",
@@ -9154,6 +9274,18 @@
   "source": "power",
   "official": false,
   "firstSeen": "2026-10-06T00:02:17.930Z"
+ },
+ {
+  "id": "7fcf7a56091b",
+  "theme": "listings",
+  "title": "Oppenheimer names top SMID software stocks ahead of Q3 earnings",
+  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdkZ2Wk1OVkktcnEwSEJqUDdHZXhFOUFzNktEQ2lZZF82STY2NXh6ck15SGJvSzdJZ3AtUWU1UDl0X2VqbUV6SFB1NW9fRWNyY1BLOFVNRUlRRGZ3bHRCYXVjN1BfUG9VMTlJUGF0TTRlUmxuN3U3dUJ6U3lwNDg4cm9iTU15U3k2UlBDZw?oc=5",
+  "date": "2026-10-23T05:44:00.000Z",
+  "summary": "",
+  "publisher": "Yahoo Finance UK",
+  "source": "comps",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
  },
  {
   "id": "7fd5e4018d29",
@@ -9924,6 +10056,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "8b5cc644dab1",
+  "theme": "sponsors",
+  "title": "London Stock Exchange Group Agrees to Buy Octus From Permira For $3.5 Billion",
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbWp5aXZ5S0NEWnlIX1dUdzVFTktfdkVUcWljeU1JcF9YU05acS0zcVNhSVNfNnQ4aXdROVFPU2htcUF5UmlCTUNKbXBJeno2WG1XWnpHN1Z2bHo3cWo5SGtBVzU0clNEd2RsMmlJSjkzaVpsZVcwdnR6a2tBcWpZZkt4M2lhMTRVeXRnOU00V09rendkemlHT3pWNmdQWGtTNk1jZ2ZERU5BMFFuRTJkTFdodTJKQ3AzS082dw?oc=5",
+  "date": "2026-10-22T06:55:00.000Z",
+  "summary": "",
+  "publisher": "WSJ",
+  "source": "buyouts",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
+ },
+ {
   "id": "8b8cc0a54c44",
   "theme": "platforms",
   "title": "Anthropic Launches Haiku 5.5: Its Cheapest and Fastest Claude Model Yet",
@@ -9982,6 +10126,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-19T22:51:59Z"
+ },
+ {
+  "id": "8cc55e637d9d",
+  "theme": "platforms",
+  "title": "Microsoft rolls out AI ‘Guardian Agents’",
+  "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1RazhJM3huREJzSlFOZ0R1cm1TQXBHZlhDdFRGb0laVnBKME03QjdoZHIweEcxOE82WC1XbEJDcTltZHNwMDd4d3RB?oc=5",
+  "date": "2026-10-22T06:37:32.000Z",
+  "summary": "",
+  "publisher": "Daily Observer",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
  },
  {
   "id": "8cc669e0097b",
@@ -10078,6 +10234,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-21T23:48:44.166Z"
+ },
+ {
+  "id": "8e7b7ea75013",
+  "theme": "platforms",
+  "title": "I canceled Google AI Plus after the downgrade, but I’m still using Gemini",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObVdFY0psal9NeTNHTFpkbHlDLUlhLVRlVFlKbjYxOWxtbjhfNXUxSkxWSnhkMjFBSlU4Y3BQQkUyODRNZUtxN0VVQmk2UF9pQi1jVmRsaGh5em8xaFo2d1B2RWVyZk9UcHp2bVZMakJZdnV2U2FMNUx1Q3llUWZzOVI3ZjB5elJxckVKZ1UzcTl0RGs3SEhKQ2l3?oc=5",
+  "date": "2026-10-25T12:30:00.000Z",
+  "summary": "",
+  "publisher": "Android Authority",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
  },
  {
   "id": "8e8d594d7db6",
@@ -12264,6 +12432,18 @@
   "firstSeen": "2026-10-15T23:47:34.146Z"
  },
  {
+  "id": "ad39fe72d739",
+  "theme": "ma",
+  "title": "Salesforce acquires Israeli AI startup Loops for $30m",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVWlrY1BqUjEtcW94a2JXUk9WOGQ3a1ZsNEUxQnhwSXpJMzJQOV9ucXF0SEFoQlJsS2VxWlhHb1hGUC1XYnJOb0JaUlRRYllQZW41cjZXWWZlOURaUFB6N2JfcjNFUWVCTm9uaGg5Ty0zQlhvX2lOb3dDOHJ1bUw2aVJmUkQ4bkU?oc=5",
+  "date": "2026-10-13T05:01:00.000Z",
+  "summary": "",
+  "publisher": "Tech in Asia",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
+ },
+ {
   "id": "ad6022d3271f",
   "theme": "ma",
   "title": "SpaceX pursues $40B in financing to buy Nvidia chips: Report",
@@ -12754,6 +12934,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-05T07:46:33.871Z"
+ },
+ {
+  "id": "b75a683a79bd",
+  "theme": "listings",
+  "title": "Anthropic suffers $80.7 billion loss in H1 2026 ahead of November IPO",
+  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdFVTYmpzZ1M0UjRqVnFEb1YyZEEweFFQc0Y3TFNBaHlYU0dEMzdXVHcwVFhEeF9uMTFnN0ZTbzI2dWluMkxKUXRuNXpTR3VUVEFIRHZod0hkWldOMmRyOHp5VHNpenNwNGxkb0pMdTJyTi1LYTdRbENKSUNDbXdaVUVsU1ZxdUNFeUZadEFZVzU1RlMwZVpNUFlPNVdUSUw5NXdpa3RGb3BjOXptSTFpa2h3QUNCTENhaEtFYnEtR0JoWDZiNm8tSFBBS0ZRSXNVZHlpMVBRY2QzUdIB3wFBVV95cUxQTjAzdHdPeXdnNE0zQVFwMWloVURpX0ZfbHNZZGdVRGdPOWhLUU5veUloV1BFbWp5UEhpSWJveU9fZi1QUW9aSkZGQUR0MjBzSkR6RmRkT2FFa1g3ZUoyZ0ZvOWZhTmlvVE9IdGFKRmRseHQ1QkJxTmNFYmppaHFqZm1TZTNRUlVzYkZKZGlIbGI3WE1hQW9XSTZsckt2cUx0Q1pNaHVRVGJqWnBFSHRDUWdvZ0luQ0VjMjgzaGUtV2ZpNzNCRXJoYTNHamoxeERUUE5XVEZxakRmNm1HVkZN?oc=5",
+  "date": "2026-10-21T09:19:49.000Z",
+  "summary": "",
+  "publisher": "ET Enterprise AI",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
  },
  {
   "id": "b79ea0972f6d",
@@ -14400,6 +14592,18 @@
   "firstSeen": "2026-10-15T23:47:34.146Z"
  },
  {
+  "id": "d04bcad4a7a7",
+  "theme": "platforms",
+  "title": "LTM Launches BlueVerse ValueMesh to Scale AI Across Oracle Transformations",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSjBwWGI2ZFZSb2dvdnVMazlxNzItYTN0NzNLMW1DN1NLdG1NajNHbTlXMXFPMktkQURHNUhxT194X0JGdzM3Y2NJWG9Eczg3ZTg2LWwybW9nblNIcHhWd21Bc2k1SlcweXY3V3lra2NwR25jMWhGdU50cC1qWnNTVXc3N081Y081SWpYRmM1eFotS3p1VndHbkhDczgzMlVxbVhqcl9tRkQ1VUNK?oc=5",
+  "date": "2026-10-22T09:54:35.000Z",
+  "summary": "",
+  "publisher": "Machine Maker",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
+ },
+ {
   "id": "d07cfca76e92",
   "theme": "platforms",
   "title": "Microsoft Links ConnectWise Breach to China-Linked Group Using AI Pentesting Tool ARTEX",
@@ -15324,6 +15528,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "de0b8fd55ddf",
+  "theme": "ma",
+  "title": "Amazon in talks to buy AI world-model startup Decart for about $7 billion",
+  "url": "https://www.axios.com/pro/merger-deals/2026/10/17/deals-week-decart-big-yellow-group-softbank-fund",
+  "date": "2026-10-17T00:00:00Z",
+  "summary": "Amazon is reportedly in talks to acquire Decart, a VC-backed developer of world models and chip-optimisation software, for around $7bn; Anthropic reportedly walked away from a bid last month.",
+  "publisher": "Axios Pro",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-10-25T22:52:38Z"
+ },
+ {
   "id": "de6a359a492b",
   "theme": "infra",
   "title": "Watch Micron Forecast Tops Estimates on Booming AI Memory Demand",
@@ -15490,6 +15706,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-07T23:32:06Z"
+ },
+ {
+  "id": "e0f0065ce273",
+  "theme": "platforms",
+  "title": "Workday Introduces AI Agents to Streamline HR, Finance, and IT Workflows",
+  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOclZxWnRUdXNQVWZZd0l1WG93NWZWUzhhbjZHcFl3T1psUHJ6a2dnd3ZjNkdMbGhRUkJ0SlhCaTZScElBemN6TjAtcjZRbURzbnN0M1hFeFhBb1E2RmNUakNuWU5NcHk3RFo3UmRrc0JLNjNoRTV2N0JqRzdOV3p6ZFdnM2QyUGNxYTBxOWJsSHpYR1Z6VVpSTUgwVU5MRUU?oc=5",
+  "date": "2026-10-22T12:11:00.000Z",
+  "summary": "",
+  "publisher": "Small Business Trends",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
  },
  {
   "id": "e12362c42f54",
@@ -16726,6 +16954,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-17T23:47:21.515Z"
+ },
+ {
+  "id": "f29c8bb2cb13",
+  "theme": "platforms",
+  "title": "DeepSeek's 100 Billion Yuan Funding Round Finalized, With CATL and Tencent Joining In; Apple's Foldable Phone Faces App Compatibility Challenges",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95ZzdoVkpjTXRDNW8xNVlWY1Y4X2xnVUlMcHg2Vi1ZemhHajFvX0VlUEFFdzBmVmdERURrdXlyMVpDSXd6MGk3Y1pXVWZEeE5jOU5lY2JMLUo2VlJTWktmMU9WbEJDZG9pbGZTcmRTdWVlYlJRd0E?oc=5",
+  "date": "2026-10-23T00:25:00.000Z",
+  "summary": "",
+  "publisher": "BigGo Finance",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-25T23:48:09.180Z"
  },
  {
   "id": "f2fb80b239d8",
