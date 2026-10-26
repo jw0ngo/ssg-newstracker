@@ -29,6 +29,165 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "eqt-avetta",
+  "firm": "eqt",
+  "name": "Avetta",
+  "slug": "avetta",
+  "industry": "software",
+  "industryLabel": "supply chain / contractor risk management SaaS",
+  "hq": "Lehi, United States",
+  "geos": [
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2024-04",
+  "stake": "control",
+  "valuation": {
+   "amount": "US$3bn",
+   "basis": "Reuters-reported value including debt at signing, Apr 2024; terms not officially disclosed",
+   "url": "https://mnacritique.mergersindia.com/news/eqt-nears-3-billion-deal-for-software-maker-avetta-sources-say/"
+  },
+  "summary": "Lehi, Utah-based SaaS network for supply chain and contractor risk management (500+ hiring clients, 130,000+ contractors in 130+ countries). EQT Private Equity agreed on 2 April 2024 to acquire it from Welsh, Carson, Anderson & Stowe; Reuters put the value at about US$3bn including debt. EQT plans new products, AI/automation and international expansion.",
+  "signals": [
+   {
+    "date": "2024-04-02",
+    "publisher": "EQT (press release)",
+    "title": "EQT Private Equity to acquire Avetta from WCAS",
+    "url": "https://eqtgroup.com/news/eqt-private-equity-to-acquire-avetta-from-wcas-2024-04-02"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "eqt-banking-circle",
+  "firm": "eqt",
+  "name": "Banking Circle",
+  "slug": "banking-circle",
+  "industry": "fintech",
+  "industryLabel": "cross-border payments & banking-as-a-service infrastructure (licensed bank)",
+  "hq": "Luxembourg, Luxembourg",
+  "geos": [
+   "Luxembourg",
+   "Europe",
+   "United Kingdom",
+   "Singapore"
+  ],
+  "apac": false,
+  "heldSince": "2018-07",
+  "stake": "majority",
+  "valuation": {
+   "amount": "US$2bn+",
+   "basis": "Reuters, Sep 2024: EQT hoped a sale would value the company at more than US$2bn including debt (c.US$400m revenue, US$80m EBITDA)",
+   "url": "https://investing.com/news/stock-market-news/buyout-firm-eqt-explores-2-billion-sale-of-banking-circle-sources-say-3611949"
+  },
+  "summary": "Luxembourg-headquartered, EU-licensed payments bank providing cross-border payment, FX and banking-as-a-service infrastructure to payment firms, marketplaces and banks. EQT VIII (with EQT Ventures) bought majority ownership from Saxo Bank in July 2018; founding staff hold the rest. Reuters reported in September 2024 that EQT was exploring a US$2bn+ sale with Morgan Stanley.",
+  "signals": [
+   {
+    "date": "2024-09-11",
+    "publisher": "Reuters via Investing.com",
+    "title": "Buyout firm EQT explores $2 billion sale of Banking Circle, sources say",
+    "url": "https://investing.com/news/stock-market-news/buyout-firm-eqt-explores-2-billion-sale-of-banking-circle-sources-say-3611949"
+   }
+  ],
+  "exit": {
+   "note": "Reuters 11 Sep 2024: sale exploration with Morgan Stanley at US$2bn+; Bloomberg (Dec 2024) said FT Partners to run a US$2-4bn process from Q1 2025 (possibly minority); no buyer reported as of Oct 2026",
+   "status": "process"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "eqt-billtrust",
+  "firm": "eqt",
+  "name": "Billtrust",
+  "slug": "billtrust",
+  "industry": "fintech",
+  "industryLabel": "B2B accounts-receivable / invoice-to-cash automation & payments",
+  "hq": "Lawrenceville, United States",
+  "geos": [
+   "United States",
+   "Europe"
+  ],
+  "apac": false,
+  "heldSince": "2022-09",
+  "stake": "control",
+  "valuation": {
+   "amount": "US$1.7bn",
+   "basis": "equity value of the US$9.50/share take-private, announced Sep 2022 and completed Dec 2022",
+   "url": "https://www.businesswire.com/news/home/20220928005565/en/Billtrust-to-be-Acquired-by-EQT-Private-Equity-for-Equity-Value-of-$1.7-Billion"
+  },
+  "summary": "New Jersey-based B2B order-to-cash and payments software company (invoicing, AR automation, Business Payments Network). EQT Private Equity took it private from Nasdaq in an all-cash deal at US$9.50 per share (US$1.7bn equity value) announced 28 September 2022 and completed in December 2022 after shareholder approval.",
+  "signals": [
+   {
+    "date": "2022-09-28",
+    "publisher": "TechCrunch",
+    "title": "EQT acquires Billtrust, a company automating the invoice-to-cash process, for $1.7B",
+    "url": "https://techcrunch.com/2022/09/28/eqt-acquires-billtrust-a-company-automating-the-invoice-to-cash-process-for-1-7b"
+   },
+   {
+    "date": "2022-09-28",
+    "publisher": "Business Wire",
+    "title": "Billtrust to be Acquired by EQT Private Equity for Equity Value of $1.7 Billion",
+    "url": "https://www.businesswire.com/news/home/20220928005565/en/Billtrust-to-be-Acquired-by-EQT-Private-Equity-for-Equity-Value-of-$1.7-Billion"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "eqt-carenet",
+  "firm": "eqt",
+  "name": "CareNet",
+  "slug": "carenet",
+  "industry": "healthit",
+  "industryLabel": "physician information platform / pharma digital marketing",
+  "hq": "Tokyo, Japan",
+  "geos": [
+   "Japan"
+  ],
+  "apac": true,
+  "heldSince": "2025-08",
+  "stake": "control",
+  "valuation": {
+   "amount": "US$320m",
+   "basis": "tender offer value at JPY 1,130 per share (47% premium), launched Aug 2025",
+   "url": "https://eqtgroup.com/news/eqt-launches-usd-320-million-tender-offer-to-privatize-carenet-2025-08-13"
+  },
+  "summary": "Tokyo-listed medical information platform serving 480,000+ registered medical professionals (240,000+ physicians) with education content, news and pharma marketing services. EQT's BPEA EQT Mid-Market Growth Partnership launched a board-backed JPY 1,130/share (c.US$320m) tender offer in August 2025; it closed in September 2025 and CareNet delisted from TSE Prime on 23 December 2025.",
+  "signals": [
+   {
+    "date": "2025-12-22",
+    "publisher": "CareNet (IR notice)",
+    "title": "Notice regarding share consolidation and delisting of CareNet shares (TSE Prime, 23 Dec 2025)",
+    "url": "https://carenet.co.jp/.assets/IR_20251222_01_en.pdf"
+   },
+   {
+    "date": "2025-09-30",
+    "publisher": "CareNet (IR notice)",
+    "title": "Notice regarding the result of the tender offer by Curie 1 K.K. (EQT) and change in parent company and largest shareholder",
+    "url": "https://carenet.co.jp/.assets/IR_20250930_02_en.pdf"
+   },
+   {
+    "date": "2025-08-13",
+    "publisher": "EQT (press release)",
+    "title": "EQT launches USD 320 million tender offer to privatize CareNet",
+    "url": "https://eqtgroup.com/news/eqt-launches-usd-320-million-tender-offer-to-privatize-carenet-2025-08-13"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "eqt-citiustech",
   "firm": "eqt",
   "name": "CitiusTech",
@@ -173,6 +332,50 @@
   "firstSeen": "2026-10-09T07:11:58Z"
  },
  {
+  "id": "eqt-edgeconnex",
+  "firm": "eqt",
+  "name": "EdgeConneX",
+  "slug": "edgeconnex",
+  "industry": "infra",
+  "industryLabel": "hyperscale & edge data centres",
+  "hq": "Herndon, United States",
+  "geos": [
+   "United States",
+   "Europe",
+   "India",
+   "Southeast Asia",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2020-08",
+  "stake": "control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; EQT Infrastructure IV bought it from a Providence Equity-led group (Aug 2020, closed Nov 2020); Sixth Street took a minority stake in 2024 and CPP Investments committed US$1.75bn to the EQT/EdgeConneX AI-infrastructure strategy in Jul 2026",
+   "url": "https://www.stblaw.com/about-us/news/view/2026/07/06/cpp-investments-partners-with-eqt-to-support-global-digital-infrastructure-growth"
+  },
+  "summary": "Herndon, Virginia-based developer and operator of hyperscale and edge data centres across North America, Europe and Asia (incl. the AdaniConneX JV in India). EQT Infrastructure IV acquired it in 2020 (Infrastructure V co-invested 2021, Sixth Street minority 2024); capacity has scaled c.20x under EQT, with 10GW+ planned and CPP Investments committing US$1.75bn in July 2026.",
+  "signals": [
+   {
+    "date": "2026-07-06",
+    "publisher": "Simpson Thacher",
+    "title": "CPP Investments Partners with EQT to Support Global Digital Infrastructure Growth",
+    "url": "https://www.stblaw.com/about-us/news/view/2026/07/06/cpp-investments-partners-with-eqt-to-support-global-digital-infrastructure-growth"
+   },
+   {
+    "date": "2020-11-05",
+    "publisher": "EdgeConneX (press release)",
+    "title": "EdgeConneX Announces Completion of its Acquisition by EQT Infrastructure",
+    "url": "https://www.edgeconnex.com/news/press-releases/edgeconnex-announces-completion-of-its-acquisition-by-eqt-infrastructure/"
+   }
+  ],
+  "exit": {
+   "note": "Sixth Street agreed to take a minority stake in 2024 with EQT remaining largest shareholder; CPP Investments US$1.75bn partnership announced Jul 2026",
+   "status": "partial"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "eqt-gebbs-healthcare-solutions",
   "firm": "eqt",
   "name": "GeBBS Healthcare Solutions",
@@ -298,6 +501,47 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "eqt-indium",
+  "firm": "eqt",
+  "name": "Indium",
+  "slug": "indium",
+  "industry": "software",
+  "industryLabel": "IT services / digital engineering",
+  "hq": "Chennai, India",
+  "geos": [
+   "India",
+   "United States"
+  ],
+  "apac": true,
+  "heldSince": "2023-12",
+  "stake": "majority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; majority stake bought from existing shareholders by BPEA EQT Mid-Market Growth, Dec 2023",
+   "url": "https://eqtgroup.com/news/bpea-eqt-mid-market-growth-to-acquire-a-majority-stake-in-indium-software-a-fast-growing-digital-engineering-company-in-india-2023-12-22"
+  },
+  "summary": "Chennai-based digital engineering and IT services firm (product engineering, data/AI, QA, gaming tech) founded 1999 with c.3,000 staff and Fortune 500 clients. BPEA EQT Mid-Market Growth agreed to buy a majority stake in December 2023 (closed Q1 2024, terms undisclosed); in October 2024 Indium bought a majority of product-engineering firm Experion, targeting US$150m revenue and c.5,000 staff.",
+  "signals": [
+   {
+    "date": "2024-10-16",
+    "publisher": "Entrepreneur India",
+    "title": "EQT-backed Indium Software Acquires Majority Stake in Experion to Expand Digital Engineering Services",
+    "url": "https://india.entrepreneur.com/news-and-trends/eqt-backed-indium-software-acquires-majority-stake-in/481375"
+   },
+   {
+    "date": "2023-12-22",
+    "publisher": "EQT (press release)",
+    "title": "BPEA EQT Mid-Market Growth to acquire a majority stake in Indium Software, a fast-growing digital engineering company in India",
+    "url": "https://eqtgroup.com/news/bpea-eqt-mid-market-growth-to-acquire-a-majority-stake-in-indium-software-a-fast-growing-digital-engineering-company-in-india-2023-12-22"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "eqt-mamezou",
   "firm": "eqt",
   "name": "Mamezou Holdings",
@@ -336,6 +580,170 @@
    "status": "none"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
+ },
+ {
+  "id": "eqt-neara",
+  "firm": "eqt",
+  "name": "Neara",
+  "slug": "neara",
+  "industry": "ai",
+  "industryLabel": "AI / 3D digital-twin modelling for utility networks",
+  "hq": "Sydney, Australia",
+  "geos": [
+   "Australia",
+   "United States",
+   "United Kingdom",
+   "Europe"
+  ],
+  "apac": true,
+  "heldSince": "2024-11",
+  "stake": "minority",
+  "valuation": {
+   "amount": "A$1bn+",
+   "basis": "post-money of the A$90m Series D led by TCV, Feb 2026 (EQT participated as existing investor)",
+   "url": "https://www.dlapiper.com/news/2026/02/dla-piper-advises-australian-tech-unicorn-neara-on-aud90-million-series-d-funding-round"
+  },
+  "summary": "Sydney-based AI-driven 3D network modelling platform used by electricity utilities to simulate and harden grids. EQT led Neara's US$31m (A$45m) Series C in November 2024 alongside Partners Group, Square Peg, Skip Capital and Prosus Ventures, and re-invested in the A$90m Series D led by TCV in February 2026 that valued the company above A$1bn.",
+  "signals": [
+   {
+    "date": "2026-02-17",
+    "publisher": "DLA Piper",
+    "title": "DLA Piper advises Australian tech unicorn Neara on AUD90 million Series D funding round",
+    "url": "https://www.dlapiper.com/news/2026/02/dla-piper-advises-australian-tech-unicorn-neara-on-aud90-million-series-d-funding-round"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "eqt-orikan",
+  "firm": "eqt",
+  "name": "Orikan",
+  "slug": "orikan",
+  "industry": "software",
+  "industryLabel": "parking enforcement & compliance software / govtech",
+  "hq": "Melbourne, Australia",
+  "geos": [
+   "Australia",
+   "New Zealand",
+   "North America"
+  ],
+  "apac": true,
+  "heldSince": "2026-07",
+  "stake": "control",
+  "valuation": {
+   "amount": "A$500m+",
+   "basis": "terms undisclosed; AFR (Feb 2026) reported Five V's sale process could value Orikan at more than A$500m",
+   "url": "https://www.dealstreetasia.com/stories/eqt-to-buy-orikan-487976"
+  },
+  "summary": "Melbourne-based provider of integrated parking, enforcement and infringement-management software and services (c.400 staff; councils, universities, airports, hospitals) formed in 2022 from DCA Cities and NZ's Global Parking Solutions. EQT's BPEA EQT Mid-Market Growth Partnership agreed on 6 July 2026 to buy it from Five V Capital; closing is subject to regulatory approvals.",
+  "signals": [
+   {
+    "date": "2026-07-06",
+    "publisher": "EQT (press release)",
+    "title": "EQT to acquire Orikan, a leading provider of integrated parking, enforcement, and compliance technology solutions",
+    "url": "https://eqtgroup.com/news/eqt-to-acquire-orikan-a-leading-provider-of-integrated-parking-enforcement-and-compliance-technology-solutions-2026-07-06"
+   }
+  ],
+  "exit": {
+   "note": "acquisition signed Jul 2026, pending customary closing conditions and regulatory approvals",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "eqt-pageup",
+  "firm": "eqt",
+  "name": "PageUp",
+  "slug": "pageup",
+  "industry": "software",
+  "industryLabel": "HR / talent acquisition & talent management SaaS",
+  "hq": "Melbourne, Australia",
+  "geos": [
+   "Australia",
+   "United Kingdom",
+   "United States",
+   "Singapore"
+  ],
+  "apac": true,
+  "heldSince": "2024-10",
+  "stake": "control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; bought from majority owner Battery Ventures, Oct 2024",
+   "url": "https://eqtgroup.com/news/2024/eqt-acquires-leading-saas-talent-solutions-provider-pageup-to-accelerate-global-expansion-and-product-innovation"
+  },
+  "summary": "Australian-founded SaaS talent acquisition, recruitment marketing and talent management platform (incl. Clinch, eArcu, PathMotion add-ons). EQT acquired it from Battery Ventures on 31 October 2024 through BPEA Fund VIII (EQT Private Capital Asia) as part of its Asia-Pacific software strategy; terms undisclosed, CEO Mark Rice retired post-deal.",
+  "signals": [
+   {
+    "date": "2024-11-01",
+    "publisher": "Alternatives Watch",
+    "title": "EQT acquisition of HR software provider PageUp from Battery Ventures",
+    "url": "https://www.alternativeswatch.com/2024/11/01/eqt-acquisition-hr-software-provider-pageup-battery-ventures-accel-kkr-private-equity/"
+   },
+   {
+    "date": "2024-10-31",
+    "publisher": "EQT (press release)",
+    "title": "EQT Acquires Leading SaaS Talent Solutions Provider PageUp to Accelerate Global Expansion and Product Innovation",
+    "url": "https://eqtgroup.com/news/2024/eqt-acquires-leading-saas-talent-solutions-provider-pageup-to-accelerate-global-expansion-and-product-innovation"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "eqt-perficient",
+  "firm": "eqt",
+  "name": "Perficient",
+  "slug": "perficient",
+  "industry": "software",
+  "industryLabel": "IT services / digital consultancy (global delivery in India, LatAm)",
+  "hq": "St. Louis, United States",
+  "geos": [
+   "United States",
+   "India",
+   "Latin America"
+  ],
+  "apac": false,
+  "heldSince": "2024-05",
+  "stake": "control",
+  "valuation": {
+   "amount": "US$3.0bn",
+   "basis": "take-private enterprise value at US$76.00 per share, announced May 2024 and closed 2 Oct 2024",
+   "url": "https://www.businesswire.com/news/home/20240505881094/en/Perficient-to-be-Acquired-by-EQT-for-Approximately-3.0-Billion/"
+  },
+  "summary": "Nasdaq-listed digital consultancy (c.7,000 staff, large offshore delivery centres in India and Latin America) taken private by an affiliate of BPEA Private Equity Fund VIII ('EQT Asia') for about US$3.0bn in cash; signed May 2024, closed 2 October 2024. Under EQT it has continued bolt-ons such as Salesforce partner Kelley Austin (Oct 2025).",
+  "signals": [
+   {
+    "date": "2025-10-09",
+    "publisher": "Houlihan Lokey",
+    "title": "Houlihan Lokey advises Perficient, a portfolio company of EQT, on its acquisition of Kelley Austin",
+    "url": "https://hl.com/about-us/transactions/perficient-eqt-kelley-austin/"
+   },
+   {
+    "date": "2024-10-02",
+    "publisher": "Nasdaq / Business Wire",
+    "title": "EQT Completes Acquisition of Perficient",
+    "url": "https://www.nasdaq.com/press-release/eqt-completes-acquisition-perficient-2024-10-02"
+   },
+   {
+    "date": "2024-05-05",
+    "publisher": "Business Wire",
+    "title": "Perficient to be Acquired by EQT for Approximately $3.0 Billion",
+    "url": "https://www.businesswire.com/news/home/20240505881094/en/Perficient-to-be-Acquired-by-EQT-for-Approximately-3.0-Billion/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "eqt-propertyguru",
@@ -445,6 +853,128 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "eqt-sitecore",
+  "firm": "eqt",
+  "name": "Sitecore",
+  "slug": "sitecore",
+  "industry": "software",
+  "industryLabel": "digital experience platform / CMS & marketing software",
+  "hq": "Copenhagen, Denmark",
+  "geos": [
+   "Denmark",
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2016-04",
+  "stake": "majority",
+  "valuation": {
+   "amount": "US$2bn",
+   "basis": "Bloomberg, Jun 2023: potential sale could value Sitecore at as much as US$2bn; EQT's 2016 entry valued it at c.EUR 1bn",
+   "url": "https://www.bloomberg.com/news/articles/2023-06-13/eqt-is-said-to-weigh-sale-of-2-billion-danish-software-maker"
+  },
+  "summary": "Danish-founded digital experience platform (CMS, commerce, personalisation) vendor. EQT VII acquired a majority stake in April 2016 at a c.EUR 1bn valuation in partnership with the founder group, with Danica and Sampension co-investing. Bloomberg reported in June 2023 that EQT was working with Goldman Sachs on options including a sale at up to US$2bn; no transaction has been reported since.",
+  "signals": [
+   {
+    "date": "2023-06-13",
+    "publisher": "Bloomberg",
+    "title": "EQT Weighs Sale of $2 Billion Danish Software Maker",
+    "url": "https://www.bloomberg.com/news/articles/2023-06-13/eqt-is-said-to-weigh-sale-of-2-billion-danish-software-maker"
+   },
+   {
+    "date": "2016-04-01",
+    "publisher": "EQT (press release)",
+    "title": "EQT VII enters into partnership with founder group to acquire Sitecore, the global leading provider of customer experience management software",
+    "url": "https://eqtgroup.com/news/eqt-vii-enters-into-partnership-with-founder-group-to-acquire-sitecore-the-global-leading-provider-of-customer-experience-management-software-2016-04-01"
+   }
+  ],
+  "exit": {
+   "note": "Bloomberg, 13 Jun 2023: EQT weighing options incl. a sale at up to US$2bn with Goldman Sachs; no outcome reported as of Oct 2026 (stale)",
+   "status": "rumoured"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "eqt-sk-shieldus",
+  "firm": "eqt",
+  "name": "SK Shieldus",
+  "slug": "sk-shieldus",
+  "industry": "software",
+  "industryLabel": "cybersecurity (SK Infosec) & integrated security services",
+  "hq": "Seoul, South Korea",
+  "geos": [
+   "South Korea"
+  ],
+  "apac": true,
+  "heldSince": "2023-03",
+  "stake": "majority",
+  "valuation": {
+   "amount": "KRW 3tn",
+   "basis": "enterprise valuation implied by EQT Infrastructure VI's Mar 2023 purchase of SK Square and Macquarie stakes (c. US$2.3bn)",
+   "url": "https://www.avcj.com/avcj/news/3028803/eqt-buys-korean-security-services-provider"
+  },
+  "summary": "Korea's largest integrated security operator (ADT Caps physical security plus SK Infosec cybersecurity/managed security services). EQT Infrastructure VI agreed in March 2023 to buy Macquarie's 36.9% and part of SK Square's stake, taking 68% with SK Square retaining 32%; in July 2026 EQT was reported to be selling the low-margin manned-guarding unit Capstec to focus on AI/sensor-based security.",
+  "signals": [
+   {
+    "date": "2026-07-24",
+    "publisher": "Daum / Korean press",
+    "title": "EQT, SK쉴더스 비핵심자산 정리...한국시장 포트폴리오 재편 속도",
+    "url": "https://v.daum.net/v/20260724112139221"
+   },
+   {
+    "date": "2023-03-03",
+    "publisher": "EQT (press release)",
+    "title": "EQT Value-Add Infrastructure to acquire SK Shieldus, a leading South Korean integrated security operator",
+    "url": "https://eqtgroup.com/en/news/eqt-value-add-infrastructure-to-acquire-sk-shieldus-a-leading-south-korean-integrated-security-operator-2023-03-03"
+   }
+  ],
+  "exit": {
+   "note": "Korean press, 24 Jul 2026: EQT running a sale of non-core manned-guarding subsidiary Capstec; no sale of SK Shieldus itself reported",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "eqt-storable",
+  "firm": "eqt",
+  "name": "Storable",
+  "slug": "storable",
+  "industry": "software",
+  "industryLabel": "vertical SaaS for self-storage & marinas (software, payments, marketplace)",
+  "hq": "Austin, United States",
+  "geos": [
+   "United States"
+  ],
+  "apac": false,
+  "heldSince": "2020-12",
+  "stake": "majority",
+  "valuation": {
+   "amount": "US$2bn",
+   "basis": "Bloomberg-reported valuation including debt at EQT's majority investment, Dec 2020",
+   "url": "https://www.bloomberg.com/news/articles/2020-12-16/eqt-is-said-in-talks-for-stake-in-storable-at-2-billion-value"
+  },
+  "summary": "Austin-based vertical software platform for self-storage (and now marina) operators combining management software, embedded payments and insurance, and the leading online marketplace (c.615 staff). EQT Private Equity made a majority investment announced 16 December 2020 (closed 2021) at a reported c.US$2bn valuation, with seller Cove Hill Partners and management retaining a minority.",
+  "signals": [
+   {
+    "date": "2020-12-16",
+    "publisher": "EQT (press release)",
+    "title": "EQT Private Equity makes a majority investment in Storable, the leading software and technology provider to the self-storage industry",
+    "url": "https://eqtgroup.com/news/eqt-private-equity-makes-a-majority-investment-in-storable-the-leading-software-and-technology-provider-to-the-self-storage-industry-2020-12-16"
+   },
+   {
+    "date": "2020-12-16",
+    "publisher": "Bloomberg",
+    "title": "EQT Is in Talks For Stake in Storable at $2 Billion Value",
+    "url": "https://www.bloomberg.com/news/articles/2020-12-16/eqt-is-said-in-talks-for-stake-in-storable-at-2-billion-value"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "eqt-straive",
   "firm": "eqt",
   "name": "Straive (ex-SPi Global)",
@@ -486,6 +1016,85 @@
    "status": "none"
   },
   "firstSeen": "2026-10-06T00:58:19Z"
+ },
+ {
+  "id": "eqt-suse",
+  "firm": "eqt",
+  "name": "SUSE",
+  "slug": "suse",
+  "industry": "software",
+  "industryLabel": "enterprise Linux, Kubernetes & open-source infrastructure software",
+  "hq": "Luxembourg, Luxembourg",
+  "geos": [
+   "Germany",
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2018-07",
+  "stake": "control",
+  "valuation": {
+   "amount": "US$6bn",
+   "basis": "Reuters, Mar 2026: potential sale could value SUSE at up to US$6bn (EUR 5.1bn); EQT's 2023 take-private valued it at EUR 2.72bn",
+   "url": "https://tech.slashdot.org/story/26/03/10/0450204"
+  },
+  "summary": "Open-source enterprise software company (SUSE Linux Enterprise, Rancher Kubernetes) with c.US$800m revenue and US$250m+ EBITDA. EQT bought it from Micro Focus for US$2.5bn in 2018, listed it in Frankfurt in 2021 and took it private again in 2023 at a EUR 2.72bn valuation. In March 2026 Reuters reported EQT had hired Arma Partners to sound out private equity buyers for a sale at up to US$6bn.",
+  "signals": [
+   {
+    "date": "2026-03-10",
+    "publisher": "Slashdot (citing Reuters)",
+    "title": "SUSE Reportedly May Be For Sale Yet Again",
+    "url": "https://tech.slashdot.org/story/26/03/10/0450204"
+   }
+  ],
+  "exit": {
+   "note": "Reuters, 9-10 Mar 2026: EQT exploring sale at up to US$6bn, Arma Partners hired to sound out PE buyers; early stage, no certainty",
+   "status": "process"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "eqt-vinted",
+  "firm": "eqt",
+  "name": "Vinted",
+  "slug": "vinted",
+  "industry": "internet",
+  "industryLabel": "C2C second-hand fashion marketplace",
+  "hq": "Vilnius, Lithuania",
+  "geos": [
+   "Lithuania",
+   "Europe",
+   "United Kingdom",
+   "United States"
+  ],
+  "apac": false,
+  "heldSince": "2021-05",
+  "stake": "minority",
+  "valuation": {
+   "amount": "€8bn",
+   "basis": "valuation in the EUR 880m secondary share sale led by EQT, Apr 2026 (up from EUR 5bn in 2024)",
+   "url": "https://tech.eu/2026/04/27/vinted-hits-eur8b-valuation-as-eqt-leads-eur880m-secondary-share-sale/"
+  },
+  "summary": "Vilnius-based peer-to-peer marketplace for second-hand fashion and goods (2025 GMV EUR 10.8bn, revenue EUR 1.1bn). EQT Growth led the EUR 250m Series F in May 2021 at a EUR 3.5bn pre-money valuation and in April 2026 led an EUR 880m secondary at EUR 8bn, increasing its stake alongside new investors Teachers' Venture Growth, Schroders Capital and BlackRock funds.",
+  "signals": [
+   {
+    "date": "2026-04-27",
+    "publisher": "Tech.eu",
+    "title": "Vinted hits EUR 8B valuation as EQT leads EUR 880M secondary share sale",
+    "url": "https://tech.eu/2026/04/27/vinted-hits-eur8b-valuation-as-eqt-leads-eur880m-secondary-share-sale/"
+   },
+   {
+    "date": "2021-05-12",
+    "publisher": "Tech.eu",
+    "title": "Vilnius-based consumer-to-consumer second-hand fashion platform Vinted raises EUR 250 million",
+    "url": "https://tech.eu/2021/05/12/vilnius-based-consumer-to-consumer-second-hand-fashion-platform-vinted-raises-e250-million/"
+   }
+  ],
+  "exit": {
+   "note": "Vinted says it is 'IPO-ready' with no timetable (Apr 2026); EQT increased rather than reduced its stake in the Apr 2026 secondary",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "eqt-virtuos",
@@ -693,6 +1302,47 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "kkr-barracuda-networks",
+  "firm": "kkr",
+  "name": "Barracuda Networks",
+  "slug": "barracuda-networks",
+  "industry": "software",
+  "industryLabel": "SME cybersecurity (email security, XDR, backup)",
+  "hq": "Campbell, United States",
+  "geos": [
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2022-08",
+  "stake": "control",
+  "valuation": {
+   "amount": "US$4bn",
+   "basis": "reported (Reuters estimate) value of KKR's purchase from Thoma Bravo, agreed Apr 2022 and closed Aug 2022; terms undisclosed",
+   "url": "https://blocksandfiles.com/2022/08/18/barracuda-sold-to-private-equity/"
+  },
+  "summary": "Campbell, California cybersecurity vendor selling email protection, managed XDR, network/SASE and data-protection products to 200,000+ SME customers via MSPs and channel. KKR bought the company from Thoma Bravo in a deal agreed Apr 2022 and completed Aug 2022 (reported ~US$4bn); 2026 news is product/awards (SC Awards, MSP Today product of the year), no ownership change.",
+  "signals": [
+   {
+    "date": "2026-04-01",
+    "publisher": "Business Wire via Enid News",
+    "title": "Barracuda Reigns as Industry Leader in Email Security and Extended Detection and Response (XDR)",
+    "url": "https://www.enidnews.com/region/barracuda-reigns-as-industry-leader-in-email-security-and-extended-detection-and-response-xdr/article_8455cc05-dc3d-5f3a-89ff-bee9b1a31fcd.html"
+   },
+   {
+    "date": "2022-08-16",
+    "publisher": "Business Wire (KKR press release)",
+    "title": "KKR Completes Acquisition of Barracuda from Thoma Bravo",
+    "url": "https://www.businesswire.com/news/home/20220816005239/en/KKR-Completes-Acquisition-of-Barracuda-from-Thoma-Bravo"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "kkr-bmc-software",
   "firm": "kkr",
   "name": "BMC Software",
@@ -737,6 +1387,122 @@
    "status": "process"
   },
   "firstSeen": "2026-10-05T10:37:52Z"
+ },
+ {
+  "id": "kkr-bytedance",
+  "firm": "kkr",
+  "name": "ByteDance",
+  "slug": "bytedance",
+  "industry": "internet",
+  "industryLabel": "Internet platforms (TikTok, Douyin, Toutiao)",
+  "hq": "Beijing, China",
+  "geos": [
+   "China",
+   "United States",
+   "Global"
+  ],
+  "apac": true,
+  "heldSince": "2020",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed minority stake; KKR co-led with Sequoia a round reported at ~US$180bn valuation (DealStreetAsia); current ByteDance valuation and KKR stake size not disclosed",
+   "url": "https://cdn.dealstreetasia.com/stories/sequoia-kkr-bytedance-219666"
+  },
+  "summary": "Beijing-based owner of TikTok, Douyin and Toutiao. KKR is a long-standing minority shareholder (it co-led, with Sequoia, the round valuing ByteDance at ~US$180bn); in Mar 2025 Reuters named KKR among PE firms in existing-investor-led talks over a spun-off US TikTok entity, later formed as a JV led by Oracle, Silver Lake and MGX.",
+  "signals": [
+   {
+    "date": "2025-03-21",
+    "publisher": "Reuters (via Fidelity)",
+    "title": "Existing ByteDance investors emerge as front-runners in TikTok deal talks",
+    "url": "https://fidelity.com/news/article/technology/202503211314RTRSNEWSCOMBINED_L1N3Q40IE_1"
+   }
+  ],
+  "exit": {
+   "note": "KKR not named among the main holders of the TikTok USDS joint venture formed in early 2026; its ByteDance stake is held indirectly",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "kkr-cegid",
+  "firm": "kkr",
+  "name": "Cegid",
+  "slug": "cegid",
+  "industry": "software",
+  "industryLabel": "Finance, HR, tax and retail management software (SMB/accountants)",
+  "hq": "Lyon, France",
+  "geos": [
+   "France",
+   "Spain",
+   "Portugal",
+   "Germany",
+   "Benelux",
+   "Nordics"
+  ],
+  "apac": false,
+  "heldSince": "2021-06",
+  "stake": "minority",
+  "valuation": {
+   "amount": "€5.5bn",
+   "basis": "enterprise value at KKR's minority investment alongside majority owner Silver Lake and AltaOne, Jun 2021",
+   "url": "https://www.businesswire.com/news/home/20210602006160/en/KKR-to-make-Investment-in-Cegid-valuing-the-Company-at-%E2%82%AC5.5-Billion"
+  },
+  "summary": "French cloud business-management software group (accounting, finance, HR/payroll, tax, retail) for SMBs and accountants across Europe. KKR took a minority stake in Jun 2021 at €5.5bn EV with Silver Lake staying majority owner; Cegid has since bought EBP (2024), other European targets (2025) and closed the acquisition of SMB finance platform Shine in Jun 2026 with a new €1.1bn debt facility.",
+  "signals": [
+   {
+    "date": "2026-06-08",
+    "publisher": "Cegid (press release)",
+    "title": "Cegid closes its acquisition of Shine to create Europe's first unified financial copilot for SMBs and accountants",
+    "url": "https://www.cegid.com/global/news/cegid-closes-its-acquisition-of-shine/"
+   },
+   {
+    "date": "2021-06-02",
+    "publisher": "Business Wire (press release)",
+    "title": "KKR to make Investment in Cegid valuing the Company at €5.5 Billion",
+    "url": "https://www.businesswire.com/news/home/20210602006160/en/KKR-to-make-Investment-in-Cegid-valuing-the-Company-at-%E2%82%AC5.5-Billion"
+   }
+  ],
+  "exit": {
+   "note": "Unquote (2021) reported Silver Lake saw an IPO as a mid-term exit option; no 2025-26 process reported",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "kkr-cloudera",
+  "firm": "kkr",
+  "name": "Cloudera",
+  "slug": "cloudera",
+  "industry": "data",
+  "industryLabel": "Hybrid data platform / data lakehouse",
+  "hq": "Santa Clara, United States",
+  "geos": [
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2021-10",
+  "stake": "co-control",
+  "valuation": {
+   "amount": "US$5.3bn",
+   "basis": "all-cash take-private value (US$16/share) by CD&R and KKR, closed Oct 2021",
+   "url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2021-10-08-cloudera-completes-agreement-to-become-a-private-company.html"
+  },
+  "summary": "Enterprise hybrid data platform (data lakehouse, analytics and AI on any cloud) spun out of the Hadoop era. Clayton, Dubilier & Rice and KKR took Cloudera private for ~US$5.3bn in an all-cash deal that closed 8 Oct 2021; the company has since added data-lineage vendor Octopai and remains jointly held by the two sponsors.",
+  "signals": [
+   {
+    "date": "2021-10-08",
+    "publisher": "Cloudera (press release)",
+    "title": "Cloudera Completes Agreement to Become a Private Company",
+    "url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2021-10-08-cloudera-completes-agreement-to-become-a-private-company.html"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "kkr-cotiviti",
@@ -840,6 +1606,42 @@
   "firstSeen": "2026-10-09T07:11:58Z"
  },
  {
+  "id": "kkr-education-perfect",
+  "firm": "kkr",
+  "name": "Education Perfect",
+  "slug": "education-perfect",
+  "industry": "software",
+  "industryLabel": "K-12 edtech SaaS",
+  "hq": "Dunedin, New Zealand",
+  "geos": [
+   "New Zealand",
+   "Australia",
+   "International"
+  ],
+  "apac": true,
+  "heldSince": "2021-06",
+  "stake": "majority",
+  "valuation": {
+   "amount": "NZ$455m",
+   "basis": "transaction value (incl. NZ$20m earn-out) at KKR Global Impact Fund's majority purchase, Jun 2021 (AVCJ)",
+   "url": "https://www.avcj.com/avcj/news/3024283/kkr-impact-fund-backs-australasian-edtech-player"
+  },
+  "summary": "NZ-founded online teaching, formative-assessment and student-analytics platform used by 3,000+ schools and ~1m students, mainly in Australia and NZ. KKR's Global Impact Fund bought a majority stake in Jun 2021 (NZ$455m value) from Mulpha and the founders, with Five V Capital and management staying in; EP then bought Victorian assessment platform Essential Assessment (~A$40m) in 2023.",
+  "signals": [
+   {
+    "date": "2021-06-22",
+    "publisher": "Business Wire (KKR press release)",
+    "title": "KKR to Invest in Leading ANZ Edtech Company Education Perfect",
+    "url": "https://www.businesswire.com/news/home/20210622006028/en"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "kkr-employment-hero",
   "firm": "kkr",
   "name": "Employment Hero",
@@ -939,6 +1741,123 @@
    "status": "none"
   },
   "firstSeen": "2026-10-05T10:37:52Z"
+ },
+ {
+  "id": "kkr-incred",
+  "firm": "kkr",
+  "name": "InCred",
+  "slug": "incred",
+  "industry": "fintech",
+  "industryLabel": "digital-first NBFC (consumer, education and SME lending)",
+  "hq": "Mumbai, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2022",
+  "stake": "significant minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; IPO fresh issue Rs 1,250 cr plus OFS of up to 9.9 crore shares (press estimate Rs 3,000–4,000 cr total), UDRHP May 2026",
+   "url": "https://inc42.com/buzz/incred-holdings-files-udrhp-for-ipo-to-raise-₹1250-cr-via-fresh-issue/"
+  },
+  "summary": "Mumbai-based tech-led NBFC (InCred Financial Services) lending to consumers, students and SMEs; KKR became a major shareholder in 2022 when KKR India Financial Services merged into InCred. InCred Holdings filed its updated DRHP with SEBI on 6 May 2026 for a Rs 1,250 cr fresh issue plus an offer for sale in which KKR India Financial Investments is the largest seller (up to 4 crore shares).",
+  "signals": [
+   {
+    "date": "2026-05-08",
+    "publisher": "Entrepreneur India",
+    "title": "InCred Holdings Files UDRHP with SEBI for INR 1,250 Cr IPO",
+    "url": "https://india.entrepreneur.com/business-news/incred-holdings-files-udrhp-with-sebi-for-inr-1250-cr-ipo"
+   },
+   {
+    "date": "2026-05-07",
+    "publisher": "exchange4media",
+    "title": "InCred Holdings files DRHP for IPO",
+    "url": "https://www.exchange4media.com/industry-briefing-news/incred-holdings-files-drhp-for-ipo-154463.html"
+   }
+  ],
+  "exit": {
+   "note": "IPO: SEBI approval Feb 2026, UDRHP filed 6 May 2026 with KKR selling up to 4 crore shares in the OFS; launch timing open (Outlook Business)",
+   "status": "process"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "kkr-infinx",
+  "firm": "kkr",
+  "name": "Infinx",
+  "slug": "infinx",
+  "industry": "healthit",
+  "industryLabel": "AI-driven healthcare revenue cycle management",
+  "hq": "Mumbai, India",
+  "geos": [
+   "India",
+   "United States"
+  ],
+  "apac": true,
+  "heldSince": "2024-05",
+  "stake": "significant minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; significant minority stake acquired by a KKR Asian Fund IV vehicle, May 2024",
+   "url": "https://www.silicon.co.uk/press-release/kkr-invests-in-healthcare-revenue-solutions-provider-infinx"
+  },
+  "summary": "Mumbai-founded (2012) provider of data- and AI-driven revenue cycle management (prior authorisation, coding, billing) for US healthcare providers. KKR's Asian Fund IV bought a significant minority stake in May 2024 alongside existing investor Norwest Venture Partners to fund growth and bolt-ons; Infinx bought i3 Verticals' healthcare RCM business in 2025.",
+  "signals": [
+   {
+    "date": "2024-05-21",
+    "publisher": "Silicon UK (press release)",
+    "title": "KKR Invests in Healthcare Revenue Solutions Provider Infinx",
+    "url": "https://www.silicon.co.uk/press-release/kkr-invests-in-healthcare-revenue-solutions-provider-infinx"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "kkr-infios",
+  "firm": "kkr",
+  "name": "Infios",
+  "slug": "infios",
+  "industry": "software",
+  "industryLabel": "supply-chain / warehouse management software (ex-Körber Supply Chain Software)",
+  "hq": "Minneapolis, United States",
+  "geos": [
+   "United States",
+   "Germany",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2021-12",
+  "stake": "significant minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; KKR significant minority in Körber JV, Dec 2021",
+   "url": "https://www.koerber.com/en/about-us/news-and-press/kkr-partnership-supply-chain-software"
+  },
+  "summary": "Warehouse, transportation and order-management software business carved out of Körber AG into a joint venture in which KKR took a significant minority stake (announced 14 Dec 2021, terms undisclosed) to fund M&A; after absorbing MercuryGate it rebranded as Infios in March 2025 under CEO Ed Auriemma. Körber remains the majority owner.",
+  "signals": [
+   {
+    "date": "2025-03-04",
+    "publisher": "Infios (press release)",
+    "title": "Körber Supply Chain Software Rebrands as Infios",
+    "url": "https://www.infios.com/en/knowledge-center/news/koerber-supply-chain-software-rebrands-as-infios"
+   },
+   {
+    "date": "2021-12-14",
+    "publisher": "Körber (press release)",
+    "title": "Körber and KKR form strategic partnership to build a global supply chain software champion",
+    "url": "https://www.koerber.com/en/about-us/news-and-press/kkr-partnership-supply-chain-software"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "kkr-instructure",
@@ -1196,6 +2115,172 @@
   "firstSeen": "2026-10-05T10:37:52Z"
  },
  {
+  "id": "kkr-ness-digital-engineering",
+  "firm": "kkr",
+  "name": "Ness Digital Engineering",
+  "slug": "ness-digital-engineering",
+  "industry": "software",
+  "industryLabel": "IT services / digital product engineering",
+  "hq": "Teaneck, United States",
+  "geos": [
+   "United States",
+   "India",
+   "Romania",
+   "Slovakia",
+   "Czech Republic"
+  ],
+  "apac": false,
+  "heldSince": "2022-10",
+  "stake": "control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; 100% acquired from The Rohatyn Group by KKR Asian Fund IV, agreed Oct 2022",
+   "url": "https://www.roi-nj.com/2022/10/27/tech/teaneck-based-ness-digital-engineering-to-be-acquired-by-kkr/"
+  },
+  "summary": "Digital product and platform engineering services firm (cloud, data & analytics, experience design, Salesforce) with 11 delivery hubs across the US, Eastern Europe and India, where most of its engineers sit. KKR's Asian Fund IV agreed in Oct 2022 to buy 100% from The Rohatyn Group; under KKR Ness bought Intricity (May 2024) and Raja Software Labs (Dec 2024).",
+  "signals": [
+   {
+    "date": "2022-10-27",
+    "publisher": "ROI-NJ",
+    "title": "Teaneck-based Ness Digital Engineering to be acquired by KKR",
+    "url": "https://www.roi-nj.com/2022/10/27/tech/teaneck-based-ness-digital-engineering-to-be-acquired-by-kkr/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "kkr-optiv",
+  "firm": "kkr",
+  "name": "Optiv",
+  "slug": "optiv",
+  "industry": "software",
+  "industryLabel": "IT services / cybersecurity solutions integrator",
+  "hq": "Denver, United States",
+  "geos": [
+   "United States",
+   "Canada"
+  ],
+  "apac": false,
+  "heldSince": "2017",
+  "stake": "control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; ~US$1bn of debt amended and extended May 2026 after S&P cut to CCC in 2025",
+   "url": "https://pe-insights.com/kkr-backed-optiv-enters-private-debt-talks-as-1bn-maturity-wall-looms/"
+  },
+  "summary": "Denver-based cybersecurity solutions integrator and managed-security provider controlled by KKR since 2017. With ~US$1bn of debt largely due in 2026 and a 2025 S&P downgrade to CCC, Optiv negotiated with lenders from Nov 2025 and in May 2026 closed an amendment-and-extension pushing ABL, first-lien and second-lien maturities to 2028-2029 with >99% lender support.",
+  "signals": [
+   {
+    "date": "2026-05-14",
+    "publisher": "Willkie Farr & Gallagher",
+    "title": "Willkie Advises Second Lien Lenders on Amendment and Extension of Optiv's Credit Facilities",
+    "url": "https://www.willkie.com/news/2026/05/willkie-advises-second-lien-lenders-on-amendment-and-extension-of-optivs-credit-facilities"
+   },
+   {
+    "date": "2025-11-11",
+    "publisher": "Bloomberg",
+    "title": "KKR-Backed Optiv Starts Private Talks With Junior Lenders",
+    "url": "https://www.bloomberg.com/news/articles/2025-11-11/kkr-backed-optiv-starts-private-talks-with-junior-lenders"
+   }
+  ],
+  "exit": {
+   "note": "Debt restructuring (A&E closed May 2026) rather than a sale process; an earlier Reuters report of KKR exploring a sale/IPO is undated and pre-dates the 2025 distress",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "kkr-parallels",
+  "firm": "kkr",
+  "name": "Parallels (ex-Alludo / Corel)",
+  "slug": "parallels",
+  "industry": "software",
+  "industryLabel": "Virtualisation and remote-work software",
+  "hq": "Ottawa, Canada",
+  "geos": [
+   "Canada",
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2019-07",
+  "stake": "control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; KKR bought Corel (then incl. Parallels, CorelDRAW, WinZip) from Vector Capital in 2019 for a reported >US$1bn; Feb 2026 split terms undisclosed",
+   "url": "https://techcrunch.com/?p=1851812"
+  },
+  "summary": "Parallels (Parallels Desktop for Mac, Parallels RAS/DaaS) is the business KKR kept after Corel Corporation (Alludo 2022-25) was split: on 26 Feb 2026 Corel agreed to sell its creativity/productivity brands (CorelDRAW, WinZip, MindManager, WordPerfect) to Vector Capital, with Parallels staying under KKR funds and CEO Christa Quarles; the Vector deal completed 5 May 2026.",
+  "signals": [
+   {
+    "date": "2026-05-05",
+    "publisher": "Corel (press release)",
+    "title": "Corel Corporation Relaunches as Independent Company Backed by Vector Capital",
+    "url": "https://www.corel.com/en/newsroom/news/press-releases/20260505-corel-relaunches-as-independent-company-backed-by-vector-capital/"
+   },
+   {
+    "date": "2026-02-26",
+    "publisher": "Parallels (press release)",
+    "title": "Corel Corporation Announces Strategic Transaction to Create Two Independent Companies",
+    "url": "https://www.parallels.com/newsroom/news/press-releases/20260226-corel-announcement/"
+   }
+  ],
+  "exit": {
+   "note": "Vector Capital acquired Corel's creativity and productivity software portfolio (closed 5 May 2026); KKR retains Parallels",
+   "status": "partial"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "kkr-premialab",
+  "firm": "kkr",
+  "name": "Premialab",
+  "slug": "premialab",
+  "industry": "data",
+  "industryLabel": "Quant-investing data, analytics and risk platform",
+  "hq": "Dubai, United Arab Emirates",
+  "geos": [
+   "United Arab Emirates",
+   "United Kingdom",
+   "United States",
+   "France",
+   "Hong Kong",
+   "Australia"
+  ],
+  "apac": false,
+  "heldSince": "2025-12",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; US$220m growth investment led by KKR (Next Generation Technology Growth Fund III) with Balderton, Dec 2025",
+   "url": "https://www.businesswire.com/news/home/20251215372814/en/kkr-and-premialab-announce-a-220m-strategic-investment-to-power-next-phase-of-global-growth/"
+  },
+  "summary": "Dubai-headquartered (offices in London, New York, Paris, Hong Kong, Sydney) data, analytics and risk platform for the ~US$800bn quantitative investment strategies market, founded 2016. KKR led a US$220m strategic growth investment in Dec 2025 (its first growth-tech deal in the Middle East, mainly from NGT Growth Fund III) alongside existing investor Balderton.",
+  "signals": [
+   {
+    "date": "2025-12-16",
+    "publisher": "Bloomberg",
+    "title": "KKR Backs Quantitative Investing Platform in Mideast Tech Bet",
+    "url": "https://www.bloomberg.com/news/articles/2025-12-16/kkr-backs-quantitative-investing-platform-in-mideast-tech-bet"
+   },
+   {
+    "date": "2025-12-15",
+    "publisher": "Business Wire (press release)",
+    "title": "KKR and Premialab Announce a $220m Strategic Investment to Power Next Phase of Global Growth",
+    "url": "https://www.businesswire.com/news/home/20251215372814/en/kkr-and-premialab-announce-a-220m-strategic-investment-to-power-next-phase-of-global-growth/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "kkr-privy",
   "firm": "kkr",
   "name": "Privy",
@@ -1255,6 +2340,42 @@
   "firstSeen": "2026-10-05T10:37:52Z"
  },
  {
+  "id": "kkr-reliaquest",
+  "firm": "kkr",
+  "name": "ReliaQuest",
+  "slug": "reliaquest",
+  "industry": "software",
+  "industryLabel": "AI-powered security operations platform (GreyMatter)",
+  "hq": "Tampa, United States",
+  "geos": [
+   "United States",
+   "United Kingdom",
+   "India"
+  ],
+  "apac": false,
+  "heldSince": "2020",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$3.4bn",
+   "basis": "valuation of the >US$500m round led by EQT Growth in Mar 2025, in which existing investor KKR participated",
+   "url": "https://eqtgroup.com/news/eqt-leads-funding-round-exceeding-usd-500-million-in-reliaquest-a-leader-in-ai-powered-security-operations-2025-03-31"
+  },
+  "summary": "Tampa-based security-operations platform (GreyMatter) with >US$300m ARR, growing 30%+ and profitable. KKR led a ~US$300m growth round in 2020 and a late-2021 round that made it a unicorn; in Mar 2025 EQT Growth led a >US$500m round at US$3.4bn with KKR, FTV Capital, Ten Eleven Ventures and Finback participating, leaving KKR a minority holder.",
+  "signals": [
+   {
+    "date": "2025-03-31",
+    "publisher": "EQT (press release)",
+    "title": "EQT leads funding round exceeding USD 500 million in ReliaQuest, a leader in AI-powered security operations",
+    "url": "https://eqtgroup.com/news/eqt-leads-funding-round-exceeding-usd-500-million-in-reliaquest-a-leader-in-ai-powered-security-operations-2025-03-31"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "kkr-samsung-sds",
   "firm": "kkr",
   "name": "Samsung SDS",
@@ -1300,6 +2421,75 @@
    "status": "listed"
   },
   "firstSeen": "2026-10-05T10:37:52Z"
+ },
+ {
+  "id": "kkr-saviynt",
+  "firm": "kkr",
+  "name": "Saviynt",
+  "slug": "saviynt",
+  "industry": "software",
+  "industryLabel": "Identity security / IGA SaaS",
+  "hq": "El Segundo, United States",
+  "geos": [
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2025-12",
+  "stake": "unknown",
+  "valuation": {
+   "amount": "US$3bn",
+   "basis": "approximate valuation of the US$700m Series B growth round led by KKR, Dec 2025",
+   "url": "https://saviynt.com/press-release/saviynt-raises-700m-in-kkr-led-round-to-establish-identity-security-as-the-foundation-for-the-ai-era"
+  },
+  "summary": "Cloud identity-governance platform securing human, machine and AI-agent identities for 600+ enterprises (over a fifth of the Fortune 100). Funds managed by KKR led a US$700m Series B growth round at ~US$3bn valuation in Dec 2025, joined by Sixth Street Growth, TenEleven and existing investor Carrick Capital, to fund product development and legacy-IGA replacement.",
+  "signals": [
+   {
+    "date": "2025-12-09",
+    "publisher": "Saviynt (press release)",
+    "title": "Saviynt Raises $700M in KKR-Led Round to Establish Identity Security as the Foundation for the AI Era",
+    "url": "https://saviynt.com/press-release/saviynt-raises-700m-in-kkr-led-round-to-establish-identity-security-as-the-foundation-for-the-ai-era"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "kkr-sk-horizon",
+  "firm": "kkr",
+  "name": "SK Horizon",
+  "slug": "sk-horizon",
+  "industry": "infra",
+  "industryLabel": "AI data centres (SK Telecom carve-out)",
+  "hq": "Seoul, South Korea",
+  "geos": [
+   "South Korea"
+  ],
+  "apac": true,
+  "heldSince": "2026-08",
+  "stake": "significant minority",
+  "valuation": {
+   "amount": "KRW3.08tn (~US$2.2bn)",
+   "basis": "combined KKR + IMM Investment/Stonebridge investment for 49% of SK Horizon (KKR 29%, consortium 20%, SK Telecom keeps 51%), announced Aug 2026",
+   "url": "https://www.stblaw.com/about-us/news/view/2026/08/31/kkr-invests-in-sk-horizon-sk-telecom's-ai-data-center-infrastructure-platform"
+  },
+  "summary": "AI data-centre company being split out of SK Broadband/SK Telecom with ~318MW planned capacity across Seocho, Ilsan, Bundang, Gasan, Centum, Yangju and Pangyo plus Ulsan and Guro projects. In Aug 2026 KKR (29%, via its Asia Pacific infrastructure strategy) and an IMM/Stonebridge consortium (20%) agreed to invest a combined KRW3.08tn; closing pending.",
+  "signals": [
+   {
+    "date": "2026-08-31",
+    "publisher": "Simpson Thacher",
+    "title": "KKR Invests in SK Horizon, SK Telecom's AI Data Center Infrastructure Platform",
+    "url": "https://www.stblaw.com/about-us/news/view/2026/08/31/kkr-invests-in-sk-horizon-sk-telecom's-ai-data-center-infrastructure-platform"
+   }
+  ],
+  "exit": {
+   "note": "Entry deal announced late Aug 2026; closing still pending (DealStreetAsia / Bloomberg Law)",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "kkr-smarthr",
@@ -1388,6 +2578,40 @@
    "status": "none"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
+ },
+ {
+  "id": "kkr-therapy-brands",
+  "firm": "kkr",
+  "name": "Therapy Brands",
+  "slug": "therapy-brands",
+  "industry": "healthit",
+  "industryLabel": "Behavioural-health practice management / EHR SaaS",
+  "hq": "Birmingham, United States",
+  "geos": [
+   "United States"
+  ],
+  "apac": false,
+  "heldSince": "2021-04",
+  "stake": "majority",
+  "valuation": {
+   "amount": "US$1.2bn",
+   "basis": "Bloomberg estimate incl. debt at KKR's majority acquisition from Lightyear Capital, Oak HC/FT and Greater Sum Ventures, Apr 2021",
+   "url": "https://pehub.com/digging-into-kkrs-1-2b-plus-deal-for-lightyears-therapy-brands-another-big-lbo-opportunity-emerges-in-medline-industries"
+  },
+  "summary": "Birmingham, Alabama provider of practice-management, EHR, billing and telehealth software for 28,000+ behavioural-health, substance-use and physical-rehab practices. KKR agreed in Apr 2021 to buy a majority stake (reported ~US$1.2bn incl. debt) from Lightyear Capital, Oak HC/FT and Greater Sum Ventures, with PSG staying as a minority shareholder.",
+  "signals": [
+   {
+    "date": "2021-04-07",
+    "publisher": "Business Wire (press release)",
+    "title": "Lightyear Capital, Oak HC/FT and Greater Sum Ventures Announce Sale of Therapy Brands to KKR",
+    "url": "https://www.businesswire.com/news/home/20210407005849/en/%C2%A0Lightyear-Capital-Oak-HCFT-and-Greater-Sum-Ventures-Announce-Sale-of-Therapy-Brands-to-KKR"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "kkr-yayoi",
@@ -1527,6 +2751,40 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "macquarie-capital-brennan",
+  "firm": "macquarie-capital",
+  "name": "Brennan",
+  "slug": "brennan",
+  "industry": "software",
+  "industryLabel": "IT services / sovereign managed services & systems integration",
+  "hq": "Sydney, Australia",
+  "geos": [
+   "Australia"
+  ],
+  "apac": true,
+  "heldSince": "2025-12",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; minority equity investment by Macquarie Capital Principal Finance, Dec 2025, founder Dave Stevens remains majority owner",
+   "url": "https://www.consultancy.com.au/news/11835/brennan-secures-macquarie-investment-to-fuel-its-next-growth-chapter"
+  },
+  "summary": "Sydney-based Australian systems integrator and managed-services provider (managed IT, cloud, cyber, AI/automation) for mid-market and government clients. Macquarie Capital Principal Finance took an undisclosed minority stake in Dec 2025 to fund acquisitions and expansion; founder Dave Stevens stays majority shareholder and both sides flagged further funding rounds.",
+  "signals": [
+   {
+    "date": "2025-12-18",
+    "publisher": "Consultancy.com.au",
+    "title": "Brennan secures Macquarie investment to fuel its next growth chapter",
+    "url": "https://www.consultancy.com.au/news/11835/brennan-secures-macquarie-investment-to-fuel-its-next-growth-chapter"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "macquarie-capital-estatexchange",
   "firm": "macquarie-capital",
   "name": "EstateXchange",
@@ -1559,6 +2817,42 @@
    "status": "none"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
+ },
+ {
+  "id": "macquarie-capital-hawk",
+  "firm": "macquarie-capital",
+  "name": "Hawk",
+  "slug": "hawk",
+  "industry": "ai",
+  "industryLabel": "AI anti-money-laundering and fraud detection SaaS",
+  "hq": "Munich, Germany",
+  "geos": [
+   "Germany",
+   "United States",
+   "United Kingdom"
+  ],
+  "apac": false,
+  "heldSince": "2025",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; US$56m Series C led by One Peak in Apr 2025 (total raised >US$190m) with Macquarie Capital participating as an existing investor",
+   "url": "https://fintech.global/2025/04/08/hawks-ai-solutions-attract-56m-for-global-aml-efforts/"
+  },
+  "summary": "Munich-based AI platform for transaction monitoring, AML and fraud detection used by 80+ banks and fintechs. Macquarie Capital's venture arm is an existing shareholder (on its venture portfolio) and joined the US$56m Series C led by One Peak in Apr 2025 with Rabobank, BlackFin, Sands Capital, DN Capital, Picus and Coalition; Macquarie's first-cheque date not confirmed in sources seen.",
+  "signals": [
+   {
+    "date": "2025-04-08",
+    "publisher": "FinTech Global",
+    "title": "Hawk's AI solutions attract $56m for global AML efforts",
+    "url": "https://fintech.global/2025/04/08/hawks-ai-solutions-attract-56m-for-global-aml-efforts/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "macquarie-capital-nuix",
@@ -1649,6 +2943,47 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "macquarie-capital-prime-data-centers",
+  "firm": "macquarie-capital",
+  "name": "Prime Data Centers",
+  "slug": "prime-data-centers",
+  "industry": "infra",
+  "industryLabel": "Wholesale / hyperscale data centre developer",
+  "hq": "Sacramento, United States",
+  "geos": [
+   "United States",
+   "Europe"
+  ],
+  "apac": false,
+  "heldSince": "2021-06",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; Macquarie Capital strategic equity partnership announced Jun 2021 to back a multi-billion-dollar build programme; later equity from Snowhawk and Nuveen (Jul 2025)",
+   "url": "https://www.businesswire.com/news/home/20210624005211/en/Macquarie-Capital-Announces-Strategic-Partnership-With-Prime-Data-Centers"
+  },
+  "summary": "US wholesale/hyperscale data-centre developer-operator with campuses across North America and Europe. Macquarie Capital announced a strategic equity partnership in Jun 2021 to fund its build-out; in Jul 2025 Snowhawk and Nuveen made a further strategic investment. Macquarie Capital's continuing stake after the 2025 round was not re-confirmed in sources seen.",
+  "signals": [
+   {
+    "date": "2025-07-31",
+    "publisher": "Simpson Thacher",
+    "title": "Snowhawk and Nuveen Make Strategic Investment in Prime Data Centers",
+    "url": "https://www.stblaw.com/about-us/news/view/2025/07/31/snowhawk-and-nuveen-make-strategic-investment-in-prime-data-centers"
+   },
+   {
+    "date": "2021-06-24",
+    "publisher": "Business Wire (press release)",
+    "title": "Macquarie Capital Announces Strategic Partnership With Prime Data Centers",
+    "url": "https://www.businesswire.com/news/home/20210624005211/en/Macquarie-Capital-Announces-Strategic-Partnership-With-Prime-Data-Centers"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "macquarie-capital-sakana-ai",
   "firm": "macquarie-capital",
   "name": "Sakana AI",
@@ -1724,6 +3059,40 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "macquarie-capital-viatel-technology-group",
+  "firm": "macquarie-capital",
+  "name": "Viatel Technology Group",
+  "slug": "viatel-technology-group",
+  "industry": "software",
+  "industryLabel": "IT services / connectivity, cloud and cybersecurity managed services",
+  "hq": "Dublin, Ireland",
+  "geos": [
+   "Ireland"
+  ],
+  "apac": false,
+  "heldSince": "2023-12",
+  "stake": "co-control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed growth-capital investment by Macquarie Capital Principal Finance alongside existing shareholders, Dec 2023 (closed early 2024)",
+   "url": "https://www.macquarie.com/au/en/about/news/2023/viatel-to-receive-strategic-investment-from-macquarie-capital-principal-finance.html"
+  },
+  "summary": "Dublin-based B2B digital technology group offering connectivity, cloud, Microsoft managed services and cybersecurity to Irish businesses, built by acquisition. Macquarie Capital Principal Finance made a strategic growth-capital investment in Dec 2023 alongside existing shareholders (closing early 2024) to fund organic and acquisition-led growth; listed on Macquarie Capital's European PE portfolio.",
+  "signals": [
+   {
+    "date": "2023-12-15",
+    "publisher": "Macquarie Group (press release)",
+    "title": "Viatel to receive strategic investment from Macquarie Capital Principal Finance",
+    "url": "https://www.macquarie.com/au/en/about/news/2023/viatel-to-receive-strategic-investment-from-macquarie-capital-principal-finance.html"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "macquarie-capital-wavenet",
   "firm": "macquarie-capital",
   "name": "Wavenet",
@@ -1756,6 +3125,40 @@
    "status": "rumoured"
   },
   "firstSeen": "2026-10-06T00:58:19Z"
+ },
+ {
+  "id": "macquarie-capital-zenzero",
+  "firm": "macquarie-capital",
+  "name": "Zenzero",
+  "slug": "zenzero",
+  "industry": "software",
+  "industryLabel": "IT managed services for SMEs",
+  "hq": "Coventry, United Kingdom",
+  "geos": [
+   "United Kingdom"
+  ],
+  "apac": false,
+  "heldSince": "2023-09",
+  "stake": "majority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": "https://www.macquarie.com/au/en/about/news/2023/macquarie-capital-principal-finance-acquires-majority-stake-in-zenzero-solutions-limited.html"
+  },
+  "summary": "UK managed-service provider delivering IT, cloud and cyber services to more than a thousand SMEs; Macquarie Capital Principal Finance acquired a majority stake in September 2023, giving prior backer Fordhouse Capital a full exit, to fund organic growth and buy-and-build.",
+  "signals": [
+   {
+    "date": "2023-09-25",
+    "publisher": "Macquarie (press release)",
+    "title": "Macquarie Capital Principal Finance acquires majority stake in Zenzero Solutions Limited",
+    "url": "https://www.macquarie.com/au/en/about/news/2023/macquarie-capital-principal-finance-acquires-majority-stake-in-zenzero-solutions-limited.html"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "macquarie-capital-zerra",
@@ -2086,6 +3489,40 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "ta-associates-billdesk",
+  "firm": "ta-associates",
+  "name": "BillDesk",
+  "slug": "billdesk",
+  "industry": "fintech",
+  "industryLabel": "payments gateway / bill-payment processor",
+  "hq": "Mumbai, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2012",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; PayU's (later terminated) Aug 2021 agreement valued BillDesk at US$4.7bn",
+   "url": "https://inc42.com/?p=261795"
+  },
+  "summary": "Mumbai-based online payment gateway and bill-payment processor (IndiaIdeas.com), long India's largest. TA Associates took a minority stake in 2012 and has been described as its single largest investor alongside General Atlantic, Temasek and Visa; PayU's US$4.7bn acquisition agreed in 2021 lapsed in Oct 2022, so the sponsors still hold.",
+  "signals": [
+   {
+    "date": "2021-08-31",
+    "publisher": "Inc42",
+    "title": "PayU Acquires BillDesk For $4.7 Bn In India's Biggest Fintech Deal (deal later terminated, Oct 2022)",
+    "url": "https://inc42.com/?p=261795"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "ta-associates-fractal-analytics",
   "firm": "ta-associates",
   "name": "Fractal Analytics",
@@ -2121,6 +3558,77 @@
    "status": "listed"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
+ },
+ {
+  "id": "ta-associates-interswitch",
+  "firm": "ta-associates",
+  "name": "Interswitch",
+  "slug": "interswitch",
+  "industry": "fintech",
+  "industryLabel": "payments infrastructure / card scheme",
+  "hq": "Lagos, Nigeria",
+  "geos": [
+   "Nigeria",
+   "Kenya",
+   "Uganda",
+   "Sub-Saharan Africa"
+  ],
+  "apac": false,
+  "heldSince": "2017-03",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; TA minority investment (Mar 2017) with Helios retaining control",
+   "url": "https://www.financialafrik.com/2017/03/08/ta-associates-announces-minority-investment-in-interswitch/"
+  },
+  "summary": "Lagos-based payments-infrastructure company running Nigeria's Verve card scheme and the Quickteller bill-payment platform, with operations in Kenya and Uganda. TA Associates took a minority stake in Mar 2017 (its first African deal) alongside majority owner Helios Investment Partners.",
+  "signals": [
+   {
+    "date": "2017-03-08",
+    "publisher": "Financial Afrik",
+    "title": "TA Associates announces minority investment in Interswitch",
+    "url": "https://www.financialafrik.com/2017/03/08/ta-associates-announces-minority-investment-in-interswitch/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "ta-associates-misa",
+  "firm": "ta-associates",
+  "name": "MISA",
+  "slug": "misa",
+  "industry": "software",
+  "industryLabel": "accounting / ERP SaaS for SMEs and government",
+  "hq": "Hanoi, Vietnam",
+  "geos": [
+   "Vietnam"
+  ],
+  "apac": true,
+  "heldSince": "2019-09",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; Mergermarket reports TA seeking >US$150m for its ~30% stake",
+   "url": "https://ionanalytics.com/insights/mergermarket/ta-associates-launches-minority-stake-sale-of-vietnams-misa/"
+  },
+  "summary": "Hanoi-based provider of accounting, ERP and business-management software (MISA AMIS, MISA SME) to 250,000+ Vietnamese enterprises and 70,000+ government units; TA Associates took a minority stake in September 2019 (terms undisclosed, Edward Sippel joined the board). Mergermarket later reported TA had hired BDA Partners to sell its ~30% holding, seeking over US$150m.",
+  "signals": [
+   {
+    "date": "2019-09-09",
+    "publisher": "Business Wire",
+    "title": "TA Associates Announces Minority Investment in MISA",
+    "url": "https://www.businesswirechina.com/en/news/41475.html"
+   }
+  ],
+  "exit": {
+   "note": "Mergermarket (undated, c. 2023, on FY2022 financials): TA launched sale of its ~30% stake via BDA Partners, seeking >US$150m; no outcome reported since",
+   "status": "process"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "ta-associates-netsmart-technologies",
@@ -2191,6 +3699,40 @@
    "status": "none"
   },
   "firstSeen": "2026-10-06T00:58:19Z"
+ },
+ {
+  "id": "ta-associates-orion-advisor-solutions",
+  "firm": "ta-associates",
+  "name": "Orion Advisor Solutions",
+  "slug": "orion-advisor-solutions",
+  "industry": "fintech",
+  "industryLabel": "wealthtech / advisor technology & TAMP",
+  "hq": "Omaha, United States",
+  "geos": [
+   "United States"
+  ],
+  "apac": false,
+  "heldSince": "2015",
+  "stake": "co-control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; 2020 Barron's report (via WealthManagement.com) said TA sought ~US$1.875bn in a sale process that did not proceed",
+   "url": "https://www.wealthmanagement.com/financial-technology/orion-ceo-denies-report-it-is-for-sale"
+  },
+  "summary": "Omaha-based advisor technology platform (portfolio accounting, trading, TAMP; 8.6m+ accounts, ~US$6.6tn AUA as of Jun 2026). TA Associates has been majority/co-owner since 2015; Genstar Capital came in as equal co-owner in the 2020 merger with Brinker Capital.",
+  "signals": [
+   {
+    "date": "2020-06-29",
+    "publisher": "Business Wire (press release)",
+    "title": "Orion Advisor Solutions and Brinker Capital to Merge with Support from Genstar Capital and TA Associates",
+    "url": "https://www.businesswire.com/news/home/20200629005162/en/orion-advisor-solutions-and-brinker-capital-to-merge-with-support-from-genstar-capital-and-ta-associates-positioning-the-combined-firm-as-a-wealthtech-powerhouse"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "ta-associates-oxane-partners",
@@ -2267,6 +3809,207 @@
    "status": "none"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
+ },
+ {
+  "id": "ta-associates-planview",
+  "firm": "ta-associates",
+  "name": "Planview",
+  "slug": "planview",
+  "industry": "software",
+  "industryLabel": "portfolio & work management SaaS",
+  "hq": "Austin, United States",
+  "geos": [
+   "United States",
+   "Europe",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2020-11",
+  "stake": "co-control",
+  "valuation": {
+   "amount": "US$1.6bn",
+   "basis": "purchase price paid by TPG Capital and TA Associates to Thoma Bravo, Nov 2020",
+   "url": "https://www.ta.com/news/tpg-and-ta-associates-to-acquire-planview-from-thoma-bravo-for-16-billion/"
+  },
+  "summary": "Austin-based portfolio and work-management / strategic-planning software vendor (2.7m+ users incl. 45 of the Fortune 100). TPG Capital and TA Associates jointly bought Planview from Thoma Bravo for US$1.6bn (announced Nov 2020; Thoma Bravo kept a minority); add-ons since include Plutora (Sep 2024) and Sciforma (Feb 2025).",
+  "signals": [
+   {
+    "date": "2025-02-18",
+    "publisher": "Business Wire (press release)",
+    "title": "Planview Completes Acquisition of Sciforma",
+    "url": "https://www.businesswire.com/news/home/20250218853981/en"
+   },
+   {
+    "date": "2020-11-10",
+    "publisher": "TA Associates (press release)",
+    "title": "TPG and TA Associates to Acquire Planview from Thoma Bravo for $1.6 Billion",
+    "url": "https://www.ta.com/news/tpg-and-ta-associates-to-acquire-planview-from-thoma-bravo-for-16-billion/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "ta-associates-precisely",
+  "firm": "ta-associates",
+  "name": "Precisely",
+  "slug": "precisely",
+  "industry": "data",
+  "industryLabel": "data integrity / data quality software",
+  "hq": "Burlington (MA), United States",
+  "geos": [
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2021-03",
+  "stake": "co-control",
+  "valuation": {
+   "amount": "US$3.5bn",
+   "basis": "reported value of the Clearlake / TA Associates buyout from Centerbridge, Mar 2021 (a Mar 2022 Bloomberg report put a minority-stake process at >US$7.5bn incl. debt)",
+   "url": "https://www.bnnbloomberg.ca/clearlake-capital-ta-said-to-explore-stake-sale-for-precisely-1.1745967"
+  },
+  "summary": "Data-integrity software vendor (data quality, location intelligence, mainframe integration; ex-Syncsort/Pitney Bowes software). Clearlake Capital and TA Associates became joint majority owners in a ~US$3.5bn deal agreed Mar 2021, with Centerbridge retaining a minority.",
+  "signals": [
+   {
+    "date": "2022-03-31",
+    "publisher": "BNN Bloomberg",
+    "title": "Clearlake Capital, TA said to explore stake sale for Precisely",
+    "url": "https://www.bnnbloomberg.ca/clearlake-capital-ta-said-to-explore-stake-sale-for-precisely-1.1745967"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "ta-associates-rldatix",
+  "firm": "ta-associates",
+  "name": "RLDatix",
+  "slug": "rldatix",
+  "industry": "healthit",
+  "industryLabel": "healthcare governance, risk & workforce software",
+  "hq": "Chicago, United States",
+  "geos": [
+   "United States",
+   "United Kingdom",
+   "Canada",
+   "Australia",
+   "Europe"
+  ],
+  "apac": false,
+  "heldSince": "2018",
+  "stake": "co-control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; TA invested in predecessor Datix alongside Five Arrows, with Nordic Capital later taking a minority",
+   "url": "https://www.privateequitywire.co.uk/ta-associates-invests-datix/"
+  },
+  "summary": "Healthcare patient-safety, risk, compliance and workforce-management software (Allocate, iContracts, Breitenbach add-ons) operating in the US, UK, Canada, Australia and Europe. TA Associates invested in Datix in 2018; Five Arrows and TA hold the controlling stake with Nordic Capital as a minority investor.",
+  "signals": [
+   {
+    "date": "2021-06-26",
+    "publisher": "William Blair",
+    "title": "Allocate and RLDatix Transaction (RLDatix, controlled by Five Arrows and TA Associates, acquires Allocate)",
+    "url": "https://www.williamblair.com/News/Allocate-and-RLDatix-Transaction"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "ta-associates-solifi",
+  "firm": "ta-associates",
+  "name": "Solifi",
+  "slug": "solifi",
+  "industry": "fintech",
+  "industryLabel": "secured-finance / asset-finance software",
+  "hq": "Minneapolis, United States",
+  "geos": [
+   "United States",
+   "United Kingdom",
+   "Australia",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2024-10",
+  "stake": "majority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; TA majority investment with Thoma Bravo retaining a minority, Oct 2024",
+   "url": "https://www.ta.com/news/solifi-welcomes-majority-investment-from-ta/"
+  },
+  "summary": "Fintech software for secured finance (equipment and auto finance, ABL, wholesale finance) with offices in the US, UK and Australia. TA Associates agreed in Oct 2024 to take a majority stake, with Thoma Bravo (investor since 2019) keeping a meaningful minority.",
+  "signals": [
+   {
+    "date": "2024-10-09",
+    "publisher": "TA Associates (press release)",
+    "title": "Solifi Welcomes Majority Investment from TA",
+    "url": "https://www.ta.com/news/solifi-welcomes-majority-investment-from-ta/"
+   },
+   {
+    "date": "2024-10-09",
+    "publisher": "Thoma Bravo (press release)",
+    "title": "Solifi Welcomes Majority Investment from TA",
+    "url": "https://www.thomabravo.com/press-releases/solifi-welcomes-majority-investment-from-ta"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "ta-associates-sovos",
+  "firm": "ta-associates",
+  "name": "Sovos",
+  "slug": "sovos",
+  "industry": "software",
+  "industryLabel": "tax compliance / e-invoicing software",
+  "hq": "Wilmington (MA), United States",
+  "geos": [
+   "United States",
+   "Europe",
+   "Latin America",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2020-08",
+  "stake": "significant minority",
+  "valuation": {
+   "amount": "~US$2.75bn",
+   "basis": "enterprise value at which Hg Saturn 2 and TA Associates bought Sovos from Hg Genesis 7, Aug 2020",
+   "url": "https://www.skadden.com/about/news-and-rankings/news/2020/08/hg-acquires-additional-stake-in-visma"
+  },
+  "summary": "Global tax-compliance, e-invoicing and regulatory-reporting software vendor (8,000+ customers, 10 countries). In Aug 2020 Hg's Saturn 2 fund led a majority recapitalisation at ~US$2.75bn EV and TA Associates took a significant minority stake alongside Hg.",
+  "signals": [
+   {
+    "date": "2020-08-20",
+    "publisher": "TA Associates (press release)",
+    "title": "Sovos to Gain New Investment by Hg Saturn and TA Associates",
+    "url": "https://www.ta.com/news/sovos-to-gain-new-investment-by-hg-saturn-and-ta-associates-fueling-continued-growth-as-digital-transformation-of-tax-accelerates-worldwide/"
+   },
+   {
+    "date": "2020-08-20",
+    "publisher": "HgCapital Trust",
+    "title": "Hg further invests in Sovos",
+    "url": "https://www.hgcapitaltrust.com/news-insights/news/2020/20-08-2020-131419131"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "ta-associates-unit4",
@@ -2413,6 +4156,42 @@
    "status": "none"
   },
   "firstSeen": "2026-10-06T00:58:19Z"
+ },
+ {
+  "id": "ta-associates-volue",
+  "firm": "ta-associates",
+  "name": "Volue",
+  "slug": "volue",
+  "industry": "software",
+  "industryLabel": "energy-markets & utilities software",
+  "hq": "Oslo, Norway",
+  "geos": [
+   "Norway",
+   "Nordics",
+   "Europe"
+  ],
+  "apac": false,
+  "heldSince": "2026-02",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; TA joined as strategic investor alongside Advent, Generation IM and Arendals Fossekompani, Feb 2026",
+   "url": "https://www.privsource.com/acquisitions/deal/wySMNR"
+  },
+  "summary": "Oslo-based software provider for energy trading, power-market forecasting and utility/grid operations. TA Associates joined in Feb 2026 as a new strategic (minority) investor alongside Advent International, Generation Investment Management and Arendals Fossekompani to fund R&D, geographic expansion and M&A.",
+  "signals": [
+   {
+    "date": "2026-02-13",
+    "publisher": "PrivSource (deal record)",
+    "title": "TA Associates Joins as Strategic Investor in Volue",
+    "url": "https://www.privsource.com/acquisitions/deal/wySMNR"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "ta-associates-yarra-capital-management",
@@ -2711,6 +4490,47 @@
   "firstSeen": "2026-10-05T10:37:52Z"
  },
  {
+  "id": "tpg-delinea",
+  "firm": "tpg",
+  "name": "Delinea",
+  "slug": "delinea",
+  "industry": "software",
+  "industryLabel": "identity security / PAM",
+  "hq": "San Francisco, United States",
+  "geos": [
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2021",
+  "stake": "control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; Bloomberg (Mar 2025) cited ARR nearing US$400m when TPG began exploring an IPO",
+   "url": "https://www.bloomberg.com/news/articles/2025-03-24/tpg-said-to-consider-public-offering-for-software-firm-delinea"
+  },
+  "summary": "Privileged-access / identity-security vendor formed by TPG Capital in 2021-22 from its acquisitions of Thycotic and Centrify; ARR nearing US$400m. TPG controls the company; it hired Goldman Sachs and Morgan Stanley in Mar 2025 to explore an IPO and acquired StrongDM in Q1 2026.",
+  "signals": [
+   {
+    "date": "2026-01-15",
+    "publisher": "Davis Polk",
+    "title": "Delinea acquisition of StrongDM (advising TPG and Delinea)",
+    "url": "https://www.davispolk.com/experience/delinea-acquisition-strongdm"
+   },
+   {
+    "date": "2025-03-24",
+    "publisher": "Bloomberg",
+    "title": "TPG Said to Consider Public Offering for Software Firm Delinea",
+    "url": "https://www.bloomberg.com/news/articles/2025-03-24/tpg-said-to-consider-public-offering-for-software-firm-delinea"
+   }
+  ],
+  "exit": {
+   "note": "Bloomberg, 24 Mar 2025: TPG exploring an IPO of Delinea, Goldman Sachs and Morgan Stanley hired; no filing reported since",
+   "status": "rumoured"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "tpg-dream-sports",
   "firm": "tpg",
   "name": "Dream Sports",
@@ -2965,6 +4785,47 @@
   "firstSeen": "2026-10-09T07:11:58Z"
  },
  {
+  "id": "tpg-kepware-thingworx",
+  "firm": "tpg",
+  "name": "Kepware & ThingWorx (ex-PTC)",
+  "slug": "kepware-thingworx",
+  "industry": "software",
+  "industryLabel": "industrial connectivity / IIoT software",
+  "hq": "Portland, United States",
+  "geos": [
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2025-11",
+  "stake": "control",
+  "valuation": {
+   "amount": "US$523m",
+   "basis": "cash paid by TPG Capital to PTC at closing, Mar 2026",
+   "url": "https://www.ptc.com/en/news/2026/ptc-completes-divestiture-of-kepware-and-thingworx-businesses"
+  },
+  "summary": "PTC's industrial-connectivity (Kepware) and IIoT platform (ThingWorx) businesses, carved out to TPG Capital. The deal was agreed in Nov 2025 and completed on 16 Mar 2026 for US$523m cash; the businesses now operate as a standalone TPG-controlled company.",
+  "signals": [
+   {
+    "date": "2026-03-16",
+    "publisher": "PTC (press release)",
+    "title": "PTC Completes Divestiture of Kepware and ThingWorx Businesses",
+    "url": "https://www.ptc.com/en/news/2026/ptc-completes-divestiture-of-kepware-and-thingworx-businesses"
+   },
+   {
+    "date": "2026-03-16",
+    "publisher": "ARC Advisory Group",
+    "title": "PTC Completes Sale of Kepware and ThingWorx to TPG",
+    "url": "https://www.arcweb.com/blog/ptc-completes-sale-kepware-thingworx-tpg"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "tpg-livspace",
   "firm": "tpg",
   "name": "Livspace",
@@ -2998,6 +4859,125 @@
    "status": "rumoured"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
+ },
+ {
+  "id": "tpg-new-relic",
+  "firm": "tpg",
+  "name": "New Relic",
+  "slug": "new-relic",
+  "industry": "software",
+  "industryLabel": "observability / APM software",
+  "hq": "San Francisco, United States",
+  "geos": [
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2023-07",
+  "stake": "co-control",
+  "valuation": {
+   "amount": "US$6.5bn",
+   "basis": "equity value of the Francisco Partners / TPG take-private at US$87 per share, agreed Jul 2023",
+   "url": "https://channelfutures.com/mergers-acquisitions/francisco-partners-tpg-taking-new-relic-private-in-6-5-billion-acquisition"
+  },
+  "summary": "Observability and application-performance-monitoring platform taken private by Francisco Partners and TPG Capital in an all-cash US$87/share deal valuing it at ~US$6.5bn (agreed Jul 2023, closed late 2023); the two sponsors co-own the company.",
+  "signals": [
+   {
+    "date": "2023-07-31",
+    "publisher": "Channel Futures",
+    "title": "Francisco Partners, TPG Taking New Relic Private in $6.5 Billion Acquisition",
+    "url": "https://channelfutures.com/mergers-acquisitions/francisco-partners-tpg-taking-new-relic-private-in-6-5-billion-acquisition"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "tpg-nextech-systems",
+  "firm": "tpg",
+  "name": "Nextech Systems",
+  "slug": "nextech-systems",
+  "industry": "healthit",
+  "industryLabel": "specialty-practice EHR / practice management",
+  "hq": "Tampa, United States",
+  "geos": [
+   "United States"
+  ],
+  "apac": false,
+  "heldSince": "2023-07",
+  "stake": "control",
+  "valuation": {
+   "amount": "US$1.4bn",
+   "basis": "purchase price paid by TPG Capital to Thomas H. Lee Partners, agreed Jul 2023",
+   "url": "https://www.businesswire.com/news/home/20230719743590/en"
+  },
+  "summary": "EHR and practice-management software for specialty physician practices (dermatology, ophthalmology, plastics, med-spa; 11,000+ physicians). TPG Capital agreed in Jul 2023 to buy Nextech from Thomas H. Lee Partners for US$1.4bn; management stayed in place.",
+  "signals": [
+   {
+    "date": "2023-07-19",
+    "publisher": "Business Wire (press release)",
+    "title": "TPG to Acquire Nextech from Thomas H. Lee Partners",
+    "url": "https://www.businesswire.com/news/home/20230719743590/en"
+   },
+   {
+    "date": "2023-07-19",
+    "publisher": "Fierce Healthcare",
+    "title": "TPG strikes $1.4B deal to buy EHR, practice management software firm Nextech",
+    "url": "https://www.fiercehealthcare.com/health-tech/tpg-strikes-14b-deal-buy-ehr-practice-management-software-firm-nextech"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "tpg-nintex",
+  "firm": "tpg",
+  "name": "Nintex",
+  "slug": "nintex",
+  "industry": "software",
+  "industryLabel": "process / workflow automation SaaS",
+  "hq": "Bellevue, United States",
+  "geos": [
+   "United States",
+   "Australia",
+   "New Zealand",
+   "United Kingdom",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2021-10",
+  "stake": "majority",
+  "valuation": {
+   "amount": ">US$2bn",
+   "basis": "reported deal value including debt when TPG took majority control from Thoma Bravo, Oct 2021 (Bloomberg)",
+   "url": "https://www.bloombergquint.com/markets/tpg-to-buy-majority-stake-in-thoma-bravo-backed-nintex"
+  },
+  "summary": "Australian-origin, Bellevue-headquartered digital process automation / workflow platform (K2, Kryon RPA, Skuid add-ons). TPG Capital agreed in Oct 2021 to buy a majority stake from Thoma Bravo, which retained a significant minority, in a deal reported at more than US$2bn including debt.",
+  "signals": [
+   {
+    "date": "2021-10-13",
+    "publisher": "Redmond Channel Partner",
+    "title": "Nintex Sells Majority Stake to TPG",
+    "url": "https://rcpmag.com/Articles/2021/10/13/Nintex-Sells-Majority-Stake-to-TPG.aspx"
+   },
+   {
+    "date": "2021-10-13",
+    "publisher": "Thoma Bravo (press release)",
+    "title": "TPG Agrees to Make Majority Investment in Digital Process Automation Leader Nintex",
+    "url": "https://www.thomabravo.com/press-releases/tpg-agrees-to-make-majority-investment-in-digital-process-automation-leader-nintex"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "tpg-novotech",
@@ -3080,6 +5060,130 @@
   "firstSeen": "2026-10-05T10:37:52Z"
  },
  {
+  "id": "tpg-planview",
+  "firm": "tpg",
+  "name": "Planview",
+  "slug": "planview",
+  "industry": "software",
+  "industryLabel": "portfolio & work management SaaS",
+  "hq": "Austin, United States",
+  "geos": [
+   "United States",
+   "Europe",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2020-11",
+  "stake": "co-control",
+  "valuation": {
+   "amount": "US$1.6bn",
+   "basis": "purchase price paid by TPG Capital and TA Associates to Thoma Bravo, Nov 2020",
+   "url": "https://www.ta.com/news/tpg-and-ta-associates-to-acquire-planview-from-thoma-bravo-for-16-billion/"
+  },
+  "summary": "Austin-based portfolio and work-management / strategic-planning software vendor (2.7m+ users incl. 45 of the Fortune 100). TPG Capital and TA Associates jointly bought Planview from Thoma Bravo for US$1.6bn (announced Nov 2020; Thoma Bravo kept a minority); add-ons since include Plutora (Sep 2024) and Sciforma (Feb 2025).",
+  "signals": [
+   {
+    "date": "2025-02-18",
+    "publisher": "Business Wire (press release)",
+    "title": "Planview Completes Acquisition of Sciforma",
+    "url": "https://www.businesswire.com/news/home/20250218853981/en"
+   },
+   {
+    "date": "2020-11-10",
+    "publisher": "TA Associates (press release)",
+    "title": "TPG and TA Associates to Acquire Planview from Thoma Bravo for $1.6 Billion",
+    "url": "https://www.ta.com/news/tpg-and-ta-associates-to-acquire-planview-from-thoma-bravo-for-16-billion/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "tpg-proficy",
+  "firm": "tpg",
+  "name": "Proficy (ex-GE Vernova)",
+  "slug": "proficy",
+  "industry": "software",
+  "industryLabel": "industrial / manufacturing operations software",
+  "hq": "United States",
+  "geos": [
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2025-09",
+  "stake": "control",
+  "valuation": {
+   "amount": "US$600m",
+   "basis": "purchase price paid by TPG Capital to GE Vernova (plus possible contingent proceeds), closed Mar 2026",
+   "url": "https://www.gevernova.com/news/press-releases/ge-vernova-completes-sale-proficyr-software-business"
+  },
+  "summary": "Manufacturing-execution, HMI/SCADA and historian software business (20,000+ customers) carved out of GE Vernova. TPG Capital agreed to buy it for US$600m in Sep 2025 and completed the deal on 2 Mar 2026, with Proficy now operating as an independent company and GE Vernova holding a board-observer seat.",
+  "signals": [
+   {
+    "date": "2026-03-02",
+    "publisher": "GE Vernova (press release)",
+    "title": "GE Vernova Completes Sale of Proficy Software Business",
+    "url": "https://www.gevernova.com/news/press-releases/ge-vernova-completes-sale-proficyr-software-business"
+   },
+   {
+    "date": "2025-09-11",
+    "publisher": "TPG (press release)",
+    "title": "TPG to Acquire GE Vernova's Proficy Software Business",
+    "url": "https://www.tpg.com/news-and-insights/tpg-to-acquire-ge-vernovas-proficy-software-business"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "tpg-sabre-hospitality-solutions",
+  "firm": "tpg",
+  "name": "Sabre Hospitality Solutions",
+  "slug": "sabre-hospitality-solutions",
+  "industry": "software",
+  "industryLabel": "hospitality distribution / CRS SaaS",
+  "hq": "Southlake, United States",
+  "geos": [
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2025-04",
+  "stake": "majority",
+  "valuation": {
+   "amount": "US$1.1bn",
+   "basis": "cash purchase price paid by TPG Capital to Sabre Corp, agreed Apr 2025 and closed Jul 2025",
+   "url": "https://investors.sabre.com/node/19031"
+  },
+  "summary": "Hotel central-reservation, distribution and retailing software (SynXis platform) carved out of Sabre Corp. TPG Capital agreed in Apr 2025 to buy the unit for US$1.1bn cash and closed in Jul 2025; it now operates standalone under CEO Teresa Mackintosh with hotel operator MCR as a strategic minority investor.",
+  "signals": [
+   {
+    "date": "2025-04-28",
+    "publisher": "Sabre Corp (press release)",
+    "title": "Sabre enters into definitive agreement to sell its Hospitality Solutions business unit to TPG for $1.1 billion",
+    "url": "https://investors.sabre.com/node/19031"
+   },
+   {
+    "date": "2025-04-28",
+    "publisher": "SEC EDGAR (Sabre 8-K exhibit)",
+    "title": "Sabre to sell Hospitality Solutions to TPG for $1.1 billion (EX-99.1)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001597033/000119312525100450/d600432dex991.htm"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "tpg-surescripts",
   "firm": "tpg",
   "name": "Surescripts",
@@ -3118,6 +5222,215 @@
    "status": "none"
   },
   "firstSeen": "2026-10-05T10:37:52Z"
+ },
+ {
+  "id": "tpg-tata-technologies",
+  "firm": "tpg",
+  "name": "Tata Technologies",
+  "slug": "tata-technologies",
+  "industry": "software",
+  "industryLabel": "engineering R&D and digital services (listed, NSE: TATATECH)",
+  "hq": "Pune, India",
+  "geos": [
+   "India",
+   "United Kingdom",
+   "United States",
+   "Europe"
+  ],
+  "apac": true,
+  "heldSince": "2023-10",
+  "stake": "minority",
+  "valuation": {
+   "amount": "~Rs 30,000 cr",
+   "basis": "implied market value from TPG Rise Climate's 2.1% block sale at Rs 638 cr, 4 Jun 2025",
+   "url": "https://www.theweek.in/wire-updates/business/2025/06/04/dcm100-biz-tpg-tata-tech.html"
+  },
+  "summary": "Pune-based engineering and product-development services arm of Tata Motors (automotive, aerospace, digital); TPG Rise Climate bought a 9% pre-IPO stake in October 2023 at Rs 401.81 a share ahead of the November 2023 listing, and has sold down in blocks since (3% Aug 2024, 3.9% Apr 2025, 2.1% Jun 2025), leaving about 3.9%.",
+  "signals": [
+   {
+    "date": "2025-06-04",
+    "publisher": "The Week / PTI",
+    "title": "TPG sells 2.1 pc stake in Tata Technologies for Rs 638 cr",
+    "url": "https://www.theweek.in/wire-updates/business/2025/06/04/dcm100-biz-tpg-tata-tech.html"
+   },
+   {
+    "date": "2025-04-29",
+    "publisher": "Business Standard",
+    "title": "PE firm TPG sells 3.9% stake in Tata Technologies for ₹1,068 crore",
+    "url": "https://www.business-standard.com/amp/companies/news/pe-firm-tpg-sells-3-9-stake-in-tata-technologies-for-1-068-crore-125042901387_1.html"
+   }
+  ],
+  "exit": {
+   "note": "Listed Nov 2023; TPG Rise Climate sold down to ~3.9% through block trades, latest 4 Jun 2025 (The Week/PTI)",
+   "status": "listed"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "tpg-tessolve",
+  "firm": "tpg",
+  "name": "Tessolve",
+  "slug": "tessolve",
+  "industry": "software",
+  "industryLabel": "semiconductor engineering services",
+  "hq": "Bengaluru, India",
+  "geos": [
+   "India",
+   "United States",
+   "Germany",
+   "United Kingdom",
+   "Singapore",
+   "Malaysia"
+  ],
+  "apac": true,
+  "heldSince": "2025-09",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; US$150m TPG Growth investment announced 1 Sep 2025 (no valuation disclosed)",
+   "url": "https://www.tpg.com/news-and-insights/tessolve-a-hero-electronix-venture-raises-150-million-from-tpg"
+  },
+  "summary": "Hero Electronix-owned semiconductor engineering-services firm (chip design, test, embedded engineering; 3,000+ engineers, partner to 18 of the top-20 semiconductor companies; FY25 revenue >US$150m). TPG Growth invested US$150m in Sep 2025 to fund delivery centres, test labs and acquisitions; Novo Tellus remains a significant holder.",
+  "signals": [
+   {
+    "date": "2025-09-01",
+    "publisher": "TPG (press release)",
+    "title": "Tessolve, a Hero Electronix Venture, Raises $150 Million from TPG",
+    "url": "https://www.tpg.com/news-and-insights/tessolve-a-hero-electronix-venture-raises-150-million-from-tpg"
+   },
+   {
+    "date": "2025-09-01",
+    "publisher": "Outlook Business",
+    "title": "Semiconductor Company Tessolve Raises USD 150 Mn from TPG",
+    "url": "https://www.outlookbusiness.com/corporate/semiconductor-company-tessolve-raises-usd-150-mn-from-tpg"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "tpg-tide",
+  "firm": "tpg",
+  "name": "Tide",
+  "slug": "tide",
+  "industry": "fintech",
+  "industryLabel": "SME business banking / fintech platform",
+  "hq": "London, United Kingdom",
+  "geos": [
+   "United Kingdom",
+   "India",
+   "Germany",
+   "France"
+  ],
+  "apac": false,
+  "heldSince": "2025-09",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$1.5bn",
+   "basis": "post-money valuation of the >US$120m primary + secondary round led by TPG Rise Funds, Sep 2025",
+   "url": "https://pulse2.com/tide-120-million-at-1-5-billion-valuation-raised-from-tpg-signals-for-expansion-and-ai-innovation"
+  },
+  "summary": "London-based SME business-banking and finance platform with 1.6m members across the UK, India, Germany and France (large India operation). TPG, via The Rise Funds, led a >US$120m primary-and-secondary round at a US$1.5bn valuation in Sep 2025, with existing investor Apax Digital participating, to fund international expansion and agentic-AI products.",
+  "signals": [
+   {
+    "date": "2025-09-24",
+    "publisher": "Silicon Valley Invest Club",
+    "title": "Tide Raises $120 Million at a $1.5 Billion Valuation",
+    "url": "https://siliconvalleyinvestclub.com/ko/2025/09/24/tide-raises-120-million-at-a-1-5-billion-valuation/"
+   },
+   {
+    "date": "2025-09-22",
+    "publisher": "Pulse 2.0",
+    "title": "Tide: $120 Million At $1.5 Billion Valuation Raised From TPG Signals For Expansion And AI Innovation",
+    "url": "https://pulse2.com/tide-120-million-at-1-5-billion-valuation-raised-from-tpg-signals-for-expansion-and-ai-innovation"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "tpg-veeam-software",
+  "firm": "tpg",
+  "name": "Veeam Software",
+  "slug": "veeam-software",
+  "industry": "software",
+  "industryLabel": "data resilience / backup software",
+  "hq": "Kirkland, United States",
+  "geos": [
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2024-12",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$15bn",
+   "basis": "valuation at the US$2bn secondary share sale led by TPG, Dec 2024",
+   "url": "https://techcrunch.com/2024/12/04/data-resilience-company-veeam-valued-at-15bn-after-2bn-secondary-sale"
+  },
+  "summary": "Insight Partners-controlled data-backup and resilience vendor (ARR ~US$1.7bn, growing ~18%). TPG led a US$2bn secondary share sale in Dec 2024 at a US$15bn valuation, with Temasek and Neuberger Berman participating, taking a minority stake alongside Insight.",
+  "signals": [
+   {
+    "date": "2024-12-04",
+    "publisher": "TechCrunch",
+    "title": "Data resilience company Veeam valued at $15B after $2B secondary sale",
+    "url": "https://techcrunch.com/2024/12/04/data-resilience-company-veeam-valued-at-15bn-after-2bn-secondary-sale"
+   },
+   {
+    "date": "2024-12-04",
+    "publisher": "Alternatives Watch",
+    "title": "TPG leads $2bn secondary offering in Veeam Software",
+    "url": "https://www.alternativeswatch.com/2024/12/04/tpg-secondary-offering-veeam-software-insight-partners-temasek-neuberger-berman/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "tpg-zenoti",
+  "firm": "tpg",
+  "name": "Zenoti",
+  "slug": "zenoti",
+  "industry": "software",
+  "industryLabel": "vertical SaaS for salons, spas and fitness",
+  "hq": "Bellevue, United States",
+  "geos": [
+   "United States",
+   "India",
+   "United Kingdom",
+   "Australia"
+  ],
+  "apac": false,
+  "heldSince": "2021-06",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$1.5bn",
+   "basis": "post-money on TPG-led US$80m Series D extension, June 2021",
+   "url": "https://www.zenoti.com/es/press/zenoti-receives-80-million-investment-from-tpg-to-further-revolutionize-the-beauty-wellness-and-fitness-industries"
+  },
+  "summary": "Cloud platform for salons, spas, medspas and fitness studios, founded by Sudheer Koneru with its engineering base in Hyderabad; TPG led an US$80m Series D extension in June 2021 at a valuation of nearly US$1.5bn (Advent International led the US$160m Series D in Dec 2020), earmarking ~US$200m for M&A. No later ownership change reported.",
+  "signals": [
+   {
+    "date": "2021-06-07",
+    "publisher": "Zenoti (press release)",
+    "title": "Zenoti receives $80 million investment from TPG to further revolutionize the beauty, wellness and fitness industries",
+    "url": "https://www.zenoti.com/es/press/zenoti-receives-80-million-investment-from-tpg-to-further-revolutionize-the-beauty-wellness-and-fitness-industries"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "warburg-pincus-advance-intelligence-group",
@@ -3442,6 +5755,125 @@
   "firstSeen": "2026-10-05T10:37:52Z"
  },
  {
+  "id": "warburg-pincus-dc-connects-yongin",
+  "firm": "warburg-pincus",
+  "name": "DC Connects (Yongin hyperscale DC JV)",
+  "slug": "dc-connects-yongin",
+  "industry": "infra",
+  "industryLabel": "hyperscale data centre development JV (Korea)",
+  "hq": "Seoul, South Korea",
+  "geos": [
+   "South Korea"
+  ],
+  "apac": true,
+  "heldSince": "2025-09",
+  "stake": "co-control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; investment size for the 80MW Yongin project not disclosed",
+   "url": null
+  },
+  "summary": "Warburg Pincus partnered with Korean data-centre developer DC Connects and Seoul asset manager Wide Creek AMC to buy a greenfield site in Yongin City (near Pangyo/Gangnam) and develop an 80MW, ~58,000 sqm AI-ready hyperscale data centre; ground broken Sept 2025, service targeted for 2027.",
+  "signals": [
+   {
+    "date": "2025-09-25",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "Warburg Pincus Partners with DC Connects and Wide Creek AMC to Acquire Land to Develop 80MW Hyperscale Data Centre in South Korea",
+    "url": "https://warburgpincus.com/2025/09/25/warburg-pincus-partners-with-dc-connects-and-wide-creek-amc-to-acquire-land-to-develop-80mw-hyperscale-data-centre-in-south-korea/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "warburg-pincus-ensemble-health-partners",
+  "firm": "warburg-pincus",
+  "name": "Ensemble Health Partners",
+  "slug": "ensemble-health-partners",
+  "industry": "healthit",
+  "industryLabel": "revenue-cycle management (tech-enabled services)",
+  "hq": "Cincinnati, USA",
+  "geos": [
+   "United States"
+  ],
+  "apac": false,
+  "heldSince": "2022-03",
+  "stake": "significant minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; Thoreau (Apollo-backed) growth investment June 2026, terms not disclosed",
+   "url": null
+  },
+  "summary": "Hospital revenue-cycle management platform managing >US$55bn of net patient revenue for US health systems, with AI/automation in patient access, coding and denial prevention. Berkshire Partners and Warburg Pincus invested in March 2022; in June 2026 Thoreau agreed a strategic growth investment with Warburg, Berkshire and Bon Secours Mercy Health continuing as investors.",
+  "signals": [
+   {
+    "date": "2026-06-17",
+    "publisher": "Ensemble Health Partners (press release)",
+    "title": "Thoreau to Make Strategic Growth Investment in Ensemble",
+    "url": "https://www.ensemblehp.com/blog/thoreau-to-make-strategic-growth-investment-in-ensemble/"
+   },
+   {
+    "date": "2022-04-05",
+    "publisher": "McGuireWoods",
+    "title": "Healthcare & Life Sciences Private Equity Deal Tracker: Berkshire Partners and Warburg Pincus Invest in Ensemble Health",
+    "url": "https://blogs.mcguirewoods.com/2022/04/05/healthcare-life-sciences-private-equity-deal-tracker-berkshire-partners-and-warburg-pincus-invest-in-ensemble-health/"
+   }
+  ],
+  "exit": {
+   "note": "June 2026: Thoreau strategic growth investment; Warburg Pincus continues as investor",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "warburg-pincus-epassi-group",
+  "firm": "warburg-pincus",
+  "name": "Epassi Group",
+  "slug": "epassi-group",
+  "industry": "fintech",
+  "industryLabel": "digital employee-benefit payments",
+  "hq": "Helsinki, Finland",
+  "geos": [
+   "Finland",
+   "Sweden",
+   "United Kingdom",
+   "Italy",
+   "Germany",
+   "Netherlands"
+  ],
+  "apac": false,
+  "heldSince": "2023-08",
+  "stake": "co-control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; majority acquired from Bregal Milestone with TA Associates, completed Dec 2023",
+   "url": null
+  },
+  "summary": "Helsinki-based digital employee-benefit payments platform (Nordics, UK, Italy) founded 2007. TA Associates and Warburg Pincus acquired a majority stake from Bregal Milestone (announced Aug 2023, completed Dec 2023) and simultaneously announced the add-on acquisition of German/Dutch corporate wellness provider Exercite from Waterland.",
+  "signals": [
+   {
+    "date": "2023-12-12",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "TA and Warburg Pincus Complete Epassi Group Acquisition and Simultaneously Announce Transformational Acquisition of Exercite from Waterland",
+    "url": "https://warburgpincus.com/2023/12/12/ta-and-warburg-pincus-complete-epassi-group-acquisition-and-simultaneously-announce-transformational-acquisition-of-exercite-from-waterland/"
+   },
+   {
+    "date": "2023-08-09",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "TA and Warburg Pincus acquire majority stake in Epassi Group from Bregal Milestone",
+    "url": "https://warburgpincus.com/2023/08/09/ta-and-warburg-pincus-acquire-majority-stake-in-epassi-group-from-bregal-milestone/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "warburg-pincus-everise",
   "firm": "warburg-pincus",
   "name": "Everise",
@@ -3491,6 +5923,43 @@
    "status": "none"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
+ },
+ {
+  "id": "warburg-pincus-evolution-data-centres",
+  "firm": "warburg-pincus",
+  "name": "Evolution Data Centres",
+  "slug": "evolution-data-centres",
+  "industry": "infra",
+  "industryLabel": "hyperscale data centres (SE Asia)",
+  "hq": "Singapore",
+  "geos": [
+   "Singapore",
+   "Thailand",
+   "Philippines",
+   "Vietnam"
+  ],
+  "apac": true,
+  "heldSince": "2022-09",
+  "stake": "co-control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; Mingtiandi (Aug 2025) reported Zero Two's co-controlling investment at ~US$325m per sources, no platform valuation disclosed",
+   "url": "https://www.mingtiandi.com/real-estate/data-centres/abu-dhabis-zero-two-invests-in-evolution-data-centers"
+  },
+  "summary": "Singapore-based developer/operator of renewable-powered hyperscale data centres in Southeast Asia (projects in Thailand, the Philippines and Vietnam). Warburg Pincus formed a programmatic JV with EDC in Sept 2022 from its Asia real estate fund; in Aug 2025 Abu Dhabi's Zero Two (ADQ) took a co-controlling position alongside Warburg.",
+  "signals": [
+   {
+    "date": "2025-08-12",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "Evolution Data Centres welcomes Zero Two as strategic shareholder in joint partnership with Warburg Pincus",
+    "url": "https://warburgpincus.com/2025/08/12/evolution-data-centres-welcomes-zero-two-as-strategic-shareholder-in-joint-partnership-with-warburg-pincus/"
+   }
+  ],
+  "exit": {
+   "note": "Zero Two (ADQ) joined as co-controlling shareholder Aug 2025; Warburg Pincus remains co-controlling partner",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "warburg-pincus-gcash",
@@ -3568,6 +6037,53 @@
   "firstSeen": "2026-10-09T07:11:58Z"
  },
  {
+  "id": "warburg-pincus-infoblox",
+  "firm": "warburg-pincus",
+  "name": "Infoblox",
+  "slug": "infoblox",
+  "industry": "software",
+  "industryLabel": "network / DNS-DHCP-IPAM & cloud security software",
+  "hq": "Santa Clara, USA",
+  "geos": [
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2020-09",
+  "stake": "co-control",
+  "valuation": {
+   "amount": "US$3bn+",
+   "basis": "including debt, at Warburg's entry (Bloomberg, Sep 2020)",
+   "url": "https://www.bloomberg.com/news/articles/2020-09-08/warburg-pincus-said-to-near-deal-to-invest-in-vista-s-infoblox"
+  },
+  "summary": "Secure cloud-managed network services (DDI, BloxOne) vendor with 8,000+ customers incl. 350 of the Fortune 500. Warburg Pincus made a significant investment in Sept 2020 (closed Dec 2020) to become an equal 50/50 partner with Vista Equity Partners, which took Infoblox private in 2016.",
+  "signals": [
+   {
+    "date": "2025-05-06",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "Phil Venables Joins Warburg Pincus as Senior Advisor (lists Infoblox among notable cybersecurity investments)",
+    "url": "https://warburgpincus.com/2025/05/06/phil-venables-joins-warburg-pincus-as-senior-advisor/"
+   },
+   {
+    "date": "2020-09-08",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "Infoblox Announces Investment from Warburg Pincus",
+    "url": "https://warburgpincus.com/2020/09/08/infoblox-announces-investment-from-warburg-pincus/"
+   },
+   {
+    "date": "2020-09-08",
+    "publisher": "Bloomberg",
+    "title": "Warburg Pincus Nears Deal to Invest in Vista's Infoblox",
+    "url": "https://www.bloomberg.com/news/articles/2020-09-08/warburg-pincus-said-to-near-deal-to-invest-in-vista-s-infoblox"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "warburg-pincus-insilico-medicine",
   "firm": "warburg-pincus",
   "name": "Insilico Medicine",
@@ -3596,6 +6112,40 @@
    "status": "listed"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
+ },
+ {
+  "id": "warburg-pincus-internet-brands",
+  "firm": "warburg-pincus",
+  "name": "Internet Brands",
+  "slug": "internet-brands",
+  "industry": "internet",
+  "industryLabel": "online media & SaaS (health, auto, legal, home/travel verticals)",
+  "hq": "El Segundo, USA",
+  "geos": [
+   "United States"
+  ],
+  "apac": false,
+  "heldSince": "2022-07",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$12bn+",
+   "basis": "recapitalisation valuation, July 2022",
+   "url": "https://warburgpincus.com/2022/07/19/internet-brands-completes-multibillion-dollar-recapitalization-with-kkr-temasek-and-warburg-pincus-to-drive-further-growth/"
+  },
+  "summary": "Online media and software services company (WebMD, Avvo, CarsDirect etc.) in health, automotive, legal and home/travel verticals. Warburg Pincus led a group of new investors in a July 2022 recapitalisation valuing the company at more than US$12bn; KKR remains majority owner and Temasek a long-term investor. (Note: KKR entry for Internet Brands already stored.)",
+  "signals": [
+   {
+    "date": "2022-07-19",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "Internet Brands Completes Multibillion-Dollar Recapitalization with KKR, Temasek and Warburg Pincus to Drive Further Growth",
+    "url": "https://warburgpincus.com/2022/07/19/internet-brands-completes-multibillion-dollar-recapitalization-with-kkr-temasek-and-warburg-pincus-to-drive-further-growth/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "warburg-pincus-momo",
@@ -3636,6 +6186,76 @@
    "status": "process"
   },
   "firstSeen": "2026-10-05T10:37:52Z"
+ },
+ {
+  "id": "warburg-pincus-mykaarma",
+  "firm": "warburg-pincus",
+  "name": "myKaarma",
+  "slug": "mykaarma",
+  "industry": "software",
+  "industryLabel": "AI-enabled auto-dealer service-lane SaaS & payments",
+  "hq": "Long Beach, USA",
+  "geos": [
+   "United States"
+  ],
+  "apac": false,
+  "heldSince": "2026-01",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; strategic investment incl. partial sale by H.I.G. Growth Partners, Jan 2026",
+   "url": null
+  },
+  "summary": "Cloud 'Workflow AI' platform for franchise auto dealerships' service departments (scheduling, communications, payments, customer experience). Warburg Pincus made a strategic investment via its Capital Solutions Founders Fund in Jan 2026, including a partial sale by H.I.G. Growth Partners, and joined the board; Houlihan Lokey and TD Securities advised myKaarma.",
+  "signals": [
+   {
+    "date": "2026-01-14",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "myKaarma Accelerates AI-Enabled Service Lane Solutions with Warburg Pincus Investment",
+    "url": "https://warburgpincus.com/2026/01/14/mykaarma-accelerates-ai-enabled-service-lane-solutions-with-warburg-pincus-investment/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "warburg-pincus-nord-security",
+  "firm": "warburg-pincus",
+  "name": "Nord Security",
+  "slug": "nord-security",
+  "industry": "software",
+  "industryLabel": "consumer & SMB cybersecurity (NordVPN, NordPass, NordLayer, Surfshark)",
+  "hq": "Vilnius, Lithuania / Amsterdam, Netherlands",
+  "geos": [
+   "Lithuania",
+   "Netherlands",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2022-04",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$3bn",
+   "basis": "valuation at the US$100m Sept 2023 round (up from US$1.6bn in April 2022)",
+   "url": "https://warburgpincus.com/2023/09/28/nord-security-raised-another-100m-investment-round/"
+  },
+  "summary": "Lithuania-founded internet privacy and security group (NordVPN, NordPass, NordLayer, NordLocker, Surfshark). Warburg Pincus invested from its Capital Solutions Founders Fund, leading a US$100m round in Sept 2023 at a US$3bn valuation alongside Novator Ventures and Burda Principal Investments, with a Warburg MD joining the board.",
+  "signals": [
+   {
+    "date": "2023-09-28",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "Nord Security Raised Another $100M Investment Round",
+    "url": "https://warburgpincus.com/2023/09/28/nord-security-raised-another-100m-investment-round/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "warburg-pincus-oona-insurance",
@@ -3684,6 +6304,42 @@
    "status": "none"
   },
   "firstSeen": "2026-10-05T10:37:52Z"
+ },
+ {
+  "id": "warburg-pincus-oxylabs",
+  "firm": "warburg-pincus",
+  "name": "Oxylabs",
+  "slug": "oxylabs",
+  "industry": "data",
+  "industryLabel": "web-data / proxy infrastructure for AI agents",
+  "hq": "Vilnius, Lithuania",
+  "geos": [
+   "Lithuania",
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2026-07",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$3.6bn",
+   "basis": "valuation at Warburg's US$130m investment, July 2026",
+   "url": "https://warburgpincus.com/2026/07/09/oxylabs-announces-130-million-investment-from-warburg-pincus/"
+  },
+  "summary": "Lithuanian web-data infrastructure platform (began as a premium proxy service) serving 350,000+ customers incl. Fortune 500 and AI companies. Warburg Pincus invested US$130m via its Capital Solutions Founders Fund in July 2026 at a ~US$3.6bn valuation, the company's first outside capital since founding in 2015.",
+  "signals": [
+   {
+    "date": "2026-07-09",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "Oxylabs Announces $130 Million Investment from Warburg Pincus",
+    "url": "https://warburgpincus.com/2026/07/09/oxylabs-announces-130-million-investment-from-warburg-pincus/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "warburg-pincus-perfios",
@@ -3855,6 +6511,151 @@
    "status": "process"
   },
   "firstSeen": "2026-10-05T10:37:52Z"
+ },
+ {
+  "id": "warburg-pincus-redwood-software",
+  "firm": "warburg-pincus",
+  "name": "Redwood Software",
+  "slug": "redwood-software",
+  "industry": "software",
+  "industryLabel": "workload / business-process automation software",
+  "hq": "Frisco, USA",
+  "geos": [
+   "United States",
+   "Europe"
+  ],
+  "apac": false,
+  "heldSince": "2024-09",
+  "stake": "co-control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; terms of Vista/Warburg acquisition not disclosed (Sep 2024)",
+   "url": null
+  },
+  "summary": "Provider of an 'automation fabric' for business and IT process/workload automation (SAP-centric). Funds affiliated with Vista Equity Partners and Warburg Pincus agreed to acquire Redwood in Sept 2024 (Turn/River Capital a prior backer); financial terms were not disclosed.",
+  "signals": [
+   {
+    "date": "2024-09-10",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "Redwood to be Acquired by Vista Equity Partners and Warburg Pincus",
+    "url": "https://warburgpincus.com/2024/09/10/redwood-to-be-acquired-by-vista-equity-partners-and-warburg-pincus/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "warburg-pincus-theguarantors",
+  "firm": "warburg-pincus",
+  "name": "TheGuarantors",
+  "slug": "theguarantors",
+  "industry": "fintech",
+  "industryLabel": "rental lease-guarantee / AI underwriting insurtech",
+  "hq": "New York, USA",
+  "geos": [
+   "United States"
+  ],
+  "apac": false,
+  "heldSince": "2026-03",
+  "stake": "majority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; majority growth investment announced Mar 2026, expected close end-Q2 2026",
+   "url": null
+  },
+  "summary": "New York residential lease-guarantee and renter-insurance platform using AI underwriting, covering ~3.5m rental units and >US$6bn of lease value. Warburg Pincus agreed a majority growth investment in March 2026 (Evercore advised the company; Howden and Wachtell advised Warburg), with founder-CEO Julien Bonneville staying on.",
+  "signals": [
+   {
+    "date": "2026-03-18",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "TheGuarantors Announce Growth Investment from Warburg Pincus",
+    "url": "https://warburgpincus.com/2026/03/18/theguarantors-announce-growth-investment-from-warburg-pincus/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "warburg-pincus-truhome-finance",
+  "firm": "warburg-pincus",
+  "name": "Truhome Finance (ex-Shriram Housing Finance)",
+  "slug": "truhome-finance",
+  "industry": "fintech",
+  "industryLabel": "affordable housing finance NBFC",
+  "hq": "Mumbai, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2024-12",
+  "stake": "control",
+  "valuation": {
+   "amount": "₹3,929 crore",
+   "basis": "consideration Shriram Finance received for its 84.44% stake, closed Dec 2024 (other reports cite ~₹4,630 crore); Warburg-led group took ~97.79%",
+   "url": "https://www.angelone.in/news/share-market/shriram-finance-completed-sale-of-entire-stake-in-shriram-housing-finance-to-warburg-pincus"
+  },
+  "summary": "Affordable housing lender (165+ branches, >₹16,000 crore AUM at Dec 2024) acquired from Shriram Finance by a Warburg Pincus-led group with co-investors including QIA; deal closed Dec 2024 and the company was rebranded Truhome Finance in Jan 2025 after a ₹1,225 crore primary injection.",
+  "signals": [
+   {
+    "date": "2025-01-16",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "Shriram Housing Finance Unveils its New Brand Identity 'Truhome Finance' Following its Acquisition by Warburg Pincus, QIA and Others",
+    "url": "https://warburgpincus.com/2025/01/16/shriram-housing-finance-unveils-its-new-brand-identity-truhome-finance-following-its-acquisition-by-warburg-pincus-qia-and-others/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "warburg-pincus-varicent",
+  "firm": "warburg-pincus",
+  "name": "Varicent",
+  "slug": "varicent",
+  "industry": "software",
+  "industryLabel": "sales performance management SaaS",
+  "hq": "Toronto, Canada",
+  "geos": [
+   "Canada",
+   "United States",
+   "Global"
+  ],
+  "apac": false,
+  "heldSince": "2024-07",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; strategic investment led by Warburg Pincus, July 2024",
+   "url": null
+  },
+  "summary": "Toronto-based cloud sales performance management vendor (territory and quota planning, incentive compensation, AI-driven revenue insights). Warburg Pincus led a strategic investment announced July 2024 with existing investors Great Hill Partners and Spectrum Equity and management participating; closing expected Q3 2024.",
+  "signals": [
+   {
+    "date": "2024-07-16",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "Varicent Secures Strategic Investment from Warburg Pincus, Great Hill Partners and Spectrum Equity",
+    "url": "https://warburgpincus.com/2024/07/16/varicent-secures-strategic-investment-from-warburg-pincus-great-hill-partners-and-spectrum-equity/"
+   },
+   {
+    "date": "2024-07-16",
+    "publisher": "Paul, Weiss",
+    "title": "Warburg Pincus Leads Investment in Varicent",
+    "url": "https://www.paulweiss.com/insights/client-news/warburg-pincus-leads-investment-in-varicent"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "warburg-pincus-vistaar-financial-services",
