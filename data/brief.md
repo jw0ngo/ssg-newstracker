@@ -1,5 +1,5 @@
-SSG Newstracker · Morning Brief · PE Clients · Mon 26 Oct, 07:37 SGT
-8 new stories since the last publish, 1 hot.
+SSG Newstracker · Morning Brief · PE Clients · Tue 27 Oct, 07:36 SGT
+19 new stories since the last publish, 1 hot.
 
 1. [HOT 68] EQT agrees to acquire Australia's Cleanaway Waste for USD 6.5 billion
    EQT · 富途牛牛 · 26 Oct
@@ -7,46 +7,58 @@ SSG Newstracker · Morning Brief · PE Clients · Mon 26 Oct, 07:37 SGT
    Call: Pitch the EQT deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.
    https://news.google.com/rss/articles/CBMiogFBVV95cUxOeTR6di1fNmpzSGpWQ2tzakU5a3llTVlKM1FrczNsMVlubnVldDlVWWZfd19WYUFpVDdyb0lxYjFCNTQ5cHdoOWI2Mi0zWVdFa1FHUGhEaUJSX0lVMGhmaElvRmhrbkM4ZUVrTW93RWVQaXVEMGRLS3hxSEhfWkNsdlhiUkU3djB0UHlIa3A4OHpIazU3TzJUTWhXcjYzakFKSXc?oc=5
 
-2. [WARM 49] Aspirity Partners to acquire majority stake in IoT infra business Onomondo; KKR and EQT sign deals in Asia
-   EQT · PEI Private Equity · 25 Oct
-   Why: EQT has agreed to buy Aspirity Partners in Asia: buy-side DD is done and the post-close tech agenda is open.
-   Call: Pitch the EQT deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.
-   https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdzR3R1ZuR3BPTzl6T29RME1wTGFzdDRrSkZjVTRpRWZUaTUtS3RiZWhRSVRBbFdVTzJvN2xSaUxZSjhncFptYk1hTWljNWF4VjdnZDlVVDEzemswTXV4c1FDQ3YtUFg3ZV96SURUbHkzUlZyWHhFMElUVGlldzYzY1Q2eGtLQ3NsOE9mLXdTcVEzMGNhMVFLQXpfWUFvU19Ya0FQVFVxazNfS0xaUVFsM19BZjZVUmQ4d2pQaWpYWVZ1b2VOVGJvOTluZmxVdGk3NWpKcFpSLVRTZ1NqamNXV05KQQ?oc=5
+2. [WARM 64] TPG-backed One Aged Care acquires Active Global
+   TPG · DealStreetAsia · 26 Oct
+   Why: A portfolio company, a TPG portfolio company, is buying One Aged Care in Southeast Asia: the integration plan is the open question.
+   Call: Call the TPG deal team covering A portfolio company: stack consolidation, data migration and product overlap.
+   https://www.dealstreetasia.com/stories/tpg-backed-one-aged-care-acquires-active-global-499132
 
-3. [WARM 44] EQT confirms EUR 10.8 billion Qiagen bid for EQT stock
-   EQT · AD HOC NEWS · 22 Oct
-   Why: EQT is reported to be moving on EUR Qiagen (EUR 10.8 billion): a buy-side tech DD is being scoped now.
-   Call: Call the EQT deal team today and offer to scope the buy-side tech DD before advisers are set.
-   https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV0l1OUpEYmpWME5PQUNrcHd2ZXlQNWN2YVJkc21qdkJRWjg5TWxRVDc5aHBfbkc4LUZQbTZDZjlpczh1LWxoSU80SWUxZlV3MVA3X1VCLXJ4ZFVBODRDT2NZWEtiZVhjcFQ1bE9iMWxUcjdiN050QUxBY0Q2ajFLZ1REcDNPeHFGNXJJTGRzcS1LdE92RjZScVRpczI5eHlfVGptbmh0NjM0UVo0NmNaTVlyb2RvTnR4?oc=5
+3. [WARM 57] Legora's new valuation, Pigment nabs $250M, Boomi buys Elementary Data
+   TPG · Axios · 24 Oct
+   Why: Boomi, a TPG portfolio company, is buying Legora ($250M): the integration plan is the open question.
+   Call: Call the TPG deal team covering Boomi: stack consolidation, data migration and product overlap.
+   https://news.google.com/rss/articles/CBMimgFBVV95cUxPRkVwekVxcUZsM3JzdEx4LVNDbUN2d1NFYVZYbVNaV1VTOEFhc0RtMmFIZ29qdk1iVzVPOXdjVlZyb0xEVk5TZ2ZzVURrbk9qRHZOcFdvYXk5YTlXSUxsQXZ4aGxFcTM4NEs3ZkNKTlpMclVIVnJ2R25hN2Y0dHlBMnlDbXBsSlVUQlpVSGZ5LVlnZ20tLWgwMWJB?oc=5
 
-4. [WARM 40] Carlyle’s Pooja Goyal: ‘Building platforms from scratch has become a deliberate part of how we invest’; Kayne Anderson, Warburg Pincus agree to $4.06bn exit from WildFire Energy
-   Warburg Pincus · PEI Private Equity · 24 Oct
-   Why: Warburg Pincus has agreed to sell Pooja Goyal Building ($4.06bn): VDD is spent; the buyer owns integration and Warburg Pincus has proceeds to redeploy.
-   Call: Two calls: the buyer’s deal team on integration, and the Warburg Pincus team on what the proceeds go into next.
-   https://news.google.com/rss/articles/CBMiuAJBVV95cUxQVW1SS2ROV1F5LWhxYnp5V1pfb2ZrTk5xTjRSWkIydWJ2ZXY3dFMxa1Itc3ZUd0pRNFF1d1RxS2U3UERYUFJRb0FidW1uY3VCcXZBOWZnZ20tLUlic2p3MUc0R1I2ekEwam9ReUNJRXlhSVhJWmZTT21DODhyNTFPTENWb0RNd3ZLaTY2VkljWVhxTnUxeHBsZ1FSNTJxdVNXcUlTVHlKSW8zYkRpU2JDS3dIaFNhbUY4aVZpc2JRR2ZXMGZZaG1Xd0hwd2JEV2lTdUQyUEVNWG5QSVIxcnpBMGtqSnNraWFTbWY3enBsWWNCLXZNQ2VMRERuSjJ4UGd1bnBJdm1qT2NCa3lvVm5IZk1zOVkteXN3eTc0b3JNV3FxcndNLUxjUGFUQU9aalZRRl9kZ0RaS1Y?oc=5
+4. [WARM 54] Globe CEO, GCash directors bought P77-M in shares before post-IPO slide
+   Warburg Pincus · InsiderPH · 26 Oct
+   Why: Warburg Pincus is preparing a listing of Globe after 5y 4m, in the exit window: pre-IPO tech VDD and the equity story get scoped now.
+   Call: Call the Warburg Pincus portfolio team this week: pitch the pre-IPO tech VDD and the technology chapter of the equity story.
+   https://news.google.com/rss/articles/CBMilwFBVV95cUxPR0g5TEpyd1JqVldjb2w2N3BILUhadjVOSFM3R29OZGJjcjE5X3Nkb19Sa0xCc0FrdjdOc21xOEFhZEQ1VnVsRmtRRUdYbndIcDVOaGxTS3FTSjVDVFdXSVdGT1d0dkFmbHA1ZnFza1BhTU5yU1VRQzFxODBRLUxuWUNmQW9rWFlnb1ZSYnV5dlg2eHZicC1N?oc=5
 
-5. [39] TA-backed nutraceuticals maker OmniActive explores $300-M IPO at $1-B valuation
-   TA Associates · Venture Intelligence News · 23 Oct
-   Why: TA Associates is preparing a listing of OmniActive: pre-IPO tech VDD and the equity story get scoped now.
-   Call: Call the TA Associates portfolio team this week: pitch the pre-IPO tech VDD and the technology chapter of the equity story.
-   https://news.google.com/rss/articles/CBMiywFBVV95cUxNSW1OVlJLeXllZl9BY2JQa2hkaEE1bGppMndfckpxRk1Xamg4eDhHYVY4LWtCaDVIelBJWHdiSUQyaEtKbWQ0Nk5STlpuZ3FPZm9OZXlrcWNaSXhoY2piUERCSDBZRHZTay1HLTJ2cXBobE5hNE03NFNkMlpuV2Q0Yk5WQlE2NXRRVGZjcG40bXhDN0cySUlnZTFWSkVLeWpqUW9zdFloYlpkTUNmaTVKYk5iczVCS0I2YUV3SVVsNUJfaU5xRWZnMkZGOA?oc=5
-
-6. [39] EQT agrees €9.6bn takeover of Qiagen
-   EQT · Private Equity Wire · 22 Oct · 2 outlets
-   Why: EQT is in a live process for Qiagen (€9.6bn): bids are moving and the diligence window is open.
-   Call: Call the EQT deal team now: confirmatory tech DD, and a red-flag view on the stack if they are not yet in exclusivity.
-   https://news.google.com/rss/articles/CBMifkFVX3lxTE1WOXIzT1dBU29PVUZTZDhzeUZHU2ZCb0hzQnB1dlROaVhNdjl1Vk5teDlkdGFIQWxZcjNEZV8wYnktLTZ0Y01Idy1XNkcyNnR6ZGpqVFFYb0hMMDJpTmltUnRtM254alFsSTB5T1VKdU9qY0tuTnBFQjdnRU4zUQ?oc=5
-
-7. [39] EQT bolsters healthcare strategy with €10.8 billion German diagnostics acquisition
-   EQT · Traders Union · 22 Oct
-   Why: EQT has agreed to buy German (€10.8 billion): buy-side DD is done and the post-close tech agenda is open.
-   Call: Pitch the EQT deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxNdHFROXZhcEk3N0xXRXFidW1xT1J4OFVQZXVLdXNZQ3JXamR4dVVTWWh4cjBycTdwWWJYS0R1T0lFMnE4NnZ4RVI5MmhxblhjS2c5OGE3N3pWVUNoM1JPZlpSWDlKWmZRMHV0c2xzVkREUDhWdmhDa3JFa012aWdYUHg4VWZHN3d5R3VlRFNRUWRYREZUclpzTjJpSmNBdFBf?oc=5
-
-8. [36] Blackstone, Warburg explore IntraFi sale at over $10 billion, sources say
-   Warburg Pincus · marketscreener.com · 21 Oct
-   Why: Warburg Pincus is reported to be moving on IntraFi ($10 billion): a buy-side tech DD is being scoped now.
+5. [WARM 53] Warburg Pincus Frozen Out as Rival Circles $2.2bn Ingenia Deal
+   Warburg Pincus · The Urban Developer · 26 Oct
+   Why: Warburg Pincus is reported to be moving on Circles (Circles.Life) ($2.2bn): a buy-side tech DD is being scoped now.
    Call: Call the Warburg Pincus deal team today and offer to scope the buy-side tech DD before advisers are set.
-   https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdVJodkJzU2pxZkkwb2xwcVdNTWRZbUl4Zk9TMlU5cktZb1Q3aWhMWkVXQTlwVUFub2NoeHNQbk5vY2VlWDFHS1RXZVBrUTJiVEVPMmtMVndlWVdSMVJGUE94Vm9PMHFEQnh1WVVDa0czbVNCOVZadm1wM2ptTlR5UjdaZ1RRaF84dXJjUkdrVXktS09Yak9xS0VQRjgzOGFkeHF6SHg3XzFKNDQ0QU8yeWUzNW42QXZZd2kwSXBuMUo?oc=5
+   https://news.google.com/rss/articles/CBMirAFBVV95cUxQbjNEcmZqb0d5NnBpOS1sV2k5NUpsQ2MwQWgxUkxSaDJabDJiZ1ZEWGR0TWphSlZGSjRjRE9od0xZNzA3WXNRc2RwbVVEWGxNRU83T3c5T3c2bXZHVE9jbTcwRkR1dW43SWhfX0lRaFBJMDk2ZDJXc0tCV29velk3TUhYOVZOdnR1ZGR4QjhfaldlcHpfaFVtZzVBRExfQ0lEUVQ4WHphOWNTMHdK?oc=5
+
+6. [WARM 53] Ingenia Removes Warburg Pincus From Data Room Following Rival $1.55 Billion Offer
+   Warburg Pincus · WSJ · 26 Oct
+   Why: Warburg Pincus is in a live process for Ingenia Removes ($1.55 Billion): bids are moving and the diligence window is open.
+   Call: Call the Warburg Pincus deal team now: confirmatory tech DD, and a red-flag view on the stack if they are not yet in exclusivity.
+   https://news.google.com/rss/articles/CBMiuAFBVV95cUxNREN3QWY4Z043ZEozRGxFVVpYbTAwclJzN3BidGNJLXhBc1RDNVRJLTc3cVI0RnZlTjZWNHNic2ZNdHFaeWJRNGx5WkZXc1dBQ2xOUlF6WHBkX0ZJSlNFQmZUTzlFZkpBVW9nT0hiNEs2ZFdNZ3ZUdzJ1QWlhT04wZnpQa0VDbjFYOF9Gcy02UjBPQXNBMnJXb2RsS2paTkxLOHhWRlR4ZEhkU21vdTVJT2F2dXRzZWRO?oc=5
+
+7. [WARM 49] EQT to buy Range Resources in over $50 billion deal
+   EQT · TradingView · 26 Oct · 2 outlets
+   Why: EQT has agreed to buy Range Resources ($50 billion): buy-side DD is done and the post-close tech agenda is open.
+   Call: Pitch the EQT deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.
+   https://news.google.com/rss/articles/CBMivAFBVV95cUxOOFpaWXg4Q2J4d0Q2bWNKR1ZVSHhORy10SjJYenJmdWRmUGs0R00tUHF0V3BleGZtLW5WRWs0Y0JGT0d4eWdBYklJTG1JQVE0emdvdW5lMjczZTEzYW03ZUFBdXd4LUdxQlZ2dWtRN3Q2dmFyQVFwVzdjQWpqeFAxU0tHVVpBbHhxSTQyS1JUdmMwaXo1OEFwS1ZLNXoycDVqdFVROE5GdGhmSmNIY1U5czdyOVhlZ0NjLVNPbA?oc=5
+
+8. [WARM 48] Brent Brennan buys tequila shots for fans at local bar following Arizona's win over Iowa State
+   Macquarie Capital · On3 · 27 Oct
+   Why: Brennan, a Macquarie Capital portfolio company, is buying Brent Brennan: the integration plan is the open question.
+   Call: Call the Macquarie Capital deal team covering Brennan: stack consolidation, data migration and product overlap.
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGlZcjd6TUZ1bU1fRHkwZWVrcWs5Ui1mci1SQVlEWFdaZGFjQ0VYVUZxY05NZV9UZl9iUlBBWWVKTDZRbWI5b3dybXp1dGVoYThvVGF6WE9aRjlzTENjd3RMT2RfR2FFVEc3RnYtSHJfeVNoQWVXNld3a1NWSXE5QkhPdHhTU0tyaGpoNWRwVnZhS19ibXUtclRxZmQzZFI0NGtOM3hoZ3ZHcHBPWlBIM3M2Z2lTeHc?oc=5
+
+9. [WARM 48] AVID tops Warburg Pincus bid with $3.2B offer for Ingenia
+   Warburg Pincus · Lawyerly · 26 Oct · 4 outlets
+   Why: Warburg Pincus is in a live process for AVID ($3.2B): bids are moving and the diligence window is open.
+   Call: Call the Warburg Pincus deal team now: confirmatory tech DD, and a red-flag view on the stack if they are not yet in exclusivity.
+   https://news.google.com/rss/articles/CBMieEFVX3lxTE5JRldlRzlqVjlWSHZIZU1kaGpsdWNNVXcycDY2WTVzdENGSHZ0SUcyVUZGV1VRSkxzcWg1VURvTDM0U1Bid1BjTEFNM0p5ZDMtbnQ1VEJpNl9ZeC1FcExLYnhyTF8wemJ5RVpMWlM4eVdMNDhsUk81bw?oc=5
+
+10. [WARM 46] KKR’s Internet Brands, valued at more than $12bn, completes GP-led secondary
+   KKR · PEI Private Equity · 23 Oct
+   Why: KKR has closed its investment in Internet Brands ($12bn).
+   Call: Offer the KKR team an AI-readiness or scale-up diagnostic as the follow-on.
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxONGFmVGZ1LUloZnVSbnBEUUtjLXE0bVpQQjJaNEtORGh1SEdPQnp3amdRYUM0TjJGMk9pZHpwZjN2aXpxc0JwLW00eTJiWXZCNVJ6cHVOU1A5WkMyUlRjYURfY3JnM1JhSkw0R3hteUwzb19EZTFSQW4yM0oyTmM4VWk4ejRzMlUtZ2xJZmk2c05zVDdYTkd0bWtDelMteVlkV29qbmxpMDd1WThkRHJKc0tmZWhLckU?oc=5
 
 Full page: https://jw0ngo.github.io/ssg-newstracker/brief/
