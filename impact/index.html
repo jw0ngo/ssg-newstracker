@@ -85,13 +85,13 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
 /* the detail panel */
 .eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
 .panel h2 { font-family: var(--head-font); font-weight: 700; font-size: 26px; line-height: 1.05; margin: 0 0 8px; letter-spacing: -.01em; }
-.panel h3 { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); font-weight: 500; margin: 22px 0 8px; }
+.panel h3 { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); font-weight: 500; margin: 22px 0 8px; }
 .panel p { margin: 0 0 10px; }
 .panel .lead { font-size: 15px; line-height: 1.5; }
 .panel .muted { color: var(--muted); font-size: 13px; }
-.read { display: inline-flex; align-items: center; gap: 6px; padding: 3px 9px; border-radius: 999px; font-family: var(--mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: #fff; }
+.read { display: inline-flex; align-items: center; gap: 6px; padding: 3px 9px; border-radius: 999px; font-family: var(--mono); font-size: 11px; line-height: 1.3; letter-spacing: .06em; text-transform: uppercase; color: #fff; white-space: nowrap; vertical-align: middle; }
 .read.tailwind, .read.mixed, .read.headwind { background: var(--fg); color: var(--bg); } .read b { font-weight: 600; }
-.read.stage { background: transparent; color: var(--muted); border: 1px solid var(--rule); }
+.read.phase { background: transparent; color: var(--muted); border: 1px solid var(--rule); }
 .bars { display: grid; gap: 7px; }
 .bar { display: grid; grid-template-columns: 112px 1fr 30px; align-items: center; gap: 10px; font-size: 12.5px; }
 .bar i { height: 7px; border-radius: 4px; background: var(--rule); position: relative; overflow: hidden; display: block; }
@@ -115,24 +115,55 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
 .links button i { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
 .links button.live i { box-shadow: 0 0 0 3px var(--glow); }
 .ql { margin: 0; padding-left: 18px; color: var(--fg); font-size: 13px; } .ql li { margin: 4px 0; }
-.close { display: none; position: absolute; right: 14px; top: 12px; width: 30px; height: 30px; border-radius: 50%; background: var(--bg); color: var(--muted); font-size: 16px; }
+.close { display: none; width: 32px; height: 32px; border-radius: 50%; background: var(--bg); color: var(--muted); font-size: 18px; place-items: center; }
+/* sheet chrome and the phone's floating controls: present in the markup, shown only on a phone */
+.sheet-top, .mtop, .mstamp { display: none; }
 .role { display: block; padding: 8px 10px; border-radius: 8px; background: var(--bg); border: 1px solid var(--rule); font-size: 13px; margin-bottom: 6px; }
 .role b { font-weight: 600; }
 .role .x { display: block; color: var(--muted); margin-top: 3px; font-size: 12.5px; }
 .foot { color: var(--faint); font-size: 12px; margin-top: 24px; line-height: 1.5; }
 @media (max-width: 1100px) { .app { grid-template-columns: 240px 1fr 340px; } }
 @media (max-width: 860px) {
-  body { overflow: auto; }
-  .site { padding: 8px 12px; height: auto; flex-wrap: wrap; gap: 8px; } .nav { margin-left: 0; width: 100%; overflow-x: auto; gap: 2px; } .nav a { padding: 6px 9px; }
-  .app { display: flex; flex-direction: column; height: auto; }
-  .stage { order: 0; height: 62vh; min-height: 400px; }
-  .side { order: 1; border-right: 0; border-top: 1px solid var(--rule); padding: 14px 16px 30px; }
-  .side .legend, .side .stats, .side h1, .side h1 + .sub { display: none; }
-  .side .k:first-child { margin-top: 0; }
+  /* One screen: the header, then the map filling the rest. Filters and detail are bottom sheets
+     that slide over the map; the map stays live above them. */
+  html, body { height: 100vh; height: calc(100dvh - env(safe-area-inset-top, 0px)); }
+  body { display: flex; flex-direction: column; overflow: hidden; }
+  .site { flex: none; padding: 8px 12px; height: auto; flex-wrap: wrap; gap: 8px; } .nav { margin-left: 0; width: 100%; overflow-x: auto; gap: 2px; } .nav a { padding: 6px 9px; }
+  .app { display: block; position: relative; flex: 1; min-height: 0; height: auto; }
+  .stage { position: absolute; inset: 0; }
   .stamp { display: none; }
-  .panel { position: fixed; left: 0; right: 0; bottom: 0; max-height: 62vh; border-left: 0; border-top: 1px solid var(--rule); border-radius: 16px 16px 0 0; box-shadow: 0 -8px 30px rgba(0,0,0,.18); transform: translateY(100%); transition: transform .28s cubic-bezier(.2,.7,.2,1); padding: 18px 16px 30px; z-index: 5; }
-  .panel.open { transform: none; }
-  .close { display: grid; place-items: center; }
+  .mtop { display: flex; position: absolute; left: 12px; right: 12px; top: 12px; gap: 8px; z-index: 4; }
+  .msearch { flex: 1; position: relative; min-width: 0; }
+  .msearch::before { content: ""; position: absolute; left: 12px; top: 12px; width: 16px; height: 16px; pointer-events: none; opacity: .6;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%235b6b78" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>') center/contain no-repeat; }
+  .msearch input { width: 100%; height: 40px; padding: 0 12px 0 36px; border-radius: 12px; border: 1px solid var(--rule); background: var(--surface); color: var(--fg); font: inherit; font-size: 16px; outline: none; box-shadow: 0 2px 12px rgba(0,0,0,.10); -webkit-appearance: none; appearance: none; }
+  .msearch input:focus { border-color: var(--accent); }
+  .msearch .hits { position: absolute; left: 0; right: 0; top: 44px; margin: 0; padding: 4px; background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,.16); max-height: 40vh; overflow: auto; }
+  .msearch .hits:empty { display: none; }
+  .msearch .hits li button { padding: 9px 10px; font-size: 14px; }
+  .mbtn { position: relative; flex: none; height: 40px; padding: 0 14px; border-radius: 12px; background: var(--surface); border: 1px solid var(--rule); color: var(--fg); font-weight: 500; font-size: 14px; box-shadow: 0 2px 12px rgba(0,0,0,.10); }
+  .mbtn.on { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+  .mbtn .badge { position: absolute; top: -6px; right: -6px; min-width: 18px; height: 18px; padding: 0 5px; border-radius: 9px; background: var(--accent); color: #fff; font: 600 11px/18px var(--mono); text-align: center; }
+  .hud { top: 62px; right: 12px; bottom: auto; }
+  .hud button { width: 36px; height: 36px; box-shadow: 0 2px 12px rgba(0,0,0,.10); }
+  .mstamp { display: inline-flex; align-items: center; gap: 6px; position: absolute; left: 12px; bottom: calc(12px + env(safe-area-inset-bottom, 0px)); max-width: calc(100% - 24px); padding: 7px 11px; border-radius: 999px; background: var(--surface); border: 1px solid var(--rule); color: var(--muted); font-family: var(--mono); font-size: 11.5px; box-shadow: 0 2px 12px rgba(0,0,0,.10); z-index: 3; white-space: nowrap; }
+  .mstamp b { font-weight: 500; color: var(--accent); }
+  /* the sheets */
+  .side, .panel { position: fixed; left: 0; right: 0; bottom: 0; height: 56vh; height: 56dvh; border: 0; border-top: 1px solid var(--rule); border-radius: 18px 18px 0 0; box-shadow: 0 -8px 30px rgba(0,0,0,.18); transform: translate3d(0, 102%, 0); transition: transform .28s cubic-bezier(.2,.7,.2,1), height .22s ease; padding: 0 16px calc(28px + env(safe-area-inset-bottom, 0px)); z-index: 6; will-change: transform; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+  .side.open, .panel.open { transform: none; }
+  .side.full, .panel.full { height: 90vh; height: 90dvh; }
+  .side.dragging, .panel.dragging { transition: none; }
+  .sheet-top { display: grid; grid-template-columns: 36px 1fr 36px; align-items: center; height: 44px; position: sticky; top: 0; margin: 0 -16px 4px; padding: 0 10px; background: var(--surface); z-index: 2; touch-action: none; cursor: grab; }
+  .sheet-top .grab { grid-column: 2; justify-self: center; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .sheet-top .grab i { display: block; width: 40px; height: 5px; border-radius: 3px; background: var(--rule); }
+  .sheet-top .grab b { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); font-weight: 500; }
+  .sheet-top .close { display: grid; grid-column: 3; }
+  .side .find, .side .search, .side > .hits, .side h1, .side h1 + .sub { display: none; }
+  .side .k { margin-top: 16px; }
+  .panel h2 { font-size: 24px; }
+  .panel .lead { font-size: 14.5px; }
+  .bar { grid-template-columns: 96px 1fr 30px; }
+  .force { grid-template-columns: 80px auto 1fr; }
   h1 { font-size: 26px; }
 }
 @media (pointer: coarse) { .hud button { width: 40px; height: 40px; font-size: 18px; } .chip { padding: 7px 12px; } .close { width: 36px; height: 36px; } .nav { scrollbar-width: none; } .nav::-webkit-scrollbar { display: none; } }
@@ -141,10 +172,11 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
 
 <div class="site"><span class="brand">SSG Newstracker</span><nav class="nav" id="nav" aria-label="Sections"></nav></div>
 <div class="app">
-  <aside class="side">
+  <aside class="side" id="side">
+    <div class="sheet-top" data-sheet="side"><span class="grab"><i></i><b>Filters &amp; legend</b></span><button class="close" data-close="side" aria-label="close">×</button></div>
     <h1>AI Impact</h1>
     <p class="sub">How AI is moving the enterprise value of what the sponsors buy, bid on and hold — the knowledge base for AI diligence.</p>
-    <div class="k">Find</div>
+    <div class="k find">Find</div>
     <input class="search" id="q" type="search" placeholder="A company, a sponsor, a sector" autocomplete="off">
     <ul class="hits" id="hits"></ul>
     <div class="k">Show</div>
@@ -177,12 +209,17 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
   </aside>
   <main class="stage" id="stage">
     <canvas id="map"></canvas>
+    <div class="mtop">
+      <div class="msearch"><input id="mq" type="search" placeholder="Search the map" autocomplete="off" enterkeyhint="search"><ul class="hits" id="mhits"></ul></div>
+      <button class="mbtn" id="mfilters" aria-label="filters">Filters<span class="badge" id="mbadge" hidden></span></button>
+    </div>
+    <button class="mstamp" id="mstamp" aria-label="about the map"></button>
     <div class="tip" id="tip"></div>
     <div class="hud"><button id="zin" title="zoom in">+</button><button id="zout" title="zoom out">−</button><button id="zfit" title="fit">⌂</button></div>
     <div class="stamp" id="stamp"></div>
     <div class="loading" id="loading">Loading the map…</div>
   </main>
-  <aside class="panel" id="panel"><button class="close" id="close" aria-label="close">×</button><div id="detail"></div></aside>
+  <aside class="panel" id="panel"><div class="sheet-top" data-sheet="panel"><span class="grab"><i></i></span><button class="close" id="close" data-close="panel" aria-label="close">×</button></div><div id="detail"></div></aside>
 </div>
 
 <script>
@@ -263,7 +300,7 @@ function applyFilters() {
     n.hidden = !on;
   }
   for (const l of L) l.hidden = l.a.hidden || l.b.hidden;
-  renderStats();
+  renderStats(); renderBadge();
 }
 
 // ── simulation ────────────────────────────────────────────────────────────────
@@ -451,12 +488,21 @@ function nodeAt(sx, sy) {
 }
 // The camera eases towards `camTo` when one is set; a wheel or a drag takes over at once.
 let camTo = null;
+// On a phone the top bar and an open sheet cover part of the stage: the frame goes in the part
+// that is left (the sheet's height is read from the stylesheet, so the two never disagree).
+function viewRect() {
+  if (!MOBILE()) return { top: 0, bottom: H };
+  const open = [$('panel'), $('side')].find((el) => el.classList.contains('open'));
+  return { top: 60, bottom: open ? Math.max(120, H - open.getBoundingClientRect().height) : H };
+}
 function frameNodes(nodes, maxK, pad) {
   if (!nodes.length) return;
+  if (MOBILE()) pad = Math.min(pad, 56);
+  const vr = viewRect(), vh = vr.bottom - vr.top;
   let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
   for (const n of nodes) { x0 = Math.min(x0, n.x - n.r); y0 = Math.min(y0, n.y - n.r); x1 = Math.max(x1, n.x + n.r); y1 = Math.max(y1, n.y + n.r); }
-  const k = Math.min(maxK, Math.max(0.35, Math.min((W - pad) / (x1 - x0 + 1), (H - pad) / (y1 - y0 + 1))));
-  camTo = { k, x: -(x0 + x1) / 2, y: -(y0 + y1) / 2 };
+  const k = Math.min(maxK, Math.max(0.35, Math.min((W - pad) / (x1 - x0 + 1), (vh - pad) / (y1 - y0 + 1))));
+  camTo = { k, x: -(x0 + x1) / 2, y: ((vr.top + vr.bottom) / 2 - H / 2) / k - (y0 + y1) / 2 };
   if (REDUCED) { Object.assign(cam, camTo); camTo = null; }
 }
 function fit() { frameNodes(N.filter((n) => !n.hidden), 2, 120); }
@@ -468,28 +514,44 @@ function easeCam() {
   if (Math.abs(camTo.x - cam.x) < 0.2 && Math.abs(camTo.y - cam.y) < 0.2 && Math.abs(camTo.k - cam.k) < 0.002) { Object.assign(cam, camTo); camTo = null; }
 }
 let drag = null;
+// Two fingers pinch and pan the map; the first finger's drag or tap is dropped when the second lands.
+const fingers = new Map(); let pinch = null;
+const pinchOf = () => { const [a, b] = [...fingers.values()]; return { d: Math.hypot(b.x - a.x, b.y - a.y) || 1, x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }; };
 canvas.addEventListener('pointerdown', (e) => {
-  canvas.setPointerCapture(e.pointerId);
+  try { canvas.setPointerCapture(e.pointerId); } catch (_) {}
+  fingers.set(e.pointerId, { x: e.offsetX, y: e.offsetY });
+  if (fingers.size === 2) { if (drag && drag.n) drag.n.pin = false; drag = null; pinch = pinchOf(); canvas.classList.add('drag'); return; }
+  if (fingers.size > 2) return;
+  if (e.pointerType === 'touch') { v.hover = null; $('tip').style.opacity = 0; }
   const n = nodeAt(e.offsetX, e.offsetY);
   drag = { n, sx: e.offsetX, sy: e.offsetY, cx: cam.x, cy: cam.y, moved: false };
   if (n) { n.pin = true; } else canvas.classList.add('drag');
 });
 canvas.addEventListener('pointermove', (e) => {
+  if (fingers.has(e.pointerId)) fingers.set(e.pointerId, { x: e.offsetX, y: e.offsetY });
+  if (pinch) {
+    if (fingers.size !== 2) return;
+    const p = pinchOf(); zoomAt(p.x, p.y, p.d / pinch.d); cam.x += (p.x - pinch.x) / cam.k; cam.y += (p.y - pinch.y) / cam.k; pinch = p;
+    return;
+  }
   if (drag) {
     const dx = e.offsetX - drag.sx, dy = e.offsetY - drag.sy; if (Math.hypot(dx, dy) > 3) drag.moved = true;
     if (drag.n) { const [wx, wy] = toWorld(e.offsetX, e.offsetY); drag.n.x = wx; drag.n.y = wy; drag.n.vx = drag.n.vy = 0; alpha = Math.max(alpha, 0.08); }
     else { camTo = null; cam.x = drag.cx + dx / cam.k; cam.y = drag.cy + dy / cam.k; }
     return;
   }
+  if (e.pointerType === 'touch') return;   // no hover on a touch screen: a tap selects
   const n = nodeAt(e.offsetX, e.offsetY);
   v.hover = n; canvas.classList.toggle('hand', !!n);
   const tip = $('tip');
   if (n) { tip.style.left = e.offsetX + 'px'; tip.style.top = e.offsetY + 'px'; tip.innerHTML = tipOf(n); tip.style.opacity = 1; } else tip.style.opacity = 0;
 });
 const endDrag = (e) => {
+  fingers.delete(e.pointerId);
+  if (fingers.size < 2) { if (pinch) canvas.classList.remove('drag'); pinch = null; }
   if (!drag) return;
   if (drag.n) { drag.n.pin = false; if (!drag.moved) select(drag.n); }
-  else if (!drag.moved) select(null);
+  else if (!drag.moved) { if (MOBILE() && $('side').classList.contains('open')) closeSheet('side'); else select(null); }
   canvas.classList.remove('drag'); drag = null;
 };
 canvas.addEventListener('pointerup', endDrag); canvas.addEventListener('pointercancel', endDrag);
@@ -503,15 +565,49 @@ function zoomAt(sx, sy, f) {
 $('zin').addEventListener('click', () => zoomAt(W / 2, H / 2, 1.25));
 $('zout').addEventListener('click', () => zoomAt(W / 2, H / 2, 0.8));
 $('zfit').addEventListener('click', fit);
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') select(null); });
-$('close').addEventListener('click', () => select(null));
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { if (MOBILE() && $('side').classList.contains('open')) closeSheet('side'); else select(null); } });
+document.querySelectorAll('[data-close]').forEach((b) => b.addEventListener('click', () => { if (b.dataset.close === 'panel') select(null); else closeSheet(b.dataset.close); }));
+
+// ── the phone's sheets ────────────────────────────────────────────────────────
+// Two bottom sheets, filters and detail, one open at a time. Each starts at half height; the
+// handle drags it up to full, down to half, or off the screen; a tap on the handle toggles.
+function openSheet(id, full) {
+  for (const other of ['side', 'panel']) if (other !== id) closeSheet(other);
+  const el = $(id); el.classList.add('open'); el.classList.toggle('full', !!full);
+  if (id === 'side') $('mfilters').classList.add('on');
+}
+function closeSheet(id) {
+  const el = $(id); el.classList.remove('open', 'full'); el.style.transform = '';
+  if (id === 'side') $('mfilters').classList.remove('on');
+  if (id === 'panel' && v.sel) { v.sel = null; renderDetail(); }
+}
+document.querySelectorAll('.sheet-top').forEach((top) => {
+  const el = $(top.dataset.sheet); let g = null;
+  top.addEventListener('pointerdown', (e) => { if (e.target.closest('button')) return; try { top.setPointerCapture(e.pointerId); } catch (_) {} g = { y: e.clientY, dy: 0 }; el.classList.add('dragging'); });
+  top.addEventListener('pointermove', (e) => { if (!g) return; g.dy = e.clientY - g.y; el.style.transform = `translate3d(0, ${Math.max(g.dy, el.classList.contains('full') ? -20 : -60)}px, 0)`; });
+  const end = () => {
+    if (!g) return; const dy = g.dy; g = null; el.classList.remove('dragging'); el.style.transform = '';
+    const full = el.classList.contains('full');
+    if (dy > 90) { if (full) el.classList.remove('full'); else closeSheet(top.dataset.sheet); }
+    else if (dy < -50 || (Math.abs(dy) < 6 && !full)) el.classList.add('full');
+    else if (Math.abs(dy) < 6 && full) el.classList.remove('full');
+  };
+  top.addEventListener('pointerup', end); top.addEventListener('pointercancel', end);
+});
+$('mfilters').addEventListener('click', () => { if ($('side').classList.contains('open')) closeSheet('side'); else openSheet('side'); });
+$('mstamp').addEventListener('click', () => { v.sel = null; renderDetail(); openSheet('panel'); });
+function renderBadge() {
+  const n = (v.filter !== 'all') + (v.reads.size < 3) + (v.firm ? 1 : 0);
+  const b = $('mbadge'); b.hidden = !n; b.textContent = n;
+}
 function tipOf(n) {
   if (n.type === 'firm') return `<b>${esc(n.label)}</b><small>${n.data.aum ? `~US$${n.data.aum}bn AUM · ` : ''}${n.data.bidding.length} in talks · ${n.data.buying.length} bought · ${n.data.portfolio} held</small>`;
   if (n.type === 'sector') return `<b>${esc(n.label)}</b><small>${readWord(n.read)} · ${n.data.companies} companies · ${n.data.live} live</small>`;
   const c = n.data; return `<b>${esc(c.name)}</b><small>${esc(c.sectorLabel.split(' · ')[0])}${c.valuation ? ' · ' + esc(c.valuation.text) : ''} · ${readWord(c.impact.read)}${c.live ? ' · live' : ''}</small>`;
 }
 function select(n, pan) {
-  v.sel = n; renderDetail(); $('panel').classList.toggle('open', !!n);
+  v.sel = n; renderDetail();
+  if (MOBILE()) { if (n) openSheet('panel'); else closeSheet('panel'); } else $('panel').classList.toggle('open', !!n);
   if (n && pan !== false) focusOn(n);
 }
 
@@ -523,7 +619,7 @@ function renderDetail() {
   const el = $('detail'); const n = v.sel;
   if (!n) { el.innerHTML = overview(); } else if (n.type === 'firm') el.innerHTML = firmDetail(n); else if (n.type === 'sector') el.innerHTML = sectorDetail(n); else el.innerHTML = companyDetail(n);
   el.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => { const t = byId[b.dataset.go]; if (t) { t.hidden = false; select(t, true); } }));
-  if (!MOBILE()) $('panel').scrollTop = 0;
+  $('panel').scrollTop = 0;
 }
 function overview() {
   const live = D.companies.filter((c) => c.live).slice(0, 10);
@@ -531,7 +627,7 @@ function overview() {
   const max = Math.max(1, ...secs.map((x) => x.w));
   return `<div class="eyebrow">The map</div><h2>Where AI meets the deal flow</h2>
     <p class="lead">Seven sponsors in the outer ring, the sectors they are looking at inside it, and the companies they are buying, bidding on and holding around each sector. Every company carries an AI read — tailwind, mixed or headwind for its enterprise value — and the evidence behind it.</p>
-    <p class="muted">Click a bubble for the detail. Interest flows from a sponsor to a sector as particles; a company in a live process pulses. Drag to move, scroll to zoom.</p>
+    <p class="muted">${MOBILE() ? 'Tap a bubble for the detail' : 'Click a bubble for the detail'}. Interest flows from a sponsor to a sector as particles; a company in a live process pulses. ${MOBILE() ? 'Drag to move, pinch to zoom; drag the handle to grow or dismiss this sheet.' : 'Drag to move, scroll to zoom.'}</p>
     <h3>Where the sponsors are looking · last ${D.window} days</h3>
     <div class="bars">${secs.map(({ s, w }) => `<div class="bar"><span>${esc(s.label)}</span><i><b style="width:${Math.round(100 * w / max)}%;background:${sectorColor(s.id)}"></b></i><small>${w}</small></div>`).join('')}</div>
     <h3>Live now</h3>
@@ -564,7 +660,7 @@ function sectorDetail(n) {
   const s = n.data; const r = s.rubric;
   const cos = D.companies.filter((c) => c.sector === s.id);
   const dots = (k) => `<span class="dots">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= r.force[k].score ? 'on' : ''}"></i>`).join('')}</span>`;
-  return `<div class="eyebrow">Sector ${readTag(r.read)} <span class="read stage">${STAGE_LABEL[r.stage]}</span></div><h2>${esc(s.label)}</h2>
+  return `<div class="eyebrow">Sector ${readTag(r.read)} <span class="read phase">${STAGE_LABEL[r.stage]}</span></div><h2>${esc(s.label)}</h2>
     <p class="lead">${esc(r.headline)}</p>
     <h3>How AI moves value here</h3>
     ${['automation', 'moat', 'pricing', 'entrants'].map((k) => `<div class="force"><span class="n">${k === 'moat' ? 'Data moat' : k === 'entrants' ? 'New entrants' : k}</span>${dots(k)}<span class="w">${esc(r.force[k].why)}</span></div>`).join('')}
@@ -587,7 +683,7 @@ function companyDetail(n) {
   return `<div class="eyebrow">${c.live ? 'Live · ' : ''}${esc(c.sectorLabel.split(' · ')[0])}${c.hq ? ' · ' + esc(c.hq) : ''}${c.apac ? ' · APAC' : ''}</div><h2>${esc(c.name)}</h2>
     ${c.sectorLabel.includes(' · ') ? `<p class="muted">${esc(c.sectorLabel.split(' · ').slice(1).join(' · '))}</p>` : ''}
     ${roles}
-    <h3>AI read ${readTag(c.impact.read)} <span class="read stage">${STAGE_LABEL[c.impact.stage]}</span></h3>
+    <h3>AI read ${readTag(c.impact.read)} <span class="read phase">${STAGE_LABEL[c.impact.stage]}</span></h3>
     <ul class="ql">${c.impact.reasons.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
     <p class="muted">Basis: ${c.impact.basis === 'rubric' ? 'the sector rubric' : 'a hand assessment'}${c.impact.aiMentions ? ` · ${c.impact.aiMentions} AI headline${c.impact.aiMentions > 1 ? 's' : ''} in the evidence` : ''}. ${sec ? `<button data-go="${esc(sec.id)}" style="all:unset;cursor:pointer;color:var(--accent)">Open the ${esc(sec.label)} rubric →</button>` : ''}</p>
     <h3>What a diligence would test</h3>
@@ -612,13 +708,19 @@ function renderFirms() {
 }
 $('filters').querySelectorAll('[data-f]').forEach((b) => b.addEventListener('click', () => { v.filter = b.dataset.f; $('filters').querySelectorAll('.chip').forEach((x) => x.classList.toggle('on', x === b)); applyFilters(); alpha = Math.max(alpha, 0.2); }));
 $('reads').querySelectorAll('[data-r]').forEach((b) => b.addEventListener('click', () => { const r = b.dataset.r; if (v.reads.has(r) && v.reads.size > 1) v.reads.delete(r); else v.reads.add(r); b.classList.toggle('on', v.reads.has(r)); applyFilters(); alpha = Math.max(alpha, 0.2); }));
-$('q').addEventListener('input', () => {
-  const q = $('q').value.trim().toLowerCase(); const hits = $('hits');
-  if (q.length < 2) { hits.innerHTML = ''; return; }
-  const found = N.filter((n) => n.label.toLowerCase().includes(q)).slice(0, 8);
-  hits.innerHTML = found.map((n) => `<li><button data-id="${esc(n.id)}">${esc(n.label)}<small>${n.type === 'company' ? esc(n.data.sectorLabel.split(' · ')[0]) : n.type}</small></button></li>`).join('') || '<li class="muted" style="padding:4px 8px;color:var(--faint)">No match.</li>';
-  hits.querySelectorAll('[data-id]').forEach((b) => b.addEventListener('click', () => { const n = byId[b.dataset.id]; if (n) { n.hidden = false; select(n, true); } $('q').value = ''; hits.innerHTML = ''; }));
-});
+function bindSearch(input, hits) {
+  input.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    if (q.length < 2 || !D) { hits.innerHTML = ''; return; }
+    const found = N.filter((n) => n.label.toLowerCase().includes(q)).slice(0, 8);
+    hits.innerHTML = found.map((n) => `<li><button data-id="${esc(n.id)}">${esc(n.label)}<small>${n.type === 'company' ? esc(n.data.sectorLabel.split(' · ')[0]) : n.type}</small></button></li>`).join('') || '<li class="muted" style="padding:4px 8px;color:var(--faint)">No match.</li>';
+    hits.querySelectorAll('[data-id]').forEach((b) => b.addEventListener('click', () => { const n = byId[b.dataset.id]; input.value = ''; hits.innerHTML = ''; input.blur(); if (n) { n.hidden = false; select(n, true); } }));
+  });
+  input.addEventListener('pointerdown', () => { if (MOBILE()) { closeSheet('side'); closeSheet('panel'); } });
+  input.addEventListener('keydown', (e) => { if (e.key === 'Escape') { input.value = ''; hits.innerHTML = ''; input.blur(); } });
+}
+bindSearch($('q'), $('hits')); bindSearch($('mq'), $('mhits'));
+document.addEventListener('pointerdown', (e) => { if (!e.target.closest('.msearch')) $('mhits').innerHTML = ''; });
 
 // ── boot ──────────────────────────────────────────────────────────────────────
 palette();
@@ -631,6 +733,7 @@ fetch(DATA.base + 'impact.json', { cache: 'no-store' }).then((r) => { if (!r.ok)
   fit(); refit = true;
   $('loading').remove();
   $('stamp').textContent = `built ${new Date(d.at).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })} · ${d.counts.companies} companies · ${d.counts.deals} deals in ${d.window}d`;
+  $('mstamp').innerHTML = `${d.counts.companies} companies · ${d.counts.live} live · <b>about the map</b>`;
 }).catch((e) => { $('loading').innerHTML = `<b>The map could not be loaded.</b>&nbsp;${esc(e.message)}`; });
 </script>
 </body></html>
