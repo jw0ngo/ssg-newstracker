@@ -229,10 +229,44 @@ a { color: inherit; }
 .hold.ripe .holdbar { background: var(--hot-soft); }
 .hold.ripe .holdbar i { background: var(--hot); }
 
-/* ── the Morning Brief page: two sections, one story per block, the angle under each ── */
-.sec { margin-top: 18px; }
+/* ── the Morning Brief page: the week's brief as headings and bullets, a Copy button, and the
+   two sections' daily story feeds folded away underneath ── */
+.bar { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.bar .stamp { margin-right: auto; }
+.copy { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 600; color: var(--accent); background: var(--accent-soft); border: 1px solid transparent; border-radius: 8px; padding: 8px 13px; cursor: pointer; transition: background .15s, color .15s; }
+.copy:hover { border-color: var(--accent); }
+.copy.done { background: var(--accent); color: #fff; }
+.copy svg { width: 15px; height: 15px; }
+.blurb { margin: 0; font-size: 14px; color: var(--muted); line-height: 1.45; }
+.brief { background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; padding: 22px 24px 26px; margin-top: 14px; font-size: 14.5px; line-height: 1.55; }
+.brief > :first-child { margin-top: 0; }
+.brief h1 { font-family: var(--display); font-weight: 700; font-size: 26px; line-height: 1.1; letter-spacing: -.01em; margin: 0 0 4px; text-wrap: balance; }
+.brief .covers { font-family: var(--mono); font-size: 11.5px; letter-spacing: .04em; color: var(--faint); margin: 0 0 14px; }
+.brief h2 { font-family: var(--display); font-weight: 700; font-size: 19px; line-height: 1.2; letter-spacing: .005em; margin: 26px 0 8px; padding-top: 14px; border-top: 1px solid var(--rule); }
+.brief h3 { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); font-weight: 500; margin: 16px 0 6px; }
+.brief p { margin: 8px 0; }
+.brief ul { margin: 6px 0 0; padding-left: 20px; }
+.brief li { margin: 6px 0; padding-left: 2px; }
+.brief li::marker { color: var(--accent); }
+.brief ul ul { margin-top: 4px; }
+.brief ul ul li { font-size: 13.5px; color: var(--muted); margin: 3px 0; }
+.brief ul ul li::marker { color: var(--faint); }
+.brief a { color: var(--accent); text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 2px; }
+.brief a:hover { text-decoration-color: var(--accent); }
+.brief strong { font-weight: 600; }
+.brief code { font-family: var(--mono); font-size: 12.5px; background: var(--bg); padding: 1px 5px; border-radius: 4px; }
+.brief .lead { font-size: 15.5px; }
+.brief .end { display: flex; justify-content: flex-end; margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--rule); }
+/* the daily feeds */
+details.daily { margin-top: 22px; border-top: 1px solid var(--rule); padding-top: 10px; }
+details.daily summary { cursor: pointer; font-family: var(--mono); font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); padding: 6px 0; list-style: none; display: flex; align-items: center; gap: 8px; }
+details.daily summary::-webkit-details-marker { display: none; }
+details.daily summary::before { content: "▸"; font-size: 12px; transition: transform .15s; }
+details.daily[open] summary::before { transform: rotate(90deg); }
+details.daily summary span { color: var(--muted); text-transform: none; letter-spacing: 0; font-family: var(--sans); font-size: 13px; }
+.sec { margin-top: 14px; }
 .sec-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
-.sec-head h2 { font-family: var(--display); font-weight: 700; font-size: 20px; margin: 0; letter-spacing: .01em; }
+.sec-head h2 { font-family: var(--display); font-weight: 700; font-size: 18px; margin: 0; letter-spacing: .01em; }
 .sec-head h2 a { text-decoration: none; }
 .sec-head h2 a:hover { color: var(--accent); }
 .sec-head .sub { font-size: 12.5px; color: var(--muted); }
@@ -247,9 +281,10 @@ a { color: inherit; }
 .bi p b { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); font-weight: 500; margin-right: 6px; }
 .bi .call { color: var(--fg); padding-left: 10px; border-left: 2px solid var(--accent); }
 .bi .carried { font-family: var(--mono); font-size: 10.5px; color: var(--faint); letter-spacing: .06em; text-transform: uppercase; }
-.blurb { margin: 0; font-size: 14px; color: var(--muted); line-height: 1.45; }
-/* No controls on this page, so on a phone the masthead scrolls away with the rest. */
-@media (max-width: 640px) { .top { position: static; } .sec-head h2 { font-size: 19px; } }
+.toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translate(-50%, 8px); background: var(--fg); color: var(--bg); font-size: 13px; padding: 9px 14px; border-radius: 999px; opacity: 0; pointer-events: none; transition: opacity .18s, transform .18s; z-index: 9; }
+.toast.on { opacity: 1; transform: translate(-50%, 0); }
+/* No controls to keep, so on a phone the masthead scrolls away with the rest. */
+@media (max-width: 640px) { .top { position: static; } .brief { padding: 18px 16px 20px; margin-inline: -4px; } .brief h1 { font-size: 23px; } .brief h2 { font-size: 18px; } }
 </style>
 
 <div class="wrap">
@@ -257,18 +292,22 @@ a { color: inherit; }
     <div class="site"><span class="brand">SSG Newstracker</span><nav class="nav" id="nav" aria-label="Sections"></nav></div>
     <div class="mast">
       <h1>Morning Brief</h1>
-      <span class="stamp" id="stamp">loading</span>
     </div>
-    <p class="blurb">The stories first seen since the previous morning's publish that matter most to SSG, in Heat order, with why each one matters and the call to make. The same text reaches the team's phones at 07:55 SGT.</p>
+    <div class="bar"><span class="stamp" id="stamp">loading</span><button class="copy" id="copy" type="button" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Copy brief</span></button></div>
+    <p class="blurb">The week's developments that matter to the SSG APAC team, as headings and bullets, with the source behind each. Written every Monday morning from the two sections' feeds; Copy puts the whole brief on the clipboard, formatted, ready to paste into a note or an email.</p>
   </div>
-  <div id="pe"><div class="empty"><b>Loading the PE Clients brief.</b></div></div>
-  <div id="ai"></div>
-  <p class="foot">Each section's brief is picked from its own feed: relevant stories (the Heat bar), first seen since the previous publish, one entry per story and per situation, the hottest ten at most; on a quiet morning the last 72 hours are read for at least five, marked carried. Commentary, questions and re-told old deals never make it. The angle is written from the event the headline reports (buy, sale, listing, round, fund, hire), the phase it has reached, the region, the size, the sector and, for a portfolio company, the hold clock; it is a prompt for the call, not a summary of the article. Heat is the same 0–100 score the section pages use; tap a section's name to open it.</p>
+  <article class="brief" id="weekly"><div class="empty"><b>Loading the brief.</b></div></article>
+  <details class="daily" id="daily"><summary>Daily story feeds <span id="dailySub"></span></summary>
+    <div id="pe"></div>
+    <div id="ai"></div>
+  </details>
+  <p class="foot">The weekly brief is Jobi's read of the week: the stories from both sections that bear on SSG's APAC business, grouped by what they mean for the team, each bullet traced to the source. The daily feeds underneath are the two sections' own morning briefs, picked by Heat and refreshed every day; the same text reaches the team's phones at 07:55 SGT.</p>
 </div>
+<div class="toast" id="toast">Copied</div>
 
 <script>
 const NAV = {"here":"brief","impact":"../impact/","brief":"./","pe":"../","ai":"../ai/"};
-const DATA = { pe: '../data/', ai: '../ai/data/' };
+const DATA = { brief: 'data/', pe: '../data/', ai: '../ai/data/' };
 document.getElementById('nav').innerHTML = [['impact', 'AI Impact'], ['brief', 'Morning Brief'], ['pe', 'PE Clients'], ['ai', 'AI &amp; Tech']]
   .map(([k, l]) => `<a href="${String(NAV[k]).replace(/"/g, '&quot;')}"${NAV.here === k ? ' class="on"' : ''}>${l}</a>`).join('');
 const $ = (id) => document.getElementById(id);
@@ -282,6 +321,79 @@ function dayLabel(iso) {
   if (days < 7) return `${days}d ago`;
   return new Date(t).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: days > 300 ? 'numeric' : undefined });
 }
+
+// ── the weekly brief: a small Markdown subset (headings, bullets two deep, paragraphs, bold,
+//    italic, links, code) rendered to HTML, and the same text flattened for a plain-text paste ──
+const inline = (s) => esc(s)
+  .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_, t, u) => `<a href="${u}" target="_blank" rel="noopener noreferrer">${t}</a>`)
+  .replace(/`([^`]+)`/g, '<code>$1</code>')
+  .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+  .replace(/(^|[\s(])_([^_]+)_(?=[\s.,;:)]|$)/g, '$1<em>$2</em>');
+function renderMd(md) {
+  const out = []; let depth = 0;
+  const closeTo = (d) => { while (depth > d) { out.push('</li></ul>'); depth--; } };
+  const openLi = (d, body) => {
+    if (d > depth) { while (depth < d) { out.push(depth === 0 ? '<ul>' : '<ul>'); out.push('<li>'); depth++; } out[out.length - 1] = `<li>${body}`; return; }
+    closeTo(d); out.push(`</li><li>${body}`);
+  };
+  let para = [];
+  const flushP = () => { if (para.length) { out.push(`<p>${inline(para.join(' '))}</p>`); para = []; } };
+  for (const raw of md.split('\n')) {
+    const l = raw.replace(/\s+$/, '');
+    const m = /^(\s*)[-*] (.*)$/.exec(l);
+    if (m) { flushP(); openLi(Math.min(2, Math.floor(m[1].replace(/\t/g, '  ').length / 2) + 1), inline(m[2])); continue; }
+    closeTo(0);
+    if (!l.trim()) { flushP(); continue; }
+    if (/^# /.test(l)) { flushP(); out.push(`<h1>${inline(l.slice(2))}</h1>`); continue; }
+    if (/^## /.test(l)) { flushP(); out.push(`<h2>${inline(l.slice(3))}</h2>`); continue; }
+    if (/^### /.test(l)) { flushP(); out.push(`<h3>${inline(l.slice(4))}</h3>`); continue; }
+    if (/^_.*_$/.test(l) && !para.length) { flushP(); out.push(`<p class="covers">${inline(l.slice(1, -1))}</p>`); continue; }
+    para.push(l.trim());
+  }
+  flushP(); closeTo(0);
+  return out.join('\n').replace(/<ul>\n?<\/li>/g, '<ul>').replace(/^<\/li>/gm, '');
+}
+// Plain text for the clipboard: a heading on its own line (sections in capitals), bullets as
+// "•", a link as its text alone (the addresses travel in the HTML flavour and on the page),
+// bold and italic marks dropped.
+function plainText(md) {
+  const strip = (s) => s.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '$1').replace(/\*\*([^*]+)\*\*/g, '$1').replace(/(^|[\s(])_([^_]+)_(?=[\s.,;:)]|$)/g, '$1$2').replace(/`([^`]+)`/g, '$1');
+  const out = [];
+  for (const raw of md.split('\n')) {
+    const l = raw.replace(/\s+$/, '');
+    const m = /^(\s*)[-*] (.*)$/.exec(l);
+    if (m) { out.push(`${m[1].length >= 2 ? '    – ' : '• '}${strip(m[2])}`); continue; }
+    if (/^# /.test(l)) { out.push(strip(l.slice(2)).toUpperCase()); continue; }
+    if (/^## /.test(l)) { out.push('', strip(l.slice(3)).toUpperCase()); continue; }
+    if (/^### /.test(l)) { out.push('', strip(l.slice(4))); continue; }
+    if (/^_.*_$/.test(l)) { out.push(strip(l.slice(1, -1))); continue; }
+    out.push(strip(l));
+  }
+  return out.join('\n').replace(/\n{3,}/g, '\n\n').trim() + '\n';
+}
+let WEEKLY = null;
+async function copyBrief() {
+  if (!WEEKLY) return;
+  const text = plainText(WEEKLY.md) + `\nFull brief with source links: ${location.href.split('#')[0]}\n`;
+  const html = `<div style="font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;font-size:14px;line-height:1.5">${$('weekly').innerHTML.replace(/<div class="end">[\s\S]*?<\/div>/, '')}<p><a href="${esc(location.href.split('#')[0])}">${esc(location.href.split('#')[0])}</a></p></div>`;
+  let ok = false;
+  try {
+    if (navigator.clipboard && window.ClipboardItem) { await navigator.clipboard.write([new ClipboardItem({ 'text/html': new Blob([html], { type: 'text/html' }), 'text/plain': new Blob([text], { type: 'text/plain' }) })]); ok = true; }
+    else if (navigator.clipboard) { await navigator.clipboard.writeText(text); ok = true; }
+  } catch (e) { ok = false; }
+  if (!ok) { const ta = document.createElement('textarea'); ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select(); try { ok = document.execCommand('copy'); } catch (e) { ok = false; } ta.remove(); }
+  const t = $('toast'); t.textContent = ok ? 'Brief copied to the clipboard' : 'Could not copy — select the text and copy it'; t.classList.add('on'); setTimeout(() => t.classList.remove('on'), 2200);
+  document.querySelectorAll('.copy').forEach((b) => { b.classList.toggle('done', ok); b.querySelector('span').textContent = ok ? 'Copied' : 'Copy brief'; setTimeout(() => { b.classList.remove('done'); b.querySelector('span').textContent = 'Copy brief'; }, 2200); });
+}
+function renderWeekly(w) {
+  WEEKLY = w;
+  $('weekly').innerHTML = renderMd(w.md) + '<div class="end"><button class="copy" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Copy brief</span></button></div>';
+  $('stamp').textContent = `published ${new Date(w.at).toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' })} · ${w.bullets} points · next Monday`;
+  $('copy').hidden = false;
+  document.querySelectorAll('.copy').forEach((b) => b.addEventListener('click', copyBrief));
+}
+
+// ── the daily feeds, folded away ──
 const item = (it, i) => `
   <article class="bi ${esc(it.band)}">
     <div class="meta"><span class="n">${i + 1}.</span><span class="hs ${esc(it.band)}" title="Heat ${it.heat}">${it.heat}</span><span class="kind">${esc(it.group || '')}</span><span>${esc(it.publisher || '')}${it.outlets > 1 ? ` +${it.outlets - 1}` : ''}</span>${it.carried ? '<span class="carried">carried</span>' : ''}<span class="when">${esc(dayLabel(it.date))}</span></div>
@@ -298,11 +410,12 @@ function section(el, b, name, href) {
 (async () => {
   const bust = `?t=${Math.floor(Date.now() / 600000)}`;
   const load = async (url) => { try { const r = await fetch(url + bust); return r.ok ? await r.json() : null; } catch { return null; } };
-  const [pe, ai] = await Promise.all([load(`${DATA.pe}brief.json`), load(`${DATA.ai}brief.json`)]);
+  const [w, pe, ai] = await Promise.all([load(`${DATA.brief}weekly.json`), load(`${DATA.pe}brief.json`), load(`${DATA.ai}brief.json`)]);
+  if (w && w.md) renderWeekly(w); else { $('weekly').innerHTML = '<div class="empty"><b>The weekly brief could not be loaded.</b><br>Reload to try again.</div>'; $('stamp').textContent = 'no brief yet'; }
   const at = (pe && pe.at) || (ai && ai.at);
-  $('stamp').textContent = at ? `published ${dayLabel(at)} ${new Date(at).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}` : 'no brief yet';
-  if (pe) section($('pe'), pe, 'PE Clients', NAV.pe); else $('pe').innerHTML = '<div class="empty"><b>The PE Clients brief could not be loaded.</b><br>Reload to try again.</div>';
-  if (ai) section($('ai'), ai, 'AI & Tech', NAV.ai); else $('ai').innerHTML = '<div class="empty"><b>The AI & Tech brief could not be loaded.</b></div>';
+  $('dailySub').textContent = at ? `· published ${dayLabel(at)} ${new Date(at).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}` : '';
+  if (pe) section($('pe'), pe, 'PE Clients', NAV.pe); else $('pe').innerHTML = '<div class="empty"><b>The PE Clients feed could not be loaded.</b></div>';
+  if (ai) section($('ai'), ai, 'AI & Tech', NAV.ai); else $('ai').innerHTML = '<div class="empty"><b>The AI & Tech feed could not be loaded.</b></div>';
 })();
 </script>
 </body></html>
