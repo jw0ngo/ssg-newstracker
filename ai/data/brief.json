@@ -1,21 +1,21 @@
 {
- "at": "2026-10-27T23:51:03Z",
- "since": "2026-10-26T23:50:23.000Z",
+ "at": "2026-10-28T23:47:19Z",
+ "since": "2026-10-27T23:51:03.000Z",
  "section": "AI & Tech",
  "counts": {
-  "newSince": 76,
-  "relevant": 1598,
-  "hot": 2,
+  "newSince": 71,
+  "relevant": 1649,
+  "hot": 1,
   "carried": 0
  },
  "items": [
   {
-   "id": "bb32b9023643",
-   "title": "SoftBank weighs a $50 billion AI bet on Malaysia, equal to a tenth of the country’s GDP",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5faTZRSnhsSDVFem5nU2RLWW05aFZ6NGpMYlJhYW5vdHNVUW96bHFmWTh6ZDZmX0QwOTN0YmxZX094enVfTDZKM1AwQ0JiSFBuM3pqZ1BMV2dHb0d3eXhiaHZPYU9IMk9VRUx5LTBBSjBDRnlicTFwOUgyNTRlMlE?oc=5",
-   "publisher": "Fortune",
-   "date": "2026-10-26T12:31:00.000Z",
-   "firstSeen": "2026-10-26T23:51:11.810Z",
+   "id": "d6ad5a2af45a",
+   "title": "SoftBank Weighs $50 Billion AI Push Into Malaysia",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeGFRWEY4amU1dnNJNDBxa2dQZUhnSlZfcHF0dkRDZU1QYnFMT3IxcEdmZzRFZndGNm9JUm9zSndEajBmbUFGa0p1RTlqNXVicmJJMGR1MlJCU3lQRVdsSnlybnRkU0ZDbEJuTjVnUW03bzdtRnZxX1djWV9nMHZFejhMUnZsNlhoanhzV1ZFcEt2MzNONktvVU5jQ18?oc=5",
+   "publisher": "Seoul Economic Daily",
+   "date": "2026-10-27T20:30:06.000Z",
+   "firstSeen": "2026-10-28T23:48:30.535Z",
    "group": "Sponsors",
    "groupId": "sponsors",
    "kind": "other",
@@ -30,35 +30,9 @@
     "sponsor": 8,
     "size": 10
    },
-   "why": "A reported development at SoftBank in Southeast Asia ($50 billion).",
+   "why": "A reported development at SoftBank in Southeast Asia ($50 Billion).",
    "call": "Watch; no call yet.",
-   "outlets": 4,
-   "carried": false
-  },
-  {
-   "id": "b0b6ebc1dfca",
-   "title": "The Week Ahead in AI: SpaceX Closes $40B AI Chip Debt Deal, Softbank $50B Malaysia Tech Investment, Plus Upcoming Alphabet, Microsoft & Amazon Earnings",
-   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxORXFHOG5KYzJFTmp2OFpXVzJYcTJzSGJrS1JYUVRJWTN6STVhd2JHR1A0YUtXY01WZWQwd0tsX2hweGhDRHh1WjV6alFCVW9YTHFBUXJmeXBGcTV2MEFXWmVTTmxST3NsTDZQSnN2ZVQwZmtWR3hmVVQxS1FiOUxtYUZzbFlXQkVPSkZVQXd2czgzYkU2elI0WnhNVzllU0R5Z1FfbGZjX1Y2Z1R5MU9jS1M0WmJnQk5QOGRHcjRmS3Z3YmxFT1l4ZHVOTVY1bEhvQUtkckhkaWU1aHhHTXpXMkRsZ2xJamZmb0lBMUxmX21IRXdycXVGd2ltcGRWSjZVVnpfQmFEMWNDU2hKRkh1aUpEaWJzMmozYTlpS3p4cVU?oc=5",
-   "publisher": "AI Insider",
-   "date": "2026-10-26T12:00:00.000Z",
-   "firstSeen": "2026-10-26T23:51:11.810Z",
-   "group": "Platforms",
-   "groupId": "platforms",
-   "kind": "earnings",
-   "phase": "signed",
-   "subject": "SpaceX",
-   "heat": 74,
-   "band": "hot",
-   "parts": {
-    "apac": 25,
-    "live": 6,
-    "tech": 15,
-    "sponsor": 8,
-    "size": 10
-   },
-   "why": "SpaceX reported numbers in Southeast Asia: the public comp for the sector moved.",
-   "call": "Update the comps set before the next pitch.",
-   "outlets": 1,
+   "outlets": 2,
    "carried": false
   },
   {
@@ -114,6 +88,58 @@
    "carried": false
   },
   {
+   "id": "0cf74f524eba",
+   "title": "UPI MDR Uncertainty and Choppy Markets Cloud India's ₹33,600-Crore Fintech IPO Pipeline",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdkY3Q0pHOFlyUk1vZmhOOTZGdzlna0dSeVNuZGdvMl9PeFB6d2ZMTEwwREZsQ0hXNnUzVEdwR0hpN3VPOGNSdWxtOEFLcllGT3cxaFYxcXVFdHFGaEE2S0ZpSFhnM1lqOGplUmNhYmFyeXFzZGFPM21pMHB1cGlpUGc4Z1NOLTdNS19MUEt3eXlxWi1YYnZGV1NGcUpIMVA1WTFyMTdNM1p6MmkyOGdBLQ?oc=5",
+   "publisher": "Elets BFSI",
+   "date": "2026-10-27T19:48:26.000Z",
+   "firstSeen": "2026-10-28T23:48:30.535Z",
+   "group": "IPOs",
+   "groupId": "listings",
+   "kind": "ipo",
+   "phase": "signed",
+   "subject": "UPI MDR Uncertainty",
+   "heat": 57,
+   "band": "warm",
+   "parts": {
+    "apac": 20,
+    "live": 12,
+    "tech": 15,
+    "sponsor": 0,
+    "size": 0
+   },
+   "why": "UPI MDR Uncertainty has filed to list in India or ANZ in fintech.",
+   "call": "Check the sponsor-backed names in the same sector; a listing window reopens exits.",
+   "outlets": 1,
+   "carried": false
+  },
+  {
+   "id": "49ea35f86639",
+   "title": "Wealthsimple raises $425 million from GIC, Canadian investors",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPclZKemJrU0NpU1VqNUpWeDRmMzFaTmxvaWpackp5MXlkNHVTWnQ2NWIzZjNVY1pDMF9FZGUyUTFJQUc2TUpoWS00dVhrQ1gwRWdZN1B2bkRuZXJoZzNyVEhoZnVVdjVraEVtb2o2Tk4ySTRnYVRCUERSVVVSbDVyMTl3?oc=5",
+   "publisher": "Financial Post",
+   "date": "2026-10-28T14:45:53.000Z",
+   "firstSeen": "2026-10-28T23:48:30.535Z",
+   "group": "Targets",
+   "groupId": "targets",
+   "kind": "funding",
+   "phase": "signed",
+   "subject": "Wealthsimple",
+   "heat": 56,
+   "band": "warm",
+   "parts": {
+    "apac": 25,
+    "live": 8,
+    "tech": 0,
+    "sponsor": 8,
+    "size": 5
+   },
+   "why": "Wealthsimple raised a round in Southeast Asia ($425 million): a future target, priced today.",
+   "call": "Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.",
+   "outlets": 1,
+   "carried": false
+  },
+  {
    "id": "217d373448b4",
    "title": "Xelpmoc-incubated Live2.ai raises Rs 130 crore to build AI agents for social commerce",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSFRiaEZySnl2cUd3ZEFfeDBsM1dnUEhQcVJaX2RCaUJRRXhORUpkNTlmRnprbFBjMG5nb2M0VzJkUUJTTzh3dG1jaWNMdmp5cWNjb3YwRGV1M0pWQXlqZkNybm01bFBUeUx5amdwdEZsdXhGM0YxVU9BamJtQVpzZ0xFSWQwYi13YVU1enc3X2tRMG1aYXFlZ0syWmptTDVfY2pXclFVV0RaZHU1Q3BFOV9jMGNZS25RNjZwRnVHeUNEMHBIN1E1THgwUdIBywFBVV95cUxQSFRiaEZySnl2cUd3ZEFfeDBsM1dnUEhQcVJaX2RCaUJRRXhORUpkNTlmRnprbFBjMG5nb2M0VzJkUUJTTzh3dG1jaWNMdmp5cWNjb3YwRGV1M0pWQXlqZkNybm01bFBUeUx5amdwdEZsdXhGM0YxVU9BamJtQVpzZ0xFSWQwYi13YVU1enc3X2tRMG1aYXFlZ0syWmptTDVfY2pXclFVV0RaZHU1Q3BFOV9jMGNZS25RNjZwRnVHeUNEMHBIN1E1THgwUQ?oc=5",
@@ -137,6 +163,32 @@
    "why": "Xelpmoc-incubated Live2.ai raised a round in India or ANZ (Rs 130 crore) in AI: a future target, priced today.",
    "call": "Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.",
    "outlets": 1,
+   "carried": false
+  },
+  {
+   "id": "3116cc1233b7",
+   "title": "OpenAI plans to buy Google's AI chips, The Information reports",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNElvX2Y3Ym5FZFdxRGVFMHpwNTRIc3lQUXRzNFNST0xVY2FjR2xoMmFCaDNMWFhtQnZuSXlSSF9zamY1aUY1a2JIX3hBWUFhQ19hb2w4a0JIQmtKRmJoNjRadWJnWmprNE50V2ZQSFRQWTI5aUhXRzkwMlhRNktVOWJwbjJnUk9EVVpiVEo1UjhwMWpvek9EYWpFNkRMTzA?oc=5",
+   "publisher": "Reuters",
+   "date": "2026-10-28T01:23:00.000Z",
+   "firstSeen": "2026-10-28T23:48:30.535Z",
+   "group": "M&A",
+   "groupId": "ma",
+   "kind": "deal",
+   "phase": "rumour",
+   "subject": "Information",
+   "heat": 53,
+   "band": "warm",
+   "parts": {
+    "apac": 0,
+    "live": 20,
+    "tech": 15,
+    "sponsor": 8,
+    "size": 0
+   },
+   "why": "A reported deal involving Information in AI: a comp in the making.",
+   "call": "Note the mooted multiple and who is bidding; call any sponsor in the frame.",
+   "outlets": 2,
    "carried": false
   },
   {
@@ -188,7 +240,7 @@
    },
    "why": "AI-related has filed to list in North Asia in AI.",
    "call": "Check the sponsor-backed names in the same sector; a listing window reopens exits.",
-   "outlets": 2,
+   "outlets": 3,
    "carried": false
   },
   {
@@ -214,59 +266,7 @@
    },
    "why": "Anthropic has filed to list in North Asia in AI.",
    "call": "Check the sponsor-backed names in the same sector; a listing window reopens exits.",
-   "outlets": 14,
-   "carried": false
-  },
-  {
-   "id": "4212bff22446",
-   "title": "AI Server Supplier Dongshan Prices Hong Kong IPO Below Range",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcE1YTE0yNzFWQmZuc0RVSHJpeVpSMzZuWUNXbVU1M2l3TGtURW9tb2ZKU2VncThWaDhpNmxQb0x3TWdLdzRGVjh0Q1FVelJYTW1uYTBVV3JwRmx0SDBua3hFSHU2NEdHZndqTU1JcUZ2T3RKdTExUS0zYVd6WkpDajhhMTMxaDM4LUxVa0lRYXRiOWs?oc=5",
-   "publisher": "Finimize",
-   "date": "2026-10-26T08:59:10.000Z",
-   "firstSeen": "2026-10-26T23:51:11.810Z",
-   "group": "IPOs",
-   "groupId": "listings",
-   "kind": "ipo",
-   "phase": "signed",
-   "subject": "Server Supplier Dongshan Prices",
-   "heat": 53,
-   "band": "warm",
-   "parts": {
-    "apac": 16,
-    "live": 12,
-    "tech": 15,
-    "sponsor": 0,
-    "size": 0
-   },
-   "why": "Server Supplier Dongshan Prices has filed to list in North Asia in AI.",
-   "call": "Check the sponsor-backed names in the same sector; a listing window reopens exits.",
-   "outlets": 1,
-   "carried": false
-  },
-  {
-   "id": "f85d3c0ebfbd",
-   "title": "Indian American ex-Meta AI director Rohit Patel launches startup to challenge Microsoft, Google",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONE9IZVFmbnBCZEpIQXZ4LUJldEluNnVTR2ZneEpLWGllY0RGWEgyOUsySWNOWFdaMEgzc3dkd1JmRV9HQ2N2ZHQyRnlnOTRvcDhOVVhDWFlnVzNFYnNYY1lFb0FiM2NfVW44Wk5SOW02Nk9qVm9pa3hJNFlnLV9pQm1QekNIOHZhSlBLeTVfQnpYZjMtcnl1UkxKLXFjdTFtMlJURjBIeEo1V0NocXFucEJweHgxOElHSWU0UlVSTU93cVhxWDJWNkR3V0RfXzFxQ3RKNVVRLU5QNVZNa2pv?oc=5",
-   "publisher": "The American Bazaar",
-   "date": "2026-10-27T20:17:29.000Z",
-   "firstSeen": "2026-10-27T23:51:51.619Z",
-   "group": "Platforms",
-   "groupId": "platforms",
-   "kind": "launch",
-   "phase": "signed",
-   "subject": "Rohit Patel",
-   "heat": 48,
-   "band": "warm",
-   "parts": {
-    "apac": 20,
-    "live": 3,
-    "tech": 15,
-    "sponsor": 0,
-    "size": 0
-   },
-   "why": "Rohit Patel shipped a platform move in AI: it changes what a target in that stack is worth.",
-   "call": "Fold it into the tech view on every AI target in the pipeline.",
-   "outlets": 1,
+   "outlets": 8,
    "carried": false
   }
  ]
