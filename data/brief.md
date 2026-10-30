@@ -1,64 +1,64 @@
-SSG Newstracker · Morning Brief · PE Clients · Fri 30 Oct, 07:37 SGT
-24 new stories since the last publish, 4 hot.
+SSG Newstracker · Morning Brief · PE Clients · Sat 31 Oct, 07:37 SGT
+23 new stories since the last publish, 2 hot.
 
-1. [HOT 73] Australia's Ingenia at 10-month high after Warburg Pincus lifts bid to $1.5 billion
-   Warburg Pincus · TradingView · 28 Oct · 5 outlets
-   Why: Warburg Pincus is reported to be moving on Ingenia in India or ANZ ($1.5 billion): a buy-side tech DD is being scoped now.
-   Call: Call the Warburg Pincus India or ANZ deal team today and offer to scope the buy-side tech DD before advisers are set.
-   https://news.google.com/rss/articles/CBMi5wFBVV95cUxOY1RaTW93TVROWHFqRHV0Vmpiek9BaFYtTFhINmJZQVc0NTlKa3NvVVdoZmRTenJGTEwyZEJQU0lkRVp0bFJiYWVDN1Bhc3VBUkl3OS1Sc3VIQnNhMDRudnFXc08zamxNVXNDZ2hIb0RyVGxKSmp0UzNQbFZNVFhIQUhZNHpYV3Z5NWhBeWJvYW0wZFJxYU1aMEd2U0F2UGxzSUc5enhsamJ3Ri1YR0FqcUl0bUNHWG9aX3dZNzZoR1NPbmxPZ3R0M2U0RGlJa2FmWUVJd3h3NnBiaEJBQjFfdGNUSFFMQm8?oc=5
-
-2. [HOT 70] Mercedes Rethinks China As TPG Eyes A $5 Billion Data Deal
+1. [HOT 70] Mercedes Rethinks China As TPG Eyes A $5 Billion Data Deal
    TPG · Finimize · 29 Oct
    Why: TPG is reported to be moving on Mercedes Rethinks in North Asia ($5 Billion): a buy-side tech DD is being scoped now.
    Call: Call the TPG North Asia deal team today and offer to scope the buy-side tech DD before advisers are set.
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNUnQtb2lnMzYxU1dCMTFwdE4xY0NMTF9WZGR1MkFobTlBcTd6ZWtLZFBIcm83djZqWXVJNWZtNXY3ZkhBRTZpZ2FkRTVUeDVtLUxLRGZuaThzWnROMXZNS2FEUG1SRC0tZUdYUDZhMzAwTFRHbWw0R0RxWGtBNnFfWkhyODY3ZlZSVG5XZWo5MA?oc=5
 
-3. [HOT 66] Indira IVF in Talks to Acquire Sabine Hospital in INR 1,300 Cr Deal
+2. [HOT 66] Indira IVF in Talks to Acquire Sabine Hospital in INR 1,300 Cr Deal
    EQT · Digital Health News · 29 Oct
    Why: Indira IVF, a EQT portfolio company, is looking at Sabine in India or ANZ (INR 1,300 Cr): tech DD on the target plus integration fit with the platform.
    Call: Call the EQT deal team covering Indira IVF: offer target tech DD and an integration plan.
    https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ3hxbVB4dkg2aXo4Nk0tM0dwZEN0TlJUR3ZYREZoWm1JLVFQOGEyTVdqUmFMM05UWE1DOGY1OXgzLU9wNlNlV3V5UXk2MDU5dE1VN01FWTNINHE0d3RncnIxRFB5UkJxc1BSZGF6LTlwRXF5WXhCQk0xbjdQNkhQcUp3NmwwenR5ZWxCVEI0TDdlYWFzTDk2OHVLUnJOR1dROVMw?oc=5
 
-4. [HOT 65] Ingenia Communities (ASX:INA) Faces a Bidding Contest as Warburg Pincus Lifts Its Offer to $5.45
-   Warburg Pincus · Kalkine · 28 Oct · 2 outlets
-   Why: Warburg Pincus is reported to be moving on Ingenia Communities Faces in India or ANZ: a buy-side tech DD is being scoped now.
-   Call: Call the Warburg Pincus India or ANZ deal team today and offer to scope the buy-side tech DD before advisers are set.
-   https://news.google.com/rss/articles/CBMiywFBVV95cUxQU3JYeERUQ214YkVEQXJKTHBfUlF4WUloNU10VjBWQUlNN2R1bURDSjRkdEJZTFNHQm5LMHpIT1RHTVl3amFSU1p4bnpiMDFTSzgzd0l5M25OTFNKS181cnFQeG51SXhfQmRRd21EazZObFU0a1VUNGNZUVI1b1RsWTRfOWF1MHJWRmk1WUFZX0lZUkk0dldwRXhYUG4tWFdXbE10TFZqLU10d1hZMWFXVXdqT2JLMmpUV2ZZbmFZMlBjOGxkMExVV2xVYw?oc=5
+3. [WARM 60] Ex-EQT investor Doreen Huber joins Interface Capital with eye for cyber deals amid ‘extremely scary’ AI agent boom
+   EQT · Sifted · 30 Oct
+   Why: EQT is reported to be moving on Doreen Huber: a buy-side tech DD is being scoped now in AI.
+   Call: Call the EQT deal team today and offer to scope the buy-side tech DD before advisers are set.
+   https://news.google.com/rss/articles/CBMilwFBVV95cUxOUGdFMWc4VFlZT01DTjBkVFRvSzhtNUdpb0JpQlBqdDJKMHhoVE1QM1ktX2x2cFZPSzVkWkJyeHItYW9GSDZ1ZnhwbENfbW41MHJaLS1uQUlEellzU2tXd3AtdmtDSTNRTTM3Tmh2bmVidF9OV2VLZ3FsX1dlelhxRWd3c1hSTmFPYjlMak51NkR1RFB5WXQw?oc=5
 
-5. [WARM 64] EQT, Bain $5 billion Kakaku showdown heralds contested Japan buyout era
-   EQT · Reuters · 28 Oct
-   Why: EQT has agreed to buy Kakaku in North Asia ($5 billion): buy-side DD is done and the post-close tech agenda is open.
-   Call: Pitch the EQT deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.
-   https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRjg5c2FELUF4QmI3cm5lY3A3blpRSXdmdkJ2dFN0SjN1Vlh4SUJoWE1YSHdQazdodWhoN1drSzNRLWI2SE9SYzVPamtvRVdpZTQ1TnQ0ZU9KZGJKZGt0anlHaEZiU1BqUVNfcUxRRHdvbnJIR2p4NEEzX0REdnotaUZ2bWZJX254d1BwZTJxajZ2RjFRbmxyLTA1c3hBSzVkTE1JR3ZuSWM0Y0RaTzR1QXJ3RWtnZHRrRDZ2cXNGQzIwMUU?oc=5
-
-6. [WARM 63] EQT agrees to acquire Cleanaway stock for A$9.3 billion
-   EQT · ad-hoc-news.de · 28 Oct
-   Why: EQT has agreed to buy Cleanaway in India or ANZ (A$9.3 billion): buy-side DD is done and the post-close tech agenda is open.
-   Call: Pitch the EQT deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.
-   https://news.google.com/rss/articles/CBMiugFBVV95cUxNOWlOOTNKWllrZ1VCYm5ieTM4Skpld3MzMkhhUU5GN05yenBzMC1mQ3pRWjdJQXBKcllXazNLVzlmWk9mUWdSU3VwRWJsYXhhSnVzV0ZIdHpYUHh0d294eFlNUElISnJZRXYxV3Y1b1prVEpLZUJma3EtMlZfWGpGMkhuUjdHRjhwUFUyZ01rTzQ5S2xVUzZRVU83QThZTVhxM0VfN1d3d1RTT0cwTlgwWU92Qm9YTVQyTmc?oc=5
-
-7. [WARM 60] Australia's Ingenia Communities gets improved takeover offer from Warburg Pincus
-   Warburg Pincus · TradingView · 28 Oct · 2 outlets
-   Why: Warburg Pincus is in a live process for Ingenia Communities in India or ANZ: bids are moving and the diligence window is open.
-   Call: Call the Warburg Pincus India or ANZ deal team now: confirmatory tech DD, and a red-flag view on the stack if they are not yet in exclusivity.
-   https://news.google.com/rss/articles/CBMi5AFBVV95cUxPb0YyVkF2UWVkRUNGaHBHazhwR3lWdkZYNFVXbnRwU290OHNjemYxbEZ3ODBzaFpvaVFKR21DaWRhbUtMbUhPcGtlRTNZdFlXcDZoeTVBSVFaNlQ2RnBRRE16VkQwTWprcUVkekRuSEw2QzJhTEdaX3piYlpVSWZmdDJnNVd1RzJNLVMwRlRETWRRRjlvUGJWUEdrdllKcEdFbTlpeFZWSldFb3FRWjdoOGJ0Yk5ZN1Rzem9qQ1I1VUpSb0hBYmFjSVF4QWJJU0ZhSXpMd2tlMkY3bmlBUVFocGhFXzE?oc=5
-
-8. [WARM 59] TPG in talks to acquire UK data centre group for $5bn - reports
-   TPG · Insider Media Ltd · 29 Oct · 6 outlets
+4. [WARM 59] TPG in talks to acquire UK data centre group for $5bn - reports
+   TPG · Insider Media Ltd · 29 Oct · 2 outlets
    Why: TPG is reported to be moving on a target ($5bn): a buy-side tech DD is being scoped now.
    Call: Call the TPG deal team today and offer to scope the buy-side tech DD before advisers are set.
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxONEJZZVNUbkZRUU1vOWhUc0U3M3JreXRTcHNRM3VMLXN2Q1haWlV3aXpTT0VnY1Foc29zc2lTNEREeHNNSXN1MXRjcFdoUWRVd0tYZXlMVjNSeXpOdUdzWXE4TzRmX0ItNG1fdU1mWndaTXUtOF8xc01tR3p5NEZ6LXNtZmhPYS1Xc205MVBBWWJiR3N4MFdjblNBX1FtaUdZQ2MwWHBsdEw?oc=5
 
-9. [WARM 59] TPG in Talks to Buy UK Data Center Operator Ark for $5 Billion
-   TPG · marketscreener.com · 28 Oct · 10 outlets
-   Why: TPG is reported to be moving on Ark ($5 Billion): a buy-side tech DD is being scoped now.
-   Call: Call the TPG deal team today and offer to scope the buy-side tech DD before advisers are set.
-   https://news.google.com/rss/articles/CBMitAFBVV95cUxNVEU4aUhUSlEyOWd0MWRqekNfdGtrR3R4eWE2bGp2cFdzM3h3YWd6NkFGUWhBb1VsU2VQTW5Xc3NRQ1FLQkJDdkVtanlJTG43aEZUdVI4QU5sYU83TjNrdmloSzUyVzNFWExOLVpsTlJFTktpLW9ZaHp6VDhadXhVaGtfTG94LVd4WVFENk1pc0FiYVpnLUFmTzBvQ2k3eWYxRlB3dGdrZEZjcElqei1PTWJuUWs?oc=5
-
-10. [WARM 57] Boomi Acquires Elementary Data to Expand AI Data Controls
-   TPG · MyChesCo · 29 Oct · 2 outlets
+5. [WARM 57] Boomi Acquires Elementary Data to Expand AI Data Controls
+   TPG · MyChesCo · 29 Oct
    Why: Boomi, a TPG portfolio company, is buying Elementary: the integration plan is the open question.
    Call: Call the TPG deal team covering Boomi: stack consolidation, data migration and product overlap.
    https://news.google.com/rss/articles/CBMioAFBVV95cUxPZmdrUmtQRDBMcVp1Z2tSNGk4N0N0SzRJVExYLUdfdjlQLWhUZy1uZGQ3MnlvbUdIdld6S25wS2pnQ0FmWWU0NzBub2Z6WlRlSUVpZDZNbDhjYjM2cGhleDJSZzJuajRZdjJHaGNocWp6amN6Q0lqLWkwNkJWdmpZUlZGUHpENEtWWHZKRlo5R3lQZ25NQnRhaU5UQnNCZGxj?oc=5
+
+6. [WARM 55] Lotte sells Lotte Rental to TPG for 1.31t won, advances Korea portfolio overhaul
+   TPG · Chosunbiz · 30 Oct
+   Why: TPG has agreed to buy Lotte in North Asia: buy-side DD is done and the post-close tech agenda is open.
+   Call: Pitch the TPG deal team the 100-day tech plan, an AI-readiness review and, if a carve-out, the separation work.
+   https://news.google.com/rss/articles/CBMif0FVX3lxTE14YUNpc18zb2tMY0FKUWJzR3M2anRBUnEzcmF1OVBPQmFLUEtYX1ZjOWRvM0RQeDV1M2UyVVc5WlVCMmUtcFNVd2J3LWdEOGc0OGNjQTExUFA4WVJHLVRGWTFCUk83XzFmT1R4OXVkQmtKOVVEdHcwODhzTzAzSTTSAZMBQVVfeXFMTi1ONWtQa0U0UEl5WThxVTl5OXUzLVdtb1JXaENsSG85NmJ6R2RGQWxLVEhZZENfVGUzci16OXdMQkpwUy1LcldEb0dJMEJoNnJPUHZQdXM3TVQ3bndrNldDNkNsNl9zUk1VN050OWVBVUhxU1RZajc1Sjd4Z1pWTTl1Zm1VU200cFBpWGZDQWZleF84?oc=5
+
+7. [WARM 55] QIAGEN Agrees to $12.1 Billion Takeover Offer From EQT Private Equity
+   EQT · BioBuzz · 30 Oct · 2 outlets
+   Why: EQT is reported to be moving on QIAGEN ($12.1 Billion): a buy-side tech DD is being scoped now.
+   Call: Call the EQT deal team today and offer to scope the buy-side tech DD before advisers are set.
+   https://news.google.com/rss/articles/CBMimAFBVV95cUxOSUt1U0YzdG5WOVZqQ0EzLU1hdEF3d2RlazlydDUtMU0xODg0TTR2WmxySE9GYktCWmQtMGFpaWZ1MHl5U21Bd1dNVDJXcUU0S2NvQWdFREFFSUhnQkpHd3ZiMHRuOEVYMkpTbHpWNGhleElGejh6R1M1bjRmaFZzX01FV1RaQVFScnIxMnlzRVV4V2dfYktHcA?oc=5
+
+8. [WARM 55] Qiagen Freezes 2026 Guidance as EQT's €10.8 Billion Cash Offer Nears the Finish Line
+   EQT · ad-hoc-news.de · 29 Oct
+   Why: EQT is reported to be moving on Qiagen Freezes (€10.8 Billion): a buy-side tech DD is being scoped now.
+   Call: Call the EQT deal team today and offer to scope the buy-side tech DD before advisers are set.
+   https://news.google.com/rss/articles/CBMi6wFBVV95cUxQV3JxZDdQS2puT1hiU2luV1F0TTJQaFhtRmZTMDBfcEd4VHNZQTZfeEtXX3J1M0ZkM205V2NnbGJ5Yi1qcmNjWV9idUtLTFBGUEVHVnVWNEdvUlcxWjJqZjI5S0NPNHFRWkVsR05tSEtIWVN4Y1Q0eFlhN3dEUlNXdmVOTVpNckhhS1NWVWhSU2JzaDFqcVZlZElTT0hrSlVadlFMcWpEOXJyVF9mZDFyRFNpTnFYaE4teUhxNnRJdUxJWUVMcEM2ZVhqSEo3cHk4Z2IyOWVSdkhTRkFpMlFneFdVUm9BR0FNYWdR?oc=5
+
+9. [WARM 54] Key facts: TPG Inc Class A in $5bn Ark deal; Asia OneHealthcare IPO
+   TPG · TradingView · 29 Oct
+   Why: TPG is preparing a listing of Class in Asia ($5bn): pre-IPO tech VDD and the equity story get scoped now.
+   Call: Call the TPG portfolio team this week: pitch the pre-IPO tech VDD and the technology chapter of the equity story.
+   https://news.google.com/rss/articles/CBMixAFBVV95cUxPcFdXaTM4VGtzX2VFaGJSeXlzS0xqRnAtVlA3cUh5WWpmVzJFYTNfazVKbENFaW1rVHRtV3dIOTV2aTJQeVh2WWU4b0ZaOHo1VnNOOWxXVFFSNjluWXUtVXpDWTJiVHFNUnZ6QlNock9HLWVhdnliT1pNZ2xRTW1fLS1ZZGdFajlfanpna0FqaTBHeEtLY2c1UldVS041MFRMVDBFc1hDQTUwbjFFMXc3SkRQam5oRGp0ek9JcllVS28wbmlM?oc=5
+
+10. [WARM 53] TPG closes debut Asia mid-cap fund at $1.3 billion, exceeding target: Dealroom
+   TPG · CryptoRank · 30 Oct
+   Why: TPG has closed a fund ($1.3 billion) in Asia: fresh dry powder and a deployment pipeline about to fill.
+   Call: Relationship touchpoint: congratulate the TPG team and ask where the new fund deploys in APAC.
+   https://news.google.com/rss/articles/CBMibEFVX3lxTE1uRmVmbmJCWDdwY0VpclEyYWM4OVkzWVRfNmxFUEdWdG9pdGpnbmoxdUxET1lRYnE3T0xtaXV4eTN0Vnd1T2dEZkgtWlNZRWd0SlNGQWZoNXF2VWJ4XzRDbXc0Yk5zYzBuTjFTRA?oc=5
 
 Full page: https://jw0ngo.github.io/ssg-newstracker/brief/
