@@ -1452,6 +1452,18 @@
   "firstSeen": "2026-10-07T00:18:46.308Z"
  },
  {
+  "id": "0fd9c03cb6b5",
+  "theme": "platforms",
+  "title": "DOE releases 35 Genesis Mission skills for AI coding agents",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT3U2d2VTc2tCXzhuZmVraXJ2SDd5X1pCcE9tckRNdnk0MGdpcHlfU0ZHSGFqWTNaZ3dUbjhTeURrdUVFb0paeE16S2JSTnNyalQ2MHFkNzJ2RU9oc2FXa0hpd2d1d3RmdHRwV0ppZjdRT3ZXX25oeDc2eGlpNnl2QXM5enNYVjVrSXlYbk1DNWZ6eGQ5QVZNdmkwRzJIaG1lZnAzTEU3RGh5UzY1dmw5Z05nYw?oc=5",
+  "date": "2026-10-29T07:00:00.000Z",
+  "summary": "",
+  "publisher": "R&D World",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
   "id": "100175f356ad",
   "theme": "agents",
   "title": "The Media Shop and PubMatic Launch Southeast Asia’s First Agentic Luxury Campaign",
@@ -2314,6 +2326,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-06T00:02:17.930Z"
+ },
+ {
+  "id": "1a1f3a49be3a",
+  "theme": "platforms",
+  "title": "Anthropic Launched A Consulting Arm. 5 Ways The Industry Has To Change",
+  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTGRzaFc1Qi1PLUNMVXNod05hdlZtSlQ2Mk10UWZCamdST1RhWEhpcHdjU0syd0NWZ0VRNTlCM2ZnZkY0TnVObFdCWWRmMmkzWHN1em8wTGZBc0lyRS04eDdQT0t5TkdpZUowT055MEk4MFBCcXNyazN0Qm0tTk9FY0VQbHYyR21pM0p6ck5zVlNKWDdCYm1iUTVjR0huUWF3M3JzR01FeHd5OUx3OEtWMUU4ZzlwVVVrNGoyNnBLLVpibEJN?oc=5",
+  "date": "2026-10-29T15:30:00.000Z",
+  "summary": "",
+  "publisher": "Forbes",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "1a24974aca1c",
@@ -3912,6 +3936,18 @@
   "firstSeen": "2026-10-30T23:47:56.165Z"
  },
  {
+  "id": "2bc600f30b31",
+  "theme": "ma",
+  "title": "Nippon Sangyo Suishin Kiko launches tender offer to take Broadmedia private",
+  "url": "https://www.investegate.co.uk/announcement/rns/avi-japan-opportunity-trust--ajot/tender-offer-for-a-top-10-portfolio-holding-/9848223",
+  "date": "2026-10-29T00:00:00.000Z",
+  "summary": "Japanese private equity firm Nippon Sangyo Suishin Kiko launched a tender offer for Broadmedia, at a 49.0% premium to its early-September price and 23.9% to the 29 Oct close, per shareholder AVI Japan Opportunity Trust.",
+  "publisher": "Investegate (AVI Japan Opportunity Trust)",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-10-31T22:52:04Z"
+ },
+ {
   "id": "2bf2cc937100",
   "theme": "capital",
   "title": "Chinese Startup Raises $2.7 Million to Develop an AI Laser Mosquito Device",
@@ -4426,6 +4462,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-24T23:47:42.818Z"
+ },
+ {
+  "id": "2fefac8db2fb",
+  "theme": "platforms",
+  "title": "Google launches Gemini 4 Carbon, its most powerful AI, and you won't be able to try it",
+  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSTdPX2RhQmtQblpXNlNPVGN5aEpGRkZ2akFtd3RJa3U5WWtnN3A2aENJMmlVWlZTbDBQc2VtLXhXeUhIMHpCMTJGUjZ2bnd0U3N0T0NfU3k4eEphb3lhWE8tRjVjOThURWJxY3NMZ29hTHkwWUZ3NXVlSVAwbVlHcWpkOVdObnJwY1dPSjd5OUtFaFE?oc=5",
+  "date": "2026-10-29T13:49:40.000Z",
+  "summary": "",
+  "publisher": "Korben",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "2ffae60b40a4",
@@ -5556,6 +5604,18 @@
   "firstSeen": "2026-10-05T05:56:27Z"
  },
  {
+  "id": "3dd4e0be453e",
+  "theme": "platforms",
+  "title": "Mistral releases open weights for its 1 trillion-parameter Large 4 model",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XcVRkZU9oekdPekFMUWNQM1pyb2JmMEtOQm81ZnVyWW9MWjhEMk5yTkpOdzYzUW9Ob0Ftd1BGNXN6WkFqZnktSnRxMzN6WkhWaHlrT0pLMDAwZjM3azNLRVNXc2VFV0s4Mnp3X2w5cVVmZw?oc=5",
+  "date": "2026-10-29T13:18:58.000Z",
+  "summary": "",
+  "publisher": "The Next Web",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
   "id": "3de50159643f",
   "theme": "platforms",
   "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
@@ -6238,6 +6298,18 @@
   "source": "ipos",
   "official": false,
   "firstSeen": "2026-10-26T23:51:11.810Z"
+ },
+ {
+  "id": "464c37f381c3",
+  "theme": "platforms",
+  "title": "Alibaba's Qwen AI model to integrate into Apple Intelligence in landmark partnership",
+  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDdm9yZ0ZYTTRwYXdMOWdXaXd5Zlp3eXlLVDlIbWdKb3VuaXBZbExuRkhGRnQ2RnViOTFBYzRpUGVmU2xKZXhBRy1wTGZpX25SdkY0d0hOVHpKa1VlZ09rVkJBWUo0SnR6ZU9jUTJUb1JIRVRJdUxJMEFUUUY?oc=5",
+  "date": "2026-10-31T16:10:15.000Z",
+  "summary": "",
+  "publisher": "Xinhua",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "465a4691dc7c",
@@ -7296,6 +7368,18 @@
   "firstSeen": "2026-10-22T23:49:28.706Z"
  },
  {
+  "id": "53b4f1e01cd1",
+  "theme": "sponsors",
+  "title": "Partners Group acquires minority stake in software provider Nozomi Networks",
+  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMEc1TUllMXAtaTAwMXFIa1JDQm93V3h6TTJwVHRiX18zbGR1anZnTnlJZ1JncVktZUhxSlNwM1MycVJabXlNaVJSTmRabmFnSEJhdHpUQnRtMU9TWEZTSmNzOWJDZTNrN19iZTJrV1ZWUC14aTZObmhxY3V0Q2JUZ3JhOUE1Snhlc3J1RDBtREV2VUYyeFpwTjl4OFJuNkRnY0pFYmNVVEV3M2dTZjBxaEh1czlxWDVtdEZ3?oc=5",
+  "date": "2026-10-31T04:23:32.000Z",
+  "summary": "",
+  "publisher": "PEI Private Equity",
+  "source": "pe",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
   "id": "53d631afa50a",
   "theme": "platforms",
   "title": "Workday Signs Deal to Acquire Agentic Identity Platform C1.ai",
@@ -7368,6 +7452,18 @@
   "firstSeen": "2026-10-14T00:26:00Z"
  },
  {
+  "id": "54bf7c453014",
+  "theme": "ma",
+  "title": "DXC in advanced talks to sell insurance software unit to Eldridge for about $2.4 billion",
+  "url": "https://srnnews.com/exclusive-dxc-in-advanced-talks-to-sell-insurance-software-unit-for-2-4-billion-sources-say/",
+  "date": "2026-10-19T00:00:00.000Z",
+  "summary": "DXC Technology is in advanced talks to sell its insurance software and services division to Eldridge Industries for about $2.4bn, sources told Reuters; Eldridge is discussing combining it with its insurtech platform Zinnia.",
+  "publisher": "SRN News (Reuters)",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-10-31T22:52:04Z"
+ },
+ {
   "id": "54e2fde43e92",
   "theme": "capital",
   "title": "AMD to acquire Fei-Fei Li’s World Labs in $8.2 billion deal",
@@ -7402,6 +7498,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-05T07:46:33.871Z"
+ },
+ {
+  "id": "55075f371b52",
+  "theme": "listings",
+  "title": "Nscale’s Unproven CEO Braves AI Turmoil in Bid for $30 Billion IPO",
+  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON2lremtid0VEbFVYWTd5Z2FndXk4V21BdjVLNWVjekd1OHZQVDUzSkNjS29pdmFUT3ZRUXB2TU1QaFcyRkhMenY5alZkd25QWVpqRWlyUVlkVWdsVkM2TEhMZ2tPa1NFb1g0bUJwQzFvRE1laUppLWdxWTlZTzd6S0xUN3N5eUp1cWJXSUtlTmxLYWNET1N3MmoweG1wN2ZJU3Nsb05FdWM3TnRFTkJxNEpQT0ZLRi14c0s5NFFhbUFYWEU?oc=5",
+  "date": "2026-10-29T00:00:00.000Z",
+  "summary": "",
+  "publisher": "Bloomberg",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "556362e599b0",
@@ -8376,6 +8484,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "61a641bc9eed",
+  "theme": "platforms",
+  "title": "Oracle to charge for AI tasks, not seats, as capex nears $95 billion",
+  "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNWxBZEs0SGZxLTlXckp5dm5TYklpQV9BTExsWi1ZeUt0Qk1ROEhnZG9sMmdzRkRQckh5YlhzMzNRR3E1S0JxWFVBZFg2Z0VxLVlMMzFUUE9UanpxeFdyYkw1NV9adzVrWjBPckdFNVpaMnEwMlVFN2VmRXF3SmxWTmZ5R19XdUVtRHQ2ZUZ6YzFaNE00d2s1eHdSZkdvVFdkTjNfNk5Gb0lmcU9iRjljTmNGV205UnQxVXR1V2R0S2tTTEhESDZCWjVUYV83MFpOb1ByYmV5N3dJQnVoRDUxQjNVTDBHQVA0dzZZ0gHvAUFVX3lxTFB0aGE0aXJpelVSZ0pCYV91NWx2YXMybm1laXoxT0hwTzFDUnkzaWZFVU5QSDIyai1Yb1FRcjdrZEJzVVhuODMtdzFVcTNESDZwVmZDSmdNelFEZmpjdF9nQVAwcGpUTkhBQVVJRFZWQTBaYm54TVNHMHFMYVp4YjV3YzBiNXc2bkZtUkdDcGVNejFhUlRwbXU0a01kVU00c0hjdEFhaXNGM3I0SG5BRTJMLWlYRFp1QWtNRUd4Y2Q0U0ZodGUyOGZ1bjFhd3VnVFJ3YmRTTkZCNEhxZy1CN3EwX2p4WUFLQkN3V21FZThZ?oc=5",
+  "date": "2026-10-31T03:11:15.000Z",
+  "summary": "",
+  "publisher": "ET Datacenters",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
   "id": "61b512a65246",
   "theme": "targets",
   "title": "AI startup Flapping Airplanes raises $1 billion at a $6 billion valuation — TechCrunch",
@@ -9118,6 +9238,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-05T07:46:33.871Z"
+ },
+ {
+  "id": "6ab2777c55f6",
+  "theme": "platforms",
+  "title": "Mistral Releases 1-Trillion-Parameter AI Model for Cybersecurity",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTGpzMXpHR1d5RE1oQ2c0NWRYWlVlTk9HM2dueEJaNldiLUtpOHJaWUdMeU14ZHJfNmFIRHg5U2REajU0eDQ5V0dpdGx2Sk9IYUhOamRTRVlUWGdMejJDbzUzbmwwdC1ZTWNxY1VvbExNN2RlVXpTbTBiX3RyLWFGUGRqbW8xWVNyZVBPTVF1YmRXZw?oc=5",
+  "date": "2026-10-30T16:20:41.000Z",
+  "summary": "",
+  "publisher": "TechRepublic",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "6ad342663f28",
@@ -11160,6 +11292,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "80d60210278a",
+  "theme": "platforms",
+  "title": "Oracle launches Claw-powered HR apps for Fusion Cloud",
+  "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPS0dsMHZyVXZmaFpoZHc0Z1N5SDQ0THlyQ3ZoTzNQMC1XNXRsWDZkNFF0d2JVdlhoaE5qOVNtTkp4WkJFWk1VRGZibjQxQkxrbHp1TWRjRmVSSEEwYmY1a1drSWNPaXZ6YmhJNjIwWjRDbzJTcXVIOVZtVFpsb2hUbE1Pb1MtY0dVM3c?oc=5",
+  "date": "2026-10-29T07:06:00.000Z",
+  "summary": "",
+  "publisher": "CFOtech Australia",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
   "id": "811c97c6e426",
   "theme": "listings",
   "title": "AI IPO wave will inflate a bubble, warns advisor",
@@ -11868,6 +12012,18 @@
   "firstSeen": "2026-10-21T23:48:44.166Z"
  },
  {
+  "id": "892e4c776c8b",
+  "theme": "platforms",
+  "title": "Mistral Releases Large 4 Weights for Self-Hosted AI",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1jU0VRNW5IWHJDWDRYQzZXNmt2bEQ3WVhISTk2OVM0MWZvaGNfMFBNN29nMEw4RkRDVlNSZ3EwdUlpZnlpU1FUNXhaZWhSMTFUYzNtSjFWUmdESWx4NE5ySTNGVTJuU21BOHpYYVpZQzFJSlhQb21SeENyZnNrZ9IBhgFBVV95cUxPWDZiYkVMbU94TkNMR1ltNExZclJSV2ZCdk9iOEZuYnNUZkFXcWZTSDZJVjVOOUZHcGdsX1BJTElzRzR2emY4WkhsX3VHZ0ozTTVhSmdUQVNZdUpjRkVyeFVSR3BOUXJCWGFZQXBnTy0yNk8zNnJCRy1iX3QwQUtYMEdrWXp3dw?oc=5",
+  "date": "2026-10-30T00:24:21.000Z",
+  "summary": "",
+  "publisher": "FindArticles",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
   "id": "892eae2e76a0",
   "theme": "targets",
   "title": "Healthtech startup Curebay raises Rs 100 crore funding led by IvyCap Ventures",
@@ -11878,6 +12034,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-22T23:49:28.706Z"
+ },
+ {
+  "id": "896511760c59",
+  "theme": "platforms",
+  "title": "Alibaba partners with Apple to integrate Qwen AI model into Apple Intelligence for Chinese market",
+  "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYWxtSWxQWFFKLVc1dUZCdGtGOElTdFlWeTJZV0FWZ0MzbXBzbkpNSzNmclhleVlWblpHeElhSHhNMDZtcHlKWjBZTVFEQk9MRDJlcWZDWFZQYzlUZDdGcVBDTVk0RndNdC1iVG9taW9vY0FCdTF6WWVzSjdhQVp1Yk1jUkQ4QU9jZjdCTlRCZmZmZTBranBrSzh0cDcydmVWVmpYQ21SOXFyYUkyTUZFU0VVZzdXUnY0S2Q0bzE5ZU1XcGRxVUh2bDdyNHM2RGV3MUlJUVVBS3g1S28?oc=5",
+  "date": "2026-10-31T17:38:16.000Z",
+  "summary": "",
+  "publisher": "Anadolu Ajansı",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "89902c4d103d",
@@ -11902,6 +12070,18 @@
   "source": "strategics",
   "official": false,
   "firstSeen": "2026-10-07T11:38:17.671Z"
+ },
+ {
+  "id": "89d4b04c9613",
+  "theme": "sponsors",
+  "title": "Anthropic IPO Faces Real Risk as AI Bubble Fears Linger and Blackstone Sounds a Warning",
+  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZm42Rk1kcjlyVjRaOVhILXNySGh3djNQOGF2bU40RktFOTBzdzBSd3o0R3BERWtXWXJSQ2c2ZUlsTmFzZ0pXX2VCLWo5WkZHTU1XME9qVFJNeXpHVmhNVlpCYnFFYnVvZjZkMUNTNDh3UHRZNUZyeGdacEhzakNibGpwZEVKZ05PRGlyd1dhVG03OVJ6d1ZZMVFHam1ZX2hLQW1FMnJkMnYwTW9pT3czblBEZDJzbEVaSzBvakZxUTA2T3pac05fcXZhWTY?oc=5",
+  "date": "2026-10-31T18:45:18.000Z",
+  "summary": "",
+  "publisher": "Benzinga",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "8a3102e566f6",
@@ -12070,6 +12250,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-05T07:46:33.871Z"
+ },
+ {
+  "id": "8d00fa57ba17",
+  "theme": "listings",
+  "title": "Anthropic’s IPO filing spends 69,800 words on AI’s risks to investors and says little about the risks to the rest of us",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTjl1TkZPY185cXlEUEt6WFM4U1FXSC1tcjQwdFBHNlVaTlBjcVlHUzVqNE1TMWxQUGhjZ2NmWlZvVnN5U0hhWEtlYUpKZmFwMTFJRGZ6MFU0VXhia0liOUd6MzBydThSdVdxLWdJY0F0d0UtUDgwWkJJT0kyYmZfV2k2MlhxVGo1N25z?oc=5",
+  "date": "2026-10-30T15:27:00.000Z",
+  "summary": "",
+  "publisher": "Fortune",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "8d2507d33de4",
@@ -12454,6 +12646,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-28T23:48:30.535Z"
+ },
+ {
+  "id": "918ed057fce9",
+  "theme": "targets",
+  "title": "Singapore health AI startup Genie Health raises $3m seed",
+  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYXJ4cVJmTll2dnh1elNpUm90OE1WYnhSY1ZxdURUZDRTRWRhRHNqRldJeXQzZEpOY0c3UXMxZXFsempLVWxoYXVqZE1YVnU2bEJyYVRud1gtNzYwT1JKTHVvYlpNaUlOSzJkVVk3elZiZnN3VVVLanlCZHlXRVRGdTBvcjVYUXZMS3hjS3RKSlY?oc=5",
+  "date": "2026-10-21T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Tech in Asia",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "9191e464796a",
@@ -14112,6 +14316,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "a5b3a5695f81",
+  "theme": "platforms",
+  "title": "OpenAI Releases Unreviewed AI Math Proofs, Sparking Accountability Debate",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeWNqMTVHUU9iQjlrR0dGbmN5bXNRV2sxWGhlTkNUbFhIVWdLbFd3emFDWjZKYV80aWJOYm9lVzZpYmZkWVl2M2l0WDJOYW1vMVRrc3lqRWNXMEV6ZVl2Q21jLWZiRVRhM3VjSm8xaGVVV1RESmNRMlNGWFlTdHpTMTRYSkpBZFNp?oc=5",
+  "date": "2026-10-28T15:46:40.000Z",
+  "summary": "",
+  "publisher": "조선일보",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
   "id": "a5e9f1774616",
   "theme": "ma",
   "title": "Schneider Electric to buy US software firm PTC in US$22.6 bil deal",
@@ -14158,6 +14374,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-12T23:47:35.683Z"
+ },
+ {
+  "id": "a62a983cd357",
+  "theme": "platforms",
+  "title": "UAE AI Office launches nationwide ‘Vibe Coding’ experience with Microsoft",
+  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV0lpNHJERGllWmNTXzNTRkhHLXhqY0toMlRPT2xOS0lvMUhUMjZhNGhoRFJLdG1GUktRenFVcTU0VmdIamNCNXpta1Q5ZUNHcTI2WUVVVkN4aFF6Z2J2dUE2dkJUb3pxVTdTLTJkNDk4SjBlS2tBNkx4VWQ5TkNLYjYweVZPSi1MWkFNQWd3Z3E2cV90c0Rmb3FtVmFZUzA?oc=5",
+  "date": "2026-10-29T09:59:24.000Z",
+  "summary": "",
+  "publisher": "www.wam.ae",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "a62cdc9c8311",
@@ -14602,6 +14830,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-20T23:48:00.901Z"
+ },
+ {
+  "id": "aa1e1f1d30bb",
+  "theme": "platforms",
+  "title": "Anthropic Releases Claude for Legal Artifacts, a Set of New Interactive Tools for Legal Users",
+  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLTJlbERhR2hXeUJNbkw5cUVwd0Q1MTZkQUNMU0hWbnlfZmhlTmdOVi1CWm8yVjMwZ1NGaC1TZmdkOWg2S1c5bUpxelowTXdXcTh0aTExU0o4d2lEaDZHY1BIVlJFRTFpQ3FZUHM1VnZmNUxEb1d1eGpkR2U4ZkdvNjVnMGc5VEVpQ1pON28yaGs0alY0Tm1TOGRaQ1BMWWJmZlFYRm5nZHkxYXZZOEFxOWs5YU52QzI2VFBybzU5MW42NVpveEkxdGFwUEZpSWtkZmp2MThR?oc=5",
+  "date": "2026-10-28T15:15:00.000Z",
+  "summary": "",
+  "publisher": "Law.com",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "aa3718df26d3",
@@ -15060,6 +15300,18 @@
   "firstSeen": "2026-10-12T23:47:35.683Z"
  },
  {
+  "id": "b0b12e4f844a",
+  "theme": "platforms",
+  "title": "Google Launches Gemini 4 Carbon With State-Of-The-Art Cybersecurity Capabilities",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5QS1hVSVllUnpKdGQ0MndpWjlFR3FEUnJvWnBhTkFCV3ktMFpzdGF1ZmtmXzhMd1hfUHFBZTFRZDVvMm1hNGRna1NCRURQcENvOG9hSnNUeXU3YzFyU2h5QmQtem9NRW9MVlRWNklHQdIBdEFVX3lxTE5YZXRFUjRqUkt6UnpqV0tJWHhaYzFlYl9OMEVuZjJ5bWtENDFzZ3JoYUl5MG82amJGWmRHWFE1aXA0TGhrMlpYUExENDh6ZkZVYlFFbUZHMmZaWWNfNXNWX1NXYmZhemNQUkN5U3hyWTFTTlNi?oc=5",
+  "date": "2026-10-31T05:20:45.000Z",
+  "summary": "",
+  "publisher": "CyberSecurityNews",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
   "id": "b0b6ebc1dfca",
   "theme": "platforms",
   "title": "The Week Ahead in AI: SpaceX Closes $40B AI Chip Debt Deal, Softbank $50B Malaysia Tech Investment, Plus Upcoming Alphabet, Microsoft & Amazon Earnings",
@@ -15070,6 +15322,18 @@
   "source": "incumbents",
   "official": false,
   "firstSeen": "2026-10-26T23:51:11.810Z"
+ },
+ {
+  "id": "b10553e94561",
+  "theme": "listings",
+  "title": "Anthropic's path from AI startup to industry-defining IPO",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT2ZsWlY5ZUdaTFJOS0c0OHU5MGtpM2FobkVWZ2VNYWVmR21TcVllblBxM2NTTU9VbXgwbDFVVGgzZkY1YnFXUEQzcmlVbkJXZmRjUWxmUlhQZXZDTnRLNjRzM2JWM20xXzEyLVFmVjh5M01pclJQOFAwaUV2U0ZMZUFwYnFhbGdyaHdic0NBdkhQM29WZDlhWEI4MA?oc=5",
+  "date": "2026-10-26T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Reuters",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "b144b86005b8",
@@ -15996,6 +16260,30 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "bfff7df9e85b",
+  "theme": "ma",
+  "title": "Intel Acquires Classiq to Develop Quantum Processors With Its Own Software",
+  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT1owNkNLMG53NFIzTEN4MEI2VllSZUFVUUs2elYwOW44NG14LVJ6YU1fMkJKX0VHZWpkcVV0UU96ei0tcW9sQmY5cWFmWXNVZW1lMUZpTjRmTmQ2Ymd0aHlUc2VwV1BXVnlVbGd0Y2FZdjlGcXVKX21WbFY1Z0NaMTg1MWFuNWlmb1ltYW5qdXFZbUtTWlpzaHpVMmZkeUdx?oc=5",
+  "date": "2026-10-31T14:04:52.000Z",
+  "summary": "",
+  "publisher": "eTeknix",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
+  "id": "c075cb3df42b",
+  "theme": "platforms",
+  "title": "Mistral AI publicly releases Large 4, targets cybersecurity users By Reuters",
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdFJpdUlMNW9CR0J5a0J2cHZDalYxSHdxRFViRkZCQTUyTTRZY29nOUtwMHR1UmppcTJzd0hNaUNQT25LcWVrUHl2YzN0c0RvVUEtT3dYOFg2TUw0aE4xcUVmN1lQVEMzUl9EYzNaUEVGbWh1Mm1XekFXTDRTQXdld2FLNHBJa1dzMlhuU2k0M19wNzRXaEo3R3h1V3NGQ1R5TUlwWW96aEdEN3B3WnY2SnBGcTNHOEU?oc=5",
+  "date": "2026-10-29T14:33:39.000Z",
+  "summary": "",
+  "publisher": "Investing.com",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
   "id": "c090303ed972",
   "theme": "infra",
   "title": "Samsung to launch first AI glasses in November, taking aim at Meta",
@@ -16164,6 +16452,18 @@
   "firstSeen": "2026-10-07T00:18:46.308Z"
  },
  {
+  "id": "c1e0338cc996",
+  "theme": "ma",
+  "title": "Apple buys AI startup that strives to ‘make data engineering delightful’",
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM3hnRHUxS1lzLXBzbllrSGZDNFlYUzBMRmw4WW1IN1Y1Yk9LZHRrVUdXdEhQUDl6ZEJ4dEphTGY2dldTOVdNNEp0NXY0MWFTTW5yWXVieGV4V2xxSHF0aTNCdy1IQ193cXRxdndsd0duS19CRFVPcmJraFl6OElzTA?oc=5",
+  "date": "2026-10-30T23:35:09.000Z",
+  "summary": "",
+  "publisher": "Cult of Mac",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
   "id": "c2047126458c",
   "theme": "listings",
   "title": "Bank of America was dropped from Moonshot AI's Hong Kong IPO",
@@ -16174,6 +16474,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-14T23:46:58.861Z"
+ },
+ {
+  "id": "c22274f0c21a",
+  "theme": "platforms",
+  "title": "Workday Acquires C1.ai to Enhance Access Management for AI Agents",
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMWN2T2VxVEtURV9PMlJZX01mZTNLRnlGTi05SW9RMlR2Wm1KMTV0ZG9ORzM5U3lNZUtzbzBVVlF2UU1DREtLMlNqQzNDQWlESWJEbmNCLS1NTWp3SHlYMi11Tl9udTBkSHFvS0ZWamYwYTZDZFpPdWxrNlFWb3E0bkxTdFc1TEdCMzNXVW1LVDUyUHE0WlZwZQ?oc=5",
+  "date": "2026-10-30T14:11:00.000Z",
+  "summary": "",
+  "publisher": "Small Business Trends",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "c248ef40829d",
@@ -17052,6 +17364,18 @@
   "firstSeen": "2026-10-12T23:47:35.683Z"
  },
  {
+  "id": "caff487e13b6",
+  "theme": "sponsors",
+  "title": "Aurora Capital Partners acquires education and government software firm Softdocs",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSHluLWZvRDNWdUNuakNlbTUwaVRiM1I1VWFuTnhvVlNCT1MzckwtNnB5YWRCQ0hYRHQyZUluRENINEZibzYxcFAtcVNaMEF2WHh1LWJaUmJObVVZenpsWFEycUZBa25aUU44U0ZxSE1tV3c4amMxVF9BTEV5Q1l0ZzNYTUl0TV9Rd0thRDQteTI3Y3lsSy02aklmcHduS0ppdmRxcFFzRV9TcURpZnJJNEo3RUtScW9jWW5ub3Zma1B0UQ?oc=5",
+  "date": "2026-10-05T07:00:00.000Z",
+  "summary": "",
+  "publisher": "PEI Private Equity",
+  "source": "pe",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
   "id": "cbc8f7138c70",
   "theme": "platforms",
   "title": "Google launches flagship AI model Gemini 4 Argon for developers, businesses",
@@ -17062,6 +17386,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-10-13T23:47:46.538Z"
+ },
+ {
+  "id": "cc21180f20b0",
+  "theme": "platforms",
+  "title": "Google Tops AI Smarts Ranking as OpenAI Slashes Prices",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNjFkLTNGNTRuazhTTFlkZUNnVEhKc0x6UVNWXzVXNUJHN05fODNIU2E0OTdaQnhJZmVEYWliNHd4NHg5MnBWVHJHVFBNd1gtM09kOVUycFpsTm83ckcybkJsellhSFZBdzRMZFUtUXJId2lhS1k5M1l1Y2V6S00tNXU0OEtKRFJUTVRuaTNxUEdsWk1Qa3ROMS1GdkZleTN3cWU0VzFNY3N0OGNQSzZiam1B?oc=5",
+  "date": "2026-10-29T22:39:51.000Z",
+  "summary": "",
+  "publisher": "PYMNTS.com",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "cc41e0e9f323",
@@ -18012,6 +18348,18 @@
   "firstSeen": "2026-10-28T23:48:30.535Z"
  },
  {
+  "id": "d6b91df74379",
+  "theme": "platforms",
+  "title": "What a Wobbly AI Trade Could Mean for Anthropic’s IPO",
+  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYnlxLV9oNmRqUldqRmhBLU1ndFlrdVhXU3ZWOW01cm9VdUZ4U3pkMXk4MUlHLVhEZXhlNl91TURBNklXODRMWGZXLXUtUnQwX29xMnp4OE10Z0ZndDRnTjR3cGgydXRpejhidTQzT05TaEk1TFFhd2ZrT0NpemRfYlk3LUZJRHRxYi1rNlZpM2NNR2RiMHc?oc=5",
+  "date": "2026-10-30T09:30:48.000Z",
+  "summary": "",
+  "publisher": "Morningstar",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
   "id": "d6e60a490af2",
   "theme": "ma",
   "title": "Schneider Electric to Buy PTC, Expanding Industrial AI",
@@ -18022,6 +18370,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-07T11:38:17.671Z"
+ },
+ {
+  "id": "d6ff0e4d4e45",
+  "theme": "sponsors",
+  "title": "Main Capital Partners’ Ferranti agrees to acquire Belgian energy software firm Cogenius",
+  "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYXBRQVh5aEE5LUlfdEduMGVvdnRXUGhRZWZqRmZLaGIxZW92V1VjZmhIci15OC1qdWFaRTA0SFJhMzlKVl9mSEJwUTBFdXhneDZ2d3ZYMGV3ZW9QMTdza1BOV0ttai1lZnJuX1plVlBGMHpIWHBYQTlxM05Nazl6R0Z3bk9xVkJVVWc0SHBSNVdMUkMxdE5TM3VjUlZRZ2tENHhQWmpJbGhyc0tJblVBZkFCRDJGZ3FaN0huZzlHTE5mVDZvVVVMLW1n?oc=5",
+  "date": "2026-10-27T08:59:40.000Z",
+  "summary": "",
+  "publisher": "PEI Private Equity",
+  "source": "pe",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "d7241364cf59",
@@ -20892,6 +21252,18 @@
   "firstSeen": "2026-10-19T23:46:50Z"
  },
  {
+  "id": "fafa64baf053",
+  "theme": "ma",
+  "title": "Microsoft’s big buyout, Amazon’s trillion-dollar future, and an AI wearable reviews our show",
+  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRGZROUxMc2NGMEtFSmJfdzR0S3VXRWVWQ3ZBMVpYYUM5MkhTUDMzbTNDcGZtTV9CT3BrT3FJN0xidW5VWFBTYkpQZVJ2ZXJDWWtlSnQ4clljR2ZuejA0aHFHRG8zTjYyNEluMld4UXBFRVZkU2VrMVhsQjRpRmgwRUNqY3A3cFk1MHlrYlFIUmlLRDdoc1lsajFXbUxKWk9XMUVQSklvbjNUU3VUX2lDVjZpTnNjakE5TFZR?oc=5",
+  "date": "2026-10-31T15:45:58.000Z",
+  "summary": "",
+  "publisher": "GeekWire",
+  "source": "strategics",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
   "id": "fb232dcf7ef6",
   "theme": "ma",
   "title": "Icertis veterans reunite as AI startup HumanTronik acquires tech consultancy CloudMoyo",
@@ -21226,6 +21598,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-23T23:47:54.054Z"
+ },
+ {
+  "id": "fee8687b79bb",
+  "theme": "ma",
+  "title": "Workday Acquires C1.ai to Enhance Access Management for AI Agents",
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMWN2T2VxVEtURV9PMlJZX01mZTNLRnlGTi05SW9RMlR2Wm1KMTV0ZG9ORzM5U3lNZUtzbzBVVlF2UU1DREtLMlNqQzNDQWlESWJEbmNCLS1NTWp3SHlYMi11Tl9udTBkSHFvS0ZWamYwYTZDZFpPdWxrNlFWb3E0bkxTdFc1TEdCMzNXVW1LVDUyUHE0WlZwZQ?oc=5",
+  "date": "2026-10-30T14:11:00.000Z",
+  "summary": "",
+  "publisher": "Small Business Trends",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-10-31T23:49:22.811Z"
  },
  {
   "id": "feeb21c053bb",
