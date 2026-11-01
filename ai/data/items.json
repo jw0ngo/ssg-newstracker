@@ -864,6 +864,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "09dc9891dd68",
+  "theme": "ma",
+  "title": "GTCR and Elliott to acquire CCC Intelligent Solutions in $6.1 billion take-private",
+  "url": "https://coverager.com/?p=252332",
+  "date": "2026-10-15T00:00:00.000Z",
+  "summary": "GTCR-led consortium with Elliott signed a definitive agreement to take insurance-claims software firm CCC Intelligent Solutions private at $7.75 per share, EV about $6.1bn; close expected Q1 2027.",
+  "publisher": "Coverager",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-01T22:51:49Z"
+ },
+ {
   "id": "09f1b47e2aeb",
   "theme": "targets",
   "title": "Bird raises $450M and opens infrastructure to AI agents",
@@ -4272,6 +4284,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "2e379868d042",
+  "theme": "listings",
+  "title": "Anthropic IPO filing warns AI risks may be uninsurable",
+  "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMjJFbEUyM1VYa1c2S0ZFQl9MUXRUS09xaWtJNk81dERNZmxJVXFwTUpMSHc4cXJHMnZlcEtTNDE0UlpuSGlFamFZR3d6LUVVeUZ0ZmZIQXRvSm1pMFl4YTFBT2h6cW9ZSDctTGVoTkFTZUlsR0x2YnVhcWpoaGppLXZ0TkE1SkFtMlE?oc=5",
+  "date": "2026-11-01T01:44:05.000Z",
+  "summary": "",
+  "publisher": "B2B News",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
+ },
+ {
   "id": "2e71ec978879",
   "theme": "platforms",
   "title": "Oracle Launches AI-Driven Streaming Video Content Production Platform",
@@ -5244,6 +5268,18 @@
   "firstSeen": "2026-10-05T05:56:27Z"
  },
  {
+  "id": "390a1d20efe3",
+  "theme": "targets",
+  "title": "Sovereign AI Firm Cohere Announces Series E Initial Close, Targeting Up to $5.1B",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uQ3l5R0NNSTlMN1lUNTRKNFNFZUFrYjloY3BfYWNLREJUNFRqRDlqZFdYVW9lang2RUNmUGFRdXBWRmpTMGtrSWtBSElHbl9SWnY4?oc=5",
+  "date": "2026-11-01T14:50:23.000Z",
+  "summary": "",
+  "publisher": "Wowtale",
+  "source": "rounds",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
+ },
+ {
   "id": "390fe2e3c059",
   "theme": "ma",
   "title": "Indian AI infrastructure firm reportedly seeks to raise $3 billion of debt to buy Nvidia's next-generation chips",
@@ -5700,6 +5736,18 @@
   "firstSeen": "2026-10-09T00:18:26.262Z"
  },
  {
+  "id": "3ed4da8a8957",
+  "theme": "targets",
+  "title": "Silver Lake in talks to take Workday private, Reuters exclusive",
+  "url": "https://www.thestar.com.my/tech/tech-news/2026/08/14/exclusive-silver-lake-in-talks-to-buy-workday-sources-say",
+  "date": "2026-08-13T00:00:00.000Z",
+  "summary": "Reuters reported Silver Lake is in talks to buy HR and finance software group Workday, valuing it at about $51bn after a near 18% share jump; no deal announced and Workday declined comment.",
+  "publisher": "The Star (Reuters)",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-01T22:51:49Z"
+ },
+ {
   "id": "3ee0ac4c8770",
   "theme": "capital",
   "title": "Indian Startup IPO Tracker 2026",
@@ -6130,6 +6178,18 @@
   "source": "ipos",
   "official": false,
   "firstSeen": "2026-10-26T23:51:11.810Z"
+ },
+ {
+  "id": "44c3079babea",
+  "theme": "sponsors",
+  "title": "Bid Equity acquires member engagement software firm Cuseum",
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQjcwOUNLWGQ5MlpBRk93aXhKZW8temFDU0RiOXJ5Ui02eThMMTFFeVJJX1huY1lsbTB4LUVwNk40ZWpTdnRVOS1pUGRWNlJEbEZQc2FCcUFzNVpiRzlsY29ZMmZ2YXVNTXV0OHdaQ3p6WVVZM0lLWlR4LWdTUWlGcUZQUU5ZMlRTSWI0ajczU2lqQkZLNDA3bzJLSEwxT1k4OEx2Vg?oc=5",
+  "date": "2026-10-31T17:16:39.000Z",
+  "summary": "",
+  "publisher": "PEI Private Equity",
+  "source": "pe",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
  },
  {
   "id": "44c9bc9f5c80",
@@ -7776,6 +7836,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "57ed383eaace",
+  "theme": "ma",
+  "title": "ServiceNow CEO says acquired Israeli startup Sweep helps it switch CRM customers in weeks, not years",
+  "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WN2NJd3M1RXB1bFliODVtS3lOQzl4UjFVZWJpNGNmaXoxemRWWU5sOHRJTzR4WXlOTkpwYzRWb1J0cWlDTDNRVVNNZ3FTTkJ4M3otRktpVXZXQVM3YlVTSTBpZWNoMDA?oc=5",
+  "date": "2026-11-01T15:03:00.000Z",
+  "summary": "",
+  "publisher": "CTech",
+  "source": "strategics",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
+ },
+ {
   "id": "57f17afb4ab5",
   "theme": "sponsors",
   "title": "Main Capital Partners acquires majority stake in German software provider 4ALLPORTAL",
@@ -8050,6 +8122,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-20T23:48:00.901Z"
+ },
+ {
+  "id": "5bff774d8a31",
+  "theme": "platforms",
+  "title": "ServiceNow (NOW) Rolls Out Secure Agentic AI Across Retail, Telecom, Sales And IT",
+  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONVJkTE9sOE9nSWpuYTM3U05idmxCbVlaaXh2Tkp1d3hwa2ZoLUhRSUx1WEMxbWxqWURfRFJCZ04yNHdzUGV2NlpvWnFlcFBqUTdHNGxCS2tnLWdzVWE4OU1jQjhRRkZtREk5eVlZWEFXNnRMUEdWeVhvV2U0TWc0T0VUeXZyV0U0a215NjI2c2JLT0lRSF9FUjJDWkctM0R5?oc=5",
+  "date": "2026-10-28T23:11:05.000Z",
+  "summary": "",
+  "publisher": "Yahoo Finance",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
  },
  {
   "id": "5c1b71eb1370",
@@ -9924,6 +10008,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "71059256431f",
+  "theme": "platforms",
+  "title": "Oracle NetSuite launches SuiteSkills AI tools for customers",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVEhNTjZGaDNQUlFmN1FvM085UnFkRnh5UjZaT0MxdXRVTzg0ZWpUTlhtNEJwV2x0WDFuQVBqVXJSNWRTa0dmVkNSTHZ5ZV9iNnBNdDBvLURHc0RlbUZ3by0yS3ZLSlNIR0ZRNnRyYWlaVDMyLXJMMGdWNXlGZWJmTURuc3RTZmZaNEdLX0xGQ1NuZw?oc=5",
+  "date": "2026-11-01T21:30:00.000Z",
+  "summary": "",
+  "publisher": "CFOtech Australia",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
+ },
+ {
   "id": "7119f3d82952",
   "theme": "targets",
   "title": "Healthcare software firm Waystar explores options including sale, sources say",
@@ -10030,6 +10126,18 @@
   "source": "incumbents",
   "official": false,
   "firstSeen": "2026-10-07T11:38:17.671Z"
+ },
+ {
+  "id": "727561eeec5b",
+  "theme": "listings",
+  "title": "Singapore-based semiconductor firm Mi Material to expand into US, Malaysia in $215m IPO",
+  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlZEVWw1NjNWNlYtQ1RPVmxZS3pzcjVTR0JaN3FHclR2UDg4eFlWejJVTElfZ3hDVWtobnpEVno4VHBEZWNHVm0wd0d3V2IyUmt0VzczenVQUzU0T2o5UkhfTUFnRl9aQ2NadDRaQU1Hb29XNjQxWXJVY2ROX0VFQktFVUQwR2gzdGRfc0ZpVkdldkZ6WTdpWVBYQkxBVjdGNTZpbVRJcXdIcmxrV0k2UW95d2ZENjRBa1B5T3drMkNLenBKSmgyUmNxVjU3RjlVZkk4ZkdsZFI?oc=5",
+  "date": "2026-10-20T07:00:00.000Z",
+  "summary": "",
+  "publisher": "The Straits Times",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
  },
  {
   "id": "7275c4a4859a",
@@ -11628,6 +11736,18 @@
   "firstSeen": "2026-10-13T23:47:46.538Z"
  },
  {
+  "id": "853a06e916e6",
+  "theme": "listings",
+  "title": "Anthropic's US$100 billion IPO could be the biggest ever — here's how Canadian investors can get access",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObjJMNThyRmFfTldfNy0yamIwTUx0UVY2MFlWVkFVOHhsSy1xZ25SVTZVUnFlcVp0N3RPUzBsOWx0TGhablUzRXhxYW91UTAwaUxzSU12OU9Ja1NTNlRjX0Y1eUE2QTN1dVZwWW04LUFGY1lWX1N3dHVfLUEwMEVDandSRGc?oc=5",
+  "date": "2026-11-01T12:30:00.000Z",
+  "summary": "",
+  "publisher": "Yahoo! Finance Canada",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
+ },
+ {
   "id": "85482b4c493e",
   "theme": "platforms",
   "title": "Google launches Gemini AI workplace agent that can write code and run tasks, company says",
@@ -12120,6 +12240,18 @@
   "firstSeen": "2026-10-06T00:02:17.930Z"
  },
  {
+  "id": "8a902a191b07",
+  "theme": "platforms",
+  "title": "HD Hyundai Robotics Expands Physical AI Partnership With Palantir",
+  "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SREp0QU5YWkYxQ3dEZDBPaEppOTdIeDJYek93YUI0LXRaZ3MyMUhIcmJyZ2ItN1pSTWJTNW80YzNMX3Rpb1FxcXZtd0R6MXJrYTdxZ0dZanJWLVFsaEh3NVJucjNzdVU?oc=5",
+  "date": "2026-11-01T20:15:29.000Z",
+  "summary": "",
+  "publisher": "THE ELEC, Korea Electronics Industry Media",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
+ },
+ {
   "id": "8af70b5560ba",
   "theme": "enterprise",
   "title": "Announcing Oracle APEX 26.2 General Availability",
@@ -12166,6 +12298,18 @@
   "source": "buyouts",
   "official": false,
   "firstSeen": "2026-10-25T23:48:09.180Z"
+ },
+ {
+  "id": "8b6d583ad108",
+  "theme": "platforms",
+  "title": "Enterprise AI with a Consumer Funnel: What Anthropic’s S-1 Reveals About the AI IPO Era",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORlpfS0lYZ19HcTZRMzBudEdDUUhBSFZwOFJrQ21SNHk2OHk0aHhTa0NMQ3hLSnV3U2hCUEd5NnBOZldzRXdwQkdCVjZwZ3hZRk9wam8wZXcxdlM5UXRLejlabDlPQWtMQUxpRmZtaDVCTS1wUUp3MzM5OXFHVmEwMUxSSUYtUE1zT19nVXk3ZWFYVlN3dXBtdGh6MnJjek9aZkIzdHhJLVRSc3NoUzl4d3FILWRqbW5VY2RJQnEwUWg?oc=5",
+  "date": "2026-10-29T21:56:52.000Z",
+  "summary": "",
+  "publisher": "NYU Stern Center for Business & Human Rights",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
  },
  {
   "id": "8b8cc0a54c44",
@@ -12490,6 +12634,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-07T00:18:46.308Z"
+ },
+ {
+  "id": "8fd51f6f8b78",
+  "theme": "platforms",
+  "title": "DeepSeek launches V4-Pro-0813 for agents and raises API prices",
+  "url": "https://www.caixinglobal.com/2026-08-14/tech-brief-aug-14-deepseek-launches-v4-pro-and-raises-api-prices-by-as-much-as-1100-102474222.html",
+  "date": "2026-08-14T00:00:00.000Z",
+  "summary": "Chinese AI lab DeepSeek released V4-Pro-0813, aimed at agent workloads, with new API pricing from 16 August; Caixin headline cites rises of as much as 1,100% after earlier cuts.",
+  "publisher": "Caixin Global",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-01T22:51:49Z"
  },
  {
   "id": "9040a91fc0fb",
@@ -14134,6 +14290,18 @@
   "source": "incumbents",
   "official": false,
   "firstSeen": "2026-10-08T00:21:57.193Z"
+ },
+ {
+  "id": "a3639d91d41d",
+  "theme": "platforms",
+  "title": "Anthropic Launches New Claude Tools to Measure AI Spending and Value",
+  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRll2YXFsdTF2T3RwTEt2cjFRSmtrWmkwS1NFVk9aMzZyX0poaUNCcjhueG50RW95TnJEQkJFc1RQUGNjSF9pOG9JVUt4MXZIUFFJbWR3cmJjR0o5RC1XVEhQM296WW9lOWxZX0h5TzZMWXlYalJkS1FSUnE0TUwtUGVuVjlmOWctNmdBTlB3?oc=5",
+  "date": "2026-10-30T19:11:35.000Z",
+  "summary": "",
+  "publisher": "Channel Insider",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
  },
  {
   "id": "a36aa0a7f0ba",
@@ -16620,18 +16788,6 @@
   "firstSeen": "2026-10-21T23:48:44.166Z"
  },
  {
-  "id": "c325e273030c",
-  "theme": "platforms",
-  "title": "Alibaba unveils 2.4-trillion-parameter Qwen3.8-Max as DeepSeek V4-Flash undercuts on price",
-  "url": "https://www.outlookbusiness.com/deeptech/alibaba-unveils-largest-ai-model-yet-deepseek-undercuts-rivals-on-price",
-  "date": "2026-08-03T00:00:00Z",
-  "summary": "Alibaba released Qwen3.8-Max (2.4T parameters, open weights to follow; HK shares up ~7%); DeepSeek's V4-Flash is priced at $0.14/$0.28 per million tokens, far below US frontier models.",
-  "publisher": "Outlook Business",
-  "source": "coverage",
-  "official": false,
-  "firstSeen": "2026-10-12T22:51:22Z"
- },
- {
   "id": "c3286ab2198d",
   "theme": "targets",
   "title": "Legal AI startup Legora raises $550 million at $8.8 billion valuation in Atreides-led round",
@@ -17938,6 +18094,18 @@
   "source": "incumbents",
   "official": false,
   "firstSeen": "2026-10-15T23:47:34.146Z"
+ },
+ {
+  "id": "d1ca2ccda66a",
+  "theme": "targets",
+  "title": "FuriosaAI closes 820 billion won Series D at about 3.8 trillion won valuation",
+  "url": "https://www.digitaltoday.co.kr/en/view/121000/furiosaai-raises-820-billion-won-series-d-valued-at-3-8-trillion-won",
+  "date": "2026-10-29T00:00:00.000Z",
+  "summary": "Korean AI inference-chip startup FuriosaAI closed an 820bn won Series D (company cites $620m at $2.9bn post-money); largest investor the National Growth Fund at 370bn won, with Hanwha Asset Management joining.",
+  "publisher": "Digital Today",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-01T22:51:49Z"
  },
  {
   "id": "d1d2bda5de46",
@@ -19380,6 +19548,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "e37b902a90cc",
+  "theme": "ma",
+  "title": "Proofpoint to take private Varonis in $6.3 billion all-cash deal",
+  "url": "https://alpha-maven.com/news/private-equity/thoma-bravos-proofpoint-inks-63bn-take-private-of-data-security-firm-varonis",
+  "date": "2026-10-15T00:00:00.000Z",
+  "summary": "Thoma Bravo-owned cybersecurity company Proofpoint agreed to buy data security software firm Varonis Systems at $49.75 per share in cash, about $6.3bn; close expected H1 2027.",
+  "publisher": "AlphaMaven",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-01T22:51:49Z"
+ },
+ {
   "id": "e3858656ce00",
   "theme": "ma",
   "title": "Fintech unicorn Capitolis to acquire eSecLending for $200 million",
@@ -19704,6 +19884,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "e8d3b98b9ac3",
+  "theme": "targets",
+  "title": "Tenstorrent closes $1.5 billion Series E at $6.2 billion valuation",
+  "url": "https://angelinvestorsnetwork.com/angel-investing/ai-funding-rounds-this-week-tenstorrent-1-5b-2026",
+  "date": "2026-10-19T00:00:00.000Z",
+  "summary": "AI processor developer Tenstorrent closed a $1.5bn Series E at a $6.2bn post-money valuation, more than double its $2.6bn mark in late 2024.",
+  "publisher": "Angel Investors Network",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-01T22:51:49Z"
+ },
+ {
   "id": "e8e8d98305ab",
   "theme": "targets",
   "title": "Software startup Vinci raises $250 million at a $1.5 billion valuation",
@@ -19762,6 +19954,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-07T11:38:17.671Z"
+ },
+ {
+  "id": "ea0671d5a0bb",
+  "theme": "ma",
+  "title": "Saudi Aramco Acquires 49% Stake in AI Company Human",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPamZMeWZzTjVkTlFzUnROTVh4MmVMdzgwcjhheElUN3drdGlTbVN6OWhfb0RBaFQxWmtQV00zMVdpYkFkN24zTldpcm5YQ3JEb3pCd1ZLWTkyUWtwaUN6RldKX3Q2SmZaQnJ4SUhMaDE4VUtKTDhubUgxTURzb3d3aURudjZ3MHNKdHRxcHJWeHZtNHV5Ykc2dkx3?oc=5",
+  "date": "2026-11-01T16:01:50.000Z",
+  "summary": "",
+  "publisher": "Ratopati",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
  },
  {
   "id": "ea26555c77a4",
@@ -19908,6 +20112,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "eb547f83ee50",
+  "theme": "targets",
+  "title": "ElevenLabs valued at $22 billion after tender offer",
+  "url": "https://www.billboard.com/pro/elevenlabs-ai-startup-valued-22-billion-tender-offer/",
+  "date": "2026-09-30T00:00:00.000Z",
+  "summary": "Voice AI software company ElevenLabs reached a $22bn valuation in a tender offer where investors and employees sold about $300m of stock, double its $11bn Series D mark from February.",
+  "publisher": "Billboard",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-01T22:51:49Z"
+ },
+ {
   "id": "eb8b4c32efb1",
   "theme": "infra",
   "title": "Amazon Held Talks to Spin Off $8 Billion of Nvidia AI Chips in Data Centers, FT Reports",
@@ -19954,6 +20170,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-21T23:48:44.166Z"
+ },
+ {
+  "id": "ec13a65060dd",
+  "theme": "platforms",
+  "title": "Oracle Launches AI Skills Registry for Fusion Applications Configuration",
+  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdkZYTm1CakRHbnRrekJXbmJHQ3U4M3F5NUZRQXFYcV8xSkdHRUxXM2l1ZkpnemRReHUxQ0pOT2prSGRROFpBdTZkOU1SVDNCZzlIcmxzb3ZHNk9ILWtTNk5zeE9DOFZtRmMwWWZYMEZqRl9nbjR3WVNXeUpPcTkzOWhSMHZLZ3dPTnRTdFEzWWFjZUxjNzhjUW15cE5xckpyaTdKYlo4eklJV2VrbV9nVXE4cXI3LWg5aTBKUEI1VWtVUGdiRGc?oc=5",
+  "date": "2026-11-01T23:19:41.000Z",
+  "summary": "",
+  "publisher": "The Fast Mode",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
  },
  {
   "id": "ec2eb68dd930",
@@ -20590,6 +20818,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-10-25T23:48:09.180Z"
+ },
+ {
+  "id": "f2aa8e6c15da",
+  "theme": "platforms",
+  "title": "DeepSeek launches autonomous coding agent to challenge Anthropic’s Claude Code",
+  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU3ZjNTJLaFEza3NuN1FnWVJkSjNzVXdsLW1VMjFrZDVsOTFzVGd6S1BvU2VMRkNBVlpHU2huZzBIU0xTZ0VtcWVMSnFGZHFhazJKLU1BUU5VQXNEejUzbXVrRHZDS2dnTG5jSFdmTjEydU4yaExlRk1Ed1VHelJ1aVFMeDhfSnNjZGVYVFNsd1VsS0owbGxJQ0stVThkdmlmaHFqMGdpOUwwOTJfOFlpTFpEd0pCN1VSVmVsdVd4NHJuZExjSVJweg?oc=5",
+  "date": "2026-11-01T05:47:14.000Z",
+  "summary": "",
+  "publisher": "Investing.com",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-01T23:47:39.149Z"
  },
  {
   "id": "f2e05b796876",
