@@ -45,9 +45,9 @@ _Published Mon 2 Nov 2026, 08:09 SGT · covers Mon 26 Oct – Sun 1 Nov · built
 
 ## Takeaways for SSG
 - **Trend: software multiples are being re-based on AI exposure.** ServiceNow's 27% fall and Oracle charging for AI tasks rather than seats make seat-based revenue the first question in any software valuation.
-- **Trend: contested APAC take-privates are the deal form of the quarter.** Ingenia (Warburg Pincus v AVID), Kakaku.com (EQT v Bain) and Cleanaway show sponsors paying up in Australia and Japan, with diligence windows measured in days.
+- **Trend: contested APAC take-privates are the deal form of the quarter.** Ingenia (Warburg Pincus v AVID), Kakaku.com (EQT v Bain) and Cleanaway show sponsors paying up in Australia and Japan, on diligence windows of days.
 - **Product & Tech DD:** Ark (TPG, UK data centres, US$5bn), Kakaku.com and CareNet (EQT, Japan), and the Infinx and Big Caring Group IPOs (KKR, Navis) each need a technology read before signing or listing.
-- **AI DD & Strategy:** with Oracle and ServiceNow resetting what AI is worth inside a suite, every software target's AI roadmap and pricing model needs a stress case; Sarvam AI and FuriosaAI set the APAC private marks.
+- **AI DD & Strategy:** Oracle and ServiceNow reset what AI is worth inside a suite, so every software target's AI roadmap and pricing needs a stress case; Sarvam AI and FuriosaAI set the APAC private marks.
 - **IT & Cyber DD:** Douzone Bizon's second cyberattack in five days (EQT, Korea) and the DeepSeek-assisted global attacks make security posture a standing item on any Korea- or China-exposed asset.
 - **Carve-out & Integration:** Cleanaway's 100-day plan (EQT, Australia), Lotte Rental's separation from Lotte (TPG, Korea) and Indira IVF's Sabine Hospital add-on (EQT, India) are the workstreams opening this month.
 
