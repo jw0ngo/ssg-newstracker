@@ -375,18 +375,14 @@ let WEEKLY = null;
 async function copyBrief() {
   if (!WEEKLY) return;
   const text = plainText(WEEKLY.md) + `\nFull brief with source links: ${location.href.split('#')[0]}\n`;
-  // The HTML flavour travels without the page's stylesheet (Notes, Mail and Outlook keep only
-  // inline styles), so the spacing between sections is written inline: a blank line before each
-  // section heading, margins on the headings and lists. No font sizes on the headings: the
-  // pasting app (Notes, Mail) applies its own heading sizes, which read better than fixed ones.
+  // The HTML flavour travels without the page's stylesheet. The headings, lists and bullets stay
+  // bare tags with no inline styles: Teams, Notes and Mail then apply their own heading sizes
+  // (an inline style on a heading makes Teams drop it to plain text). The gap between sections
+  // is an empty paragraph before each section heading, which every paste target keeps.
   const inner = $('weekly').innerHTML.replace(/<div class="end">[\s\S]*?<\/div>/, '')
-    .replace(/<h1>/g, '<h1 style="margin:0 0 6px">')
-    .replace(/<p class="covers">/g, '<p style="color:#6b6b6b;margin:0 0 16px">')
-    .replace(/<h2>/g, '<br><h2 style="margin:16px 0 6px">')
-    .replace(/<h3>/g, '<h3 style="margin:12px 0 4px">')
-    .replace(/<ul>/g, '<ul style="margin:0 0 10px;padding-left:22px">')
-    .replace(/<li>/g, '<li style="margin:0 0 4px">');
-  const html = `<div style="font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;font-size:14px;line-height:1.5">${inner}<br><p style="margin:12px 0 0"><a href="${esc(location.href.split('#')[0])}">${esc(location.href.split('#')[0])}</a></p></div>`;
+    .replace(/<p class="covers">/g, '<p>')
+    .replace(/<h2>/g, '<p>&nbsp;</p><h2>');
+  const html = `<div style="font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;font-size:14px;line-height:1.5">${inner}<p>&nbsp;</p><p><a href="${esc(location.href.split('#')[0])}">${esc(location.href.split('#')[0])}</a></p></div>`;
   let ok = false;
   try {
     if (navigator.clipboard && window.ClipboardItem) { await navigator.clipboard.write([new ClipboardItem({ 'text/html': new Blob([html], { type: 'text/html' }), 'text/plain': new Blob([text], { type: 'text/plain' }) })]); ok = true; }
