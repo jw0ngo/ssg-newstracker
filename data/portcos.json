@@ -628,6 +628,48 @@
   "firstSeen": "2026-10-09T07:11:58Z"
  },
  {
+  "id": "eqt-musinsa",
+  "firm": "eqt",
+  "name": "Musinsa",
+  "slug": "musinsa",
+  "industry": "internet",
+  "industryLabel": "online fashion marketplace / e-commerce platform",
+  "hq": "Seoul, South Korea",
+  "geos": [
+   "South Korea",
+   "Japan",
+   "Southeast Asia"
+  ],
+  "apac": true,
+  "heldSince": "2025-04",
+  "stake": "minority",
+  "valuation": {
+   "amount": "KRW 4tn",
+   "basis": "reported valuation of EQT's Apr 2025 secondary purchase (~15% above the KRW 3.5tn 2023 Series C mark); IPO filed Sep 2026 reportedly targets ~US$6bn",
+   "url": "https://www.kedglobal.com/private-equity/newsView/ked202504140006"
+  },
+  "summary": "Korea's largest online fashion platform. EQT (via its Hong Kong-based growth team) agreed in April 2025 to buy a small stake of roughly KRW 20-30bn (~US$21m) from early Korean VC investors in a secondary deal at a ~KRW 4tn valuation; a Sep 2026 report on the IPO filing lists EQT alongside KKR, Wellington, Sequoia, IMM and KDB as financial investors.",
+  "signals": [
+   {
+    "date": "2026-09-07",
+    "publisher": "KED Global",
+    "title": "KKR-backed Musinsa files for Kospi IPO, targeting $6 bn valuation amid tax probe",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sNXZldG15R0dLRjdnVnVneG1MSEtvbF92cHI4RTJqb2pHcC1Wb014T0tpbEpVMTVVQVltZEF5UlM5TlQwUW82a1FBQnhpTnhJNFNzWDJPM0t1NENKUDdyN2phTW9BR0NQc05MMVdIejNRQQ?oc=5"
+   },
+   {
+    "date": "2025-04-14",
+    "publisher": "KED Global",
+    "title": "EQT set to invest in KKR-backed fashion unicorn Musinsa",
+    "url": "https://www.kedglobal.com/private-equity/newsView/ked202504140006"
+   }
+  ],
+  "exit": {
+   "note": "Kospi IPO: preliminary listing review filed 7 Sep 2026 (KED Global / Bloomberg); listing targeted late 2026 / early 2027",
+   "status": "process"
+  },
+  "firstSeen": "2026-11-02T08:06:25Z"
+ },
+ {
   "id": "eqt-neara",
   "firm": "eqt",
   "name": "Neara",
@@ -903,6 +945,40 @@
    "status": "process"
   },
   "firstSeen": "2026-11-02T07:33:26Z"
+ },
+ {
+  "id": "eqt-remember",
+  "firm": "eqt",
+  "name": "Remember (Drama & Company)",
+  "slug": "remember",
+  "industry": "internet",
+  "industryLabel": "professional network / HR and recruiting platform",
+  "hq": "Seoul, South Korea",
+  "geos": [
+   "South Korea"
+  ],
+  "apac": true,
+  "heldSince": "2025-08",
+  "stake": "majority",
+  "valuation": {
+   "amount": "KRW 500bn",
+   "basis": "reported consideration (~US$400m) for EQT's controlling stake, Aug 2025 (Alternatives Watch, Law360, Asia Asset Management)",
+   "url": "https://www.alternativeswatch.com/2025/08/11/eqt-acquires-majority-stake-in-s-korean-hr-platform-pennantpark-launches-loan-jv-with-hamilton-lane/"
+  },
+  "summary": "Seoul-based Remember & Company (Drama & Company) runs the Remember business-card and professional-networking app, described as an AI-powered HR/recruiting platform serving the majority of South Korea's professional workforce. EQT agreed in August 2025 to acquire a controlling (majority) stake for about KRW 500bn (US$400m); completion was not confirmed in the sources seen.",
+  "signals": [
+   {
+    "date": "2025-08-11",
+    "publisher": "Alternatives Watch",
+    "title": "EQT acquires majority stake in S. Korean HR platform; PennantPark launches loan JV with Hamilton Lane",
+    "url": "https://www.alternativeswatch.com/2025/08/11/eqt-acquires-majority-stake-in-s-korean-hr-platform-pennantpark-launches-loan-jv-with-hamilton-lane/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-02T08:06:25Z"
  },
  {
   "id": "eqt-sagility",
@@ -1446,6 +1522,42 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "kkr-advanced-navigation",
+  "firm": "kkr",
+  "name": "Advanced Navigation",
+  "slug": "advanced-navigation",
+  "industry": "ai",
+  "industryLabel": "AI robotics / GPS-denied navigation systems",
+  "hq": "Sydney, Australia",
+  "geos": [
+   "Australia",
+   "United States",
+   "Europe"
+  ],
+  "apac": true,
+  "heldSince": "2022-11",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; US$110m (A$158m) Series C in Mar 2026 led by Airtree Ventures; aggregator post-money figures conflict (US$710m vs US$1.0bn), so not relied on",
+   "url": "https://www.gpsworld.com/advanced-navigation-raises-110m-series-c-to-usher-new-era-of-autonomous-systems/"
+  },
+  "summary": "Sydney-based developer of AI-driven inertial navigation, positioning and robotics systems for GPS-denied environments (defence, maritime, space, autonomous vehicles). KKR led its US$68m (A$108m) Series B in Nov 2022, its first technology growth investment in Australia, with KKR's Louis Casey and Vance Serchuk joining the board; KKR participated as an existing investor in the US$110m Series C led by Airtree Ventures in Mar 2026.",
+  "signals": [
+   {
+    "date": "2022-11-16",
+    "publisher": "Business Wire (KKR press release)",
+    "title": "KKR Leads US$68 million Series B Funding Round in AI Leader Advanced Navigation",
+    "url": "https://www.businesswire.com/news/home/20221116005698/en/KKR-Leads-US%2468-million-Series-B-Funding-Round-in-AI-Leader-Advanced-Navigation"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-02T08:06:25Z"
+ },
+ {
   "id": "kkr-ascend-asia",
   "firm": "kkr",
   "name": "Ascend Asia Financial Services Group",
@@ -1834,6 +1946,46 @@
    "status": "rumoured"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
+ },
+ {
+  "id": "kkr-datax",
+  "firm": "kkr",
+  "name": "dataX (b\u2192dash)",
+  "slug": "datax",
+  "industry": "data",
+  "industryLabel": "customer-data / marketing data platform SaaS (b\u2192dash)",
+  "hq": "Tokyo, Japan",
+  "geos": [
+   "Japan"
+  ],
+  "apac": true,
+  "heldSince": "2019-07",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; \u00a510bn Series D in July 2019 from KKR, Goldman Sachs and others (cumulative funding \u00a514.5bn per company job listings, 2026)",
+   "url": "https://hrmos.co/pages/data-x/jobs/0000224"
+  },
+  "summary": "Tokyo-based developer of b\u2192dash, an integrated data-marketing SaaS platform (customer data integration, marketing automation, BI) for Japanese enterprises; formerly From Scratch. KKR invested in the July 2019 Series D (\u00a510bn round with Goldman Sachs and others) and lists dataX among its Japan growth investments alongside Yayoi and NETSTARS.",
+  "signals": [
+   {
+    "date": "2024-08-08",
+    "publisher": "Business Wire (KKR press release)",
+    "title": "KKR Announces Tender Offer to Acquire FUJI SOFT",
+    "url": "https://www.businesswire.com/news/home/20240808217610/en/KKR-Announces-Tender-Offer-to-Acquire-FUJI-SOFT"
+   },
+   {
+    "date": "2021-12-16",
+    "publisher": "Business Wire (KKR press release)",
+    "title": "KKR to Acquire Leading Software Provider Yayoi from ORIX",
+    "url": "https://www.businesswire.com/news/home/20211216006256/en"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-02T08:06:25Z"
  },
  {
   "id": "kkr-education-perfect",
@@ -2349,6 +2501,54 @@
    "status": "process"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
+ },
+ {
+  "id": "kkr-musinsa",
+  "firm": "kkr",
+  "name": "Musinsa",
+  "slug": "musinsa",
+  "industry": "internet",
+  "industryLabel": "online fashion marketplace / e-commerce platform",
+  "hq": "Seoul, South Korea",
+  "geos": [
+   "South Korea",
+   "Japan",
+   "Southeast Asia"
+  ],
+  "apac": true,
+  "heldSince": "2023-07",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$6bn",
+   "basis": "reported target valuation for the Kospi IPO filed Sep 2026 (KED Global); the KKR-led Series C of Jul 2023 valued the company at ~KRW 3.5tn (~US$2.8bn)",
+   "url": "https://inforcapital.com/news/kkr-backed-k-fashion-platform-musinsa-preps-6bn-kospi-listing-as-tax-probe-clouds-timing/"
+  },
+  "summary": "Seoul-based Musinsa is Korea's largest online fashion platform (marketplace plus own brands, expanding into Japan and Southeast Asia stores). KKR led its US$190m (KRW 240bn) Series C in July 2023 with Wellington Management, its first tech-growth deal in Korea via the Asia Next Generation Technology strategy; Musinsa filed for a preliminary Kospi IPO review on 7 Sep 2026.",
+  "signals": [
+   {
+    "date": "2026-09-07",
+    "publisher": "KED Global",
+    "title": "KKR-backed Musinsa files for Kospi IPO, targeting $6 bn valuation amid tax probe",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sNXZldG15R0dLRjdnVnVneG1MSEtvbF92cHI4RTJqb2pHcC1Wb014T0tpbEpVMTVVQVltZEF5UlM5TlQwUW82a1FBQnhpTnhJNFNzWDJPM0t1NENKUDdyN2phTW9BR0NQc05MMVdIejNRQQ?oc=5"
+   },
+   {
+    "date": "2026-07-02",
+    "publisher": "The Star (Bloomberg)",
+    "title": "KKR-backed Musinsa plans Asia store push ahead of IPO",
+    "url": "https://www.thestar.com.my/business/business-news/2026/07/02/kkr-backed-musinsa-plans-asia-store-push-ahead-of-ipo"
+   },
+   {
+    "date": "2023-07-13",
+    "publisher": "Business Wire (press release)",
+    "title": "KKR Leads US$190 million Series C Round in Leading Korean Online Platform MUSINSA",
+    "url": "https://www.businesswire.com/news/home/20230713401193/en/KKR-Leads-US190-million-Series-C-Round-in-Leading-Korean-Online-Platform-MUSINSA"
+   }
+  ],
+  "exit": {
+   "note": "Kospi IPO: preliminary listing review filed 7 Sep 2026 (Bloomberg / KED Global), lead managers Korea Investment & Securities and Citi; listing targeted late 2026 / early 2027, timing clouded by a tax audit and market volatility (Korea Times, 20 Oct 2026)",
+   "status": "process"
+  },
+  "firstSeen": "2026-11-02T08:06:25Z"
  },
  {
   "id": "kkr-myob",
@@ -3171,6 +3371,46 @@
   "firstSeen": "2026-10-09T07:11:58Z"
  },
  {
+  "id": "macquarie-capital-foodbyus",
+  "firm": "macquarie-capital",
+  "name": "FoodByUs",
+  "slug": "foodbyus",
+  "industry": "internet",
+  "industryLabel": "B2B hospitality procurement marketplace",
+  "hq": "Sydney, Australia",
+  "geos": [
+   "Australia"
+  ],
+  "apac": true,
+  "heldSince": "2016-08",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; A$12m Series B led by Base Capital, Jan 2023 (Dealroom lists an uncorroborated ~US$48m valuation for that round)",
+   "url": "https://www.businessnewsaustralia.com/articles/foodbyus-orders-up--12m-series-b-led-by-base-capital.html"
+  },
+  "summary": "Sydney-based wholesale ordering marketplace connecting 2,000+ hospitality venues with food suppliers. Macquarie Capital Venture Capital is a founding investor (first round Aug 2016 per Caplight), led the A$10m Series A in Nov 2021 with Base Capital and FJ Labs, and followed on in the A$12m Series B led by Base Capital in Jan 2023; Macquarie's VC page lists it as a current holding.",
+  "signals": [
+   {
+    "date": "2023-01-30",
+    "publisher": "Business News Australia",
+    "title": "FoodByUs orders up $12m Series B led by Base Capital",
+    "url": "https://www.businessnewsaustralia.com/articles/foodbyus-orders-up--12m-series-b-led-by-base-capital.html"
+   },
+   {
+    "date": "2021-11-01",
+    "publisher": "Startup Daily",
+    "title": "Restaurant supplier marketplace FoodByUs raises $10 million Series A",
+    "url": "https://www.startupdaily.net/2021/11/restaurant-supplier-marketplace-foodbyus-raises-10-million-series-a/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-02T08:06:25Z"
+ },
+ {
   "id": "macquarie-capital-hawk",
   "firm": "macquarie-capital",
   "name": "Hawk",
@@ -3811,6 +4051,54 @@
    "status": "rumoured"
   },
   "firstSeen": "2026-10-06T00:58:19Z"
+ },
+ {
+  "id": "ta-associates-airs-medical",
+  "firm": "ta-associates",
+  "name": "AIRS Medical",
+  "slug": "airs-medical",
+  "industry": "ai",
+  "industryLabel": "AI medical imaging (MRI acceleration / quantification) software",
+  "hq": "Seoul, South Korea",
+  "geos": [
+   "South Korea",
+   "United States",
+   "40+ countries"
+  ],
+  "apac": true,
+  "heldSince": "2026-06",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; TA strategic growth investment announced 16 Jun 2026, terms not disclosed; prior US$20m Series C (2024) led by Shinyoung Securities and BSK Investment; Dunamu & Partners follow-on round Jul 2026 with TA co-investing, amount undisclosed",
+   "url": "https://www.businesswire.com/news/home/20260616325248/en/"
+  },
+  "summary": "Seoul-based (founded 2018, US office in Schaumburg, IL) developer of AI software for MRI: SwiftMR (scan acceleration and image enhancement) and SwiftSight (quantification and reporting), used at 1,700+ institutions in 40+ countries on 6m+ MRI exams a year. TA Associates announced a strategic growth investment on 16 Jun 2026 (terms undisclosed, close expected by end-June 2026) and co-invested in a Dunamu & Partners follow-on round in Jul 2026.",
+  "signals": [
+   {
+    "date": "2026-07-13",
+    "publisher": "McGuireWoods (Healthcare & Life Sciences PE Deal Tracker)",
+    "title": "Healthcare & Life Sciences Private Equity Deal Tracker: TA Associates Invests in AIRS Medical",
+    "url": "https://blogs.mcguirewoods.com/2026/07/13/healthcare-life-sciences-private-equity-deal-tracker-ta-associates-invests-in-airs-medical/"
+   },
+   {
+    "date": "2026-07-02",
+    "publisher": "VentureSquare",
+    "title": "Breaking into the global market with MRI AI\u2026 Dunamu & Partners place additional bet on Airs Medical",
+    "url": "https://www.venturesquare.net/en/1095264/"
+   },
+   {
+    "date": "2026-06-16",
+    "publisher": "Business Wire (press release)",
+    "title": "AIRS Medical Welcomes Strategic Growth Investment from TA Associates to Accelerate Global Growth in AI Powered MRI Solutions",
+    "url": "https://www.businesswire.com/news/home/20260616325248/en/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-02T08:06:25Z"
  },
  {
   "id": "ta-associates-aptean",
@@ -6431,7 +6719,7 @@
   "firm": "warburg-pincus",
   "name": "CreditorWatch",
   "slug": "creditorwatch",
-  "industry": "fintech",
+  "industry": "data",
   "industryLabel": "Commercial credit data and risk analytics",
   "hq": "Sydney, Australia",
   "geos": [
@@ -7344,6 +7632,48 @@
    "status": "none"
   },
   "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "warburg-pincus-trax",
+  "firm": "warburg-pincus",
+  "name": "Trax",
+  "slug": "trax",
+  "industry": "data",
+  "industryLabel": "retail shelf-intelligence / computer-vision data (core image-recognition unit divested Feb 2026)",
+  "hq": "Singapore",
+  "geos": [
+   "Singapore",
+   "United States",
+   "Israel"
+  ],
+  "apac": true,
+  "heldSince": "2017-06",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; reported unicorn at the HOPU-led US$100m Series D (2019); US$640m round led by SoftBank Vision Fund 2 and BlackRock in 2021, after which SoftBank was largest shareholder and Warburg Pincus second-largest",
+   "url": "https://www.bloombergquint.com/markets/softbank-blackrock-lead-640-million-funding-for-startup-trax"
+  },
+  "summary": "Singapore-HQ retail-intelligence company whose computer vision turns shelf images into store-execution data for CPG brands and retailers. Warburg Pincus led its US$64m round in June 2017, becoming largest institutional shareholder; SoftBank Vision Fund 2 and BlackRock led a US$640m round in 2021. In Feb 2026 Trax Ltd divested its Image Recognition unit to Gemspring Capital.",
+  "signals": [
+   {
+    "date": "2026-02-03",
+    "publisher": "Consumer Goods Technology",
+    "title": "News Briefs - Feb 3, 2026 (Trax Limited divests Image Recognition business to Gemspring Capital, to be merged with FORM/GoSpotCheck)",
+    "url": "https://consumergoods.com/news-briefs/2026-02-03"
+   },
+   {
+    "date": "2017-06-28",
+    "publisher": "e27",
+    "title": "Retail intelligence firm Trax closes $64M investment in order to provide better insights to customers",
+    "url": "https://e27.co/retail-intelligence-firm-trax-closes-64m-investment-order-provide-better-insights-customers-20170628/"
+   }
+  ],
+  "exit": {
+   "note": "PR Newswire, Feb 2026: Trax Ltd sold its core Image Recognition business to a Gemspring Capital affiliate (merged with FORM); remaining Trax Ltd businesses continue; Warburg Pincus's residual position not disclosed and consumer unit Shopkick shut Mar 2026",
+   "status": "partial"
+  },
+  "firstSeen": "2026-11-02T08:06:25Z"
  },
  {
   "id": "warburg-pincus-truhome-finance",
