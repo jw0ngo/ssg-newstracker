@@ -1,13 +1,13 @@
 {
  "pull": {
-  "at": "2026-11-01T23:36:57Z",
-  "added": 197
+  "at": "2026-11-02T22:53:33Z",
+  "added": 3
  },
- "prevPull": "2026-10-31T23:37:37Z",
+ "prevPull": "2026-11-01T23:36:57Z",
  "counts": {
-  "deals": 7979,
+  "deals": 8725,
   "targets": 37,
-  "portcos": 168
+  "portcos": 199
  },
  "window": 90
 }
