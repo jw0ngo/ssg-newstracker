@@ -3867,7 +3867,7 @@
   "firm": "navis",
   "name": "Caring Group",
   "slug": "caring-group",
-  "industry": "other",
+  "industry": "healthit",
   "industryLabel": "Tech-enabled home care, disability services",
   "hq": "Australia",
   "geos": [
@@ -3894,7 +3894,7 @@
   "firm": "navis",
   "name": "Device Technologies",
   "slug": "device-technologies",
-  "industry": "other",
+  "industry": "healthit",
   "industryLabel": "Medical device distribution ANZ, SEA",
   "hq": "Sydney, Australia",
   "geos": [
@@ -5978,7 +5978,7 @@
   "firm": "tpg",
   "name": "Pathology Asia Holdings",
   "slug": "pathology-asia-holdings",
-  "industry": "other",
+  "industry": "healthit",
   "industryLabel": "Clinical laboratory & genomics, Southeast Asia",
   "hq": "Singapore",
   "geos": [

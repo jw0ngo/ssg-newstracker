@@ -275,6 +275,8 @@ a { color: inherit; }
       <button data-tab="data">Data &amp; Info Services</button>
       <button data-tab="ai">AI Defensible Applications</button>
       <button data-tab="internet">Marketplaces &amp; Networks</button>
+      <button data-tab="saas">SME &amp; Vertical SaaS</button>
+      <button data-tab="healthit">Health IT &amp; Services</button>
     </div>
     <div class="seg" id="seg">
       <button data-seg="priority">Priority</button>
@@ -1276,8 +1278,19 @@ function renderPortcos() {
 // the same board sorts by sponsor.
 // Tab → roster industry. Josh, 2 Nov 2026: Fintech, then Data & Info Services, AI Defensible
 // Applications and Marketplaces & Networks, the four SSG focus areas.
-const BOARDS = { fintech: 'Fintech', data: 'Data & Info Services', ai: 'AI Defensible Applications', internet: 'Marketplaces & Networks' };
-const BOARD_WHAT = { fintech: 'fintech', data: 'data and information-services', ai: 'AI-application', internet: 'marketplace and network' };
+// Each board: the tab label, the wording for its empty state and footer, and which roster rows it
+// shows. SaaS is the software roster without the IT-services, engineering and BPO holdings (Josh,
+// 2 Nov 2026: "SME & Vertical SaaS", leave IT services off); Health IT also carries the
+// healthcare-services holdings retagged from 'other'.
+const IT_SERVICES = /\b(IT services|IT consulting|engineering services|system integration|systems integration|BPO|CX|informatics services|Enterprise IT|managed services|outsourcing)\b/i;
+const BOARDS = {
+  fintech: { label: 'Fintech', what: 'fintech', match: (p) => p.industry === 'fintech' },
+  data: { label: 'Data & Info Services', what: 'data and information-services', match: (p) => p.industry === 'data' },
+  ai: { label: 'AI Defensible Applications', what: 'AI-application', match: (p) => p.industry === 'ai' },
+  internet: { label: 'Marketplaces & Networks', what: 'marketplace and network', match: (p) => p.industry === 'internet' },
+  saas: { label: 'SME & Vertical SaaS', what: 'SaaS', match: (p) => p.industry === 'software' && !IT_SERVICES.test(p.industryLabel || '') },
+  healthit: { label: 'Health IT & Services', what: 'health IT and health-services', match: (p) => p.industry === 'healthit' },
+};
 // The board's countries (Josh, 2 Nov 2026): APAC without India and mainland China. Display order:
 // Singapore and SE Asia first, then ANZ, then North Asia. Hong Kong and Taiwan are matched before
 // the China exclusion so "Hong Kong, China" lands in Hong Kong.
@@ -1342,7 +1355,7 @@ function boardCard(p) {
 }
 function renderBoard(sector) {
   const v = view;
-  const rows = portcos.filter((p) => p.industry === sector);
+  const rows = portcos.filter(BOARDS[sector].match);
   const onb = rows.filter((p) => countryOf(p));   // chip counts are what the board shows
   const owners = FIRMS.filter((f) => rows.some((p) => p.firm === f.id));
   if (v.bfirm !== 'all' && !owners.some((f) => f.id === v.bfirm)) v.bfirm = 'all';
@@ -1356,9 +1369,9 @@ function renderBoard(sector) {
   const all = COUNTRIES.map(([code, name]) => ({ code, name, cards: list.filter((x) => x.c[0] === code) }));
   const cols = all.filter((c) => c.cards.length);
   const gaps = all.filter((c) => !c.cards.length).map((c) => c.name);
-  const what = BOARD_WHAT[sector] || BOARDS[sector].toLowerCase();
-  const emptyMsg = !loaded ? `<b>Loading the ${BOARDS[sector]} board.</b>` : rows.length ? `No ${what} portcos on the board for this sponsor${off.length ? ` (${off.length} outside the board's markets)` : ''}.` : `<b>No ${what} portcos on the roster yet.</b><br>Ask Jobi to seed the portfolio.`;
-  const note = loaded && cols.length ? `<p class="gaps">${gaps.length ? `Nothing on the roster yet in ${esc(gaps.join(', '))}.` : ''}${off.length ? ` ${off.length} ${what} portco${off.length > 1 ? 's' : ''} outside the board's markets not shown: ${esc(off.map((x) => x.p.name).join(', '))}.` : ''}</p>` : '';
+  const what = BOARDS[sector].what;
+  const emptyMsg = !loaded ? `<b>Loading the ${BOARDS[sector].label} board.</b>` : rows.length ? `No ${what} portcos on the board for this sponsor${off.length ? ` (${off.length} outside the board's markets)` : ''}.` : `<b>No ${what} portcos on the roster yet.</b><br>Ask Jobi to seed the portfolio.`;
+  const note = loaded && cols.length ? `<p class="gaps">${gaps.length ? `Nothing on the roster yet in ${esc(gaps.join(', '))}.` : ''}${off.length ? ` ${off.length} ${what} portco${off.length > 1 ? 's' : ''} outside the board's markets not shown: ${esc(off.slice(0, 12).map((x) => x.p.name).join(', '))}${off.length > 12 ? ` and ${off.length - 12} more` : ''}.` : ''}</p>` : '';
   $('list').innerHTML = cols.length ? cols.map((c) => `<section class="col"><div class="colh"><b>${c.code}</b>${esc(c.name)}<span>${c.cards.length}</span></div>${c.cards.map((x) => boardCard(x.p)).join('')}</section>`).join('') : `<div class="empty">${emptyMsg}</div>`;
   $('gaps').innerHTML = note;
 }
