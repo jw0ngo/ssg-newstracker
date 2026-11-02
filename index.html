@@ -63,6 +63,18 @@ a { color: inherit; }
 .firm-name { font-family: var(--display); font-weight: 600; font-size: 15px; color: var(--muted); letter-spacing: .01em; }
 .firm.on .firm-name { color: var(--fg); }
 .stamp { font-family: var(--mono); font-size: 11.5px; color: var(--faint); white-space: nowrap; }
+.mast-r { display: flex; align-items: center; gap: 14px; }
+.q { display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 8px 0 10px; border: 1px solid var(--rule); border-radius: 999px; background: var(--surface); color: var(--faint); width: 230px; transition: width .25s ease, border-color .2s; }
+.q:focus-within { border-color: var(--accent); color: var(--accent); width: 300px; }
+.q svg { width: 15px; height: 15px; flex: none; }
+.q input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font: 500 13.5px var(--display); color: var(--fg); }
+.q input::placeholder { color: var(--faint); font-weight: 400; }
+.q input::-webkit-search-cancel-button { display: none; }
+.q button { flex: none; width: 20px; height: 20px; border-radius: 50%; border: 0; background: var(--rule); color: var(--fg); font: 700 14px/1 var(--display); cursor: pointer; padding: 0; }
+.q.on { border-color: var(--accent); }
+.bc .bd { font-family: var(--mono); font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); background: var(--accent-soft); padding: 2px 6px; border-radius: 4px; }
+mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; padding: 0 1px; }
+@media (max-width: 640px) { .mast { flex-wrap: wrap; } .mast-r { width: 100%; justify-content: space-between; gap: 10px; } .q, .q:focus-within { width: auto; flex: 1 1 150px; min-width: 0; } .mast-r .stamp { flex: none; } }
 .tabs { display: flex; gap: 18px; border-bottom: 1px solid var(--rule); }
 .tabs button { font-family: var(--display); font-weight: 700; font-size: 16px; letter-spacing: .01em; color: var(--faint); padding: 2px 0 8px; border-bottom: 2px solid transparent; margin-bottom: -1px; }
 .tabs button.on { color: var(--fg); border-bottom-color: var(--accent); }
@@ -278,7 +290,10 @@ a { color: inherit; }
     <div class="site"><span class="brand">SSG Newstracker</span><nav class="nav" id="nav" aria-label="Sections"></nav></div>
     <div class="mast">
       <h1 id="h1">Exit Readiness Tracker</h1>
-      <span class="stamp" id="stamp">loading</span>
+      <div class="mast-r">
+        <label class="q" id="qbox"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><input id="q" type="search" placeholder="Search all portcos" autocomplete="off" spellcheck="false" aria-label="Search all portco cards"><button type="button" id="qx" aria-label="Clear search" hidden>×</button></label>
+        <span class="stamp" id="stamp">loading</span>
+      </div>
     </div>
     <!-- One button per firm. The mark is a monogram stand-in until a real logo is on hand. -->
     <div class="firms" id="firms"></div>
@@ -1007,6 +1022,13 @@ let triage = {};         // id → { status, note, at }
 let targets = [];        // candidate companies, seeded by Jobi
 let portcos = [];        // the firm's current portfolio companies, seeded by Jobi, signals kept by the daily pull
 const openPortco = new Set();   // cards expanded this visit
+let query = '';                  // the search box (Josh, 2 Nov 2026): every word must appear somewhere on the card
+const boardOf = (p) => Object.keys(BOARDS).find((k) => BOARDS[k].match(p)) || null;
+const haystack = (p) => { const f = FIRMS.find((x) => x.id === p.firm); const b = boardOf(p);
+  return [p.name, f && f.name, p.industryLabel, p.industry, b && BOARDS[b].label, p.hq, ...(p.geos || []), p.stake, p.summary, (p.exit || {}).status, (p.exit || {}).note, (p.valuation || {}).amount, ...(p.signals || []).map((g) => g.title)].filter(Boolean).join(' \n ').toLowerCase(); };
+const matches = (p, q) => { const h = haystack(p); return q.split(/\s+/).every((w) => h.includes(w)); };
+// Wrap each search word in the text (escaped first) so the hit shows on the card.
+const hilite = (text, q) => { let out = esc(text || ''); if (!q) return out; for (const w of q.split(/\s+/).filter(Boolean)) out = out.replace(new RegExp(w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), (m) => `<mark class="hit">${m}</mark>`); return out; };
 let pull = null;         // { at, added } — written by the morning routine
 let targetTriage = {};   // id → { status, note, at }
 let db = null, canWrite = true, editing = null, loaded = false;
@@ -1305,6 +1327,7 @@ const BOARDS = {
 // the China exclusion so "Hong Kong, China" lands in Hong Kong.
 const COUNTRIES = [['SG', 'Singapore'], ['MY', 'Malaysia'], ['ID', 'Indonesia'], ['TH', 'Thailand'], ['VN', 'Vietnam'], ['PH', 'Philippines'], ['KH', 'Cambodia'], ['AU', 'Australia'], ['NZ', 'New Zealand'], ['JP', 'Japan'], ['KR', 'South Korea'], ['HK', 'Hong Kong'], ['TW', 'Taiwan']];
 const OFF_BOARD = /\bIndia\b|\bChina\b|\bPRC\b/i;
+const REST = ['RW', 'Rest of world'];   // a search result's column when the company has no board market
 const countryHit = (s) => COUNTRIES.find(([, n]) => new RegExp(`\\b${n}\\b`, 'i').test(s) || (n === 'South Korea' && /\bKorea\b/i.test(s)));
 // The HQ country when it is on the board; a company based in India, China or outside APAC is placed
 // by the first board market it lists, and one with none stays off the board (counted under it).
@@ -1341,12 +1364,13 @@ function boardCard(p) {
   return `
     <article class="pc bc${open ? ' open' : ''}${r.band === 'ripe' ? ' hot' : r.band === 'warming' ? ' ripe' : ''}" data-pid="${esc(p.id)}">
       <div class="meta">
-        <span class="owner" style="--oc:${c}"><i>${m}</i>${esc(f.name)}</span>
+        <span class="owner" style="--oc:${c}"><i>${m}</i>${hilite(f.name, query)}</span>
         ${rank ? `<span class="tag exit-${esc(p.exit.status)}">${EXIT_LABEL[p.exit.status]}</span>` : ''}
+        ${query && boardOf(p) ? `<span class="bd">${esc(BOARDS[boardOf(p)].label)}</span>` : ''}
         <span class="rs ${r.band}" title="${esc(split)}">${r.score}</span>
       </div>
-      <div class="name">${esc(p.name)}</div>
-      <div class="where">${esc([p.industryLabel || '', p.hq].filter(Boolean).join(' · '))}</div>
+      <div class="name">${hilite(p.name, query)}</div>
+      <div class="where">${hilite([p.industryLabel || '', p.hq].filter(Boolean).join(' · '), query)}</div>
       <div class="facts">
         ${y !== null ? `<span class="hold${y >= 4 ? ' ripe' : ''}" title="held ${esc(HEAT_heldLabel(y))} since ${esc(sinceLabel(p))}">held <b>${esc(HEAT_heldLabel(y))}</b> since ${esc(sinceLabel(p))}<span class="holdbar"><i style="width:${Math.min(100, y / 7 * 100).toFixed(0)}%"></i></span></span>` : '<span class="hold">hold date n/a</span>'}
         ${p.stake && p.stake !== 'unknown' ? `<span class="fact">${esc(p.stake)} stake</span>` : ''}
@@ -1354,8 +1378,8 @@ function boardCard(p) {
       </div>
       ${open ? `<div class="more">
         <div class="rsx"><span>sell-readiness <b>${r.score}</b></span><span>hold <b>${r.hold}</b>/60 · ${esc(r.holdWhy)}</span><span>likelihood <b>${r.like}</b>/40 · ${esc(r.likeWhy)}</span></div>
-        ${p.summary ? `<p class="why">${esc(p.summary)}</p>` : ''}
-        ${rank && p.exit.note ? `<p class="move">${esc(p.exit.note)}</p>` : ''}
+        ${p.summary ? `<p class="why">${hilite(p.summary, query)}</p>` : ''}
+        ${rank && p.exit.note ? `<p class="move">${hilite(p.exit.note, query)}</p>` : ''}
         ${(p.geos || []).length ? `<p class="also">${esc(p.geos.join(' · '))}</p>` : ''}
         ${news.length ? `<div class="sig">${news.map((g) => `<div><a href="${esc(g.url)}" target="_blank" rel="noopener noreferrer"><span class="d">${esc(dayLabel(g.date))}</span>${esc(g.title)}</a> <span class="pub">${esc(g.publisher || '')}</span></div>`).join('')}</div>` : '<p class="why" style="color:var(--faint)">No dated headlines on file yet.</p>'}
         <div class="open-hint"><a class="lnk" href="${esc(gnews(`${p.name} ${f.name}`))}" target="_blank" rel="noopener noreferrer" style="font-size:11px">all news on ${esc(p.name)}</a></div>
@@ -1364,23 +1388,26 @@ function boardCard(p) {
 }
 function renderBoard(sector) {
   const v = view;
-  const rows = portcos.filter(BOARDS[sector].match);
+  const q = query;
+  // A search looks across every portco on the roster, whatever its board, and shows the ones
+  // outside the board's markets in a trailing column rather than dropping them.
+  const rows = q ? portcos.filter((p) => matches(p, q)) : portcos.filter(BOARDS[sector].match);
   const onb = rows.filter((p) => countryOf(p));   // chip counts are what the board shows
   const owners = FIRMS.filter((f) => rows.some((p) => p.firm === f.id));
   if (v.bfirm !== 'all' && !owners.some((f) => f.id === v.bfirm)) v.bfirm = 'all';
   const n = (k) => (k ? ` · ${k}` : '');
   $('chips').innerHTML = `<button class="chip${v.bfirm === 'all' ? ' on' : ''}" data-bfirm="all">All sponsors${n(onb.length)}</button>`
     + owners.map((f) => `<button class="chip${v.bfirm === f.id ? ' on' : ''}" data-bfirm="${f.id}">${esc(f.name)}${n(onb.filter((p) => p.firm === f.id).length)}</button>`).join('');
-  const picked = (v.bfirm === 'all' ? rows : rows.filter((p) => p.firm === v.bfirm)).map((p) => ({ p, r: readiness(p), c: countryOf(p) }));
+  const picked = (v.bfirm === 'all' ? rows : rows.filter((p) => p.firm === v.bfirm)).map((p) => ({ p, r: readiness(p), c: countryOf(p) || (q ? REST : null) }));
   const list = picked.filter((x) => x.c);
   const off = picked.filter((x) => !x.c);
   list.sort((a, b) => b.r.score - a.r.score || (b.r.years ?? -1) - (a.r.years ?? -1) || a.p.name.localeCompare(b.p.name));
-  const all = COUNTRIES.map(([code, name]) => ({ code, name, cards: list.filter((x) => x.c[0] === code) }));
+  const all = [...COUNTRIES, ...(q ? [REST] : [])].map(([code, name]) => ({ code, name, cards: list.filter((x) => x.c[0] === code) }));
   const cols = all.filter((c) => c.cards.length);
-  const gaps = all.filter((c) => !c.cards.length).map((c) => c.name);
+  const gaps = q ? [] : all.filter((c) => !c.cards.length).map((c) => c.name);
   const what = BOARDS[sector].what;
-  const emptyMsg = !loaded ? `<b>Loading the ${BOARDS[sector].label} board.</b>` : rows.length ? `No ${what} portcos on the board for this sponsor${off.length ? ` (${off.length} outside the board's markets)` : ''}.` : `<b>No ${what} portcos on the roster yet.</b><br>Ask Jobi to seed the portfolio.`;
-  const note = loaded && cols.length ? `<p class="gaps">${gaps.length ? `Nothing on the roster yet in ${esc(gaps.join(', '))}.` : ''}${off.length ? ` ${off.length} ${what} portco${off.length > 1 ? 's' : ''} outside the board's markets not shown: ${esc(off.slice(0, 12).map((x) => x.p.name).join(', '))}${off.length > 12 ? ` and ${off.length - 12} more` : ''}.` : ''}</p>` : '';
+  const emptyMsg = !loaded ? `<b>Loading the ${BOARDS[sector].label} board.</b>` : q ? `<b>No portco matches “${esc(q)}”.</b><br>The search covers names, sponsors, sectors, places, summaries, exit notes and headlines.` : rows.length ? `No ${what} portcos on the board for this sponsor${off.length ? ` (${off.length} outside the board's markets)` : ''}.` : `<b>No ${what} portcos on the roster yet.</b><br>Ask Jobi to seed the portfolio.`;
+  const note = loaded && cols.length && q ? `<p class="gaps">${list.length} portco${list.length === 1 ? '' : 's'} match “${esc(q)}” across every board${v.bfirm === 'all' ? '' : ' for this sponsor'}; the board tab is ignored while you search.</p>` : loaded && cols.length ? `<p class="gaps">${gaps.length ? `Nothing on the roster yet in ${esc(gaps.join(', '))}.` : ''}${off.length ? ` ${off.length} ${what} portco${off.length > 1 ? 's' : ''} outside the board's markets not shown: ${esc(off.slice(0, 12).map((x) => x.p.name).join(', '))}${off.length > 12 ? ` and ${off.length - 12} more` : ''}.` : ''}</p>` : '';
   $('list').innerHTML = cols.length ? cols.map((c) => `<section class="col"><div class="colh"><b>${c.code}</b>${esc(c.name)}<span>${c.cards.length}</span></div>${c.cards.map((x) => boardCard(x.p)).join('')}</section>`).join('') : `<div class="empty">${emptyMsg}</div>`;
   $('gaps').innerHTML = note;
   fitBoard(false);
@@ -1480,6 +1507,11 @@ function centreCard(id, h) {
   if (window.innerWidth > 640) list.scrollBy({ left: r.left - l.left - Math.max(0, (l.width - r.width) / 2), behavior: 'smooth' });
 }
 let fitTimer = 0;
+let qTimer = 0;
+$('q').addEventListener('input', () => { clearTimeout(qTimer); qTimer = setTimeout(() => { query = $('q').value.trim().toLowerCase(); $('qx').hidden = !query; $('qbox').classList.toggle('on', !!query); if (BOARDS[view.tab]) renderBoard(view.tab); }, 120); });
+$('q').addEventListener('keydown', (e) => { if (e.key === 'Escape') { $('q').value = ''; $('q').dispatchEvent(new Event('input')); $('q').blur(); } });
+$('qx').addEventListener('click', () => { $('q').value = ''; $('q').dispatchEvent(new Event('input')); $('q').focus(); });
+document.addEventListener('keydown', (e) => { if (e.key === '/' && !/input|textarea/i.test((e.target || {}).tagName)) { e.preventDefault(); $('q').focus(); } });
 window.addEventListener('resize', () => { clearTimeout(fitTimer); fitTimer = setTimeout(() => { if (BOARDS[view.tab]) fitBoard(true); }, 120); });
 
 function render() {
