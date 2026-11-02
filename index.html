@@ -242,12 +242,13 @@ a { color: inherit; }
 .rsx { display: flex; flex-wrap: wrap; gap: 4px 10px; margin: 0 0 8px; font-family: var(--mono); font-size: 11px; color: var(--muted); }
 .rsx b { color: var(--fg); font-weight: 600; }
 .chips .sep { width: 1px; align-self: stretch; background: var(--rule); margin: 2px 4px; flex: none; }
+.gaps { margin: 6px 0 0; font-family: var(--mono); font-size: 11px; color: var(--faint); line-height: 1.5; }
 .bc { cursor: pointer; }
 .bc .hold { white-space: nowrap; max-width: 100%; }
 .bc .hold b { white-space: nowrap; }
 .bc .holdbar { flex: 0 1 54px; min-width: 18px; width: 54px; }
 .bc.open { grid-column: auto; cursor: default; }
-@media (max-width: 640px) { .list.board { grid-auto-flow: row; grid-auto-columns: auto; } }
+@media (max-width: 640px) { .list.board { grid-auto-flow: row; grid-auto-columns: auto; } .nav .nl { display: none; } }
 
 /* ── desktop: the page fills the screen; the lists go several across, the board side by side ── */
 @media (min-width: 900px) {
@@ -263,17 +264,14 @@ a { color: inherit; }
   <div class="top" id="top">
     <div class="site"><span class="brand">SSG Newstracker</span><nav class="nav" id="nav" aria-label="Sections"></nav></div>
     <div class="mast">
-      <h1 id="h1">PE Client Tracker</h1>
+      <h1 id="h1">Exit Readiness Tracker</h1>
       <span class="stamp" id="stamp">loading</span>
     </div>
     <!-- One button per firm. The mark is a monogram stand-in until a real logo is on hand. -->
     <div class="firms" id="firms"></div>
     <div class="tabs" id="tabs">
-      <button data-tab="news">Announcements</button>
-      <button data-tab="situations">Situations</button>
-      <button data-tab="portcos">Portcos</button>
+      <!-- Boards only (Josh, 2 Nov 2026): the announcement, situation, portco and target tabs are retired from this page. -->
       <button data-tab="fintech">Fintech</button>
-      <button data-tab="targets"><span class="long">Potential </span>Targets</button>
     </div>
     <div class="seg" id="seg">
       <button data-seg="priority">Priority</button>
@@ -283,12 +281,13 @@ a { color: inherit; }
     <div class="banner" id="banner" hidden></div>
   </div>
   <div class="list" id="list">
-    <div class="empty"><b>Loading announcements.</b><br>Each one will show the event, the thesis it fits, and the SSG pitch it opens.</div>
+    <div class="empty"><b>Loading the Fintech board.</b></div>
   </div>
+  <div id="gaps"></div>
   <p class="foot" id="footSits" hidden>Situations group the stories of one deal, round or process across the weeks it runs, by the company they are about (read from the headline; a known portco or target wins) and by shared words, so twenty headlines on one takeover read as one card. The phase is the furthest any report got: Reported (explores, weighs, in talks), In process (advisers hired, data room, bids, shortlist, an unaccepted offer), Agreed, Completed. The heat is the hottest story's. A card is shown when a situation has more than one story or is in process; tap it for every story.</p>
   <p class="foot" id="footNews">Priority is ordered by Heat, a 0–100 score for the Singapore SSG team: APAC relevance (25 — Singapore and SE Asia first, then India and ANZ, then North Asia), live process (20), technology intensity (20), sponsor relationship (15), deal size (10) and ten for the day it breaks; from then on the whole number fades with age — full for two days, two-thirds at a week, half at ten days — so the list always leads with the latest. Tap the flame number for the breakdown. An item is on the list when it is relevant: an APAC item whenever it carries an event or a focus area; a global item only when it is live or signed and in a focus area, or a fund close, a new platform or a senior hire. The rest is kept behind the link at the bottom; the page carries the last 90 days and the archive in the repo keeps everything. Event, thesis and APAC are read from the headline by keyword; the matched words sit under each tag. A portfolio company buying something is an add-on and is listed here with the buyer's name, whether or not the headline names the firm. A story tagged BACKGROUND is a profile page or a re-told old deal (the text, the url or the holding date gives it away) and sits below the bar. <span id="footTriage">Pursue, Watch, Dismiss and notes are saved and shared with anyone who can open this page.</span></p>
   <p class="foot" id="footPortcos" hidden>Portcos are the firm's current portfolio companies that matter to SSG: focus-area companies first, APAC-weighted, and within that the longest held at the top, because four or more years is where a sponsor starts planning the exit. The hold clock on each card fills to seven years and turns hot past four, the exit window; a story about a portco in the window scores extra Heat. A reported sale or IPO process is tagged on the card. Tap a card for the business in a sentence and its five latest headlines, which are the hand-kept signals plus a daily news search on the company's own name. Valuations are estimates with their basis beside them.</p>
-  <p class="foot" id="footBoard" hidden>The Fintech board is every sponsor's fintech portfolio company, in a column per country: the HQ country, or the first APAC market a company operates in, with the rest of the world in one column. Cards are ranked by sell-readiness, a 0–100 score: up to 60 for time held, which weighs most (past four years is the exit window, six or more is ripe; a company with no hold date on file gets 20), and up to 40 for sell-likelihood (a reported sale process 40, reported talks 30, a partial exit 22, a listing with the sponsor still holding 18, plus 10 for a sale, IPO or bid headline in the last six months). Ripe is 60 or more, Warming 35. Hover or tap the number for the split. The owner tag names the sponsor; "By sponsor" groups each column by owner, and a sponsor chip narrows the board to one. Tap a card for the business in a sentence and its latest headlines.</p>
+  <p class="foot" id="footBoard" hidden>The Fintech board is every sponsor's fintech portfolio company in Asia-Pacific outside India and mainland China, in a column per country: the HQ country, or for a company based elsewhere the first board market it operates in. Cards are ranked by sell-readiness, a 0–100 score: up to 60 for time held, which weighs most (past four years is the exit window, six or more is ripe; a company with no hold date on file gets 20), and up to 40 for sell-likelihood (a reported sale process 40, reported talks 30, a partial exit 22, a listing with the sponsor still holding 18, plus 10 for a sale, IPO or bid headline in the last six months). Ripe is 60 or more, Warming 35. Hover or tap the number for the split. The owner tag names the sponsor, and a sponsor chip narrows the board to one. Tap a card for the business in a sentence and its latest headlines.</p>
   <p class="foot" id="footTargets" hidden>Targets are Jobi's candidates, not anything Warburg Pincus has said: companies in a focus area that look like what the firm buys, with the signals that make the case. A live process is reported by the press; everything else is a watch. Priority puts sponsor-owned companies first, longest hold at the top: a fund four or more years in is the seller most likely to run a process.</p>
 </div>
 <button class="totop" id="toTop" hidden aria-label="Back to top">↑</button>
@@ -298,7 +297,7 @@ a { color: inherit; }
 const NAV = {"here":"pe","impact":"impact/","brief":"brief/","pe":"./","ai":"ai/"};
 // The two sections of one site. In the public copy the links are relative paths inside the repo;
 // in the private artifacts they are the other artifact's URL.
-document.getElementById('nav').innerHTML = [['impact', 'AI Impact'], ['brief', 'Morning Brief'], ['pe', 'PE Clients'], ['ai', 'AI &amp; Tech']]
+document.getElementById('nav').innerHTML = [['impact', 'AI Impact'], ['brief', 'Morning Brief'], ['pe', 'Exit Readiness<span class="nl"> Tracker</span>'], ['ai', 'AI &amp; Tech']]
   .map(([k, l]) => `<a href="${String(NAV[k]).replace(/"/g, '&quot;')}"${NAV.here === k ? ' class="on"' : ''}>${l}</a>`).join('');
 const FIRMS = [{
   id: "warburg-pincus", name: "Warburg Pincus", match: /warburg/i,
@@ -985,7 +984,7 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '
 
 // Per-viewer conveniences only. Triage lives in the shared store.
 const PREFS = 'pe-client-tracker.view';
-let view = { firm: FIRMS[0].id, tab: 'news', seg: 'priority', thesis: 'all', apac: false, showDismissed: false, bsort: 'ready', bfirm: 'all' };
+let view = { firm: FIRMS[0].id, tab: 'fintech', seg: 'priority', thesis: 'all', apac: false, showDismissed: false, bsort: 'ready', bfirm: 'all' };
 try { view = { ...view, ...JSON.parse(localStorage.getItem(PREFS) || '{}'), showDismissed: false }; } catch {}
 const savePrefs = () => { try { localStorage.setItem(PREFS, JSON.stringify({ firm: view.firm, tab: view.tab, seg: view.seg, thesis: view.thesis, apac: view.apac, bsort: view.bsort, bfirm: view.bfirm })); } catch {} };
 
@@ -1273,13 +1272,15 @@ function renderPortcos() {
 // a column per country, ranked by sell-readiness. The owner tag on each card is the sponsor, so
 // the same board sorts by sponsor.
 const BOARDS = { fintech: 'Fintech' };
-// Display order: Singapore and SE Asia first, then India and ANZ, then North Asia. The matcher
-// tries Hong Kong and Taiwan before China so "Hong Kong, China" lands in Hong Kong.
-const COUNTRIES = [['SG', 'Singapore'], ['ID', 'Indonesia'], ['MY', 'Malaysia'], ['TH', 'Thailand'], ['VN', 'Vietnam'], ['PH', 'Philippines'], ['IN', 'India'], ['AU', 'Australia'], ['NZ', 'New Zealand'], ['JP', 'Japan'], ['KR', 'South Korea'], ['HK', 'Hong Kong'], ['TW', 'Taiwan'], ['CN', 'China']];
-const REST = ['RW', 'Rest of world'];
+// The board's countries (Josh, 2 Nov 2026): APAC without India and mainland China. Display order:
+// Singapore and SE Asia first, then ANZ, then North Asia. Hong Kong and Taiwan are matched before
+// the China exclusion so "Hong Kong, China" lands in Hong Kong.
+const COUNTRIES = [['SG', 'Singapore'], ['MY', 'Malaysia'], ['ID', 'Indonesia'], ['TH', 'Thailand'], ['VN', 'Vietnam'], ['PH', 'Philippines'], ['KH', 'Cambodia'], ['AU', 'Australia'], ['NZ', 'New Zealand'], ['JP', 'Japan'], ['KR', 'South Korea'], ['HK', 'Hong Kong'], ['TW', 'Taiwan']];
+const OFF_BOARD = /\bIndia\b|\bChina\b|\bPRC\b/i;
 const countryHit = (s) => COUNTRIES.find(([, n]) => new RegExp(`\\b${n}\\b`, 'i').test(s) || (n === 'South Korea' && /\bKorea\b/i.test(s)));
-// The HQ country when it is in APAC, else the first APAC market the company lists, else the rest.
-const countryOf = (p) => countryHit(String(p.hq || '')) || (p.geos || []).map((g) => countryHit(String(g))).find(Boolean) || REST;
+// The HQ country when it is on the board; a company based in India, China or outside APAC is placed
+// by the first board market it lists, and one with none stays off the board (counted under it).
+const countryOf = (p) => countryHit(String(p.hq || '')) || (p.geos || []).map((g) => countryHit(String(g))).find(Boolean) || null;
 const EXIT_SIGNAL = /\b(sale|sell|sells|selling|sold|stake|ipo|listing|list|bid|offer|exit|divest|talks|buyers?|auction|dual-track|strategic review|take-?private|tender offer)\b/i;
 const LIKELIHOOD = { process: 40, rumoured: 30, partial: 22, listed: 18 };
 // Sell-readiness, 0–100. Time held weighs most (up to 60): the hold clock is the exit clock, and
@@ -1336,26 +1337,30 @@ function boardCard(p) {
 function renderBoard(sector) {
   const v = view;
   const rows = portcos.filter((p) => p.industry === sector);
+  const onb = rows.filter((p) => countryOf(p));   // chip counts are what the board shows
   const owners = FIRMS.filter((f) => rows.some((p) => p.firm === f.id));
   if (v.bfirm !== 'all' && !owners.some((f) => f.id === v.bfirm)) v.bfirm = 'all';
   const n = (k) => (k ? ` · ${k}` : '');
-  $('chips').innerHTML = [['ready', 'Sell-readiness'], ['sponsor', 'By sponsor']].map(([k, l]) => `<button class="chip${v.bsort === k ? ' on' : ''}" data-bsort="${k}">${l}</button>`).join('')
-    + '<span class="sep"></span>'
-    + `<button class="chip${v.bfirm === 'all' ? ' on' : ''}" data-bfirm="all">All sponsors${n(rows.length)}</button>`
-    + owners.map((f) => `<button class="chip${v.bfirm === f.id ? ' on' : ''}" data-bfirm="${f.id}">${esc(f.name)}${n(rows.filter((p) => p.firm === f.id).length)}</button>`).join('');
-  const list = (v.bfirm === 'all' ? rows : rows.filter((p) => p.firm === v.bfirm)).map((p) => ({ p, r: readiness(p), c: countryOf(p) }));
-  const firmIx = (p) => FIRMS.findIndex((f) => f.id === p.firm);
-  list.sort((a, b) => (v.bsort === 'sponsor' ? firmIx(a.p) - firmIx(b.p) : 0) || b.r.score - a.r.score || (b.r.years ?? -1) - (a.r.years ?? -1) || a.p.name.localeCompare(b.p.name));
-  const cols = [...COUNTRIES, REST].map(([code, name]) => ({ code, name, cards: list.filter((x) => x.c[0] === code) })).filter((c) => c.cards.length);
-  const emptyMsg = !loaded ? `<b>Loading the ${BOARDS[sector]} board.</b>` : rows.length ? 'No portcos for this sponsor in this sector.' : `<b>No ${BOARDS[sector].toLowerCase()} portcos on the roster yet.</b><br>Ask Jobi to seed the portfolio.`;
+  $('chips').innerHTML = `<button class="chip${v.bfirm === 'all' ? ' on' : ''}" data-bfirm="all">All sponsors${n(onb.length)}</button>`
+    + owners.map((f) => `<button class="chip${v.bfirm === f.id ? ' on' : ''}" data-bfirm="${f.id}">${esc(f.name)}${n(onb.filter((p) => p.firm === f.id).length)}</button>`).join('');
+  const picked = (v.bfirm === 'all' ? rows : rows.filter((p) => p.firm === v.bfirm)).map((p) => ({ p, r: readiness(p), c: countryOf(p) }));
+  const list = picked.filter((x) => x.c);
+  const off = picked.filter((x) => !x.c);
+  list.sort((a, b) => b.r.score - a.r.score || (b.r.years ?? -1) - (a.r.years ?? -1) || a.p.name.localeCompare(b.p.name));
+  const all = COUNTRIES.map(([code, name]) => ({ code, name, cards: list.filter((x) => x.c[0] === code) }));
+  const cols = all.filter((c) => c.cards.length);
+  const gaps = all.filter((c) => !c.cards.length).map((c) => c.name);
+  const emptyMsg = !loaded ? `<b>Loading the ${BOARDS[sector]} board.</b>` : rows.length ? `No ${BOARDS[sector].toLowerCase()} portcos on the board for this sponsor${off.length ? ` (${off.length} outside the board's markets)` : ''}.` : `<b>No ${BOARDS[sector].toLowerCase()} portcos on the roster yet.</b><br>Ask Jobi to seed the portfolio.`;
+  const note = loaded && cols.length ? `<p class="gaps">${gaps.length ? `Nothing on the roster yet in ${esc(gaps.join(', '))}.` : ''}${off.length ? ` ${off.length} ${BOARDS[sector].toLowerCase()} portco${off.length > 1 ? 's' : ''} outside the board's markets not shown: ${esc(off.map((x) => x.p.name).join(', '))}.` : ''}</p>` : '';
   $('list').innerHTML = cols.length ? cols.map((c) => `<section class="col"><div class="colh"><b>${c.code}</b>${esc(c.name)}<span>${c.cards.length}</span></div>${c.cards.map((x) => boardCard(x.p)).join('')}</section>`).join('') : `<div class="empty">${emptyMsg}</div>`;
+  $('gaps').innerHTML = note;
 }
 
 function render() {
   if (PUBLIC) { $('seg').hidden = true; if (view.seg === 'pipeline') view.seg = 'priority'; }
   if (view.seg === 'latest') view.seg = 'priority';   // a preference saved before Latest was removed
   firm = FIRMS.find((f) => f.id === view.firm) || FIRMS[0];
-  if (!['news', 'situations', 'portcos', 'targets', ...Object.keys(BOARDS)].includes(view.tab)) view.tab = 'news';
+  if (!BOARDS[view.tab]) view.tab = 'fintech';   // boards only: a saved preference for a retired tab falls back
   const board = BOARDS[view.tab] ? view.tab : null;
   if (view.tab !== 'portcos' && view.tab !== 'situations' && firm.theses.every((t) => t.id !== view.thesis)) view.thesis = 'all';
   $('firms').innerHTML = FIRMS.map((f) => { const [m, c] = MONO[f.id] || [f.name.slice(0, 3).toUpperCase(), '#444']; return `
@@ -1375,7 +1380,7 @@ function render() {
   $('list').classList.toggle('board', !!board);
   document.body.classList.toggle('boardon', !!board);
   $('focus').hidden = view.seg === 'pipeline' && view.tab !== 'portcos' && view.tab !== 'situations' && !board;
-  $('focus').querySelector('.focus-label').textContent = board ? 'Rank · Sponsor' : view.tab === 'situations' ? 'Phase' : 'Focus areas';
+  $('focus').querySelector('.focus-label').textContent = board ? 'Sponsor' : view.tab === 'situations' ? 'Phase' : 'Focus areas';
   if (board) { const at = pull && pull.at; $('stamp').textContent = !loaded ? 'loading' : at ? `pulled ${dayLabel(at)} ${new Date(at).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}` : 'no pull recorded'; return renderBoard(board); }
   const everything = loaded ? classifyAll() : [];
   if (view.tab === 'portcos') return renderPortcos();

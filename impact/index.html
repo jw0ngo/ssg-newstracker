@@ -124,6 +124,7 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
 .foot { color: var(--faint); font-size: 12px; margin-top: 24px; line-height: 1.5; }
 @media (max-width: 1100px) { .app { grid-template-columns: 240px 1fr 340px; } }
 @media (max-width: 860px) {
+  .nav .nl { display: none; }
   /* One screen: the header, then the map filling the rest. Filters and detail are bottom sheets
      that slide over the map; the map stays live above them. */
   html, body { height: 100vh; height: calc(100dvh - env(safe-area-inset-top, 0px)); }
@@ -225,7 +226,7 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
 <script>
 const NAV = {"here":"impact","impact":"./","brief":"../brief/","pe":"../","ai":"../ai/"};
 const DATA = { base: 'data/' };
-document.getElementById('nav').innerHTML = [['impact', 'AI Impact'], ['brief', 'Morning Brief'], ['pe', 'PE Clients'], ['ai', 'AI &amp; Tech']]
+document.getElementById('nav').innerHTML = [['impact', 'AI Impact'], ['brief', 'Morning Brief'], ['pe', 'Exit Readiness<span class="nl"> Tracker</span>'], ['ai', 'AI &amp; Tech']]
   .map(([k, l]) => `<a href="${String(NAV[k]).replace(/"/g, '&quot;')}"${NAV.here === k ? ' class="on"' : ''}>${l}</a>`).join('');
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

@@ -229,6 +229,37 @@ a { color: inherit; }
 .hold.ripe .holdbar { background: var(--hot-soft); }
 .hold.ripe .holdbar i { background: var(--hot); }
 
+/* ── sector boards (Fintech first): a column per country, cards ranked by sell-readiness ── */
+.list.board { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(236px, 1fr); gap: 12px; align-items: start; overflow-x: auto; padding-bottom: 10px; }
+.col { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.colh { display: flex; align-items: baseline; gap: 7px; font-family: var(--display); font-weight: 700; font-size: 16px; padding: 4px 2px 6px; border-bottom: 2px solid var(--rule); }
+.colh b { font-family: var(--mono); font-weight: 700; font-size: 11px; letter-spacing: .08em; color: var(--accent); background: var(--accent-soft); padding: 2px 6px; border-radius: 4px; }
+.colh span { margin-left: auto; font-family: var(--mono); font-size: 11px; font-weight: 400; color: var(--faint); }
+.owner { display: inline-flex; align-items: center; gap: 6px; font-family: var(--display); font-weight: 600; font-size: 13px; color: var(--fg); }
+.owner i { display: inline-grid; place-items: center; width: 21px; height: 21px; border-radius: 5px; background: var(--oc, #444); color: #fff; font: 700 9.5px/1 var(--display); font-style: normal; letter-spacing: .3px; }
+.rs { margin-left: auto; font-family: var(--mono); font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--rule); color: var(--muted); background: var(--bg); font-variant-numeric: tabular-nums; cursor: help; }
+.rs.ripe { color: var(--hot); border-color: var(--hot); background: var(--hot-soft); }
+.rs.warming { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+.rsx { display: flex; flex-wrap: wrap; gap: 4px 10px; margin: 0 0 8px; font-family: var(--mono); font-size: 11px; color: var(--muted); }
+.rsx b { color: var(--fg); font-weight: 600; }
+.chips .sep { width: 1px; align-self: stretch; background: var(--rule); margin: 2px 4px; flex: none; }
+.gaps { margin: 6px 0 0; font-family: var(--mono); font-size: 11px; color: var(--faint); line-height: 1.5; }
+.bc { cursor: pointer; }
+.bc .hold { white-space: nowrap; max-width: 100%; }
+.bc .hold b { white-space: nowrap; }
+.bc .holdbar { flex: 0 1 54px; min-width: 18px; width: 54px; }
+.bc.open { grid-column: auto; cursor: default; }
+@media (max-width: 640px) { .list.board { grid-auto-flow: row; grid-auto-columns: auto; } .nav .nl { display: none; } }
+
+/* ── desktop: the page fills the screen; the lists go several across, the board side by side ── */
+@media (min-width: 900px) {
+  .wrap { max-width: 1480px; padding-inline: 28px; }
+  body.boardon .wrap { max-width: none; }
+  .list:not(.board):not(.pgrid) { display: grid; grid-template-columns: repeat(auto-fill, minmax(440px, 1fr)); align-items: start; }
+  .list:not(.board):not(.pgrid) > .day, .list:not(.board):not(.pgrid) > .foot, .list:not(.board):not(.pgrid) > .empty, .list:not(.board):not(.pgrid) > .brief { grid-column: 1 / -1; }
+  .list.pgrid { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+}
+
 /* ── the Morning Brief page: the week's brief as headings and bullets, a Copy button, and the
    two sections' daily story feeds folded away underneath ── */
 .bar { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
@@ -308,7 +339,7 @@ details.daily summary span { color: var(--muted); text-transform: none; letter-s
 <script>
 const NAV = {"here":"brief","impact":"../impact/","brief":"./","pe":"../","ai":"../ai/"};
 const DATA = { brief: 'data/', pe: '../data/', ai: '../ai/data/' };
-document.getElementById('nav').innerHTML = [['impact', 'AI Impact'], ['brief', 'Morning Brief'], ['pe', 'PE Clients'], ['ai', 'AI &amp; Tech']]
+document.getElementById('nav').innerHTML = [['impact', 'AI Impact'], ['brief', 'Morning Brief'], ['pe', 'Exit Readiness<span class="nl"> Tracker</span>'], ['ai', 'AI &amp; Tech']]
   .map(([k, l]) => `<a href="${String(NAV[k]).replace(/"/g, '&quot;')}"${NAV.here === k ? ' class="on"' : ''}>${l}</a>`).join('');
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
