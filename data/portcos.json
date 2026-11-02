@@ -1,5 +1,259 @@
 [
  {
+  "id": "affinity-equity-jobkorea",
+  "firm": "affinity-equity",
+  "name": "JobKorea (Worksphere)",
+  "slug": "jobkorea",
+  "industry": "internet",
+  "industryLabel": "online job portal / HR-tech group (JobKorea, Albamon, Jobplanet)",
+  "hq": "Seoul, South Korea",
+  "geos": [
+   "South Korea"
+  ],
+  "apac": true,
+  "heldSince": "2021-03",
+  "stake": "majority",
+  "valuation": {
+   "amount": "KRW850-900bn",
+   "basis": "enterprise value at Affinity's 2021 buyout of 100% from H&Q Korea (c. US$750-800m); SEEK later reported to have taken a 10% minority from Affinity in Aug 2021 (Preqin, single source)",
+   "url": "https://amp.kedglobal.com/newsAmp/ked202103040012"
+  },
+  "summary": "Korea's leading recruitment portal (JobKorea for full-time jobs, Albamon for part-time), bought by Affinity from H&Q Korea in 2021 at c. KRW 850-900bn after beating MBK, CVC and TPG. It acquired the Jobplanet company-review platform (closed 31 Dec 2025) and in Jan 2026 rebranded the group as 'Worksphere', an AI-led HR-tech group spanning JobKorea, Albamon, Jobplanet and Ninehire.",
+  "signals": [
+   {
+    "date": "2026-01-29",
+    "publisher": "Financial News (fnnews)",
+    "title": "\uc7a1\ucf54\ub9ac\uc544, \uc0c8 \uc0ac\uba85 '\uc6cd\uc2a4\ud53c\uc5b4' \ubc1c\ud45c... AI \uc911\uc2ec HR\ud14c\ud06c \uadf8\ub8f9 \ucd9c\ubc94 (JobKorea unveils new name Worksphere, launches AI-led HR-tech group)",
+    "url": "https://www.fnnews.com/news/202601290930199876"
+   },
+   {
+    "date": "2025-12-17",
+    "publisher": "Byline Network",
+    "title": "'\ucc44\uc6a9\ubd80\ud130 \uae30\uc5c5 \uc815\ubcf4\uae4c\uc9c0 \ud655\uc7a5' \uc7a1\ucf54\ub9ac\uc544, \uc7a1\ud50c\ub798\ub2db \uc778\uc218 (JobKorea acquires Jobplanet)",
+    "url": "https://byline.network/2025/12/17_1928182/"
+   },
+   {
+    "date": "2021-03-04",
+    "publisher": "Korea Economic Daily (KED Global)",
+    "title": "Affinity Equity set to acquire Korea's top recruitment portal JobKorea",
+    "url": "https://amp.kedglobal.com/newsAmp/ked202103040012"
+   }
+  ],
+  "exit": {
+   "note": "No sale process found; Mergermarket (2026) still lists JobKorea among Affinity's existing Korean portfolio companies; KED (Aug 2023) reported the asset was underperforming its target return",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-02T10:20:03Z"
+ },
+ {
+  "id": "affinity-equity-m-daq",
+  "firm": "affinity-equity",
+  "name": "M-DAQ Global",
+  "slug": "m-daq",
+  "industry": "fintech",
+  "industryLabel": "cross-border FX & payments platform",
+  "hq": "Singapore, Singapore",
+  "geos": [
+   "Singapore",
+   "Malaysia",
+   "Indonesia",
+   "Vietnam",
+   "Hong Kong"
+  ],
+  "apac": true,
+  "heldSince": "2021-08",
+  "stake": "co-control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; Affinity invested S$200m (~US$147m) in an Aug 2021 Series D (primary plus secondary, including shares bought from Ant Group) for a joint controlling stake",
+   "url": "https://www.lw.com/en/news/2021/09/latham-watkins-advises-affinity-equity-partners-s200-million-investment-in-m-daq"
+  },
+  "summary": "Singapore fintech providing FX conversion, cross-border collections and payouts for e-commerce and payments (building an 'ASEAN Payments Hub'; five regulated licences in four ASEAN markets after adding EasyPay Malaysia, Wallex Indonesia and METech/PayME Vietnam in Jul 2026). Affinity's first fintech deal: S$200m Series D in Aug 2021 for a joint controlling stake alongside management; Affinity is the largest shareholder.",
+  "signals": [
+   {
+    "date": "2026-07-07",
+    "publisher": "AAP / PR Newswire (company release)",
+    "title": "M-DAQ Global Strengthens ASEAN Footprint and Growth with Strategic Expansion into Vietnam",
+    "url": "https://www.aap.com.au/aapreleases/cision20260707ae99248/"
+   },
+   {
+    "date": "2021-08-18",
+    "publisher": "FinTech Global",
+    "title": "M-DAQ receives $147m investment from private equity firm",
+    "url": "https://fintech.global/2021/08/18/m-daq-receives-147m-investment-from-private-equity-firm-paytech/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-02T10:20:03Z"
+ },
+ {
+  "id": "affinity-equity-scotpac",
+  "firm": "affinity-equity",
+  "name": "ScotPac (Scottish Pacific)",
+  "slug": "scotpac",
+  "industry": "fintech",
+  "industryLabel": "SME non-bank lender (invoice, trade & asset finance)",
+  "hq": "Sydney, Australia",
+  "geos": [
+   "Australia",
+   "New Zealand"
+  ],
+  "apac": true,
+  "heldSince": "2018-09",
+  "stake": "control",
+  "valuation": {
+   "amount": "A$1bn+",
+   "basis": "Street Talk (AFR), 22 Mar 2026: Affinity targeting a '$1 billion-plus exit' with at least eight suitors in due diligence; Mergermarket/ION (late 2025) estimated the deal at US$600m-700m. Affinity's 2018 take-private valued the then ASX-listed company at ~A$630m (A$4.40/share).",
+   "url": "https://ionanalytics.com/insights/mergermarket/affinity-prepares-to-launch-scotpac-sale-in-1q26/"
+  },
+  "summary": "Australia's largest non-bank SME lender (invoice, trade and asset finance; loan book ~A$3bn, pre-tax earnings >A$100m per May 2026 coverage), also serving NZ. Affinity took the ASX-listed Scottish Pacific Group private in 2018 at A$4.40/share (~A$630m) via its SME Capital Investments III vehicle; it later bolted on fintech lender Business Fuel.",
+  "signals": [
+   {
+    "date": "2018-09-24",
+    "publisher": "ASX (Scottish Pacific Group announcement)",
+    "title": "Scottish Pacific Group - scheme of arrangement with Affinity Equity Partners (A$4.40 cash per share)",
+    "url": "https://www.asx.com.au/asxpdf/20180924/pdf/43ykz7z5sk80tf.pdf"
+   }
+  ],
+  "exit": {
+   "note": "Sale process running: Mergermarket/ION (late 2025) said Affinity would launch a sale in 1Q26 (NAB, Judo, CBA, Japanese banks interested); Street Talk/AFR 22 Mar 2026 reported 8+ suitors (incl. Brookfield, BGH) in due diligence for a A$1bn+ exit; ChannelNews, May 2026: first attempt failed to draw a buyer, Affinity weighing a dual-track with an IPO, Goldman Sachs involved. No signed deal found as of 2 Nov 2026.",
+   "status": "process"
+  },
+  "firstSeen": "2026-11-02T10:20:03Z"
+ },
+ {
+  "id": "affinity-equity-serveone",
+  "firm": "affinity-equity",
+  "name": "Serveone",
+  "slug": "serveone",
+  "industry": "internet",
+  "industryLabel": "B2B MRO / indirect-procurement platform (e-procurement and distribution)",
+  "hq": "Seoul, South Korea",
+  "geos": [
+   "South Korea"
+  ],
+  "apac": true,
+  "heldSince": "2019",
+  "stake": "majority",
+  "valuation": {
+   "amount": "KRW602bn",
+   "basis": "price Affinity paid LG Group for its majority stake in Serveone's MRO business (c. US$535m); Affinity recapitalised it with KRW 700bn of debt in 2022",
+   "url": "https://amp.kedglobal.com/newsAmp/ked202204220009"
+  },
+  "summary": "Korea's largest MRO / indirect-procurement services platform, carved out of LG Group and bought by Affinity for KRW 602bn (majority) in 2019, with a KRW 700bn refinancing in 2022. It bolted on pharma distributor Via Davinci (2023) and medical-supplies distributors Opera Salutaris and Value Pro (Jul 2026); 2026 revenue is expected to pass KRW 6tn with the LG-affiliate share below 50%.",
+  "signals": [
+   {
+    "date": "2026-08-23",
+    "publisher": "Korea Economic Daily (Hankyung Market Insight)",
+    "title": "\uc11c\ube0c\uc6d0, \uc62c\ud574 \ub9e4\ucd9c 6\uc870 \ub3cc\ud30c \uc804\ub9dd...LG \ube44\uc911 50% \uc544\ub798\ub85c (Serveone set to top KRW 6tn revenue; LG share below 50%)",
+    "url": "https://www.hankyung.com/article/2026082371481"
+   },
+   {
+    "date": "2026-07-09",
+    "publisher": "Public Technologies via Longbridge",
+    "title": "Affinity-backed ServeOne buys stakes in Korea medical supplies distributors Opera Salutaris, Value Pro",
+    "url": "https://longbridge.com/news/292140229"
+   },
+   {
+    "date": "2022-04-22",
+    "publisher": "Korea Economic Daily (KED Global)",
+    "title": "Affinity Equity to refinance Serveone to recoup investment",
+    "url": "https://amp.kedglobal.com/newsAmp/ked202204220009"
+   }
+  ],
+  "exit": {
+   "note": "No sale or IPO process found in 2025-26 coverage; a 2023 plan to move Serveone and Burger King Korea/Japan into a continuation fund was halted (Reuters)",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-02T10:20:03Z"
+ },
+ {
+  "id": "affinity-equity-ubase",
+  "firm": "affinity-equity",
+  "name": "Ubase",
+  "slug": "ubase",
+  "industry": "software",
+  "industryLabel": "IT services / contact-centre BPO and AI contact-centre (AICC) solutions",
+  "hq": "Seoul, South Korea",
+  "geos": [
+   "South Korea",
+   "Malaysia",
+   "Japan",
+   "Taiwan"
+  ],
+  "apac": true,
+  "heldSince": "2018-12",
+  "stake": "majority",
+  "valuation": {
+   "amount": "KRW380bn",
+   "basis": "price Affinity paid for its majority stake in Ubase, Dec 2018; no later valuation seen",
+   "url": "https://www.avcj.com/avcj/news/3013945/affinity-secures-third-korea-deal-in-three-months"
+  },
+  "summary": "Korea's largest contact-centre and BPO operator (22,000+ seats across Korea, Malaysia, Japan and Taiwan), bought by Affinity for KRW 380bn (majority) in Dec 2018. It is converting itself into an AI contact-centre (AICC) technology group, buying AI firm Wigo, contact-centre software vendors Nexus Community and Hanil Networks, Center Link, and in May 2026 voice-AI company Return Zero.",
+  "signals": [
+   {
+    "date": "2026-05-27",
+    "publisher": "Money Today via Daum",
+    "title": "\uc720\ubca0\uc774\uc2a4, \ub9ac\ud134\uc81c\ub85c \ud488\uace0 'AI \ucf5c\uc13c\ud130' \ud310 \ud754\ub4e0\ub2e4 (Ubase acquires Return Zero to shake up the AI call-centre market)",
+    "url": "https://v.daum.net/v/20260527101153804"
+   },
+   {
+    "date": "2024-12-02",
+    "publisher": "ET News",
+    "title": "\uc720\ubca0\uc774\uc2a4 \uadf8\ub8f9, \ucd5c\ucd08\uc774\uc790 \ucd5c\uc0c1\uc758 AICC \uc120\ub3c4\uae30\uc5c5\uc73c\ub85c \ub3c4\uc57d (Ubase Group aims to be the first and best AICC leader)",
+    "url": "https://m.etnews.com/20241202000249"
+   }
+  ],
+  "exit": {
+   "note": "No sale process found; Mergermarket (2026) lists Ubase among Affinity's existing Korean portfolio companies",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-02T10:20:03Z"
+ },
+ {
+  "id": "affinity-equity-yogiyo",
+  "firm": "affinity-equity",
+  "name": "Yogiyo",
+  "slug": "yogiyo",
+  "industry": "internet",
+  "industryLabel": "food-delivery platform (operated by Great Imagination / Wedaehan Sangsang)",
+  "hq": "Seoul, South Korea",
+  "geos": [
+   "South Korea"
+  ],
+  "apac": true,
+  "heldSince": "2021-08",
+  "stake": "majority",
+  "valuation": {
+   "amount": "KRW800bn",
+   "basis": "price paid by the GS Retail / Affinity / Permira consortium for 100% of Delivery Hero Korea (Yogiyo) in Aug 2021 (c. US$684m); GS Retail took 30% for KRW 240bn, Affinity and Permira the remainder; no later valuation seen",
+   "url": "https://amp.kedglobal.com/newsAmp/ked202108150001"
+  },
+  "summary": "Korea's no. 2-3 food-delivery app, bought from Delivery Hero in Aug 2021 for KRW 800bn by a consortium of GS Retail (30%) and financial investors Affinity and Permira. In 2026 Affinity bought out Permira's holding and became Yogiyo's sole largest shareholder (TheBell); analysts in Sep 2026 said this puts the conditions for a sale in place (July 2026 MAU 3.55m).",
+  "signals": [
+   {
+    "date": "2026-09-08",
+    "publisher": "StockHub",
+    "title": "Yogiyo sale talk: Affinity's purchase of Permira's stake seen as setting the stage for a sale",
+    "url": "https://stockhub.kr/en/news/news_a0ac2c7095c6"
+   },
+   {
+    "date": "2021-08-15",
+    "publisher": "Korea Economic Daily (KED Global)",
+    "title": "Delivery Hero sells Yogiyo to GS Retail, Affinity-led group",
+    "url": "https://amp.kedglobal.com/newsAmp/ked202108150001"
+   }
+  ],
+  "exit": {
+   "note": "StockHub, 8 Sep 2026: after Affinity bought Permira's stake, analysts say a Yogiyo sale is now possible; no mandate or formal process reported",
+   "status": "rumoured"
+  },
+  "firstSeen": "2026-11-02T10:20:03Z"
+ },
+ {
   "id": "eqt-acuon-group",
   "firm": "eqt",
   "name": "Acuon Group",
