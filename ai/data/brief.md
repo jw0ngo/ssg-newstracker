@@ -1,59 +1,59 @@
-SSG Newstracker · Morning Brief · AI & Tech · Mon 2 Nov, 07:46 SGT
-34 new stories since the last publish.
+SSG Newstracker · Morning Brief · AI & Tech · Tue 3 Nov, 06:51 SGT
+45 new stories since the last publish.
 
-1. [WARM 47] ServiceNow CEO says acquired Israeli startup Sweep helps it switch CRM customers in weeks, not years
+1. [WARM 61] SoftBank's Wild AI Ride: Jefferies Upgrade, Euro Bond Retired, and a Malaysian Maybe
+   Sponsors · ad-hoc-news.de · 2 Nov
+   Why: Jefferies shipped a platform move in AI: it changes what a target in that stack is worth.
+   Call: Fold it into the tech view on every AI target in the pipeline.
+   https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNW1oazczU1N6b00xa2dGTXo1SHlKTlBvUGhJYjJ4ekZhakxnMDluMVBXSHYta2M5V0QxTGE4ZWZZSDIyOTFsYUtNQzl5d0lqXzVrY0FjWmV2VWd6X1BUUEVzdHlYbzNTMV81V2JEci1rMTl5RVIzMTFwdkM2ZWtPUWd5YnJWdDhlcUt1TVllRjdmWDBKcFhpREdVVmRpRWFOd2liaUU3SlBpWHdjSGdzQ3BVNXpFbWUyMlBHeFBsN2hyM3dGMEFhbGFOc1ZEOV9sZ3pfUFkxVE5TZjRRcHJTejhEdUV5UF90?oc=5
+
+2. [WARM 57] India can become the world’s start-up IPO hub; 25–30 AI unicorns by 2030: Peak XV’s Rajan Anandan
+   IPOs · BusinessLine · 2 Nov
+   Why: Peak XV Rajan Anandan has filed to list in India or ANZ in AI.
+   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
+   https://news.google.com/rss/articles/CBMi7gFBVV95cUxObk1ndEdZSVdoRU9RbDZTYlcxS1BScDczVTNGSlNTT0MtN2dnYTRfNm9kNmJDMXd1dXRLMzA2WFc5SWN1MjIxUENVSnNMOWc3YUFGM1VkWWRYR0tuZFhaazdsZTJnM3BmWWI4RE1uZC02cHYtNVNvRWN2RFFDVFFPcjVmSWJPNS0zc21xbVJzU0h5c0dHU2dWZTVtclZLSDhOd2hwcUpFeXh1R1QxUDhTWklmMjEwMWJUd2Q4eEthUi1tczZpRXNFTThQS21oS3FrTjFZeXY1TmNMcmJUR25RWFVwSUZPSTJGb0ZKS09B0gH0AUFVX3lxTE1RcERpc0J5RTA4MldNRnY1c1hYbk8wUVBwZU1ZaElybEIzdERxeGE0Q3F0QVNhQlR4WEdzQWZxdWRNekdMd0ZLTlJLUGNJUjdFcGhsMGpzQzF0VHNXVGdxSzM1MXVRZGtXMHZ5SmN5WVB0MTZENjNmOGJLRE1QVWs2anhHTmxEUGJ2SDItWnBpZmlYTDlXUjluM1pVU1czMVRHb2lRM21hUGo3bTFOcTF0Y1gzNUZ1dWg2WFJYS1ZKd0dVNEY1WVF4TlNMa2pRd2M2WXVlX1JzeTdTdXoxRFN6WDBHYXpKcFQ2bll0TnY2MmtRVDg?oc=5
+
+3. [WARM 54] Indian Teen Founders’ AI Startup Manicule Raises $1.3 Million From Y Combinator to Help AI Agents Choose Software
+   Targets · Elets CIO · 3 Nov
+   Why: Teen raised a round in India or ANZ ($1.3 Million) in AI: a future target, priced today.
+   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
+   https://news.google.com/rss/articles/CBMitAFBVV95cUxON2psY2oxWnNJSW9jMnVqTEY4Uzh4c3EyM0xoaFNWck1meHNWODdHWmYyeXFPMGZ3OW1aVjd4elB5NjRGM185MFdxajRYY2lLQWNPaENwWUdMcEpoSUxCbUhrOXVwT2ZLUkxqUzR2bHlhblZ6enMxSFhESWQ5SEFnWkxtbGtnY0kzNlVzYUhBT05pblZmRDZnbkVUQ2c2M3E3RmxSbzk1MTE4YUpBMUh3cnpBZ1c?oc=5
+
+4. [WARM 53] Adaspace cleared to become Hong Kong’s first AI satellite IPO
+   IPOs · Bamboo Works · 2 Nov
+   Why: Adaspace has filed to list in North Asia in AI.
+   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
+   https://news.google.com/rss/articles/CBMikgFBVV95cUxPaUExMWNOV1BKQXByVGJndHdYR3lMQTdRekZhSlJOUVdQd2hDdjVmeDI4NDA4dGpjREcyQldfb1hha1Jwek45c3ZGbVI1ZFVycEVRSXNyOWdqWE1wbWpaYnoxdzRlSDFCbjRIMV9RdGEwNE5jNnRIMkdoYWotcFI1OHRadC1hbjNIN2JvVW9WVGg0dw?oc=5
+
+5. [WARM 51] SoftBank's AI Funding Tab Looms Large as LINE MAN Stake Sale Slips to January
+   Sponsors · ad-hoc-news.de · 2 Nov
+   Why: SoftBank raised a round in Asia in AI: a future target, priced today.
+   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
+   https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVkdKdEhDb19tMXZBdG9KVFdySFJsQjUwSWlfZ0Nid0hBWkhzY0l4b3oxa3pJRDF5X0pDQVdiblB0SHdfS2o1SkhRMEhrdmFuTUlPUTByOFEtazRrYWZDRzN0bFJKTkRrWDdFMG1INFlkWmVBd1U4RWFkS1R3eG5XVEdmUDR2OVF5NENZS2Y3Tk5NaDkwSUdYb1RsRkhIQl9SaWVkR1FRZGtTM3ZxRnNBVWhGTGphWENVc3phaG1rbE5hNlU4dUZubG9ydTR5a1BpQkNjWE9YcWVrS1hZdzJNVHllaw?oc=5
+
+6. [WARM 47] Salesforce agrees to buy Cresta (CRM:NYSE)
+   M&A · Seeking Alpha · 3 Nov
+   Why: An acquisition involving Cresta in software: a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next software pitch.
+   https://news.google.com/rss/articles/CBMieEFVX3lxTE1obGdsMk12VHI2RTFSdFM4ZThnSjJtWTJsYmlSb193SUl0dW5pY2UwVGE4QWhwSWxweW8zNWtJRnozQTcwdWN5bXJYMFJha0NKVzdnTU1XOEM0ZWFJenF6cEdvdERoNGFtbnZPY1lZbGNTaGF6OVBETw?oc=5
+
+7. [WARM 47] ServiceNow CEO says acquired Israeli startup Sweep helps it switch CRM customers in weeks, not years
    M&A · CTech · 1 Nov
    Why: An acquisition involving Israeli in software: a fresh comp for the targets SSG watches.
    Call: Record the multiple and the buyer’s rationale; use it in the next software pitch.
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WN2NJd3M1RXB1bFliODVtS3lOQzl4UjFVZWJpNGNmaXoxemRWWU5sOHRJTzR4WXlOTkpwYzRWb1J0cWlDTDNRVVNNZ3FTTkJ4M3otRktpVXZXQVM3YlVTSTBpZWNoMDA?oc=5
 
-2. [WARM 47] Microsoft’s big buyout, Amazon’s trillion-dollar future, and an AI wearable reviews our show
-   M&A · GeekWire · 31 Oct
-   Why: An acquisition involving Microsoft in AI: a fresh comp for the targets SSG watches.
-   Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
-   https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRGZROUxMc2NGMEtFSmJfdzR0S3VXRWVWQ3ZBMVpYYUM5MkhTUDMzbTNDcGZtTV9CT3BrT3FJN0xidW5VWFBTYkpQZVJ2ZXJDWWtlSnQ4clljR2ZuejA0aHFHRG8zTjYyNEluMld4UXBFRVZkU2VrMVhsQjRpRmgwRUNqY3A3cFk1MHlrYlFIUmlLRDdoc1lsajFXbUxKWk9XMUVQSklvbjNUU3VUX2lDVjZpTnNjakE5TFZR?oc=5
+8. [WARM 46] Bain Capital raises over $1.8b for third Asia special situations fund
+   Sponsors · DealStreetAsia · 2 Nov
+   Why: A sponsor has raised a fund ($1.8b) in Asia: dry powder for the sectors SSG works in.
+   Call: Relationship touchpoint: ask where it deploys in APAC.
+   https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYVlYWWJvWDhXZXJPRjU3bXV5Y3FDanlzdVIwdUNEeWtHemlZNnpsYnA1RHp1a2dKeHF1b2ZBY19VR1lnenY1ODRIQXRQY0FUSkcyRHZQZFRNMGNsbFZtVW1uSjdKNHdwT2taY2FtRkc4aFBIMTQ0dUZ3VXZ0dG9vNC1fMGJ2b0xT?oc=5
 
-3. [WARM 47] Partners Group acquires minority stake in software provider Nozomi Networks
-   Sponsors · PEI Private Equity · 31 Oct
-   Why: An acquisition involving Nozomi Networks in software: a fresh comp for the targets SSG watches.
-   Call: Record the multiple and the buyer’s rationale; use it in the next software pitch.
-   https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMEc1TUllMXAtaTAwMXFIa1JDQm93V3h6TTJwVHRiX18zbGR1anZnTnlJZ1JncVktZUhxSlNwM1MycVJabXlNaVJSTmRabmFnSEJhdHpUQnRtMU9TWEZTSmNzOWJDZTNrN19iZTJrV1ZWUC14aTZObmhxY3V0Q2JUZ3JhOUE1Snhlc3J1RDBtREV2VUYyeFpwTjl4OFJuNkRnY0pFYmNVVEV3M2dTZjBxaEh1czlxWDVtdEZ3?oc=5
-
-4. [WARM 47] FuriosaAI closes 820 billion won Series D at about 3.8 trillion won valuation
-   Targets · Digital Today · 29 Oct
-   Why: FuriosaAI raised a round in North Asia (820 billion) in AI: a future target, priced today.
-   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://www.digitaltoday.co.kr/en/view/121000/furiosaai-raises-820-billion-won-series-d-valued-at-3-8-trillion-won
-
-5. [WARM 45] Anthropic IPO Faces Real Risk as AI Bubble Fears Linger and Blackstone Sounds a Warning
-   Sponsors · Benzinga · 1 Nov
-   Why: Faces has filed to list in AI.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMizAFBVV95cUxPZm42Rk1kcjlyVjRaOVhILXNySGh3djNQOGF2bU40RktFOTBzdzBSd3o0R3BERWtXWXJSQ2c2ZUlsTmFzZ0pXX2VCLWo5WkZHTU1XME9qVFJNeXpHVmhNVlpCYnFFYnVvZjZkMUNTNDh3UHRZNUZyeGdacEhzakNibGpwZEVKZ05PRGlyd1dhVG03OVJ6d1ZZMVFHam1ZX2hLQW1FMnJkMnYwTW9pT3czblBEZDJzbEVaSzBvakZxUTA2T3pac05fcXZhWTY?oc=5
-
-6. [WARM 44] Alibaba partners with Apple to integrate Qwen AI model into Apple Intelligence for Chinese market
-   Platforms · Anadolu Ajansı · 1 Nov · 2 outlets
-   Why: Qwen AI is in the news in North Asia.
-   Call: No call yet; note it for the next conversation.
-   https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYWxtSWxQWFFKLVc1dUZCdGtGOElTdFlWeTJZV0FWZ0MzbXBzbkpNSzNmclhleVlWblpHeElhSHhNMDZtcHlKWjBZTVFEQk9MRDJlcWZDWFZQYzlUZDdGcVBDTVk0RndNdC1iVG9taW9vY0FCdTF6WWVzSjdhQVp1Yk1jUkQ4QU9jZjdCTlRCZmZmZTBranBrSzh0cDcydmVWVmpYQ21SOXFyYUkyTUZFU0VVZzdXUnY0S2Q0bzE5ZU1XcGRxVUh2bDdyNHM2RGV3MUlJUVVBS3g1S28?oc=5
-
-7. [WARM 44] Nscale’s Unproven CEO Braves AI Turmoil in Bid for $30 Billion IPO
-   IPOs · Bloomberg · 29 Oct
-   Why: A sale process or bid talks involving Nscale Unproven ($30 Billion) in AI: an asset in play in a sector SSG diligences.
-   Call: Map which sponsors are natural buyers and get the tech view ready before they call.
-   https://news.google.com/rss/articles/CBMiwwFBVV95cUxON2lremtid0VEbFVYWTd5Z2FndXk4V21BdjVLNWVjekd1OHZQVDUzSkNjS29pdmFUT3ZRUXB2TU1QaFcyRkhMenY5alZkd25QWVpqRWlyUVlkVWdsVkM2TEhMZ2tPa1NFb1g0bUJwQzFvRE1laUppLWdxWTlZTzd6S0xUN3N5eUp1cWJXSUtlTmxLYWNET1N3MmoweG1wN2ZJU3Nsb05FdWM3TnRFTkJxNEpQT0ZLRi14c0s5NFFhbUFYWEU?oc=5
-
-8. [WARM 43] Apple buys AI startup that strives to ‘make data engineering delightful’
-   M&A · Cult of Mac · 31 Oct
-   Why: An acquisition involving Apple in AI: a fresh comp for the targets SSG watches.
-   Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
-   https://news.google.com/rss/articles/CBMigAFBVV95cUxPM3hnRHUxS1lzLXBzbllrSGZDNFlYUzBMRmw4WW1IN1Y1Yk9LZHRrVUdXdEhQUDl6ZEJ4dEphTGY2dldTOVdNNEp0NXY0MWFTTW5yWXVieGV4V2xxSHF0aTNCdy1IQ193cXRxdndsd0duS19CRFVPcmJraFl6OElzTA?oc=5
-
-9. [WARM 43] Workday Acquires C1.ai to Enhance Access Management for AI Agents
-   Platforms · Small Business Trends · 30 Oct
-   Why: An acquisition involving C1.ai in AI: a fresh comp for the targets SSG watches.
-   Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
-   https://news.google.com/rss/articles/CBMimAFBVV95cUxOMWN2T2VxVEtURV9PMlJZX01mZTNLRnlGTi05SW9RMlR2Wm1KMTV0ZG9ORzM5U3lNZUtzbzBVVlF2UU1DREtLMlNqQzNDQWlESWJEbmNCLS1NTWp3SHlYMi11Tl9udTBkSHFvS0ZWamYwYTZDZFpPdWxrNlFWb3E0bkxTdFc1TEdCMzNXVW1LVDUyUHE0WlZwZQ?oc=5
+9. [WARM 42] Microsoft Just Revealed a $677 Billion Reason to Buy Its Stock
+   M&A · Yahoo Finance · 3 Nov
+   Why: An acquisition involving Revealed ($677 Billion): a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next pitch.
+   https://news.google.com/rss/articles/CBMiogFBVV95cUxPRUJBeDZkZHk3ZlR5WXA2U2JGdS1nYnBfc0UwazNMaTlvWnRhLVY1dG9sVl9tZVBCZjFxbk1maTdaWk1GOG5OdnJBWWxDS3hMdVRzdTdJYUxyeXlWMmYyeGRjQlBVS25XZERVMC1MT3ZQVURXTkpzSmUtc3V1MVdnbWd4MGdDTnN0YXVZY0JoM0F2S2VIS3E1QmFyN1VBaXU5Tmc?oc=5
 
 10. [WARM 42] Sovereign AI Firm Cohere Announces Series E Initial Close, Targeting Up to $5.1B
    Targets · Wowtale · 1 Nov
