@@ -252,6 +252,11 @@ a { color: inherit; }
 .bc.open { grid-column: auto; cursor: default; border-left-color: var(--accent); box-shadow: 0 6px 24px rgba(0, 0, 0, .08); }
 /* An open card's detail flows into columns, so a wider card is a shorter one: fitBoard() widens the
    country column until the card fits the screen without scrolling (Josh, 2 Nov 2026). */
+.list.board { transition: grid-template-columns .42s cubic-bezier(.4, 0, .2, 1); }
+.bc.sliding { overflow: hidden; transition: height .42s cubic-bezier(.4, 0, .2, 1); will-change: height; }
+.bc.sliding .more { opacity: 0; transition: opacity .3s ease; }
+.bc.sliding.shown .more { opacity: 1; transition-delay: .1s; }
+@media (prefers-reduced-motion: reduce) { .list.board, .bc.sliding, .bc.sliding .more { transition: none; } }
 .bc.open .more { text-align: left; width: auto; padding-left: 0; padding-right: 0; columns: 210px; column-gap: 22px; }
 .bc.open .more .rsx { column-span: all; }
 .bc.open .more .why, .bc.open .more .move, .bc.open .more .also, .bc.open .more .sig > div, .bc.open .more .open-hint { break-inside: avoid; }
@@ -1378,44 +1383,104 @@ function renderBoard(sector) {
   const note = loaded && cols.length ? `<p class="gaps">${gaps.length ? `Nothing on the roster yet in ${esc(gaps.join(', '))}.` : ''}${off.length ? ` ${off.length} ${what} portco${off.length > 1 ? 's' : ''} outside the board's markets not shown: ${esc(off.slice(0, 12).map((x) => x.p.name).join(', '))}${off.length > 12 ? ` and ${off.length - 12} more` : ''}.` : ''}</p>` : '';
   $('list').innerHTML = cols.length ? cols.map((c) => `<section class="col"><div class="colh"><b>${c.code}</b>${esc(c.name)}<span>${c.cards.length}</span></div>${c.cards.map((x) => boardCard(x.p)).join('')}</section>`).join('') : `<div class="empty">${emptyMsg}</div>`;
   $('gaps').innerHTML = note;
-  fitBoard();
+  fitBoard(false);
 }
 // Column widths for the board. Every column is the base track; a column holding an open card is
 // widened in steps (each step is roughly one more text column inside the card) until the tallest
 // open card in it fits the viewport below the sticky top, or the column reaches its cap. On phones
 // the board stacks, so nothing is set.
 const BASE_COL = 'minmax(236px, 1fr)';
-function fitBoard() {
+const SLIDE_MS = 420;
+// Column widths for the board, as pixel tracks so a change slides (the board transitions
+// grid-template-columns). A column holding an open card is widened in steps (each step is roughly
+// one more text column inside the card) until the tallest open card in it fits the viewport below
+// the sticky top, or the column reaches its cap; the other columns give back their spare width down
+// to the base before the board overflows sideways. On phones the board stacks, so nothing is set.
+// `animate` false snaps (first render of a board); a card mid-close (.closing) counts as shut.
+function fitBoard(animate) {
   const list = $('list');
   if (!list.classList.contains('board')) { list.style.gridTemplateColumns = ''; return; }
   const cols = [...list.querySelectorAll('.col')];
   if (!cols.length || window.innerWidth <= 640) { list.style.gridTemplateColumns = ''; return; }
-  const widths = cols.map(() => BASE_COL);
-  const apply = () => { list.style.gridTemplateColumns = widths.join(' '); };
-  apply();
+  const from = list.style.gridTemplateColumns;
+  list.style.transition = 'none';
+  list.style.gridTemplateColumns = cols.map(() => BASE_COL).join(' ');
+  void list.offsetWidth;
+  const base = cols.map((c) => c.offsetWidth);
+  const widths = base.slice();
+  const apply = () => { list.style.gridTemplateColumns = widths.map((w) => `${w}px`).join(' '); void list.offsetWidth; };
   const avail = window.innerHeight - $('top').offsetHeight - 28;
   const cap = Math.min(1028, window.innerWidth - 56);
+  const gaps = 12 * (cols.length - 1);
+  const wide = new Set();   // columns holding an open card, each widened to fit its tallest
+  apply();
   cols.forEach((col, i) => {
-    const open = [...col.querySelectorAll('.bc.open')];
+    const open = [...col.querySelectorAll('.bc.open:not(.closing)')];
     if (!open.length) return;
-    let w = 236;
+    let w = base[i];
     const tallest = () => Math.max(...open.map((c) => c.offsetHeight));
-    while (tallest() > avail && w < cap) { w = Math.min(cap, w + 264); widths[i] = `${w}px`; apply(); }
+    while (tallest() > avail && w < cap) { w = Math.min(cap, w + 264); widths[i] = w; apply(); }
+    wide.add(i);
   });
+  if (wide.size && wide.size < cols.length) {   // the other columns shrink towards the base to keep the board on screen
+    const spare = list.clientWidth - gaps - [...wide].reduce((t, i) => t + widths[i], 0);
+    const each = Math.max(236, Math.floor(spare / (cols.length - wide.size)));
+    cols.forEach((c, i) => { if (!wide.has(i)) widths[i] = Math.min(widths[i], each); });
+  }
+  const to = widths.map((w) => `${w}px`).join(' ');
+  if (animate && from && from.split(' ').length === cols.length) {
+    list.style.gridTemplateColumns = from; void list.offsetWidth;
+    list.style.transition = '';
+    list.style.gridTemplateColumns = to;
+  } else { list.style.gridTemplateColumns = to; list.style.transition = ''; }
+}
+// Open or close one board card in place, sliding: the card's height eases from what it was to what
+// it becomes (its detail fading in or out), while fitBoard() slides the column widths; the page and
+// the board then scroll to centre the opened card. Only the clicked card is re-rendered, so the
+// rest of the board keeps its state.
+function slideCard(card, p, opening) {
+  const list = $('list');
+  const h0 = card.offsetHeight;
+  if (opening) {
+    const fresh = document.createElement('div'); fresh.innerHTML = boardCard(p);
+    const next = fresh.firstElementChild;
+    card.replaceWith(next);
+    const from = list.style.gridTemplateColumns;
+    fitBoard(false);                              // final widths, no slide yet
+    const h1 = next.offsetHeight;
+    const to = list.style.gridTemplateColumns;
+    if (from && from.split(' ').length === to.split(' ').length) { list.style.transition = 'none'; list.style.gridTemplateColumns = from; void list.offsetWidth; list.style.transition = ''; }
+    next.classList.add('sliding'); next.style.height = `${h0}px`; void next.offsetHeight;
+    list.style.gridTemplateColumns = to;
+    next.style.height = `${h1}px`; next.classList.add('shown');
+    centreCard(p.id, h1);
+    setTimeout(() => { next.classList.remove('sliding', 'shown'); next.style.height = ''; centreCard(p.id); }, SLIDE_MS + 40);   // a last nudge once the cards above have settled
+  } else {
+    const more = card.querySelector('.more');
+    if (more) more.style.display = 'none';
+    const h1 = card.offsetHeight;
+    if (more) more.style.display = '';
+    card.classList.add('sliding', 'shown', 'closing'); card.style.height = `${h0}px`; void card.offsetHeight;
+    fitBoard(true);
+    card.style.height = `${h1}px`; card.classList.remove('shown');
+    setTimeout(() => { const fresh = document.createElement('div'); fresh.innerHTML = boardCard(p); card.replaceWith(fresh.firstElementChild); }, SLIDE_MS + 40);
+  }
 }
 // Bring a card to the middle of the screen: the page scrolls so the card sits centred in the space
-// below the sticky top, and the board scrolls sideways so the card's column is centred.
-function centreCard(id) {
+// below the sticky top, and the board scrolls sideways so the card's column is centred. `h` is the
+// height the card is sliding to.
+function centreCard(id, h) {
   const card = document.querySelector(`.bc.open[data-pid="${CSS.escape(id)}"]`);
   if (!card) return;
   const list = $('list');
   const r = card.getBoundingClientRect(), l = list.getBoundingClientRect(), topH = $('top').offsetHeight;
+  const height = h || r.height;
   const avail = window.innerHeight - topH;
-  window.scrollBy({ top: r.top - topH - Math.max(0, (avail - r.height) / 2), behavior: 'smooth' });
+  window.scrollBy({ top: r.top - topH - Math.max(0, (avail - height) / 2), behavior: 'smooth' });
   if (window.innerWidth > 640) list.scrollBy({ left: r.left - l.left - Math.max(0, (l.width - r.width) / 2), behavior: 'smooth' });
 }
 let fitTimer = 0;
-window.addEventListener('resize', () => { clearTimeout(fitTimer); fitTimer = setTimeout(() => { if (BOARDS[view.tab]) fitBoard(); }, 120); });
+window.addEventListener('resize', () => { clearTimeout(fitTimer); fitTimer = setTimeout(() => { if (BOARDS[view.tab]) fitBoard(true); }, 120); });
 
 function render() {
   if (PUBLIC) { $('seg').hidden = true; if (view.seg === 'pipeline') view.seg = 'priority'; }
@@ -1569,7 +1634,9 @@ $('list').addEventListener('click', (e) => {
   const id = c.dataset.pid;
   const opening = !openPortco.has(id);
   if (opening) openPortco.add(id); else openPortco.delete(id);
-  if (BOARDS[view.tab]) { renderBoard(view.tab); if (opening) centreCard(id); } else renderPortcos();
+  if (!BOARDS[view.tab]) return renderPortcos();
+  const p = portcos.find((x) => x.id === id);
+  if (p && c.classList.contains('bc') && !c.classList.contains('sliding')) slideCard(c, p, opening); else renderBoard(view.tab);
 });
 // A situation card expands to every story; a situation chip on an announcement opens its card.
 $('list').addEventListener('click', (e) => {
