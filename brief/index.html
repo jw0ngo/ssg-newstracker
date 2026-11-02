@@ -383,13 +383,35 @@ async function copyBrief() {
     .replace(/<p class="covers">/g, '<p>')
     .replace(/<h2>/g, '<p>&nbsp;</p><h2>');
   const html = `<div style="font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;font-size:14px;line-height:1.5">${inner}<p>&nbsp;</p><p><a href="${esc(location.href.split('#')[0])}">${esc(location.href.split('#')[0])}</a></p></div>`;
-  let ok = false;
-  try {
-    if (navigator.clipboard && window.ClipboardItem) { await navigator.clipboard.write([new ClipboardItem({ 'text/html': new Blob([html], { type: 'text/html' }), 'text/plain': new Blob([text], { type: 'text/plain' }) })]); ok = true; }
-    else if (navigator.clipboard) { await navigator.clipboard.writeText(text); ok = true; }
-  } catch (e) { ok = false; }
-  if (!ok) { const ta = document.createElement('textarea'); ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select(); try { ok = document.execCommand('copy'); } catch (e) { ok = false; } ta.remove(); }
-  const t = $('toast'); t.textContent = ok ? 'Brief copied to the clipboard' : 'Could not copy — select the text and copy it'; t.classList.add('on'); setTimeout(() => t.classList.remove('on'), 2200);
+  // Three ways onto the clipboard, in order: the async API with both flavours (desktop browsers);
+  // a selection copy of a hidden copy of the rich brief (iOS Safari and in-app browsers, which
+  // refuse the async write or lack it); plain text as the last resort. The failure, if all three
+  // fail, is named in the toast.
+  let ok = false, why = '';
+  if (navigator.clipboard && window.ClipboardItem) {
+    try { await navigator.clipboard.write([new ClipboardItem({ 'text/html': new Blob([html], { type: 'text/html' }), 'text/plain': new Blob([text], { type: 'text/plain' }) })]); ok = true; }
+    catch (e) { why = (e && e.name) || 'write failed'; }
+  }
+  if (!ok) {
+    try {
+      const box = document.createElement('div');
+      box.setAttribute('contenteditable', 'true'); box.style.cssText = 'position:fixed;left:0;top:0;width:1px;height:1px;overflow:hidden;opacity:0.01;-webkit-user-select:text;user-select:text';
+      box.innerHTML = html; document.body.appendChild(box);
+      const range = document.createRange(); range.selectNodeContents(box);
+      const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range);
+      ok = document.execCommand('copy'); sel.removeAllRanges(); box.remove();
+      if (!ok) why = why || 'selection copy refused';
+    } catch (e) { why = why || (e && e.name) || 'selection copy failed'; }
+  }
+  if (!ok && navigator.clipboard && navigator.clipboard.writeText) {
+    try { await navigator.clipboard.writeText(text); ok = true; } catch (e) { why = why || (e && e.name) || 'writeText failed'; }
+  }
+  if (!ok) {
+    const ta = document.createElement('textarea'); ta.value = text; ta.setAttribute('readonly', ''); ta.style.cssText = 'position:fixed;left:0;top:0;width:1px;height:1px;opacity:0.01';
+    document.body.appendChild(ta); ta.focus(); ta.setSelectionRange(0, ta.value.length);
+    try { ok = document.execCommand('copy'); } catch (e) { ok = false; } ta.remove();
+  }
+  const t = $('toast'); t.textContent = ok ? 'Brief copied to the clipboard' : 'Could not copy (' + (why || 'blocked') + ') — select the text and copy it'; t.classList.add('on'); setTimeout(() => t.classList.remove('on'), 2200);
   document.querySelectorAll('.copy').forEach((b) => { b.classList.toggle('done', ok); b.querySelector('span').textContent = ok ? 'Copied' : 'Copy brief'; setTimeout(() => { b.classList.remove('done'); b.querySelector('span').textContent = 'Copy brief'; }, 2200); });
 }
 function renderWeekly(w) {
