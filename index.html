@@ -1665,8 +1665,14 @@ $('list').addEventListener('click', (e) => {
   const c = e.target.closest('.pc'); if (!c) return;
   const id = c.dataset.pid;
   const opening = !openPortco.has(id);
+  if (!BOARDS[view.tab]) { if (opening) openPortco.add(id); else openPortco.delete(id); return renderPortcos(); }
+  // One open card at a time on a board (Josh, 2 Nov 2026): opening one slides any other shut.
+  if (opening) for (const other of [...openPortco]) {
+    openPortco.delete(other);
+    const oc = document.querySelector(`.bc.open[data-pid="${CSS.escape(other)}"]`), op = portcos.find((x) => x.id === other);
+    if (oc && op && !oc.classList.contains('sliding')) slideCard(oc, op, false);
+  }
   if (opening) openPortco.add(id); else openPortco.delete(id);
-  if (!BOARDS[view.tab]) return renderPortcos();
   const p = portcos.find((x) => x.id === id);
   if (p && c.classList.contains('bc') && !c.classList.contains('sliding')) slideCard(c, p, opening); else renderBoard(view.tab);
 });
