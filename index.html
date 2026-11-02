@@ -66,6 +66,8 @@ a { color: inherit; }
 .tabs { display: flex; gap: 18px; border-bottom: 1px solid var(--rule); }
 .tabs button { font-family: var(--display); font-weight: 700; font-size: 16px; letter-spacing: .01em; color: var(--faint); padding: 2px 0 8px; border-bottom: 2px solid transparent; margin-bottom: -1px; }
 .tabs button.on { color: var(--fg); border-bottom-color: var(--accent); }
+.tabs button .n { font-family: var(--mono); font-weight: 400; font-size: 11px; color: var(--faint); margin-left: 6px; vertical-align: 2px; }
+.tabs button.on .n { color: var(--accent); }
 .tgt .name { display: block; color: inherit; margin-top: 6px; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.2; text-decoration: none; }
 .tgt .where { font-size: 12.5px; color: var(--muted); margin-top: 3px; }
 .tgt .why { margin: 8px 0 0; font-size: 14px; line-height: 1.45; }
@@ -270,13 +272,9 @@ a { color: inherit; }
     <!-- One button per firm. The mark is a monogram stand-in until a real logo is on hand. -->
     <div class="firms" id="firms"></div>
     <div class="tabs" id="tabs">
-      <!-- Boards only (Josh, 2 Nov 2026): the announcement, situation, portco and target tabs are retired from this page. -->
+      <!-- Boards only (Josh, 2 Nov 2026): one tab per board, drawn by render() with the number of
+           companies on that board and ordered by it, most first. -->
       <button data-tab="fintech">Fintech</button>
-      <button data-tab="data">Data &amp; Info Services</button>
-      <button data-tab="ai">AI Defensible Applications</button>
-      <button data-tab="internet">Marketplaces &amp; Networks</button>
-      <button data-tab="saas">SME &amp; Vertical SaaS</button>
-      <button data-tab="healthit">Health IT &amp; Services</button>
     </div>
     <div class="seg" id="seg">
       <button data-seg="priority">Priority</button>
@@ -1389,7 +1387,11 @@ function render() {
       <span class="firm-name">${esc(f.name)}</span>
     </button>`; }).join('');
   $('firms').hidden = !!board;   // the board shows every sponsor; its chips filter and sort instead
-  $('tabs').querySelectorAll('button').forEach((b) => b.classList.toggle('on', b.dataset.tab === view.tab));
+  // Tabs carry the count of companies on each board (APAC, on a column) and run from the fullest
+  // board to the emptiest (Josh, 2 Nov 2026); ties keep the BOARDS order.
+  const boardN = Object.keys(BOARDS).map((k, i) => ({ k, i, n: portcos.filter(BOARDS[k].match).filter(countryOf).length }));
+  boardN.sort((a, b) => b.n - a.n || a.i - b.i);
+  $('tabs').innerHTML = boardN.map(({ k, n }) => `<button data-tab="${k}"${k === view.tab ? ' class="on"' : ''}>${esc(BOARDS[k].label)}<span class="n">${loaded ? n : ''}</span></button>`).join('');
   $('footBoard').hidden = !board;
   $('footNews').hidden = view.tab !== 'news';
   $('footSits').hidden = view.tab !== 'situations';
