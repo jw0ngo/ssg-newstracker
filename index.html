@@ -37,7 +37,7 @@ body.gated > :not(#gate) { visibility: hidden; }
   try { if (localStorage.getItem(K) === H) return; } catch (e) {}
   var g = document.getElementById('gate'), f = g.querySelector('form'), i = g.querySelector('input'), err = g.querySelector('.err');
   document.body.classList.add('gated'); g.hidden = false;
-  function sha(s) { return crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)).then(function (b) { return Array.prototype.map.call(new Uint8Array(b), function (x) { return ('0' + x.toString(16)).slice(-2); }).join(''); }); }
+  function sha(s) { return Promise.resolve().then(function () { if (!window.crypto || !crypto.subtle) throw new Error('no secure context'); return crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)); }).then(function (b) { return Array.prototype.map.call(new Uint8Array(b), function (x) { return ('0' + x.toString(16)).slice(-2); }).join(''); }); }
   f.addEventListener('submit', function (ev) {
     ev.preventDefault();
     sha(i.value).then(function (h) {
@@ -684,13 +684,18 @@ function portcoBuyer(title, portcos) {
   return null;
 }
 const PORTCO_GENERIC = new Set(["and","the","for","platforms","group","technologies","technology","solutions","services","software","capital","financial","finance","holdings","partners","management","health","healthcare","systems","digital","global","international","india","asia","pacific","company","limited","convergence","education","hospital"]);
-const BUSINESS = /\b(software|saas|platforms?|apps?|cloud|ai|data|digital|tech|technology|fintech|banks?|banking|payments?|lenders?|lending|loans?|insurance|insurer|acqui\w*|buys|bought|merger|merges?|stakes?|sale|sells|sold|deals?|ipo|listing|listed|shares|asx|nasdaq|nyse|krx|kospi|raises?|raised|funding|investments?|investors?|invests?|valuation|revenue|earnings|profits?|results|ebitda|growth|expands?|expansion|launch(?:es)?|partnership|partners with|contracts?|agreement|customers?|clients?|users|ceo|cfo|cto|coo|chief executive|appoints?|hires?|founders?|startup|unicorn|private equity|sponsor|buyout|bids?|offer|financing|refinanc\w*|debt|subsidiary|business|company|firm|group|enterprise|headquarters|employees|staff|layoffs|products?|services?|markets?|industry|sector|plc|ltd|inc|corp)\b/i;
+const BUSINESS = /\b(software|saas|platform|cloud|fintech|banking|payments?|lenders?|lending|insurer|insurtech|acqui\w*|buys|bought|merger|merges?|stakes?|sells|sold|ipo|listing|listed|shares|asx|nasdaq|nyse|krx|kospi|raises?|raised|funding|investment|investors?|invests?|valuation|revenue|earnings|ebitda|expan\w*|opens?|office|launch\w*|rollout|rolls out|collaborat\w*|partner\w*|integrat\w*|deploy\w*|contract|agreement|customers?|clients?|wins|selected by|certif\w*|compliance|ceo|cfo|cto|coo|chief executive|appoints?|hires?|founders?|startup|unicorn|private equity|sponsor|buyout|bids?|financing|refinanc\w*|debt|subsidiary|layoffs|headquarters|profits?|net profit|top line|unveils?|introduc\w*|ranked|recogni[sz]ed|awards?|named|joins|director|manager|gartner|forrester|teams up|join forces|alliance|cmo|cio|data cent(?:er|re)s?|hyperscale|procurement|finance)\b/i;
 function portcoOnTopic(text, p, f) {
   const t = String(text || '');
   if (f && f.match && f.match.test(t)) return true;
-  if (BUSINESS.test(t)) return true;
-  const words = String((p && p.industryLabel) || '').toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length >= 5 && !PORTCO_GENERIC.has(w));
-  return words.some((w) => new RegExp(`\\b${w}`, 'i').test(t));
+  if (!ambiguousName(p) && BUSINESS.test(t)) return true;
+  const label = String((p && p.industryLabel) || '');
+  if (!labelRe.has(label)) {
+    const words = label.toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length >= 5 && !PORTCO_GENERIC.has(w));
+    labelRe.set(label, words.length ? new RegExp(`\\b(?:${words.join('|')})`, 'i') : null);
+  }
+  const re = labelRe.get(label);
+  return !!re && re.test(t);
 }
 function classify(f, raw, held) {
   const title = raw.title;
@@ -1467,7 +1472,7 @@ function portcoNews(p) {
   const re = portcoRe(p);
   // A retrospective story (a profile page, a re-told old deal) is not one of the five latest.
   const pf = FIRMS.find((x) => x.id === p.firm) || firm;
-  const fromFeed = items.filter((i) => (i.portco === p.slug || (re.source.length > 6 && re.test(`${i.title} ${i.summary || ''}`))) && !retrospective(i, { name: p.name, heldSince: p.heldSince }, pf) && portcoOnTopic(`${i.title} ${i.summary || ''}`, p, pf)).map((i) => ({ date: i.date, title: i.title, url: i.url, publisher: i.publisher, feed: true }));
+  const fromFeed = items.filter((i) => (i.portco === p.slug || (re.source.length > 6 && re.test(`${i.title} ${i.summary || ''}`))) && !retrospective(i, { name: p.name, heldSince: p.heldSince }, pf) && (i.summary === undefined || portcoOnTopic(`${i.title} ${i.summary}`, p, pf))).map((i) => ({ date: i.date, title: i.title, url: i.url, publisher: i.publisher, feed: true }));
   const all = [...(p.signals || []), ...fromFeed].filter((g) => g.date && !Number.isNaN(Date.parse(g.date))).sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
   const kept = [];
   for (const g of all) {

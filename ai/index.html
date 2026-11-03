@@ -37,7 +37,7 @@ body.gated > :not(#gate) { visibility: hidden; }
   try { if (localStorage.getItem(K) === H) return; } catch (e) {}
   var g = document.getElementById('gate'), f = g.querySelector('form'), i = g.querySelector('input'), err = g.querySelector('.err');
   document.body.classList.add('gated'); g.hidden = false;
-  function sha(s) { return crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)).then(function (b) { return Array.prototype.map.call(new Uint8Array(b), function (x) { return ('0' + x.toString(16)).slice(-2); }).join(''); }); }
+  function sha(s) { return Promise.resolve().then(function () { if (!window.crypto || !crypto.subtle) throw new Error('no secure context'); return crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)); }).then(function (b) { return Array.prototype.map.call(new Uint8Array(b), function (x) { return ('0' + x.toString(16)).slice(-2); }).join(''); }); }
   f.addEventListener('submit', function (ev) {
     ev.preventDefault();
     sha(i.value).then(function (h) {
