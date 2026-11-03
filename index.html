@@ -39,7 +39,7 @@
 }
 
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.45 var(--body); -webkit-text-size-adjust: 100%; }
+body { overflow-anchor: none; margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.45 var(--body); -webkit-text-size-adjust: 100%; }
 button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
 button:focus-visible, a:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 a { color: inherit; }
@@ -1531,7 +1531,7 @@ function slideCard(card, p, opening) {
     list.style.gridTemplateColumns = to;
     next.style.height = `${h1}px`; next.classList.add('shown');
     centreCard(p.id, h1);
-    setTimeout(() => { next.classList.remove('sliding', 'shown'); next.style.height = ''; centreCard(p.id); }, SLIDE_MS + 40);   // a last nudge once the cards above have settled
+    setTimeout(() => { next.classList.remove('sliding', 'shown'); next.style.height = ''; }, SLIDE_MS + 40);
   } else {
     const more = card.querySelector('.more');
     if (more) more.style.display = 'none';
@@ -1543,18 +1543,37 @@ function slideCard(card, p, opening) {
     setTimeout(() => { const fresh = document.createElement('div'); fresh.innerHTML = boardCard(p); card.replaceWith(fresh.firstElementChild); }, SLIDE_MS + 40);
   }
 }
-// Bring a card to the middle of the screen: the page scrolls so the card sits centred in the space
-// below the sticky top, and the board scrolls sideways so the card's column is centred. `h` is the
-// height the card is sliding to.
+// Bring a card to the middle of the screen in one movement. The card, the cards above it and the
+// column widths are all still sliding, so the target is re-read every frame (where the card is now
+// and how tall it is going to be) and the scroll eases from where it started to that live target;
+// when the slide ends the two meet, so there is no second correction. `h` is the height the card is
+// sliding to. A wheel, touch or key press by the reader cancels it.
+let centreRun = 0;
 function centreCard(id, h) {
-  const card = document.querySelector(`.bc.open[data-pid="${CSS.escape(id)}"]`);
-  if (!card) return;
   const list = $('list');
-  const r = card.getBoundingClientRect(), l = list.getBoundingClientRect(), topH = $('top').offsetHeight;
-  const height = h || r.height;
-  const avail = window.innerHeight - topH;
-  window.scrollBy({ top: r.top - topH - Math.max(0, (avail - height) / 2), behavior: 'smooth' });
-  if (window.innerWidth > 640) list.scrollBy({ left: r.left - l.left - Math.max(0, (l.width - r.width) / 2), behavior: 'smooth' });
+  const reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const dur = reduce ? 0 : SLIDE_MS + 60;
+  const y0 = window.scrollY, x0 = list.scrollLeft, t0 = performance.now(), run = ++centreRun;
+  const stop = () => { centreRun++; };
+  const evs = ['wheel', 'touchstart', 'keydown', 'mousedown'];
+  evs.forEach((e) => window.addEventListener(e, stop, { once: true, passive: true }));
+  const ease = (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);   // easeInOutCubic
+  const frame = (now) => {
+    if (run !== centreRun) return evs.forEach((e) => window.removeEventListener(e, stop));
+    const card = document.querySelector(`.bc.open[data-pid="${CSS.escape(id)}"]`);
+    if (!card) return;
+    const t = dur ? Math.min(1, (now - t0) / dur) : 1, k = ease(t);
+    const r = card.getBoundingClientRect(), l = list.getBoundingClientRect(), topH = $('top').offsetHeight;
+    const height = Math.max(r.height, h || 0);
+    const ty = window.scrollY + r.top - topH - Math.max(0, (window.innerHeight - topH - height) / 2);
+    window.scrollTo(0, y0 + (ty - y0) * k);
+    if (window.innerWidth > 640) {
+      const tx = list.scrollLeft + r.left - l.left - Math.max(0, (l.width - r.width) / 2);
+      list.scrollLeft = x0 + (tx - x0) * k;
+    }
+    if (t < 1) requestAnimationFrame(frame); else evs.forEach((e) => window.removeEventListener(e, stop));
+  };
+  requestAnimationFrame(frame);
 }
 let fitTimer = 0;
 let qTimer = 0;
