@@ -245,7 +245,7 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .hold.ripe .holdbar { background: var(--hot-soft); }
 .hold.ripe .holdbar i { background: var(--hot); }
 
-/* ── sector boards (Fintech first): a column per country, cards ranked by sell-readiness ── */
+/* ── sector boards: a column per country, cards ordered by time held, coloured grey → red ── */
 .list.board { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(236px, 1fr); gap: 12px; align-items: start; overflow-x: auto; padding-bottom: 10px; }
 .col { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
 .colh { display: flex; align-items: baseline; gap: 7px; font-family: var(--display); font-weight: 700; font-size: 16px; padding: 4px 2px 6px; border-bottom: 2px solid var(--rule); }
@@ -253,17 +253,17 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .colh span { margin-left: auto; font-family: var(--mono); font-size: 11px; font-weight: 400; color: var(--faint); }
 .owner { display: inline-flex; align-items: center; gap: 6px; font-family: var(--display); font-weight: 600; font-size: 13px; color: var(--fg); }
 .owner i { display: inline-grid; place-items: center; width: 21px; height: 21px; border-radius: 5px; background: var(--oc, #444); color: #fff; font: 700 9.5px/1 var(--display); font-style: normal; letter-spacing: .3px; }
-.rs { margin-left: auto; font-family: var(--mono); font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--rule); color: var(--muted); background: var(--bg); font-variant-numeric: tabular-nums; cursor: help; }
-.rs.ripe { color: var(--hot); border-color: var(--hot); background: var(--hot-soft); }
-.rs.warming { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
-.rsx { display: flex; flex-wrap: wrap; gap: 4px 10px; margin: 0 0 8px; font-family: var(--mono); font-size: 11px; color: var(--muted); }
-.rsx b { color: var(--fg); font-weight: 600; }
 .chips .sep { width: 1px; align-self: stretch; background: var(--rule); margin: 2px 4px; flex: none; }
 .gaps { margin: 6px 0 0; font-family: var(--mono); font-size: 11px; color: var(--faint); line-height: 1.5; }
 .bc { cursor: pointer; }
 .bc .hold { white-space: nowrap; max-width: 100%; }
 .bc .hold b { white-space: nowrap; }
-.bc .holdbar { flex: 0 1 54px; min-width: 18px; width: 54px; }
+.bc { border-left-color: var(--hc, var(--rule)); }
+.bc .hold.years { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 4px; padding: 4px 8px 5px; white-space: nowrap; }
+.bc .hold.years b { color: var(--hc); }
+.bc .holdbar.seg { display: inline-flex; align-items: center; gap: 2px; width: auto; height: 8px; margin: 0; background: none; border-radius: 0; overflow: visible; }
+.bc .holdbar.seg i { position: static; display: block; width: 8px; height: 8px; border-radius: 2px; }
+.bc .holdbar.seg em { font: 600 9px/1 var(--mono); font-style: normal; color: var(--muted); margin-left: 2px; }
 .bc.open { grid-column: auto; cursor: default; border-left-color: var(--accent); box-shadow: 0 6px 24px rgba(0, 0, 0, .08); }
 /* An open card's detail flows into columns, so a wider card is a shorter one: fitBoard() widens the
    country column until the card fits the screen without scrolling (Josh, 2 Nov 2026). */
@@ -273,7 +273,6 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .bc.sliding.shown .more { opacity: 1; transition-delay: .1s; }
 @media (prefers-reduced-motion: reduce) { .list.board, .bc.sliding, .bc.sliding .more { transition: none; } }
 .bc.open .more { text-align: left; width: auto; padding-left: 0; padding-right: 0; columns: 210px; column-gap: 22px; }
-.bc.open .more .rsx { column-span: all; }
 .bc.open .more .why, .bc.open .more .move, .bc.open .more .also, .bc.open .more .sig > div, .bc.open .more .open-hint { break-inside: avoid; }
 .bc.open .more .sig { margin-top: 9px; }
 @media (max-width: 640px) { .list.board { grid-auto-flow: row; grid-auto-columns: auto; } .nav .nl { display: none; } }
@@ -319,7 +318,7 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
   <p class="foot" id="footSits" hidden>Situations group the stories of one deal, round or process across the weeks it runs, by the company they are about (read from the headline; a known portco or target wins) and by shared words, so twenty headlines on one takeover read as one card. The phase is the furthest any report got: Reported (explores, weighs, in talks), In process (advisers hired, data room, bids, shortlist, an unaccepted offer), Agreed, Completed. The heat is the hottest story's. A card is shown when a situation has more than one story or is in process; tap it for every story.</p>
   <p class="foot" id="footNews">Priority is ordered by Heat, a 0–100 score for the Singapore SSG team: APAC relevance (25 — Singapore and SE Asia first, then India and ANZ, then North Asia), live process (20), technology intensity (20), sponsor relationship (15), deal size (10) and ten for the day it breaks; from then on the whole number fades with age — full for two days, two-thirds at a week, half at ten days — so the list always leads with the latest. Tap the flame number for the breakdown. An item is on the list when it is relevant: an APAC item whenever it carries an event or a focus area; a global item only when it is live or signed and in a focus area, or a fund close, a new platform or a senior hire. The rest is kept behind the link at the bottom; the page carries the last 90 days and the archive in the repo keeps everything. Event, thesis and APAC are read from the headline by keyword; the matched words sit under each tag. A portfolio company buying something is an add-on and is listed here with the buyer's name, whether or not the headline names the firm. A story tagged BACKGROUND is a profile page or a re-told old deal (the text, the url or the holding date gives it away) and sits below the bar. <span id="footTriage">Pursue, Watch, Dismiss and notes are saved and shared with anyone who can open this page.</span></p>
   <p class="foot" id="footPortcos" hidden>Portcos are the firm's current portfolio companies that matter to SSG: focus-area companies first, APAC-weighted, and within that the longest held at the top, because four or more years is where a sponsor starts planning the exit. The hold clock on each card fills to seven years and turns hot past four, the exit window; a story about a portco in the window scores extra Heat. A reported sale or IPO process is tagged on the card. Tap a card for the business in a sentence and its five latest headlines, which are the hand-kept signals plus a daily news search on the company's own name. Valuations are estimates with their basis beside them.</p>
-  <p class="foot" id="footBoard" hidden>Each board is every sponsor's portfolio company in one SSG focus area, and the All board is the whole roster with each card tagged by focus area, in Asia-Pacific outside India and mainland China, in a column per country: the HQ country, or for a company based elsewhere the first board market it operates in. Cards are ranked by sell-readiness, a 0–100 score: up to 60 for time held, which weighs most (past four years is the exit window, six or more is ripe; a company with no hold date on file gets 20), and up to 40 for sell-likelihood (a reported sale process 40, reported talks 30, a partial exit 22, a listing with the sponsor still holding 18, plus 10 for a sale, IPO or bid headline in the last six months). Ripe is 60 or more, Warming 35. Hover or tap the number for the split. The owner tag names the sponsor, and a sponsor chip narrows the board to one. Tap a card for the business in a sentence and its latest headlines.</p>
+  <p class="foot" id="footBoard" hidden>Each board is every sponsor's portfolio company in one SSG focus area, and the All board is the whole roster with each card tagged by focus area, in Asia-Pacific outside India and mainland China, in a column per country: the HQ country, or for a company based elsewhere the first board market it operates in. Cards are ordered by time held, longest at the top, because the hold clock is the exit clock: four or more years is where a sponsor starts planning the exit. The hold bar shows one block per year held, the last one lighter for a part year, and the bar, the hold figure and the card's left edge run from grey for a new holding to red at eight years or more. A company with no hold date on file sits at the bottom of its column. A reported sale or IPO process, reported talks, a partial exit or a listing with the sponsor still holding is tagged on the card. The owner tag names the sponsor, and a sponsor chip narrows the board to one. Tap a card for the business in a sentence, its exit status and its latest headlines.</p>
   <p class="foot" id="footTargets" hidden>Targets are Jobi's candidates, not anything Warburg Pincus has said: companies in a focus area that look like what the firm buys, with the signals that make the case. A live process is reported by the press; everything else is a watch. Priority puts sponsor-owned companies first, longest hold at the top: a fund four or more years in is the seller most likely to run a process.</p>
 </div>
 <button class="totop" id="toTop" hidden aria-label="Back to top">↑</button>
@@ -1384,52 +1383,42 @@ const countryHit = (s) => COUNTRIES.find(([, n]) => new RegExp(`\\b${n}\\b`, 'i'
 // The HQ country when it is on the board; a company based in India, China or outside APAC is placed
 // by the first board market it lists, and one with none stays off the board (counted under it).
 const countryOf = (p) => countryHit(String(p.hq || '')) || (p.geos || []).map((g) => countryHit(String(g))).find(Boolean) || null;
-const EXIT_SIGNAL = /\b(sale|sell|sells|selling|sold|stake|ipo|listing|list|bid|offer|exit|divest|talks|buyers?|auction|dual-track|strategic review|take-?private|tender offer)\b/i;
-const LIKELIHOOD = { process: 40, rumoured: 30, partial: 22, listed: 18 };
-// Sell-readiness, 0–100. Time held weighs most (up to 60): the hold clock is the exit clock, and
-// a company with no hold date on file sits mid-way rather than at the bottom. Sell-likelihood (up
-// to 40) is what has been reported: a process, talks, a partial exit, a listing, and any sale, IPO
-// or bid headline in the last six months.
-function readiness(p) {
-  const y = heldYears(p);
-  const hold = y === null ? 20 : y < 2 ? y * 7.5 : y < 4 ? 15 + (y - 2) * 12.5 : y < 6 ? 40 + (y - 4) * 7.5 : Math.min(60, 55 + (y - 6) * 2.5);
-  const st = (p.exit || {}).status;
-  let like = LIKELIHOOD[st] || 0;
-  const recent = (p.signals || []).find((g) => g.date && Date.now() - Date.parse(g.date) < 180 * 86400000 && EXIT_SIGNAL.test(g.title || ''));
-  if (recent) like = Math.min(40, like + 10);
-  const score = Math.round(hold + like);
-  const band = score >= 60 ? 'ripe' : score >= 35 ? 'warming' : 'early';
-  return { score, band, hold: Math.round(hold), like: Math.round(like), years: y,
-    holdWhy: y === null ? 'no hold date on file' : `held ${HEAT_heldLabel(y)}`,
-    likeWhy: [LIKELIHOOD[st] ? EXIT_LABEL[st].toLowerCase() : 'no exit reported', recent ? 'exit headline in the last six months' : ''].filter(Boolean).join(', ') };
+// The hold clock is the exit clock: cards are ordered by time held and coloured on a scale from grey
+// (a new holding) to red (eight years or more), with four years the point where a sponsor starts
+// planning the exit. The bar shows one block per year held, the last one lighter for a part year.
+const HOLD_FULL = 8;
+const holdColor = (y) => {
+  const t = Math.max(0, Math.min(1, (y ?? 0) / HOLD_FULL)), k = t * t * (3 - 2 * t);   // smoothstep: grey lingers, red arrives late
+  const g = [154, 163, 173], r = [198, 40, 40];
+  return `rgb(${g.map((v, i) => Math.round(v + (r[i] - v) * k)).join(',')})`;
+};
+function holdBar(y) {
+  const n = Math.min(12, Math.ceil(y));
+  return `<span class="holdbar seg" aria-hidden="true">${Array.from({ length: n }, (_, i) => `<i style="background:${holdColor(i + 1)}${i + 1 > y ? `;opacity:${Math.max(.3, y - i).toFixed(2)}` : ''}"></i>`).join('')}${y > 12 ? '<em>+</em>' : ''}</span>`;
 }
 function boardCard(p) {
   const open = openPortco.has(p.id);
   const f = FIRMS.find((x) => x.id === p.firm) || FIRMS[0];
   const [m, c] = MONO[f.id] || [f.name.slice(0, 3).toUpperCase(), '#444'];
-  const r = readiness(p);
-  const y = r.years;
+  const y = heldYears(p);
   const rank = EXIT_RANK[(p.exit || {}).status] || 0;
   const news = open ? portcoNews(p) : [];
   const val = p.valuation && p.valuation.amount ? `<span class="fact val">${esc(p.valuation.amount)}${p.valuation.basis ? `<i>${esc(p.valuation.basis)}</i>` : ''}</span>` : '';
-  const split = `hold ${r.hold}/60 (${r.holdWhy}) · likelihood ${r.like}/40 (${r.likeWhy})`;
   return `
-    <article class="pc bc${open ? ' open' : ''}${r.band === 'ripe' ? ' hot' : r.band === 'warming' ? ' ripe' : ''}" data-pid="${esc(p.id)}">
+    <article class="pc bc${open ? ' open' : ''}" data-pid="${esc(p.id)}" style="--hc:${y === null ? 'var(--rule)' : holdColor(y)}">
       <div class="meta">
         <span class="owner" style="--oc:${c}"><i>${m}</i>${hilite(f.name, query)}</span>
         ${rank ? `<span class="tag exit-${esc(p.exit.status)}">${EXIT_LABEL[p.exit.status]}</span>` : ''}
         ${(query || (BOARDS[view.tab] || {}).every) && boardOf(p) ? `<span class="bd">${esc(BOARDS[boardOf(p)].label)}</span>` : ''}
-        <span class="rs ${r.band}" title="${esc(split)}">${r.score}</span>
       </div>
       <div class="name">${hilite(p.name, query)}</div>
       <div class="where">${hilite([p.industryLabel || '', p.hq].filter(Boolean).join(' · '), query)}</div>
       <div class="facts">
-        ${y !== null ? `<span class="hold${y >= 4 ? ' ripe' : ''}" title="held ${esc(HEAT_heldLabel(y))} since ${esc(sinceLabel(p))}">held <b>${esc(HEAT_heldLabel(y))}</b> since ${esc(sinceLabel(p))}<span class="holdbar"><i style="width:${Math.min(100, y / 7 * 100).toFixed(0)}%"></i></span></span>` : '<span class="hold">hold date n/a</span>'}
+        ${y !== null ? `<span class="hold years" title="held ${esc(HEAT_heldLabel(y))} since ${esc(sinceLabel(p))}: one block per year, grey to red over eight years"><span class="ht">held <b>${esc(HEAT_heldLabel(y))}</b> since ${esc(sinceLabel(p))}</span>${holdBar(y)}</span>` : '<span class="hold">hold date n/a</span>'}
         ${p.stake && p.stake !== 'unknown' ? `<span class="fact">${esc(p.stake)} stake</span>` : ''}
         ${val}
       </div>
       ${open ? `<div class="more">
-        <div class="rsx"><span>sell-readiness <b>${r.score}</b></span><span>hold <b>${r.hold}</b>/60 · ${esc(r.holdWhy)}</span><span>likelihood <b>${r.like}</b>/40 · ${esc(r.likeWhy)}</span></div>
         ${p.summary ? `<p class="why">${hilite(p.summary, query)}</p>` : ''}
         ${rank && p.exit.note ? exitStatus(p) : ''}
         ${(p.geos || []).length ? `<p class="also">${esc(p.geos.join(' · '))}</p>` : ''}
@@ -1450,10 +1439,10 @@ function renderBoard(sector) {
   const n = (k) => (k ? ` · ${k}` : '');
   $('chips').innerHTML = `<button class="chip${v.bfirm === 'all' ? ' on' : ''}" data-bfirm="all">All sponsors${n(onb.length)}</button>`
     + owners.map((f) => `<button class="chip${v.bfirm === f.id ? ' on' : ''}" data-bfirm="${f.id}">${esc(f.name)}${n(onb.filter((p) => p.firm === f.id).length)}</button>`).join('');
-  const picked = (v.bfirm === 'all' ? rows : rows.filter((p) => p.firm === v.bfirm)).map((p) => ({ p, r: readiness(p), c: countryOf(p) || (q ? REST : null) }));
+  const picked = (v.bfirm === 'all' ? rows : rows.filter((p) => p.firm === v.bfirm)).map((p) => ({ p, y: heldYears(p), c: countryOf(p) || (q ? REST : null) }));
   const list = picked.filter((x) => x.c);
   const off = picked.filter((x) => !x.c);
-  list.sort((a, b) => b.r.score - a.r.score || (b.r.years ?? -1) - (a.r.years ?? -1) || a.p.name.localeCompare(b.p.name));
+  list.sort((a, b) => (b.y ?? -1) - (a.y ?? -1) || a.p.name.localeCompare(b.p.name));   // longest held first; no hold date last
   const all = [...COUNTRIES, ...(q ? [REST] : [])].map(([code, name]) => ({ code, name, cards: list.filter((x) => x.c[0] === code) }));
   const cols = all.filter((c) => c.cards.length);
   const gaps = q ? [] : all.filter((c) => !c.cards.length).map((c) => c.name);
