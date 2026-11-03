@@ -371,8 +371,11 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .dsec table.tv { border-collapse: collapse; margin-top: 6px; font-variant-numeric: tabular-nums; }
 .dsec table.tv th, .dsec table.tv td { padding: 2px 8px; text-align: right; border-bottom: 1px solid var(--rule); }
 .dsec table.tv th:first-child, .dsec table.tv td:first-child { text-align: left; }
-#tip { position: fixed; z-index: 50; pointer-events: none; white-space: pre-line; background: var(--fg); color: var(--bg); font: 12px/1.4 var(--body); padding: 6px 9px; border-radius: 6px; max-width: 260px; box-shadow: 0 4px 14px rgba(0,0,0,.18); }
+#tip { position: fixed; z-index: 50; pointer-events: none; white-space: pre-line; line-height: 1.55; max-width: 340px !important; background: var(--fg); color: var(--bg); font: 12px/1.4 var(--body); padding: 6px 9px; border-radius: 6px; max-width: 260px; box-shadow: 0 4px 14px rgba(0,0,0,.18); }
 #tip b { font-weight: 600; }
+#tip .tip-h { font-size: 11px; opacity: .75; margin-bottom: 2px; }
+#tip .tip-h:only-child { font-size: 12px; opacity: 1; margin: 0; }
+#tip div:not(.tip-h) { font-size: 13px; font-weight: 500; }
 @media (max-width: 640px) { .lanewrap, .heatwrap, .dsk-only { display: none; } .lanem { display: block; } .heatm { display: flex; } .ph-only { display: inline; } .hbar { grid-template-columns: 104px 1fr 28px; } .hbar .bar { height: 18px; } .dsec { padding: 12px 12px 14px; } .list.dash .dsec { padding: 12px 12px 14px; } .dsec h2 { font-size: 16px; } .dhero .n { font-size: 40px; } .tiles { margin-left: 0; } .heat th { font-size: 9px; letter-spacing: 0; } .blist > div:not(.bm) { grid-template-columns: 22px 20px 1fr; } }
 
 /* ── desktop: the page fills the screen; the lists go several across, the board side by side ── */
@@ -1668,7 +1671,7 @@ function renderDash() {
     const ripe = mine.filter((p) => (ageOf(p) ?? -1) >= 4).length;
     const { m, c } = monoOf(f.id);
     return `<div class="panel"><h3><i style="background:${c}">${m}</i>${esc(f.name)}<span>${ripe} of ${mine.length} held 4y+${undated ? ` · ${undated} undated` : ''}</span></h3>
-      ${columns({ keys: ageKeys, series, ymax: vintMax, w: 340, h: 124, band: 4, labelEvery: (k) => ageLabel(k), tipOf: (k, s, n) => `${f.name} · held ${ageLabel(k)} year${k === '1' ? '' : 's'} · ${sectorLabel(s.k)}: ${n}` })}</div>`;
+      ${columns({ keys: ageKeys, series, ymax: vintMax, w: 340, h: 124, band: 4, labelEvery: (k) => ageLabel(k), tipOf: (k, s) => { const cos = mine.filter((p) => sectorOf(p) === s.k && ageOf(p) === +k).map((p) => ({ p, y: heldYears(p) })).sort((a, b) => b.y - a.y); return `${sectorLabel(s.k)} · held ${+k === 0 ? 'under a year' : `${ageLabel(k)} year${k === '1' ? '' : 's'}`}\n${cos.map(({ p, y }) => `• ${p.name}  (${HEAT_heldLabel(y)})`).join('\n')}`; } })}</div>`;
   }).join('');
   const vintTable = `<details><summary>As a table</summary><table class="tv"><tr><th>Sponsor</th>${ageKeys.map((k) => `<th>${ageLabel(k)}y</th>`).join('')}<th>n/a</th></tr>${firms.map((f) => `<tr><td>${esc(f.name)}</td>${ageKeys.map((k) => `<td>${rows.filter((p) => p.firm === f.id && ageOf(p) === +k).length || ''}</td>`).join('')}<td>${rows.filter((p) => p.firm === f.id && ageOf(p) === null).length || ''}</td></tr>`).join('')}</table></details>`;
   const vintage = `<section class="dsec"><h2>Positions by years held</h2><p class="sub">How long each sponsor has held its current companies, in completed years (0 is under a year, ${HOLD_CAP}+ is ${HOLD_CAP} or more), coloured by sector. The shaded band from four years is the exit window. The same scale on every panel; hover a column for the split.</p>${legend}<div class="panels">${panels}</div>${vintTable}</section>`;
@@ -2002,7 +2005,7 @@ $('list').addEventListener('click', (e) => {
 });
 // One tooltip for every chart mark: the value leads, the series follows (data-tip on the mark).
 const tipEl = document.createElement('div'); tipEl.id = 'tip'; tipEl.hidden = true; document.body.appendChild(tipEl);
-const showTip = (el, x, y) => { tipEl.textContent = el.dataset.tip; tipEl.hidden = false; const r = tipEl.getBoundingClientRect(); tipEl.style.left = `${Math.min(window.innerWidth - r.width - 8, x + 12)}px`; tipEl.style.top = `${y - r.height - 10 < 8 ? y + 16 : y - r.height - 10}px`; };
+const showTip = (el, x, y) => { const [head, ...rest] = el.dataset.tip.split('\n'); tipEl.textContent = ''; const hd = document.createElement('div'); hd.className = 'tip-h'; hd.textContent = head; tipEl.appendChild(hd); if (rest.length) { const bd = document.createElement('div'); bd.textContent = rest.join('\n'); tipEl.appendChild(bd); } tipEl.hidden = false; const r = tipEl.getBoundingClientRect(); tipEl.style.left = `${Math.min(window.innerWidth - r.width - 8, x + 12)}px`; tipEl.style.top = `${y - r.height - 10 < 8 ? y + 16 : y - r.height - 10}px`; };
 $('list').addEventListener('pointermove', (e) => { const el = e.target.closest('[data-tip]'); if (!el) { tipEl.hidden = true; return; } showTip(el, e.clientX, e.clientY); });
 $('list').addEventListener('pointerleave', () => { tipEl.hidden = true; });
 $('list').addEventListener('focusin', (e) => { const el = e.target.closest('[data-tip]'); if (!el) return; const r = el.getBoundingClientRect(); showTip(el, r.left + r.width / 2, r.top); });
