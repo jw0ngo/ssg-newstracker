@@ -683,6 +683,15 @@ function portcoBuyer(title, portcos) {
   }
   return null;
 }
+const PORTCO_GENERIC = new Set(["and","the","for","platforms","group","technologies","technology","solutions","services","software","capital","financial","finance","holdings","partners","management","health","healthcare","systems","digital","global","international","india","asia","pacific","company","limited","convergence","education","hospital"]);
+const BUSINESS = /\b(software|saas|platforms?|apps?|cloud|ai|data|digital|tech|technology|fintech|banks?|banking|payments?|lenders?|lending|loans?|insurance|insurer|acqui\w*|buys|bought|merger|merges?|stakes?|sale|sells|sold|deals?|ipo|listing|listed|shares|asx|nasdaq|nyse|krx|kospi|raises?|raised|funding|investments?|investors?|invests?|valuation|revenue|earnings|profits?|results|ebitda|growth|expands?|expansion|launch(?:es)?|partnership|partners with|contracts?|agreement|customers?|clients?|users|ceo|cfo|cto|coo|chief executive|appoints?|hires?|founders?|startup|unicorn|private equity|sponsor|buyout|bids?|offer|financing|refinanc\w*|debt|subsidiary|business|company|firm|group|enterprise|headquarters|employees|staff|layoffs|products?|services?|markets?|industry|sector|plc|ltd|inc|corp)\b/i;
+function portcoOnTopic(text, p, f) {
+  const t = String(text || '');
+  if (f && f.match && f.match.test(t)) return true;
+  if (BUSINESS.test(t)) return true;
+  const words = String((p && p.industryLabel) || '').toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length >= 5 && !PORTCO_GENERIC.has(w));
+  return words.some((w) => new RegExp(`\\b${w}`, 'i').test(t));
+}
 function classify(f, raw, held) {
   const title = raw.title;
   const all = `${title} . ${raw.summary || ''}`;
@@ -1458,7 +1467,7 @@ function portcoNews(p) {
   const re = portcoRe(p);
   // A retrospective story (a profile page, a re-told old deal) is not one of the five latest.
   const pf = FIRMS.find((x) => x.id === p.firm) || firm;
-  const fromFeed = items.filter((i) => (i.portco === p.slug || (re.source.length > 6 && re.test(`${i.title} ${i.summary || ''}`))) && !retrospective(i, { name: p.name, heldSince: p.heldSince }, pf)).map((i) => ({ date: i.date, title: i.title, url: i.url, publisher: i.publisher, feed: true }));
+  const fromFeed = items.filter((i) => (i.portco === p.slug || (re.source.length > 6 && re.test(`${i.title} ${i.summary || ''}`))) && !retrospective(i, { name: p.name, heldSince: p.heldSince }, pf) && portcoOnTopic(`${i.title} ${i.summary || ''}`, p, pf)).map((i) => ({ date: i.date, title: i.title, url: i.url, publisher: i.publisher, feed: true }));
   const all = [...(p.signals || []), ...fromFeed].filter((g) => g.date && !Number.isNaN(Date.parse(g.date))).sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
   const kept = [];
   for (const g of all) {
