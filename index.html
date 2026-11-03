@@ -19,6 +19,8 @@
   --ok-soft: #e1efe5;
   --info: #3b5a7c;
   --info-soft: #e3ebf4;
+  --c1: #2a78d6; --c2: #eb6834; --c3: #1baf7a; --c4: #eda100; --c5: #e87ba4; --c6: #008300; --c7: #6250d6; --c8: #e34948; --c0: #9aa3ad;
+  --heat-lo: #d6eced; --heat-hi: #0a4f53; --grid: #e6ebee;
   --display: "Archivo Narrow", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
   --body: "IBM Plex Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
@@ -29,6 +31,8 @@
     --rule: #263037; --accent: #4fc0c3; --accent-soft: #123538;
     --hot: #e98a3c; --hot-soft: #3a2415; --ok: #7cc094; --ok-soft: #15291c;
     --info: #93b3d6; --info-soft: #182636; color-scheme: dark;
+    --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500; --c5: #d55181; --c6: #008300; --c7: #9085e9; --c8: #e66767; --c0: #65737d;
+    --heat-lo: #1d4a4d; --heat-hi: #8fdde0; --grid: #263037;
   }
 }
 :root[data-theme="dark"] {
@@ -36,6 +40,8 @@
   --rule: #263037; --accent: #4fc0c3; --accent-soft: #123538;
   --hot: #e98a3c; --hot-soft: #3a2415; --ok: #7cc094; --ok-soft: #15291c;
   --info: #93b3d6; --info-soft: #182636; color-scheme: dark;
+  --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500; --c5: #d55181; --c6: #008300; --c7: #9085e9; --c8: #e66767; --c0: #65737d;
+  --heat-lo: #1d4a4d; --heat-hi: #8fdde0; --grid: #263037;
 }
 
 * { box-sizing: border-box; }
@@ -56,6 +62,9 @@ a { color: inherit; }
 .nav a:hover { color: var(--accent); }
 .mast { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
 .mast h1 { font-family: var(--display); font-weight: 700; font-size: 28px; letter-spacing: -.01em; margin: 0; line-height: 1; }
+.mast-l { display: flex; align-items: baseline; gap: 12px; min-width: 0; }
+.dashbtn { font-family: var(--display); font-weight: 600; font-size: 13px; color: var(--accent); border: 1px solid var(--accent); background: var(--surface); border-radius: 999px; padding: 4px 11px; white-space: nowrap; }
+.dashbtn[aria-pressed="true"] { color: #fff; background: var(--accent); }
 .firms { display: flex; gap: 6px; flex-wrap: wrap; margin-top: -2px; }
 .firm { display: flex; align-items: center; gap: 8px; padding: 4px 10px 4px 4px; border-radius: 999px; border: 1px solid var(--rule); background: var(--surface); }
 .firm.on { border-color: var(--accent); background: var(--accent-soft); }
@@ -277,13 +286,83 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .bc.open .more .why, .bc.open .more .move, .bc.open .more .also, .bc.open .more .sig > div, .bc.open .more .open-hint { break-inside: avoid; }
 .bc.open .more .sig { margin-top: 9px; }
 @media (max-width: 640px) { .list.board { grid-auto-flow: row; grid-auto-columns: auto; } .nav .nl { display: none; } }
+/* ── dashboard (Josh, 3 Nov 2026): thematic investing per sponsor, positions by vintage, bolt-on activity ── */
+.list.dash { display: flex !important; flex-direction: column; gap: 14px; max-width: 1180px; }
+.heatwrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.dsec { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px 16px; min-width: 0; }
+.dsec h2 { font-family: var(--display); font-weight: 700; font-size: 17px; margin: 0 0 2px; }
+.dsec .sub { margin: 0 0 12px; font-size: 12.5px; color: var(--muted); line-height: 1.45; }
+.dhero { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px 28px; }
+.dhero .n { font-family: var(--body); font-weight: 600; font-size: 52px; line-height: 1; letter-spacing: -.02em; }
+.dhero .l { font-size: 13px; color: var(--muted); max-width: 260px; line-height: 1.4; padding-bottom: 6px; }
+.tiles { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
+.tile { display: flex; align-items: center; gap: 8px; border: 1px solid var(--rule); border-radius: 8px; padding: 6px 10px 6px 7px; background: var(--bg); min-width: 0; }
+.tile.on { border-color: var(--accent); background: var(--accent-soft); }
+.tile i { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 5px; color: #fff; font: 700 9.5px/1 var(--display); font-style: normal; flex: none; }
+.tile b { font-family: var(--body); font-weight: 600; font-size: 18px; line-height: 1; }
+.tile span { font-size: 11px; color: var(--muted); white-space: nowrap; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 0 0 10px; font-size: 12px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 10px; height: 10px; border-radius: 2px; flex: none; }
+.heat { border-collapse: separate; border-spacing: 2px; font-variant-numeric: tabular-nums; width: 100%; }
+.heat th { font-family: var(--mono); font-weight: 400; font-size: 10.5px; letter-spacing: .04em; text-transform: uppercase; color: var(--faint); padding: 2px 6px; text-align: center; white-space: nowrap; }
+.heat th.r, .heat td.r { text-align: left; }
+.heat td.r { font-family: var(--display); font-weight: 600; font-size: 13px; padding: 0 8px 0 2px; white-space: nowrap; }
+.heat td.c { text-align: center; font-size: 13px; padding: 0; }
+.heat td.c button { display: block; width: 100%; height: 30px; border-radius: 4px; font: 500 13px var(--body); color: var(--fg); background: var(--bg); cursor: pointer; }
+.heat td.c button:hover, .heat td.c button.on { outline: 2px solid var(--accent); outline-offset: -2px; }
+.heat td.c button.z { color: transparent; cursor: default; }
+.heat td.t { text-align: right; font-family: var(--mono); font-size: 12px; color: var(--muted); padding: 0 4px 0 10px; }
+.cell-list { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--rule); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.cell-list .cl-h { width: 100%; font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); }
+.cell-list .cp { font-size: 12.5px; border: 1px solid var(--rule); border-radius: 999px; padding: 3px 9px; background: var(--bg); }
+.cell-list .cp b { font-family: var(--mono); font-weight: 500; color: var(--muted); margin-left: 5px; }
+.hbars { display: flex; flex-direction: column; gap: 7px; margin-top: 14px; }
+.hbar { display: grid; grid-template-columns: 150px 1fr 36px; align-items: center; gap: 10px; }
+.hbar .nm { font-family: var(--display); font-weight: 600; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hbar .bar { display: flex; gap: 2px; height: 20px; }
+.hbar .bar i { display: grid; place-items: center; height: 100%; border-radius: 2px; font: 500 11px var(--body); color: #fff; min-width: 0; overflow: hidden; }
+.hbar .bar i.dk { color: #0b0b0b; }
+.hbar .bar i:first-child { border-top-left-radius: 4px; border-bottom-left-radius: 4px; }
+.hbar .bar i:last-child { border-top-right-radius: 4px; border-bottom-right-radius: 4px; }
+.hbar .t { font-family: var(--mono); font-size: 12px; color: var(--muted); text-align: right; }
+.panels { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px 18px; }
+.panel h3 { font-family: var(--display); font-weight: 600; font-size: 13px; margin: 0 0 2px; display: flex; align-items: center; gap: 7px; }
+.panel h3 i { display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 4px; color: #fff; font: 700 8px/1 var(--display); font-style: normal; }
+.panel h3 span { font-family: var(--mono); font-weight: 400; font-size: 11px; color: var(--faint); margin-left: auto; }
+.chart { width: 100%; height: auto; display: block; overflow: visible; }
+.chart text { font-family: var(--mono); font-size: 10px; fill: var(--faint); }
+.chart .grid { stroke: var(--grid); stroke-width: 1; }
+.chart .base { stroke: var(--rule); stroke-width: 1; }
+.chart rect[data-tip] { cursor: default; }
+.chart rect[data-tip]:hover, .chart rect[data-tip]:focus { filter: brightness(1.12); outline: none; }
+.dstats { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 0 0 10px; }
+.dstat b { display: block; font-family: var(--body); font-weight: 600; font-size: 24px; line-height: 1.1; }
+.dstat span { font-size: 11.5px; color: var(--muted); }
+.dstat .up { color: var(--ok); } .dstat .dn { color: var(--hot); }
+.blist { margin-top: 12px; display: flex; flex-direction: column; gap: 6px; }
+.blist > div { display: grid; grid-template-columns: 56px 22px 1fr; gap: 8px; align-items: baseline; font-size: 13px; line-height: 1.4; }
+.blist .d { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.blist i { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 5px; color: #fff; font: 700 8.5px/1 var(--display); font-style: normal; align-self: center; }
+.blist .pn { font-weight: 600; margin-right: 6px; }
+.blist a { color: var(--fg); text-decoration: none; }
+.blist a:hover { color: var(--accent); }
+.blist .pub { font-family: var(--mono); font-size: 11px; color: var(--faint); margin-left: 6px; }
+.dsec details { margin-top: 10px; font-size: 12px; color: var(--muted); }
+.dsec summary { cursor: pointer; font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); }
+.dsec table.tv { border-collapse: collapse; margin-top: 6px; font-variant-numeric: tabular-nums; }
+.dsec table.tv th, .dsec table.tv td { padding: 2px 8px; text-align: right; border-bottom: 1px solid var(--rule); }
+.dsec table.tv th:first-child, .dsec table.tv td:first-child { text-align: left; }
+#tip { position: fixed; z-index: 50; pointer-events: none; background: var(--fg); color: var(--bg); font: 12px/1.4 var(--body); padding: 6px 9px; border-radius: 6px; max-width: 260px; box-shadow: 0 4px 14px rgba(0,0,0,.18); }
+#tip b { font-weight: 600; }
+@media (max-width: 640px) { .hbar { grid-template-columns: 96px 1fr 30px; } .dhero .n { font-size: 40px; } .tiles { margin-left: 0; } .heat th { font-size: 9px; letter-spacing: 0; } .blist > div { grid-template-columns: 50px 20px 1fr; } }
 
 /* ── desktop: the page fills the screen; the lists go several across, the board side by side ── */
 @media (min-width: 900px) {
   .wrap { max-width: 1480px; padding-inline: 28px; }
   body.boardon .wrap { max-width: none; }
-  .list:not(.board):not(.pgrid) { display: grid; grid-template-columns: repeat(auto-fill, minmax(440px, 1fr)); align-items: start; }
-  .list:not(.board):not(.pgrid) > .day, .list:not(.board):not(.pgrid) > .foot, .list:not(.board):not(.pgrid) > .empty, .list:not(.board):not(.pgrid) > .brief { grid-column: 1 / -1; }
+  .list:not(.board):not(.pgrid):not(.dash) { display: grid; grid-template-columns: repeat(auto-fill, minmax(440px, 1fr)); align-items: start; }
+  .list:not(.board):not(.pgrid):not(.dash) > .day, .list:not(.board):not(.pgrid):not(.dash) > .foot, .list:not(.board):not(.pgrid):not(.dash) > .empty, .list:not(.board):not(.pgrid):not(.dash) > .brief { grid-column: 1 / -1; }
   .list.pgrid { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
 }
 </style>
@@ -292,7 +371,7 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
   <div class="top" id="top">
     <div class="site"><span class="brand">SSG Newstracker</span><nav class="nav" id="nav" aria-label="Sections"></nav></div>
     <div class="mast">
-      <h1 id="h1">Exit Readiness Tracker</h1>
+      <div class="mast-l"><h1 id="h1">Exit Readiness Tracker</h1><button type="button" class="dashbtn" id="dashBtn" aria-pressed="false" hidden>Dashboard</button></div>
       <div class="mast-r">
         <label class="q" id="qbox"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><input id="q" type="search" placeholder="Search all portcos" autocomplete="off" spellcheck="false" aria-label="Search all portco cards"><button type="button" id="qx" aria-label="Clear search" hidden>×</button></label>
         <span class="stamp" id="stamp">loading</span>
@@ -319,6 +398,7 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
   <p class="foot" id="footSits" hidden>Situations group the stories of one deal, round or process across the weeks it runs, by the company they are about (read from the headline; a known portco or target wins) and by shared words, so twenty headlines on one takeover read as one card. The phase is the furthest any report got: Reported (explores, weighs, in talks), In process (advisers hired, data room, bids, shortlist, an unaccepted offer), Agreed, Completed. The heat is the hottest story's. A card is shown when a situation has more than one story or is in process; tap it for every story.</p>
   <p class="foot" id="footNews">Priority is ordered by Heat, a 0–100 score for the Singapore SSG team: APAC relevance (25 — Singapore and SE Asia first, then India and ANZ, then North Asia), live process (20), technology intensity (20), sponsor relationship (15), deal size (10) and ten for the day it breaks; from then on the whole number fades with age — full for two days, two-thirds at a week, half at ten days — so the list always leads with the latest. Tap the flame number for the breakdown. An item is on the list when it is relevant: an APAC item whenever it carries an event or a focus area; a global item only when it is live or signed and in a focus area, or a fund close, a new platform or a senior hire. The rest is kept behind the link at the bottom; the page carries the last 90 days and the archive in the repo keeps everything. Event, thesis and APAC are read from the headline by keyword; the matched words sit under each tag. A portfolio company buying something is an add-on and is listed here with the buyer's name, whether or not the headline names the firm. A story tagged BACKGROUND is a profile page or a re-told old deal (the text, the url or the holding date gives it away) and sits below the bar. <span id="footTriage">Pursue, Watch, Dismiss and notes are saved and shared with anyone who can open this page.</span></p>
   <p class="foot" id="footPortcos" hidden>Portcos are the firm's current portfolio companies that matter to SSG: focus-area companies first, APAC-weighted, and within that the longest held at the top, because four or more years is where a sponsor starts planning the exit. The hold clock on each card fills to seven years and turns hot past four, the exit window; a story about a portco in the window scores extra Heat. A reported sale or IPO process is tagged on the card. Tap a card for the business in a sentence and its five latest headlines, which are the hand-kept signals plus a daily news search on the company's own name. Valuations are estimates with their basis beside them.</p>
+  <p class="foot" id="footDash" hidden>The dashboard reads the same roster as the boards: the sponsors' portfolio companies in Asia-Pacific outside India and mainland China. Thematic investing counts each company once, under its SSG sector board. Vintage is the year the sponsor first invested, from the hold date on file; a company with no dated entry is counted beside the panel. Bolt-ons are acquisitions made by the portfolio companies themselves, read from the headline archive: a headline naming the company as the buyer at signed or closed stage, several reports of one deal folded into one event. The archive has carried every feed story since October 2026 and was backfilled before that, so earlier months understate activity. The sponsor chips narrow every chart to one sponsor; tap a heatmap cell for the companies behind it.</p>
   <p class="foot" id="footBoard" hidden>Each board is every sponsor's portfolio company in one SSG focus area, and the All board is the whole roster with each card tagged by focus area, in Asia-Pacific outside India and mainland China, in a column per country: the HQ country, or for a company based elsewhere the first board market it operates in. Cards are ordered by time held, longest at the top, because the hold clock is the exit clock: four or more years is where a sponsor starts planning the exit. The hold bar shows one block per year held, the last one lighter for a part year, and the bar, the hold figure and the card's left edge run from grey for a new holding to red at eight years or more. A company with no hold date on file sits at the bottom of its column. A reported sale or IPO process, reported talks, a partial exit or a listing with the sponsor still holding is tagged on the card. The owner tag names the sponsor, and a sponsor chip narrows the board to one. Tap a card for the business in a sentence, its exit status and its latest headlines.</p>
   <p class="foot" id="footTargets" hidden>Targets are Jobi's candidates, not anything Warburg Pincus has said: companies in a focus area that look like what the firm buys, with the signals that make the case. A live process is reported by the press; everything else is a watch. Priority puts sponsor-owned companies first, longest hold at the top: a fund four or more years in is the seller most likely to run a process.</p>
 </div>
@@ -1003,7 +1083,9 @@ function briefPick(rows, opts) {
 
 
 const DATA = { base: 'data/' };
+const DASH_INLINE = null;
 const PUBLIC = typeof DATA !== 'undefined';
+let dash = typeof DASH_INLINE !== 'undefined' ? DASH_INLINE : null;   // data/dash.json: the bolt-on history (lib/dash.js)
 
 const KIND = { acquire: 'Buyout', addon: 'Add-on', exit: 'Exit', invest: 'Growth', fund: 'Fund', people: 'People', platform: 'New platform', other: 'News' };
 const MONO = { 'warburg-pincus': ['WP', '#1b2a4a'], kkr: ['KKR', '#2b2b2b'], tpg: ['TPG', '#0b4f6c'], eqt: ['EQT', '#b3471b'], navis: ['NAV', '#6b1f3a'], 'ta-associates': ['TA', '#1f4e79'], 'macquarie-capital': ['MQ', '#0a5c3a'], 'affinity-partners': ['AFP', '#5b2a86'], 'affinity-equity': ['AEP', '#8b2d2d'] };
@@ -1019,9 +1101,9 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '
 
 // Per-viewer conveniences only. Triage lives in the shared store.
 const PREFS = 'pe-client-tracker.view';
-let view = { firm: FIRMS[0].id, tab: 'fintech', seg: 'priority', thesis: 'all', apac: false, showDismissed: false, bsort: 'ready', bfirm: 'all' };
+let view = { firm: FIRMS[0].id, tab: 'fintech', seg: 'priority', thesis: 'all', apac: false, showDismissed: false, bsort: 'ready', bfirm: 'all', dash: false };
 try { view = { ...view, ...JSON.parse(localStorage.getItem(PREFS) || '{}'), showDismissed: false }; } catch {}
-const savePrefs = () => { try { localStorage.setItem(PREFS, JSON.stringify({ firm: view.firm, tab: view.tab, seg: view.seg, thesis: view.thesis, apac: view.apac, bsort: view.bsort, bfirm: view.bfirm })); } catch {} };
+const savePrefs = () => { try { localStorage.setItem(PREFS, JSON.stringify({ firm: view.firm, tab: view.tab, seg: view.seg, thesis: view.thesis, apac: view.apac, bsort: view.bsort, bfirm: view.bfirm, dash: !!view.dash })); } catch {} };
 
 let items = [];          // raw rows from the store
 let triage = {};         // id → { status, note, at }
@@ -1430,6 +1512,125 @@ function boardCard(p) {
       </div>` : '<div class="open-hint">tap for summary and latest news</div>'}
     </article>`;
 }
+// ── Dashboard ───────────────────────────────────────────────────────────────────────────────────
+// Three reads of the board (the on-board roster, APAC outside India and mainland China): where each
+// sponsor's tech money sits by sector, when it went in, and how acquisitive the portcos are. The
+// sector colours are the eight validated categorical slots in a fixed order (--c1…--c8), the same
+// in every chart; the heatmap is one teal ramp; the bolt-on columns are a single series.
+const SECTORS = ['fintech', 'saas', 'internet', 'healthit', 'itservices', 'infra', 'data', 'ai'];
+const SECTOR_SLOT = Object.fromEntries(SECTORS.map((k, i) => [k, i + 1]));
+const sectorOf = (p) => boardOf(p) || 'other';
+const sectorLabel = (k) => k === 'other' ? 'Other' : BOARDS[k].label;
+const SECTOR_SHORT = { fintech: 'Fintech', saas: 'SaaS', internet: 'Marketplaces', healthit: 'Health IT', itservices: 'IT services', infra: 'Infra', data: 'Data', ai: 'AI', other: 'Other' };
+const sectorShort = (k) => SECTOR_SHORT[k] || sectorLabel(k);
+const sectorVar = (k) => `var(--c${SECTOR_SLOT[k] || 0})`;
+const DARK_TEXT = new Set(['healthit']);   // the yellow slot takes near-black labels inside the fill
+const monoOf = (id) => { const f = FIRMS.find((x) => x.id === id) || FIRMS[0]; const [m, c] = MONO[f.id] || [f.name.slice(0, 3).toUpperCase(), '#444']; return { m, c, name: f.name }; };
+const heatMix = (t) => `color-mix(in oklab, var(--heat-lo), var(--heat-hi) ${Math.round(t * 100)}%)`;
+let dashCell = null;   // the heatmap cell whose companies are listed
+const fmtMonth = (ym) => { const [y, m] = ym.split('-'); return `${['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][+m - 1]} ${y}`; };
+function tipAttr(text) { return `data-tip="${esc(text)}" tabindex="0"`; }
+// Stacked columns: one SVG, columns by `keys` (years or months), segments by sector or a single
+// series. Shared y-scale when `ymax` is given. Marks ≤ 24px wide, 4px rounded tops, 2px gaps.
+function columns({ keys, series, ymax, labelEvery, w = 320, h = 120, single, tipOf }) {
+  const padL = 26, padB = 18, padT = 8, iw = w - padL - 4, ih = h - padT - padB;
+  const max = Math.max(1, ymax || Math.max(...keys.map((k) => series.reduce((t, s) => t + (s.v[k] || 0), 0))));
+  const step = iw / keys.length, bw = Math.min(24, Math.max(4, step - 3));
+  const ticks = max <= 4 ? [0, max] : [0, Math.round(max / 2), max];
+  let out = `<svg class="chart" viewBox="0 0 ${w} ${h}" role="img">`;
+  for (const t of ticks) { const y = padT + ih - ih * t / max; out += `<line class="grid" x1="${padL}" x2="${w - 4}" y1="${y.toFixed(1)}" y2="${y.toFixed(1)}"/><text x="${padL - 5}" y="${(y + 3).toFixed(1)}" text-anchor="end">${t}</text>`; }
+  out += `<line class="base" x1="${padL}" x2="${w - 4}" y1="${padT + ih}" y2="${padT + ih}"/>`;
+  keys.forEach((k, i) => {
+    const x = padL + i * step + (step - bw) / 2;
+    let y = padT + ih;
+    const segs = series.map((s) => ({ s, n: s.v[k] || 0 })).filter((x) => x.n);
+    segs.forEach(({ s, n }, j) => {
+      const hh = ih * n / max, top = y - hh, last = j === segs.length - 1;
+      const hgt = Math.max(0, hh - (j ? 2 : 0));
+      const path = last && hgt >= 4
+        ? `M${x},${(top + hgt).toFixed(1)} v${(-(hgt - 4)).toFixed(1)} a4,4 0 0 1 4,-4 h${bw - 8} a4,4 0 0 1 4,4 v${(hgt - 4).toFixed(1)} z`
+        : `M${x},${(top + hgt).toFixed(1)} v${(-hgt).toFixed(1)} h${bw} v${hgt.toFixed(1)} z`;
+      out += `<path d="${path}" fill="${single ? 'var(--accent)' : s.color}" ${tipAttr(tipOf(k, s, n))}/>`;
+      y = top;
+    });
+    if (labelEvery(k, i)) out += `<text x="${(x + bw / 2).toFixed(1)}" y="${h - 4}" text-anchor="middle">${esc(labelEvery(k, i))}</text>`;
+  });
+  return out + '</svg>';
+}
+function renderDash() {
+  const v = view;
+  const rows = portcos.filter(countryOf);   // the board's scope
+  const owners = FIRMS.filter((f) => rows.some((p) => p.firm === f.id));
+  if (v.bfirm !== 'all' && !owners.some((f) => f.id === v.bfirm)) v.bfirm = 'all';
+  const n = (k) => (k ? ` · ${k}` : '');
+  $('chips').innerHTML = `<button class="chip${v.bfirm === 'all' ? ' on' : ''}" data-bfirm="all">All sponsors${n(rows.length)}</button>`
+    + owners.map((f) => `<button class="chip${v.bfirm === f.id ? ' on' : ''}" data-bfirm="${f.id}">${esc(f.name)}${n(rows.filter((p) => p.firm === f.id).length)}</button>`).join('');
+  $('gaps').innerHTML = '';
+  const picked = v.bfirm === 'all' ? rows : rows.filter((p) => p.firm === v.bfirm);
+  const firms = v.bfirm === 'all' ? owners : owners.filter((f) => f.id === v.bfirm);
+  if (!loaded) { $('list').innerHTML = '<div class="empty"><b>Loading the dashboard.</b></div>'; return; }
+  const sectors = SECTORS.filter((k) => rows.some((p) => sectorOf(p) === k)).concat(rows.some((p) => sectorOf(p) === 'other') ? ['other'] : []);
+  const legend = `<div class="legend">${sectors.map((k) => `<span><i style="background:${sectorVar(k)}"></i>${esc(sectorLabel(k))}</span>`).join('')}</div>`;
+
+  // 1. Headline: the board, by sponsor.
+  const heroN = picked.length;
+  const hero = `<section class="dsec"><div class="dhero"><div><div class="n">${heroN}</div></div><div class="l">${v.bfirm === 'all' ? 'portfolio companies on the board: Asia-Pacific outside India and mainland China, every sector' : `${esc(monoOf(v.bfirm).name)} portfolio companies on the board, of ${rows.length} across all sponsors`}</div>
+    <div class="tiles">${owners.map((f) => { const { m, c } = monoOf(f.id); const k = rows.filter((p) => p.firm === f.id).length; return `<button class="tile${v.bfirm === f.id ? ' on' : ''}" data-bfirm="${f.id}" title="${esc(f.name)}"><i style="background:${c}">${m}</i><b>${k}</b><span>${esc(f.name)}</span></button>`; }).join('')}</div></div></section>`;
+
+  // 2. Thematic investing: sponsor × sector heatmap, then a stacked bar per sponsor.
+  const count = (fid, k) => rows.filter((p) => p.firm === fid && sectorOf(p) === k).length;
+  const cellMax = Math.max(1, ...firms.flatMap((f) => sectors.map((k) => count(f.id, k))));
+  const heat = `<div class="heatwrap"><table class="heat"><thead><tr><th class="r">Sponsor</th>${sectors.map((k) => `<th title="${esc(sectorLabel(k))}">${esc(sectorShort(k))}</th>`).join('')}<th>Total</th></tr></thead><tbody>
+    ${firms.map((f) => `<tr><td class="r">${esc(f.name)}</td>${sectors.map((k) => { const c = count(f.id, k); const t = c / cellMax; const on = dashCell && dashCell.firm === f.id && dashCell.sector === k; return `<td class="c"><button type="button" class="${c ? '' : 'z'}${on ? ' on' : ''}" data-cell="${f.id}|${k}" ${c ? `style="background:${heatMix(0.12 + 0.88 * t)};color:${t > 0.5 ? '#fff' : 'var(--fg)'}"` : ''} aria-label="${esc(f.name)}, ${esc(sectorLabel(k))}: ${c}">${c}</button></td>`; }).join('')}<td class="t">${rows.filter((p) => p.firm === f.id).length}</td></tr>`).join('')}
+    ${firms.length > 1 ? `<tr><td class="r" style="color:var(--muted)">All</td>${sectors.map((k) => `<td class="t" style="text-align:center">${rows.filter((p) => sectorOf(p) === k).length}</td>`).join('')}<td class="t">${rows.length}</td></tr>` : ''}
+  </tbody></table></div>`;
+  let cellList = '';
+  if (dashCell && firms.some((f) => f.id === dashCell.firm)) {
+    const list = rows.filter((p) => p.firm === dashCell.firm && sectorOf(p) === dashCell.sector).map((p) => ({ p, y: heldYears(p) })).sort((a, b) => (b.y ?? -1) - (a.y ?? -1));
+    cellList = `<div class="cell-list"><span class="cl-h">${esc(monoOf(dashCell.firm).name)} · ${esc(sectorLabel(dashCell.sector))} · ${list.length}</span>${list.map(({ p, y }) => `<span class="cp">${esc(p.name)}<b>${y === null ? 'n/a' : HEAT_heldLabel(y)}</b></span>`).join('') || '<span class="cp">none</span>'}</div>`;
+  }
+  const hbars = `<div class="hbars">${firms.map((f) => { const tot = rows.filter((p) => p.firm === f.id).length; return `<div class="hbar"><div class="nm">${esc(f.name)}</div><div class="bar">${sectors.map((k) => { const c = count(f.id, k); if (!c) return ''; const share = c / tot; return `<i style="flex:${c} 1 0;background:${sectorVar(k)}" class="${DARK_TEXT.has(k) ? 'dk' : ''}" ${tipAttr(`${f.name} · ${sectorLabel(k)}: ${c} of ${tot} (${Math.round(share * 100)}%)`)}>${share >= 0.07 ? c : ''}</i>`; }).join('')}</div><div class="t">${tot}</div></div>`; }).join('')}</div>`;
+  const thematic = `<section class="dsec"><h2>Thematic investing</h2><p class="sub">Portfolio companies by sponsor and SSG sector. Tap a cell for the companies behind it; the bars show each sponsor's mix.</p>${heat}${cellList}${legend.replace('class="legend"', 'class="legend" style="margin-top:14px"')}${hbars}</section>`;
+
+  // 3. Positions by vintage: a panel per sponsor, columns by entry year, stacked by sector.
+  const yearOf = (p) => (p.heldSince || '').slice(0, 4);
+  const years = rows.map(yearOf).filter((y) => /^\d{4}$/.test(y)).map(Number);
+  const y0 = Math.max(2008, Math.min(...years)), y1 = new Date().getFullYear();
+  const yearKeys = []; for (let y = y0; y <= y1; y++) yearKeys.push(String(y));
+  const vintMax = Math.max(1, ...firms.flatMap((f) => yearKeys.map((y) => rows.filter((p) => p.firm === f.id && yearOf(p) === y).length)));
+  const panels = firms.map((f) => {
+    const mine = rows.filter((p) => p.firm === f.id);
+    const series = sectors.map((k) => ({ k, color: sectorVar(k), v: Object.fromEntries(yearKeys.map((y) => [y, mine.filter((p) => sectorOf(p) === k && yearOf(p) === y).length])) }));
+    const undated = mine.filter((p) => !/^\d{4}$/.test(yearOf(p)) || +yearOf(p) < y0).length;
+    const { m, c } = monoOf(f.id);
+    return `<div class="panel"><h3><i style="background:${c}">${m}</i>${esc(f.name)}<span>${mine.length - undated} dated${undated ? ` · ${undated} before ${y0} or undated` : ''}</span></h3>
+      ${columns({ keys: yearKeys, series, ymax: vintMax, w: 340, h: 118, labelEvery: (k, i) => (+k % (yearKeys.length > 12 ? 3 : 2) === 0 || i === yearKeys.length - 1 ? k.slice(2) : ''), tipOf: (k, s, n) => `${f.name} · ${k} · ${sectorLabel(s.k)}: ${n}` })}</div>`;
+  }).join('');
+  const vintTable = `<details><summary>As a table</summary><table class="tv"><tr><th>Sponsor</th>${yearKeys.map((y) => `<th>${y.slice(2)}</th>`).join('')}<th>n/a</th></tr>${firms.map((f) => `<tr><td>${esc(f.name)}</td>${yearKeys.map((y) => `<td>${rows.filter((p) => p.firm === f.id && yearOf(p) === y).length || ''}</td>`).join('')}<td>${rows.filter((p) => p.firm === f.id && !/^\d{4}$/.test(yearOf(p))).length || ''}</td></tr>`).join('')}</table></details>`;
+  const vintage = `<section class="dsec"><h2>Positions by vintage</h2><p class="sub">When each sponsor's current holdings were entered, by year of first investment, coloured by sector. The same scale on every panel; hover a column for the split. Four or more years is the exit window.</p>${legend}<div class="panels">${panels}</div>${vintTable}</section>`;
+
+  // 4. Bolt-on acquisitions by portcos, from the archive (data/dash.json), board scope.
+  let bolt;
+  if (!dash) bolt = `<section class="dsec"><h2>Bolt-on acquisitions</h2><p class="sub">The bolt-on history is not available on this copy.</p></section>`;
+  else {
+    const slugs = new Map(picked.map((p) => [`${p.firm}|${p.slug || p.id}`, p]));
+    const evs = dash.boltons.filter((e) => slugs.has(`${e.firm}|${e.portco}`));
+    const byMonth = {}; for (const e of evs) byMonth[e.month] = (byMonth[e.month] || 0) + 1;
+    const months = dash.months;
+    const now = Date.now(), d90 = 90 * 86400000;
+    const last90 = evs.filter((e) => now - Date.parse(e.date) <= d90), prior90 = evs.filter((e) => { const a = now - Date.parse(e.date); return a > d90 && a <= 2 * d90; });
+    const delta = last90.length - prior90.length;
+    const byFirm = {}; for (const e of evs) byFirm[e.firm] = (byFirm[e.firm] || 0) + 1;
+    const top = Object.entries(byFirm).sort((a, b) => b[1] - a[1]);
+    const chart = columns({ keys: months, series: [{ k: 'all', color: 'var(--accent)', v: byMonth }], single: true, w: 1100, h: 150, labelEvery: (k) => (k.endsWith('-01') || k === months[0] ? fmtMonth(k) : ''), tipOf: (k, s, n) => `${fmtMonth(k)}: ${n} bolt-on${n === 1 ? '' : 's'}` });
+    const list = last90.length ? `<div class="blist">${last90.map((e) => { const p = slugs.get(`${e.firm}|${e.portco}`); const { m, c } = monoOf(e.firm); return `<div><span class="d">${esc(dayLabel(e.date))}</span><i style="background:${c}" title="${esc(monoOf(e.firm).name)}">${m}</i><span><span class="pn">${esc(p ? p.name : e.buyer)}</span><a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title)}</a><span class="pub">${esc(e.publisher)}${e.n > 1 ? ` · ${e.n} reports` : ''}</span></span></div>`; }).join('')}</div>` : '<p class="sub" style="margin-top:10px">No bolt-on reported in the last 90 days for this slice.</p>';
+    const monthTable = `<details><summary>As a table</summary><table class="tv"><tr><th>Month</th><th>Bolt-ons</th></tr>${months.filter((k) => byMonth[k]).map((k) => `<tr><td>${fmtMonth(k)}</td><td>${byMonth[k]}</td></tr>`).join('')}</table></details>`;
+    bolt = `<section class="dsec"><h2>Bolt-on acquisitions by portcos</h2><p class="sub">Acquisitions made by the portfolio companies on the board, one per deal, from the headline archive since ${esc(fmtMonth(dash.from))}. The feeds began in October 2026 and were backfilled, so earlier months are thinner than they were.</p>
+      <div class="dstats"><div class="dstat"><b>${evs.length}</b><span>bolt-ons since ${esc(fmtMonth(dash.from))}</span></div><div class="dstat"><b>${last90.length} <small class="${delta > 0 ? 'up' : delta < 0 ? 'dn' : ''}" style="font-size:13px;font-weight:500">${delta > 0 ? '▲' : delta < 0 ? '▼' : '·'} ${Math.abs(delta)}</small></b><span>last 90 days vs the 90 before</span></div>${top.slice(0, 3).map(([fid, k]) => `<div class="dstat"><b>${k}</b><span>${esc(monoOf(fid).name)}</span></div>`).join('')}</div>
+      ${chart}${list}${monthTable}</section>`;
+  }
+  $('list').innerHTML = hero + thematic + vintage + bolt;
+}
 function renderBoard(sector) {
   const v = view;
   const q = query;
@@ -1571,7 +1772,7 @@ function centreCard(id, h) {
 }
 let fitTimer = 0;
 let qTimer = 0;
-$('q').addEventListener('input', () => { clearTimeout(qTimer); qTimer = setTimeout(() => { query = $('q').value.trim().toLowerCase(); $('qx').hidden = !query; $('qbox').classList.toggle('on', !!query); if (BOARDS[view.tab]) renderBoard(view.tab); }, 120); });
+$('q').addEventListener('input', () => { clearTimeout(qTimer); qTimer = setTimeout(() => { query = $('q').value.trim().toLowerCase(); $('qx').hidden = !query; $('qbox').classList.toggle('on', !!query); if (BOARDS[view.tab] && !view.dash) renderBoard(view.tab); }, 120); });
 $('q').addEventListener('keydown', (e) => { if (e.key === 'Escape') { $('q').value = ''; $('q').dispatchEvent(new Event('input')); $('q').blur(); } });
 $('qx').addEventListener('click', () => { $('q').value = ''; $('q').dispatchEvent(new Event('input')); $('q').focus(); });
 document.addEventListener('keydown', (e) => { if (e.key === '/' && !/input|textarea/i.test((e.target || {}).tagName)) { e.preventDefault(); $('q').focus(); } });
@@ -1606,7 +1807,14 @@ function render() {
   document.body.classList.toggle('boardon', !!board);
   $('focus').hidden = view.seg === 'pipeline' && view.tab !== 'portcos' && view.tab !== 'situations' && !board;
   $('focus').querySelector('.focus-label').textContent = board ? 'Sponsor' : view.tab === 'situations' ? 'Phase' : 'Focus areas';
-  if (board) { const at = pull && pull.at; $('stamp').textContent = !loaded ? 'loading' : at ? `pulled ${dayLabel(at)} ${new Date(at).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}` : 'no pull recorded'; return renderBoard(board); }
+  // The Dashboard button swaps the board for the charts (Josh, 3 Nov 2026); the sponsor chips
+  // still apply, the search box and the tabs do not.
+  $('dashBtn').hidden = !board; $('dashBtn').textContent = view.dash ? 'Boards' : 'Dashboard'; $('dashBtn').setAttribute('aria-pressed', String(!!view.dash));
+  $('tabs').hidden = !!(board && view.dash); $('qbox').hidden = !!(board && view.dash);
+  $('list').classList.toggle('dash', !!(board && view.dash)); $('footDash').hidden = !(board && view.dash);
+  if (board) { const at = pull && pull.at; $('stamp').textContent = !loaded ? 'loading' : at ? `pulled ${dayLabel(at)} ${new Date(at).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}` : 'no pull recorded'; }
+  if (board && view.dash) { $('list').classList.remove('board'); $('footBoard').hidden = true; $('focus').hidden = false; return renderDash(); }
+  if (board) return renderBoard(board);
   const everything = loaded ? classifyAll() : [];
   if (view.tab === 'portcos') return renderPortcos();
   if (view.tab === 'situations') return renderSituations(classified(everything));
@@ -1714,6 +1922,23 @@ async function saveTriage(id, patch) {
 
 $('firms').addEventListener('click', (e) => { const b = e.target.closest('[data-firm]'); if (!b) return; view.firm = b.dataset.firm; editing = null; savePrefs(); render(); });
 $('tabs').addEventListener('click', (e) => { const b = e.target.closest('[data-tab]'); if (!b) return; view.tab = b.dataset.tab; editing = null; savePrefs(); render(); });
+$('dashBtn').addEventListener('click', () => { view.dash = !view.dash; savePrefs(); render(); window.scrollTo(0, 0); });
+// Dashboard: a sponsor tile is a chip; a heatmap cell lists its companies (tap again to close).
+$('list').addEventListener('click', (e) => {
+  if (!view.dash) return;
+  const t = e.target.closest('[data-bfirm]'); if (t) { view.bfirm = view.bfirm === t.dataset.bfirm ? 'all' : t.dataset.bfirm; savePrefs(); return render(); }
+  const c = e.target.closest('[data-cell]'); if (!c) return;
+  const [firm, sector] = c.dataset.cell.split('|');
+  dashCell = dashCell && dashCell.firm === firm && dashCell.sector === sector ? null : { firm, sector };
+  render();
+});
+// One tooltip for every chart mark: the value leads, the series follows (data-tip on the mark).
+const tipEl = document.createElement('div'); tipEl.id = 'tip'; tipEl.hidden = true; document.body.appendChild(tipEl);
+const showTip = (el, x, y) => { tipEl.textContent = el.dataset.tip; tipEl.hidden = false; const r = tipEl.getBoundingClientRect(); tipEl.style.left = `${Math.min(window.innerWidth - r.width - 8, x + 12)}px`; tipEl.style.top = `${y - r.height - 10 < 8 ? y + 16 : y - r.height - 10}px`; };
+$('list').addEventListener('pointermove', (e) => { const el = e.target.closest('[data-tip]'); if (!el) { tipEl.hidden = true; return; } showTip(el, e.clientX, e.clientY); });
+$('list').addEventListener('pointerleave', () => { tipEl.hidden = true; });
+$('list').addEventListener('focusin', (e) => { const el = e.target.closest('[data-tip]'); if (!el) return; const r = el.getBoundingClientRect(); showTip(el, r.left + r.width / 2, r.top); });
+$('list').addEventListener('focusout', () => { tipEl.hidden = true; });
 $('seg').addEventListener('click', (e) => { const b = e.target.closest('[data-seg]'); if (!b) return; view.seg = b.dataset.seg; savePrefs(); render(); });
 $('chips').addEventListener('click', (e) => {
   const b = e.target.closest('button'); if (!b) return;
@@ -1724,7 +1949,7 @@ $('chips').addEventListener('click', (e) => {
   savePrefs(); render();
 });
 $('list').addEventListener('click', (e) => {
-  if ((view.tab !== 'portcos' && !BOARDS[view.tab]) || e.target.closest('a')) return;
+  if (view.dash || (view.tab !== 'portcos' && !BOARDS[view.tab]) || e.target.closest('a')) return;
   const c = e.target.closest('.pc'); if (!c) return;
   const id = c.dataset.pid;
   const opening = !openPortco.has(id);
@@ -1791,9 +2016,10 @@ render();
     // small JSON files and never a rebuild of this file.
     try {
       const bust = `?t=${Math.floor(Date.now() / 600000)}`;
-      const [d, t, m, pc] = await Promise.all([fetch(`${DATA.base}deals.json${bust}`), fetch(`${DATA.base}targets.json${bust}`), fetch(`${DATA.base}meta.json${bust}`).catch(() => null), fetch(`${DATA.base}portcos.json${bust}`).catch(() => null)]);
+      const [d, t, m, pc, ds] = await Promise.all([fetch(`${DATA.base}deals.json${bust}`), fetch(`${DATA.base}targets.json${bust}`), fetch(`${DATA.base}meta.json${bust}`).catch(() => null), fetch(`${DATA.base}portcos.json${bust}`).catch(() => null), fetch(`${DATA.base}dash.json${bust}`).catch(() => null)]);
       items = await d.json(); targets = await t.json();
       if (pc && pc.ok) { try { portcos = await pc.json(); } catch { portcos = []; } }
+      if (ds && ds.ok) { try { dash = await ds.json(); } catch { dash = null; } }
       if (m && m.ok) { const meta = await m.json(); pull = meta.pull || null; }
       $('footTriage').textContent = `Read-only copy${pull && pull.at ? `, last pulled ${dayLabel(pull.at)}` : ''}.`;
     } catch (e) {
