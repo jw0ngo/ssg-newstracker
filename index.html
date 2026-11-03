@@ -1,4 +1,54 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style></head><body><title>SSG Newstracker</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style></head><body><style>
+#gate { position: fixed; inset: 0; z-index: 1000; display: grid; place-items: center; background: #f3f5f6; color: #16202a; font: 15px/1.45 "IBM Plex Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; padding: 16px; }
+#gate form { width: min(360px, 100%); background: #fff; border: 1px solid #d9e0e5; border-radius: 12px; padding: 26px 24px 22px; box-shadow: 0 10px 40px rgba(0,0,0,.08); }
+#gate .gb { font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: #8a98a4; margin: 0 0 6px; }
+#gate h1 { font-family: "Archivo Narrow", "Arial Narrow", "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 24px; margin: 0 0 16px; letter-spacing: -.01em; }
+#gate label { display: block; font-size: 12.5px; color: #5b6b78; margin-bottom: 6px; }
+#gate input { width: 100%; box-sizing: border-box; font: inherit; padding: 9px 11px; border: 1px solid #d9e0e5; border-radius: 8px; background: #fff; color: inherit; outline: none; }
+#gate input:focus { border-color: #0f6e73; box-shadow: 0 0 0 3px #dcefef; }
+#gate button { margin-top: 12px; width: 100%; font: 600 14px "Archivo Narrow", "Arial Narrow", Arial, sans-serif; letter-spacing: .02em; padding: 10px; border: 0; border-radius: 8px; background: #0f6e73; color: #fff; cursor: pointer; }
+#gate .err { min-height: 18px; margin: 8px 0 0; font-size: 12.5px; color: #b3471b; }
+#gate .gn { margin: 14px 0 0; font-size: 11.5px; color: #8a98a4; line-height: 1.4; }
+body.gated { overflow: hidden; }
+body.gated > :not(#gate) { visibility: hidden; }
+@media (prefers-color-scheme: dark) {
+  #gate { background: #101518; color: #e6ebee; }
+  #gate form { background: #171e23; border-color: #263037; }
+  #gate input { background: #101518; border-color: #263037; color: #e6ebee; }
+  #gate input:focus { border-color: #4fc0c3; box-shadow: 0 0 0 3px #123538; }
+  #gate button { background: #4fc0c3; color: #101518; }
+  #gate label { color: #9aa8b2; }
+}
+</style>
+<div id="gate" hidden role="dialog" aria-labelledby="gate-h">
+  <form autocomplete="off">
+    <p class="gb">SSG Newstracker</p>
+    <h1 id="gate-h">Sign in</h1>
+    <label for="gate-p">Password</label>
+    <input id="gate-p" type="password" autocomplete="current-password" autocapitalize="off" spellcheck="false" required>
+    <button type="submit">Enter</button>
+    <p class="err" aria-live="polite"></p>
+    <p class="gn">For the EY-Parthenon Software Strategy Group. This browser stays signed in once the password is accepted.</p>
+  </form>
+</div>
+<script>
+(function () {
+  var H = "83767b32b11dac71e5cdfb563f1e5382d2ca51fac3aa436b4a78886d8906fe33", K = "ssg-gate";
+  try { if (localStorage.getItem(K) === H) return; } catch (e) {}
+  var g = document.getElementById('gate'), f = g.querySelector('form'), i = g.querySelector('input'), err = g.querySelector('.err');
+  document.body.classList.add('gated'); g.hidden = false;
+  function sha(s) { return crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)).then(function (b) { return Array.prototype.map.call(new Uint8Array(b), function (x) { return ('0' + x.toString(16)).slice(-2); }).join(''); }); }
+  f.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    sha(i.value).then(function (h) {
+      if (h === H) { try { localStorage.setItem(K, H); } catch (e) {} g.remove(); document.body.classList.remove('gated'); window.dispatchEvent(new Event('resize')); }
+      else { err.textContent = 'That password is not right.'; i.select(); }
+    }, function () { err.textContent = 'This browser cannot check the password (no secure context).'; });
+  });
+  setTimeout(function () { i.focus(); }, 50);
+})();
+</script>
+<title>SSG Newstracker</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: a deal-desk list. One sticky strip of controls, then one card per announcement,
