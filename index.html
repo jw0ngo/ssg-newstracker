@@ -259,6 +259,7 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .bc .hold { white-space: nowrap; max-width: 100%; }
 .bc .hold b { white-space: nowrap; }
 .bc { border-left-color: var(--hc, var(--rule)); }
+.bc .fact.stake { color: #1d2416; background: var(--sc); border-color: transparent; font-weight: 600; }
 .bc .hold.years { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 4px; padding: 4px 8px 5px; white-space: nowrap; }
 .bc .hold.years b { color: var(--hc); }
 .bc .holdbar.seg { display: inline-flex; align-items: center; gap: 2px; width: auto; height: 8px; margin: 0; background: none; border-radius: 0; overflow: visible; }
@@ -1386,6 +1387,8 @@ const countryOf = (p) => countryHit(String(p.hq || '')) || (p.geos || []).map((g
 // The hold clock is the exit clock: cards are ordered by time held and coloured on a scale from grey
 // (a new holding) to red (eight years or more), with four years the point where a sponsor starts
 // planning the exit. The bar shows one block per year held, the last one lighter for a part year.
+// Stake tags: one solid colour per stake level, yellow for the smallest stake through to green for control.
+const STAKE_COLOR = { minority: '#f3d24c', 'significant minority': '#d9d24e', 'co-control': '#b9cf50', majority: '#93c553', control: '#5fba5b' };
 const HOLD_FULL = 8;
 const holdColor = (y) => {
   const t = Math.max(0, Math.min(1, (y ?? 0) / HOLD_FULL)), k = t * t * (3 - 2 * t);   // smoothstep: grey lingers, red arrives late
@@ -1415,7 +1418,7 @@ function boardCard(p) {
       <div class="where">${hilite([p.industryLabel || '', p.hq].filter(Boolean).join(' · '), query)}</div>
       <div class="facts">
         ${y !== null ? `<span class="hold years" title="held ${esc(HEAT_heldLabel(y))} since ${esc(sinceLabel(p))}: one block per year, grey to red over eight years"><span class="ht">held <b>${esc(HEAT_heldLabel(y))}</b> since ${esc(sinceLabel(p))}</span>${holdBar(y)}</span>` : '<span class="hold">hold date n/a</span>'}
-        ${p.stake && p.stake !== 'unknown' ? `<span class="fact">${esc(p.stake)} stake</span>` : ''}
+        ${p.stake && p.stake !== 'unknown' ? `<span class="fact stake" style="--sc:${STAKE_COLOR[p.stake] || 'var(--bg)'}" title="${esc(p.stake)} stake: yellow is a small stake, green is control">${esc(p.stake)} stake</span>` : ''}
         ${val}
       </div>
       ${open ? `<div class="more">
