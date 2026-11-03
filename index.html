@@ -150,6 +150,9 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .th i { font-style: normal; font-weight: 400; opacity: .75; margin-left: 5px; }
 .apac { color: var(--ok); background: var(--ok-soft); }
 .move { margin: 9px 0 0; padding-left: 10px; border-left: 2px solid var(--accent); font-size: 14px; line-height: 1.45; }
+.move .ml { display: block; font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin-bottom: 3px; }
+.move .src { font-family: var(--body); font-size: 12px; color: var(--faint); white-space: nowrap; }
+.move .src a { color: var(--muted); text-decoration: underline; text-decoration-color: var(--rule); }
 .also { margin: 7px 0 0; font-size: 12px; color: var(--faint); line-height: 1.4; }
 .also a { color: var(--muted); text-decoration: underline; text-decoration-color: var(--rule); }
 .summary { margin: 7px 0 0; font-size: 13.5px; color: var(--muted); line-height: 1.45; }
@@ -1237,6 +1240,47 @@ const EXIT_RANK = { process: 3, rumoured: 2, partial: 1, listed: 1 };
 const TECH = { software: 'Software', fintech: 'Fintech', data: 'Data', internet: 'Internet', healthit: 'Healthcare IT', ai: 'AI', markets: 'Markets' };
 const INDUSTRY = { ...TECH, infra: 'Infrastructure', other: 'Other' };
 const EXIT_LABEL = { process: 'SALE PROCESS', rumoured: 'SALE RUMOURED', partial: 'PARTIAL EXIT', listed: 'LISTED' };
+// The exit note is a standing status line, not a headline: it is shown under its own heading with
+// the latest date it cites, and a "Source, date:" prefix (the way the routines write it) is moved to
+// a muted tail, linked to the stored signal from the same day or publisher when there is one.
+const MONTHS = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
+const DATE_RE = /\b(\d{4})-(\d{2})(?:-(\d{2}))?\b|\b(\d{1,2})(?:[–-]\d{1,2})? ((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*) (\d{4})\b|\b((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*)[ -](\d{4})\b|\b(20\d{2})\b/g;
+function noteDates(text) {
+  const out = [];
+  for (const m of (text || '').matchAll(DATE_RE)) {
+    let y, mo = null, d = null;
+    if (m[1]) { y = +m[1]; mo = +m[2]; d = m[3] ? +m[3] : null; }
+    else if (m[6]) { y = +m[6]; mo = MONTHS[m[5].slice(0, 3).toLowerCase()] || null; d = mo ? +m[4] : null; }
+    else if (m[8]) { y = +m[8]; mo = MONTHS[m[7].slice(0, 3).toLowerCase()] || null; if (!mo) continue; }
+    else y = +m[9];
+    if (y < 2000 || (mo && (mo < 1 || mo > 12)) || (d && (d < 1 || d > 31))) continue;
+    if (y * 10000 + (mo || 1) * 100 + (d || 1) > todayKey()) continue;   // a target year is not an "as of"
+    out.push({ y, mo, d, text: m[0] });
+  }
+  return out;
+}
+const todayKey = () => { const t = new Date(); return t.getFullYear() * 10000 + (t.getMonth() + 1) * 100 + t.getDate(); };
+const dateKey = (x) => x.y * 10000 + (x.mo || 0) * 100 + (x.d || 0);
+const dateText = (x) => x.d ? `${x.d} ${Object.keys(MONTHS)[x.mo - 1].replace(/^./, (c) => c.toUpperCase())} ${x.y}` : x.mo ? `${Object.keys(MONTHS)[x.mo - 1].replace(/^./, (c) => c.toUpperCase())} ${x.y}` : String(x.y);
+const dateIso = (x) => x.d ? `${x.y}-${String(x.mo).padStart(2, '0')}-${String(x.d).padStart(2, '0')}` : null;
+function exitStatus(p) {
+  const note = p.exit.note.trim();
+  let src = '', body = note;
+  const m = /^([^:;]{3,80}?):\s+(?=\S)/.exec(note);
+  if (m && noteDates(m[1]).length && !/^(IPO|Sale|Not an exit)\b/i.test(m[1]) || m && /undated|date not visible/i.test(m[1])) { src = m[1].trim(); body = note.slice(m[0].length); }
+  const asOf = /\bas (?:of|at) ((?:\d{1,2} )?[A-Z][a-z]{2,8} \d{4}|\d{4}-\d{2}-\d{2})/.exec(note);
+  const latest = noteDates(note).sort((a, b) => dateKey(b) - dateKey(a))[0];
+  const stamp = asOf ? asOf[1] : latest ? dateText(latest) : '';
+  if (src) body = body.charAt(0).toUpperCase() + body.slice(1);
+  let href = '';
+  if (src) {
+    const sd = noteDates(src).map(dateIso).filter(Boolean);
+    const words = src.toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length >= 4 && !MONTHS[w.slice(0, 3)] || w === 'ft');
+    const hit = (p.signals || []).find((g) => sd.includes(g.date)) || (p.signals || []).find((g) => words.some((w) => (g.publisher || '').toLowerCase().includes(w)));
+    if (hit && hit.url) href = hit.url;
+  }
+  return `<div class="move"><span class="ml">Exit status${stamp ? ` · as of ${esc(stamp)}` : ''}</span>${hilite(body, query)}${src ? ` <span class="src">${href ? `<a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${hilite(src, query)}</a>` : hilite(src, query)}</span>` : ''}</div>`;
+}
 const heldYears = (p) => { const t = Date.parse(p.heldSince && p.heldSince.length === 4 ? `${p.heldSince}-07-01` : p.heldSince && p.heldSince.length === 7 ? `${p.heldSince}-15` : p.heldSince); return Number.isNaN(t) ? null : (Date.now() - t) / (365.25 * 86400000); };
 const sinceLabel = (p) => { if (!p.heldSince) return ''; const [y, m] = String(p.heldSince).split('-'); return m ? `${new Date(Date.UTC(+y, +m - 1, 15)).toLocaleDateString('en-GB', { month: 'short', year: 'numeric' })}` : y; };
 // The company's name as a word-bounded pattern, corporate suffixes dropped, so the news feed's
@@ -1382,7 +1426,7 @@ function boardCard(p) {
       ${open ? `<div class="more">
         <div class="rsx"><span>sell-readiness <b>${r.score}</b></span><span>hold <b>${r.hold}</b>/60 · ${esc(r.holdWhy)}</span><span>likelihood <b>${r.like}</b>/40 · ${esc(r.likeWhy)}</span></div>
         ${p.summary ? `<p class="why">${hilite(p.summary, query)}</p>` : ''}
-        ${rank && p.exit.note ? `<p class="move">${hilite(p.exit.note, query)}</p>` : ''}
+        ${rank && p.exit.note ? exitStatus(p) : ''}
         ${(p.geos || []).length ? `<p class="also">${esc(p.geos.join(' · '))}</p>` : ''}
         ${news.length ? `<div class="sig">${news.map((g) => `<div><a href="${esc(g.url)}" target="_blank" rel="noopener noreferrer"><span class="d">${esc(dayLabel(g.date))}</span>${esc(g.title)}</a> <span class="pub">${esc(g.publisher || '')}</span></div>`).join('')}</div>` : '<p class="why" style="color:var(--faint)">No dated headlines on file yet.</p>'}
         <div class="open-hint"><a class="lnk" href="${esc(gnews(`${p.name} ${f.name}`))}" target="_blank" rel="noopener noreferrer" style="font-size:11px">all news on ${esc(p.name)}</a></div>
