@@ -340,8 +340,13 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .dstat b { display: block; font-family: var(--body); font-weight: 600; font-size: 24px; line-height: 1.1; }
 .dstat span { font-size: 11.5px; color: var(--muted); }
 .dstat .up { color: var(--ok); } .dstat .dn { color: var(--hot); }
+.lanewrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 4px 0 2px; }
+.chart.lanes { height: auto; }
+.chart.lanes g[data-tip]:hover circle:last-of-type, .chart.lanes g[data-tip]:focus circle:last-of-type { stroke: var(--fg); stroke-width: 1.5; }
 .blist { margin-top: 12px; display: flex; flex-direction: column; gap: 6px; }
-.blist > div { display: grid; grid-template-columns: 56px 22px 1fr; gap: 8px; align-items: baseline; font-size: 13px; line-height: 1.4; }
+.blist .bm { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); margin-top: 8px; padding-bottom: 3px; border-bottom: 1px solid var(--rule); }
+.blist .sect { font-family: var(--mono); font-size: 10px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--rule); border-left: 4px solid var(--sc); border-radius: 4px; padding: 1px 6px 1px 5px; margin-right: 8px; white-space: nowrap; }
+.blist > div:not(.bm) { display: grid; grid-template-columns: 24px 22px 1fr; gap: 8px; align-items: baseline; font-size: 13px; line-height: 1.5; }
 .blist .d { font-family: var(--mono); font-size: 11px; color: var(--faint); }
 .blist i { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 5px; color: #fff; font: 700 8.5px/1 var(--display); font-style: normal; align-self: center; }
 .blist .pn { font-weight: 600; margin-right: 6px; }
@@ -353,9 +358,9 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .dsec table.tv { border-collapse: collapse; margin-top: 6px; font-variant-numeric: tabular-nums; }
 .dsec table.tv th, .dsec table.tv td { padding: 2px 8px; text-align: right; border-bottom: 1px solid var(--rule); }
 .dsec table.tv th:first-child, .dsec table.tv td:first-child { text-align: left; }
-#tip { position: fixed; z-index: 50; pointer-events: none; background: var(--fg); color: var(--bg); font: 12px/1.4 var(--body); padding: 6px 9px; border-radius: 6px; max-width: 260px; box-shadow: 0 4px 14px rgba(0,0,0,.18); }
+#tip { position: fixed; z-index: 50; pointer-events: none; white-space: pre-line; background: var(--fg); color: var(--bg); font: 12px/1.4 var(--body); padding: 6px 9px; border-radius: 6px; max-width: 260px; box-shadow: 0 4px 14px rgba(0,0,0,.18); }
 #tip b { font-weight: 600; }
-@media (max-width: 640px) { .hbar { grid-template-columns: 96px 1fr 30px; } .dhero .n { font-size: 40px; } .tiles { margin-left: 0; } .heat th { font-size: 9px; letter-spacing: 0; } .blist > div { grid-template-columns: 50px 20px 1fr; } }
+@media (max-width: 640px) { .lanewrap .chart.lanes { width: 1100px; max-width: none; } .hbar { grid-template-columns: 96px 1fr 30px; } .dhero .n { font-size: 40px; } .tiles { margin-left: 0; } .heat th { font-size: 9px; letter-spacing: 0; } .blist > div:not(.bm) { grid-template-columns: 22px 20px 1fr; } }
 
 /* ── desktop: the page fills the screen; the lists go several across, the board side by side ── */
 @media (min-width: 900px) {
@@ -1557,6 +1562,35 @@ function columns({ keys, series, ymax, labelEvery, w = 320, h = 120, single, tip
   });
   return out + '</svg>';
 }
+// Swimlanes: one lane per sponsor, time across, each event a sector-coloured dot with the portco's
+// name beside it. Labels in a lane are pushed onto sub-rows so none overlap; the lane grows to fit.
+function lanes({ months, firms, events, nameOf, w = 1100 }) {
+  const padL = 150, padR = 16, top = 22, rowH = 20, laneGap = 8, iw = w - padL - padR;
+  const x = (date) => { const i = months.indexOf(date.slice(0, 7)); const d = Math.min(27, +date.slice(8, 10) - 1); return padL + ((i < 0 ? 0 : i) + d / 31) * iw / months.length; };
+  const width = (name) => name.length * 6.4 + 22;
+  const laneRows = firms.map((f) => {
+    const evs = events.filter((e) => e.firm === f.id).sort((a, b) => a.date.localeCompare(b.date));
+    const rows = [];   // each row: the x where its last label ends
+    const placed = evs.map((e) => { const x0 = x(e.date), name = nameOf(e), left = x0 + width(name) > w - padR; const a = left ? x0 - width(name) : x0, z = left ? x0 + 8 : x0 + width(name); let r = rows.findIndex((end) => end < a - 4); if (r < 0) { r = rows.length; rows.push(0); } rows[r] = z; return { e, x0, r, name, left }; });
+    return { f, placed, n: Math.max(1, rows.length) };
+  });
+  const h = top + laneRows.reduce((t, l) => t + l.n * rowH + laneGap, 0) + 18;
+  let out = `<svg class="chart lanes" viewBox="0 0 ${w} ${h}" style="min-width:${Math.min(w, 980)}px" role="img">`;
+  months.forEach((m, i) => { if (!m.endsWith('-01') && i) return; if (i === 0 && !m.endsWith('-01') && months.slice(1, 4).some((mm) => mm.endsWith('-01'))) return; const xx = padL + i * iw / months.length; out += `<line class="grid" x1="${xx.toFixed(1)}" x2="${xx.toFixed(1)}" y1="${top - 6}" y2="${h - 16}"/><text x="${(xx + 3).toFixed(1)}" y="${h - 4}">${esc(m.endsWith('-01') ? m.slice(0, 4) : fmtMonth(m))}</text>`; });
+  let y = top;
+  for (const { f, placed, n } of laneRows) {
+    const { m, c } = monoOf(f.id), lh = n * rowH;
+    out += `<line class="base" x1="${padL}" x2="${w - padR}" y1="${(y + lh + laneGap / 2).toFixed(1)}" y2="${(y + lh + laneGap / 2).toFixed(1)}"/>`;
+    out += `<rect x="4" y="${(y + lh / 2 - 9).toFixed(1)}" width="18" height="18" rx="4" fill="${c}"/><text x="13" y="${(y + lh / 2 + 3).toFixed(1)}" text-anchor="middle" style="fill:#fff;font-weight:700;font-size:${m.length > 2 ? 7 : 8.5}px">${m}</text>`;
+    out += `<text x="28" y="${(y + lh / 2 + 4).toFixed(1)}" style="font-family:var(--display);font-weight:600;font-size:12px;fill:var(--fg)">${esc(f.name)}${placed.length ? ` <tspan style="fill:var(--faint);font-family:var(--mono);font-weight:400;font-size:10px">· ${placed.length}</tspan>` : ''}</text>`;
+    for (const { e, x0, r, name, left } of placed) {
+      const cy = y + r * rowH + rowH / 2, k = e.sector;
+      out += `<g ${tipAttr(`${name} · ${sectorLabel(k)} · ${f.name}\n${e.date}: ${e.title}`)}><circle cx="${x0.toFixed(1)}" cy="${cy.toFixed(1)}" r="8" fill="var(--surface)"/><circle cx="${x0.toFixed(1)}" cy="${cy.toFixed(1)}" r="6" fill="${sectorVar(k)}"/><text x="${(left ? x0 - 10 : x0 + 10).toFixed(1)}" y="${(cy + 3.5).toFixed(1)}"${left ? ' text-anchor="end"' : ''} style="font-family:var(--body);font-size:11px;fill:var(--fg)">${esc(name)}</text></g>`;
+    }
+    y += lh + laneGap;
+  }
+  return out + '</svg>';
+}
 function renderDash() {
   const v = view;
   const rows = portcos.filter(countryOf);   // the board's scope
@@ -1622,10 +1656,13 @@ function renderDash() {
     const delta = last90.length - prior90.length;
     const byFirm = {}; for (const e of evs) byFirm[e.firm] = (byFirm[e.firm] || 0) + 1;
     const top = Object.entries(byFirm).sort((a, b) => b[1] - a[1]);
-    const chart = columns({ keys: months, series: [{ k: 'all', color: 'var(--accent)', v: byMonth }], single: true, w: 1100, h: 150, labelEvery: (k) => (k.endsWith('-01') || k === months[0] ? fmtMonth(k) : ''), tipOf: (k, s, n) => `${fmtMonth(k)}: ${n} bolt-on${n === 1 ? '' : 's'}` });
-    const list = last90.length ? `<div class="blist">${last90.map((e) => { const p = slugs.get(`${e.firm}|${e.portco}`); const { m, c } = monoOf(e.firm); return `<div><span class="d">${esc(dayLabel(e.date))}</span><i style="background:${c}" title="${esc(monoOf(e.firm).name)}">${m}</i><span><span class="pn">${esc(p ? p.name : e.buyer)}</span><a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title)}</a><span class="pub">${esc(e.publisher)}${e.n > 1 ? ` · ${e.n} reports` : ''}</span></span></div>`; }).join('')}</div>` : '<p class="sub" style="margin-top:10px">No bolt-on reported in the last 90 days for this slice.</p>';
-    const monthTable = `<details><summary>As a table</summary><table class="tv"><tr><th>Month</th><th>Bolt-ons</th></tr>${months.filter((k) => byMonth[k]).map((k) => `<tr><td>${fmtMonth(k)}</td><td>${byMonth[k]}</td></tr>`).join('')}</table></details>`;
-    bolt = `<section class="dsec"><h2>Bolt-on acquisitions by portcos</h2><p class="sub">Acquisitions made by the portfolio companies on the board, one per deal, from the headline archive since ${esc(fmtMonth(dash.from))}. The feeds began in October 2026 and were backfilled, so earlier months are thinner than they were.</p>
+    const withSector = evs.map((e) => { const p = slugs.get(`${e.firm}|${e.portco}`); return { ...e, sector: sectorOf(p), pname: p ? p.name : e.buyer }; });
+    const chart = withSector.length ? `<div class="lanewrap">${lanes({ months, firms, events: withSector, nameOf: (e) => e.pname })}</div>` : '<p class="sub" style="margin-top:10px">No bolt-on on record for this slice.</p>';
+    const byMonthList = [];
+    for (const e of withSector) { const last = byMonthList[byMonthList.length - 1]; if (!last || last.m !== e.month) byMonthList.push({ m: e.month, evs: [e] }); else last.evs.push(e); }
+    const list = withSector.length ? `<div class="blist">${byMonthList.map(({ m, evs: es }) => `<div class="bm">${esc(fmtMonth(m))}</div>${es.map((e) => { const { m: mono, c } = monoOf(e.firm); return `<div><span class="d">${esc(e.date.slice(8, 10))}</span><i style="background:${c}" title="${esc(monoOf(e.firm).name)}">${mono}</i><span><span class="pn">${esc(e.pname)}</span><span class="sect" style="--sc:${sectorVar(e.sector)}">${esc(sectorShort(e.sector))}</span><a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title)}</a><span class="pub">${esc(e.publisher)}${e.n > 1 ? ` · ${e.n} reports` : ''}</span></span></div>`; }).join('')}`).join('')}</div>` : '';
+    const monthTable = `<details><summary>As a table</summary><table class="tv"><tr><th>Date</th><th>Sponsor</th><th>Portco</th><th>Sector</th><th>Headline</th></tr>${withSector.map((e) => `<tr><td>${esc(e.date)}</td><td>${esc(monoOf(e.firm).name)}</td><td>${esc(e.pname)}</td><td>${esc(sectorShort(e.sector))}</td><td style="text-align:left">${esc(e.title)}</td></tr>`).join('')}</table></details>`;
+    bolt = `<section class="dsec"><h2>Bolt-on acquisitions by portcos</h2><p class="sub">Acquisitions made by the portfolio companies on the board, one per deal, from the headline archive since ${esc(fmtMonth(dash.from))}: a lane per sponsor, a dot per deal coloured by the buying portco's sector, the portco named beside it. Hover a dot for the headline. The feeds began in October 2026 and were backfilled, so earlier months are thinner than they were.</p>${legend}
       <div class="dstats"><div class="dstat"><b>${evs.length}</b><span>bolt-ons since ${esc(fmtMonth(dash.from))}</span></div><div class="dstat"><b>${last90.length} <small class="${delta > 0 ? 'up' : delta < 0 ? 'dn' : ''}" style="font-size:13px;font-weight:500">${delta > 0 ? '▲' : delta < 0 ? '▼' : '·'} ${Math.abs(delta)}</small></b><span>last 90 days vs the 90 before</span></div>${top.slice(0, 3).map(([fid, k]) => `<div class="dstat"><b>${k}</b><span>${esc(monoOf(fid).name)}</span></div>`).join('')}</div>
       ${chart}${list}${monthTable}</section>`;
   }

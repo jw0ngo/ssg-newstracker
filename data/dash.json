@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T04:31:07Z",
+ "at": "2026-11-03T05:09:14Z",
  "from": "2023-11",
  "to": "2026-11",
  "months": [
@@ -42,20 +42,8 @@
   "2026-11"
  ],
  "archived": 10152,
- "candidates": 142,
+ "candidates": 137,
  "boltons": [
-  {
-   "n": 1,
-   "date": "2026-11-02",
-   "month": "2026-11",
-   "firm": "eqt",
-   "portco": "vistra",
-   "buyer": "Vistra",
-   "title": "Vistra acquires Cogentrix, adding 5.5GW of natural gas capacity",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaVVuUlVCaHpDYS0yUXdhOUNWSkZucms4RnNWMkl2Nlo4eTM1X21jR1Y5TThjRzZNVEF4SVZiWWQya1hhaG9ySkVKcjJBaFJ1QlppYThTalo0cTllczlTNTU1cmRNdTFseDkxaEc4QmpZWkVhY1d1ZjJjcFdzNW1yMW0wUlRKOTQ?oc=5",
-   "publisher": "Yahoo Finance",
-   "stage": "signed"
-  },
   {
    "n": 1,
    "date": "2026-10-20",
@@ -165,15 +153,15 @@
    "stage": "closed"
   },
   {
-   "n": 8,
+   "n": 11,
    "date": "2026-10-01",
    "month": "2026-10",
    "firm": "ta-associates",
    "portco": "sovos",
    "buyer": "Sovos",
-   "title": "Sovos Acquires Agentic Finance Orchestration Platform Flowie",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWURLaWtpQkxmOWFpUHhicDlQS2JzeWU4b0MwakJ2NUJ6ZzBZd3pnanZEVE9fQlpaaG8yQkJIaG8tcXVEVGU4bjItVk9IWE12TGJLeTh5S2xrUUZvSlZndGt4LUNwcl9XQ2czSlNEVFZaRldJSUo0REV5QjlGTTYwR2sweEM4SkRiOXRGNUlyTE0xMklOcDBmb1Y4LXNBcTkwTWF5NXA1SkFKNE5abmxXZkg3cGs?oc=5",
-   "publisher": "CPA Practice Advisor",
+   "title": "Sovos Acquires Flowie to Expand AI-Powered Finance and Tax Compliance Platform",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1VjREJsWUx5Xzd6ZTNxZy1DZHZvTzRwMXpJOFpZbHVtVHE4YlBDSFdfTFVPY2s5QThBdWRtRGVjZHVTMUhtTWJJTlFWenpoQ2p1OHN2ekY2THY3cHRQY3RNV25CSUtNZzR0VGxQWG93Z3pnclU3T0pSdzVyUlF3RXBZVEl2ZEZaRHVpMm1IR2cxTHVlcHRGMUlzWVZseDBlOUQ4YndOZlVFeXlnN1hhejNXWVFPQUwx?oc=5",
+   "publisher": "citybiz",
    "stage": "signed"
   },
   {
@@ -249,15 +237,15 @@
    "stage": "signed"
   },
   {
-   "n": 6,
-   "date": "2026-09-15",
+   "n": 2,
+   "date": "2026-09-16",
    "month": "2026-09",
    "firm": "ta-associates",
    "portco": "sovos",
    "buyer": "Sovos",
-   "title": "Sovos Acquires Blue dot, Expanding AI-Native Diagnostics, Workflow, and Intelligence Capabilities, Widening Sovos’ Tax Compliance Platform Technology Lead",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRlE3czlFM0J4eDNHQzhSQmdjTnVraU5FRi1tSXZfN1pDdDNmdUF0VHlqNnI1R0V1Q0h1YVMybG12ME5mZjNqOVBnT2MyYnBHOFZ1MmtIU21Gamg3aW5qMlppb2ZzT3lTWWsxaElXbktUU2VEc2ViWnBBZS1VYllXU1VPcW5IajVPX2ZRZ2pOcW5pamZ1ZnFQQmJYY0U2UQ?oc=5",
-   "publisher": "Yahoo Finance",
+   "title": "Sovos Acquires Blue dot to Expand VAT Recovery and AI Capabilities",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdmVJNkJNaXZKaWNBcFJmVVJqQ0NIWktsS1F4RGRlSDktZG1zNS13clI2RkxMNWJIWlhaU0pqbjFiSDdiTnN0NUhvLURmOEJNVi00bWVVWURDUEduMm1Nd2hZV0VSeU1WZW5lSjVodDA2UFNMQjdzMmJOWWR0bDNTMUVsVU1mckxlbms3U0VlRjAycWdnZTk2TXoydDF0VkNaNHV6cg?oc=5",
+   "publisher": "sharedserviceslink",
    "stage": "signed"
   },
   {
@@ -282,18 +270,6 @@
    "title": "Acclime buys SH Malaysia to expand across 18 markets",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR0xPcmFUVTdNTEpwaXp2dC1UblVxUUx6QUxTbHJ4YXgyeXU0SERYcjhGdmVud21Gc0dXZE95b3pmb0JNLVpybHQxaEtBcElJU3Q5SGNEZGVOelFqTm9JMnBkYzdtal81ZjBGaV9WTWdfMU9POFI2TklkUWdFV0t2cXNkTTgxZlpHRjNGdEVkbw?oc=5",
    "publisher": "Dealroom",
-   "stage": "signed"
-  },
-  {
-   "n": 1,
-   "date": "2026-09-09",
-   "month": "2026-09",
-   "firm": "kkr",
-   "portco": "cegid",
-   "buyer": "Cegid",
-   "title": "After acquiring Shine, Cegid merges with Silae",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWHFkSGhxRGhRNTBxWnh2RmNEc1ZHY3M5LV9aUXE5bW5GMERUbGtwVTBNNzYzWnhkT2o4TFVrdXVPNzdzZTlSMkppNVV4YUdROHJfanh4VXMzNEJMeEpVZmxMSzRXRE1kYUhCeUd6azRsQ2tDZXkwWDhaTHhRVGhlY2UtRjV0VHlkZ2lyU1RfRQ?oc=5",
-   "publisher": "Maddyness",
    "stage": "signed"
   },
   {
@@ -442,18 +418,6 @@
   },
   {
    "n": 1,
-   "date": "2025-09-25",
-   "month": "2025-09",
-   "firm": "warburg-pincus",
-   "portco": "dc-connects-yongin",
-   "buyer": "DC Connects (Yongin hyperscale DC JV)",
-   "title": "Warburg Pincus, DC Connects, and Wide Creek AMC acquire land for 80MW Hyperscale DC in South Korea",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYU51cjYzRkNFZWFjXzVJRFNmSGo2dVZTZWVXcGVvV2VPNVN5cS1sWWlzemdfODNvSHNlQjdnUG1jcEtCMHFTSnhuX29zdDFJNHBPeE9IYkJKeXJ4ZndXbmozaDZ1S29vc1NYNXgycWMwbHJOSUJpZno3WEVUWE91bTAzOXZicktscUJwZ3MzLTJ0dmZ5ZHV0RjJEYV9STDJWc3Nrd1k1eGF6OEJzUlZiR2ZjTQ?oc=5",
-   "publisher": "W.Media",
-   "stage": "signed"
-  },
-  {
-   "n": 1,
    "date": "2025-09-23",
    "month": "2025-09",
    "firm": "eqt",
@@ -546,18 +510,6 @@
    "title": "Aryza acquires RiskLogix Solutions",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUWdtSTBLRUdqYVZ1UTdiVkpVMUUxWm1mLUtQcGpscUFibEp3clRISkUtZW9EaWswSG9lNHJkU21qY0hla2NMZWxKMWp1b3d1MUNTQ1hTbkd0T2dGdEN1TTR6LUdEcUpCdDJoVkpVUEU0SVhmeFpQZkVoYW1lNUFsTHZPMEh3UkhRb3Z1MzVpWm51cWhKckp0UjdWOUJrbXRzR08tTFlIOHJrbmRZdnc?oc=5",
    "publisher": "Credit Connect",
-   "stage": "signed"
-  },
-  {
-   "n": 1,
-   "date": "2025-03-25",
-   "month": "2025-03",
-   "firm": "kkr",
-   "portco": "fuji-soft",
-   "buyer": "FUJI SOFT",
-   "title": "KKR Enters into MoU with Founding Family of FUJI SOFT; to Acquire 100% of FUJI SOFT",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTzQ3aVMxVVpPZXc3SzNYUm0xcml3SGxReU4zZWJubFlHQllxVWV2WVlNUHpLUGpBaGVtbEExM3ZITlk1LVpERExjMHpSRWYtVm1Pc1FFT092blhKSG1VajFfNV9sejZobDU3YjB1YWc2Wkl1Q093RFRYMW9BNTRZM2kyZ0ZMc1FBb1B6NHhRQTdVY1FPb2RYUFZtYlM2TUVPaWROajNmRVRrdkthWjBpNWRKbnhGeVItMEZ0SXowekRXbXZLbXdtMmh5bFdINkZwbnc1Rw?oc=5",
-   "publisher": "Business Wire",
    "stage": "signed"
   },
   {
