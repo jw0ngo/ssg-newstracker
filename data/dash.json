@@ -1,8 +1,49 @@
 {
- "at": "2026-11-03T05:09:14Z",
- "from": "2023-11",
+ "at": "2026-11-03T07:49:29Z",
+ "from": "2020-06",
  "to": "2026-11",
  "months": [
+  "2020-06",
+  "2020-07",
+  "2020-08",
+  "2020-09",
+  "2020-10",
+  "2020-11",
+  "2020-12",
+  "2021-01",
+  "2021-02",
+  "2021-03",
+  "2021-04",
+  "2021-05",
+  "2021-06",
+  "2021-07",
+  "2021-08",
+  "2021-09",
+  "2021-10",
+  "2021-11",
+  "2021-12",
+  "2022-01",
+  "2022-02",
+  "2022-03",
+  "2022-04",
+  "2022-05",
+  "2022-06",
+  "2022-07",
+  "2022-08",
+  "2022-09",
+  "2022-10",
+  "2022-11",
+  "2022-12",
+  "2023-01",
+  "2023-02",
+  "2023-03",
+  "2023-04",
+  "2023-05",
+  "2023-06",
+  "2023-07",
+  "2023-08",
+  "2023-09",
+  "2023-10",
   "2023-11",
   "2023-12",
   "2024-01",
@@ -43,6 +84,7 @@
  ],
  "archived": 10152,
  "candidates": 137,
+ "fromSignals": 18,
  "boltons": [
   {
    "n": 1,
@@ -285,6 +327,19 @@
    "stage": "signed"
   },
   {
+   "n": 1,
+   "date": "2026-07-09",
+   "month": "2026-07",
+   "firm": "affinity-equity",
+   "portco": "serveone",
+   "buyer": "Serveone",
+   "title": "Affinity-backed ServeOne buys stakes in Korea medical supplies distributors Opera Salutaris, Value Pro",
+   "url": "https://longbridge.com/news/292140229",
+   "publisher": "Public Technologies via Longbridge",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
    "n": 6,
    "date": "2026-07-08",
    "month": "2026-07",
@@ -297,7 +352,7 @@
    "stage": "signed"
   },
   {
-   "n": 4,
+   "n": 5,
    "date": "2026-06-19",
    "month": "2026-06",
    "firm": "eqt",
@@ -357,16 +412,30 @@
    "stage": "signed"
   },
   {
-   "n": 1,
-   "date": "2026-06-01",
-   "month": "2026-06",
+   "n": 2,
+   "date": "2026-05-27",
+   "month": "2026-05",
    "firm": "affinity-equity",
    "portco": "ubase",
    "buyer": "Ubase",
-   "title": "South Korea’s Ubase acquires Return Zero to complete its AICC stack",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LR0QyYm5ZLVV0TjVYZjUtMEkyUmJWUG02SDRkd05faG9VTTFxVWxHV1poTXlGR3BVVngwVHlFa1J6V2hkbzFDeHBtWlZDWEJCc0E1Rkx2RFFwZmE1RGh2VHp1WXgzWUpKNjN1N0EtdkVaNmFQYmtSdg?oc=5",
-   "publisher": "Outsource Accelerator",
-   "stage": "closed"
+   "title": "유베이스, 리턴제로 품고 'AI 콜센터' 판 흔든다 (Ubase acquires Return Zero to shake up the AI call-centre market)",
+   "url": "https://v.daum.net/v/20260527101153804",
+   "publisher": "Money Today via Daum",
+   "stage": "closed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2026-05-07",
+   "month": "2026-05",
+   "firm": "kkr",
+   "portco": "ascend-asia",
+   "buyer": "Ascend Asia Financial Services Group",
+   "title": "KKR-backed Singapore Ascend Asia Financial Services Group acquires 3 Singapore financial advisory firms Infinity Financial Advisory, SG Alliance, PromiseLand Financial Advisory",
+   "url": "https://www.caproasia.com/2026/05/07/744-billion-private-equity-kkr-backed-singapore-ascend-asia-financial-services-group-acquires-3-singapore-financial-advisory-firms-infinity-financial-advisory-sg-alliance-promiseland-financial-ad/",
+   "publisher": "Caproasia",
+   "stage": "signed",
+   "fromSignal": true
   },
   {
    "n": 1,
@@ -418,6 +487,32 @@
   },
   {
    "n": 1,
+   "date": "2025-12-17",
+   "month": "2025-12",
+   "firm": "affinity-equity",
+   "portco": "jobkorea",
+   "buyer": "JobKorea (Worksphere)",
+   "title": "'채용부터 기업 정보까지 확장' 잡코리아, 잡플래닛 인수 (JobKorea acquires Jobplanet)",
+   "url": "https://byline.network/2025/12/17_1928182/",
+   "publisher": "Byline Network",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2025-10-24",
+   "month": "2025-10",
+   "firm": "tpg",
+   "portco": "altimetrik",
+   "buyer": "Altimetrik",
+   "title": "Altimetrik Completes Acquisition of SLK Software",
+   "url": "https://www.businesswire.com/news/home/20251024035009/en",
+   "publisher": "Business Wire",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
    "date": "2025-09-23",
    "month": "2025-09",
    "firm": "eqt",
@@ -442,15 +537,42 @@
   },
   {
    "n": 1,
+   "date": "2025-08-11",
+   "month": "2025-08",
+   "firm": "macquarie-capital",
+   "portco": "xamplify",
+   "buyer": "xAmplify",
+   "title": "xAmplify acquires CTO Group to boost digital transformation work (Canberra listing)",
+   "url": "https://futurefive.com.au/tag/canberra?page=2",
+   "publisher": "FutureFive Australia",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2025-07-23",
+   "month": "2025-07",
+   "firm": "eqt",
+   "portco": "waystar",
+   "buyer": "Waystar",
+   "title": "Waystar to Acquire Iodine Software, Accelerating the AI-Powered Transformation of Healthcare Payments",
+   "url": "https://finviz.com/news/112914/waystar-to-acquire-iodine-software-accelerating-the-ai-powered-transformation-of-healthcare-payments",
+   "publisher": "Waystar via Finviz",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 2,
    "date": "2025-06-18",
    "month": "2025-06",
    "firm": "eqt",
    "portco": "straive",
    "buyer": "Straive (ex-SPi Global)",
    "title": "Straive Acquires SG Analytics to Bolster Data Analytics & AI Operationalization Capabilities",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWWp6ZDZmZ1ZFRFQzTGE2UVNCVjY4SEVZZTM2REYtYnF6Mi1oeEdkT2d2MjlRMUVoVWgtZE9VZk5fNlpGUmhld1ZKaThhYnc5M0tfZlZBTF9CclVWUFNKWl9reTZPclh0QnpYSnR1Yy1vRXJuV2pVZWJDR2pmNHN6T3d0dXNRVDFmNFNJRHlhVQ?oc=5",
-   "publisher": "Yahoo Finance Singapore",
-   "stage": "signed"
+   "url": "https://www.streetinsider.com/PRNewswire/Straive+Acquires+SG+Analytics+to+Bolster+Data+Analytics+%26amp%3B+AI+Operationalization+Capabilities/24950791.html",
+   "publisher": "PR Newswire via StreetInsider",
+   "stage": "signed",
+   "fromSignal": true
   },
   {
    "n": 2,
@@ -475,6 +597,19 @@
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMVA0T25Ea19FNHhRQ2pvanRTd0lrS2l6WXhNZ1RQZUItS3d6bndZRVFkTnNiZGs5cjRUV2NPWjByWnVUdGxKTktTSEVNSFV1RnFQc2FucVExYzJpOS1vTjc2MGF4c0NleHZKSU9NSjUxUGtoWHhCZDJZN0RJZ2g3YTZnbXFpTzJIdEFaNmJpa3dRSU8yd0RhRi0wYXhHQkF5d1Yzd0ZR?oc=5",
    "publisher": "Business Post",
    "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2025-05-28",
+   "month": "2025-05",
+   "firm": "eqt",
+   "portco": "wso2",
+   "buyer": "WSO2",
+   "title": "WSO2 Acquires Leading API Analytics and Monetization Startup Moesif",
+   "url": "https://www.streetinsider.com/Press+Releases/WSO2+Acquires+Leading+API+Analytics+and+Monetization+Startup+Moesif/24859036.html",
+   "publisher": "WSO2 via StreetInsider",
+   "stage": "signed",
+   "fromSignal": true
   },
   {
    "n": 2,
@@ -561,6 +696,32 @@
    "stage": "signed"
   },
   {
+   "n": 1,
+   "date": "2025-02-18",
+   "month": "2025-02",
+   "firm": "ta-associates",
+   "portco": "planview",
+   "buyer": "Planview",
+   "title": "Planview Completes Acquisition of Sciforma",
+   "url": "https://www.businesswire.com/news/home/20250218853981/en",
+   "publisher": "Business Wire (press release)",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2025-02-18",
+   "month": "2025-02",
+   "firm": "tpg",
+   "portco": "planview",
+   "buyer": "Planview",
+   "title": "Planview Completes Acquisition of Sciforma",
+   "url": "https://www.businesswire.com/news/home/20250218853981/en",
+   "publisher": "Business Wire (press release)",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
    "n": 2,
    "date": "2025-02-14",
    "month": "2025-02",
@@ -571,6 +732,32 @@
    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeGYwTDRNZFNfTm1hblpVUlZ1czVLX0xkcGVuVnQzS1M1NVd6T1I2dW5RMGJtUjVmeTZwdjlLNGIyN2V2MU9McXlyT2NFRWNkTmJHRWtpNXk0eFpxc0FPdjZLUXd3aDBUclNUY0R0cEt0QmpBUVk2TjU3VFJ1cVBWQmRQX3pRMWl2cnhqdmNsVnVmTnphSml0RmJpYXlPVVhESEZtOGYxdUtFMFVES05ZYUQ2bmN0RWxtRzhrcmo3YUFiS2RvQ0VteHhncGpCREhvdEZ0MHVtblk?oc=5",
    "publisher": "PR Newswire Canada",
    "stage": "signed"
+  },
+  {
+   "n": 2,
+   "date": "2025-02-10",
+   "month": "2025-02",
+   "firm": "kkr",
+   "portco": "cotiviti",
+   "buyer": "Cotiviti",
+   "title": "Cotiviti Announces Agreement to Acquire Edifecs",
+   "url": "https://www.businesswire.com/news/home/20250210247496/en/Cotiviti-Announces-Agreement-to-Acquire-Edifecs",
+   "publisher": "Business Wire",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2025-01-08",
+   "month": "2025-01",
+   "firm": "kkr",
+   "portco": "employment-hero",
+   "buyer": "Employment Hero",
+   "title": "Employment Hero acquires Canadian employment platform Humi in $100M+ global expansion move",
+   "url": "https://employmenthero.com/blog/employment-hero-acquires-canadian-employment-platform-humi-in-100m-global-expansion-move",
+   "publisher": "Employment Hero",
+   "stage": "signed",
+   "fromSignal": true
   },
   {
    "n": 1,
@@ -609,16 +796,43 @@
    "stage": "signed"
   },
   {
-   "n": 2,
+   "n": 3,
    "date": "2024-09-24",
    "month": "2024-09",
    "firm": "warburg-pincus",
    "portco": "everise",
    "buyer": "Everise",
    "title": "Everise Signs Agreement to Acquire Continuum Global Solutions' Healthcare Vertical",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcHo4TTMtQVAtaUQ5RlpjZW4wZ2dVY2FpTDBVcVJ5dWRhdFFDc0phbFB3cWUyb2VSNl9VMU9yR05Ub1Z2UGFBMm1vSFd0akdRVmFsb3Q4a083emZCajVyRUNScmY5MGs2bk5CRHBVdVlwMS1iQ1I2SVFQWjM1NFkwekpyeDVFTjl0VW5vc2dBc0RYUmxncjdiamxHN0I0cDVLRzBNbkFBY20wNHdDOEt1cjhVakxVcFdXQ3JEZGt1aFFQQXhIa2tFcEl3aEZFZ0J1TEkw?oc=5",
-   "publisher": "PR Newswire",
-   "stage": "signed"
+   "url": "https://www.aap.com.au/aapreleases/cision20240924ae14312",
+   "publisher": "AAP / Cision",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2022-05-05",
+   "month": "2022-05",
+   "firm": "tpg",
+   "portco": "novotech",
+   "buyer": "Novotech",
+   "title": "APAC biotech giant Novotech acquires US CRO NCGS expanding its global expertise",
+   "url": "https://www.biospectrumasia.com/news/26/20224/apac-biotech-giant-novotech-acquires-us-cro-ncgs-expanding-its-global-expertise.html",
+   "publisher": "BioSpectrum Asia",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2020-06-29",
+   "month": "2020-06",
+   "firm": "ta-associates",
+   "portco": "orion-advisor-solutions",
+   "buyer": "Orion Advisor Solutions",
+   "title": "Orion Advisor Solutions and Brinker Capital to Merge with Support from Genstar Capital and TA Associates",
+   "url": "https://www.businesswire.com/news/home/20200629005162/en/orion-advisor-solutions-and-brinker-capital-to-merge-with-support-from-genstar-capital-and-ta-associates-positioning-the-combined-firm-as-a-wealthtech-powerhouse",
+   "publisher": "Business Wire (press release)",
+   "stage": "signed",
+   "fromSignal": true
   }
  ]
 }
