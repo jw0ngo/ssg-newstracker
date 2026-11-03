@@ -287,7 +287,8 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .bc.open .more .sig { margin-top: 9px; }
 @media (max-width: 640px) { .list.board { grid-auto-flow: row; grid-auto-columns: auto; } .nav .nl { display: none; } }
 /* ── dashboard (Josh, 3 Nov 2026): thematic investing per sponsor, positions by vintage, bolt-on activity ── */
-.list.dash { display: flex !important; flex-direction: column; gap: 14px; max-width: 1180px; }
+.list.dash { display: flex !important; flex-direction: column; gap: 14px; width: 100%; max-width: none; }
+.list.dash .dsec { padding: 16px 22px 18px; }
 .heatwrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .dsec { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px 16px; min-width: 0; }
 .dsec h2 { font-family: var(--display); font-weight: 700; font-size: 17px; margin: 0 0 2px; }
@@ -326,7 +327,7 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .hbar .bar i:first-child { border-top-left-radius: 4px; border-bottom-left-radius: 4px; }
 .hbar .bar i:last-child { border-top-right-radius: 4px; border-bottom-right-radius: 4px; }
 .hbar .t { font-family: var(--mono); font-size: 12px; color: var(--muted); text-align: right; }
-.panels { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px 18px; }
+.panels { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 14px 22px; }
 .panel h3 { font-family: var(--display); font-weight: 600; font-size: 13px; margin: 0 0 2px; display: flex; align-items: center; gap: 7px; }
 .panel h3 i { display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 4px; color: #fff; font: 700 8px/1 var(--display); font-style: normal; }
 .panel h3 span { font-family: var(--mono); font-weight: 400; font-size: 11px; color: var(--faint); margin-left: auto; }
@@ -1575,7 +1576,7 @@ function lanes({ months, firms, events, nameOf, w = 1100 }) {
     return { f, placed, n: Math.max(1, rows.length) };
   });
   const h = top + laneRows.reduce((t, l) => t + l.n * rowH + laneGap, 0) + 18;
-  let out = `<svg class="chart lanes" viewBox="0 0 ${w} ${h}" style="min-width:${Math.min(w, 980)}px" role="img">`;
+  let out = `<svg class="chart lanes" viewBox="0 0 ${w} ${h}" style="min-width:${Math.min(w, 980)}px;max-width:${w}px" role="img">`;
   months.forEach((m, i) => { if (!m.endsWith('-01') && i) return; if (i === 0 && !m.endsWith('-01') && months.slice(1, 4).some((mm) => mm.endsWith('-01'))) return; const xx = padL + i * iw / months.length; out += `<line class="grid" x1="${xx.toFixed(1)}" x2="${xx.toFixed(1)}" y1="${top - 6}" y2="${h - 16}"/><text x="${(xx + 3).toFixed(1)}" y="${h - 4}">${esc(m.endsWith('-01') ? m.slice(0, 4) : fmtMonth(m))}</text>`; });
   let y = top;
   for (const { f, placed, n } of laneRows) {
@@ -1657,7 +1658,8 @@ function renderDash() {
     const byFirm = {}; for (const e of evs) byFirm[e.firm] = (byFirm[e.firm] || 0) + 1;
     const top = Object.entries(byFirm).sort((a, b) => b[1] - a[1]);
     const withSector = evs.map((e) => { const p = slugs.get(`${e.firm}|${e.portco}`); return { ...e, sector: sectorOf(p), pname: p ? p.name : e.buyer }; });
-    const chart = withSector.length ? `<div class="lanewrap">${lanes({ months, firms, events: withSector, nameOf: (e) => e.pname })}</div>` : '<p class="sub" style="margin-top:10px">No bolt-on on record for this slice.</p>';
+    const laneW = Math.max(1100, Math.min(1800, ($('list').clientWidth || 1100) - 44));
+    const chart = withSector.length ? `<div class="lanewrap">${lanes({ months, firms, events: withSector, nameOf: (e) => e.pname, w: laneW })}</div>` : '<p class="sub" style="margin-top:10px">No bolt-on on record for this slice.</p>';
     const byMonthList = [];
     for (const e of withSector) { const last = byMonthList[byMonthList.length - 1]; if (!last || last.m !== e.month) byMonthList.push({ m: e.month, evs: [e] }); else last.evs.push(e); }
     const list = withSector.length ? `<div class="blist">${byMonthList.map(({ m, evs: es }) => `<div class="bm">${esc(fmtMonth(m))}</div>${es.map((e) => { const { m: mono, c } = monoOf(e.firm); return `<div><span class="d">${esc(e.date.slice(8, 10))}</span><i style="background:${c}" title="${esc(monoOf(e.firm).name)}">${mono}</i><span><span class="pn">${esc(e.pname)}</span><span class="sect" style="--sc:${sectorVar(e.sector)}">${esc(sectorShort(e.sector))}</span><a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title)}</a><span class="pub">${esc(e.publisher)}${e.n > 1 ? ` · ${e.n} reports` : ''}</span></span></div>`; }).join('')}`).join('')}</div>` : '';
