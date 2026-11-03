@@ -8097,5 +8097,219 @@
    "status": "rumoured"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
+ },
+ {
+  "id": "kkr-oms-group",
+  "firm": "kkr",
+  "name": "OMS Group",
+  "slug": "oms-group",
+  "industry": "infra",
+  "industryLabel": "subsea telecom cable installation & maintenance / digital infrastructure",
+  "hq": "Kuala Lumpur, Malaysia",
+  "geos": [
+   "Malaysia",
+   "Southeast Asia",
+   "Asia-Pacific"
+  ],
+  "apac": true,
+  "heldSince": "2023-10",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; KKR committed US$400m (RM1.9bn) of growth capital in Oct 2023, stake size not disclosed",
+   "url": "https://www.freemalaysiatoday.com/category/business/2023/10/30/kkr-to-invest-rm1-9bil-in-subsea-cable-firm-oms-group"
+  },
+  "summary": "Malaysian neutral provider of subsea telecom cable installation, maintenance and cable-landing-station services (founded 1988, own cable-ship fleet). KKR agreed in Oct 2023 to invest US$400m to fund fleet expansion, cable landing stations and subsea routes; still described as KKR-backed in Jan 2026 when it ordered two Ulstein cable-laying vessels for 2028 delivery.",
+  "signals": [
+   {
+    "date": "2026-07-08",
+    "publisher": "The Star",
+    "title": "OMS celebrates first steel cutting of next-gen vessel",
+    "url": "https://www.thestar.com.my/business/business-news/2026/07/08/oms-celebrates-first-steel-cutting-of-next-gen-vessel"
+   },
+   {
+    "date": "2026-01-21",
+    "publisher": "DCD",
+    "title": "KKR-backed OMS taps Ulstein for two new subsea cable vessels",
+    "url": "https://www.datacenterdynamics.com/en/news/oms-taps-ulstein-for-two-new-subsea-cable-vessels/"
+   },
+   {
+    "date": "2023-10-30",
+    "publisher": "Free Malaysia Today",
+    "title": "KKR to invest RM1.9bil in subsea cable firm OMS Group",
+    "url": "https://www.freemalaysiatoday.com/category/business/2023/10/30/kkr-to-invest-rm1-9bil-in-subsea-cable-firm-oms-group"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-03T01:49:54Z"
+ },
+ {
+  "id": "kkr-pinnacle-towers",
+  "firm": "kkr",
+  "name": "Pinnacle Towers",
+  "slug": "pinnacle-towers",
+  "industry": "infra",
+  "industryLabel": "telecom towers / shared digital infrastructure",
+  "hq": "Metro Manila, Philippines",
+  "geos": [
+   "Philippines"
+  ],
+  "apac": true,
+  "heldSince": "2020-11",
+  "stake": "majority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; DealStreetAsia (citing Mergermarket) reported KKR running a US$300-400m private placement for Pinnacle, with proceeds partly for bolt-on tower acquisitions; BCI's June 2025 minority purchase terms also undisclosed",
+   "url": "https://dealstreetasia.com/?p=427411"
+  },
+  "summary": "Largest independent telecom tower company in the Philippines (c.7,000 towers built, contracted or acquired, incl. up to 1,350 from Globe-era sale-and-leasebacks); KKR first invested in Nov 2020 via its Asia infrastructure strategy, committed a further US$400m in Mar 2024, and sold a minority stake to Canada's BCI in June 2025 while remaining majority owner.",
+  "signals": [
+   {
+    "date": "2025-06-10",
+    "publisher": "Milbank",
+    "title": "Milbank Advises BCI on Acquisition of Minority Stake in Pinnacle Towers from KKR",
+    "url": "https://www.milbank.com/en/news/milbank-advises-bci-on-acquisition-of-minority-stake-in-pinnacle-towers-from-kkr.html"
+   },
+   {
+    "date": "2025-06-09",
+    "publisher": "BCI (press release)",
+    "title": "BCI invests in KKR tower platform Pinnacle Towers",
+    "url": "https://www.bci.ca/bci-invests-in-kkr-tower-platform-pinnacle-towers/"
+   },
+   {
+    "date": "2024-03-13",
+    "publisher": "Interaksyon / Reuters",
+    "title": "KKR to invest $400 million in Philippine telecoms tower business",
+    "url": "https://media.interaksyon.com/business/2024/03/13/271945/kkr-to-invest-400-million-in-philippine-telecoms-tower-business/"
+   }
+  ],
+  "exit": {
+   "note": "BCI agreed to buy a minority stake from KKR (KKR stays majority), announced 9 Jun 2025, expected to close Q3 2025 subject to regulatory approvals",
+   "status": "partial"
+  },
+  "firstSeen": "2026-11-03T01:49:54Z"
+ },
+ {
+  "id": "macquarie-capital-xamplify",
+  "firm": "macquarie-capital",
+  "name": "xAmplify",
+  "slug": "xamplify",
+  "industry": "software",
+  "industryLabel": "IT services / AI and automation systems integrator (government and enterprise)",
+  "hq": "Canberra, Australia",
+  "geos": [
+   "Australia"
+  ],
+  "apac": true,
+  "heldSince": "2025",
+  "stake": "significant minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; 'significant equity investment' by Macquarie Capital Principal Finance, mid-2025; ASIC filings reportedly show Macquarie holding >A$4.3m of shares (figure disputed by xAmplify)",
+   "url": "https://www.businessnewsaustralia.com/articles/macquarie-capital-invests-in-automated-systems-and-ai-integrator-xamplify.html"
+  },
+  "summary": "Canberra-headquartered automation and AI integrator serving Australian government and enterprise clients. Macquarie Capital Principal Finance (APAC head Newton Gillies) made a significant equity investment in mid-2025 to fund national expansion; xAmplify then acquired CTO Group in August 2025 and planned Melbourne and Brisbane offices.",
+  "signals": [
+   {
+    "date": "2025-08-11",
+    "publisher": "FutureFive Australia",
+    "title": "xAmplify acquires CTO Group to boost digital transformation work (Canberra listing)",
+    "url": "https://futurefive.com.au/tag/canberra?page=2"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-03T01:49:54Z"
+ },
+ {
+  "id": "tpg-billease",
+  "firm": "tpg",
+  "name": "BillEase",
+  "slug": "billease",
+  "industry": "fintech",
+  "industryLabel": "consumer BNPL / digital lending app",
+  "hq": "Makati (Manila), Philippines",
+  "geos": [
+   "Philippines"
+  ],
+  "apac": true,
+  "heldSince": "2024-09",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; Series C led by TPG's The Rise Fund with existing investor Burda Principal Investments, announced 3 Sep 2024 (CICC sole financial adviser); prior round was an US$11m Series B led by Burda",
+   "url": "https://www.tpg.com/news-and-insights/tpgs-the-rise-fund-leads-strategic-investment-in-billease/"
+  },
+  "summary": "Manila-based buy-now-pay-later and consumer-finance app (operated by First Digital Finance Corp.) serving underbanked Filipinos and merchant partners; TPG's The Rise Fund led its Series C equity round in Sep 2024, with Burda Principal Investments participating, to fund product expansion.",
+  "signals": [
+   {
+    "date": "2024-09-09",
+    "publisher": "Allen & Gledhill",
+    "title": "Series C equity fundraising in BillEase led by The Rise Fund",
+    "url": "https://allenandgledhill.com/sg/perspectives/articles/28975/series-c-equity-fundraising-in-billease-led-by-the-rise-fund"
+   },
+   {
+    "date": "2024-09-04",
+    "publisher": "Philstar",
+    "title": "TPG leads strategic investment in BillEase",
+    "url": "https://www.philstar.com/business/2024/09/04/2382643/tpg-leads-strategic-investment-billease"
+   },
+   {
+    "date": "2024-09-03",
+    "publisher": "e27",
+    "title": "TPG's unit leads Series C round of Filipino consumer finance app BillEase",
+    "url": "https://e27.co/tpgs-unit-leads-series-c-round-of-filipino-consumer-finance-app-billease-20240903/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-03T01:49:54Z"
+ },
+ {
+  "id": "tpg-five-good-friends",
+  "firm": "tpg",
+  "name": "Five Good Friends",
+  "slug": "five-good-friends",
+  "industry": "healthit",
+  "industryLabel": "tech-enabled home care + Lookout care-management SaaS",
+  "hq": "Melbourne, Australia",
+  "geos": [
+   "Australia"
+  ],
+  "apac": true,
+  "heldSince": "2025-04",
+  "stake": "majority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; TPG acquired a majority stake in April 2025 (co-founders retain significant stakes); deal sits in TPG Emerging Companies Asia (TECA), the US$1.3bn ANZ-focused lower-mid-market fund closed Oct 2026",
+   "url": "https://communitycarereview.com.au/2025/04/09/tpg-now-major-investor-of-five-good-friends/"
+  },
+  "summary": "Australian technology-enabled home care provider (c.30,000 visits a month, top-20 provider) whose Lookout SaaS platform is used by 100+ home care and NDIS providers. TPG took a majority stake in April 2025, with co-founders Simon Lockyer and Nathan Betteridge retaining significant holdings; named by TPG as an early investment of its new TECA fund.",
+  "signals": [
+   {
+    "date": "2026-10-31",
+    "publisher": "TechNode Global",
+    "title": "TPG closes $1.3B Asia growth fund (names Five Good Friends among early investments)",
+    "url": "https://technode.global/2026/10/31/tpg-asia-growth-fund-1-3-billion/"
+   },
+   {
+    "date": "2025-04-09",
+    "publisher": "Community Care Review",
+    "title": "TPG now major investor of Five Good Friends",
+    "url": "https://communitycarereview.com.au/2025/04/09/tpg-now-major-investor-of-five-good-friends/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-03T01:49:54Z"
  }
 ]
