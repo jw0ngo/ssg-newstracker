@@ -1361,8 +1361,8 @@ function renderPortcos() {
 // 2 Nov 2026: "SME & Vertical SaaS", leave IT services off); Health IT also carries the
 // healthcare-services holdings retagged from 'other'.
 const IT_SERVICES = /\b(IT services|IT consulting|engineering services|system integration|systems integration|BPO|CX|informatics services|Enterprise IT|managed services|outsourcing)\b/i;
-// The All board is the whole roster, every focus area and the companies outside any of them (IT
-// services, other industries); its cards carry the focus-area tag so the sector still reads.
+// The All board is the whole roster; its cards carry the sector tag so the sector still reads.
+// Every industry on the roster has a board, so the sector tabs add up to All.
 const BOARDS = {
   all: { label: 'All', what: 'tracked', every: true, match: () => true },
   fintech: { label: 'Fintech', what: 'fintech', match: (p) => p.industry === 'fintech' },
@@ -1371,6 +1371,8 @@ const BOARDS = {
   internet: { label: 'Marketplaces & Networks', what: 'marketplace and network', match: (p) => p.industry === 'internet' },
   saas: { label: 'SME & Vertical SaaS', what: 'SaaS', match: (p) => p.industry === 'software' && !IT_SERVICES.test(p.industryLabel || '') },
   healthit: { label: 'Health IT & Services', what: 'health IT and health-services', match: (p) => p.industry === 'healthit' },
+  infra: { label: 'Infrastructure', what: 'digital-infrastructure', match: (p) => p.industry === 'infra' },
+  itservices: { label: 'IT Services & Outsourcing', what: 'IT-services and outsourcing', match: (p) => p.industry === 'software' && IT_SERVICES.test(p.industryLabel || '') },
 };
 // The board's countries (Josh, 2 Nov 2026): APAC without India and mainland China. Display order:
 // Singapore and SE Asia first, then ANZ, then North Asia. Hong Kong and Taiwan are matched before
