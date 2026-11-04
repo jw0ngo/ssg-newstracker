@@ -355,9 +355,10 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .legend { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 0 0 10px; font-size: 12px; color: var(--muted); }
 .legend span { display: inline-flex; align-items: center; gap: 6px; }
 .legend i { width: 10px; height: 10px; border-radius: 2px; flex: none; }
-.heat { border-collapse: separate; border-spacing: 2px; font-variant-numeric: tabular-nums; width: 100%; }
+.heat { border-collapse: separate; border-spacing: 2px; font-variant-numeric: tabular-nums; width: 100%; table-layout: fixed; }   /* fixed: every sector column the same width, whatever its label */
 .heat th { font-family: var(--mono); font-weight: 400; font-size: 10.5px; letter-spacing: .04em; text-transform: uppercase; color: var(--faint); padding: 2px 6px; text-align: center; white-space: nowrap; }
-.heat th.r, .heat td.r { text-align: left; }
+.heat th.r, .heat td.r { text-align: left; width: 156px; }
+.heat th:last-child, .heat td.t { width: 44px; }
 .heat td.r { font-family: var(--display); font-weight: 600; font-size: 13px; padding: 0 8px 0 2px; white-space: nowrap; }
 .heat td.c { text-align: center; font-size: 13px; padding: 0; }
 .heat td.c button { display: block; width: 100%; height: 30px; border-radius: 4px; font: 500 13px var(--body); color: var(--fg); background: var(--bg); cursor: pointer; }
@@ -457,7 +458,7 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
   <div class="top" id="top">
     <div class="site"><span class="brand">SSG Newstracker</span><nav class="nav" id="nav" aria-label="Sections"></nav></div>
     <div class="mast">
-      <div class="mast-l"><h1 id="h1">Exit Readiness Tracker</h1><button type="button" class="dashbtn" id="dashBtn" aria-pressed="false" hidden>Dashboard</button></div>
+      <div class="mast-l"><h1 id="h1">Tech Exit Readiness Tracker</h1><button type="button" class="dashbtn" id="dashBtn" aria-pressed="false" hidden>Dashboard</button></div>
       <div class="mast-r">
         <label class="q" id="qbox"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><input id="q" type="search" placeholder="Search all portcos" autocomplete="off" spellcheck="false" aria-label="Search all portco cards"><button type="button" id="qx" aria-label="Clear search" hidden>×</button></label>
         <span class="stamp" id="stamp">loading</span>
@@ -1703,7 +1704,8 @@ function lanes({ months, firms, events, nameOf, w = 1100, compact = false }) {
 function renderDash() {
   const v = view;
   const rows = portcos.filter(countryOf);   // the board's scope
-  const owners = FIRMS.filter((f) => rows.some((p) => p.firm === f.id));
+  const nOf = (fid) => rows.filter((p) => p.firm === fid).length;
+  const owners = FIRMS.filter((f) => nOf(f.id)).sort((a, b) => nOf(b.id) - nOf(a.id));   // most tracked portcos first (Josh, 4 Nov 2026)
   if (v.bfirm !== 'all' && !owners.some((f) => f.id === v.bfirm)) v.bfirm = 'all';
   const n = (k) => (k ? ` · ${k}` : '');
   $('chips').innerHTML = `<button class="chip${v.bfirm === 'all' ? ' on' : ''}" data-bfirm="all">All sponsors${n(rows.length)}</button>`
@@ -1813,7 +1815,8 @@ function renderBoard(sector) {
   // outside the board's markets in a trailing column rather than dropping them.
   const rows = q ? portcos.filter((p) => matches(p, q)) : portcos.filter(BOARDS[sector].match);
   const onb = rows.filter((p) => countryOf(p));   // chip counts are what the board shows
-  const owners = FIRMS.filter((f) => rows.some((p) => p.firm === f.id));
+  const nOf = (fid) => onb.filter((p) => p.firm === fid).length;
+  const owners = FIRMS.filter((f) => rows.some((p) => p.firm === f.id)).sort((a, b) => nOf(b.id) - nOf(a.id));   // most tracked portcos first
   if (v.bfirm !== 'all' && !owners.some((f) => f.id === v.bfirm)) v.bfirm = 'all';
   const n = (k) => (k ? ` · ${k}` : '');
   $('chips').innerHTML = `<button class="chip${v.bfirm === 'all' ? ' on' : ''}" data-bfirm="all">All sponsors${n(onb.length)}</button>`
