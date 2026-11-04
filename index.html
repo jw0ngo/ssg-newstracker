@@ -1681,7 +1681,9 @@ function lanes({ months, firms, events, nameOf, w = 1100, compact = false }) {
   const fs = compact ? 10 : 11, r = compact ? 4.5 : 6;
   const x = (date) => { const i = months.indexOf(date.slice(0, 7)); const d = Math.min(27, +date.slice(8, 10) - 1); return padL + ((i < 0 ? 0 : i) + d / 31) * iw / months.length; };
   const width = (name) => name.length * (compact ? 5.6 : 6.4) + (compact ? 16 : 22);
-  const laneRows = firms.map((f) => {
+  // Lanes run from the sponsor with the most bolt-ons down (Josh, 4 Nov 2026); ties keep the board order.
+  const byDeals = firms.slice().sort((a, b) => events.filter((e) => e.firm === b.id).length - events.filter((e) => e.firm === a.id).length);
+  const laneRows = byDeals.map((f) => {
     const evs = events.filter((e) => e.firm === f.id).sort((a, b) => a.date.localeCompare(b.date));
     const rows = [];   // each row: the x where its last label ends
     const placed = evs.map((e) => { const x0 = x(e.date), name = nameOf(e), left = x0 + width(name) > w - padR; const a = left ? x0 - width(name) : x0, z = left ? x0 + 8 : x0 + width(name); let rr = rows.findIndex((end) => end < a - 4); if (rr < 0) { rr = rows.length; rows.push(0); } rows[rr] = z; return { e, x0, r: rr, name, left }; });
