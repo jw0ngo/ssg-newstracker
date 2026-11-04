@@ -342,6 +342,11 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .heatwrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .dsec { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px 16px; min-width: 0; }
 .dsec h2 { font-family: var(--display); font-weight: 700; font-size: 17px; margin: 0 0 2px; }
+.dhead { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.seg.sm { padding: 2px; gap: 2px; flex: none; border-radius: 8px; }
+.seg.sm button { flex: none; font-size: 12.5px; padding: 4px 11px; border-radius: 6px; }
+.heat.by-country th { font-size: 9.5px; letter-spacing: .02em; }
+.heatm.by-country .hm-cells { grid-template-columns: repeat(7, 1fr); }   /* up to 13 countries: two rows of seven */
 .dsec .sub { margin: 0 0 12px; font-size: 12.5px; color: var(--muted); line-height: 1.45; }
 .dhero { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px 28px; }
 .dhero .n { font-family: var(--body); font-weight: 600; font-size: 52px; line-height: 1; letter-spacing: -.02em; }
@@ -1213,7 +1218,7 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '
 const PREFS = 'pe-client-tracker.view';
 let view = { firm: FIRMS[0].id, tab: 'fintech', seg: 'priority', thesis: 'all', apac: false, showDismissed: false, bsort: 'ready', bfirm: 'all', dash: false };
 try { view = { ...view, ...JSON.parse(localStorage.getItem(PREFS) || '{}'), showDismissed: false }; } catch {}
-const savePrefs = () => { try { localStorage.setItem(PREFS, JSON.stringify({ firm: view.firm, tab: view.tab, seg: view.seg, thesis: view.thesis, apac: view.apac, bsort: view.bsort, bfirm: view.bfirm, dash: !!view.dash })); } catch {} };
+const savePrefs = () => { try { localStorage.setItem(PREFS, JSON.stringify({ firm: view.firm, tab: view.tab, seg: view.seg, thesis: view.thesis, apac: view.apac, bsort: view.bsort, bfirm: view.bfirm, dash: !!view.dash, heatBy: view.heatBy })); } catch {} };
 
 let items = [];          // raw rows from the store
 let triage = {};         // id → { status, note, at }
@@ -1734,20 +1739,30 @@ function renderDash() {
   const hero = `<section class="dsec"><div class="dhero"><div><div class="n">${heroN}</div></div><div class="l">${v.bfirm === 'all' ? 'portfolio companies on the board: Asia-Pacific outside India and mainland China, every sector' : `${esc(monoOf(v.bfirm).name)} portfolio companies on the board, of ${rows.length} across all sponsors`}</div>
     <div class="tiles">${owners.map((f) => { const { m, c } = monoOf(f.id); const k = rows.filter((p) => p.firm === f.id).length; return `<button class="tile${v.bfirm === f.id ? ' on' : ''}" data-bfirm="${f.id}" title="${esc(f.name)}"><i style="background:${c}">${m}</i><b>${k}</b><span>${esc(f.name)}</span></button>`; }).join('')}</div></div></section>`;
 
-  // 2. Thematic investing: sponsor × sector heatmap, then a stacked bar per sponsor.
-  const count = (fid, k) => rows.filter((p) => p.firm === fid && sectorOf(p) === k).length;
-  const cellMax = Math.max(1, ...firms.flatMap((f) => sectors.map((k) => count(f.id, k))));
-  const heat = `<div class="heatwrap"><table class="heat"><thead><tr><th class="r">Sponsor</th>${sectors.map((k) => `<th title="${esc(sectorLabel(k))}">${esc(sectorShort(k))}</th>`).join('')}<th>Total</th></tr></thead><tbody>
-    ${firms.map((f) => `<tr><td class="r">${esc(f.name)}</td>${sectors.map((k) => { const c = count(f.id, k); const t = c / cellMax; const on = dashCell && dashCell.firm === f.id && dashCell.sector === k; return `<td class="c"><button type="button" class="${c ? '' : 'z'}${on ? ' on' : ''}" data-cell="${f.id}|${k}" ${c ? `style="background:${cellFill(k, t)};color:${cellInk(k, t)}"` : ''} aria-label="${esc(f.name)}, ${esc(sectorLabel(k))}: ${c}">${c}</button></td>`; }).join('')}<td class="t">${rows.filter((p) => p.firm === f.id).length}</td></tr>`).join('')}
-    ${firms.length > 1 ? `<tr><td class="r" style="color:var(--muted)">All</td>${sectors.map((k) => `<td class="t" style="text-align:center">${rows.filter((p) => sectorOf(p) === k).length}</td>`).join('')}<td class="t">${rows.length}</td></tr>` : ''}
+  // 2. Thematic investing: sponsor × sector heatmap (or sponsor × headquarters country, Josh, 4 Nov
+  // 2026: "a button to switch between sector and country"), then a labelled pie per sponsor.
+  const by = view.heatBy === 'country' ? 'country' : 'sector';
+  const colOf = by === 'country' ? (p) => (countryOf(p) || [])[0] : sectorOf;
+  const cols = by === 'country' ? COUNTRIES.map((c) => c[0]).filter((k) => rows.some((p) => colOf(p) === k)) : sectors;
+  const cName = by === 'country' ? (k) => (COUNTRIES.find((c) => c[0] === k) || [k, k])[1] : sectorLabel;
+  const cShort = by === 'country' ? cName : sectorShort;
+  const cAbbr = by === 'country' ? (k) => k : (k) => SECTOR_ABBR[k] || k;
+  // Sector cells carry the sector's own hue; country cells have no hue of their own, so one scale.
+  const fill = by === 'country' ? (k, t) => `color-mix(in oklab, var(--surface), var(--accent) ${Math.round(18 + 82 * t)}%)` : cellFill;
+  const ink = by === 'country' ? (k, t) => (t >= 0.5 ? '#fff' : 'var(--fg)') : cellInk;
+  const count = (fid, k) => rows.filter((p) => p.firm === fid && colOf(p) === k).length;
+  const cellMax = Math.max(1, ...firms.flatMap((f) => cols.map((k) => count(f.id, k))));
+  const heat = `<div class="heatwrap"><table class="heat${by === 'country' ? ' by-country' : ''}"><thead><tr><th class="r">Sponsor</th>${cols.map((k) => `<th title="${esc(cName(k))}">${esc(cShort(k))}</th>`).join('')}<th>Total</th></tr></thead><tbody>
+    ${firms.map((f) => `<tr><td class="r">${esc(f.name)}</td>${cols.map((k) => { const c = count(f.id, k); const t = c / cellMax; const on = dashCell && dashCell.firm === f.id && dashCell.sector === k; return `<td class="c"><button type="button" class="${c ? '' : 'z'}${on ? ' on' : ''}" data-cell="${f.id}|${k}" ${c ? `style="background:${fill(k, t)};color:${ink(k, t)}"` : ''} aria-label="${esc(f.name)}, ${esc(cName(k))}: ${c}">${c}</button></td>`; }).join('')}<td class="t">${rows.filter((p) => p.firm === f.id).length}</td></tr>`).join('')}
+    ${firms.length > 1 ? `<tr><td class="r" style="color:var(--muted)">All</td>${cols.map((k) => `<td class="t" style="text-align:center">${rows.filter((p) => colOf(p) === k).length}</td>`).join('')}<td class="t">${rows.length}</td></tr>` : ''}
   </tbody></table></div>`;
   // Phones: the same cells as a block per sponsor, eight small squares with a short sector label
   // under each, so nothing scrolls sideways (Josh, 3 Nov 2026).
-  const heatM = `<div class="heatm">${firms.map((f) => `<div class="hm-row"><div class="hm-name">${esc(f.name)}<span>${rows.filter((p) => p.firm === f.id).length}</span></div><div class="hm-cells">${sectors.map((k) => { const c = count(f.id, k); const t = c / cellMax; const on = dashCell && dashCell.firm === f.id && dashCell.sector === k; return `<button type="button" class="${c ? '' : 'z'}${on ? ' on' : ''}" data-cell="${f.id}|${k}" ${c ? `style="--hb:${cellFill(k, t)};--hc2:${cellInk(k, t)}"` : ''} aria-label="${esc(f.name)}, ${esc(sectorLabel(k))}: ${c}"><b>${c || ''}</b><small>${SECTOR_ABBR[k] || k}</small></button>`; }).join('')}</div></div>`).join('')}</div>`;
+  const heatM = `<div class="heatm${by === 'country' ? ' by-country' : ''}">${firms.map((f) => `<div class="hm-row"><div class="hm-name">${esc(f.name)}<span>${rows.filter((p) => p.firm === f.id).length}</span></div><div class="hm-cells">${cols.map((k) => { const c = count(f.id, k); const t = c / cellMax; const on = dashCell && dashCell.firm === f.id && dashCell.sector === k; return `<button type="button" class="${c ? '' : 'z'}${on ? ' on' : ''}" data-cell="${f.id}|${k}" ${c ? `style="--hb:${fill(k, t)};--hc2:${ink(k, t)}"` : ''} aria-label="${esc(f.name)}, ${esc(cName(k))}: ${c}"><b>${c || ''}</b><small>${cAbbr(k)}</small></button>`; }).join('')}</div></div>`).join('')}</div>`;
   let cellList = '';
   if (dashCell && firms.some((f) => f.id === dashCell.firm)) {
-    const list = rows.filter((p) => p.firm === dashCell.firm && sectorOf(p) === dashCell.sector).map((p) => ({ p, y: heldYears(p) })).sort((a, b) => (b.y ?? -1) - (a.y ?? -1));
-    cellList = `<div class="cell-list"><span class="cl-h">${esc(monoOf(dashCell.firm).name)} · ${esc(sectorLabel(dashCell.sector))} · ${list.length}</span>${list.map(({ p, y }) => `<span class="cp">${esc(p.name)}<b>${y === null ? 'n/a' : HEAT_heldLabel(y)}</b></span>`).join('') || '<span class="cp">none</span>'}</div>`;
+    const list = rows.filter((p) => p.firm === dashCell.firm && colOf(p) === dashCell.sector).map((p) => ({ p, y: heldYears(p) })).sort((a, b) => (b.y ?? -1) - (a.y ?? -1));
+    cellList = `<div class="cell-list"><span class="cl-h">${esc(monoOf(dashCell.firm).name)} · ${esc(cName(dashCell.sector))} · ${list.length}</span>${list.map(({ p, y }) => `<span class="cp">${esc(p.name)}<b>${y === null ? 'n/a' : HEAT_heldLabel(y)}</b></span>`).join('') || '<span class="cp">none</span>'}</div>`;
   }
   // A labelled pie per sponsor (Josh, 3 Nov 2026): slices in the sector colours, the count printed in
   // every slice wide enough to hold it, the total in the centre, and a list of sector and count
@@ -1771,7 +1786,8 @@ function renderDash() {
     return `<div class="piec"><h3><i style="background:${c}">${m}</i>${esc(f.name)}</h3><div class="pieb">${svg}<ul>${parts.sort((a, b) => b.cos.length - a.cos.length).map(({ k, cos }) => `<li><i style="background:${sectorVar(k)}"></i><span>${esc(sectorShort(k))}</span><b>${cos.length}</b></li>`).join('')}</ul></div></div>`;
   };
   const hbars = `<div class="pies">${firms.map(pie).join('')}</div>`;
-  const thematic = `<section class="dsec"><h2>Thematic investing</h2><p class="sub">Portfolio companies by sponsor and SSG sector. Tap a cell for the companies behind it; the pies show each sponsor's mix.</p>${heat}${heatM}${cellList}${legend.replace('class="legend"', 'class="legend" style="margin-top:14px"')}${hbars}</section>`;
+  const seg2 = `<div class="seg sm" role="group" aria-label="Heatmap columns">${[['sector', 'Sector'], ['country', 'Country']].map(([k, l]) => `<button type="button" data-heatby="${k}" class="${by === k ? 'on' : ''}" aria-pressed="${by === k}">${l}</button>`).join('')}</div>`;
+  const thematic = `<section class="dsec"><div class="dhead"><div><h2>Thematic investing</h2><p class="sub">Portfolio companies by sponsor and ${by === 'country' ? 'headquarters country' : 'SSG sector'}. Tap a cell for the companies behind it; the pies show each sponsor's sector mix.</p></div>${seg2}</div>${heat}${heatM}${cellList}${legend.replace('class="legend"', 'class="legend" style="margin-top:14px"')}${hbars}</section>`;
 
   // 3. Positions by years held (Josh, 3 Nov 2026: "show the age in years… easy to see how many years
   // it has been held"): a panel per sponsor, a column per completed year held (0 = under a year,
@@ -2117,6 +2133,7 @@ $('dashBtn').addEventListener('click', () => { view.dash = !view.dash; savePrefs
 $('list').addEventListener('click', (e) => {
   if (!view.dash) return;
   const t = e.target.closest('[data-bfirm]'); if (t) { view.bfirm = view.bfirm === t.dataset.bfirm ? 'all' : t.dataset.bfirm; savePrefs(); return render(); }
+  const hb = e.target.closest('[data-heatby]'); if (hb) { view.heatBy = hb.dataset.heatby; dashCell = null; savePrefs(); return render(); }
   const c = e.target.closest('[data-cell]'); if (!c) return;
   const [firm, sector] = c.dataset.cell.split('|');
   dashCell = dashCell && dashCell.firm === firm && dashCell.sector === sector ? null : { firm, sector };
