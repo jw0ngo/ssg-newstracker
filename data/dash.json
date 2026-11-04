@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04T01:15:30Z",
+ "at": "2026-11-04T03:59:52Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -83,11 +83,11 @@
   "2026-11"
  ],
  "archived": 10843,
- "candidates": 165,
- "fromSignals": 18,
+ "candidates": 221,
+ "fromSignals": 28,
  "boltons": [
   {
-   "n": 1,
+   "n": 2,
    "date": "2026-11-03",
    "month": "2026-11",
    "firm": "tpg",
@@ -99,7 +99,7 @@
    "stage": "signed"
   },
   {
-   "n": 1,
+   "n": 2,
    "date": "2026-11-03",
    "month": "2026-11",
    "firm": "ta-associates",
@@ -112,14 +112,26 @@
   },
   {
    "n": 1,
-   "date": "2026-11-03",
-   "month": "2026-11",
-   "firm": "kkr",
-   "portco": "oms-group",
-   "buyer": "OMS Group",
-   "title": "OMS secures US$1.03 billion to buy cable-laying vessels",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONUxmcEhDaGpxdjlZN2U5TDNEM29FT2FTeEZ5NFllM3lKWHlFb1pCaGREdkJyVWM0Vmk3dEV0MWoxbkRUU2NoVnQ5Z3RBMEpjWGotT0hScVFQcHRRNlV3a0FySTROQ2pWbWtBY1FGOG1Fby1QeFp2cHRqdTFLLWt6SGduenpBNTFxek9sM0lYR2JqaFF6dTBZZmx3?oc=5",
-   "publisher": "Asset Publishing and Research",
+   "date": "2026-10-28",
+   "month": "2026-10",
+   "firm": "tpg",
+   "portco": "veeam-software",
+   "buyer": "Veeam Software",
+   "title": "Veeam acquisition of N2WS enhances cloud protection",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOUd4ZG9aNzhXcUJKaF80S3N6RVpoSElDV00zNEc0NWZkQzBNMm1TeXpxemVhblpUVGVoeTRPc3U2RDdld1cyWmtncUNYWGhNbHdXTGlRVmxub3lRbEtVNFlUUDdkVzY0RkFMV2VUWmRQSmlpajJyZ0FhY1V1X0czT3BKVzZCOWFDZHFBLW40RGJCWGRVRnc?oc=5",
+   "publisher": "TechTarget",
+   "stage": "signed"
+  },
+  {
+   "n": 7,
+   "date": "2026-10-21",
+   "month": "2026-10",
+   "firm": "eqt",
+   "portco": "sagility",
+   "buyer": "Sagility India",
+   "title": "Sagility Acquires Chirok Health to Boost Provider Services",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZFV5MWV2VlZBLUY3OEpkZFI4VFZibHl3UkI3djNHa2lkM3JZNi1FOXdENVhaUGVWanlWVFRJYWNvRHc0QndxcXNJY0lOTzk0MVRscXczaGpoeHZqaFpmZXZMZm9JUnNnSzhXVlk1VFZqS0ZUcTFESkNnUExCekhhVGpkRFB5RFlON0k3c3N5dm50Zm5zLTAxZHB5cTRjVlJBVEVXekF0aENUUlFFWFZuLWQ3a29FYTBDSU9mWmQ3Tk1nYXRfY3hFUFhNdUQtTFZMak54Y2ZR?oc=5",
+   "publisher": "Kalkine India",
    "stage": "signed"
   },
   {
@@ -135,7 +147,19 @@
    "stage": "signed"
   },
   {
-   "n": 12,
+   "n": 3,
+   "date": "2026-10-19",
+   "month": "2026-10",
+   "firm": "tpg",
+   "portco": "nextech-systems",
+   "buyer": "Nextech Systems",
+   "title": "NexTech Solutions Acquires Halcyon Days Consulting To Expand Combat-Tested Tactical Networks",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNWRLXzEtOHN2UmRxUlRwb0JfQlhUOTFtSm9KS3E2bV9vRUhtZlNPT0tSd2FXbXU2NWFFRjNCUEhDb0FvUmltamlQa2hhbzUwUlRVTUhJVGZDNVdWNDdrVmtWOTQySmxnb2NtdkQ0S0Y4d25EZkpKTkZZOENLX3dMRXAzWnFsb0U4UWhrMkdVempVS2tna2pZc2ttT25FcDNvZE40bEZ6X0syZ0I0QzJ5QndB?oc=5",
+   "publisher": "Pulse 2.0",
+   "stage": "signed"
+  },
+  {
+   "n": 13,
    "date": "2026-10-18",
    "month": "2026-10",
    "firm": "tpg",
@@ -159,7 +183,7 @@
    "stage": "signed"
   },
   {
-   "n": 4,
+   "n": 5,
    "date": "2026-10-15",
    "month": "2026-10",
    "firm": "eqt",
@@ -231,7 +255,7 @@
    "stage": "closed"
   },
   {
-   "n": 11,
+   "n": 12,
    "date": "2026-10-01",
    "month": "2026-10",
    "firm": "ta-associates",
@@ -327,7 +351,7 @@
    "stage": "signed"
   },
   {
-   "n": 5,
+   "n": 6,
    "date": "2026-09-15",
    "month": "2026-09",
    "firm": "macquarie-capital",
@@ -363,7 +387,7 @@
    "stage": "signed"
   },
   {
-   "n": 4,
+   "n": 5,
    "date": "2026-09-01",
    "month": "2026-09",
    "firm": "ta-associates",
@@ -372,6 +396,54 @@
    "title": "Solifi acquires Inovatec to connect auto and specialty lending",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNazRVYW92NW8xUVg1WlhJdFZ3bnhHVExRT2Q0NW01QmdUWmNIZU1TMmdwR3k5emlRUkdhRG1kU2J0Q2RhNnlrNHhaMXVwcE9rbE9uOFR3UlZPcUw0OG13eGtQYmlOQ0lPQ25ySUVfWkYwckVsRXJ0MWplM2p5M0ZJUmJiaVUxMl9vOVZMenV6T0hLcG9uM3dtUzRZRHg?oc=5",
    "publisher": "Dealroom",
+   "stage": "signed"
+  },
+  {
+   "n": 2,
+   "date": "2026-09-01",
+   "month": "2026-09",
+   "firm": "macquarie-capital",
+   "portco": "viatel-technology-group",
+   "buyer": "Viatel Technology Group",
+   "title": "Viatel snaps up EDNX in second UK acquisition of 2026",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yVVpzR052MFk1d3lBbVNzWXc2cENGV1Q2c0JjakZHdGxkdEFnaUhGeHV0Vk1OMlBYNms0LXBWX0NVdTVDWWE1ck5DRDRjLTBTWURaOEdySXkzLU5BN0xfME1IM3ZjVFVWVjJCcFIzdw?oc=5",
+   "publisher": "CRN UK",
+   "stage": "signed"
+  },
+  {
+   "n": 4,
+   "date": "2026-08-24",
+   "month": "2026-08",
+   "firm": "tpg",
+   "portco": "nextech-systems",
+   "buyer": "Nextech Systems",
+   "title": "NexTech Solutions (NTS) Acquires BOOMSLANG Aerospace, Expanding UAS and Counter-UAS Capabilities for U.S. Defense and Security Customers",
+   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOdWdxMzJyTURWck5vbmQ4alppVWwyY0VTSEdUV2lSYlBMd3VfTUNXbTlSOVFDOEJEN2Y0b1kySklzd3hDVUVocXBacmVBQlFZQTlfRGZjV0I1OWpUSTFMTTNmRjA3X29MR2JRUzNvVWxybk0waDFHRDVsaGZCTVJOVlM5NTJCNUs2Si02Tmcya1dYUmdQZEhMZDJEOTJhMmhEcjJHaWY1cDVPdklYbDlxcmltWlRMNDBVelo4SFJuZ2NoRnNRR2Q0bEZBV3FSanVaUEhqWmpJVTVtVXRKMmJfOXFleWplbjFtUUNzWHg1d1N5U0JLOUpocHZ3TEJzM1lmY1laT1dpM1RKRjNuaU9VU1lHNFJxdw?oc=5",
+   "publisher": "PR Newswire",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-08-05",
+   "month": "2026-08",
+   "firm": "warburg-pincus",
+   "portco": "acclime",
+   "buyer": "Acclime",
+   "title": "Dentons advises Acclime on conditional acquisition of specialist technology-led independent trustee and fund administration business, Polar 993",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZ1c1QUxKakZ4ZDlhVnN0MHpyaHlBWFFmTTA5bDJ2cVhlYVRGYUMySkZoXzhRNzVFR2ZqZFkzckpKRmxxRW5DZ0RWUHJHWk5QLUNFNUIzdGh5WUFzMkpLOEswM2I1d1V6dzZIeUZueHRQRzhYYnY4dmt1WGg5eThmbGZQMV9tME02eC1aTWZPUW1OWGtxSTQ0RVFOYTZRcDJUYUhjXzg5ZDgzYldpbmZXWklfbGt3YUlFOFBOM2w2OW12a1NKVkI4OU1ibWYxb0d2RkxlcHFfNFpLa3V5?oc=5",
+   "publisher": "Dentons",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-07-12",
+   "month": "2026-07",
+   "firm": "tpg",
+   "portco": "infomedia",
+   "buyer": "Infomedia",
+   "title": "Ashurst advises Infomedia Ltd on acquisition of 50% of Intellegam GmbH",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMmRSUWg2Ni1LellYcDl4dkNqNTNNOTVvTHpwcG1idG4waGFZdnJKMkUtOTVJVmN4VWM4VV9ja0RackNzVGZtVjFSenZZSm5mVUluN2NvT3JVNEUxYkJ0Qi03OEtDbENHVEJzcnRmMWNka0N3WVRGNGluQVlJcUNUZG1vRV9wbVFtVGVsNFplWHdKMmkyYzFuSUZselY3NWdnb3hXSk5hQzBuVVA0QTN6NnlzdU9OeTY0SU1tckVNNUlSeTNxVXc?oc=5",
+   "publisher": "Ashurst Perkins Coie",
    "stage": "signed"
   },
   {
@@ -397,6 +469,18 @@
    "title": "Infoblox Acquiring Kentik to Expand Visibility",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLVdLWWFpd3hxdjREN0tjcWI4NWg1RHpfNG9jN2NHSGVyZmhXZkxITVNvOS0wMG80NFNaekRsRVhCMFpwNW5kbWc1aGlaY2pZbnFVZnBOVEE5UGhValVvbWRnckZ5SXU0bTljM21QTHJHVzJsQktuaDk3YUNaTGFWaUI0emdfZEpQZ3FsbUtKMURET0pocWFVRXFBYnBLdDR4VVB5R3ROYTR4YnJkZ2NZN3BNOUF6LUU2?oc=5",
    "publisher": "Channel Insider",
+   "stage": "signed"
+  },
+  {
+   "n": 3,
+   "date": "2026-07-03",
+   "month": "2026-07",
+   "firm": "macquarie-capital",
+   "portco": "viatel-technology-group",
+   "buyer": "Viatel Technology Group",
+   "title": "Viatel acquires Scottish cyber consultancy FullProxy",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbnlpN2tXaGxxcVl1NkZfUTlHNUxGWjdDRDQ3QU5QSG5IdDRrNG9vaVJzVk1XZVVvX0xmU2VVdDlHVEQxX0JldjZ4ckFxWElJVGU3SU9KVkFVNmdvRW5ERXVYeV9la0hTVXhjMXBiSl8zYUdwVXNJZTYxQXE4V2xGdEVpYjBaeEctSHVwTXFGcURwS0NlZDF4NQ?oc=5",
+   "publisher": "Silicon Republic",
    "stage": "signed"
   },
   {
@@ -436,6 +520,18 @@
    "stage": "signed"
   },
   {
+   "n": 2,
+   "date": "2026-06-12",
+   "month": "2026-06",
+   "firm": "eqt",
+   "portco": "sagility",
+   "buyer": "Sagility India",
+   "title": "Sagility acquires US-based CareSeed to strengthen AI-driven healthcare quality operations",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQak1jNVlsSEtFZGNtQ2Zoa2tadDFIZ2w1eGZMbjBXTkZuMFpzQWNqbVZxV0lFWVV2YXUzamE0TDJjMGQ5RjBNd0VUVE9KUU1QN21MSlJCdXFiMXpmRVRuektQWk1JTVhtUTNqMHdzNUVqVjJtQjNqdGxWQ05tQmNkNW5DQ1ZCZm1ZdGRyX2pyRjU0RVdaN3E2S3BqcEVlcE9UOHZDOTVPb0ZTYnI5ZzVVSWpRN20zX2lsR1ZabFlaNlU5Y05CT2JGQnFxX0hOcTI0OWtMZEgzX25lN085QkZXVVRJQVJQUVpZV1NCdVRn0gHzAUFVX3lxTE95Mk53SHIwaktqRVJhOF84OGI5WTNZOXd0NVZwdDdCalp3N0VoSEV6YmR2VW9PYmlveUFoTDhkUUFESUFEVmtVamRTVVhSNzVpMVlVNTJ1NUo3cml5ZEktdXRqUV9md2JxMXJEYk0wSk02Q3FLbFNEdHRucW5ubmJHYXFQMlV0MHZmeGVKNXgzVnRTWWtCRE5yVEhzTDZGYnNTRDFiZzFEbTF0V2pvNkdLVVMyUlpVNDNDUVNmYW1qQU85QlNsXzBNQnlENVotcWpJN2tWZVBhVlhGTXkzREo3RktsLXYzYWdpVktjNWo0d2V5RQ?oc=5",
+   "publisher": "ET HealthWorld",
+   "stage": "signed"
+  },
+  {
    "n": 1,
    "date": "2026-06-11",
    "month": "2026-06",
@@ -448,7 +544,33 @@
    "stage": "signed"
   },
   {
-   "n": 8,
+   "n": 4,
+   "date": "2026-06-09",
+   "month": "2026-06",
+   "firm": "tpg",
+   "portco": "infomedia",
+   "buyer": "Infomedia",
+   "title": "Infomedia Announces Acquisition of Veact in Europe, Expanding Global Automotive Aftersales Ecosystem",
+   "url": "https://www.aap.com.au/aapreleases/cision20260609ae68904/",
+   "publisher": "AAP / Cision",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 2,
+   "date": "2026-06-08",
+   "month": "2026-06",
+   "firm": "kkr",
+   "portco": "cegid",
+   "buyer": "Cegid",
+   "title": "Cegid closes its acquisition of Shine to create Europe's first unified financial copilot for SMBs and accountants",
+   "url": "https://www.cegid.com/global/news/cegid-closes-its-acquisition-of-shine/",
+   "publisher": "Cegid (press release)",
+   "stage": "closed",
+   "fromSignal": true
+  },
+  {
+   "n": 9,
    "date": "2026-06-03",
    "month": "2026-06",
    "firm": "eqt",
@@ -511,6 +633,43 @@
   },
   {
    "n": 1,
+   "date": "2026-04-15",
+   "month": "2026-04",
+   "firm": "kkr",
+   "portco": "samsung-sds",
+   "buyer": "Samsung SDS",
+   "title": "Samsung SDS shares jump 20% on KKR partnership and $820 million bond purchase",
+   "url": "https://www.cnbc.com/2026/04/15/samsung-sds-kkr-820m-ai-investment-shares-surge-convertible-bonds-expansion.html",
+   "publisher": "CNBC",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2026-03-31",
+   "month": "2026-03",
+   "firm": "eqt",
+   "portco": "gebbs-healthcare-solutions",
+   "buyer": "GeBBS Healthcare Solutions",
+   "title": "EQT-backed GeBBS Healthcare snaps up South India-based RCM firm",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOem8zb1o5VkJ2cGR4RzJzUkMzV2ozR3NHdTdsLThDa29jMVJQaFhfcnlNQTNPbnV3Y1dad2RCSDk3Z3FKckxCQ0ZELXQxVkswSms2dXBuQ2FraTAxUlhxWVFqYnpnbW9HbmNWVjU5c0RDX0pkZ3lELWZGdmpNdnVLNVFwelhENXBRcmpDV3dvV1Y?oc=5",
+   "publisher": "VCCircle",
+   "stage": "signed"
+  },
+  {
+   "n": 2,
+   "date": "2026-03-30",
+   "month": "2026-03",
+   "firm": "eqt",
+   "portco": "gebbs-healthcare-solutions",
+   "buyer": "GeBBS Healthcare Solutions",
+   "title": "GeBBS Healthcare Solutions Announces Acquisition of RND OptimizAR",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQjJHcktHT3l1dWNvblFwTHhUQ1E4RFExcjN1Nm9tZUN6LTVKMzBwa2QtZ3hoaHNweXQzQTB3NTBrbmNDM1N6TmczMVZGUkJVYUJNWGh4Vkktci12M0hZZ0pMUDBTaVo5NGZrSk15ZlZsdk1MczN2c0dvZFVWM0ZEeDhhUVhLY2gzZzhCSy1OOUJ3REVXWmF4SFEwY0ZlcHVQSjZaT3hkajRZemsxQzd3WTZB?oc=5",
+   "publisher": "Lelezard",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
    "date": "2026-03-12",
    "month": "2026-03",
    "firm": "warburg-pincus",
@@ -559,6 +718,18 @@
   },
   {
    "n": 1,
+   "date": "2026-01-27",
+   "month": "2026-01",
+   "firm": "eqt",
+   "portco": "compass-education",
+   "buyer": "Compass Education",
+   "title": "School admin edtech Compass acquires Clipboard",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTUxlOUhVVWJLaDcybEZqOERiUjZ5bU1TRDJVVmtfZHFEUW85dndNQVpFZEJQbnk2a3NPQkM3Y0NreWZSemFueWRLRU52VjY4dTVlYTZWdjZONkJudXVBWmxPYUlMQnRaQ3M0N0dJUDN5YTRGT19PQjlid09EMXdha3VEWTBvRFlOM0haaVc3QVF1N25TcFE?oc=5",
+   "publisher": "Startup Daily",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
    "date": "2026-01-16",
    "month": "2026-01",
    "firm": "ta-associates",
@@ -596,6 +767,18 @@
   },
   {
    "n": 1,
+   "date": "2025-11-19",
+   "month": "2025-11",
+   "firm": "navis",
+   "portco": "software-combined",
+   "buyer": "Software Combined",
+   "title": "Technology aggregator Software Combined ups the ante in Holland with acquisition of WCC Group",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR0RlR2JBUG4ydVZtN3EwTmtzWm84eThqU21lSzhfa2VxanphQkJLQWhtVE9tLVg4SzZhbncyRnoxRHhlVmR3dHEwdk5sdURPcUI3RUxpQk1rNnV0TzZXVWZpMDdyTTM5bzZMWU95Mmx3RjVnSFVmamVTZVpIbEZaUmRLOHNUYmVpWmhKaHBMZjJhdFRjSUVIVVFHNlFMZ9IBqgFBVV95cUxNNWRQTHJUVmFNNU1PSTNOMktOM3VCMFB5RE9NSERwbG1QYk1NLXcwN2pMWVVsaTMwZUxRVWcySmpyLU0ydzdDZWtXZ2lPYVN4RGRDWEEwaXljLTZUaUVTRXhHY3F5WU1BTlZ4ZGFBRWk1OVVmRF9wUTdDZlFyWjEyQWJDeC10MWZ4bnhoeGJrMlRUNEVvQUd2RmhGUWhRWkVQUk40NVBaUk50dw?oc=5",
+   "publisher": "Business News Australia",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
    "date": "2025-10-24",
    "month": "2025-10",
    "firm": "tpg",
@@ -604,6 +787,31 @@
    "title": "Altimetrik Completes Acquisition of SLK Software",
    "url": "https://www.businesswire.com/news/home/20251024035009/en",
    "publisher": "Business Wire",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2025-10-23",
+   "month": "2025-10",
+   "firm": "eqt",
+   "portco": "propertyme",
+   "buyer": "PropertyMe",
+   "title": "PropertyMe expands into real estate CRM with the acquisition of Phoenix Software",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZV91MnRmd1otV1RBZVpFT3BJQ1hYMVl1a0hrQm0xaWp0bGRIS0twRE83VXpWTjI4MEhyanc0NU1hTllMVDJqTWNITzAtZVdIcXZORHJUeXoxQ29WNEliZDFQZ3gzMWZNNng4SENCNl9McjVFQmVya2FFNFh4enVYWEpTRGNMa3FqQlh6aGhUV056YWFHQTZMUjJONnU0NGpST1N0QVZDMA?oc=5",
+   "publisher": "Elite Agent",
+   "stage": "signed"
+  },
+  {
+   "n": 2,
+   "date": "2025-10-09",
+   "month": "2025-10",
+   "firm": "eqt",
+   "portco": "perficient",
+   "buyer": "Perficient",
+   "title": "Houlihan Lokey advises Perficient, a portfolio company of EQT, on its acquisition of Kelley Austin",
+   "url": "https://hl.com/about-us/transactions/perficient-eqt-kelley-austin/",
+   "publisher": "Houlihan Lokey",
    "stage": "signed",
    "fromSignal": true
   },
@@ -620,15 +828,15 @@
    "stage": "signed"
   },
   {
-   "n": 1,
-   "date": "2025-09-19",
+   "n": 2,
+   "date": "2025-09-15",
    "month": "2025-09",
    "firm": "eqt",
    "portco": "citiustech",
    "buyer": "CitiusTech",
-   "title": "CitiusTech Acquires Health Data Movers, Enhances Healthcare Provider Offerings with Epic Implementation Capabilities",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbzRvMVEycnBNclFZenU1a0U1c0NMaXlmNDI3bnFORHJQcmN2UjBLMXF2VHVfOW9mTGctaFZ2blgyVHB5dks3UHdPUFQtWlhRSHBlQkVlaGJBcmRoOVpXcjctOXdrNEU4TmVDNENPbXBDRnhvQnFYQ1U0b3lkWlQ5RlJnM3VaLUdMblpGZmx3THQwdjd4LWpjMTBwalhYTmtKdGZIZDJYRFptTkp5Y29iT1Y2bmk5a0p1MnROWXEtT0VGQkl0MzFuSzZISENQMURuWHJUTE9QRkhVNmxBaEo0MFFROGN6Zlg0MmV6d1VHbXl6Vlk?oc=5",
-   "publisher": "Healthcare IT Today",
+   "title": "Blank Rome Represents CitiusTech in Acquisition of Health Data Movers",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbE10WlpPdGQydGlldDBTQU5YVEMwSUNVejJ1R3NrbHJsVkprOXZBYndCTGJ3YXJjeVMxMFozMU5hQ3FNVzZDcGF5cmxQRUZkN3ZWaDlXODRFYTlJTjhJemhmdUxVUlYzUlJtN2xIRy1BbXpJQTRmaHNkM3NBR1VGQVZrbTREcUhKeEl6X3o3OERKeWxGaEg2ZG9EcG1GVXJyNWpET1RlNE5udw?oc=5",
+   "publisher": "Blank Rome LLP",
    "stage": "signed"
   },
   {
@@ -653,6 +861,30 @@
    "title": "PE-backed Accion Labs buys product engineering firm NetServ",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcldxQ3o0c2F5Q3MzYXNkcEZJeFk1b1BoNXdSZGJCaTY2MDZTS05IMERmOGx1MEcxcnpBa3J6enlqSHhMQl9tRUFmSll6eDN1R09mdFF1X2h5QnE3MTRYdjEzTG1GTDVjdlREeW5zdWhTXzZFRy1CS19ZTDZobDN4cDZ1VVhILUdkUzJz?oc=5",
    "publisher": "VCCircle",
+   "stage": "signed"
+  },
+  {
+   "n": 2,
+   "date": "2025-09-03",
+   "month": "2025-09",
+   "firm": "macquarie-capital",
+   "portco": "aryza",
+   "buyer": "Aryza",
+   "title": "Ireland’s Aryza grows its Australian base with acquisition of collections software group Bravure",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcGJmZ1lGWDlqVWhVWXNlSDBYb24xME13SjBpNnFkbnhJaG1NWmt6Wm1udzdTTVI1d3djbTE1SWtueXZzTFh2ZVRiM3J1U01UVzN6bXpPSkk3Y1RIak5PX2kwNzBQMnU2ZVZTMTJqVEJJWTVKVk00MWNldHQ5aFRLVEZXOGtyeW_SAZMBQVVfeXFMTTl4TE90b1F4eE56UFVIMkZDS2g1WldGQmJrUWU3blpqamZxOTdDYUtTekpiOWRxMkhQdHd5Qy1uamVwNld1RzdZREdoUUg5amt5WEJ1amJ0WkV1QXhwVG1XTkNEZmNsejRqYUhaVk5BT1NKZTRzX1FEbll1NDQyX3VTelRzMDFNNERFODhZQzVoM1RZ?oc=5",
+   "publisher": "Business News Australia",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2025-08-12",
+   "month": "2025-08",
+   "firm": "ta-associates",
+   "portco": "sovos",
+   "buyer": "Sovos",
+   "title": "Sovos Expands Global eInvoicing and Tax Compliance Coverage with Acquisition of IRIS' APAC Tax Technology Business",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOb3R5VWZORmU3UjVTQ2hJMGxQUUxNSHhVcEowa21jUElZcFhvcU8zNGdUdmpVSDRJT0N5Yjd5eWhuTEZjc1F6R0ZoUnIwOG5PUVV1U0JBRDJUa0NKRk9xeUdCRl9yZnFCdjBndmp0aGNLVkhHRnpmSGwyd0dlYVB4NE1kVnpiY3ZCWGhma1ZzSzJNazY0VmFOMVE3OTlUbThsd1ZGUWxUNWkxd1BWX0d0eG5qYzFqcm1iV1BRTWtVYjVhNkVla25Tc2RoLTV0Rm5iUTEzem5YWU5VV1liOXA5X2I5OEdxRnN3X3l5cDRJbDdTc19CbDh1UUFKYVNTbVE?oc=5",
+   "publisher": "Business Wire",
    "stage": "signed"
   },
   {
@@ -682,6 +914,18 @@
    "fromSignal": true
   },
   {
+   "n": 1,
+   "date": "2025-06-24",
+   "month": "2025-06",
+   "firm": "macquarie-capital",
+   "portco": "viatel-technology-group",
+   "buyer": "Viatel Technology Group",
+   "title": "Viatel acquires Cybit Cyber NI unit to boost security services",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTm9ybDk1eGwwVmtQajBZQzlfempVcEN5djBQZzA5NHVsZUhMdFc3eVlsOTBNTldKZU1WNEU5bTI3UE5pUDJPTjJXbGd0LTZtb1lHWmdGTUhqcEJyVmVHbXV2QTBlQ1pubjRsQXo4eXJ1N0pGbXpSVmZUYXBXd2ppVlViS0hBU2o5RVpFRVE3SEx3dnBCUHZpeENuWUQ?oc=5",
+   "publisher": "SecurityBrief UK",
+   "stage": "signed"
+  },
+  {
    "n": 2,
    "date": "2025-06-18",
    "month": "2025-06",
@@ -695,7 +939,7 @@
    "fromSignal": true
   },
   {
-   "n": 2,
+   "n": 3,
    "date": "2025-06-04",
    "month": "2025-06",
    "firm": "warburg-pincus",
@@ -707,15 +951,15 @@
    "stage": "signed"
   },
   {
-   "n": 3,
+   "n": 5,
    "date": "2025-05-28",
    "month": "2025-05",
    "firm": "macquarie-capital",
    "portco": "aryza",
    "buyer": "Aryza",
-   "title": "AI meets insolvency tech as Aryza snaps up fellow Irish company Webio",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMVA0T25Ea19FNHhRQ2pvanRTd0lrS2l6WXhNZ1RQZUItS3d6bndZRVFkTnNiZGs5cjRUV2NPWjByWnVUdGxKTktTSEVNSFV1RnFQc2FucVExYzJpOS1vTjc2MGF4c0NleHZKSU9NSjUxUGtoWHhCZDJZN0RJZ2g3YTZnbXFpTzJIdEFaNmJpa3dRSU8yd0RhRi0wYXhHQkF5d1Yzd0ZR?oc=5",
-   "publisher": "Business Post",
+   "title": "Aryza Announces Strategic Acquisition of Webio to Accelerate AI Integration and Drive Future Growth",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPcVcxbnhWaW56WTRuZWpINTZRRmNzWC1nWlZYWElWdS1xc1Uwc25YcTlSUGV0MkFIS0ZDZFNTUy1RdG5iVDJPNDM4UGFkNDh4YjVWbU51V0RoWVEtamo2T2V0U3Joc2RJeWJ3djJ6cW5sVjVsUkZGamVvXzBCUHhsQ09vaUcwT0VCLXl0aGFaTWZSTl9ucXRtLXN1T0V4MGprRjFwSnpnWGJWSHNpd0hGQVJBUFVDTGYtOEpnY1BVamNFOGd6S3JheDU4RjhUMHlTRVRhZHhadkEyTlBLUlhN?oc=5",
+   "publisher": "Lelezard",
    "stage": "signed"
   },
   {
@@ -732,7 +976,7 @@
    "fromSignal": true
   },
   {
-   "n": 3,
+   "n": 4,
    "date": "2025-05-07",
    "month": "2025-05",
    "firm": "kkr",
@@ -868,6 +1112,19 @@
   },
   {
    "n": 1,
+   "date": "2025-01-22",
+   "month": "2025-01",
+   "firm": "eqt",
+   "portco": "virtuos",
+   "buyer": "Virtuos",
+   "title": "Virtuos launches a new era of collaborative game development with strategic acquisitions of Pipeworks (USA), Abstraction (Netherlands) and Umanaia (Canada)",
+   "url": "https://www.businesswire.com/news/home/20250122696336/en",
+   "publisher": "Business Wire",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
    "date": "2025-01-08",
    "month": "2025-01",
    "firm": "kkr",
@@ -878,6 +1135,18 @@
    "publisher": "Employment Hero",
    "stage": "signed",
    "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2024-12-19",
+   "month": "2024-12",
+   "firm": "tpg",
+   "portco": "boomi",
+   "buyer": "Boomi",
+   "title": "Carlsquare advised Boomi on the acquisition of data integration provider Rivery",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNVGhULVIwQUNBVEJXVXF1WkFEa0RrWlQzSUtGYnRDdjhZM3BKMjc1Z2dicktHV3h4SE1OMzFkeXkzV09ENGE2YU90QXFyd1gyekJvckNDZ1dMOFpRX2R0YTBVR2p3N28yTWtqVXdVTUVVR1Jhb0NYMGIwandIZkpWek81aDI5dmhGcmV2dFlHUWstS2dwa1I0YjRGb2lFM1I5NXJ5eF9ZSUNzbm9idnNwS2V6clprOGc0YkFQM19wdXVyT2hmWkpzcUh5QVM0Y2NuMXFnUC1LUldHSkdmb0FHMlpSZ0Y2NWZuY2I0dUVNRjl5S0xnN3ZMbHdnQmhrdktfMWw3NGFtVHlQTFd3Rk1FdnlB?oc=5",
+   "publisher": "Carlsquare Corporate Finance",
+   "stage": "signed"
   },
   {
    "n": 1,
@@ -904,19 +1173,19 @@
    "stage": "signed"
   },
   {
-   "n": 2,
-   "date": "2024-10-04",
+   "n": 3,
+   "date": "2024-10-03",
    "month": "2024-10",
    "firm": "macquarie-capital",
    "portco": "aryza",
    "buyer": "Aryza",
-   "title": "Aryza Group acquires NTI",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NYTcyaU9SOGlwcUNqbnFaTG1CNFA2cXpWeklhRVo1QzVLZjNOUDdmQmt3Wkw3R0t2WERMc3JoNi1iSmdKSGNyb0RSYlV4Y253V2xEYm5EQTlNWkNZSmFXRUNtanVkajFuUnp4Xzl3V04?oc=5",
-   "publisher": "Credit Connect",
+   "title": "Aryza Group Expands Insolvency Expertise with Acquisition of NTI",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUW9lYWtka2hHeFc0aHk2WFAzTHdKbHVaaVRheW9MUDZYOTk4Q056dlp0ejRXZFRhc3VORWt1d1cxc212NjlRbjc3RTVJbzNoT3V3Z1NGOEZPd3JSZTZnekdYdm42SVBLcERidmhJVDFSV29ycUcxdXBhYUNTZ1lHVmpXZHRHcm1aeTdueUEzc0pTUmQtS25faDN3Z3FaVF9Cd1E?oc=5",
+   "publisher": "Financial IT",
    "stage": "signed"
   },
   {
-   "n": 3,
+   "n": 5,
    "date": "2024-09-24",
    "month": "2024-09",
    "firm": "warburg-pincus",
@@ -939,6 +1208,31 @@
    "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOYm5pSjRjOE1jR1RTaVh3TTk4NnVfMDNwN2RIQWZiR2JQbWE1bnNrai1VaExUUk16OHRFSzQ2VXVrQS1YWmNOR3dxYUY1Ui1iMGhJQ2VYQ052cnJfUUx1bVl3T2g3UEJQYzlYV1NqbmtyXzM5SVpTMGkyZ1ZVbmxiQ1Fma0tfcTJGY0ZVd1BhaDAyZ1ppNUt3UmgwQjRaQlRDRkxJakFSZl9FZ0liMzlhUE8teV9NakFFOFZYU3ZQblpwNHFnakp1cnlwY3dBM1JpY1BKT09QQVYtRDJGaGNWOE4xZl9tTTRvMm1LUTRMa21KUzVOOHRIZTAtM1VGTlBreHo2dHMwZkpPOFNHWS1ZdFZhWnlyU3R5TTlNbFpwWjExOXZUNEF0My13?oc=5",
    "publisher": "PR Newswire",
    "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2024-09-03",
+   "month": "2024-09",
+   "firm": "macquarie-capital",
+   "portco": "aryza",
+   "buyer": "Aryza",
+   "title": "Aryza increases presence in Asia Pacific with the acquisition of Axcess Consulting",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNFYtUFB4VnZ6b3g5a1Q2OWVfbzB5V2xXdXVQbWJWc2pWSGktUkpHRnoyY3pYeUlxTFhzMFRIRW5BUUVpYlRUaUNHMlIzX0djSl9talhIZ3Faa1hwNHp1WXlvd3NFUlNob2R6a0FmQk4zR1pQSHp6dGg3UllIRElya1pvMHRMdnB2Y05sYk5KWmpfTkpCTUxfejQ5RXB3VHJyVGFqNWg1R0JVZTM1MzFNT05UN28xTFdPX0dBeVVsS0E?oc=5",
+   "publisher": "AdviserVoice",
+   "stage": "signed"
+  },
+  {
+   "n": 2,
+   "date": "2024-08-20",
+   "month": "2024-08",
+   "firm": "eqt",
+   "portco": "virtuos",
+   "buyer": "Virtuos",
+   "title": "Virtuos expands into the UK with acquisition of Third Kind Games",
+   "url": "https://www.virtuosgames.com/news/virtuos-expands-into-the-uk-with-acquisition-of-third-kind-games/",
+   "publisher": "Virtuos newsroom",
+   "stage": "signed",
+   "fromSignal": true
   },
   {
    "n": 1,
@@ -965,16 +1259,17 @@
    "stage": "signed"
   },
   {
-   "n": 1,
+   "n": 2,
    "date": "2024-03-15",
    "month": "2024-03",
    "firm": "eqt",
    "portco": "virtuos",
    "buyer": "Virtuos",
    "title": "Virtuos acquires real-time visual effects studio Beyond-FX in Los Angeles",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSjN1ZEh6VlJaXzNhRG5TSF9BTkhha1lmUHpsa2hWMGhZWGZaU1FLT1dsclRocHBiNUp3aW8tdFRFV0dPZUpiYm5sX0MwT3RxTFZrQ3lvS3R4cmRUSzlfQTkxYlc5cnZWclFYTXh5TlExbmVpZWJBT2pJbFB5S1VDUXVYN1JTcHREWWpHYWQ4RWNqdmZjdWJLQ2hDNUYyT0VnVXNrVjBsUlNQR3Jj?oc=5",
-   "publisher": "Virtuos",
-   "stage": "signed"
+   "url": "https://www.virtuosgames.com/news/virtuos-acquires-real-time-visual-effects-studio-beyond-fx-in-los-angeles/",
+   "publisher": "Virtuos newsroom",
+   "stage": "signed",
+   "fromSignal": true
   },
   {
    "n": 1,
@@ -990,6 +1285,19 @@
   },
   {
    "n": 1,
+   "date": "2023-12-12",
+   "month": "2023-12",
+   "firm": "warburg-pincus",
+   "portco": "epassi-group",
+   "buyer": "Epassi Group",
+   "title": "TA and Warburg Pincus Complete Epassi Group Acquisition and Simultaneously Announce Transformational Acquisition of Exercite from Waterland",
+   "url": "https://warburgpincus.com/2023/12/12/ta-and-warburg-pincus-complete-epassi-group-acquisition-and-simultaneously-announce-transformational-acquisition-of-exercite-from-waterland/",
+   "publisher": "Warburg Pincus (press release)",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
    "date": "2022-05-05",
    "month": "2022-05",
    "firm": "tpg",
@@ -998,6 +1306,19 @@
    "title": "APAC biotech giant Novotech acquires US CRO NCGS expanding its global expertise",
    "url": "https://www.biospectrumasia.com/news/26/20224/apac-biotech-giant-novotech-acquires-us-cro-ncgs-expanding-its-global-expertise.html",
    "publisher": "BioSpectrum Asia",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2021-06-26",
+   "month": "2021-06",
+   "firm": "ta-associates",
+   "portco": "rldatix",
+   "buyer": "RLDatix",
+   "title": "Allocate and RLDatix Transaction (RLDatix, controlled by Five Arrows and TA Associates, acquires Allocate)",
+   "url": "https://www.williamblair.com/News/Allocate-and-RLDatix-Transaction",
+   "publisher": "William Blair",
    "stage": "signed",
    "fromSignal": true
   },

@@ -676,11 +676,20 @@ function retrospective(row, held, firm) {
   }
   return null;
 }
-const BUYS = /\b(?:acquires?|acquiring|to acquire|buys|bought|snaps? up|scoops? up|completes? (?:the |its )?(?:acquisition|purchase) of|agree[sd]? to (?:buy|acquire)|takes? over|merges? with|to buy|purchases?)\b(?! by\b)/i;
+const BUYS = /\b(?:acquires?|acquiring|to acquire|buys|bought|snaps? up|scoops? up|completes? (?:the |its )?(?:acquisition|purchase) of|(?:strategic )?acquisitions? of|agree[sd]? to (?:buy|acquire)|takes? over|merges? with|to buy|purchases?)\b(?! by\b)/i;
+const BUY_NOISE = /\b(?:stocks?|shares) (?:to buy|compared)|what to buy|stock picks?|top picks?|buy rating|to buy (?:\S+ ){0,3}?(?:vessels?|ships?|aircraft|planes?|trucks?|equipment|machines?|land|property|buildings?)\b/i;
+const SHORT_STOP = new Set(["advance","advanced","airtel","asia","banking","caring","china","circles","device","digital","dream","employment","ensemble","first","general","global","india","internet","japan","jio","kakao","korea","maya","national","nord","orion","pacific","pathology","payroll","pepper","prime","princeton","redwood","sabre","samsung","singapore","tata","united"]);
+const shortName = (name) => { const w = String(name || '').replace(/\s*\(.*?\)\s*/g, ' ').trim().split(/\s+/); if (w.length < 2) return null; const f = w[0].replace(/[^\w-]/g, ''); const ok = f.length >= 5 || (f.length >= 3 && f === f.toUpperCase()); return ok && !SHORT_STOP.has(f.toLowerCase()) ? f : null; };
 function portcoBuyer(title, portcos) {
+  if (BUY_NOISE.test(title || '')) return null;
   for (const p of (Array.isArray(portcos) ? portcos : [portcos])) {
-    const name = p && (typeof p === 'string' ? p : p.name); const re = name ? companyRe(name) : null;
-    if (re && new RegExp(`${re.source}(?:\\W+\\w+){0,5}?\\W+${BUYS.source}`, 'i').test(title || '')) return name;
+    const name = p && (typeof p === 'string' ? p : p.name);
+    // The name, or its short form, within ten words of a buy verb: "Virtuos expands into the UK with
+    // acquisition of Third Kind Games" names the buyer eight words before the verb.
+    for (const cand of [name, shortName(name)]) {
+      const re = cand ? companyRe(cand) : null;
+      if (re && new RegExp(`${re.source}(?:\\W+\\w+){0,10}?\\W+${BUYS.source}`, 'i').test(title || '')) return name;
+    }
   }
   return null;
 }
