@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T22:53:40Z",
+ "at": "2026-11-04T01:15:30Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,10 +82,46 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 10152,
- "candidates": 137,
+ "archived": 10843,
+ "candidates": 165,
  "fromSignals": 18,
  "boltons": [
+  {
+   "n": 1,
+   "date": "2026-11-03",
+   "month": "2026-11",
+   "firm": "tpg",
+   "portco": "fractal-analytics",
+   "buyer": "Fractal Analytics",
+   "title": "Fractal Analytics acquires talent and assets from Pricing One SA",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU0hTbTRhM0hobzFhb25adlo0WUd4aDBHTDlyNzliWXB2VGhtVW1vWW5zTHRMQkRoOERFTnNMVHNnWmRJNDliX0kyWUFjenZuY1RzZjlTYzk1S1p6ck1FWWVtRnBtUS1xS1h2U0Q5MU9EZWk4aGg1VHhPSl9YVmVCNWVkZWlQUQ?oc=5",
+   "publisher": "InvestyWise",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-11-03",
+   "month": "2026-11",
+   "firm": "ta-associates",
+   "portco": "fractal-analytics",
+   "buyer": "Fractal Analytics",
+   "title": "Fractal Analytics acquires talent and assets from Pricing One SA",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU0hTbTRhM0hobzFhb25adlo0WUd4aDBHTDlyNzliWXB2VGhtVW1vWW5zTHRMQkRoOERFTnNMVHNnWmRJNDliX0kyWUFjenZuY1RzZjlTYzk1S1p6ck1FWWVtRnBtUS1xS1h2U0Q5MU9EZWk4aGg1VHhPSl9YVmVCNWVkZWlQUQ?oc=5",
+   "publisher": "InvestyWise",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-11-03",
+   "month": "2026-11",
+   "firm": "kkr",
+   "portco": "oms-group",
+   "buyer": "OMS Group",
+   "title": "OMS secures US$1.03 billion to buy cable-laying vessels",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONUxmcEhDaGpxdjlZN2U5TDNEM29FT2FTeEZ5NFllM3lKWHlFb1pCaGREdkJyVWM0Vmk3dEV0MWoxbkRUU2NoVnQ5Z3RBMEpjWGotT0hScVFQcHRRNlV3a0FySTROQ2pWbWtBY1FGOG1Fby1QeFp2cHRqdTFLLWt6SGduenpBNTFxek9sM0lYR2JqaFF6dTBZZmx3?oc=5",
+   "publisher": "Asset Publishing and Research",
+   "stage": "signed"
+  },
   {
    "n": 1,
    "date": "2026-10-20",
@@ -291,6 +327,18 @@
    "stage": "signed"
   },
   {
+   "n": 5,
+   "date": "2026-09-15",
+   "month": "2026-09",
+   "firm": "macquarie-capital",
+   "portco": "xamplify",
+   "buyer": "xAmplify",
+   "title": "xAmplify acquires Accelerate IT Solutions to expand ServiceNow footprint",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNei1fMXJQY1RMTmFfWTdGM1hhTXBZT0VzYk9BN0FUaGVTM3ZveDlTZjZrSnprc1d5anNWX2VzMndibEdYLUVBMldJbXZFNmZNbF9mNnZoZHVqNTAwaG5LUS1mMS1ERWFRMC1lMWNsbTNPZy01d1YxeERkWWp2SzJkLTZWalozR2c0Ri1HQVUya29BeFBvaVVacmlvVE1YTGEtZ2dTY2ktTmVYQ2YxZ3p5c2JxQ1QtSUExdHNZRWxfUnpSYUZLb3BTdXE4SXU4R1c1TTd4c25lTQ?oc=5",
+   "publisher": "SaasRise",
+   "stage": "signed"
+  },
+  {
    "n": 1,
    "date": "2026-09-13",
    "month": "2026-09",
@@ -340,7 +388,7 @@
    "fromSignal": true
   },
   {
-   "n": 6,
+   "n": 7,
    "date": "2026-07-08",
    "month": "2026-07",
    "firm": "warburg-pincus",
@@ -400,7 +448,7 @@
    "stage": "signed"
   },
   {
-   "n": 7,
+   "n": 8,
    "date": "2026-06-03",
    "month": "2026-06",
    "firm": "eqt",
@@ -474,7 +522,7 @@
    "stage": "signed"
   },
   {
-   "n": 11,
+   "n": 12,
    "date": "2026-02-25",
    "month": "2026-02",
    "firm": "ta-associates",
@@ -483,6 +531,42 @@
    "title": "BillDesk acquires Worldline's India business for Rs 650 crore",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS1pqYl84NGFVZW1jcnV1R0EtSl9RT0tBbEJub19NNC10Y1Z5TnFDSUVSZko3VkNwNndwUE1UZEgzMnhNa2dQY2ZSRTV6eUFsa3FISW9XMWY2QUItQmEwc0RSTnB4Smt0UmZGMm9wSWY3VmlEX1dZRW1BNUdOYWc0a1U1LUVVdkZDSHJnbU1mYndYRXdGeWdjMjhaMzVveHlQTU5mUzdCOUpaOEJsWjhMWFFORjVxSjBZWURxN29hWU_SAcYBQVVfeXFMUEpyNWl6VnhhWlpFbWpYR2NvNGJ3MlF2d1N0LVNwalFKSjRPZnItYTg3ZC05aXhzVnpUamRybGl3RlNPRzZ3RThYNVJXT0UwQU1QUlQzRENzMTZPQ3RPWU9mR0MtRXFmV3BTNV9hd3dDM2F6SzJKMUNFQnJEbXk0bG1aalhTS0tJUTBmRkduTkt4dk40YV9fZDBrelJsNVpOZkFHX19pTHNQM2l5SDA1RWRYSlprQzZoUlBOd0M4X2FJdC1MUEtB?oc=5",
    "publisher": "Moneycontrol.com",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-02-05",
+   "month": "2026-02",
+   "firm": "warburg-pincus",
+   "portco": "trax",
+   "buyer": "Trax",
+   "title": "Israeli unicorn Trax merges with retail tech firm Form in bid to lead in-store analytics",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJZkU0OG5aaFdfLTUyMTh5czBSV2xETDZTZlFnb1NBbVJuc25KMXBxSGxMZWNUaDQ2QjlvZlV0em4xYmFyS2xRM1Z0VDdOYm85dUd1UkpRR2s4aE1QT2taZHhzMlR6eUtH?oc=5",
+   "publisher": "CTech",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-01-28",
+   "month": "2026-01",
+   "firm": "eqt",
+   "portco": "virtusa",
+   "buyer": "Virtusa",
+   "title": "Virtusa acquires India semiconductor company",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTHBzSDJSb3FUUHVGc1llelIzcjhmd016MjFfaUxoRW51RmhHdHRzMmRuYXBnRWVyLTl2bGl2YWozb3pXZHNlcFViWTM2VEM5WlJ4RlpYTk1GVG9YZUJOSEptVzQ1OERJODcwYUp0MENQVmpJV2dCcmZ2cGhkVUp4dg?oc=5",
+   "publisher": "Worcester Business Journal",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-01-16",
+   "month": "2026-01",
+   "firm": "ta-associates",
+   "portco": "aptean",
+   "buyer": "Aptean",
+   "title": "Aptean Acquires OpsVeda",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYaUhNdDYtNDJ5YnZvSFBHNWRWZHNXakYxU2s4bWRyeWM1UG13S2w2WGJfLTRUMFRudm5FOTh2bmVkcnBSRGV2VWpWVEJabUkwVjBoMFUwWVlGbVQyZ2ZmZVVjNFl4amE1U3NfUHlCWQ?oc=5",
+   "publisher": "Orrick",
    "stage": "signed"
   },
   {
@@ -497,6 +581,18 @@
    "publisher": "Byline Network",
    "stage": "signed",
    "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2025-11-26",
+   "month": "2025-11",
+   "firm": "kkr",
+   "portco": "cegid",
+   "buyer": "Cegid",
+   "title": "Cegid Acquires Shine to Accelerate the Path of Becoming Europe's Leading Financial Copilot for SMBs and Accountants",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPLTJXWDVLem8xOGdUa2tGS3dvR1IwYktPN0tndE1scldoaHZnOXloUFc2QjMwaXlDUi02cTJYbTd6ajM1X2hGLVVTbEdneEFISUZrcnJGendwOWNFY1dnRWwtb3NVNFRSeFVZa25TQ2NVR1pkRVNNUkhRdURoa0JrM2F5SmtTQWlPajlhNWIxcVlxbVZvdTRBV3lFWUcyZ0NmZmxYLS1tVGdJMlBUaUdXTlNEbkF2dGVTUDdyT0N1anFYWkJ2aW80cWVzNTVlUzJBekhhbTUwOGdvdDFUSlRnaVZxNm0zMHJjRUVuamZlX3FmeFE0TEdPU3hYbGtMZnpWODBhMDhTRzZ6MmRVYXdrNA?oc=5",
+   "publisher": "Via TT",
+   "stage": "signed"
   },
   {
    "n": 1,
@@ -525,6 +621,30 @@
   },
   {
    "n": 1,
+   "date": "2025-09-19",
+   "month": "2025-09",
+   "firm": "eqt",
+   "portco": "citiustech",
+   "buyer": "CitiusTech",
+   "title": "CitiusTech Acquires Health Data Movers, Enhances Healthcare Provider Offerings with Epic Implementation Capabilities",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbzRvMVEycnBNclFZenU1a0U1c0NMaXlmNDI3bnFORHJQcmN2UjBLMXF2VHVfOW9mTGctaFZ2blgyVHB5dks3UHdPUFQtWlhRSHBlQkVlaGJBcmRoOVpXcjctOXdrNEU4TmVDNENPbXBDRnhvQnFYQ1U0b3lkWlQ5RlJnM3VaLUdMblpGZmx3THQwdjd4LWpjMTBwalhYTmtKdGZIZDJYRFptTkp5Y29iT1Y2bmk5a0p1MnROWXEtT0VGQkl0MzFuSzZISENQMURuWHJUTE9QRkhVNmxBaEo0MFFROGN6Zlg0MmV6d1VHbXl6Vlk?oc=5",
+   "publisher": "Healthcare IT Today",
+   "stage": "signed"
+  },
+  {
+   "n": 2,
+   "date": "2025-09-13",
+   "month": "2025-09",
+   "firm": "tpg",
+   "portco": "tata-technologies",
+   "buyer": "Tata Technologies",
+   "title": "Tata Technologies acquires ES-Tec Group, Germany, strengthening its global capabilities in next-gen mobility solutions",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOaDVRZWg5VS1id1Y2bElwNFY1Ylp5OUVkOWd4VGJCVDh0cEx6UGM5ZjVMWHY5bElMX3BCZkZwTzRlVExsaEF3ek9YU2JJRnR6dVlYa3VLSHhqNURKRkh3bEVRQWxwN3E4OG82WmdpSmtYNzctYnNJbEVEbXpXekVSRzlVMG1Gc012Nlp0QVB5eVJ2NWJOcTd5RjF3RmxoM1d6cWVDSVlrUERKVWowM2ZtbjF1RDA4U0lqWXFTd0V4UWY3NkRBaGxnb3UwNU1zaWdMWlBPUTVVY3Y3VU5TTG5JRDhNNl9Wc2pDbHN2VUdFa0Etd3hV?oc=5",
+   "publisher": "Gobierno del Quindío",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
    "date": "2025-09-11",
    "month": "2025-09",
    "firm": "ta-associates",
@@ -536,7 +656,7 @@
    "stage": "signed"
   },
   {
-   "n": 1,
+   "n": 3,
    "date": "2025-08-11",
    "month": "2025-08",
    "firm": "macquarie-capital",
@@ -612,15 +732,15 @@
    "fromSignal": true
   },
   {
-   "n": 2,
-   "date": "2025-05-08",
+   "n": 3,
+   "date": "2025-05-07",
    "month": "2025-05",
    "firm": "kkr",
    "portco": "infinx",
    "buyer": "Infinx",
-   "title": "Infinx acquires i3 verticals’ Healthcare Revenue Cycle Management business for $96 million",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVEhqbnhSNXZjMEJJcGVOUkpZUkZ1SXR4UmlRZ0xMbDk2Q1FkRGd6V2ZQVWp4VjgzS3JfcTU2dTRoNWhtWS1RN0N5RVN2cGd4RXNfYkVCYU5JcVFKaW53aWl4TVl0eTNxNDgzbTdNcC04eW1yb1NJQzVrMG1Lcmsydy1NWUhyRTBFWEF3X3NEZjNUbDdvcHd3M3hyZWlvQjM0RXYtbXBrZ3ItWEZwMlh3T1hpM3E0UWJfa3ZTRHBpWTFDWk44RVVERUhzMHp0bEE?oc=5",
-   "publisher": "Express Healthcare",
+   "title": "Infinx buys healthcare RCM biz of US firm i3 Verticals",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNkxIbmwyaXRyek9PaHZZU0FDR3Q3X0hwRGFjOU1OdmhOcWFKOVFlY2xZUU85ZllndEtyRTI0TnlWQnNWZ1hOQTl4WWlMYUpRZjJMcVNCUjNkYWZXd012SHlwelVvTTdOUFQ5THIwdElKVGJVcTViaHFkRDBYUm81MzhnT3AyVGtSR2hZRzBhZkxSS09Wb2hNWUNIaEh1Nnc1QlpLWWdSRVQ3UFl6SWJOeUp5NmdrZ9IBuwFBVV95cUxNRDBEaDBoejZSVnNNLUtpYnBCYWxibGxBODNoa0VBTGJNbXhCLW5JUWx0TVVMZkNXMkFPWUE0VklvQXZ4dGkyVGc2N2xzbTl1b3FJdlJGbXJBM2R2cmJFNUNvM0h4VWdyNXk5djNNcUxNbWlPMlE2NmFiaVlCTUNzQW1QM185dEVDZmRNcnh3emJDXzZEeWk4Nm9lVFJpNlBTVmJtTVhLaTZPYTBzZG5yVW9keUVGZlRnV0E0?oc=5",
+   "publisher": "The Economic Times",
    "stage": "signed"
   },
   {
@@ -784,7 +904,7 @@
    "stage": "signed"
   },
   {
-   "n": 1,
+   "n": 2,
    "date": "2024-10-04",
    "month": "2024-10",
    "firm": "macquarie-capital",
@@ -807,6 +927,66 @@
    "publisher": "AAP / Cision",
    "stage": "signed",
    "fromSignal": true
+  },
+  {
+   "n": 2,
+   "date": "2024-09-18",
+   "month": "2024-09",
+   "firm": "ta-associates",
+   "portco": "rldatix",
+   "buyer": "RLDatix",
+   "title": "RLDatix Acquires SocialClimb, Empowering Healthcare Organizations with Enhanced Provider Reputation Management and Patient Experience Data Insights",
+   "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOYm5pSjRjOE1jR1RTaVh3TTk4NnVfMDNwN2RIQWZiR2JQbWE1bnNrai1VaExUUk16OHRFSzQ2VXVrQS1YWmNOR3dxYUY1Ui1iMGhJQ2VYQ052cnJfUUx1bVl3T2g3UEJQYzlYV1NqbmtyXzM5SVpTMGkyZ1ZVbmxiQ1Fma0tfcTJGY0ZVd1BhaDAyZ1ppNUt3UmgwQjRaQlRDRkxJakFSZl9FZ0liMzlhUE8teV9NakFFOFZYU3ZQblpwNHFnakp1cnlwY3dBM1JpY1BKT09QQVYtRDJGaGNWOE4xZl9tTTRvMm1LUTRMa21KUzVOOHRIZTAtM1VGTlBreHo2dHMwZkpPOFNHWS1ZdFZhWnlyU3R5TTlNbFpwWjExOXZUNEF0My13?oc=5",
+   "publisher": "PR Newswire",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2024-08-07",
+   "month": "2024-08",
+   "firm": "affinity-equity",
+   "portco": "m-daq",
+   "buyer": "M-DAQ Global",
+   "title": "Singapore’s M-DAQ Global acquires Easy Pay Transfers",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTWpFLWl2ek40WGZLT3RMUWpRbXBoVkxwcjFqWGZVU0NRWUZnRjluM2lBOXhoSVc1dmRPeEtvZ1o4dDF2d0VES3BkX2lFSEhPNnExcWd6dVA1YWVLWnpKei1KYmtETnhPV2Z4SVVjd1pndVItWll2Q180Y0NWUlVmUHNfWXpSc2piVjgxQmdxQktoM3hqQUlWMzNpSQ?oc=5",
+   "publisher": "The Malaysian Reserve",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2024-07-17",
+   "month": "2024-07",
+   "firm": "ta-associates",
+   "portco": "rldatix",
+   "buyer": "RLDatix",
+   "title": "RLDatix Acquires Digital Care Management Platform Carebeans",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TTHhpYlVMTnBpbDM4ZEdHNmhoY2xLZmxVVFAyc05Edk5ZRGtldU1EM3Q0dXQ1aHRhU0JaM2pnV1FvTU5QWjc1YlpjdExwRUFpUlFibHlSTG9sa0VJZHhzTE4xLXQ4YXBUWHBrZENiRTRKQQ?oc=5",
+   "publisher": "HIT Consultant",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2024-03-15",
+   "month": "2024-03",
+   "firm": "eqt",
+   "portco": "virtuos",
+   "buyer": "Virtuos",
+   "title": "Virtuos acquires real-time visual effects studio Beyond-FX in Los Angeles",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSjN1ZEh6VlJaXzNhRG5TSF9BTkhha1lmUHpsa2hWMGhZWGZaU1FLT1dsclRocHBiNUp3aW8tdFRFV0dPZUpiYm5sX0MwT3RxTFZrQ3lvS3R4cmRUSzlfQTkxYlc5cnZWclFYTXh5TlExbmVpZWJBT2pJbFB5S1VDUXVYN1JTcHREWWpHYWQ4RWNqdmZjdWJLQ2hDNUYyT0VnVXNrVjBsUlNQR3Jj?oc=5",
+   "publisher": "Virtuos",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2024-01-16",
+   "month": "2024-01",
+   "firm": "macquarie-capital",
+   "portco": "aryza",
+   "buyer": "Aryza",
+   "title": "Aryza Group acquires Oyster Bay Systems",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLVFnZ1hscVZJSzBpQ2QyVW5WaURLMWlEYjBveS0xWlNkRVFCdi1RaUlnR2o1c0VnRVUwemV3LURWNFhlcmIzcTVoa3psZEkwUWZNdml5cTQ0clVSdGpmUzhKaG5vc3NCa0o2cjM2UkI2NGFmUjdjUEF6NW5pOUk1dUNKcw?oc=5",
+   "publisher": "Credit Connect",
+   "stage": "signed"
   },
   {
    "n": 1,
