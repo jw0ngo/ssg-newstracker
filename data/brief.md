@@ -1,5 +1,5 @@
 SSG Newstracker · Morning Brief · PE Clients · Thu 5 Nov, 07:36 SGT
-17 new stories since the last publish, 3 hot.
+16 new stories since the last publish, 3 hot.
 
 1. [HOT 75] Fractal Analytics (NSE:FRACTAL) Unit Buys Swiss Pricing Assets
    TPG · Kalkine India · 4 Nov · 2 outlets
@@ -49,16 +49,16 @@ SSG Newstracker · Morning Brief · PE Clients · Thu 5 Nov, 07:36 SGT
    Call: Call the EQT deal team covering Sagility India: stack consolidation, data migration and product overlap.
    https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMXR1Tm04QzdydG43aDdLZUUxV0xqRTYtTWdLR2pZOFd1c0pPMGY5NFNja0Z4NWk1dEVGU1VzZkVTa0ZVaUxJMUo5TUl0b2lRY1JuZktaVnl5WTVzdk9ScXFPSWZaTGpqQ1JoRzJyb2dHbG00VUN4OUxNemJibzQ3UTloUlBDXzRwRHRpSVp2dktZbWNoMTI2MWpQdW1lc1F0eTdWSWl6b1pSZ3pnd1pSSER5T00zSnNndVB2Z25wT3NTMTlrc0doVl8xdUpISl9md0xzM3NMQTVtMDRBX1BhNDdB?oc=5
 
-9. [WARM 55] Colonial First State Group Acquires 5% Stake in Karoon Energy, Becoming New Major Shareholder
-   KKR · Kalkine Media · 3 Nov
-   Why: Colonial First State (CFS), a KKR portfolio company, is buying Colonial: the integration plan is the open question.
-   Call: Call the KKR deal team covering Colonial First State (CFS): stack consolidation, data migration and product overlap.
-   https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNHFpbGNlTHR5XzRDcGlpbHU3V2J3Ykw5UzhXSmlmU3lmZTRwSy1fT2NPSldUMjh0Uk4tanlWWndYMVdfYU9Jc2o0WGdyUGtDZTM1YXB4bnpMeWdQdVZYcUs3SFVnYzVCaU9tVEMwdWVCNVVFT0dMRlBfT0dNR1g2TDZZUHkyMk9Gc2VXeWVlMDdvSWJVVXJQWTZXdzVxOGlSZkhNbzh4dlBGRkt2NDRYOFF0dnlVS1JfSk5yTTVfdjI3c3ZJdjRPLXExRG9YblBtLXE0YQ?oc=5
-
-10. [WARM 53] Latham & Watkins Advises Vistra on Completed Acquisition of Cogentrix Natural Gas Portfolio
+9. [WARM 53] Latham & Watkins Advises Vistra on Completed Acquisition of Cogentrix Natural Gas Portfolio
    EQT · Legal Desire · 3 Nov
    Why: Vistra, a EQT portfolio company, has closed its purchase of Cogentrix Natural Gas: integration is now, and buy-and-build platforms keep buying.
    Call: Get on Vistra’s next add-on early: a standing tech DD and integration role.
    https://news.google.com/rss/articles/CBMitAFBVV95cUxOZXZxOUR3ZFozelZHWGJDZEF5TUZBX0pRT2tpTEg4RFVEcW9oTXJDT2lQbHY1UkxOM3Z2Zl9TUDVMMlFZalZVYzJsQlEtNnVvVFBWdENzck8xZzltLWxVaV9JTHd2d1lrdTRydFdLRjRFaW8tbnRkN3lEMHhqRVlIYUFKUjhqZEEtSldKRVFtNHFvbkRuX2NndzhRMlQtWXNoZUZxa1RqZ18ta2tPOXV0ZzdfUVY?oc=5
+
+10. [WARM 48] Ballard Mining Director Paul Brennan Purchases 50,000 Shares for $29,244.13 on 30 October 2026
+   Macquarie Capital · Kalkine Media · 3 Nov · 2 outlets
+   Why: Brennan, a Macquarie Capital portfolio company, is buying Brennan: the integration plan is the open question.
+   Call: Call the Macquarie Capital deal team covering Brennan: stack consolidation, data migration and product overlap.
+   https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRzAzVWdJak5zT3JPNTZ5ZjdFOEM0NTQxWWJneWwtU0NodDljNkFPQnIxZ2U3M2pTcU1ualZEWTBVc25ldTF5S2FLWmxwc21yd3I3dXp1MmlNV2NfRi1ZN1BURDByczlMRlMydzg4RTVHQXpoWS1nSWZRZzV5QjNqVTg2WHlfUllMenlxNC11UDRXdURzQ0s3VzZ6TmNLbXQ5WmgxYUNyNDZvNnIxOUQzSUpmSmtiWW1zTE03UlNkMUZmaHJUQTJEMThDM3ZNajJlMlJn?oc=5
 
 Full page: https://jw0ngo.github.io/ssg-newstracker/brief/
