@@ -173,7 +173,8 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .chip.ty { font-family: var(--display); font-weight: 700; letter-spacing: .04em; color: var(--tc); }
 .chip.ty.on { color: var(--t-ink); }
 span.ty { font: 700 10px/1 var(--display); letter-spacing: .06em; color: var(--t-ink); background: var(--tc); border-radius: 4px; padding: 4px 6px; }
-.bc.t-pe, .bc.t-vc { border-top: 3px solid var(--tc); }
+/* Josh, 5 Nov 2026: one colour per card. The whole border is the type colour; time held reads from the hold bar. */
+.pc.bc.t-pe, .pc.bc.t-vc { border-color: var(--tc); border-top-width: 3px; border-left-width: 3px; }
 .tile.t-pe, .tile.t-vc { box-shadow: inset 0 3px 0 var(--tc); }
 .banner { font-size: 13px; color: var(--muted); background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 8px 11px; }
 .banner.warn { color: var(--hot); background: var(--hot-soft); border-color: transparent; }
