@@ -4203,6 +4203,54 @@
   "firstSeen": "2026-11-05T00:46:13Z"
  },
  {
+  "id": "partners-group-sirion",
+  "firm": "partners-group",
+  "name": "Sirion",
+  "slug": "sirion",
+  "industry": "software",
+  "industryLabel": "AI contract-lifecycle-management SaaS (India-rooted)",
+  "hq": "Seattle, United States",
+  "geos": [
+   "India",
+   "United States",
+   "United Kingdom"
+  ],
+  "apac": true,
+  "heldSince": "2022-05",
+  "stake": "unknown",
+  "valuation": {
+   "amount": "US$1bn",
+   "basis": "Reuters via Yahoo Finance, 8 Jan 2026: Haveli's majority investment values all of Sirion at about US$1bn",
+   "url": "https://finance.yahoo.com/news/haveli-buy-majority-stake-contract-133702205.html"
+  },
+  "summary": "Gurugram-founded, Seattle-headquartered contract lifecycle management SaaS. Partners Group led its US$85m Series D in May 2022 (Avatar Growth, Peak XV, Tiger Global participating). Haveli Investments agreed a majority investment in Jan 2026 (reported up to ~90%, ~US$1bn valuation), completed Feb 2026; Partners Group's residual stake was not disclosed.",
+  "signals": [
+   {
+    "date": "2026-01-08",
+    "publisher": "Sirion (press release)",
+    "title": "Haveli Makes Majority Investment in Sirion to Support Continued Growth",
+    "url": "https://www.sirion.ai/press/haveli-majority-investment-to-support-sirion-growth/"
+   },
+   {
+    "date": "2025-11-22",
+    "publisher": "Bloomberg",
+    "title": "TPG, Warburg Weigh $500 Million Stake in India-Rooted Sirion",
+    "url": "https://www.bloomberg.com/news/articles/2025-11-22/tpg-warburg-weigh-500-million-stake-in-india-rooted-sirion"
+   },
+   {
+    "date": "2022-05-10",
+    "publisher": "TechCrunch",
+    "title": "SirionLabs lands $85M to inject contract management with automation",
+    "url": "https://techcrunch.com/2022/05/10/sirionlabs-lands-85m-to-inject-contract-management-with-automation/"
+   }
+  ],
+  "exit": {
+   "note": "Reuters via Yahoo Finance, 8 Jan 2026: Haveli agreed a majority investment (reported up to ~90%) valuing Sirion at ~US$1bn, completed Feb 2026 per Sirion; Partners Group's remaining stake not disclosed",
+   "status": "partial"
+  },
+  "firstSeen": "2026-11-05T01:14:23Z"
+ },
+ {
   "id": "partners-group-velocityehs",
   "firm": "partners-group",
   "name": "VelocityEHS",
