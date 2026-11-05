@@ -1,13 +1,13 @@
 {
  "pull": {
-  "at": "2026-11-04T01:28:37Z",
-  "added": 152
+  "at": "2026-11-05T00:00:52Z",
+  "added": 138
  },
- "prevPull": "2026-11-02T22:51:32Z",
+ "prevPull": "2026-11-04T01:28:37Z",
  "counts": {
-  "items": 5456
+  "items": 5594
  },
  "window": 90,
- "published": 1932,
+ "published": 1971,
  "aboveBarOnly": true
 }
