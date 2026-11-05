@@ -50,7 +50,7 @@ body.gated > :not(#gate) { visibility: hidden; }
 </script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* AI Impact — the map of how AI moves the value of what the sponsors buy, bid on and hold.
+/* AI Impact — the map of how AI moves the value of what the PE and VC firms buy, bid on and hold.
    Desktop first: a three-column stage (filters · map · detail); on a phone the map fills the
    screen and the detail slides up as a sheet. Same tokens and type as the other sections. */
 :root {
@@ -226,9 +226,9 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
   <aside class="side" id="side">
     <div class="sheet-top" data-sheet="side"><span class="grab"><i></i><b>Filters &amp; legend</b></span><button class="close" data-close="side" aria-label="close">×</button></div>
     <h1>AI Impact</h1>
-    <p class="sub">How AI is moving the enterprise value of what the sponsors buy, bid on and hold — the knowledge base for AI diligence.</p>
+    <p class="sub">How AI is moving the enterprise value of what the PE and VC firms buy, bid on and hold — the knowledge base for AI diligence.</p>
     <div class="k find">Find</div>
-    <input class="search" id="q" type="search" placeholder="A company, a sponsor, a sector" autocomplete="off">
+    <input class="search" id="q" type="search" placeholder="A company, a firm, a sector" autocomplete="off">
     <ul class="hits" id="hits"></ul>
     <div class="k">Show</div>
     <div class="chips" id="filters">
@@ -243,13 +243,13 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
       <button class="chip on" data-r="mixed"><span class="g">→</span>Mixed</button>
       <button class="chip on" data-r="headwind"><span class="g">↓</span>Headwind</button>
     </div>
-    <div class="k">Sponsor</div>
+    <div class="k">PE or VC firm</div>
     <div class="chips" id="firms"></div>
     <div class="k">Sectors</div>
     <div class="legend sectors" id="sectorLegend"></div>
     <div class="k">Legend</div>
     <div class="legend">
-      <span><i class="firm"></i>A sponsor — sized by assets managed and activity</span>
+      <span><i class="firm"></i>A PE or VC firm — sized by assets managed and activity</span>
       <span><i class="sector"></i>A sector ring, sized by its companies and activity; its companies share its colour</span>
       <span><i class="co" style="background:var(--faint)"></i>A company — sized by valuation and activity</span>
       <span><i class="live"></i>A live process pulses</span>
@@ -677,9 +677,9 @@ function overview() {
   const secs = D.sectors.map((s) => ({ s, w: s.firms.reduce((a, x) => a + x.weight, 0) })).sort((a, b) => b.w - a.w);
   const max = Math.max(1, ...secs.map((x) => x.w));
   return `<div class="eyebrow">The map</div><h2>Where AI meets the deal flow</h2>
-    <p class="lead">Seven sponsors in the outer ring, the sectors they are looking at inside it, and the companies they are buying, bidding on and holding around each sector. Every company carries an AI read — tailwind, mixed or headwind for its enterprise value — and the evidence behind it.</p>
-    <p class="muted">${MOBILE() ? 'Tap a bubble for the detail' : 'Click a bubble for the detail'}. Interest flows from a sponsor to a sector as particles; a company in a live process pulses. ${MOBILE() ? 'Drag to move, pinch to zoom; drag the handle to grow or dismiss this sheet.' : 'Drag to move, scroll to zoom.'}</p>
-    <h3>Where the sponsors are looking · last ${D.window} days</h3>
+    <p class="lead">${D.firms.length} PE and VC firms in the outer ring, the sectors they are looking at inside it, and the companies they are buying, bidding on and holding around each sector. Every company carries an AI read — tailwind, mixed or headwind for its enterprise value — and the evidence behind it.</p>
+    <p class="muted">${MOBILE() ? 'Tap a bubble for the detail' : 'Click a bubble for the detail'}. Interest flows from a firm to a sector as particles; a company in a live process pulses. ${MOBILE() ? 'Drag to move, pinch to zoom; drag the handle to grow or dismiss this sheet.' : 'Drag to move, scroll to zoom.'}</p>
+    <h3>Where the PE and VC firms are looking · last ${D.window} days</h3>
     <div class="bars">${secs.map(({ s, w }) => `<div class="bar"><span>${esc(s.label)}</span><i><b style="width:${Math.round(100 * w / max)}%;background:${sectorColor(s.id)}"></b></i><small>${w}</small></div>`).join('')}</div>
     <h3>Live now</h3>
     <div class="links">${live.map((c) => chip(byId[c.id])).join('') || '<span class="muted">Nothing in process.</span>'}</div>
@@ -693,7 +693,7 @@ function firmDetail(n) {
   const cos = D.companies.filter((c) => c.links.some((l) => l.firm === f.id));
   const portco = cos.filter((c) => c.links.some((l) => l.firm === f.id && l.role === 'portco')), targets = cos.filter((c) => c.links.some((l) => l.firm === f.id && l.role === 'target'));
   const entry = (e) => `<li>${e.subject ? `<span class="sbj">${esc(e.subject)}</span>` : ''}<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a><span class="m">${esc(e.publisher || '')} · ${fmtDate(e.date)}${e.sector ? ' · ' + esc((byId[e.sector] || {}).label || e.sector) : ''}</span></li>`;
-  return `<div class="eyebrow">Sponsor · tier ${esc(f.tier)}</div><h2>${esc(f.name)}</h2>
+  return `<div class="eyebrow">${f.type === 'vc' ? 'VC' : 'PE'} · tier ${esc(f.tier)}</div><h2>${esc(f.name)}</h2>
     <p class="muted">${f.deals} headlines in the last ${D.window} days · ${f.bidding.length} in talks · ${f.buying.length} signed or closed · ${f.portfolio} held · ${f.targets} targets</p>
     <p class="muted">Sized by ${f.aum ? `~US$${f.aum}bn under management` : 'scale (not known)'} and activity ${f.activity}.</p>
     <h3>Sector interest</h3>
@@ -717,9 +717,9 @@ function sectorDetail(n) {
     ${['automation', 'moat', 'pricing', 'entrants'].map((k) => `<div class="force"><span class="n">${k === 'moat' ? 'Data moat' : k === 'entrants' ? 'New entrants' : k}</span>${dots(k)}<span class="w">${esc(r.force[k].why)}</span></div>`).join('')}
     <h3>What a diligence would test</h3>
     <ol class="ql">${r.diligence.map((q) => `<li>${esc(q)}</li>`).join('')}</ol>
-    <h3>Sponsors looking here</h3>
+    <h3>PE and VC firms looking here</h3>
     <div class="links">${s.firms.map((x) => chip(byId[x.id], ` <small style="color:var(--faint)">${x.weight}</small>`)).join('') || '<span class="muted">None in the window.</span>'}</div>
-    <p class="muted">Sized by its ${cos.length} companies and activity ${s.activity} (sponsor interest and live processes).</p>
+    <p class="muted">Sized by its ${cos.length} companies and activity ${s.activity} (firm interest and live processes).</p>
     <h3>Companies · ${cos.length}${s.live ? ` · ${s.live} live` : ''}</h3>
     <div class="links">${cos.map((c) => chip(byId[c.id])).join('') || '<span class="muted">None yet.</span>'}</div>`;
 }

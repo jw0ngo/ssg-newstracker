@@ -1698,6 +1698,664 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "golden-gate-ventures-99-group",
+  "firm": "golden-gate-ventures",
+  "name": "99 Group (99.co, Rumah123, SRX)",
+  "slug": "99-group",
+  "industry": "internet",
+  "industryLabel": "Property portals / proptech marketplace",
+  "hq": "Singapore, Singapore",
+  "geos": [
+   "Singapore",
+   "Indonesia"
+  ],
+  "apac": true,
+  "heldSince": "2014",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; US$52m Series C led by Gaw Capital, Jul 2022",
+   "url": "https://ekonomi.bisnis.com/read/20220729/47/1560625/99-group-raih-pendanaan-us52-juta-fokus-ekspansi-asia-tenggara"
+  },
+  "summary": "Singapore-based operator of property portals 99.co, SRX and Indonesia's Rumah123 (ex-REA Group JV). Golden Gate Ventures invested in its US$560k 2014 round with East Ventures, 500 Startups and Fenox, and is still named among its backers; the group raised a US$52m Series C led by Gaw Capital in Jul 2022 (US$80m+ raised in total).",
+  "signals": [
+   {
+    "date": "2022-07-29",
+    "publisher": "Bisnis.com",
+    "title": "99 Group Raih Pendanaan US$52 Juta, Fokus Ekspansi Asia Tenggara",
+    "url": "https://ekonomi.bisnis.com/read/20220729/47/1560625/99-group-raih-pendanaan-us52-juta-fokus-ekspansi-asia-tenggara"
+   },
+   {
+    "date": "2015-01-29",
+    "publisher": "e27",
+    "title": "99.co secures funding from Facebook co-founder, Sequoia Capital",
+    "url": "https://e27.co/99-co-secures-funding-facebook-co-founder-sequoia-capital-20150129/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "golden-gate-ventures-carousell",
+  "firm": "golden-gate-ventures",
+  "name": "Carousell",
+  "slug": "carousell",
+  "industry": "internet",
+  "industryLabel": "Classifieds / recommerce marketplace",
+  "hq": "Singapore, Singapore",
+  "geos": [
+   "Singapore",
+   "Malaysia",
+   "Hong Kong",
+   "Taiwan",
+   "Philippines",
+   "Indonesia"
+  ],
+  "apac": true,
+  "heldSince": "2013-11",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$1.1bn",
+   "basis": "post-money of US$100m round led by STIC Investments, Sept 2021 (latest priced round found)",
+   "url": "https://www.avcj.com/avcj/news/3025001/stic-leads-usd100m-round-for-carousell-at-usd11b-valuation"
+  },
+  "summary": "Singapore recommerce and classifieds marketplace across Greater Southeast Asia, EBITDA-positive in FY25 on US$141m revenue. Golden Gate Ventures followed on in the Nov 2013 Rakuten-led US$1m round, joined the US$35m Series B (2016, Rakuten Ventures, Sequoia India, 500 Startups) and the US$85m Series C (2018, Rakuten Ventures and EDBI co-led); still named among Carousell's investors.",
+  "signals": [
+   {
+    "date": "2026-07-09",
+    "publisher": "e27",
+    "title": "Recommerce now half of Carousell's biz as classifieds being quietly phased out",
+    "url": "https://e27.co/recommerce-now-half-of-carousells-biz-is-classifieds-being-quietly-phased-out-20260709/"
+   },
+   {
+    "date": "2026-07-07",
+    "publisher": "TechNode Global",
+    "title": "Singapore's recommerce platform Carousell reaches EBITDA profitability as revenue hits $141M",
+    "url": "https://technode.global/2026/07/07/singapores-recommerce-platform-carousell-reaches-ebitda-profitability-as-revenue-hits-141m/"
+   },
+   {
+    "date": "2018-05-13",
+    "publisher": "TechCrunch",
+    "title": "Carousell raises $85M",
+    "url": "https://techcrunch.com/2018/05/13/carousell-raises-85m"
+   }
+  ],
+  "exit": {
+   "note": "e27, 9 Jul 2026: interview questions whether FY25 profitability is packaging ahead of a possible IPO; no IPO filed",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "golden-gate-ventures-carro",
+  "firm": "golden-gate-ventures",
+  "name": "Carro",
+  "slug": "carro",
+  "industry": "internet",
+  "industryLabel": "Used-car marketplace and auto fintech",
+  "hq": "Singapore, Singapore",
+  "geos": [
+   "Singapore",
+   "Indonesia",
+   "Thailand",
+   "Malaysia",
+   "Japan"
+  ],
+  "apac": true,
+  "heldSince": "2016",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$1bn+",
+   "basis": "unicorn valuation at US$360m Series C led by SoftBank Vision Fund 2, Jun 2021",
+   "url": "https://www.thestar.com.my/tech/tech-news/2021/06/15/singaporean-automotive-marketplace-carro-says-raises-360-million-to-become-unicorn"
+  },
+  "summary": "Singapore automotive marketplace with car financing and insurance across Southeast Asia. Golden Gate Ventures backed its 2016 round, the US$12m Series A (2017) and the US$60m Series B of May 2018 co-led by SoftBank Ventures Korea, Insignia and B Capital (with Venturra, Singtel Innov8, Alpha JWC); Carro became a unicorn with a US$360m Series C in Jun 2021.",
+  "signals": [
+   {
+    "date": "2021-06-15",
+    "publisher": "The Star (Reuters)",
+    "title": "Singaporean automotive marketplace Carro says raises $360 million to become unicorn",
+    "url": "https://www.thestar.com.my/tech/tech-news/2021/06/15/singaporean-automotive-marketplace-carro-says-raises-360-million-to-become-unicorn"
+   },
+   {
+    "date": "2018-05-14",
+    "publisher": "e27",
+    "title": "Big names lead US$60M investment in Singapore automotive marketplace Carro",
+    "url": "https://e27.co/big-names-lead-us60m-investment-singapore-automotive-marketplace-carro-20180514/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "golden-gate-ventures-funding-societies",
+  "firm": "golden-gate-ventures",
+  "name": "Funding Societies (Modalku)",
+  "slug": "funding-societies",
+  "industry": "fintech",
+  "industryLabel": "SME digital lending and payments",
+  "hq": "Singapore, Singapore",
+  "geos": [
+   "Singapore",
+   "Indonesia",
+   "Malaysia",
+   "Thailand",
+   "Vietnam"
+  ],
+  "apac": true,
+  "heldSince": "2018-04",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; US$294m Series C led by SoftBank Vision Fund 2, Feb 2022",
+   "url": "https://e27.co/softbank-vision-fund-2-leads-funding-societiess-us294m-series-c-round-20220215/"
+  },
+  "summary": "Singapore SME digital lender and payments platform across five Southeast Asian markets (Modalku in Indonesia). Golden Gate Ventures joined the US$25m Series B of Apr 2018 led by SoftBank Ventures Korea with Sequoia India, Alpha JWC and Qualgro (earliest dated round naming it found); later rounds include a US$294m Series C (2022) and Cool Japan Fund (2024).",
+  "signals": [
+   {
+    "date": "2022-02-15",
+    "publisher": "e27",
+    "title": "SoftBank Vision Fund 2 leads Funding Societies's US$294M Series C round",
+    "url": "https://e27.co/softbank-vision-fund-2-leads-funding-societiess-us294m-series-c-round-20220215/"
+   },
+   {
+    "date": "2018-04-18",
+    "publisher": "Funding Societies (press release)",
+    "title": "Funding Societies raises US$25 Million Series B funding",
+    "url": "https://fundingsocieties.com/press/2018/us25m-series-b-funding"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "golden-gate-ventures-opn",
+  "firm": "golden-gate-ventures",
+  "name": "Opn (Omise)",
+  "slug": "opn",
+  "industry": "fintech",
+  "industryLabel": "Online payments",
+  "hq": "Tokyo, Japan",
+  "geos": [
+   "Thailand",
+   "Japan",
+   "Singapore",
+   "Malaysia",
+   "United States"
+  ],
+  "apac": true,
+  "heldSince": "2015-10",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$1bn",
+   "basis": "approx. valuation at US$120m Series C extension, Jun 2022 (Bloomberg)",
+   "url": "https://www.bloomberg.com/news/articles/2022-06-20/japan-s-latest-unicorn-is-a-thailand-mobile-payments-firm"
+  },
+  "summary": "Payments group founded in Bangkok as Omise (230,000+ merchants, Thailand its largest market), later Opn with MerchantE in the US. Golden Gate Ventures invested in Oct 2015 (seven-figure cheque, its second-largest then) and joined the US$17.5m Series B led by SBI Investment in Jul 2016 with Sinar Mas Digital Ventures and Ascend; Opn reached ~US$1bn in 2022.",
+  "signals": [
+   {
+    "date": "2022-06-20",
+    "publisher": "Bloomberg",
+    "title": "Japan's Latest Unicorn Is a Thailand Mobile Payments Firm",
+    "url": "https://www.bloomberg.com/news/articles/2022-06-20/japan-s-latest-unicorn-is-a-thailand-mobile-payments-firm"
+   },
+   {
+    "date": "2016-07-20",
+    "publisher": "e27",
+    "title": "Omise secures US$17.5M in funding to further expand across Asia Pacific",
+    "url": "https://e27.co/omise-secures-usd17-5m-in-funding-to-further-expand-across-asia-pacific-20160720/"
+   },
+   {
+    "date": "2015-10-28",
+    "publisher": "e27",
+    "title": "Golden Gate puts second largest investment into Thai startup Omise",
+    "url": "https://e27.co/golden-gate-puts-second-largest-investment-into-thai-startup-omise-20151028/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "jungle-ventures-betterplace",
+  "firm": "jungle-ventures",
+  "name": "BetterPlace",
+  "slug": "betterplace",
+  "industry": "hrtech",
+  "industryLabel": "Frontline workforce management SaaS",
+  "hq": "Bengaluru, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2020-10",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$44m",
+   "basis": "Entrackr estimate post-allotment, Series D led by Jungle Ventures (₹31.9 cr), filed Mar 2025",
+   "url": "https://entrackr.com/exclusive/exclusive-betterplace-kicks-off-new-round-8777103"
+  },
+  "summary": "Bengaluru SaaS for blue-collar/frontline workforce management. Jungle led the US$10m Series B (Oct 2020), co-led the US$24m Series C with CX Partners (Sep 2021), joined the US$40m Series C+ (Dec 2022) and led a ₹31.9 cr Series D tranche (~Mar 2025, Jungle ₹20.7 cr, Capria the rest).",
+  "signals": [
+   {
+    "date": "2022-12-20",
+    "publisher": "Business Standard",
+    "title": "Jungle Ventures-backed BetterPlace raises $40 mn in series C funding",
+    "url": "https://www.business-standard.com/article/companies/jungle-ventures-backed-betterplace-raises-40-mn-in-series-c-funding-122122000750_1.html"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "jungle-ventures-citymall",
+  "firm": "jungle-ventures",
+  "name": "CityMall",
+  "slug": "citymall",
+  "industry": "internet",
+  "industryLabel": "Value e-commerce (tier-2/3 India)",
+  "hq": "Gurugram, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2021",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$320m",
+   "basis": "valuation at US$47m Series D led by Accel, Sep 2025 (unchanged from Series C)",
+   "url": "https://yourstory.com/2025/09/citymall-raises-47-mn-in-series-d-round-led-by-accel"
+  },
+  "summary": "Gurugram value e-commerce platform for non-metro India. Jungle co-led the US$22.5m Series B with General Catalyst, then joined the US$75m Series C and the US$47m Accel-led Series D (Sep 2025); ET reported Jungle may lead a further ₹400-500 cr round (2026, unconfirmed).",
+  "signals": [
+   {
+    "date": "2025-09-05",
+    "publisher": "parsers.vc",
+    "title": "Indian E-commerce Challenger CityMall Secures $47 Million for Growth",
+    "url": "https://parsers.vc/news/250905-indian-e-commerce-challenger-citymall"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "jungle-ventures-deskera",
+  "firm": "jungle-ventures",
+  "name": "Deskera",
+  "slug": "deskera",
+  "industry": "software",
+  "industryLabel": "SME cloud ERP / business software",
+  "hq": "Singapore, Singapore",
+  "geos": [
+   "Singapore"
+  ],
+  "apac": true,
+  "heldSince": "2018-11",
+  "stake": "minority",
+  "valuation": {
+   "amount": "~US$500m",
+   "basis": "reported post-money after extended Series A past US$100m, May 2019",
+   "url": "https://dealstreetasia.com/stories/deskera-extended-seriesa-133610"
+  },
+  "summary": "Singapore cloud ERP, CRM and HR software for SMEs. Jungle led its US$60m+ Series A (Nov 2018) with Cisco Investments, Tembusu, Susquehanna and InnoVen; the round was extended past US$100m in May 2019 (Naver-linked entity) at a reported ~US$500m valuation.",
+  "signals": [
+   {
+    "date": "2019-05-03",
+    "publisher": "Global Venturing",
+    "title": "Deskera extends series A past $100m",
+    "url": "https://globalventuring.com/blog/2019/05/03/deskera-extends-series-a-past-100m/"
+   },
+   {
+    "date": "2018-11-27",
+    "publisher": "Global Venturing",
+    "title": "Deskera processes $60m series A",
+    "url": "https://globalventuring.com/blog/2018/11/27/deskera-processes-60m-series-a/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "jungle-ventures-evermos",
+  "firm": "jungle-ventures",
+  "name": "Evermos",
+  "slug": "evermos",
+  "industry": "internet",
+  "industryLabel": "Social commerce / reseller network",
+  "hq": "Bandung, Indonesia",
+  "geos": [
+   "Indonesia"
+  ],
+  "apac": true,
+  "heldSince": "2019",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; US$39m Series C led by IFC, May 2023",
+   "url": "https://e27.co/evermos-raises-us39m-to-fuel-the-expansion-of-its-connected-commerce-network-20230526/"
+  },
+  "summary": "Bandung social-commerce platform where resellers in tier-2/3 Indonesian cities sell halal and local-brand goods. Jungle led the US$8.25m Series A (2019), joined the US$30m UOB VM-led Series B, and followed on in the US$39m IFC-led Series C (May 2023) with Shunwei, UOB VM and Telkomsel Mitra Inovasi.",
+  "signals": [
+   {
+    "date": "2023-05-26",
+    "publisher": "e27",
+    "title": "Evermos raises US$39M to fuel the expansion of its connected commerce network",
+    "url": "https://e27.co/evermos-raises-us39m-to-fuel-the-expansion-of-its-connected-commerce-network-20230526/"
+   },
+   {
+    "date": "2023-05-26",
+    "publisher": "TNGlobal",
+    "title": "Indonesia's Evermos raises $39M funding led by IFC to fuel business expansion",
+    "url": "https://technode.global/2023/05/26/indonesias-evermos-raises-39m-funding-led-by-ifc-to-fuel-business-expansion/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "jungle-ventures-kredivo",
+  "firm": "jungle-ventures",
+  "name": "Kredivo Group (FinAccel)",
+  "slug": "kredivo",
+  "industry": "fintech",
+  "industryLabel": "Digital lending / paylater",
+  "hq": "Singapore, Singapore",
+  "geos": [
+   "Indonesia"
+  ],
+  "apac": true,
+  "heldSince": "2016",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$1.6bn",
+   "basis": "reported valuation at Mirae Asset-led US$140m first tranche of Series D, 2022",
+   "url": "https://www.globalprivatecapital.org/?p=39262"
+  },
+  "summary": "Singapore-held, Indonesia-focused digital credit and paylater platform. Jungle backed the 2016 seed, co-led the 2017 Series A with NSI Ventures, and joined the Series B, C and the ~US$270m Mizuho-led Series D (Mar 2023) with Square Peg, Naver, GMO VP and Openspace; listed in 2024 by Jungle as a portfolio unicorn.",
+  "signals": [
+   {
+    "date": "2023-03-23",
+    "publisher": "Kredivo Group (press release)",
+    "title": "Kredivo Holdings, the Leading Southeast Asian Digital Financial Services Platform, Closes ~US$270m Series D Equity Round",
+    "url": "https://kredivocorp.com/2023/03/kredivo-holdings-the-leading-southeast-asian-digital-financial-services-platform-closes-us270m-series-d-equity-round/"
+   },
+   {
+    "date": "2023-03-23",
+    "publisher": "The Jakarta Post",
+    "title": "Fintech firm Kredivo raises $270 million from Mizuho Bank, others",
+    "url": "https://www.thejakartapost.com/business/2023/03/23/fintech-firm-kredivo-raises-270-million-from-mizuho-bank-others.html"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "jungle-ventures-leap",
+  "firm": "jungle-ventures",
+  "name": "Leap (Leap Finance / Leap Scholar)",
+  "slug": "leap",
+  "industry": "internet",
+  "industryLabel": "Study-abroad platform and student finance",
+  "hq": "Bengaluru, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2021-03",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; US$65m Series E led by Apis Partners, Jan 2025 (Entrackr Jul 2024 reported talks at >US$1bn)",
+   "url": "https://businesstoday.in/technology/news/story/student-mobility-platform-leap-raises-65-million-focus-on-ai-global-expansion-462427-2025-01-29"
+  },
+  "summary": "Bengaluru study-abroad platform (counselling, test prep, student loans). Jungle led the US$17m Series B (Mar 2021, with Sequoia India and Owl), backed the Series C and D, and joined the US$65m Apis Partners-led Series E (Jan 2025) with Owl Ventures and Peak XV.",
+  "signals": [
+   {
+    "date": "2025-01-29",
+    "publisher": "Business Today",
+    "title": "Student mobility platform Leap raises $65 million, focus on AI, global expansion",
+    "url": "https://businesstoday.in/technology/news/story/student-mobility-platform-leap-raises-65-million-focus-on-ai-global-expansion-462427-2025-01-29"
+   },
+   {
+    "date": "2021-03-19",
+    "publisher": "e27",
+    "title": "Jungle Ventures leads US$17M Series B in Leap Finance, an Indian edutech firm focused on overseas education",
+    "url": "https://e27.co/jungle-ventures-leads-us17m-series-b-in-leap-finance-an-indian-edutech-firm-focused-on-overseas-education-20210319/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "jungle-ventures-livspace",
+  "firm": "jungle-ventures",
+  "name": "Livspace",
+  "slug": "livspace",
+  "industry": "internet",
+  "industryLabel": "Home interiors platform",
+  "hq": "Bengaluru, India",
+  "geos": [
+   "India",
+   "Singapore"
+  ],
+  "apac": true,
+  "heldSince": "2015",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$1bn+",
+   "basis": "unicorn valuation at US$180m Series F led by KKR, Feb 2022",
+   "url": "https://www.bloomberg.com/news/articles/2022-02-08/kkr-leads-180-million-round-for-ikea-backed-unicorn-livspace"
+  },
+  "summary": "Bengaluru-based tech-led home interiors and renovation platform (Singapore parent, re-domiciling to India). Jungle invested from the Series A with Helion and Bessemer and in every round to the KKR-led US$180m Series F (Feb 2022); still listed among marquee investors in Oct 2025 coverage of FY25 results (revenue ₹1,460 cr, loss down ~42%).",
+  "signals": [
+   {
+    "date": "2025-10-13",
+    "publisher": "The Week (PTI)",
+    "title": "Livspace revenue rises 23 pc to Rs 1,460 cr in FY'25, losses come down",
+    "url": "https://www.theweek.in/wire-updates/business/2025/10/13/dcm46-biz-realty-livspace.html"
+   },
+   {
+    "date": "2022-02-08",
+    "publisher": "Bloomberg",
+    "title": "KKR Leads $180 Million Round for Ikea-Backed Unicorn Livspace",
+    "url": "https://www.bloomberg.com/news/articles/2022-02-08/kkr-leads-180-million-round-for-ikea-backed-unicorn-livspace"
+   }
+  ],
+  "exit": {
+   "note": "IPO Central / Inc42, 2025: IPO-bound, reverse flip to India under way, listing eyed for 2026; no DRHP seen",
+   "status": "rumoured"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "jungle-ventures-moglix",
+  "firm": "jungle-ventures",
+  "name": "Moglix",
+  "slug": "moglix",
+  "industry": "internet",
+  "industryLabel": "B2B industrial e-commerce marketplace",
+  "hq": "Singapore, Singapore / Noida, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2018-12",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$2.6bn",
+   "basis": "Series F valuation, US$250m round led by Tiger Global and Alpha Wave, early 2022",
+   "url": "https://news.ventureintelligence.com/private-equity/b2b-marketplace-moglix-raises-$250-m-from-tiger-global,-alpha-wave,-others-at-$2.6-b-valuation"
+  },
+  "summary": "B2B marketplace for industrial supplies (MRO) run from Singapore and Noida. Jungle was an early backer from the Series A (with Accel, SeedPlus), co-led the US$23m Series C in Dec 2018 with Accel and IFC, joined the Series D (2019); held ~7.9% after the 2022 Series F per Entrackr; named by Jungle as a portfolio unicorn in 2024.",
+  "signals": [
+   {
+    "date": "2025-06-24",
+    "publisher": "Moglix (company news)",
+    "title": "Moglix's ₹600 Cr war chest: what this unicorn is buying before its India IPO",
+    "url": "https://business.moglix.com/news/moglixs-%E2%82%B9600-cr-war-chest-what-this-unicorn-is-buying-before-its-india-ipo"
+   },
+   {
+    "date": "2018-12-18",
+    "publisher": "Business Standard via The Trusted Insight",
+    "title": "Moglix raises USD 23 mn led by Accel Partners, others",
+    "url": "https://www.thetrustedinsight.com/investment-news/moglix-raises-usd-23-mn-led-by-accel-partners-others-business-standard-news-20181218817/"
+   }
+  ],
+  "exit": {
+   "note": "Moglix company post, 24 Jun 2025: building a ₹600 cr war chest ahead of a potential India IPO; no filing seen",
+   "status": "rumoured"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "jungle-ventures-onebyzero",
+  "firm": "jungle-ventures",
+  "name": "OneByZero",
+  "slug": "onebyzero",
+  "industry": "ai",
+  "industryLabel": "Enterprise AI deployment",
+  "hq": "Singapore, Singapore",
+  "geos": [
+   "Singapore",
+   "Malaysia",
+   "Philippines",
+   "Thailand",
+   "Vietnam"
+  ],
+  "apac": true,
+  "heldSince": "2026-10",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; US$20m Series A led by Jungle Ventures, Oct 2026",
+   "url": "https://www.dealstreetasia.com/stories/onebyzero-jungle-ventures-series-a-497083"
+  },
+  "summary": "Singapore enterprise AI deployment firm (NEO platform, 'AI Coworkers') working across Malaysia, the Philippines, Thailand and Vietnam. Jungle led its US$20m Series A in Oct 2026, the company's first outside funding, to scale AI deployments across Asia-Pacific.",
+  "signals": [
+   {
+    "date": "2026-10-05",
+    "publisher": "DealStreetAsia",
+    "title": "SG's OneByZero secures $20m in Jungle Ventures-led Series A",
+    "url": "https://www.dealstreetasia.com/stories/onebyzero-jungle-ventures-series-a-497083"
+   },
+   {
+    "date": "2026-10-05",
+    "publisher": "TNGlobal",
+    "title": "Enterprise AI OneByZero raises $20M",
+    "url": "https://technode.global/2026/10/05/994377/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "jungle-ventures-pratilipi",
+  "firm": "jungle-ventures",
+  "name": "Pratilipi",
+  "slug": "pratilipi",
+  "industry": "internet",
+  "industryLabel": "Digital storytelling / content platform",
+  "hq": "Bengaluru, India",
+  "geos": [
+   "India",
+   "United States"
+  ],
+  "apac": true,
+  "heldSince": "2025-04",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$100m",
+   "basis": "post-money at US$20m Series E led by Jungle Ventures, Apr 2025 (down from US$265m)",
+   "url": "https://news.ventureintelligence.com/private-equity/publishing-platform-pratilipi-attracts-$20-m-in-down-round-led-by-jungle-ventures;-2-chinese-investo"
+  },
+  "summary": "Bengaluru Indian-language storytelling platform (fiction, audio, comics, now vertical drama; expanding to the US). Jungle led its US$20m Series E in Apr 2025 (US$12m primary, US$8m secondary) at ~US$100m post-money; flagged as the last primary round before a possible listing.",
+  "signals": [
+   {
+    "date": "2025-04-03",
+    "publisher": "exchange4media",
+    "title": "Jungle Ventures announces investment in Pratilipi",
+    "url": "https://www.exchange4media.com/digital-news/jungle-ventures-announces-investment-in-pratilipi-142331.html"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "jungle-ventures-vida",
+  "firm": "jungle-ventures",
+  "name": "VIDA (PT Indonesia Digital Identity)",
+  "slug": "vida",
+  "industry": "software",
+  "industryLabel": "Digital identity / e-signature",
+  "hq": "Jakarta, Indonesia",
+  "geos": [
+   "Indonesia"
+  ],
+  "apac": true,
+  "heldSince": "2021-09",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; Series A of ~US$47.7m (Hedosophia-led per ACRA filings), Jun 2022",
+   "url": "https://www.biometricupdate.com/202205/vida-raises-over-47m-to-address-digital-id-in-southeast-asia-investment-market-still-hot"
+  },
+  "summary": "Jakarta digital identity network and licensed certificate authority (verification, digital signatures, fraud prevention). Jungle co-invested in the Sep 2021 pre-Series A with Alpha JWC and Monk's Hill; a ~US$47.7m Series A followed in 2022. Active in 2026 (AWS Marketplace listing, Money20/20 Asia).",
+  "signals": [
+   {
+    "date": "2026-04-29",
+    "publisher": "The Star",
+    "title": "VIDA highlights cyber threats to the fintech industry in South-East Asia at Money20/20 Asia 2026",
+    "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/29/vida-highlights-cyber-threats-to-the-fintech-industry-in-south-east-asia-at-money2020-asia-2026"
+   },
+   {
+    "date": "2021-09-13",
+    "publisher": "e27",
+    "title": "VIDA attracts funding to provide digital signatures, identity authentication services to Indonesian MSMEs",
+    "url": "https://e27.co/vida-attracts-funding-to-provide-digital-signatures-identity-authentication-services-to-indonesian-msmes-20210913/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
   "id": "kkr-advanced-navigation",
   "firm": "kkr",
   "name": "Advanced Navigation",
@@ -3976,6 +4634,415 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "openspace-broom",
+  "firm": "openspace",
+  "name": "Broom",
+  "slug": "broom",
+  "industry": "fintech",
+  "industryLabel": "Used-car financing platform",
+  "hq": "Jakarta, Indonesia",
+  "geos": [
+   "Indonesia"
+  ],
+  "apac": true,
+  "heldSince": "2023",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed by the company; Dealroom lists ~US$80m for the Oct 2024 round (unverified)",
+   "url": null
+  },
+  "summary": "Jakarta platform giving used-car dealers working capital, leasing channelling and car-trading tools, working with Indonesian multifinance firms via API. Openspace led its Series A (~US$8-10m, 2023) and its US$25m Series A extension (Oct 2024) with AC Ventures, Quona Capital, MUFG Innovation Partners and PKSHA Capital.",
+  "signals": [
+   {
+    "date": "2024-10-01",
+    "publisher": "e27",
+    "title": "Indonesia's Broom bags US$25M funding to accelerate market expansion",
+    "url": "https://e27.co/indonesia-broom-bags-us25m-funding-to-accelerate-market-expansion-20241001/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "openspace-fano-labs",
+  "firm": "openspace",
+  "name": "Fano Labs",
+  "slug": "fano-labs",
+  "industry": "ai",
+  "industryLabel": "Speech & language AI",
+  "hq": "Hong Kong, Hong Kong",
+  "geos": [
+   "Hong Kong",
+   "Singapore",
+   "Asia-Pacific"
+  ],
+  "apac": true,
+  "heldSince": "2024-05",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; Series B amount not disclosed, May 2024",
+   "url": "https://technode.global/2024/05/02/hong-kong-language-ai-firm-fano-labs-fuels-apac-expansion-with-series-b-funding/"
+  },
+  "summary": "HKU spin-off building speech recognition, speaker diarisation, voice biometrics and NLP for banks (HSBC, Citibank, DBS Hong Kong, Hang Seng). Openspace led its undisclosed Series B in May 2024 with HSBC, Greater Good Investment and Kenneth Lo's family office, funding APAC expansion including a Singapore office.",
+  "signals": [
+   {
+    "date": "2024-05-02",
+    "publisher": "TechNode Global",
+    "title": "Hong Kong language AI firm Fano Labs fuels APAC expansion with Series B funding",
+    "url": "https://technode.global/2024/05/02/hong-kong-language-ai-firm-fano-labs-fuels-apac-expansion-with-series-b-funding/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "openspace-finhay",
+  "firm": "openspace",
+  "name": "Finhay",
+  "slug": "finhay",
+  "industry": "fintech",
+  "industryLabel": "Digital investment / brokerage app",
+  "hq": "Hanoi, Vietnam",
+  "geos": [
+   "Vietnam"
+  ],
+  "apac": true,
+  "heldSince": "2022-06",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; US$25m Series B co-led by Openspace and VIG, Jun 2022",
+   "url": "https://technode.global/2022/06/22/vietnams-finhay-raises-25m-series-b-co-led-by-openspace-ventures-and-vig/"
+  },
+  "summary": "Vietnamese digital investment and wealth app that bought a securities brokerage (now VNSC by Finhay). Openspace co-led its US$25m Series B with Vietnam Investments Group in Jun 2022, with Insignia, TVS, Headline, TNBAura and IVC.",
+  "signals": [
+   {
+    "date": "2022-06-22",
+    "publisher": "TechNode Global",
+    "title": "Vietnam's Finhay raises $25M Series B co-led by Openspace Ventures and VIG",
+    "url": "https://technode.global/2022/06/22/vietnams-finhay-raises-25m-series-b-co-led-by-openspace-ventures-and-vig/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "openspace-finnomena",
+  "firm": "openspace",
+  "name": "Finnomena",
+  "slug": "finnomena",
+  "industry": "fintech",
+  "industryLabel": "Digital wealth management",
+  "hq": "Bangkok, Thailand",
+  "geos": [
+   "Thailand"
+  ],
+  "apac": true,
+  "heldSince": "2020-01",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; ~US$18.7m raised in total (CB Insights); SET IPO filing reported 2026",
+   "url": null
+  },
+  "summary": "Thai digital wealth platform for investors and advisers (THB 68.6bn mutual-fund assets under advisement, Q1 2026). Openspace co-anchored the US$10m Series B with Gobi (Jan 2020), its first Thai deal, and led the US$5.5m Series B+ via OSV Multiply with Krungsri Finnovate and Gobi (Jun 2023).",
+  "signals": [
+   {
+    "date": "2023-06-02",
+    "publisher": "DealStreetAsia",
+    "title": "Finnomena raises $5.5m in Series B+ round led by Openspace",
+    "url": "https://dealstreetasia.com/stories/finnomena-raises-funding-346383"
+   },
+   {
+    "date": "2020-01-09",
+    "publisher": "Thairath",
+    "title": "Finnomena receives US$10m Series B investment",
+    "url": "https://www.thairath.co.th/money/personal_finance/finance_banking/1743633"
+   }
+  ],
+  "exit": {
+   "note": "Mitihoon, 2026: Finnomena has filed for an IPO and listing on the Stock Exchange of Thailand",
+   "status": "process"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "openspace-halodoc",
+  "firm": "openspace",
+  "name": "Halodoc",
+  "slug": "halodoc",
+  "industry": "healthit",
+  "industryLabel": "Telehealth platform",
+  "hq": "Jakarta, Indonesia",
+  "geos": [
+   "Indonesia"
+  ],
+  "apac": true,
+  "heldSince": "2017",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; US$100m Series D led by Astra, Jul 2023",
+   "url": null
+  },
+  "summary": "Indonesia's largest telehealth app (teleconsultation, pharmacy delivery, lab booking). Openspace has backed it since 2017 and joined the US$65m Series B (2019), the US$80m Series C led by Astra (Apr 2021) and the US$100m Series D led by Astra with Novo Holdings (Jul 2023). Astra later raised its stake to ~21% (Mar 2025).",
+  "signals": [
+   {
+    "date": "2025-03-03",
+    "publisher": "Bisnis.com",
+    "title": "Astra International (ASII) Sharpens Focus on the Health Sector",
+    "url": "https://market.bisnis.com/read/20250303/7/1844291/astra-international-asii-sharpens-focus-on-the-health-sector"
+   },
+   {
+    "date": "2023-07-28",
+    "publisher": "MergerLinks",
+    "title": "Halodoc Series D (Astra, Openspace, Novo Holdings)",
+    "url": "https://app.mergerlinks.com/transactions/2023-07-28-halodoc"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "openspace-igloo",
+  "firm": "openspace",
+  "name": "Igloo",
+  "slug": "igloo",
+  "industry": "fintech",
+  "industryLabel": "Insurtech platform (B2B2C distribution)",
+  "hq": "Singapore, Singapore",
+  "geos": [
+   "Singapore",
+   "Indonesia",
+   "Vietnam",
+   "Thailand",
+   "Philippines",
+   "Malaysia"
+  ],
+  "apac": true,
+  "heldSince": "2022-03",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; US$36m pre-Series C led by Eurazeo reported at a ~50% valuation step-up on the Series B+, total raised ~US$100m",
+   "url": "https://theasianbanker.com/press-releases/igloo-closes-$36m-pre-series-c-fundraise-with-50-valuation-increase"
+  },
+  "summary": "Singapore insurtech that embeds insurance into partners' digital journeys across Southeast Asia. Openspace was an existing investor in the US$19m Series B led by Cathay Innovation (Mar 2022) and the B+ extension to US$46m, and joined via its OSV+ growth fund the US$36m pre-Series C led by Eurazeo with La Maison (Dec 2023), taking total funding to ~US$100m.",
+  "signals": [
+   {
+    "date": "2025-03-30",
+    "publisher": "Eurazeo newsroom",
+    "title": "Eurazeo invests into Igloo, Singapore's regional insurtech player",
+    "url": "https://en.newsroom.eurazeo.com/news/eurazeo-invests-into-igloo-singapores-regional-insurtech-player-0b580-52e2c.html"
+   },
+   {
+    "date": "2023-12-06",
+    "publisher": "The Asian Banker (press release)",
+    "title": "Igloo closes $36m pre-Series C fundraise with 50% valuation increase",
+    "url": "https://theasianbanker.com/press-releases/igloo-closes-$36m-pre-series-c-fundraise-with-50-valuation-increase"
+   },
+   {
+    "date": "2022-03-10",
+    "publisher": "TechNode Global",
+    "title": "Singapore insurtech firm Igloo closes $19M Series B round led by Cathay Innovation",
+    "url": "https://technode.global/2022/03/10/singapore-insurtech-firm-igloo-closes-19m-series-b-round-led-by-cathay-innovation/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "openspace-iseller",
+  "firm": "openspace",
+  "name": "iSeller",
+  "slug": "iseller",
+  "industry": "software",
+  "industryLabel": "Omnichannel POS / commerce SaaS",
+  "hq": "Jakarta, Indonesia",
+  "geos": [
+   "Indonesia"
+  ],
+  "apac": true,
+  "heldSince": "2020-11",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; US$12m Series B led by Intudo Ventures, Jan 2023",
+   "url": null
+  },
+  "summary": "Indonesian omnichannel POS and commerce SaaS (official POS for Bank Mandiri's Livin merchants), which bought payment gateway YUKK. Openspace co-led the Series A with Mandiri Capital (Nov 2020) and joined the US$12m Series B led by Intudo Ventures with KVision (Jan 2023).",
+  "signals": [
+   {
+    "date": "2023-01-26",
+    "publisher": "FinTech Global",
+    "title": "Indonesian POS platform iSeller bags $12m",
+    "url": "https://fintech.global/2023/01/26/indonesian-pos-platform-iseller-bags-12m/"
+   },
+   {
+    "date": "2020-11-04",
+    "publisher": "e27",
+    "title": "iSeller secures Series A from Mandiri, Openspace to expand its omni-channel sales SaaS platform",
+    "url": "https://e27.co/iseller-secures-series-a-from-mandiri-openspace-to-expand-its-omni-channel-sales-saas-platform-20201104/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "openspace-kredivo",
+  "firm": "openspace",
+  "name": "Kredivo Group (FinAccel)",
+  "slug": "kredivo",
+  "industry": "fintech",
+  "industryLabel": "Digital consumer credit / BNPL",
+  "hq": "Singapore, Singapore",
+  "geos": [
+   "Indonesia",
+   "Vietnam"
+  ],
+  "apac": true,
+  "heldSince": "2017",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$1.6bn",
+   "basis": "reported valuation at the US$140m Series D led by Mirae Asset, Oct 2022; Mar 2023 extension valuation undisclosed",
+   "url": "https://www.avcj.com/avcj/news/3028920/indonesia-s-kredivo-raises-usd270m-series-d"
+  },
+  "summary": "Singapore-held, Indonesia-focused digital credit and BNPL platform (Kredivo, Krom Bank). Openspace (then NSI Ventures) co-led the Series A with Jungle (announced Oct 2017) and followed on in the US$30m Series B (2018), US$90m Series C (2019) and Series D, the latest the ~US$270m round led by Mizuho in Mar 2023.",
+  "signals": [
+   {
+    "date": "2023-03-23",
+    "publisher": "AVCJ",
+    "title": "Indonesia's Kredivo raises USD270m Series D",
+    "url": "https://www.avcj.com/avcj/news/3028920/indonesia-s-kredivo-raises-usd270m-series-d"
+   },
+   {
+    "date": "2018-07-24",
+    "publisher": "e27",
+    "title": "FinAccel raises US$30M Series B funding",
+    "url": "https://e27.co/finaccel-raises-us30m-series-b-funding-20180724/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "openspace-kumu",
+  "firm": "openspace",
+  "name": "Kumu",
+  "slug": "kumu",
+  "industry": "internet",
+  "industryLabel": "Livestreaming / social entertainment app",
+  "hq": "Manila, Philippines",
+  "geos": [
+   "Philippines"
+  ],
+  "apac": true,
+  "heldSince": "2020-04",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; Series C (2021) took total funding past US$100m",
+   "url": null
+  },
+  "summary": "Philippines' largest livestreaming and social entertainment app (15m registered users in 2022). Openspace led the ~US$5m Series A (Apr 2020), co-led the Series B with SIG (Jun 2021) and joined the Series C led by General Atlantic (Oct 2021), with SIG and Openspace reported to put in US$25m.",
+  "signals": [
+   {
+    "date": "2024-09-15",
+    "publisher": "Manila Times",
+    "title": "How AWS drives Kumu's continuing success",
+    "url": "https://manilatimes.net/2024/09/15/business/sunday-business-it/how-aws-drives-kumus-continuing-success/1971494"
+   },
+   {
+    "date": "2021-10-26",
+    "publisher": "Global Venturing",
+    "title": "Kumu accumulates series C funding",
+    "url": "https://globalventuring.com/blog/2021/10/26/kumu-accumulates-series-c-funding/"
+   },
+   {
+    "date": "2021-06-10",
+    "publisher": "e27",
+    "title": "Kumu raises Series B funding round co-led by SIG, Openspace Ventures",
+    "url": "https://e27.co/kumu-raises-series-b-funding-round-co-led-by-sig-openspace-ventures-20210610/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "openspace-pluang",
+  "firm": "openspace",
+  "name": "Pluang",
+  "slug": "pluang",
+  "industry": "fintech",
+  "industryLabel": "Retail investing / wealthtech app",
+  "hq": "Jakarta, Indonesia",
+  "geos": [
+   "Indonesia",
+   "Philippines"
+  ],
+  "apac": true,
+  "heldSince": "2021-03",
+  "stake": "minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; ~US$110m raised by the Jan 2022 round; US$10m MUFG-led round May 2026",
+   "url": null
+  },
+  "summary": "Indonesian multi-asset retail investing app (gold, crypto, US and local equities). Openspace led the US$20m pre-Series B (Mar 2021) and joined the US$35m Square Peg-led round (Sep 2021) and the US$55m Accel-led round (Jan 2022). The US$10m MUFG Innovation Partners round (May 2026) named Accel and Square Peg, not Openspace.",
+  "signals": [
+   {
+    "date": "2026-05-19",
+    "publisher": "DealStreetAsia",
+    "title": "Indonesia's Pluang raises $10m, launches local equities trading",
+    "url": "https://www.dealstreetasia.com/stories/pluang-local-equities-trading-482696"
+   },
+   {
+    "date": "2022-01-13",
+    "publisher": "FinTech Global",
+    "title": "The Chainsmokers back Indonesian retail investing app Pluang",
+    "url": "https://fintech.global/2022/01/13/the-chainsmokers-back-indonesian-retail-investing-app-pluang/"
+   },
+   {
+    "date": "2021-03-21",
+    "publisher": "TechCrunch",
+    "title": "Indonesian savings and investment app Pluang gets $20M in pre-Series B funding",
+    "url": "https://techcrunch.com/2021/03/21/indonesian-savings-and-investment-app-pluang-gets-20m-in-pre-series-b-funding/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
   "id": "partners-group-cloudflight",
   "firm": "partners-group",
   "name": "Cloudflight",
@@ -4342,6 +5409,87 @@
    "status": "none"
   },
   "firstSeen": "2026-11-05T00:46:13Z"
+ },
+ {
+  "id": "sequoia-canva",
+  "firm": "sequoia",
+  "name": "Canva",
+  "slug": "canva",
+  "industry": "software",
+  "industryLabel": "Design / visual-communication SaaS",
+  "hq": "Sydney, Australia",
+  "geos": [
+   "Australia",
+   "Global"
+  ],
+  "apac": true,
+  "heldSince": "2021-09",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$42bn",
+   "basis": "employee share sale led by Fidelity, Aug 2025; investor marks reported lower (~US$35bn) during 2026",
+   "url": "https://fortune.com/2025/08/22/canva-billionaire-founders-minting-overnight-millionaires-employee-share-sale"
+  },
+  "summary": "Sydney-founded online design platform. Sequoia Capital Global Equities joined the Sept 2021 round led by T. Rowe Price that valued Canva at US$40bn (with Franklin Templeton, Bessemer, Greenoaks, Dragoneer, Blackbird, Felicis, AirTree). Earlier 2018 and 2020 rounds were from Sequoia China, now HongShan. Aug 2025 employee sale at US$42bn; reported to be redomiciling to the US.",
+  "signals": [
+   {
+    "date": "2025-08-22",
+    "publisher": "Fortune",
+    "title": "Canva's billionaire founders are minting overnight millionaires with employee share sale",
+    "url": "https://fortune.com/2025/08/22/canva-billionaire-founders-minting-overnight-millionaires-employee-share-sale"
+   },
+   {
+    "date": "2021-09-14",
+    "publisher": "Business Wire (company release)",
+    "title": "Canva Announces USD 40 Billion Valuation Fueled by the Global Demand for Visual Communication",
+    "url": "https://www.businesswire.com/news/home/20210914006065/en/Canva-Announces-USD-40-Billion-Valuation-Fueled-by-the-Global-Demand-for-Visual-Communication"
+   }
+  ],
+  "exit": {
+   "note": "Capital Brief / other reports, 2026: Blackbird told LPs Canva is IPO-ready; later 2026 reporting points to 2027 at the earliest, nothing filed",
+   "status": "rumoured"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
+ },
+ {
+  "id": "sequoia-smarthr",
+  "firm": "sequoia",
+  "name": "SmartHR",
+  "slug": "smarthr",
+  "industry": "hrtech",
+  "industryLabel": "HR / labour-management SaaS",
+  "hq": "Tokyo, Japan",
+  "geos": [
+   "Japan"
+  ],
+  "apac": true,
+  "heldSince": "2021-06",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$1.6bn",
+   "basis": "post-money after the JPY15.6bn (US$142.5m) Series D, June 2021; April 2026 IPO reports cite a ~US$1bn target",
+   "url": "https://www.avcj.com/avcj/news/3024118/japans-smarthr-raises-usd1425m-at-usd16b-valuation"
+  },
+  "summary": "Tokyo-based cloud HR and labour-management software for Japanese employers. Sequoia Capital Global Equities joined the JPY15.6bn (US$142.5m) Series D led by Light Street Capital in June 2021, alongside Sequoia Heritage, Whale Rock and Greyhound. KKR and Teachers' Venture Growth led a US$140m Series E in 2024, and General Atlantic bought US$96m of shares in Nov 2025.",
+  "signals": [
+   {
+    "date": "2025-11-17",
+    "publisher": "Bloomberg",
+    "title": "General Atlantic Enters Japan With Investment in Unicorn SmartHR",
+    "url": "https://www.bloomberg.com/news/articles/2025-11-17/general-atlantic-enters-japan-with-investment-in-unicorn-smarthr"
+   },
+   {
+    "date": "2024-07-01",
+    "publisher": "TechCrunch",
+    "title": "Japan's SmartHR raises $140M Series E as strong demand for HR tech boosts its ARR to $100M",
+    "url": "https://techcrunch.com/2024/07/01/japans-smarthr-raises-140m-series-e-as-strong-demand-for-hr-tech-boosts-its-arr-to-100m/"
+   }
+  ],
+  "exit": {
+   "note": "Pipeline Road / AlphaMaven, Apr-Jul 2026: Tokyo IPO explored at ~US$1bn, then reported pushed back to 2027 at the earliest",
+   "status": "rumoured"
+  },
+  "firstSeen": "2026-11-05T02:23:36Z"
  },
  {
   "id": "ta-associates-accion-labs",
