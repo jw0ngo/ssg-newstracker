@@ -1594,6 +1594,19 @@
   "firstSeen": "2026-10-05T07:17:26.548Z"
  },
  {
+  "id": "0d677723393d",
+  "firm": "ta-associates",
+  "title": "Direct Capital and Fisher Funds to acquire NZ Health Group",
+  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTTVrd2VJQUhjY2VuMnVsRXh4bVc3WVpVODl5c0ExdTljcmlHLUpzeHdiLXpNS1JmWWlNRHBQQWZwaWhTZ0VEbHpvNmEtcmhjYlRLcjlOMU5DUi1WTVdfUHlSdjd4STU1Yl9BYWRmZFpSSmxxaS0yYTBtdDRiaU9oREQtb1VDUWhIdnBWYzA0RmVPbEhhT0FQTHFOeW1OTDdKTDNvZVNkeTY0Nmp5cWh5SDBVNjhUN0xkcElrbU9XdTFSOXpEWDBLQg?oc=5",
+  "date": "2026-09-24T07:00:00.000Z",
+  "summary": "",
+  "publisher": "BusinessDesk",
+  "source": "portco:fisher-funds",
+  "official": false,
+  "firstSeen": "2026-11-02T23:38:36.994Z",
+  "portco": "fisher-funds"
+ },
+ {
   "id": "0d6d3d801c78",
   "firm": "macquarie-capital",
   "title": "Bankers exit Macquarie Capital’s prized principal infrastructure unit",
@@ -3581,6 +3594,19 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-09T23:37:40.680Z"
+ },
+ {
+  "id": "1ec7c1c0168b",
+  "firm": "ta-associates",
+  "title": "Fisher Funds And Direct Capital Agree To Acquire New Zealand Health Group",
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUmdjaFpzX1RzamctM1E0ZW9nM3ZySDhUWUdZN3RQd0FqZmhMWG1HeVBYQ0xoNXgwTlhBNWdieVhhYWowU1cwR0x1Q2xYVHJpMjRiVWk2VVZOZGNnNXh6bW5BXzh1YVFPd2h0WHFxQl9OYlJ5SlMtYjRuaFhuWG8wTWFldXRybFk4WXF3RzFSeGtuMF9ERG45UW1Mby1HdFpmN2pEenpPZlM2NXgwZlJRckhYQVBUTnc?oc=5",
+  "date": "2026-10-01T07:00:00.000Z",
+  "summary": "",
+  "publisher": "New Zealand Doctor",
+  "source": "portco:fisher-funds",
+  "official": false,
+  "firstSeen": "2026-11-02T23:38:36.994Z",
+  "portco": "fisher-funds"
  },
  {
   "id": "1ed710ccd3db",
@@ -17496,6 +17522,19 @@
   "firstSeen": "2026-10-08T00:14:37.721Z"
  },
  {
+  "id": "958a4b8f3a2a",
+  "firm": "tpg",
+  "title": "Equity Trustees to acquire L1 Group’s Platinum Investment Management",
+  "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQR1RPQ1Z6OUtzX0FOWWM0WU5YT3czT2dOd1pYaUg3amo4dERFWWE5dng3ekFtZmpCa1dfQ3R5LUcyMG9mNkR5LWR1U0hDUjluQmdkOTlBa2ZvOERxbUx6X25KZHdjWE91dE15M1pwV3oydXFiN3dhTTl3Y0ZqUnpIVVRnTHE1Mi1QS1d2ZFRoa0lwZTlWenZkcDFlU3doblpneGp3U1JzcW1rYWxEYmk4YTktNkRBamJIUjQyU2hVUkN1Mm0zUkxVRS1ZblNfS0R0eTB6YlpyLVJpZms?oc=5",
+  "date": "2026-10-12T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Capital Brief",
+  "source": "portco:equity-trustees",
+  "official": false,
+  "firstSeen": "2026-11-02T23:38:36.994Z",
+  "portco": "equity-trustees"
+ },
+ {
   "id": "9591177e8a65",
   "firm": "kkr",
   "title": "Former KKR batter explains why Varun Chakravarthy, Kuldeep Yadav might not feature in the playing XI in NZ vs IND 2026 T20Is",
@@ -19052,6 +19091,19 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-16T23:37:45.990Z"
+ },
+ {
+  "id": "a2872eb7d0f5",
+  "firm": "kkr",
+  "title": "Pepper Money increases concessionary purchase LTV to 85%",
+  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRXBPSld6eWZJOUFLLXpVakMyZm0yblg4aXhfM2xmQjFZeUtYT29Bd1dZNFU0ekU2QjN2LVVoaVFoR0JBWW5DNnJDbWZCbkYtb3dvNDNGSUg5S3RXOGt3X2theE1JeldkVkJIMHFvTXZ3Rlc5SW9oeHRUZkxsQ2JfSEVMQ3JBZktJRklLMVhHcGd3WEwxd2JoNU1SOFIxb2ZOQXdaTmVDWEEzcVJ3ekRnUmJUQjJiRERv?oc=5",
+  "date": "2026-10-26T18:12:36.000Z",
+  "summary": "",
+  "publisher": "mortgagesolutions.co.uk",
+  "source": "portco:pepper-money",
+  "official": false,
+  "firstSeen": "2026-11-02T23:38:36.994Z",
+  "portco": "pepper-money"
  },
  {
   "id": "a28c7ccfaf27",
@@ -22368,6 +22420,19 @@
   "firstSeen": "2026-10-07T00:14:27.072Z"
  },
  {
+  "id": "bf346467ac80",
+  "firm": "kkr",
+  "title": "Colonial First State Group Acquires 5% Stake in Karoon Energy, Becoming New Major Shareholder",
+  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNHFpbGNlTHR5XzRDcGlpbHU3V2J3Ykw5UzhXSmlmU3lmZTRwSy1fT2NPSldUMjh0Uk4tanlWWndYMVdfYU9Jc2o0WGdyUGtDZTM1YXB4bnpMeWdQdVZYcUs3SFVnYzVCaU9tVEMwdWVCNVVFT0dMRlBfT0dNR1g2TDZZUHkyMk9Gc2VXeWVlMDdvSWJVVXJQWTZXdzVxOGlSZkhNbzh4dlBGRkt2NDRYOFF0dnlVS1JfSk5yTTVfdjI3c3ZJdjRPLXExRG9YblBtLXE0YQ?oc=5",
+  "date": "2026-11-03T13:20:20.000Z",
+  "summary": "",
+  "publisher": "Kalkine Media",
+  "source": "portco:colonial-first-state",
+  "official": false,
+  "firstSeen": "2026-11-04T01:17:00.929Z",
+  "portco": "colonial-first-state"
+ },
+ {
   "id": "bf6f4f4faefd",
   "firm": "kkr",
   "title": "Apollo Global Management, KKR Finalize $3.46 Billion Capital Deal With Bayer",
@@ -22558,6 +22623,19 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-07T00:14:27.072Z"
+ },
+ {
+  "id": "c23f6755ff28",
+  "firm": "kkr",
+  "title": "Pepper Money reduces deposit requirement for concessionary purchases",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNzNGVmNhZERQLUFseGU1aGFWQWpyWkRWaWJGenY2MzU3SjZrMUY1V25sQ1dJYXp4dW9QY3NRbFlOTW91c0RfVmNBd2dFX0k5NUdzd1RRbGZISkkxdnJTY1dnRnFfdlFiT3RJTUFUR0ZDbVdXdHZLWFRFWE45cFJpeEFlWEY5TEg5WWp3eTFrSXJraWJIVFRVTm01ME0?oc=5",
+  "date": "2026-10-26T09:34:42.000Z",
+  "summary": "",
+  "publisher": "Mortgage Soup",
+  "source": "portco:pepper-money",
+  "official": false,
+  "firstSeen": "2026-11-02T23:38:36.994Z",
+  "portco": "pepper-money"
  },
  {
   "id": "c2811c9c729f",
@@ -26915,6 +26993,19 @@
   "firstSeen": "2026-10-05T07:17:26.548Z"
  },
  {
+  "id": "e8316bca4449",
+  "firm": "kkr",
+  "title": "Dentons advises Pepper Money in Australia's biggest transaction of 2026 - Blackstone's acquisition of HSBC's A$36 billion loan book",
+  "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONmtJMlBMX2RZbUFaanFYN2gxdFNEYUFIdVU0MmVIcVhiRUdTMlBjSmVzUVo2VHNLY0hiVlA2bjJ4bUJrUkFOUDdMN1RMaVNBMkIzUVFIZjVSM1NvLU9zWU9wZ04tVHNha3VGRmoxQzdKM0xyalRxR2FQRUNPRXRLSUtMdG1zT3RuTHUyNFR2Yk9IMTQwTGJoSGNrRDhsdWstUnQwVWxKV1dkRnEtaFAxT2ltS3R5UXltWVBrdmFESUZlVFYzY1YzNlFZdWFaQUV4RkpZUzBtTHdNVmJ3bDhFeGVZdzEtQQ?oc=5",
+  "date": "2026-08-12T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Dentons",
+  "source": "portco:pepper-money",
+  "official": false,
+  "firstSeen": "2026-11-04T01:17:00.929Z",
+  "portco": "pepper-money"
+ },
+ {
   "id": "e8540736ce5d",
   "firm": "eqt",
   "title": "Sweden's EQT Group to invest $50B in India by 2030",
@@ -27562,6 +27653,19 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-14T23:37:43.978Z"
+ },
+ {
+  "id": "ee094e716c0f",
+  "firm": "tpg",
+  "title": "Equity Trustees to acquire L1's Platinum Investment Management",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYW5hMEw1RldFcG52bGtuMkhXdHJ2N21HNzB3RHFVN3U2N0JIbUdDU2lia2xFLWx2VWVwZ1lYRUxEMFMwTW94TTBvZWduZTRwdjdMYVBXb2cxUmF6bWNMelVtc2tkX2x0SS1MamtpNDIxaG5KZkpKRE00OURKdXM1V2I4YlFCbXNEY3V3NHE0TkFkY3F5a19HakVrbDA?oc=5",
+  "date": "2026-10-12T11:58:36.000Z",
+  "summary": "",
+  "publisher": "Dealroom",
+  "source": "portco:equity-trustees",
+  "official": false,
+  "firstSeen": "2026-11-02T23:38:36.994Z",
+  "portco": "equity-trustees"
  },
  {
   "id": "ee44ac45957c",
@@ -30889,18 +30993,6 @@
   "portco": "biocatch"
  },
  {
-  "id": "bf346467ac80",
-  "firm": "kkr",
-  "title": "Colonial First State Group Acquires 5% Stake in Karoon Energy, Becoming New Major Shareholder",
-  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNHFpbGNlTHR5XzRDcGlpbHU3V2J3Ykw5UzhXSmlmU3lmZTRwSy1fT2NPSldUMjh0Uk4tanlWWndYMVdfYU9Jc2o0WGdyUGtDZTM1YXB4bnpMeWdQdVZYcUs3SFVnYzVCaU9tVEMwdWVCNVVFT0dMRlBfT0dNR1g2TDZZUHkyMk9Gc2VXeWVlMDdvSWJVVXJQWTZXdzVxOGlSZkhNbzh4dlBGRkt2NDRYOFF0dnlVS1JfSk5yTTVfdjI3c3ZJdjRPLXExRG9YblBtLXE0YQ?oc=5",
-  "date": "2026-11-03T13:20:20.000Z",
-  "publisher": "Kalkine Media",
-  "source": "portco:colonial-first-state",
-  "official": false,
-  "firstSeen": "2026-11-04T01:17:00.929Z",
-  "portco": "colonial-first-state"
- },
- {
   "id": "b8b73815a4bc",
   "firm": "eqt",
   "title": "Firms must understand how AI agents behave within networks: WSO2 CEO",
@@ -33037,6 +33129,18 @@
   "portco": "virtusa"
  },
  {
+  "id": "1b1130fb92c5",
+  "firm": "kkr",
+  "title": "Pepper Money cuts adverse credit mortgage rates by up to 117bps",
+  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTDdTRTVmLUdhY3dwWmUzMkJyMllwRVc2VEEzUHVOeXFhZTk1eE9nVGRmbnBzbDJTcVFhNXlPYlJKRnRYcGh4bFE3MXBGRlBRdmlvNk5IYWpzZFF3bUI0a19YLXdzTFd6S2l4YjBqNElqdGUzaTFfWGFRSjBydlY2ajg3UTNuNlI5MUItRzFBSE1USkJHWVoxZmU1UURMVWxPdW8yVm1JQQ?oc=5",
+  "date": "2026-10-27T13:46:27.000Z",
+  "publisher": "Financial Reporter",
+  "source": "portco:pepper-money",
+  "official": false,
+  "firstSeen": "2026-11-02T23:38:36.994Z",
+  "portco": "pepper-money"
+ },
+ {
   "id": "849a28be159a",
   "firm": "kkr",
   "title": "Saviynt Achieves United States FedRAMP® Class D (High) Certification",
@@ -33287,18 +33391,6 @@
   "official": false,
   "firstSeen": "2026-10-26T23:37:51.028Z",
   "portco": "quantexa"
- },
- {
-  "id": "2f85cc972a75",
-  "firm": "kkr",
-  "title": "What Drove Pepper Money Limited (ASX:PPM) Lending Growth in 1H26?",
-  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ1BNejdfOGxhWXhuVkl1R0NpSnpkRkRqSkVrVG5HMVlMMlBWS1JMalpiS1FPaVFjOWV6MEtMdzdtc3VYQ0x5YUpzMFhGWThzWHE2UlM0enRWS0F0NEJpOEptOUNSRFRLcXFEeThZZXRxTW5ndkJhdHp4dFN3SV8zSmlhSlRESERrQjZzdGdHUUxxR3l2cGEtY0d5NFpiNmZ4RkpPTjRwR0ZZR0Y3ZHc?oc=5",
-  "date": "2026-10-26T07:05:00.000Z",
-  "publisher": "Kalkine",
-  "source": "portco:pepper-money",
-  "official": false,
-  "firstSeen": "2026-11-02T23:38:36.994Z",
-  "portco": "pepper-money"
  },
  {
   "id": "ec516b2119f1",
@@ -33781,6 +33873,18 @@
   "portco": "billtrust"
  },
  {
+  "id": "a790a03188b1",
+  "firm": "kkr",
+  "title": "CBA mulls reclaiming stake in Colonial First State",
+  "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTEx5OGlaX0hyMGJnRFJvaUdsdVVvTWQ5V0lkRkQ4cmZEZ1Mwc3NXdUpzTnpXUUcxeW9oVm40cWp6SEwwUlRGdTdTQWZMQTY2MXU0bXo4UTlnOTJadVlfT2JTM2phMTlMWkFOME5pUUFSbXBZU1BXdTZid25kZ1FTSUdDSkZ5NlVmRElkWFVYWGE4OEFOR1pMdHlONjFhTXZ0a2h0Mm9Oazd4d2g4T2l5N3NWSlg5UlhzUldhOVdraU9NeWc4S1B3UzltNG41T3FUdlhjWWk5c2dvOVdHanNRbFNHWVVYZ21jQTd6M1BPYy1xRkx3OTU4VnFmbEJaWDduOVpWNHo3NXRXRjM0?oc=5",
+  "date": "2026-10-22T07:00:00.000Z",
+  "publisher": "The Australian",
+  "source": "portco:colonial-first-state",
+  "official": false,
+  "firstSeen": "2026-11-02T23:38:36.994Z",
+  "portco": "colonial-first-state"
+ },
+ {
   "id": "cc8a8eda8c81",
   "firm": "kkr",
   "title": "Voyant Successfully Demonstrates GNSS-denied Navigation for UK MoD",
@@ -33851,6 +33955,18 @@
   "official": false,
   "firstSeen": "2026-10-26T23:37:51.028Z",
   "portco": "delinea"
+ },
+ {
+  "id": "d44274e39f3e",
+  "firm": "ta-associates",
+  "title": "Fisher Funds opposes Potentia's Vista resolutions",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMEYtS2Y3VXNmU1d4RWRWLUIwdDhvTkpCcUhxQm0zbmdPNTg0a05TakZzaWtCY0hHenhkYzRUVW9zUmk0UEV2Mi16TkJXOWRBbFpIc3E1UVh1VTVlWFdtVExDM3UwNnNNWW9fakpMZ1FXV0c1c1AyTjRwWHJ4SUZDRzFYemJkanJYTEpQR0R4SWdxWFM5RUJWMFRta3JYekt6RnBRd1ZEZ2QyY0NDaXBxWUw3bGtrdw?oc=5",
+  "date": "2026-10-21T21:43:43.000Z",
+  "publisher": "BusinessDesk",
+  "source": "portco:fisher-funds",
+  "official": false,
+  "firstSeen": "2026-11-04T01:17:00.929Z",
+  "portco": "fisher-funds"
  },
  {
   "id": "c3610f2f07f0",
@@ -34249,6 +34365,18 @@
   "portco": "advanced-navigation"
  },
  {
+  "id": "6ec1d5ce907f",
+  "firm": "tpg",
+  "title": "Equity Trustees deflects blame in ASIC case over First Guardian fund",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU2daRVlUX3h3N0FvYXZPN2tFbWRiYmwwbV9IeEMzeGdnOEFtMExiMWtSODViVXhyQ3p1RDktRXFlV2dxODdWME1VZDFuUFZMUDlMQ2tLRmtoa0JiUkZFQmdVaV9FNVY1bl9UQUkxTzZoeGd5M1NBX1h2aHdTUnlSbEQzeUtzTjRDN0FFWEZZT1pPcEVMQTFEdzhPMlc2QQ?oc=5",
+  "date": "2026-10-20T07:00:00.000Z",
+  "publisher": "Lawyerly",
+  "source": "portco:equity-trustees",
+  "official": false,
+  "firstSeen": "2026-11-02T23:38:36.994Z",
+  "portco": "equity-trustees"
+ },
+ {
   "id": "7a7b857f32ad",
   "firm": "warburg-pincus",
   "title": "Mobile wallet operator GCash parent Mynt ends flat after record Philippine IPO",
@@ -34271,18 +34399,6 @@
   "official": false,
   "firstSeen": "2026-11-04T01:17:00.929Z",
   "portco": "gcash"
- },
- {
-  "id": "9ef90bb154e9",
-  "firm": "ta-associates",
-  "title": "Fisher Funds makes international CIO appointment from Macquarie",
-  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQjRWSzExUlFzRDFQNVVuUVFaTjRWa0JLd2hrYWtHYWZFck1HYko4SElOVk1Ball1WlhRQXQxTzEwYVZXd3dQVUNNSGFRRlgwa196a2kzZzdHcWk1S2V6QVk2dURSTVpWbVRiUnd4YkgzMWFoM0kyOVJLU2ZHV2l5OGY4UzJhVERCVDlEZ1l1QlRkVmJFVDBiQ01saDNpb1lZ?oc=5",
-  "date": "2026-10-19T19:17:37.000Z",
-  "publisher": "Money Management",
-  "source": "portco:fisher-funds",
-  "official": false,
-  "firstSeen": "2026-11-02T23:38:36.994Z",
-  "portco": "fisher-funds"
  },
  {
   "id": "117d3d05be85",
@@ -34765,6 +34881,18 @@
   "portco": "infoblox"
  },
  {
+  "id": "b29b04f14c79",
+  "firm": "tpg",
+  "title": "Equity Trustees Transitions Loftus Peak Global Disruption Active ETF to External Market Making from 19 October 2026",
+  "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLUcweXB2VHpBX0V0NVJKYmd5QnlpVWQ2UXh1OXJwNXNYX2J2WlNXRW1OM19qb09PcVJpTEhLdUhmelZIVWpEdDFJZkFTUkxFV0NHeTFJamxyb2tEQUQ5RGlTdGRJQnJjRUxSLTVDNm5tRS1PaVBBMmxCcHlYZEhYdHFHcXdmRmtrNXJ3blA3b1lzRUxIYzBMX0I0RDNRbnhHbnd1dnEzYzFtSjlvRzBjd2RnTlAxSGZ6cGxfeFc1NWNtRGFTeUhMeU5kamZGVVk1VENCWmdObldmVGNzVUstMWdBX2pSU3RaeWR0SU1n?oc=5",
+  "date": "2026-10-14T07:00:00.000Z",
+  "publisher": "Kalkine",
+  "source": "portco:equity-trustees",
+  "official": false,
+  "firstSeen": "2026-11-02T23:38:36.994Z",
+  "portco": "equity-trustees"
+ },
+ {
   "id": "c8e44bd7f297",
   "firm": "ta-associates",
   "title": "Precisely Launches MCP Server for Precisely Automate, Connecting AI Assistants to SAP Automation | Corporate",
@@ -34957,18 +35085,6 @@
   "portco": "nextech-systems"
  },
  {
-  "id": "ee094e716c0f",
-  "firm": "tpg",
-  "title": "Equity Trustees to acquire L1's Platinum Investment Management",
-  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYW5hMEw1RldFcG52bGtuMkhXdHJ2N21HNzB3RHFVN3U2N0JIbUdDU2lia2xFLWx2VWVwZ1lYRUxEMFMwTW94TTBvZWduZTRwdjdMYVBXb2cxUmF6bWNMelVtc2tkX2x0SS1MamtpNDIxaG5KZkpKRE00OURKdXM1V2I4YlFCbXNEY3V3NHE0TkFkY3F5a19HakVrbDA?oc=5",
-  "date": "2026-10-12T11:58:36.000Z",
-  "publisher": "Dealroom",
-  "source": "portco:equity-trustees",
-  "official": false,
-  "firstSeen": "2026-11-02T23:38:36.994Z",
-  "portco": "equity-trustees"
- },
- {
   "id": "2fbc61ae62bd",
   "firm": "warburg-pincus",
   "title": "A Chat With Antonio Barradas, Epassi And Zest: Why Choice Alone Isn't Enough For Employee Benefits",
@@ -34987,18 +35103,6 @@
   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeHM2YUlJVU9wOUhoeXR1LVhDN3ZDTW5TM3d4S1hVcVAtbmRnOWh5cmo3ZTcwamNkNjY0MDdxamNGM1RpeWhURktibkd0Yk5ncGpYQWNEMjN5S0NGdjItRkRweXZhaWdRUnRYemZYR09CN0dEcjJqMDdYN1lCU1g3RF9kaDVoRXFp?oc=5",
   "date": "2026-10-12T07:00:00.000Z",
   "publisher": "Money Management",
-  "source": "portco:equity-trustees",
-  "official": false,
-  "firstSeen": "2026-11-02T23:38:36.994Z",
-  "portco": "equity-trustees"
- },
- {
-  "id": "958a4b8f3a2a",
-  "firm": "tpg",
-  "title": "Equity Trustees to acquire L1 Group’s Platinum Investment Management",
-  "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQR1RPQ1Z6OUtzX0FOWWM0WU5YT3czT2dOd1pYaUg3amo4dERFWWE5dng3ekFtZmpCa1dfQ3R5LUcyMG9mNkR5LWR1U0hDUjluQmdkOTlBa2ZvOERxbUx6X25KZHdjWE91dE15M1pwV3oydXFiN3dhTTl3Y0ZqUnpIVVRnTHE1Mi1QS1d2ZFRoa0lwZTlWenZkcDFlU3doblpneGp3U1JzcW1rYWxEYmk4YTktNkRBamJIUjQyU2hVUkN1Mm0zUkxVRS1ZblNfS0R0eTB6YlpyLVJpZms?oc=5",
-  "date": "2026-10-12T07:00:00.000Z",
-  "publisher": "Capital Brief",
   "source": "portco:equity-trustees",
   "official": false,
   "firstSeen": "2026-11-02T23:38:36.994Z",
@@ -35569,6 +35673,18 @@
   "portco": "infios"
  },
  {
+  "id": "ebbda01eb5c5",
+  "firm": "tpg",
+  "title": "Equity Trustees Says Overhedging 'Overwhelmingly Proven'",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTzV2QnQ1cGFYNl92ZF9OOV9XT0xKSmp0VVQ1MjN2c1VScTdTSklQX0Y0aW4tS3VsWXdWeTAzSkYtS05keklIWmNwVTdDRk92SXdGckJfd3o2Zk1CUWhTNlhRMWJ3c2FoRl9lNzY1VmhETFNpRTVQbXFTbDZzaVBVS3RST2QwV1ZKaEpvUExFM2I4U0FrTGVzN1o0a9IBWEFVX3lxTE50ZHlRd1l0OTBEY3lzdTVLNjBQcWJoTzJFaWRnLThQZGpBR1hHT2txNzlDUWZzTlpSLVhET2NheE5sdGJQdTh5VUNEQTJoOEZBSVVtMl9jZ24?oc=5",
+  "date": "2026-10-06T07:00:00.000Z",
+  "publisher": "Law360",
+  "source": "portco:equity-trustees",
+  "official": false,
+  "firstSeen": "2026-11-02T23:38:36.994Z",
+  "portco": "equity-trustees"
+ },
+ {
   "id": "12a99f370671",
   "firm": "macquarie-capital",
   "title": "Singapore data center firm Zerra DC targets 2GW+ capacity",
@@ -35821,6 +35937,18 @@
   "portco": "planview"
  },
  {
+  "id": "8e8760d46785",
+  "firm": "eqt",
+  "title": "Regulators close in on Hanwha Life’s Acuon deal as capital questions stack up",
+  "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPR1YyZlYtRER6TnJtUVJmYy1KWlB5VTdXMldJWjJjUHNBYl9ZWnV3MXNYaUZNdTRiZ1BhMkZZU3AxWmdaclFHWDVkVDJfeUtIcUxqakVJWFhUenkwcktmLXB2VEcyQ1JGTm9ZVEVVaU1TRms1RFN5YzF3VHdQbk14ZlBQSmdRQVJQb2NTbTF1aUpWSUNwQ3BBU1dpZTFIOGJ1S3J6VF9wSHZ5RVZYX3ZhWXBpM0llOS16STYzdEV3Z1B4WVVZQTJBdUxzU21KZGhRdENYZWVsUXFiNGhZMmp0UTd6RFg?oc=5",
+  "date": "2026-10-02T07:00:00.000Z",
+  "publisher": "Insurance Business",
+  "source": "portco:acuon-group",
+  "official": false,
+  "firstSeen": "2026-11-02T23:38:36.994Z",
+  "portco": "acuon-group"
+ },
+ {
   "id": "98ea775c469d",
   "firm": "eqt",
   "title": "Hanwha Builds Comprehensive Financial Group With Securities Capital Raise, Acuon Deal",
@@ -35879,18 +36007,6 @@
   "official": false,
   "firstSeen": "2026-10-06T02:13:34.554Z",
   "portco": "bmc-software"
- },
- {
-  "id": "175ca125407b",
-  "firm": "eqt",
-  "title": "Hanwha Life to acquire Acuon Capital for $323 mn",
-  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQbXN5a0VLa0JXSV85NGtPLUtFazFtWEtnRnVObWhqeXRzWThDR1RCRFdHS1hBXzlaWlQ4ZWpVOWZOekU0dXNFYmVTcEhSYzhPdEI3Q1VXMXh2Q0lYT3dvMHBON1haT2o3SlhsX0R0dTlsWlJyRmpvcFl2VjU2em8?oc=5",
-  "date": "2026-10-01T07:00:00.000Z",
-  "publisher": "Beinsure",
-  "source": "portco:acuon-group",
-  "official": false,
-  "firstSeen": "2026-11-02T23:38:36.994Z",
-  "portco": "acuon-group"
  },
  {
   "id": "1a7c115e3b2d",
@@ -35963,18 +36079,6 @@
   "official": false,
   "firstSeen": "2026-10-26T23:37:51.028Z",
   "portco": "reliaquest"
- },
- {
-  "id": "fd67d00bc3eb",
-  "firm": "tpg",
-  "title": "APRA targets trustees with new investment rules",
-  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FWXJlSXllNXcySm9WbjFrdGxQa0VKbzJvNmxpb0lPQld5YXVaWXl6bzduZktDVUQxa003bW1oWnkwb2JkNjVNcTBERFZ3d21GdUE1YmhiRTJyTG1ENG85NEplNVg4TjVpTDUySGpRbFo1R195a1dHU0Z1cw?oc=5",
-  "date": "2026-10-01T07:00:00.000Z",
-  "publisher": "ifa",
-  "source": "portco:equity-trustees",
-  "official": false,
-  "firstSeen": "2026-11-02T23:38:36.994Z",
-  "portco": "equity-trustees"
  },
  {
   "id": "16e44f83cf44",
@@ -36539,6 +36643,18 @@
   "official": false,
   "firstSeen": "2026-10-26T23:37:51.028Z",
   "portco": "zenoti"
+ },
+ {
+  "id": "87fb2cb5c2d7",
+  "firm": "warburg-pincus",
+  "title": "Truhome Overtakes Aavas as No. 2 Affordable Hsg Financier",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSjlrbHBRd1VxRkRidUNPMzhKdHFjRmtBMTBxaGhBcXRSaXpRQkRTOHdnSlZLXzBxVkdUZF9RV3B0X1NjTXVkZHBySG56RUlmNDAtbGJ5RmJrMHJ4Yk4zTVJ4S21iTXZxWk82aWdMVENCazJTeENFNDBVZDBMQ3I2YjRzYlJZREF6SVdrTXBZMWxmSzJVYUozcnFlLV9SaU83MURnMFhlRVJzWldqV3cwSTY3OA?oc=5",
+  "date": "2026-09-19T07:00:00.000Z",
+  "publisher": "TradingView",
+  "source": "portco:truhome-finance",
+  "official": false,
+  "firstSeen": "2026-10-26T23:37:51.028Z",
+  "portco": "truhome-finance"
  },
  {
   "id": "b87fd48ddf1f",
@@ -38143,18 +38259,6 @@
   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaUhSTnQ5T2pfQUJ4SHJmT2JhX0tOemV3eEdUTTVPQ0FIbVViUkwyaFRtT3dZcEJvcFBMb29WWE5lTVpFdGhMMnhlM2VLRGRvTmV5am1EWFh5d1pIYjZmQU02RnA2cXMyLXRXQkwwRVYzRkNJRXVSSzVEczlnSDI3TnVHM1V5SVltSGlzZTdRa2hDYTAyUTF5bnJIbXhLeXA4U0I3di1qQzLSAa4BQVVfeXFMTWtIVTV0WXVuTUp5TnBtcEJqMm1fV1A1dWg4MTN5SHFpUFdfR0d0eFhZUHpfMzMwOWk5dHFMUV9DTDZNSHRIYUNPNy1CU1k3NHk4QU9uaE9TSmtHTlloLVBXMVlMOW1yVTRxZU8wQzJvTkgwMWdWRVNvaC1UekFaUWVJZkVmWS04dTE4QU1qUTEwenM5TzlERGVVLXdBUF9DYXlueFpFMkctemUyUUxB?oc=5",
   "date": "2026-07-27T07:00:00.000Z",
   "publisher": "Newsd.in",
-  "source": "portco:truhome-finance",
-  "official": false,
-  "firstSeen": "2026-10-26T23:37:51.028Z",
-  "portco": "truhome-finance"
- },
- {
-  "id": "e743f5326eb0",
-  "firm": "warburg-pincus",
-  "title": "Upcoming IPOs: Zepto, Shiprocket, Truhome & others eye to raise Rs 25,000 crore in August",
-  "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONVJyRWhfNE9DMGJuOVkwRHFzQjZYX3QybWF6Yl91bUc3X3VNa25VVFBxWlpQdmhUTjJwVnRKaEtuSlNqUjR2aVpNckRPZXpFbU04RE50NlY0dWNnNEFPSmVpSk9VWS1wcndvd2pMbTZUUS1NRGZGYWM3UHktQnMwZGRhaGdseXR3UzVTUl9salZ6cXk0d0ZzcXlYek95eG16SjhkSHhPM3h2am9ORFdiZEowc0RQaE9yS3ppVjdyeWJXSjFvRmVpMDhoNjduNUNKclN0M3VWU05QeDBpbWwzb1RzazNHZUhORGkw0gHwAUFVX3lxTFBmRXMxSVJQOGpVcXNLQkE4end2dVZwZWpaZmttVTNGbGRyUHFrQmhNOFR4MVVyRW5VX1hULVlPaF9Xa0pkb0VEWWdBWUZsbFViMVFUcEtDaXplN1JLVHktRUYxc0hJMUs4UV9KaGZjUXY1eGJrSmc3NnU2OXJBQ1dqSldhLUc2ZW10SzJGLWdyWEI3SUNLQXVRRUlyZng0UlBEU09MeFExVnJDU1RiYk5nUEZveEx1dV8wOEVNeUhHU2hiaXBxaV93US05T05SSVBmdU4zSS0zeUlGcWU1Vll5bkNwTGp4eVpWNXhGM09HQg?oc=5",
-  "date": "2026-07-27T07:00:00.000Z",
-  "publisher": "Business Today",
   "source": "portco:truhome-finance",
   "official": false,
   "firstSeen": "2026-10-26T23:37:51.028Z",

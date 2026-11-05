@@ -3,8 +3,8 @@
  "since": "2026-11-04T01:15:30.000Z",
  "section": "PE Clients",
  "counts": {
-  "newSince": 16,
-  "relevant": 928,
+  "newSince": 17,
+  "relevant": 936,
   "hot": 3,
   "carried": 0
  },
@@ -218,6 +218,32 @@
    "carried": false
   },
   {
+   "id": "bf346467ac80",
+   "title": "Colonial First State Group Acquires 5% Stake in Karoon Energy, Becoming New Major Shareholder",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNHFpbGNlTHR5XzRDcGlpbHU3V2J3Ykw5UzhXSmlmU3lmZTRwSy1fT2NPSldUMjh0Uk4tanlWWndYMVdfYU9Jc2o0WGdyUGtDZTM1YXB4bnpMeWdQdVZYcUs3SFVnYzVCaU9tVEMwdWVCNVVFT0dMRlBfT0dNR1g2TDZZUHkyMk9Gc2VXeWVlMDdvSWJVVXJQWTZXdzVxOGlSZkhNbzh4dlBGRkt2NDRYOFF0dnlVS1JfSk5yTTVfdjI3c3ZJdjRPLXExRG9YblBtLXE0YQ?oc=5",
+   "publisher": "Kalkine Media",
+   "date": "2026-11-03T13:20:20.000Z",
+   "firstSeen": "2026-11-04T01:17:00.929Z",
+   "group": "KKR",
+   "groupId": "kkr",
+   "kind": "addon",
+   "phase": "signed",
+   "subject": "Colonial",
+   "heat": 55,
+   "band": "warm",
+   "parts": {
+    "apac": 0,
+    "live": 18,
+    "tech": 15,
+    "sponsor": 12,
+    "size": 0
+   },
+   "why": "Colonial First State (CFS), a KKR portfolio company, is buying Colonial: the integration plan is the open question.",
+   "call": "Call the KKR deal team covering Colonial First State (CFS): stack consolidation, data migration and product overlap.",
+   "outlets": 1,
+   "carried": false
+  },
+  {
    "id": "d3820ff898b9",
    "title": "Latham & Watkins Advises Vistra on Completed Acquisition of Cogentrix Natural Gas Portfolio",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZXZxOUR3ZFozelZHWGJDZEF5TUZBX0pRT2tpTEg4RFVEcW9oTXJDT2lQbHY1UkxOM3Z2Zl9TUDVMMlFZalZVYzJsQlEtNnVvVFBWdENzck8xZzltLWxVaV9JTHd2d1lrdTRydFdLRjRFaW8tbnRkN3lEMHhqRVlIYUFKUjhqZEEtSldKRVFtNHFvbkRuX2NndzhRMlQtWXNoZUZxa1RqZ18ta2tPOXV0ZzdfUVY?oc=5",
@@ -241,32 +267,6 @@
    "why": "Vistra, a EQT portfolio company, has closed its purchase of Cogentrix Natural Gas: integration is now, and buy-and-build platforms keep buying.",
    "call": "Get on Vistra’s next add-on early: a standing tech DD and integration role.",
    "outlets": 1,
-   "carried": false
-  },
-  {
-   "id": "d8cffbf658ec",
-   "title": "Ballard Mining Director Paul Brennan Purchases 50,000 Shares for $29,244.13 on 30 October 2026",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRzAzVWdJak5zT3JPNTZ5ZjdFOEM0NTQxWWJneWwtU0NodDljNkFPQnIxZ2U3M2pTcU1ualZEWTBVc25ldTF5S2FLWmxwc21yd3I3dXp1MmlNV2NfRi1ZN1BURDByczlMRlMydzg4RTVHQXpoWS1nSWZRZzV5QjNqVTg2WHlfUllMenlxNC11UDRXdURzQ0s3VzZ6TmNLbXQ5WmgxYUNyNDZvNnIxOUQzSUpmSmtiWW1zTE03UlNkMUZmaHJUQTJEMThDM3ZNajJlMlJn?oc=5",
-   "publisher": "Kalkine Media",
-   "date": "2026-11-03T13:05:48.000Z",
-   "firstSeen": "2026-11-04T01:17:00.929Z",
-   "group": "Macquarie Capital",
-   "groupId": "macquarie-capital",
-   "kind": "addon",
-   "phase": "signed",
-   "subject": "Brennan",
-   "heat": 48,
-   "band": "warm",
-   "parts": {
-    "apac": 0,
-    "live": 14,
-    "tech": 15,
-    "sponsor": 9,
-    "size": 0
-   },
-   "why": "Brennan, a Macquarie Capital portfolio company, is buying Brennan: the integration plan is the open question.",
-   "call": "Call the Macquarie Capital deal team covering Brennan: stack consolidation, data migration and product overlap.",
-   "outlets": 2,
    "carried": false
   }
  ]

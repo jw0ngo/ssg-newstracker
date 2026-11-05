@@ -90,6 +90,41 @@
   "firstSeen": "2026-11-02T10:20:03Z"
  },
  {
+  "id": "affinity-equity-scotpac",
+  "firm": "affinity-equity",
+  "name": "ScotPac (Scottish Pacific)",
+  "slug": "scotpac",
+  "industry": "fintech",
+  "industryLabel": "SME non-bank lender (invoice, trade & asset finance)",
+  "hq": "Sydney, Australia",
+  "geos": [
+   "Australia",
+   "New Zealand"
+  ],
+  "apac": true,
+  "heldSince": "2018-09",
+  "stake": "control",
+  "valuation": {
+   "amount": "A$1bn+",
+   "basis": "Street Talk (AFR), 22 Mar 2026: Affinity targeting a '$1 billion-plus exit' with at least eight suitors in due diligence; Mergermarket/ION (late 2025) estimated the deal at US$600m-700m. Affinity's 2018 take-private valued the then ASX-listed company at ~A$630m (A$4.40/share).",
+   "url": "https://ionanalytics.com/insights/mergermarket/affinity-prepares-to-launch-scotpac-sale-in-1q26/"
+  },
+  "summary": "Australia's largest non-bank SME lender (invoice, trade and asset finance; loan book ~A$3bn, pre-tax earnings >A$100m per May 2026 coverage), also serving NZ. Affinity took the ASX-listed Scottish Pacific Group private in 2018 at A$4.40/share (~A$630m) via its SME Capital Investments III vehicle; it later bolted on fintech lender Business Fuel.",
+  "signals": [
+   {
+    "date": "2018-09-24",
+    "publisher": "ASX (Scottish Pacific Group announcement)",
+    "title": "Scottish Pacific Group - scheme of arrangement with Affinity Equity Partners (A$4.40 cash per share)",
+    "url": "https://www.asx.com.au/asxpdf/20180924/pdf/43ykz7z5sk80tf.pdf"
+   }
+  ],
+  "exit": {
+   "note": "Sale process running: Mergermarket/ION (late 2025) said Affinity would launch a sale in 1Q26 (NAB, Judo, CBA, Japanese banks interested); Street Talk/AFR 22 Mar 2026 reported 8+ suitors (incl. Brookfield, BGH) in due diligence for a A$1bn+ exit; ChannelNews, May 2026: first attempt failed to draw a buyer, Affinity weighing a dual-track with an IPO, Goldman Sachs involved. No signed deal found as of 2 Nov 2026.",
+   "status": "process"
+  },
+  "firstSeen": "2026-11-02T10:20:03Z"
+ },
+ {
   "id": "affinity-equity-serveone",
   "firm": "affinity-equity",
   "name": "Serveone",
@@ -219,6 +254,52 @@
   "firstSeen": "2026-11-02T10:20:03Z"
  },
  {
+  "id": "eqt-acuon-group",
+  "firm": "eqt",
+  "name": "Acuon Group",
+  "slug": "acuon-group",
+  "industry": "fintech",
+  "industryLabel": "non-bank consumer/SME lender & savings bank (Acuon Capital, Acuon Savings Bank)",
+  "hq": "Seoul, South Korea",
+  "geos": [
+   "South Korea"
+  ],
+  "apac": true,
+  "heldSince": "2019-08",
+  "stake": "control",
+  "valuation": {
+   "amount": "KRW ~900bn (US$664m)",
+   "basis": "reported package price for Acuon Capital + Acuon Savings Bank in the agreed sale to Hanwha Life / Centroid, Sep 2026 (Korea Economic Daily via Coverager); Hanwha Life's board approved KRW 440bn for its 50.54% of Acuon Capital",
+   "url": "https://coverager.com/hanwha-life-plans-664-million-acuon-acquisition/"
+  },
+  "summary": "Korean independent financial platform comprising Acuon Capital (consumer, auto/leasing and corporate lending) and Acuon Savings Bank, ~KRW 10tn total assets. Baring Private Equity Asia (BPEA Fund VII) bought it from J.C. Flowers in Aug 2019 (reported KRW 700bn). On 30 Sep 2026 EQT agreed to sell it to a consortium of Hanwha Life (50.54% of Acuon Capital) and Centroid PE (45.52%), pending regulatory approval.",
+  "signals": [
+   {
+    "date": "2026-10-15",
+    "publisher": "EQT AB",
+    "title": "EQT AB (publ) Q3 Announcement 2026 (lists Acuon among Q3 exits)",
+    "url": "https://eqtgroup.com/news/eqt-ab-publ-q3-announcement-2026-2026-10-15"
+   },
+   {
+    "date": "2026-09-30",
+    "publisher": "EQT (press release)",
+    "title": "EQT to sell Acuon Group, a Leading Korean Independent Financial Platform",
+    "url": "https://eqtgroup.com/news/eqt-to-sell-acuon-group-a-leading-korean-independent-financial-platform-2026-09-30"
+   },
+   {
+    "date": "2019-08-02",
+    "publisher": "AVCJ",
+    "title": "Baring Asia buys Korean leasing business from JC Flowers",
+    "url": "https://www.avcj.com/avcj/news/3015990/baring-asia-buys-korean-leasing-business-from-jc-flowers"
+   }
+  ],
+  "exit": {
+   "note": "EQT / DealStreetAsia, 30 Sep 2026: sale to Hanwha Life–Centroid consortium signed, closing subject to financial-regulator approval (not closed as of 2 Nov 2026)",
+   "status": "process"
+  },
+  "firstSeen": "2026-11-02T07:33:26Z"
+ },
+ {
   "id": "eqt-ags-health",
   "firm": "eqt",
   "name": "AGS Health",
@@ -279,6 +360,43 @@
   "exit": {
    "note": "",
    "status": "none"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "eqt-banking-circle",
+  "firm": "eqt",
+  "name": "Banking Circle",
+  "slug": "banking-circle",
+  "industry": "fintech",
+  "industryLabel": "cross-border payments & banking-as-a-service infrastructure (licensed bank)",
+  "hq": "Luxembourg, Luxembourg",
+  "geos": [
+   "Luxembourg",
+   "Europe",
+   "United Kingdom",
+   "Singapore"
+  ],
+  "apac": false,
+  "heldSince": "2018-07",
+  "stake": "majority",
+  "valuation": {
+   "amount": "US$2bn+",
+   "basis": "Reuters, Sep 2024: EQT hoped a sale would value the company at more than US$2bn including debt (c.US$400m revenue, US$80m EBITDA)",
+   "url": "https://investing.com/news/stock-market-news/buyout-firm-eqt-explores-2-billion-sale-of-banking-circle-sources-say-3611949"
+  },
+  "summary": "Luxembourg-headquartered, EU-licensed payments bank providing cross-border payment, FX and banking-as-a-service infrastructure to payment firms, marketplaces and banks. EQT VIII (with EQT Ventures) bought majority ownership from Saxo Bank in July 2018; founding staff hold the rest. Reuters reported in September 2024 that EQT was exploring a US$2bn+ sale with Morgan Stanley.",
+  "signals": [
+   {
+    "date": "2024-09-11",
+    "publisher": "Reuters via Investing.com",
+    "title": "Buyout firm EQT explores $2 billion sale of Banking Circle, sources say",
+    "url": "https://investing.com/news/stock-market-news/buyout-firm-eqt-explores-2-billion-sale-of-banking-circle-sources-say-3611949"
+   }
+  ],
+  "exit": {
+   "note": "Reuters 11 Sep 2024: sale exploration with Morgan Stanley at US$2bn+; Bloomberg (Dec 2024) said FT Partners to run a US$2-4bn process from Q1 2025 (possibly minority); no buyer reported as of Oct 2026",
+   "status": "process"
   },
   "firstSeen": "2026-10-26T11:44:27Z"
  },
@@ -432,6 +550,40 @@
    "status": "none"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
+ },
+ {
+  "id": "eqt-credila-financial-services",
+  "firm": "eqt",
+  "name": "Credila Financial Services (ex-HDFC Credila)",
+  "slug": "credila-financial-services",
+  "industry": "fintech",
+  "industryLabel": "Education-loan NBFC, India",
+  "hq": "Mumbai, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2024-03",
+  "stake": "majority",
+  "valuation": {
+   "amount": null,
+   "basis": "IPO size Rs 5,000 cr (Rs 3,000 cr fresh + Rs 2,000 cr OFS); valuation not disclosed",
+   "url": "https://www.theweek.in/wire-updates/business/2025/06/27/dcm17-biz-ipo-credila-fin.html"
+  },
+  "summary": "India's only pure-play education-loan NBFC, lending to students for domestic and overseas study; EQT Private Capital Asia (Kopvoorn BV) and ChrysCapital bought ~90% from HDFC Bank in Mar 2024 (now 81.4% after Shinhan Bank took 11%).",
+  "signals": [
+   {
+    "date": "2025-06-27",
+    "publisher": "PTI via The Week",
+    "title": "Credila Fin Services files updated draft papers for IPO to raise Rs 5,000 cr",
+    "url": "https://www.theweek.in/wire-updates/business/2025/06/27/dcm17-biz-ipo-credila-fin.html"
+   }
+  ],
+  "exit": {
+   "note": "IPO: SEBI approval 15 May 2025, updated DRHP 27 Jun 2025; EQT affiliate to sell Rs 950 cr in OFS; dates/price band not yet announced",
+   "status": "process"
+  },
+  "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
   "id": "eqt-douzone-bizon",
@@ -4236,6 +4388,40 @@
   "firstSeen": "2026-11-05T04:22:12Z"
  },
  {
+  "id": "jungle-ventures-infinity-fincorp-solutions",
+  "firm": "jungle-ventures",
+  "name": "Infinity Fincorp Solutions",
+  "slug": "infinity-fincorp-solutions",
+  "industry": "fintech",
+  "industryLabel": "Fintech · B2B",
+  "hq": "India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2024",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": null
+  },
+  "summary": "Infinity is a RBI-registered NBFC enabling credit access to micro entrepreneurs and small businesses in tier 3 and 4 cities and towns across India, including tea shop owners, vegetable vendors, small machine enterprises, restaurants, provision stores, textile shops, electricians, plumbers, carpenters, milkmen, laundry service providers, hairdressers, and financially underserved small-scale manufacturers.",
+  "signals": [
+   {
+    "date": "2026-11-05",
+    "title": "Infinity Fincorp Solutions on Jungle Ventures' portfolio page (partnered 2024)",
+    "url": "https://www.jungle.vc/portfolio",
+    "publisher": "Jungle Ventures portfolio page"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T06:07:46Z"
+ },
+ {
   "id": "jungle-ventures-ipid",
   "firm": "jungle-ventures",
   "name": "iPiD",
@@ -5469,6 +5655,52 @@
   "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
+  "id": "kkr-colonial-first-state",
+  "firm": "kkr",
+  "name": "Colonial First State (CFS)",
+  "slug": "colonial-first-state",
+  "industry": "fintech",
+  "industryLabel": "superannuation & wealth platform",
+  "hq": "Sydney, Australia",
+  "geos": [
+   "Australia"
+  ],
+  "apac": true,
+  "heldSince": "2021-12",
+  "stake": "majority",
+  "valuation": {
+   "amount": "A$3.3bn",
+   "basis": "implied 100% valuation of the 2020 deal: KKR paid A$1.7bn for 55%; sale completed 1 Dec 2021",
+   "url": "https://www.investordaily.com.au/cba-completes-sale-of-colonial"
+  },
+  "summary": "Australian superannuation, funds-management and wealth platform (~A$170bn AUM). KKR bought 55% from Commonwealth Bank for A$1.7bn (agreed May 2020, completed 1 Dec 2021), with CBA keeping a 45% minority; CFS still describes itself as majority owned by a KKR affiliate (Feb 2026).",
+  "signals": [
+   {
+    "date": "2026-07-20",
+    "publisher": "Colonial First State",
+    "title": "Colonial First State named among Australia's top-performing super funds in FY26 by Chant West and SuperRatings",
+    "url": "https://www.cfs.com.au/about-us/media/cfs-top-performing-super-fund-fy26"
+   },
+   {
+    "date": "2026-02-05",
+    "publisher": "Colonial First State",
+    "title": "CFS Index Conservative Class A Investment News (states CFS is majority owned by an affiliate of KKR, CBA significant minority)",
+    "url": "https://www.cfs.com.au/content/dam/cfs-winged/documents/cfs-edge-investment-news/CFS-Index-Conservative-Class-A-Investment-News.pdf"
+   },
+   {
+    "date": "2021-12-01",
+    "publisher": "Commonwealth Bank newsroom",
+    "title": "CFS sale completed",
+    "url": "https://www.commbank.com.au/articles/newsroom/2021/12/CFS-sale-completed.html"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-02T07:33:26Z"
+ },
+ {
   "id": "kkr-cotiviti",
   "firm": "kkr",
   "name": "Cotiviti",
@@ -5747,6 +5979,46 @@
   "firstSeen": "2026-10-05T10:37:52Z"
  },
  {
+  "id": "kkr-incred",
+  "firm": "kkr",
+  "name": "InCred",
+  "slug": "incred",
+  "industry": "fintech",
+  "industryLabel": "digital-first NBFC (consumer, education and SME lending)",
+  "hq": "Mumbai, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2022",
+  "stake": "significant minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; IPO fresh issue Rs 1,250 cr plus OFS of up to 9.9 crore shares (press estimate Rs 3,000–4,000 cr total), UDRHP May 2026",
+   "url": "https://inc42.com/buzz/incred-holdings-files-udrhp-for-ipo-to-raise-₹1250-cr-via-fresh-issue/"
+  },
+  "summary": "Mumbai-based tech-led NBFC (InCred Financial Services) lending to consumers, students and SMEs; KKR became a major shareholder in 2022 when KKR India Financial Services merged into InCred. InCred Holdings filed its updated DRHP with SEBI on 6 May 2026 for a Rs 1,250 cr fresh issue plus an offer for sale in which KKR India Financial Investments is the largest seller (up to 4 crore shares).",
+  "signals": [
+   {
+    "date": "2026-05-08",
+    "publisher": "Entrepreneur India",
+    "title": "InCred Holdings Files UDRHP with SEBI for INR 1,250 Cr IPO",
+    "url": "https://india.entrepreneur.com/business-news/incred-holdings-files-udrhp-with-sebi-for-inr-1250-cr-ipo"
+   },
+   {
+    "date": "2026-05-07",
+    "publisher": "exchange4media",
+    "title": "InCred Holdings files DRHP for IPO",
+    "url": "https://www.exchange4media.com/industry-briefing-news/incred-holdings-files-drhp-for-ipo-154463.html"
+   }
+  ],
+  "exit": {
+   "note": "IPO: SEBI approval Feb 2026, UDRHP filed 6 May 2026 with KKR selling up to 4 crore shares in the OFS; launch timing open (Outlook Business)",
+   "status": "process"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "kkr-infinx",
   "firm": "kkr",
   "name": "Infinx",
@@ -5996,6 +6268,47 @@
    "status": "none"
   },
   "firstSeen": "2026-10-05T10:37:52Z"
+ },
+ {
+  "id": "kkr-latitude-financial",
+  "firm": "kkr",
+  "name": "Latitude Financial",
+  "slug": "latitude-financial",
+  "industry": "fintech",
+  "industryLabel": "consumer finance / credit cards, instalments & personal loans",
+  "hq": "Melbourne, Australia",
+  "geos": [
+   "Australia",
+   "New Zealand"
+  ],
+  "apac": true,
+  "heldSince": "2015",
+  "stake": "significant minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; ASX-listed (LFS), no 2025-26 valuation seen",
+   "url": null
+  },
+  "summary": "Trans-Tasman consumer-finance company (credit cards, instalment and personal loans) formed when a KKR, Varde Partners and Deutsche Bank consortium bought GE Capital's ANZ consumer business in 2015. Listed on ASX in 2021; after the 2023 unwind of the KVD Singapore holding vehicle KKR holds ~26.25% directly, alongside Varde (26.25%) and Deutsche Bank (16.53%).",
+  "signals": [
+   {
+    "date": "2026-08-21",
+    "publisher": "Latitude Group Holdings (ASX)",
+    "title": "Half year financial report to 30 June 2026 (NPAT from continuing operations A$54.4m, up 37%)",
+    "url": "https://announcements.asx.com.au/asxpdf/20260821/pdf/0730t51ysgbn3d.pdf"
+   },
+   {
+    "date": "2023-06-07",
+    "publisher": "Toitu Te Whenua LINZ (NZ Overseas Investment Office)",
+    "title": "Decision: KKR Clarendon Holdings consent to acquire up to 26.3% of Latitude Group Holdings directly",
+    "url": "https://www.linz.govt.nz/node/11323"
+   }
+  ],
+  "exit": {
+   "note": "ASX-listed since Apr 2021; KKR 26.25% direct stake after 2023 restructure (Banking Day, 2023); no KKR sell-down found in 2024-26 coverage",
+   "status": "listed"
+  },
+  "firstSeen": "2026-11-02T07:33:26Z"
  },
  {
   "id": "kkr-maya",
@@ -6286,6 +6599,47 @@
    "status": "partial"
   },
   "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "kkr-pepper-money",
+  "firm": "kkr",
+  "name": "Pepper Money",
+  "slug": "pepper-money",
+  "industry": "fintech",
+  "industryLabel": "non-bank mortgage & asset-finance lender",
+  "hq": "Sydney, Australia",
+  "geos": [
+   "Australia",
+   "New Zealand"
+  ],
+  "apac": true,
+  "heldSince": "2017",
+  "stake": "majority",
+  "valuation": {
+   "amount": "A$1.16bn",
+   "basis": "value implied by Challenger / Pepper Group's initial non-binding takeover proposal, Feb 2026 (later cut to A$2.25/share, ~A$1.01bn, and withdrawn)",
+   "url": "https://cdn.dealstreetasia.com/stories/australia-pepper-money-challenger-472165"
+  },
+  "summary": "ASX-listed non-bank lender (mortgages, asset finance; record A$24.0bn AUM at 1H26). KKR took Pepper Group private in 2017 and relisted Pepper Money in 2021; KKR-owned Pepper Group ANZ HoldCo still holds 60.59% (notice 30 Jan 2026). A Challenger/Pepper Group takeover approach in Feb-Mar 2026 was ended on 25 Mar 2026.",
+  "signals": [
+   {
+    "date": "2026-08-20",
+    "publisher": "Pepper Money (ASX)",
+    "title": "1H 2026 results: record Total Assets Under Management of $24.0 billion; RAMS portfolio acquisition completed 1 Aug 2026 with KKR credit funds and PIMCO",
+    "url": "https://investorpa.com/announcement-pdf/20260820/329885.pdf"
+   },
+   {
+    "date": "2026-03-25",
+    "publisher": "Pepper Money (ASX)",
+    "title": "Cessation of Discussions with Challenger",
+    "url": "https://investorpa.com/announcement/273074/"
+   }
+  ],
+  "exit": {
+   "note": "ASX-listed (PPM) since May 2021; KKR-controlled Pepper Group ANZ HoldCo at 60.59% (substantial holder notice 30 Jan 2026, MarketIndex); Challenger takeover talks ended 25 Mar 2026",
+   "status": "listed"
+  },
+  "firstSeen": "2026-11-02T07:33:26Z"
  },
  {
   "id": "kkr-premialab",
@@ -9171,6 +9525,40 @@
   "firstSeen": "2026-11-05T04:22:12Z"
  },
  {
+  "id": "peak-xv-aptus-housing-finance",
+  "firm": "peak-xv",
+  "name": "Aptus Housing Finance",
+  "slug": "aptus-housing-finance",
+  "industry": "fintech",
+  "industryLabel": "Fintech",
+  "hq": "India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2019",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": null
+  },
+  "summary": "Aptus provides affordable home loans and loans against property to self-employed and underserved customers.",
+  "signals": [
+   {
+    "date": "2026-11-05",
+    "title": "Aptus Housing Finance on Peak XV Partners' portfolio page (partnered 2019)",
+    "url": "https://www.peakxv.com/companies/aptus-housing-finance",
+    "publisher": "Peak XV Partners portfolio page"
+   }
+  ],
+  "exit": {
+   "note": "Peak XV Partners portfolio page, 2026-11-05: shown as listed (IPO)",
+   "status": "listed"
+  },
+  "firstSeen": "2026-11-05T06:07:46Z"
+ },
+ {
   "id": "peak-xv-arintra",
   "firm": "peak-xv",
   "name": "Arintra",
@@ -10191,6 +10579,40 @@
   "firstSeen": "2026-11-05T04:22:12Z"
  },
  {
+  "id": "peak-xv-chocolate-finance",
+  "firm": "peak-xv",
+  "name": "Chocolate Finance",
+  "slug": "chocolate-finance",
+  "industry": "fintech",
+  "industryLabel": "Fintech",
+  "hq": "Singapore",
+  "geos": [
+   "Singapore"
+  ],
+  "apac": true,
+  "heldSince": "2022",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": null
+  },
+  "summary": "Chocolate Finance is a Singapore-based asset manager offering a savings platform with daily yields backed by fixed-income funds, plus a debit card.",
+  "signals": [
+   {
+    "date": "2026-11-05",
+    "publisher": "Peak XV Partners portfolio page",
+    "title": "Chocolate Finance on Peak XV Partners' portfolio page (partnered 2022)",
+    "url": "https://www.peakxv.com/companies/chocolate-finance"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T04:22:12Z"
+ },
+ {
   "id": "peak-xv-circles-life",
   "firm": "peak-xv",
   "name": "Circles.Life",
@@ -10871,6 +11293,40 @@
   "firstSeen": "2026-11-05T04:22:12Z"
  },
  {
+  "id": "peak-xv-digit-insurance",
+  "firm": "peak-xv",
+  "name": "Digit Insurance",
+  "slug": "digit-insurance",
+  "industry": "fintech",
+  "industryLabel": "Fintech",
+  "hq": "India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2022",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": null
+  },
+  "summary": "Digit Insurance is a FinTech leader simplifying insurance, transforming how products are viewed, bought, and claimed.",
+  "signals": [
+   {
+    "date": "2026-11-05",
+    "publisher": "Peak XV Partners portfolio page",
+    "title": "Digit Insurance on Peak XV Partners' portfolio page (partnered 2022)",
+    "url": "https://www.peakxv.com/companies/digit-insurance"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T04:22:12Z"
+ },
+ {
   "id": "peak-xv-diri-care",
   "firm": "peak-xv",
   "name": "Diri Care",
@@ -11075,6 +11531,40 @@
   "firstSeen": "2026-11-05T04:22:12Z"
  },
  {
+  "id": "peak-xv-edelweiss",
+  "firm": "peak-xv",
+  "name": "Edelweiss",
+  "slug": "edelweiss",
+  "industry": "fintech",
+  "industryLabel": "Fintech",
+  "hq": "India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2007",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": null
+  },
+  "summary": "Edelweiss is a diversified financial services group across credit, asset management, insurance and wealth.",
+  "signals": [
+   {
+    "date": "2026-11-05",
+    "title": "Edelweiss on Peak XV Partners' portfolio page (partnered 2007)",
+    "url": "https://www.peakxv.com/companies/edelweiss",
+    "publisher": "Peak XV Partners portfolio page"
+   }
+  ],
+  "exit": {
+   "note": "Peak XV Partners portfolio page, 2026-11-05: shown as listed (IPO)",
+   "status": "listed"
+  },
+  "firstSeen": "2026-11-05T06:07:46Z"
+ },
+ {
   "id": "peak-xv-elivaas",
   "firm": "peak-xv",
   "name": "Elivaas",
@@ -11245,6 +11735,40 @@
   "firstSeen": "2026-11-05T04:22:12Z"
  },
  {
+  "id": "peak-xv-finova-capital",
+  "firm": "peak-xv",
+  "name": "Finova Capital",
+  "slug": "finova-capital",
+  "industry": "fintech",
+  "industryLabel": "Fintech",
+  "hq": "India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2017",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": null
+  },
+  "summary": "Finova Capital is an RBI-registered FinTech NBFC empowering micro and small enterprises with business loans.",
+  "signals": [
+   {
+    "date": "2026-11-05",
+    "title": "Finova Capital on Peak XV Partners' portfolio page (partnered 2017)",
+    "url": "https://www.peakxv.com/companies/finova-capital",
+    "publisher": "Peak XV Partners portfolio page"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T06:07:46Z"
+ },
+ {
   "id": "peak-xv-fintellix",
   "firm": "peak-xv",
   "name": "Fintellix",
@@ -11379,6 +11903,40 @@
    "status": "none"
   },
   "firstSeen": "2026-11-05T04:22:12Z"
+ },
+ {
+  "id": "peak-xv-five-star-business-finance",
+  "firm": "peak-xv",
+  "name": "Five Star Business Finance",
+  "slug": "five-star-business-finance",
+  "industry": "fintech",
+  "industryLabel": "Fintech",
+  "hq": "India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2017",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": null
+  },
+  "summary": "Five Star Business Finance, a leading FinTech NBFC, empowers under-banked individuals and SMBs with tailored loan solutions.",
+  "signals": [
+   {
+    "date": "2026-11-05",
+    "title": "Five Star Business Finance on Peak XV Partners' portfolio page (partnered 2017)",
+    "url": "https://www.peakxv.com/companies/five-star-business-finance",
+    "publisher": "Peak XV Partners portfolio page"
+   }
+  ],
+  "exit": {
+   "note": "Peak XV Partners portfolio page, 2026-11-05: shown as listed (IPO)",
+   "status": "listed"
+  },
+  "firstSeen": "2026-11-05T06:07:46Z"
  },
  {
   "id": "peak-xv-flip",
@@ -12061,6 +12619,40 @@
   "firstSeen": "2026-11-05T04:22:12Z"
  },
  {
+  "id": "peak-xv-india-shelter-finance",
+  "firm": "peak-xv",
+  "name": "India Shelter Finance",
+  "slug": "india-shelter-finance",
+  "industry": "fintech",
+  "industryLabel": "Fintech",
+  "hq": "India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2010",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": null
+  },
+  "summary": "India Shelter Finance provides affordable home loans and loans against property to middle-income households.",
+  "signals": [
+   {
+    "date": "2026-11-05",
+    "title": "India Shelter Finance on Peak XV Partners' portfolio page (partnered 2010)",
+    "url": "https://www.peakxv.com/companies/india-shelter-finance",
+    "publisher": "Peak XV Partners portfolio page"
+   }
+  ],
+  "exit": {
+   "note": "Peak XV Partners portfolio page, 2026-11-05: shown as listed (IPO)",
+   "status": "listed"
+  },
+  "firstSeen": "2026-11-05T06:07:46Z"
+ },
+ {
   "id": "peak-xv-inferless",
   "firm": "peak-xv",
   "name": "Inferless (fka Peak Performer)",
@@ -12469,6 +13061,40 @@
   "firstSeen": "2026-11-05T04:22:12Z"
  },
  {
+  "id": "peak-xv-lighthouse-canton",
+  "firm": "peak-xv",
+  "name": "Lighthouse Canton",
+  "slug": "lighthouse-canton",
+  "industry": "fintech",
+  "industryLabel": "Fintech",
+  "hq": "Singapore",
+  "geos": [
+   "Singapore"
+  ],
+  "apac": true,
+  "heldSince": "2025",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": null
+  },
+  "summary": "Lighthouse Canton is a global investment management firm offering wealth management, asset management and startup ecosystem services.",
+  "signals": [
+   {
+    "date": "2026-11-05",
+    "title": "Lighthouse Canton on Peak XV Partners' portfolio page (partnered 2025)",
+    "url": "https://www.peakxv.com/companies/lighthouse-canton",
+    "publisher": "Peak XV Partners portfolio page"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T06:07:46Z"
+ },
+ {
   "id": "peak-xv-lightmetrics",
   "firm": "peak-xv",
   "name": "LightMetrics",
@@ -12603,6 +13229,40 @@
    "status": "listed"
   },
   "firstSeen": "2026-11-05T04:22:12Z"
+ },
+ {
+  "id": "peak-xv-manappuram",
+  "firm": "peak-xv",
+  "name": "Manappuram",
+  "slug": "manappuram",
+  "industry": "fintech",
+  "industryLabel": "Fintech",
+  "hq": "India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2007",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": null
+  },
+  "summary": "Manappuram Finance is an Indian NBFC offering gold loans, microfinance, vehicle loans and other credit products.",
+  "signals": [
+   {
+    "date": "2026-11-05",
+    "title": "Manappuram on Peak XV Partners' portfolio page (partnered 2007)",
+    "url": "https://www.peakxv.com/companies/manappuram",
+    "publisher": "Peak XV Partners portfolio page"
+   }
+  ],
+  "exit": {
+   "note": "Peak XV Partners portfolio page, 2026-11-05: shown as listed (IPO)",
+   "status": "listed"
+  },
+  "firstSeen": "2026-11-05T06:07:46Z"
  },
  {
   "id": "peak-xv-manatal",
@@ -13043,6 +13703,40 @@
   "exit": {
    "note": "Peak XV Partners portfolio page, 2026-11-05: shown as listed (IPO)",
    "status": "listed"
+  },
+  "firstSeen": "2026-11-05T04:22:12Z"
+ },
+ {
+  "id": "peak-xv-neo-wealth",
+  "firm": "peak-xv",
+  "name": "Neo Wealth",
+  "slug": "neo-wealth",
+  "industry": "fintech",
+  "industryLabel": "Fintech",
+  "hq": "India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2023",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": null
+  },
+  "summary": "Neo Wealth is a leading Indian FinTech firm specializing in asset management and financial advisory.",
+  "signals": [
+   {
+    "date": "2026-11-05",
+    "publisher": "Peak XV Partners portfolio page",
+    "title": "Neo Wealth on Peak XV Partners' portfolio page (partnered 2023)",
+    "url": "https://www.peakxv.com/companies/neo-wealth"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
   },
   "firstSeen": "2026-11-05T04:22:12Z"
  },
@@ -13895,6 +14589,40 @@
    "status": "none"
   },
   "firstSeen": "2026-11-05T04:22:12Z"
+ },
+ {
+  "id": "peak-xv-prayaan-capital",
+  "firm": "peak-xv",
+  "name": "Prayaan Capital",
+  "slug": "prayaan-capital",
+  "industry": "fintech",
+  "industryLabel": "Fintech",
+  "hq": "India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2026",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": null
+  },
+  "summary": "Prayaan Capital is an Indian NBFC offering affordable secured business loans and unsecured working capital loans to small and micro-enterprises.",
+  "signals": [
+   {
+    "date": "2026-11-05",
+    "title": "Prayaan Capital on Peak XV Partners' portfolio page (partnered 2026)",
+    "url": "https://www.peakxv.com/companies/prayaan-capital",
+    "publisher": "Peak XV Partners portfolio page"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T06:07:46Z"
  },
  {
   "id": "peak-xv-pre6",
@@ -15359,6 +16087,40 @@
   "firstSeen": "2026-11-05T04:22:12Z"
  },
  {
+  "id": "peak-xv-tonik",
+  "firm": "peak-xv",
+  "name": "tonik",
+  "slug": "tonik",
+  "industry": "fintech",
+  "industryLabel": "Fintech",
+  "hq": "Philippines",
+  "geos": [
+   "Philippines"
+  ],
+  "apac": true,
+  "heldSince": "2020",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed",
+   "url": null
+  },
+  "summary": "Tonik is a leading FinTech innovator revolutionizing digital banking in Southeast Asia.",
+  "signals": [
+   {
+    "date": "2026-11-05",
+    "title": "tonik on Peak XV Partners' portfolio page (partnered 2020)",
+    "url": "https://www.peakxv.com/companies/tonik",
+    "publisher": "Peak XV Partners portfolio page"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T06:07:46Z"
+ },
+ {
   "id": "peak-xv-tracxn",
   "firm": "peak-xv",
   "name": "Tracxn",
@@ -16273,6 +17035,52 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "ta-associates-betashares",
+  "firm": "ta-associates",
+  "name": "Betashares",
+  "slug": "betashares",
+  "industry": "fintech",
+  "industryLabel": "ETF manager / investment platform",
+  "hq": "Sydney, Australia",
+  "geos": [
+   "Australia"
+  ],
+  "apac": true,
+  "heldSince": "2021-03",
+  "stake": "majority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; Temasek invested up to A$300m for a minority stake in Jun 2024 (ownership shares not disclosed); AUM passed A$50bn in Jun 2025 and >A$75bn by mid-2026",
+   "url": "https://www.investordaily.com.au/betashares-secures-300m-investment-for-expansion"
+  },
+  "summary": "Australia's second-largest ETF manager (100+ ETFs, >A$75bn AUM mid-2026). TA Associates bought Mirae Asset's majority stake and other minorities in March 2021; Temasek joined as a minority investor with up to A$300m in June 2024 alongside TA and staff shareholders.",
+  "signals": [
+   {
+    "date": "2024-06-17",
+    "publisher": "Investor Daily",
+    "title": "Betashares secures $300m investment for expansion",
+    "url": "https://www.investordaily.com.au/betashares-secures-300m-investment-for-expansion"
+   },
+   {
+    "date": "2024-06-17",
+    "publisher": "Fintech News Singapore",
+    "title": "Aussie ETF Manager Betashares Bags A$300M Investment from Temasek",
+    "url": "https://fintechnews.sg/97366/australia/temasek-invest-funding-betashares/"
+   },
+   {
+    "date": "2021-03-07",
+    "publisher": "Business Wire",
+    "title": "BetaShares Enters Next Phase of Growth With Strategic Investment from TA Associates",
+    "url": "https://www.businesswire.com/news/home/20210307005046/en/BetaShares-Enters-Next-Phase-of-Growth-With-Strategic-Investment-from-TA-Associates"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-02T07:33:26Z"
+ },
+ {
   "id": "ta-associates-billdesk",
   "firm": "ta-associates",
   "name": "BillDesk",
@@ -16305,6 +17113,92 @@
    "status": "none"
   },
   "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "ta-associates-craigs-investment-partners",
+  "firm": "ta-associates",
+  "name": "Craigs Investment Partners",
+  "slug": "craigs-investment-partners",
+  "industry": "fintech",
+  "industryLabel": "wealth management / brokerage platform",
+  "hq": "Tauranga, New Zealand",
+  "geos": [
+   "New Zealand"
+  ],
+  "apac": true,
+  "heldSince": "2024-12",
+  "stake": "co-control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; TA acquired 50% (employee and director shareholders retain 50%), signed Dec 2024, completed Apr 2025",
+   "url": "https://www.businesswire.com/news/home/20241218087239/en/craigs-announces-strategic-partnership-with-ta-associates"
+  },
+  "summary": "New Zealand's largest wealth management network by AUM: 180+ investment advisers, 19 branches, 65,000+ private-wealth clients and NZ$32bn funds under advice. TA Associates signed in Dec 2024 to buy 50% from the employee/director shareholders (terms undisclosed); OIO, court and shareholder approvals obtained and the deal completed on 30 Apr 2025.",
+  "signals": [
+   {
+    "date": "2025-04-30",
+    "publisher": "Good Returns",
+    "title": "Craigs 50% stake sale complete",
+    "url": "https://www.goodreturns.co.nz/article/976524343/craigs-50-stake-sale-complete.html"
+   },
+   {
+    "date": "2025-05-06",
+    "publisher": "Latham & Watkins",
+    "title": "Latham Advises TA Associates on Financing for Strategic Partnership with Craigs Investment Partners",
+    "url": "https://www.lw.com/en/news/2025/05/latham-advises-ta-associates-on-financing-for-strategic-partnership-with-craigs-investment-partners"
+   },
+   {
+    "date": "2024-12-18",
+    "publisher": "Business Wire",
+    "title": "Craigs Announces Strategic Partnership with TA Associates",
+    "url": "https://www.businesswire.com/news/home/20241218087239/en/craigs-announces-strategic-partnership-with-ta-associates"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-02T07:33:26Z"
+ },
+ {
+  "id": "ta-associates-fisher-funds",
+  "firm": "ta-associates",
+  "name": "Fisher Funds",
+  "slug": "fisher-funds",
+  "industry": "fintech",
+  "industryLabel": "KiwiSaver / funds management platform",
+  "hq": "Auckland, New Zealand",
+  "geos": [
+   "New Zealand"
+  ],
+  "apac": true,
+  "heldSince": "2017",
+  "stake": "significant minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; TA's 34% stake was reported in Nov 2023 as potentially worth NZ$300m+ in a sale process",
+   "url": "https://investmentnews.co.nz/investment-news/fisher-funds-why-ta-could-be-in-line-for-300m-plus-on-way-out"
+  },
+  "summary": "NZ fund manager and one of the country's largest KiwiSaver providers (bought Kiwi Wealth for NZ$310m in 2022). TA Associates took a minority stake in 2017 when TSB Community Trust (now Toi Foundation, 66%) took control, rising to 34%. TA sought bank pitches to sell its stake in Nov 2023; no completed sale has been reported and Toi reporting says TA still holds the remaining third.",
+  "signals": [
+   {
+    "date": "2023-11-24",
+    "publisher": "Good Returns",
+    "title": "US-based TA Associates mulls sale of 34% Fisher Funds stake",
+    "url": "https://goodreturns.co.nz/article/976522527/us-based-ta-associates-mulls-sale-of-34-fisher-funds-stake.html"
+   },
+   {
+    "date": "2023-11-23",
+    "publisher": "NBR",
+    "title": "Minority stake in Fisher Funds reportedly for sale",
+    "url": "https://nbr.co.nz/business/minority-stake-in-fisher-funds-reportedly-for-sale"
+   }
+  ],
+  "exit": {
+   "note": "AFR Street Talk via Good Returns, 24 Nov 2023: TA invited investment-bank pitches to sell its 34%; later reports named ACC / NZ Super / FirstCape as possible buyers; no completed sale found as of 2 Nov 2026",
+   "status": "rumoured"
+  },
+  "firstSeen": "2026-11-02T07:33:26Z"
  },
  {
   "id": "ta-associates-fractal-analytics",
@@ -16832,6 +17726,40 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "ta-associates-vastu-housing-finance",
+  "firm": "ta-associates",
+  "name": "Vastu Housing Finance",
+  "slug": "vastu-housing-finance",
+  "industry": "fintech",
+  "industryLabel": "Tech-led affordable housing lender",
+  "hq": "Mumbai, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2024-07",
+  "stake": "unknown",
+  "valuation": {
+   "amount": "₹10,000 crore (~US$1.2bn)",
+   "basis": "reported valuation at TA entry, Jul 2024 (US$400m deal incl. US$75m primary)",
+   "url": "https://dealstreetasia.com/stories/ta-associates-vastu-housing-finance-403548"
+  },
+  "summary": "Proprietary-tech affordable housing, small-business and used-vehicle lender to self-employed borrowers in semi-urban India (230+ branches, 13 states). TA led a ~US$400m growth round in 2024; Prosus later took 8.4%. ICRA AA- (Stable).",
+  "signals": [
+   {
+    "date": "2024-07-11",
+    "publisher": "TA Associates",
+    "title": "TA Announces Strategic Growth Investment in Vastu Housing Finance",
+    "url": "https://www.ta.com/news/ta-announces-strategic-growth-investment-in-vastu-housing-finance/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-06T00:58:19Z"
+ },
+ {
   "id": "ta-associates-veracode",
   "firm": "ta-associates",
   "name": "Veracode",
@@ -16865,6 +17793,40 @@
     "publisher": "Business Wire",
     "title": "Veracode Announces Significant Growth Investment from TA Associates",
     "url": "https://www.businesswire.com/news/home/20220315005831/en/Veracode-Announces-Significant-Growth-Investment-from-TA-Associates"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-06T00:58:19Z"
+ },
+ {
+  "id": "ta-associates-viridian-financial-group",
+  "firm": "ta-associates",
+  "name": "Viridian Financial Group",
+  "slug": "viridian-financial-group",
+  "industry": "fintech",
+  "industryLabel": "Diversified wealth advice and lending",
+  "hq": "Melbourne, Australia",
+  "geos": [
+   "Australia"
+  ],
+  "apac": true,
+  "heldSince": "2025-06",
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": null,
+   "url": null
+  },
+  "summary": "Australian advice-led financial services group (Viridian Advisory, Infinity Capital Solutions, Smartmove Lending) with ~A$16bn FUM and 15,000+ clients. TA's APAC team (Edward Sippel, Lily Xu) joined the board; deal signed Jun 2025, close expected Q3 2025.",
+  "signals": [
+   {
+    "date": "2025-06-29",
+    "publisher": "Business Wire",
+    "title": "Viridian Financial Group Welcomes Strategic Growth Investment from TA Associates to Expand Leading Diversified Financial Services Business in Australia",
+    "url": "https://www.businesswire.com/news/home/20250629161172/en"
    }
   ],
   "exit": {
@@ -16908,6 +17870,33 @@
    "status": "none"
   },
   "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "ta-associates-yarra-capital-management",
+  "firm": "ta-associates",
+  "name": "Yarra Capital Management",
+  "slug": "yarra-capital-management",
+  "industry": "fintech",
+  "industryLabel": "Australian active asset manager",
+  "hq": "Melbourne, Australia",
+  "geos": [
+   "Australia"
+  ],
+  "apac": true,
+  "heldSince": null,
+  "stake": "unknown",
+  "valuation": {
+   "amount": null,
+   "basis": null,
+   "url": null
+  },
+  "summary": "Independent Australian equities and fixed income manager created through the TA-backed management buyout of Goldman Sachs Asset Management's Australian business; later absorbed Nikko AM Australia and Tyndall funds. TA SVP Lily Xu sits as board observer.",
+  "signals": [],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
   "id": "ta-associates-zifo",
@@ -17138,6 +18127,52 @@
   "firstSeen": "2026-10-05T10:37:52Z"
  },
  {
+  "id": "tpg-bfi-finance-indonesia",
+  "firm": "tpg",
+  "name": "BFI Finance Indonesia",
+  "slug": "bfi-finance-indonesia",
+  "industry": "fintech",
+  "industryLabel": "non-bank consumer & SME lender / multifinance (IDX-listed, digital lending tie-up with Bank Jago)",
+  "hq": "Tangerang (Jakarta), Indonesia",
+  "geos": [
+   "Indonesia"
+  ],
+  "apac": true,
+  "heldSince": "2011-05",
+  "stake": "co-control",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; Bloomberg (Jul 2026) said a BFI Finance-Bank Jago merger would create an entity worth ~Rp25tn (US$1.4bn); Trinugraha's 2022 tender offer was at ~Rp1,200/share",
+   "url": "https://finansial.bisnis.com/read/20260710/90/1987153/bank-jago-arto-buka-suara-soal-isu-merger-bfi-finance"
+  },
+  "summary": "Indonesian multifinance lender (vehicle, equipment and property-backed loans) listed on the IDX. TPG has held it since May 2011 through the Trinugraha Capital consortium (with Northstar, Boy Thohir and later Jerry Ng; 51.12%), named as indirect controlling shareholder in the 2022 tender offer. Goldman Sachs mandated in Apr 2026 to explore a sale; Bloomberg (Jul 2026) reported partial-sale and Bank Jago merger options, which the companies denied.",
+  "signals": [
+   {
+    "date": "2026-07-10",
+    "publisher": "Bisnis.com",
+    "title": "Bank Jago (ARTO) Buka Suara Soal Isu Merger BFI Finance (Bloomberg: Jerry Ng-led investors weigh options incl. merger, Goldman advising)",
+    "url": "https://finansial.bisnis.com/read/20260710/90/1987153/bank-jago-arto-buka-suara-soal-isu-merger-bfi-finance"
+   },
+   {
+    "date": "2022-01-20",
+    "publisher": "Bisnis.com",
+    "title": "Jerry Ng, Boy Thohir cs Siap Tender Offer Saham BFI Finance (BFIN) Rp1,096 Triliun",
+    "url": "https://market.bisnis.com/read/20220120/192/1491159/jerry-ng-boy-thohir-cs-siap-tender-offer-saham-bfi-finance-bfin-rp1096-triliun"
+   },
+   {
+    "date": "2011-05-20",
+    "publisher": "Bisnis.com",
+    "title": "Boy Thohir acquires BFI Finance IDR1.44 trillion (consortium with TPG Capital and Northstar)",
+    "url": "https://kabar24.bisnis.com/read/20110520/186/41037/boy-tohir-acquires-bfi-finance-idr1-dot-44-trillion"
+   }
+  ],
+  "exit": {
+   "note": "Mergermarket (Apr 2026): Trinugraha appointed Goldman Sachs to explore a partial sale to foreign investors; Bloomberg (9 Jul 2026): options incl. merger with Bank Jago; both companies denied a merger process (Jul 2026). Aryaputra Teguharta litigation over a disputed 32.32% stake",
+   "status": "process"
+  },
+  "firstSeen": "2026-11-02T07:33:26Z"
+ },
+ {
   "id": "tpg-billease",
   "firm": "tpg",
   "name": "BillEase",
@@ -17304,6 +18339,52 @@
    "status": "none"
   },
   "firstSeen": "2026-10-05T10:37:52Z"
+ },
+ {
+  "id": "tpg-equity-trustees",
+  "firm": "tpg",
+  "name": "Equity Trustees (EQT Holdings)",
+  "slug": "equity-trustees",
+  "industry": "fintech",
+  "industryLabel": "trustee, superannuation & fund services (ASX-listed; TPG 14.9% toehold, live takeover bid)",
+  "hq": "Melbourne, Australia",
+  "geos": [
+   "Australia"
+  ],
+  "apac": true,
+  "heldSince": "2026-10",
+  "stake": "minority",
+  "valuation": {
+   "amount": "A$657.8m",
+   "basis": "implied equity value of TPG Global's indicative A$24.55/share scheme proposal, 17 Aug 2026; BGH Capital countered at A$24.75 (A$663.1m)",
+   "url": "https://www.eqt.com.au/mediacentre/2026/08/18/takeover-proposal-from-tpg-global"
+  },
+  "summary": "ASX-listed trustee and wealth group (Equity Trustees: private-client trustee, superannuation trustee and corporate/fund trustee services). TPG Global lodged a non-binding A$24.55/share proposal on 17 Aug 2026 (~42% premium, A$657.8m); BGH Capital countered at A$24.75; the board opened due diligence to both in Sep 2026. AFR reported on 14 Oct 2026 that TPG bought a 14.9% stake on-market.",
+  "signals": [
+   {
+    "date": "2026-10-14",
+    "publisher": "AFR Street Talk (via AlphaMaven)",
+    "title": "TPG scoops up 15 per cent of takeover target Equity Trustees",
+    "url": "https://alpha-maven.com/story/private-equity/tpg-scoops-up-15-per-cent-of-takeover-target-equity-trustees-afr"
+   },
+   {
+    "date": "2026-08-21",
+    "publisher": "EQT Holdings (ASX release)",
+    "title": "Takeover proposal from BGH Capital (A$24.75 cash per share, topping TPG)",
+    "url": "https://www.eqt.com.au/mediacentre/2026/08/21/takeover-proposal-from-bgh-capital"
+   },
+   {
+    "date": "2026-08-18",
+    "publisher": "EQT Holdings (ASX release)",
+    "title": "Takeover proposal from TPG Global (A$24.55 cash per share by scheme of arrangement)",
+    "url": "https://www.eqt.com.au/mediacentre/2026/08/18/takeover-proposal-from-tpg-global"
+   }
+  ],
+  "exit": {
+   "note": "Not an exit: TPG is the acquirer. Board update 21 Sep 2026 said both TPG and BGH prices undervalue EQT but granted both due diligence; no binding offer as at late Oct 2026",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-02T07:33:26Z"
  },
  {
   "id": "tpg-eruditus",
@@ -17564,6 +18645,52 @@
    "status": "process"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
+ },
+ {
+  "id": "tpg-kakaobank",
+  "firm": "tpg",
+  "name": "KakaoBank",
+  "slug": "kakaobank",
+  "industry": "fintech",
+  "industryLabel": "digital bank (KRX-listed)",
+  "hq": "Seongnam, South Korea",
+  "geos": [
+   "South Korea"
+  ],
+  "apac": true,
+  "heldSince": "2020-10",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$8.3bn",
+   "basis": "estimated valuation at TPG's Oct 2020 pre-IPO subscription (KRW 250bn for ~2.6%); KakaoBank listed on KRX Aug 2021, current market cap not captured",
+   "url": "https://globalprivatecapital.org/?p=24736"
+  },
+  "summary": "Korea's largest internet-only bank (Kakao Corp affiliate). TPG Capital subscribed KRW 250bn of new shares in Oct 2020 (pre-IPO, via Keto Holdings L.P.), alongside Anchor Equity Partners. KakaoBank listed in Aug 2021; per DART filings cited by IB Tomato (Jun 2025) TPG still holds 10.64m shares (2.23%), having refinanced a share-backed recap loan in 2023 rather than selling.",
+  "signals": [
+   {
+    "date": "2025-06-24",
+    "publisher": "IB Tomato (Newstomato)",
+    "title": "앵커PE·TPG, 리캡 '쓴맛'…카뱅 주가 상승에도 못 웃어 (Anchor PE, TPG still hold 2.23% each of KakaoBank after recap)",
+    "url": "https://newstomato.com/ReadNews.aspx?no=1266294"
+   },
+   {
+    "date": "2021-09-02",
+    "publisher": "Korea Economic Daily (KED Global)",
+    "title": "Korea Post nets nearly $1 bn from KakaoBank block sale (TPG Capital and Anchor each hold ~2%)",
+    "url": "https://www.kedglobal.com/newsView/ked202109020001"
+   },
+   {
+    "date": "2020-10-27",
+    "publisher": "Korea Economic Daily (KED Global)",
+    "title": "TPG invests in KakaoBank pre-IPO rights offering (KRW 250bn, ~2.6%)",
+    "url": "https://www.kedglobal.com/newsView/ked202010270003"
+   }
+  ],
+  "exit": {
+   "note": "Listed on KRX Aug 2021; lock-up expired Feb 2022 but TPG has not sold down (IB Tomato, 24 Jun 2025: 2.23% still held, refinanced in 2023)",
+   "status": "listed"
+  },
+  "firstSeen": "2026-11-02T07:33:26Z"
  },
  {
   "id": "tpg-kepware-thingworx",
@@ -18313,6 +19440,52 @@
   "exit": {
    "note": "",
    "status": "none"
+  },
+  "firstSeen": "2026-10-05T10:37:52Z"
+ },
+ {
+  "id": "warburg-pincus-avanse-financial-services",
+  "firm": "warburg-pincus",
+  "name": "Avanse Financial Services",
+  "slug": "avanse-financial-services",
+  "industry": "fintech",
+  "industryLabel": "Education-focused digital lending NBFC",
+  "hq": "Mumbai, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2019-03",
+  "stake": "majority",
+  "valuation": {
+   "amount": null,
+   "basis": "not disclosed in search results",
+   "url": "https://inc42.com/?p=463745"
+  },
+  "summary": "Education-finance NBFC lending to Indian students (domestic and study-abroad) and institutions. Warburg (via Olive Vine) bought 80% from DHFL/Wadhawan in 2019 and is promoter; SEBI-approved INR3,500cr IPO with Warburg OFS deferred amid US visa headwinds.",
+  "signals": [
+   {
+    "date": "2026-01-05",
+    "publisher": "Business Standard",
+    "title": "Avanse Financial Services raises Rs 1,200 crore through rights issue",
+    "url": "https://www.business-standard.com/companies/news/avanse-financial-services-raises-1-200-crore-through-rights-issue-126010501175_1.html"
+   },
+   {
+    "date": "2024-07-30",
+    "publisher": "Business Standard",
+    "title": "Sebi returns IPO documents of Vishal Mega Mart, Avanse Fin, and 2 others",
+    "url": "https://www.business-standard.com/amp/markets/ipo/sebi-returns-ipo-documents-of-vishal-mega-mart-avanse-fin-and-2-others-124073000652_1.html"
+   },
+   {
+    "date": "2019-03-16",
+    "publisher": "Daily Excelsior",
+    "title": "Warburg Pincus group to acquire 80 pc stake in Avanse Financial Services",
+    "url": "https://www.dailyexcelsior.com/news/archive/warburg-pincus-group-to-acquire-80-pc-stake-in-avanse-financial-services"
+   }
+  ],
+  "exit": {
+   "note": "INR3,500cr IPO (Warburg OFS up to INR1,758cr) got SEBI nod Oct 2024 but was deferred in 2025 amid US student-visa headwinds; investors instead funded a INR1,200cr rights issue in Jan 2026.",
+   "status": "process"
   },
   "firstSeen": "2026-10-05T10:37:52Z"
  },
@@ -19256,6 +20429,46 @@
   "firstSeen": "2026-11-02T08:06:25Z"
  },
  {
+  "id": "warburg-pincus-truhome-finance",
+  "firm": "warburg-pincus",
+  "name": "Truhome Finance (ex-Shriram Housing Finance)",
+  "slug": "truhome-finance",
+  "industry": "fintech",
+  "industryLabel": "affordable housing finance NBFC",
+  "hq": "Mumbai, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2024-12",
+  "stake": "control",
+  "valuation": {
+   "amount": "₹3,929 crore",
+   "basis": "consideration Shriram Finance received for its 84.44% stake, closed Dec 2024 (other reports cite ~₹4,630 crore); Warburg-led group took ~97.79%",
+   "url": "https://www.angelone.in/news/share-market/shriram-finance-completed-sale-of-entire-stake-in-shriram-housing-finance-to-warburg-pincus"
+  },
+  "summary": "Affordable housing lender (165+ branches, >₹16,000 crore AUM at Dec 2024) acquired from Shriram Finance by a Warburg Pincus-led group with co-investors including QIA; deal closed Dec 2024 and the company was rebranded Truhome Finance in Jan 2025 after a ₹1,225 crore primary injection.",
+  "signals": [
+   {
+    "date": "2026-07-26",
+    "publisher": "CNBC TV18",
+    "title": "Upcoming IPOs in August 2026: Zepto, Shiprocket, Truhome among 14 firms ready for public debut",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVlF1T3dPaGJZTDdnTnJPcndmOGwtbGJBMWtUNlBGME1JcHBldjRpUGhhSzJjSkg1SGJtbjI3cUFFNkpmUmhDUnh6NTRQcV91dU55djQxWG1sY2hfNlZXUzRsbjZRS2FzNEtVazNaT21fYkdiNDBYeDE4Sm9MYy15R3BxUlRNQmFMY2xTekZLYXdQUnFCQTNycTJUVkVsNEY2b0RJUU9QS091V0haSkI2NjdMVVB6OEdiWkZFaW9NNUNoZV9fcmhtRmItdTRCUHkwcl9Xc2V6RUlZUdIB3wFBVV95cUxOT3hhQlFjbDNGYk5ndlUwd3RBZWxhc3IzLUI1Q3NZdEllYXM4TFUwOWY2OURTWXlGWnJtVnh6Q3Rxb3VRS2RWNWwtRGRGeDBOOVV6R3BNRkRpRlBBVFE1eHJ1SWdXckI2bVgweGZ5OVpJVWRGeVptTDZBeEFlQ3ZqUVpaR1dCel9DeVRLTkhPWWdoQTc3WVZ2SHFZaGhPZnpvalA5UGRFaENIT0FUOVlXX3VUSGw4UUJLVUJQaXN1Vk9jRXV6UmVlQzVPUTA3clMxbmVnaFUwNHo1X000bEs0?oc=5"
+   },
+   {
+    "date": "2025-01-16",
+    "publisher": "Warburg Pincus (press release)",
+    "title": "Shriram Housing Finance Unveils its New Brand Identity 'Truhome Finance' Following its Acquisition by Warburg Pincus, QIA and Others",
+    "url": "https://warburgpincus.com/2025/01/16/shriram-housing-finance-unveils-its-new-brand-identity-truhome-finance-following-its-acquisition-by-warburg-pincus-qia-and-others/"
+   }
+  ],
+  "exit": {
+   "note": "IPO: DRHP for Rs 3,000 cr (Rs 1,500 cr fresh + Rs 1,500 cr OFS by promoter entity Mango Crest) filed Mar 2026 and SEBI nod received (Kotak Neo / Outlook Business, undated); CNBC-TV18 26 Jul 2026 listed Truhome among August IPOs - pricing/listing not confirmed as of 2 Nov 2026",
+   "status": "process"
+  },
+  "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
   "id": "warburg-pincus-varicent",
   "firm": "warburg-pincus",
   "name": "Varicent",
@@ -19296,6 +20509,52 @@
    "status": "none"
   },
   "firstSeen": "2026-10-26T11:44:27Z"
+ },
+ {
+  "id": "warburg-pincus-vistaar-financial-services",
+  "firm": "warburg-pincus",
+  "name": "Vistaar Financial Services",
+  "slug": "vistaar-financial-services",
+  "industry": "fintech",
+  "industryLabel": "Secured MSME lending NBFC",
+  "hq": "Bengaluru, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2022-10",
+  "stake": "majority",
+  "valuation": {
+   "amount": "US$250m (for 90%)",
+   "basis": "Warburg entry consideration, May 2023",
+   "url": "https://www.thetrustedinsight.com/investment-news/warburg-pincus-acquires-90-stake-in-vistaar-finance-for-250m-20230529256/"
+  },
+  "summary": "NBFC providing secured loans to micro and small enterprises across 12 Indian states via 250+ branches (AUM INR5,000cr+). Warburg bought 90% in 2023 (now 70.1% after an Aug 2025 INR1,360cr round led by Motilal Oswal Alternates).",
+  "signals": [
+   {
+    "date": "2025-08-26",
+    "publisher": "Mint",
+    "title": "Vistaar gets 1,360 crore from Motilal, ABC, others",
+    "url": "https://www.magzter.com/nb/stories/newspaper/Mint-New-Delhi/VISTAAR-GETS-1360-CRORE-FROM-MOTILAL-ABC-OTHERS"
+   },
+   {
+    "date": "2023-05-29",
+    "publisher": "The Trusted Insight",
+    "title": "Warburg Pincus acquires 90% stake in Vistaar Finance for $250m",
+    "url": "https://www.thetrustedinsight.com/investment-news/warburg-pincus-acquires-90-stake-in-vistaar-finance-for-250m-20230529256/"
+   },
+   {
+    "date": "2022-10-10",
+    "publisher": "Business Standard",
+    "title": "Warburg Pincus to acquire majority stake in MSME lender Vistaar Finance",
+    "url": "https://www.business-standard.com/article/companies/warburg-pincus-to-acquire-majority-stake-in-msme-lender-vistaar-finance-122101000411_1.html"
+   }
+  ],
+  "exit": {
+   "note": "Aug 2025 round included INR490cr of secondary sales; Warburg stake fell to 70.1% (Mar 2026) from 77.8% (ICRA).",
+   "status": "partial"
+  },
+  "firstSeen": "2026-10-05T10:37:52Z"
  },
  {
   "id": "warburg-pincus-whatfix",
