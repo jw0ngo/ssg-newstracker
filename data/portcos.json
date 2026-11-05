@@ -4,7 +4,7 @@
   "firm": "affinity-equity",
   "name": "JobKorea (Worksphere)",
   "slug": "jobkorea",
-  "industry": "internet",
+  "industry": "hrtech",
   "industryLabel": "online job portal / HR-tech group (JobKorea, Albamon, Jobplanet)",
   "hq": "Seoul, South Korea",
   "geos": [
@@ -905,7 +905,7 @@
   "firm": "eqt",
   "name": "PageUp",
   "slug": "pageup",
-  "industry": "software",
+  "industry": "hrtech",
   "industryLabel": "HR / talent acquisition & talent management SaaS",
   "hq": "Melbourne, Australia",
   "geos": [
@@ -1109,7 +1109,7 @@
   "firm": "eqt",
   "name": "Remember (Drama & Company)",
   "slug": "remember",
-  "industry": "internet",
+  "industry": "hrtech",
   "industryLabel": "professional network / HR and recruiting platform",
   "hq": "Seoul, South Korea",
   "geos": [
@@ -2039,7 +2039,7 @@
   "firm": "kkr",
   "name": "Darwinbox",
   "slug": "darwinbox",
-  "industry": "software",
+  "industry": "hrtech",
   "industryLabel": "HR / HCM SaaS",
   "hq": "Hyderabad, India",
   "geos": [
@@ -2164,7 +2164,7 @@
   "firm": "kkr",
   "name": "Employment Hero",
   "slug": "employment-hero",
-  "industry": "software",
+  "industry": "hrtech",
   "industryLabel": "SMB HR and payroll SaaS",
   "hq": "Sydney, Australia",
   "geos": [
@@ -3150,7 +3150,7 @@
   "firm": "kkr",
   "name": "SmartHR",
   "slug": "smarthr",
-  "industry": "software",
+  "industry": "hrtech",
   "industryLabel": "HR / labour-management SaaS",
   "hq": "Tokyo, Japan",
   "geos": [
@@ -3622,7 +3622,7 @@
   "firm": "macquarie-capital",
   "name": "Sapia.ai",
   "slug": "sapia-ai",
-  "industry": "ai",
+  "industry": "hrtech",
   "industryLabel": "AI-driven inclusive hiring platform",
   "hq": "Melbourne, Australia",
   "geos": [
@@ -4024,7 +4024,7 @@
   "firm": "partners-group",
   "name": "Darwinbox",
   "slug": "darwinbox",
-  "industry": "software",
+  "industry": "hrtech",
   "industryLabel": "HR / HCM SaaS",
   "hq": "Hyderabad, India",
   "geos": [
@@ -4887,7 +4887,7 @@
   "firm": "ta-associates",
   "name": "Payroll Inc.",
   "slug": "payroll-inc",
-  "industry": "software",
+  "industry": "hrtech",
   "industryLabel": "Tech-enabled payroll outsourcing & cloud payroll",
   "hq": "Tokyo, Japan",
   "geos": [

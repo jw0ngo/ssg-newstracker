@@ -1447,7 +1447,7 @@ function renderTargets() {
 const EXIT_RANK = { process: 3, rumoured: 2, partial: 1, listed: 1 };
 // SSG's own focus, firm-independent: a tech company is relevant to the team whichever sponsor holds
 // it, and a lab network or a lender is not, however long the hold.
-const TECH = { software: 'Software', fintech: 'Fintech', data: 'Data', internet: 'Internet', healthit: 'Healthcare IT', ai: 'AI', markets: 'Markets' };
+const TECH = { software: 'Software', fintech: 'Fintech', data: 'Data', internet: 'Internet', healthit: 'Healthcare IT', ai: 'AI', markets: 'Markets', hrtech: 'HR Tech' };
 const INDUSTRY = { ...TECH, other: 'Other' };
 const EXIT_LABEL = { process: 'SALE PROCESS', rumoured: 'SALE RUMOURED', partial: 'PARTIAL EXIT', listed: 'LISTED' };
 // The exit note is a standing status line, not a headline: it is shown under its own heading with
@@ -1582,6 +1582,8 @@ const BOARDS = {
   internet: { label: 'Marketplaces & Networks', what: 'marketplace and network', match: (p) => p.industry === 'internet' },
   saas: { label: 'SME & Vertical SaaS', what: 'SaaS', match: (p) => p.industry === 'software' && !IT_SERVICES.test(p.industryLabel || '') },
   healthit: { label: 'Health IT & Services', what: 'health IT and health-services', match: (p) => p.industry === 'healthit' },
+  // HR software, payroll and recruiting platforms (Josh, 5 Nov 2026; ADR-017): their own board, not SaaS or Marketplaces.
+  hrtech: { label: 'HR Tech', what: 'HR-tech', match: (p) => p.industry === 'hrtech' },
   itservices: { label: 'IT Services & Outsourcing', what: 'IT-services and outsourcing', match: (p) => p.industry === 'software' && IT_SERVICES.test(p.industryLabel || '') },
 };
 // The board's countries (Josh, 2 Nov 2026): APAC without India and mainland China. Display order:
@@ -1644,15 +1646,15 @@ function boardCard(p) {
 // ── Dashboard ───────────────────────────────────────────────────────────────────────────────────
 // Three reads of the board (the on-board roster, APAC outside India and mainland China): where each
 // sponsor's tech money sits by sector, when it went in, and how acquisitive the portcos are. The
-// sector colours are the validated categorical slots in a fixed order (--c1…--c7 of eight), the same
+// sector colours are the eight validated categorical slots in a fixed order (--c1…--c8), the same
 // in every chart; the heatmap is one teal ramp; the bolt-on columns are a single series.
-const SECTORS = ['fintech', 'saas', 'internet', 'healthit', 'itservices', 'data', 'ai'];
+const SECTORS = ['fintech', 'saas', 'internet', 'healthit', 'itservices', 'data', 'ai', 'hrtech'];
 const SECTOR_SLOT = Object.fromEntries(SECTORS.map((k, i) => [k, i + 1]));
 const sectorOf = (p) => boardOf(p) || 'other';
 const sectorLabel = (k) => k === 'other' ? 'Other' : BOARDS[k].label;
-const SECTOR_SHORT = { fintech: 'Fintech', saas: 'SaaS', internet: 'Marketplaces', healthit: 'Health IT', itservices: 'IT services', data: 'Data', ai: 'AI', other: 'Other' };
+const SECTOR_SHORT = { fintech: 'Fintech', saas: 'SaaS', internet: 'Marketplaces', healthit: 'Health IT', itservices: 'IT services', data: 'Data', ai: 'AI', hrtech: 'HR tech', other: 'Other' };
 const sectorShort = (k) => SECTOR_SHORT[k] || sectorLabel(k);
-const SECTOR_ABBR = { fintech: 'FIN', saas: 'SAAS', internet: 'MKT', healthit: 'HLTH', itservices: 'ITS', data: 'DATA', ai: 'AI', other: 'OTH' };
+const SECTOR_ABBR = { fintech: 'FIN', saas: 'SAAS', internet: 'MKT', healthit: 'HLTH', itservices: 'ITS', data: 'DATA', ai: 'AI', hrtech: 'HR', other: 'OTH' };
 const sectorVar = (k) => `var(--c${SECTOR_SLOT[k] || 0})`;
 const DARK_TEXT = new Set(['healthit']);   // the yellow slot takes near-black labels inside the fill
 const monoOf = (id) => { const f = FIRMS.find((x) => x.id === id) || FIRMS[0]; const [m, c] = MONO[f.id] || [f.name.slice(0, 3).toUpperCase(), '#444']; return { m, c, name: f.name }; };
@@ -1871,7 +1873,9 @@ function renderBoard(sector) {
   const gaps = q ? [] : all.filter((c) => !c.cards.length).map((c) => c.name);
   const what = BOARDS[sector].what;
   const emptyMsg = !loaded ? `<b>Loading the ${BOARDS[sector].label} board.</b>` : q ? `<b>No portco matches “${esc(q)}”.</b><br>The search covers names, sponsors, sectors, places, summaries, exit notes and headlines.` : rows.length ? `No ${what} portcos on the board for this sponsor${off.length ? ` (${off.length} outside the board's markets)` : ''}.` : `<b>No ${what} portcos on the roster yet.</b><br>Ask Jobi to seed the portfolio.`;
-  const note = loaded && cols.length && q ? `<p class="gaps">${list.length} portco${list.length === 1 ? '' : 's'} match “${esc(q)}” across every board${v.bfirm === 'all' ? '' : ' for this sponsor'}; the board tab is ignored while you search.</p>` : loaded && cols.length ? `<p class="gaps">${gaps.length ? `Nothing on the roster yet in ${esc(gaps.join(', '))}.` : ''}${off.length ? ` ${off.length} ${what} portco${off.length > 1 ? 's' : ''} outside the board's markets not shown: ${esc(off.slice(0, 12).map((x) => x.p.name).join(', '))}${off.length > 12 ? ` and ${off.length - 12} more` : ''}.` : ''}</p>` : '';
+  // A company two sponsors hold is one name with both owners ("Darwinbox (KKR, Partners Group)"), not two.
+  const offNames = (xs) => { const by = new Map(); for (const x of xs) { const k = x.p.name; if (!by.has(k)) by.set(k, []); by.get(k).push((FIRMS.find((f) => f.id === x.p.firm) || {}).name || x.p.firm); } return [...by].map(([n, fs]) => fs.length > 1 ? `${n} (${fs.join(', ')})` : n); };
+  const note = loaded && cols.length && q ? `<p class="gaps">${list.length} portco${list.length === 1 ? '' : 's'} match “${esc(q)}” across every board${v.bfirm === 'all' ? '' : ' for this sponsor'}; the board tab is ignored while you search.</p>` : loaded && cols.length ? `<p class="gaps">${gaps.length ? `Nothing on the roster yet in ${esc(gaps.join(', '))}.` : ''}${off.length ? ` ${off.length} ${what} portco${off.length > 1 ? 's' : ''} outside the board's markets not shown: ${esc(offNames(off).slice(0, 12).join(', '))}${offNames(off).length > 12 ? ` and ${offNames(off).length - 12} more` : ''}.` : ''}</p>` : '';
   $('list').innerHTML = cols.length ? cols.map((c) => `<section class="col"><div class="colh"><b>${c.code}</b>${esc(c.name)}<span>${c.cards.length}</span></div>${c.cards.map((x) => boardCard(x.p)).join('')}</section>`).join('') : `<div class="empty">${emptyMsg}</div>`;
   $('gaps').innerHTML = note;
   fitBoard(false);
