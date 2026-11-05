@@ -703,6 +703,16 @@ function portcoBuyer(title, portcos) {
 }
 const PORTCO_GENERIC = new Set(["and","the","for","platforms","group","technologies","technology","solutions","services","software","capital","financial","finance","holdings","partners","management","health","healthcare","systems","digital","global","international","india","asia","pacific","company","limited","convergence","education","hospital"]);
 const BUSINESS = /\b(software|saas|platform|cloud|fintech|banking|payments?|lenders?|lending|insurer|insurtech|acqui\w*|buys|bought|merger|merges?|stakes?|sells|sold|ipo|listing|listed|shares|asx|nasdaq|nyse|krx|kospi|raises?|raised|funding|investment|investors?|invests?|valuation|revenue|earnings|ebitda|expan\w*|opens?|office|launch\w*|rollout|rolls out|collaborat\w*|partner\w*|integrat\w*|deploy\w*|contract|agreement|customers?|clients?|wins|selected by|certif\w*|compliance|ceo|cfo|cto|coo|chief executive|appoints?|hires?|founders?|startup|unicorn|private equity|sponsor|buyout|bids?|financing|refinanc\w*|debt|subsidiary|layoffs|headquarters|profits?|net profit|top line|unveils?|introduc\w*|ranked|recogni[sz]ed|awards?|named|joins|director|manager|gartner|forrester|teams up|join forces|alliance|cmo|cio|data cent(?:er|re)s?|hyperscale|procurement|finance)\b/i;
+// portcoOnTopic's helpers travel with it: the page's copy must be complete even though the page does
+// not call it today (the fold applies the rule; a dangling reference was found on 5 Nov 2026).
+const COMMON = new Set(["caring","device","prime","trade","sports","works","human","advance","dream","internet","employment","software","spine","nerve","first","united","national","general","pacific","eastern","western","northern","southern","atria","ambassador","catalyst","cover","banking","clear","cornerstone","momo","privy"]);
+const portcoName = (p) => {
+  const full = String(p.query || p.name || '').replace(/\s*\((.*?)\)\s*/g, ' ').replace(/\s+/g, ' ').trim();
+  const bare = full.replace(/,?\s+(inc|ltd|limited|pte|plc|llc|corp|co|group|holdings?)\.?$/i, '').trim();
+  return !bare.includes(' ') && COMMON.has(bare.toLowerCase()) ? full : bare;   // "Caring Group" stays whole
+};
+const labelRe = new Map();
+const ambiguousName = (p) => { const n = portcoName(p || {}); return !!n && !n.includes(' ') && (COMMON.has(n.toLowerCase()) || (n.length <= 5 && n !== n.toUpperCase())); };
 function portcoOnTopic(text, p, f) {
   const t = String(text || '');
   if (f && f.match && f.match.test(t)) return true;
