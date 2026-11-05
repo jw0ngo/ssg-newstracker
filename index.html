@@ -118,6 +118,14 @@ a { color: inherit; }
 .mast-l { display: flex; align-items: baseline; gap: 12px; min-width: 0; }
 .dashbtn { font-family: var(--display); font-weight: 600; font-size: 13px; color: var(--accent); border: 1px solid var(--accent); background: var(--surface); border-radius: 999px; padding: 4px 11px; white-space: nowrap; }
 .dashbtn[aria-pressed="true"] { color: #fff; background: var(--accent); }
+.dashbtn.ghost { color: var(--muted); border-color: var(--rule); font-weight: 500; }
+.dashbtn.ghost:hover { color: var(--fg); border-color: var(--muted); }
+/* the × that hides a card (this browser only) */
+.pc { position: relative; }
+.pc .meta { padding-right: 22px; }
+.hidex { position: absolute; top: 6px; right: 6px; width: 22px; height: 22px; display: grid; place-items: center; border-radius: 6px; font: 400 17px/1 var(--body); color: var(--faint); opacity: .55; z-index: 1; }
+.pc:hover .hidex, .hidex:focus-visible { opacity: 1; }
+.hidex:hover { color: var(--fg); background: var(--bg); }
 .firms { display: flex; gap: 6px; flex-wrap: wrap; margin-top: -2px; }
 .firm { display: flex; align-items: center; gap: 8px; padding: 4px 10px 4px 4px; border-radius: 999px; border: 1px solid var(--rule); background: var(--surface); }
 .firm.on { border-color: var(--accent); background: var(--accent-soft); }
@@ -490,7 +498,7 @@ tr.tdiv td span { display: block; font-family: var(--mono); font-size: 9.5px; le
   <div class="top" id="top">
     <div class="site"><span class="brand">SSG Newstracker</span><nav class="nav" id="nav" aria-label="Sections"></nav></div>
     <div class="mast">
-      <div class="mast-l"><h1 id="h1">Tech Exit Readiness Tracker</h1><button type="button" class="dashbtn" id="dashBtn" aria-pressed="false" hidden>Dashboard</button></div>
+      <div class="mast-l"><h1 id="h1">Tech Exit Readiness Tracker</h1><button type="button" class="dashbtn" id="dashBtn" aria-pressed="false" hidden>Dashboard</button><button type="button" class="dashbtn ghost" id="hiddenBtn" hidden title="Show the cards you hid"></button></div>
       <div class="mast-r">
         <label class="q" id="qbox"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><input id="q" type="search" placeholder="Search all portcos" autocomplete="off" spellcheck="false" aria-label="Search all portco cards"><button type="button" id="qx" aria-label="Clear search" hidden>×</button></label>
         <span class="stamp" id="stamp">loading</span>
@@ -1282,6 +1290,13 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '
 
 // Per-viewer conveniences only. Triage lives in the shared store.
 const PREFS = 'pe-client-tracker.view';
+// Cards the reader hid with the × (Josh, 5 Nov 2026: "an X button on all the cards … store locally for
+// now"). This browser only; the "N hidden · show" pill next to Dashboard brings them all back.
+const HIDDEN_KEY = 'ssg-hidden-cards';
+const hiddenCards = new Set((() => { try { return JSON.parse(localStorage.getItem(HIDDEN_KEY) || '[]'); } catch (e) { return []; } })());
+const saveHidden = () => { try { localStorage.setItem(HIDDEN_KEY, JSON.stringify([...hiddenCards])); } catch (e) { /* private window: hiding lasts this visit */ } };
+const shownPortcos = () => portcos.filter((p) => !hiddenCards.has(p.id));
+const hidex = (p) => `<button type="button" class="hidex" data-hide="${esc(p.id)}" title="Hide this card" aria-label="Hide ${esc(p.name)}">×</button>`;
 let view = { firm: FIRMS[0].id, tab: 'fintech', seg: 'priority', thesis: 'all', apac: false, showDismissed: false, bsort: 'ready', bfirm: 'all', dash: false };
 try { view = { ...view, ...JSON.parse(localStorage.getItem(PREFS) || '{}'), showDismissed: false }; } catch {}
 const savePrefs = () => { try { localStorage.setItem(PREFS, JSON.stringify({ firm: view.firm, tab: view.tab, seg: view.seg, thesis: view.thesis, apac: view.apac, bsort: view.bsort, bfirm: view.bfirm, dash: !!view.dash, heatBy: view.heatBy })); } catch {} };
@@ -1571,7 +1586,7 @@ function portcoCard(p) {
   const news = portcoNews(p);
   const val = p.valuation && p.valuation.amount ? `<span class="fact val">${esc(p.valuation.amount)}${p.valuation.basis ? `<i>${esc(p.valuation.basis)}</i>` : ''}</span>` : '<span class="fact">valuation n/a</span>';
   return `
-    <article class="pc${open ? ' open' : ''}${rank >= 2 ? ' hot' : y !== null && y >= exitWindow(p.firm) ? ' ripe' : ''}" data-pid="${esc(p.id)}">
+    <article class="pc${open ? ' open' : ''}${rank >= 2 ? ' hot' : y !== null && y >= exitWindow(p.firm) ? ' ripe' : ''}" data-pid="${esc(p.id)}">${hidex(p)}
       <div class="meta">
         <span class="kind">${esc(p.industryLabel || area.label || '')}</span>
         ${p.apac ? '<span class="apac">APAC</span>' : ''}
@@ -1595,7 +1610,7 @@ function portcoCard(p) {
 }
 function renderPortcos() {
   const v = view;
-  const mine = portcos.filter((p) => (p.firm || FIRMS[0].id) === firm.id);
+  const mine = shownPortcos().filter((p) => (p.firm || FIRMS[0].id) === firm.id);
   const n = (pred) => { const k = mine.filter(pred).length; return k ? ` · ${k}` : ''; };
   const chip = (id, label) => `<button class="chip${v.thesis === id ? ' on' : ''}" data-th="${id}">${esc(label)}</button>`;
   const present = Object.keys(INDUSTRY).filter((id) => mine.some((p) => p.industry === id));
@@ -1674,7 +1689,7 @@ function boardCard(p) {
   const news = open ? portcoNews(p) : [];
   const val = p.valuation && p.valuation.amount ? `<span class="fact val">${esc(p.valuation.amount)}${p.valuation.basis ? `<i>${esc(p.valuation.basis)}</i>` : ''}</span>` : '';
   return `
-    <article class="pc bc t-${typeOf(f.id)}${open ? ' open' : ''}" data-pid="${esc(p.id)}" style="--hc:${y === null ? 'var(--rule)' : holdColor(y)}">
+    <article class="pc bc t-${typeOf(f.id)}${open ? ' open' : ''}" data-pid="${esc(p.id)}" style="--hc:${y === null ? 'var(--rule)' : holdColor(y)}">${hidex(p)}
       <div class="meta">
         <span class="ty t-${typeOf(f.id)}" title="${typeOf(f.id) === 'vc' ? 'venture capital' : 'private equity'}">${TYPE_LABEL[typeOf(f.id)]}</span><span class="owner" style="--oc:${c}"><i>${m}</i>${hilite(f.name, query)}</span>
         ${rank ? `<span class="tag exit-${esc(p.exit.status)}">${EXIT_LABEL[p.exit.status]}</span>` : ''}
@@ -1814,7 +1829,7 @@ function firmChips(owners, cnt, total) {
 const ownerOrder = (cnt) => (a, b) => (typeOf(a.id) === typeOf(b.id) ? 0 : typeOf(a.id) === 'pe' ? -1 : 1) || cnt(b.id) - cnt(a.id);
 function renderDash() {
   const v = view;
-  const rows = portcos.filter(countryOf);   // the board's scope
+  const rows = shownPortcos().filter(countryOf);   // the board's scope (cards the reader hid are left out)
   const nOf = (fid) => rows.filter((p) => p.firm === fid).length;
   const owners = FIRMS.filter((f) => nOf(f.id)).sort(ownerOrder(nOf));   // PE then VC, most tracked portcos first (Josh, 4 and 5 Nov 2026)
   if (!firmSelOk(v.bfirm, owners)) v.bfirm = 'all';
@@ -1937,7 +1952,7 @@ function renderBoard(sector) {
   const q = query;
   // A search looks across every portco on the roster, whatever its board, and shows the ones
   // outside the board's markets in a trailing column rather than dropping them.
-  const rows = q ? portcos.filter((p) => matches(p, q)) : portcos.filter(BOARDS[sector].match);
+  const rows = q ? shownPortcos().filter((p) => matches(p, q)) : shownPortcos().filter(BOARDS[sector].match);
   const onb = rows.filter((p) => countryOf(p));   // chip counts are what the board shows
   const nOf = (fid) => onb.filter((p) => p.firm === fid).length;
   const owners = FIRMS.filter((f) => rows.some((p) => p.firm === f.id)).sort(ownerOrder(nOf));   // PE then VC, most tracked portcos first
@@ -2095,7 +2110,7 @@ function render() {
   $('firms').hidden = !!board;   // the board shows every sponsor; its chips filter and sort instead
   // Tabs carry the count of companies on each board (APAC, on a column) and run from the fullest
   // board to the emptiest (Josh, 2 Nov 2026); ties keep the BOARDS order.
-  const boardN = Object.keys(BOARDS).map((k, i) => ({ k, i, n: portcos.filter(BOARDS[k].match).filter(countryOf).length }));
+  const boardN = Object.keys(BOARDS).map((k, i) => ({ k, i, n: shownPortcos().filter(BOARDS[k].match).filter(countryOf).length }));
   boardN.sort((a, b) => b.n - a.n || a.i - b.i);
   $('tabs').innerHTML = boardN.map(({ k, n }) => `<button data-tab="${k}"${k === view.tab ? ' class="on"' : ''}>${esc(BOARDS[k].label)}<span class="n">${loaded ? n : ''}</span></button>`).join('');
   $('footBoard').hidden = !board;
@@ -2111,6 +2126,7 @@ function render() {
   $('focus').querySelector('.focus-label').textContent = board ? 'PE and VC firms' : view.tab === 'situations' ? 'Phase' : 'Focus areas';
   // The Dashboard button swaps the board for the charts (Josh, 3 Nov 2026); the sponsor chips
   // still apply, the search box and the tabs do not.
+  { const n = portcos.filter((p) => hiddenCards.has(p.id)).length; $('hiddenBtn').hidden = !n; $('hiddenBtn').textContent = `${n} hidden · show`; }
   $('dashBtn').hidden = !board; $('dashBtn').textContent = view.dash ? 'Boards' : 'Dashboard'; $('dashBtn').setAttribute('aria-pressed', String(!!view.dash));
   $('tabs').hidden = !!(board && view.dash); $('qbox').hidden = !!(board && view.dash);
   $('list').classList.toggle('dash', !!(board && view.dash)); $('footDash').hidden = !(board && view.dash);
@@ -2224,6 +2240,12 @@ async function saveTriage(id, patch) {
 
 $('firms').addEventListener('click', (e) => { const b = e.target.closest('[data-firm]'); if (!b) return; view.firm = b.dataset.firm; editing = null; savePrefs(); render(); });
 $('tabs').addEventListener('click', (e) => { const b = e.target.closest('[data-tab]'); if (!b) return; view.tab = b.dataset.tab; editing = null; savePrefs(); render(); });
+$('list').addEventListener('click', (e) => {
+  const x = e.target.closest('[data-hide]'); if (!x) return;
+  e.stopImmediatePropagation(); e.preventDefault();
+  hiddenCards.add(x.dataset.hide); openPortco.delete(x.dataset.hide); saveHidden(); render();
+}, true);
+$('hiddenBtn').addEventListener('click', () => { hiddenCards.clear(); saveHidden(); render(); });
 $('dashBtn').addEventListener('click', () => { view.dash = !view.dash; savePrefs(); render(); window.scrollTo(0, 0); });
 // Dashboard: a sponsor tile is a chip; a heatmap cell lists its companies (tap again to close).
 $('list').addEventListener('click', (e) => {
