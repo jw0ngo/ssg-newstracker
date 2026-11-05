@@ -632,50 +632,6 @@
   "firstSeen": "2026-10-09T07:11:58Z"
  },
  {
-  "id": "eqt-edgeconnex",
-  "firm": "eqt",
-  "name": "EdgeConneX",
-  "slug": "edgeconnex",
-  "industry": "infra",
-  "industryLabel": "hyperscale & edge data centres",
-  "hq": "Herndon, United States",
-  "geos": [
-   "United States",
-   "Europe",
-   "India",
-   "Southeast Asia",
-   "Global"
-  ],
-  "apac": false,
-  "heldSince": "2020-08",
-  "stake": "control",
-  "valuation": {
-   "amount": null,
-   "basis": "undisclosed; EQT Infrastructure IV bought it from a Providence Equity-led group (Aug 2020, closed Nov 2020); Sixth Street took a minority stake in 2024 and CPP Investments committed US$1.75bn to the EQT/EdgeConneX AI-infrastructure strategy in Jul 2026",
-   "url": "https://www.stblaw.com/about-us/news/view/2026/07/06/cpp-investments-partners-with-eqt-to-support-global-digital-infrastructure-growth"
-  },
-  "summary": "Herndon, Virginia-based developer and operator of hyperscale and edge data centres across North America, Europe and Asia (incl. the AdaniConneX JV in India). EQT Infrastructure IV acquired it in 2020 (Infrastructure V co-invested 2021, Sixth Street minority 2024); capacity has scaled c.20x under EQT, with 10GW+ planned and CPP Investments committing US$1.75bn in July 2026.",
-  "signals": [
-   {
-    "date": "2026-07-06",
-    "publisher": "Simpson Thacher",
-    "title": "CPP Investments Partners with EQT to Support Global Digital Infrastructure Growth",
-    "url": "https://www.stblaw.com/about-us/news/view/2026/07/06/cpp-investments-partners-with-eqt-to-support-global-digital-infrastructure-growth"
-   },
-   {
-    "date": "2020-11-05",
-    "publisher": "EdgeConneX (press release)",
-    "title": "EdgeConneX Announces Completion of its Acquisition by EQT Infrastructure",
-    "url": "https://www.edgeconnex.com/news/press-releases/edgeconnex-announces-completion-of-its-acquisition-by-eqt-infrastructure/"
-   }
-  ],
-  "exit": {
-   "note": "Sixth Street agreed to take a minority stake in 2024 with EQT remaining largest shareholder; CPP Investments US$1.75bn partnership announced Jul 2026",
-   "status": "partial"
-  },
-  "firstSeen": "2026-10-26T11:44:27Z"
- },
- {
   "id": "eqt-gebbs-healthcare-solutions",
   "firm": "eqt",
   "name": "GeBBS Healthcare Solutions",
@@ -745,58 +701,6 @@
   "exit": {
    "note": "May 2026 reports: CEO Mark Moffat says IFS preparing an IPO within two years, venue London, Europe or New York",
    "status": "rumoured"
-  },
-  "firstSeen": "2026-10-06T00:58:19Z"
- },
- {
-  "id": "eqt-indira-ivf",
-  "firm": "eqt",
-  "name": "Indira IVF",
-  "slug": "indira-ivf",
-  "industry": "other",
-  "industryLabel": "Fertility clinic chain, India",
-  "hq": "Udaipur, India",
-  "geos": [
-   "India"
-  ],
-  "apac": true,
-  "heldSince": "2023",
-  "stake": "majority",
-  "valuation": {
-   "amount": "Rs 3,500 cr (US$408m) OFS",
-   "basis": "reported IPO size, Jul 2025 (all offer-for-sale; valuation not disclosed)",
-   "url": "https://www.business-standard.com/markets/news/indira-ivf-s-408-million-india-ipo-may-see-eqt-founders-exit-stake-125071501657_1.html"
-  },
-  "summary": "India's largest ART/IVF chain (~40,000 cycles a year, top-five globally); EQT bought control from TA Associates and founders in 2023, Murdia family retains minority. Exit via India IPO where EQT and founders sell down.",
-  "signals": [
-   {
-    "date": "2026-01-02",
-    "publisher": "Business Standard",
-    "title": "Sebi approves eight IPOs, including confidential filings by Indira IVF",
-    "url": "https://www.business-standard.com/markets/ipo/sebi-approves-eight-ipos-126010200990_1.html"
-   },
-   {
-    "date": "2025-07-16",
-    "publisher": "Business Standard",
-    "title": "EQT-backed Indira IVF refiles DRHP via confidential route",
-    "url": "https://www.business-standard.com/markets/ipo/eqt-backed-indira-ivf-refiles-drhp-via-confidential-route-125071600958_1.html"
-   },
-   {
-    "date": "2025-07-15",
-    "publisher": "Business Standard / Bloomberg",
-    "title": "Indira IVF's $408 million India IPO may see EQT, founders exit stake",
-    "url": "https://www.business-standard.com/markets/news/indira-ivf-s-408-million-india-ipo-may-see-eqt-founders-exit-stake-125071501657_1.html"
-   },
-   {
-    "date": "2025-02-11",
-    "publisher": "Business Standard",
-    "title": "EQT-backed Indira IVF confidentially files draft papers for Rs 6,500 cr IPO",
-    "url": "https://www.business-standard.com/markets/ipo/eqt-backed-indira-ivf-confidentially-files-draft-papers-for-rs-6-500-cr-ipo-125021101658_1.html"
-   }
-  ],
-  "exit": {
-   "note": "IPO: first DRHP Feb 2025 withdrawn Mar 2025; refiled Jul 2025; SEBI observations issued 30 Dec 2025; launch pending",
-   "status": "process"
   },
   "firstSeen": "2026-10-06T00:58:19Z"
  },
@@ -1828,46 +1732,6 @@
    "status": "none"
   },
   "firstSeen": "2026-11-02T08:06:25Z"
- },
- {
-  "id": "kkr-ascend-asia",
-  "firm": "kkr",
-  "name": "Ascend Asia Financial Services Group",
-  "slug": "ascend-asia",
-  "industry": "fintech",
-  "industryLabel": "financial advisory / insurance & wealth distribution platform",
-  "hq": "Singapore",
-  "geos": [
-   "Singapore"
-  ],
-  "apac": true,
-  "heldSince": "2025-06",
-  "stake": "control",
-  "valuation": {
-   "amount": null,
-   "basis": "undisclosed; KKR Asia Fund IV-backed platform launched Jun 2025; finexis and three further firms acquired for undisclosed sums",
-   "url": "https://www.businesswire.com/news/home/20250630866461/en"
-  },
-  "summary": "Singapore financial-advisory platform launched by KKR (Asia Fund IV) in June 2025 under ex-Prudential Singapore CEO Tomas Urbanec. First acquisition was finexis (1,100+ consultants); in May 2026 it added Infinity Financial Advisory, SG Alliance and PromiseLand, taking the network to four firms and 2,000+ consultants. Borderline fintech: advisory roll-up rather than a tech company.",
-  "signals": [
-   {
-    "date": "2026-05-07",
-    "publisher": "Caproasia",
-    "title": "KKR-backed Singapore Ascend Asia Financial Services Group acquires 3 Singapore financial advisory firms Infinity Financial Advisory, SG Alliance, PromiseLand Financial Advisory",
-    "url": "https://www.caproasia.com/2026/05/07/744-billion-private-equity-kkr-backed-singapore-ascend-asia-financial-services-group-acquires-3-singapore-financial-advisory-firms-infinity-financial-advisory-sg-alliance-promiseland-financial-ad/"
-   },
-   {
-    "date": "2025-06-30",
-    "publisher": "Business Wire (KKR press release)",
-    "title": "KKR Launches Ascend Asia Financial Services Group in Singapore; finexis to become first member firm",
-    "url": "https://www.businesswire.com/news/home/20250630866461/en"
-   }
-  ],
-  "exit": {
-   "note": "",
-   "status": "none"
-  },
-  "firstSeen": "2026-11-02T07:33:26Z"
  },
  {
   "id": "kkr-barracuda-networks",
@@ -2936,54 +2800,6 @@
   "firstSeen": "2026-11-02T07:33:26Z"
  },
  {
-  "id": "kkr-oms-group",
-  "firm": "kkr",
-  "name": "OMS Group",
-  "slug": "oms-group",
-  "industry": "infra",
-  "industryLabel": "subsea telecom cable installation & maintenance / digital infrastructure",
-  "hq": "Kuala Lumpur, Malaysia",
-  "geos": [
-   "Malaysia",
-   "Southeast Asia",
-   "Asia-Pacific"
-  ],
-  "apac": true,
-  "heldSince": "2023-10",
-  "stake": "unknown",
-  "valuation": {
-   "amount": null,
-   "basis": "undisclosed; KKR committed US$400m (RM1.9bn) of growth capital in Oct 2023, stake size not disclosed",
-   "url": "https://www.freemalaysiatoday.com/category/business/2023/10/30/kkr-to-invest-rm1-9bil-in-subsea-cable-firm-oms-group"
-  },
-  "summary": "Malaysian neutral provider of subsea telecom cable installation, maintenance and cable-landing-station services (founded 1988, own cable-ship fleet). KKR agreed in Oct 2023 to invest US$400m to fund fleet expansion, cable landing stations and subsea routes; still described as KKR-backed in Jan 2026 when it ordered two Ulstein cable-laying vessels for 2028 delivery.",
-  "signals": [
-   {
-    "date": "2026-07-08",
-    "publisher": "The Star",
-    "title": "OMS celebrates first steel cutting of next-gen vessel",
-    "url": "https://www.thestar.com.my/business/business-news/2026/07/08/oms-celebrates-first-steel-cutting-of-next-gen-vessel"
-   },
-   {
-    "date": "2026-01-21",
-    "publisher": "DCD",
-    "title": "KKR-backed OMS taps Ulstein for two new subsea cable vessels",
-    "url": "https://www.datacenterdynamics.com/en/news/oms-taps-ulstein-for-two-new-subsea-cable-vessels/"
-   },
-   {
-    "date": "2023-10-30",
-    "publisher": "Free Malaysia Today",
-    "title": "KKR to invest RM1.9bil in subsea cable firm OMS Group",
-    "url": "https://www.freemalaysiatoday.com/category/business/2023/10/30/kkr-to-invest-rm1-9bil-in-subsea-cable-firm-oms-group"
-   }
-  ],
-  "exit": {
-   "note": "",
-   "status": "none"
-  },
-  "firstSeen": "2026-11-03T01:49:54Z"
- },
- {
   "id": "kkr-optiv",
   "firm": "kkr",
   "name": "Optiv",
@@ -3106,52 +2922,6 @@
    "status": "listed"
   },
   "firstSeen": "2026-11-02T07:33:26Z"
- },
- {
-  "id": "kkr-pinnacle-towers",
-  "firm": "kkr",
-  "name": "Pinnacle Towers",
-  "slug": "pinnacle-towers",
-  "industry": "infra",
-  "industryLabel": "telecom towers / shared digital infrastructure",
-  "hq": "Metro Manila, Philippines",
-  "geos": [
-   "Philippines"
-  ],
-  "apac": true,
-  "heldSince": "2020-11",
-  "stake": "majority",
-  "valuation": {
-   "amount": null,
-   "basis": "undisclosed; DealStreetAsia (citing Mergermarket) reported KKR running a US$300-400m private placement for Pinnacle, with proceeds partly for bolt-on tower acquisitions; BCI's June 2025 minority purchase terms also undisclosed",
-   "url": "https://dealstreetasia.com/?p=427411"
-  },
-  "summary": "Largest independent telecom tower company in the Philippines (c.7,000 towers built, contracted or acquired, incl. up to 1,350 from Globe-era sale-and-leasebacks); KKR first invested in Nov 2020 via its Asia infrastructure strategy, committed a further US$400m in Mar 2024, and sold a minority stake to Canada's BCI in June 2025 while remaining majority owner.",
-  "signals": [
-   {
-    "date": "2025-06-10",
-    "publisher": "Milbank",
-    "title": "Milbank Advises BCI on Acquisition of Minority Stake in Pinnacle Towers from KKR",
-    "url": "https://www.milbank.com/en/news/milbank-advises-bci-on-acquisition-of-minority-stake-in-pinnacle-towers-from-kkr.html"
-   },
-   {
-    "date": "2025-06-09",
-    "publisher": "BCI (press release)",
-    "title": "BCI invests in KKR tower platform Pinnacle Towers",
-    "url": "https://www.bci.ca/bci-invests-in-kkr-tower-platform-pinnacle-towers/"
-   },
-   {
-    "date": "2024-03-13",
-    "publisher": "Interaksyon / Reuters",
-    "title": "KKR to invest $400 million in Philippine telecoms tower business",
-    "url": "https://media.interaksyon.com/business/2024/03/13/271945/kkr-to-invest-400-million-in-philippine-telecoms-tower-business/"
-   }
-  ],
-  "exit": {
-   "note": "BCI agreed to buy a minority stake from KKR (KKR stays majority), announced 9 Jun 2025, expected to close Q3 2025 subject to regulatory approvals",
-   "status": "partial"
-  },
-  "firstSeen": "2026-11-03T01:49:54Z"
  },
  {
   "id": "kkr-premialab",
@@ -3376,40 +3146,6 @@
   "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
-  "id": "kkr-sk-horizon",
-  "firm": "kkr",
-  "name": "SK Horizon",
-  "slug": "sk-horizon",
-  "industry": "infra",
-  "industryLabel": "AI data centres (SK Telecom carve-out)",
-  "hq": "Seoul, South Korea",
-  "geos": [
-   "South Korea"
-  ],
-  "apac": true,
-  "heldSince": "2026-08",
-  "stake": "significant minority",
-  "valuation": {
-   "amount": "KRW3.08tn (~US$2.2bn)",
-   "basis": "combined KKR + IMM Investment/Stonebridge investment for 49% of SK Horizon (KKR 29%, consortium 20%, SK Telecom keeps 51%), announced Aug 2026",
-   "url": "https://www.stblaw.com/about-us/news/view/2026/08/31/kkr-invests-in-sk-horizon-sk-telecom's-ai-data-center-infrastructure-platform"
-  },
-  "summary": "AI data-centre company being split out of SK Broadband/SK Telecom with ~318MW planned capacity across Seocho, Ilsan, Bundang, Gasan, Centum, Yangju and Pangyo plus Ulsan and Guro projects. In Aug 2026 KKR (29%, via its Asia Pacific infrastructure strategy) and an IMM/Stonebridge consortium (20%) agreed to invest a combined KRW3.08tn; closing pending.",
-  "signals": [
-   {
-    "date": "2026-08-31",
-    "publisher": "Simpson Thacher",
-    "title": "KKR Invests in SK Horizon, SK Telecom's AI Data Center Infrastructure Platform",
-    "url": "https://www.stblaw.com/about-us/news/view/2026/08/31/kkr-invests-in-sk-horizon-sk-telecom's-ai-data-center-infrastructure-platform"
-   }
-  ],
-  "exit": {
-   "note": "Entry deal announced late Aug 2026; closing still pending (DealStreetAsia / Bloomberg Law)",
-   "status": "none"
-  },
-  "firstSeen": "2026-10-26T11:44:27Z"
- },
- {
   "id": "kkr-smarthr",
   "firm": "kkr",
   "name": "SmartHR",
@@ -3440,60 +3176,6 @@
   "exit": {
    "note": "Bloomberg via Private Equity Wire, Jul 2026: Tokyo IPO postponed to at least 2027 after investors questioned the c.US$1bn valuation.",
    "status": "process"
-  },
-  "firstSeen": "2026-10-09T07:11:58Z"
- },
- {
-  "id": "kkr-sttgdc",
-  "firm": "kkr",
-  "name": "ST Telemedia Global Data Centres (STTGDC)",
-  "slug": "sttgdc",
-  "industry": "infra",
-  "industryLabel": "Data centre platform",
-  "hq": "Singapore",
-  "geos": [
-   "Singapore",
-   "India",
-   "Thailand",
-   "Indonesia",
-   "Vietnam",
-   "Philippines",
-   "Japan",
-   "South Korea",
-   "UK"
-  ],
-  "apac": true,
-  "heldSince": "2026-09",
-  "stake": "majority",
-  "valuation": {
-   "amount": "S$13.8bn",
-   "basis": "enterprise value at KKR/Singtel buyout of remaining 82% for S$6.6bn (US$5.1bn), announced Feb 2026",
-   "url": "https://www.cnbc.com/2026/02/04/kkr-and-singtel-stake-in-stt-gdc-for-over-5-billion.html"
-  },
-  "summary": "Singapore-headquartered pan-Asian hyperscale data centre operator; a KKR-led consortium with Singtel completed the buyout of ST Telemedia's remaining 82% on 2 Sep 2026, leaving KKR with c.75% and Singtel 25% at a S$13.8bn EV, Southeast Asia's largest digital-infrastructure deal; rebranded STTGDC on completion. Digital infrastructure rather than software, listed here for Singapore relevance.",
-  "signals": [
-   {
-    "date": "2026-09-02",
-    "publisher": "Company release via Viet Nam News",
-    "title": "KKR-Singtel Consortium Completes Acquisition of STTGDC; Company Launches Refreshed Global Brand",
-    "url": "https://vietnamnews.vn/media-outreach/1798770/kkr-singtel-consortium-completes-acquisition-of-sttgdc-company-launches-refreshed-global-brand-for-next-phase-of-growth.html"
-   },
-   {
-    "date": "2026-02-04",
-    "publisher": "CNBC",
-    "title": "KKR and Singtel to take full ownership of data center firm STT GDC for about $5 billion",
-    "url": "https://www.cnbc.com/2026/02/04/kkr-and-singtel-stake-in-stt-gdc-for-over-5-billion.html"
-   },
-   {
-    "date": "2026-02-03",
-    "publisher": "Forbes",
-    "title": "KKR, Singtel To Buy Stake In Data Center Operator STT GDC For $5.2 Billion Amid AI Boom",
-    "url": "https://www.forbes.com/sites/yessarrosendar/2026/02/03/kkr-singtel-to-buy-stake-in-data-center-operator-stt-gdc-for-52-billion-amid-ai-boom/"
-   }
-  ],
-  "exit": {
-   "note": "",
-   "status": "none"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
  },
@@ -3896,87 +3578,6 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
-  "id": "macquarie-capital-philtower",
-  "firm": "macquarie-capital",
-  "name": "PhilTower (merged PhilTower Consortium / MIDC)",
-  "slug": "philtower",
-  "industry": "infra",
-  "industryLabel": "Independent telecom tower company Philippines",
-  "hq": "Manila, Philippines",
-  "geos": [
-   "Philippines"
-  ],
-  "apac": true,
-  "heldSince": "2024-09",
-  "stake": "co-control",
-  "valuation": {
-   "amount": "US$700–800m (Nov 2024 report); sellers now seek ≥US$1bn",
-   "basis": "reported",
-   "url": "https://bnnbloomberg.ca/business/international/2024/11/15/macquarie-is-said-to-weigh-telco-tower-firm-sale-in-philippines"
-  },
-  "summary": "One of the Philippines' largest independent towercos (3,300+ towers, 2,100+ committed) created by the Sep-2024 merger of PhilTower and Meralco's MIDC. Macquarie Capital holds ~45% alongside Stonepeak, Meralco and Global Network; a sale process has stalled on valuation.",
-  "signals": [
-   {
-    "date": "2026-01-19",
-    "publisher": "Bloomberg",
-    "title": "PhilTower's $1 Billion Sale Plan Is Said to Stall on Valuation",
-    "url": "https://www.bloomberg.com/news/articles/2026-01-19/philtower-s-1-billion-sale-plan-is-said-to-stall-on-valuation"
-   },
-   {
-    "date": "2024-11-15",
-    "publisher": "BNN Bloomberg",
-    "title": "Macquarie Is Said to Weigh Telco Tower Firm Sale in Philippines",
-    "url": "https://bnnbloomberg.ca/business/international/2024/11/15/macquarie-is-said-to-weigh-telco-tower-firm-sale-in-philippines"
-   }
-  ],
-  "exit": {
-   "note": "Sale explored since Nov 2024; stalled on valuation Jan 2026; Macquarie reported seeking a new sell-side advisor (Infralogic)",
-   "status": "process"
-  },
-  "firstSeen": "2026-10-06T00:58:19Z"
- },
- {
-  "id": "macquarie-capital-prime-data-centers",
-  "firm": "macquarie-capital",
-  "name": "Prime Data Centers",
-  "slug": "prime-data-centers",
-  "industry": "infra",
-  "industryLabel": "Wholesale / hyperscale data centre developer",
-  "hq": "Sacramento, United States",
-  "geos": [
-   "United States",
-   "Europe"
-  ],
-  "apac": false,
-  "heldSince": "2021-06",
-  "stake": "minority",
-  "valuation": {
-   "amount": null,
-   "basis": "undisclosed; Macquarie Capital strategic equity partnership announced Jun 2021 to back a multi-billion-dollar build programme; later equity from Snowhawk and Nuveen (Jul 2025)",
-   "url": "https://www.businesswire.com/news/home/20210624005211/en/Macquarie-Capital-Announces-Strategic-Partnership-With-Prime-Data-Centers"
-  },
-  "summary": "US wholesale/hyperscale data-centre developer-operator with campuses across North America and Europe. Macquarie Capital announced a strategic equity partnership in Jun 2021 to fund its build-out; in Jul 2025 Snowhawk and Nuveen made a further strategic investment. Macquarie Capital's continuing stake after the 2025 round was not re-confirmed in sources seen.",
-  "signals": [
-   {
-    "date": "2025-07-31",
-    "publisher": "Simpson Thacher",
-    "title": "Snowhawk and Nuveen Make Strategic Investment in Prime Data Centers",
-    "url": "https://www.stblaw.com/about-us/news/view/2025/07/31/snowhawk-and-nuveen-make-strategic-investment-in-prime-data-centers"
-   },
-   {
-    "date": "2021-06-24",
-    "publisher": "Business Wire (press release)",
-    "title": "Macquarie Capital Announces Strategic Partnership With Prime Data Centers",
-    "url": "https://www.businesswire.com/news/home/20210624005211/en/Macquarie-Capital-Announces-Strategic-Partnership-With-Prime-Data-Centers"
-   }
-  ],
-  "exit": {
-   "note": "",
-   "status": "none"
-  },
-  "firstSeen": "2026-10-26T11:44:27Z"
- },
- {
   "id": "macquarie-capital-sakana-ai",
   "firm": "macquarie-capital",
   "name": "Sakana AI",
@@ -4188,49 +3789,6 @@
   "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
-  "id": "macquarie-capital-zerra",
-  "firm": "macquarie-capital",
-  "name": "Zerra DC",
-  "slug": "zerra",
-  "industry": "infra",
-  "industryLabel": "Hyperscale data centre developer",
-  "hq": "Singapore",
-  "geos": [
-   "Australia",
-   "Japan",
-   "India",
-   "Singapore"
-  ],
-  "apac": true,
-  "heldSince": "2026-10",
-  "stake": "minority",
-  "valuation": {
-   "amount": null,
-   "basis": "undisclosed; AGP remains majority shareholder",
-   "url": "https://realassets.ipe.com/news/macquarie-capital-invests-in-asia-pacific-data-centre-platform-zerra-dc/10138808.article"
-  },
-  "summary": "Singapore-based, AGP-majority-owned hyperscale data centre developer/operator with a 2GW+ pipeline across Australia, Japan and India, including the A$30bn Western Downs Digital Park in Queensland (Anthropic as anchor tenant); Macquarie Capital's principal investment arm took an undisclosed minority stake in Oct 2026, its fifth digital-infrastructure investment since April 2026. Infrastructure rather than software.",
-  "signals": [
-   {
-    "date": "2026-10-06",
-    "publisher": "IPE Real Assets",
-    "title": "Macquarie Capital invests in Asia-Pacific data centre platform Zerra DC",
-    "url": "https://realassets.ipe.com/news/macquarie-capital-invests-in-asia-pacific-data-centre-platform-zerra-dc/10138808.article"
-   },
-   {
-    "date": "2026-10-06",
-    "publisher": "DealStreetAsia",
-    "title": "Macquarie backs Singapore's Zerra DC for APAC data centre expansion",
-    "url": "https://www.dealstreetasia.com/?p=497197"
-   }
-  ],
-  "exit": {
-   "note": "",
-   "status": "none"
-  },
-  "firstSeen": "2026-10-09T07:11:58Z"
- },
- {
   "id": "navis-cardekho-sea",
   "firm": "navis",
   "name": "CarDekho SEA (OTO Group)",
@@ -4418,6 +3976,326 @@
   "firstSeen": "2026-10-06T00:58:19Z"
  },
  {
+  "id": "partners-group-cloudflight",
+  "firm": "partners-group",
+  "name": "Cloudflight",
+  "slug": "cloudflight",
+  "industry": "software",
+  "industryLabel": "IT services / digital engineering, data & AI",
+  "hq": "Linz, Austria",
+  "geos": [
+   "Austria",
+   "Germany",
+   "Switzerland",
+   "Romania",
+   "Europe"
+  ],
+  "apac": false,
+  "heldSince": "2022-11",
+  "stake": "control",
+  "valuation": {
+   "amount": "€400m",
+   "basis": "enterprise value of 'just under €400m' at Partners Group's Nov 2022 acquisition of a controlling stake from DBAG",
+   "url": "https://pe-insights.com/partners-group-to-acquire-cloudflight-at-a-value-of-just-under-e400m/"
+  },
+  "summary": "DACH-focused digital transformation and custom software engineering group (800+ staff, 17 European locations). Partners Group bought a controlling stake from Deutsche Beteiligungs AG in November 2022 at just under €400m EV; in October 2025 it combined with Microsoft data/AI partner paiqo and in February 2026 installed a new CEO with an AI-first consulting push.",
+  "signals": [
+   {
+    "date": "2025-10-01",
+    "publisher": "Cloudflight (press release)",
+    "title": "The Cloudflight Group and paiqo join forces to become a leading European provider of data and AI solutions",
+    "url": "https://www.cloudflight.io/en/blog/cloudflight-group-and-paiqo-join-forces/"
+   },
+   {
+    "date": "2022-11-11",
+    "publisher": "PE Insights",
+    "title": "Partners Group to acquire Cloudflight at a value of just under €400m",
+    "url": "https://pe-insights.com/partners-group-to-acquire-cloudflight-at-a-value-of-just-under-e400m/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T00:46:13Z"
+ },
+ {
+  "id": "partners-group-darwinbox",
+  "firm": "partners-group",
+  "name": "Darwinbox",
+  "slug": "darwinbox",
+  "industry": "software",
+  "industryLabel": "HR / HCM SaaS",
+  "hq": "Hyderabad, India",
+  "geos": [
+   "India",
+   "Southeast Asia",
+   "Middle East",
+   "United States"
+  ],
+  "apac": true,
+  "heldSince": "2025-03",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$1bn",
+   "basis": "blended valuation of about US$1bn in the Aug 2025 US$40m Teachers' Venture Growth round (primary + secondary); the Mar 2025 US$140m Partners Group / KKR round was at a similar ~US$1bn mark; press in Aug 2026 cited ~US$1.8-2.0bn buyout interest",
+   "url": "https://inc42.com/buzz/hr-tech-unicorn-darwinbox-bags-40-mn-to-expand-in-north-america/"
+  },
+  "summary": "Hyderabad-based AI-native cloud HCM platform serving 1,000+ enterprises across India, Southeast Asia, the Middle East and the US. Partners Group co-led the US$140m round with KKR in March 2025 (Gravity Holdings participating) through its thematic growth equity strategy; Teachers' Venture Growth added US$40m in August 2025.",
+  "signals": [
+   {
+    "date": "2026-08-17",
+    "publisher": "Mint via Investing.com",
+    "title": "Microsoft, Salesforce eye Darwinbox buyout ahead of planned IPO - Mint",
+    "url": "https://www.investing.com/news/stock-market-news/microsoft-salesforce-eye-darwinbox-buyout-ahead-of-planned-ipo-mint-93CH-4864245"
+   },
+   {
+    "date": "2025-08-14",
+    "publisher": "Business Wire (press release)",
+    "title": "Darwinbox Secures US$40 Million from Teachers' Venture Growth",
+    "url": "https://www.businesswire.com/news/home/20250814584280/en"
+   },
+   {
+    "date": "2025-03-25",
+    "publisher": "HR Dive (press release)",
+    "title": "Darwinbox Raises $140 Million Investment Co-led by Partners Group and KKR to Accelerate Global Expansion",
+    "url": "https://www.hrdive.com/press-release/20250325-darwinbox-raises-140-million-investment-co-led-by-partners-group-and-kkr-t-1/"
+   }
+  ],
+  "exit": {
+   "note": "Mint, mid-Aug 2026: Salesforce, Microsoft and ADP reported to have approached founders/board about buying out shareholders at ~US$1.8-2.0bn ahead of a planned IPO; Darwinbox denied active stake-sale talks and said it remains on track for a medium-term IPO",
+   "status": "rumoured"
+  },
+  "firstSeen": "2026-11-05T00:46:13Z"
+ },
+ {
+  "id": "partners-group-forterro",
+  "firm": "partners-group",
+  "name": "Forterro",
+  "slug": "forterro",
+  "industry": "software",
+  "industryLabel": "ERP / manufacturing software for SMEs",
+  "hq": "London, United Kingdom",
+  "geos": [
+   "United Kingdom",
+   "Germany",
+   "France",
+   "Sweden",
+   "Switzerland",
+   "Europe"
+  ],
+  "apac": false,
+  "heldSince": "2022-03",
+  "stake": "control",
+  "valuation": {
+   "amount": "€1bn",
+   "basis": "enterprise value at Partners Group's Mar 2022 acquisition from Battery Ventures (Battery later bought back ~10%)",
+   "url": "https://pe-insights.com/partners-group-to-buy-into-manufacturing-software-provider-forterro-at-e1bn-valuation"
+  },
+  "summary": "London-based pan-European provider of ERP and vertical manufacturing software for small and mid-sized industrial companies (Myfactory, Abas, Sylob, Jeeves and others). Partners Group acquired it from Battery Ventures in March 2022 at a ~€1bn valuation and has kept buying: Business Micros (Jan 2025), then Klaes and 3E Datentechnik (announced Apr–May 2026, both completed by end-May 2026).",
+  "signals": [
+   {
+    "date": "2026-05-18",
+    "publisher": "Project Scotland",
+    "title": "Forterro confirms plans to acquire software specialist 3E",
+    "url": "https://projectscot.com/2026/05/forterro-confirms-plans-to-acquire-software-specialist-3e/"
+   },
+   {
+    "date": "2025-01-08",
+    "publisher": "MergerLinks",
+    "title": "Partners Group-backed Forterro completes acquisition of Business Micros",
+    "url": "https://app.mergerlinks.com/transactions/2025-01-08-business-micros"
+   },
+   {
+    "date": "2022-03-01",
+    "publisher": "PE Insights",
+    "title": "Partners Group to buy into manufacturing software provider Forterro at €1bn valuation",
+    "url": "https://pe-insights.com/partners-group-to-buy-into-manufacturing-software-provider-forterro-at-e1bn-valuation"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T00:46:13Z"
+ },
+ {
+  "id": "partners-group-neara",
+  "firm": "partners-group",
+  "name": "Neara",
+  "slug": "neara",
+  "industry": "ai",
+  "industryLabel": "AI-powered utility network digital-twin SaaS",
+  "hq": "Sydney, Australia",
+  "geos": [
+   "Australia",
+   "United States",
+   "United Kingdom",
+   "Europe"
+  ],
+  "apac": true,
+  "heldSince": "2024-10",
+  "stake": "minority",
+  "valuation": {
+   "amount": "A$1.1bn",
+   "basis": "reported valuation at the Feb 2026 Series D (A$90m / ~US$63m led by TCV), making Neara an Australian unicorn",
+   "url": "https://siliconangle.com/?p=730486"
+  },
+  "summary": "Sydney-based 3D digital-twin and AI modelling platform for electricity networks and other critical infrastructure. Partners Group first invested in the Oct 2024 US$31m Series C led by EQT (with Square Peg) and followed on in the Feb 2026 Series D led by TCV alongside EQT, Square Peg and Skip Capital.",
+  "signals": [
+   {
+    "date": "2026-02-09",
+    "publisher": "SiliconANGLE",
+    "title": "Neara raises US$63M Series D to boost AI-powered digital twin platform (TCV-led; Partners Group, EQT, Square Peg participate)",
+    "url": "https://siliconangle.com/?p=730486"
+   },
+   {
+    "date": "2024-10-31",
+    "publisher": "Built In",
+    "title": "Neara Secures $31M Series C to Fuel International Growth",
+    "url": "https://builtin.com/articles/near-secures-31m-series-c-20241031"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T00:46:13Z"
+ },
+ {
+  "id": "partners-group-omie",
+  "firm": "partners-group",
+  "name": "Omie",
+  "slug": "omie",
+  "industry": "software",
+  "industryLabel": "cloud ERP / SME financial management SaaS",
+  "hq": "São Paulo, Brazil",
+  "geos": [
+   "Brazil"
+  ],
+  "apac": false,
+  "heldSince": "2025-09",
+  "stake": "minority",
+  "valuation": {
+   "amount": "US$700m",
+   "basis": "reported valuation at the Sep 2025 Partners Group-led round (~US$160m / R$855m, mostly secondary; Bloomberg Línea reports ~15% for US$100m)",
+   "url": "https://www.bloomberglinea.com.br/startups/partners-group-adquire-15-da-omie-por-us-100-milhoes-e-mira-digitalizacao-de-pmes/"
+  },
+  "summary": "Brazilian cloud ERP and financial-management platform for SMEs (~180,000 customers, ~R$600m ARR), previously backed by SoftBank. Partners Group led a ~US$160m growth round announced September 2025 (closed December 2025), largely secondary, taking a reported ~15% minority stake at a ~US$700m valuation.",
+  "signals": [
+   {
+    "date": "2025-09-11",
+    "publisher": "Bloomberg Línea",
+    "title": "Partners Group adquire 15% da Omie por US$ 100 milhões e mira digitalização de PMEs",
+    "url": "https://www.bloomberglinea.com.br/startups/partners-group-adquire-15-da-omie-por-us-100-milhoes-e-mira-digitalizacao-de-pmes/"
+   },
+   {
+    "date": "2025-09-11",
+    "publisher": "MergerLinks",
+    "title": "Partners Group leads US$160m growth round in Omie",
+    "url": "https://app.mergerlinks.com/request-credit/2025-09-11-omie"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T00:46:13Z"
+ },
+ {
+  "id": "partners-group-velocityehs",
+  "firm": "partners-group",
+  "name": "VelocityEHS",
+  "slug": "velocityehs",
+  "industry": "software",
+  "industryLabel": "EHS & ESG compliance SaaS",
+  "hq": "Chicago, United States",
+  "geos": [
+   "United States",
+   "Canada",
+   "United Kingdom",
+   "Australia"
+  ],
+  "apac": false,
+  "heldSince": "2022-08",
+  "stake": "significant minority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed; CVC had explored a sale at up to ~US$2bn before Partners Group's Aug 2022 minority entry",
+   "url": "https://www.esgtoday.com/partners-group-acquires-stake-in-velocityehs-from-cvc/"
+  },
+  "summary": "Chicago-based environmental, health, safety and sustainability software platform. Partners Group bought a significant minority stake from CVC Growth Funds in August 2022, with CVC retaining majority control; the company, described as a CVC and Partners Group portfolio company, bought Contractor Compliance in January 2024 and hired a CRO in March 2026 to push AI-powered EHS growth.",
+  "signals": [
+   {
+    "date": "2026-03-31",
+    "publisher": "VelocityEHS (press release)",
+    "title": "VelocityEHS taps proven EHS leader Cory Gendron to accelerate growth",
+    "url": "https://www.ehs.com/press_releases/velocityehs-taps-proven-ehs-leader-cory-gendron-to-accelerate-growth/"
+   },
+   {
+    "date": "2024-01-08",
+    "publisher": "PE Hub",
+    "title": "Private equity-backed VelocityEHS buys Contractor Compliance",
+    "url": "https://www.pehub.com/pe-backed-velocityehs-buys-risk-management-software-firm-contractor-compliance/"
+   },
+   {
+    "date": "2022-08-16",
+    "publisher": "ESG Today",
+    "title": "Partners Group Acquires Stake in VelocityEHS from CVC",
+    "url": "https://www.esgtoday.com/partners-group-acquires-stake-in-velocityehs-from-cvc/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T00:46:13Z"
+ },
+ {
+  "id": "partners-group-version-1",
+  "firm": "partners-group",
+  "name": "Version 1",
+  "slug": "version-1",
+  "industry": "software",
+  "industryLabel": "IT services / digital & cloud transformation",
+  "hq": "Dublin, Ireland",
+  "geos": [
+   "Ireland",
+   "United Kingdom",
+   "India",
+   "Spain",
+   "United States"
+  ],
+  "apac": false,
+  "heldSince": "2022-04",
+  "stake": "majority",
+  "valuation": {
+   "amount": "€800m",
+   "basis": "reported enterprise value at Partners Group's Apr 2022 majority buyout from Volpi Capital",
+   "url": "https://www.businesspost.ie/news/version-1-bought-by-partners-group-in-e800m-deal/"
+  },
+  "summary": "Dublin-headquartered IT services and digital/cloud transformation provider (Oracle, Microsoft, AWS partner) with large UK, Irish and Indian delivery operations. Partners Group bought a majority stake from Volpi Capital in April 2022 at a reported ~€800m valuation; in April 2026 Version 1 agreed to buy Scottish digital consultancy CreateFuture, creating a ~€500m-revenue group.",
+  "signals": [
+   {
+    "date": "2026-04-30",
+    "publisher": "The Irish News",
+    "title": "Version 1 acquires CreateFuture to create €500m IT services group",
+    "url": "https://www.irishnews.com/news/business/version-1-acquires-createfuture-to-create-500m-it-services-group-54RC6UNL6NBV3IQX35MR6DFBBE/"
+   },
+   {
+    "date": "2022-04-20",
+    "publisher": "Business Post",
+    "title": "Version 1 bought by Partners Group in €800m deal",
+    "url": "https://www.businesspost.ie/news/version-1-bought-by-partners-group-in-e800m-deal/"
+   }
+  ],
+  "exit": {
+   "note": "",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-05T00:46:13Z"
+ },
+ {
   "id": "ta-associates-accion-labs",
   "firm": "ta-associates",
   "name": "Accion Labs",
@@ -4533,33 +4411,6 @@
   "exit": {
    "note": "",
    "status": "none"
-  },
-  "firstSeen": "2026-10-06T00:58:19Z"
- },
- {
-  "id": "ta-associates-atria-convergence-technologies",
-  "firm": "ta-associates",
-  "name": "Atria Convergence Technologies (ACT Fibernet)",
-  "slug": "atria-convergence-technologies",
-  "industry": "infra",
-  "industryLabel": "Fibre broadband ISP, India",
-  "hq": "Bengaluru, India",
-  "geos": [
-   "India"
-  ],
-  "apac": true,
-  "heldSince": "2016",
-  "stake": "co-control",
-  "valuation": {
-   "amount": "US$1.2bn",
-   "basis": "EV of lapsed Partners Group 75% deal, 2021; revived 2026 process reportedly targets ~US$1bn EV",
-   "url": "https://tele.net.in/partners-group-to-acquire-about-75-per-cent-stake-in-act-fibernet-for-900-million/"
-  },
-  "summary": "India's largest non-telco wired broadband provider (~5% share, 30+ cities) selling fibre internet to homes and SMEs. TA and True North hold 94.66% together after a US$500m 2016 deal; a decade-old holding now back in a sale process.",
-  "signals": [],
-  "exit": {
-   "note": "2026: True North and TA appointed Nomura and Ambit to sell ACT at ~US$1bn EV, IMs already sent (Communications Today; exact date not visible in results). Partners Group's 2021 deal at ~US$1.2bn EV collapsed.",
-   "status": "process"
   },
   "firstSeen": "2026-10-06T00:58:19Z"
  },
@@ -7241,40 +7092,6 @@
   "firstSeen": "2026-10-05T10:37:52Z"
  },
  {
-  "id": "warburg-pincus-dc-connects-yongin",
-  "firm": "warburg-pincus",
-  "name": "DC Connects (Yongin hyperscale DC JV)",
-  "slug": "dc-connects-yongin",
-  "industry": "infra",
-  "industryLabel": "hyperscale data centre development JV (Korea)",
-  "hq": "Seoul, South Korea",
-  "geos": [
-   "South Korea"
-  ],
-  "apac": true,
-  "heldSince": "2025-09",
-  "stake": "co-control",
-  "valuation": {
-   "amount": null,
-   "basis": "undisclosed; investment size for the 80MW Yongin project not disclosed",
-   "url": null
-  },
-  "summary": "Warburg Pincus partnered with Korean data-centre developer DC Connects and Seoul asset manager Wide Creek AMC to buy a greenfield site in Yongin City (near Pangyo/Gangnam) and develop an 80MW, ~58,000 sqm AI-ready hyperscale data centre; ground broken Sept 2025, service targeted for 2027.",
-  "signals": [
-   {
-    "date": "2025-09-25",
-    "publisher": "Warburg Pincus (press release)",
-    "title": "Warburg Pincus Partners with DC Connects and Wide Creek AMC to Acquire Land to Develop 80MW Hyperscale Data Centre in South Korea",
-    "url": "https://warburgpincus.com/2025/09/25/warburg-pincus-partners-with-dc-connects-and-wide-creek-amc-to-acquire-land-to-develop-80mw-hyperscale-data-centre-in-south-korea/"
-   }
-  ],
-  "exit": {
-   "note": "",
-   "status": "none"
-  },
-  "firstSeen": "2026-10-26T11:44:27Z"
- },
- {
   "id": "warburg-pincus-ensemble-health-partners",
   "firm": "warburg-pincus",
   "name": "Ensemble Health Partners",
@@ -7409,43 +7226,6 @@
    "status": "none"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
- },
- {
-  "id": "warburg-pincus-evolution-data-centres",
-  "firm": "warburg-pincus",
-  "name": "Evolution Data Centres",
-  "slug": "evolution-data-centres",
-  "industry": "infra",
-  "industryLabel": "hyperscale data centres (SE Asia)",
-  "hq": "Singapore",
-  "geos": [
-   "Singapore",
-   "Thailand",
-   "Philippines",
-   "Vietnam"
-  ],
-  "apac": true,
-  "heldSince": "2022-09",
-  "stake": "co-control",
-  "valuation": {
-   "amount": null,
-   "basis": "undisclosed; Mingtiandi (Aug 2025) reported Zero Two's co-controlling investment at ~US$325m per sources, no platform valuation disclosed",
-   "url": "https://www.mingtiandi.com/real-estate/data-centres/abu-dhabis-zero-two-invests-in-evolution-data-centers"
-  },
-  "summary": "Singapore-based developer/operator of renewable-powered hyperscale data centres in Southeast Asia (projects in Thailand, the Philippines and Vietnam). Warburg Pincus formed a programmatic JV with EDC in Sept 2022 from its Asia real estate fund; in Aug 2025 Abu Dhabi's Zero Two (ADQ) took a co-controlling position alongside Warburg.",
-  "signals": [
-   {
-    "date": "2025-08-12",
-    "publisher": "Warburg Pincus (press release)",
-    "title": "Evolution Data Centres welcomes Zero Two as strategic shareholder in joint partnership with Warburg Pincus",
-    "url": "https://warburgpincus.com/2025/08/12/evolution-data-centres-welcomes-zero-two-as-strategic-shareholder-in-joint-partnership-with-warburg-pincus/"
-   }
-  ],
-  "exit": {
-   "note": "Zero Two (ADQ) joined as co-controlling shareholder Aug 2025; Warburg Pincus remains co-controlling partner",
-   "status": "none"
-  },
-  "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
   "id": "warburg-pincus-gcash",
@@ -7750,54 +7530,6 @@
   "firstSeen": "2026-10-26T11:44:27Z"
  },
  {
-  "id": "warburg-pincus-oona-insurance",
-  "firm": "warburg-pincus",
-  "name": "Oona Insurance",
-  "slug": "oona-insurance",
-  "industry": "fintech",
-  "industryLabel": "Digital general insurance platform",
-  "hq": "Singapore",
-  "geos": [
-   "Indonesia",
-   "Philippines",
-   "Southeast Asia"
-  ],
-  "apac": true,
-  "heldSince": "2022-10",
-  "stake": "majority",
-  "valuation": {
-   "amount": null,
-   "basis": "no valuation disclosed; Warburg US$350m equity commitment at formation, Oct 2022",
-   "url": "https://warburgpincus.com/?p=20397"
-  },
-  "summary": "Warburg-founded digital general insurer (motor, property, group health) built via buy-and-build acquisitions of ABDA (Indonesia) and Mapfre Insular (Philippines). H1 2026 group net income +130%, COR 96%, and actively pursuing further SE Asia acquisitions.",
-  "signals": [
-   {
-    "date": "2026-08-21",
-    "publisher": "Daily Tribune",
-    "title": "Oona enters top 10 PHL non-life insurers",
-    "url": "https://tribune.net.ph/2026/08/21/oona-enters-top-10-phl-non-life-insurers"
-   },
-   {
-    "date": "2026-08-20",
-    "publisher": "PR Newswire Asia",
-    "title": "Oona Insurance Eyes Southeast Asia Acquisitions With 130% Net Income Growth, Outpacing Regional Insurance Markets",
-    "url": "https://en.prnasia.com/story/544605-0.shtml"
-   },
-   {
-    "date": "2022-10-20",
-    "publisher": "Coverager",
-    "title": "Warburg Pincus announces equity commitment to establish Oona",
-    "url": "https://coverager.com/warburg-pincus-announces-equity-commitment-to-establish-oona/"
-   }
-  ],
-  "exit": {
-   "note": "",
-   "status": "none"
-  },
-  "firstSeen": "2026-10-05T10:37:52Z"
- },
- {
   "id": "warburg-pincus-oxylabs",
   "firm": "warburg-pincus",
   "name": "Oxylabs",
@@ -7874,45 +7606,6 @@
    "status": "rumoured"
   },
   "firstSeen": "2026-10-05T10:37:52Z"
- },
- {
-  "id": "warburg-pincus-princeton-digital-group",
-  "firm": "warburg-pincus",
-  "name": "Princeton Digital Group (PDG)",
-  "slug": "princeton-digital-group",
-  "industry": "infra",
-  "industryLabel": "Data centre developer and operator",
-  "hq": "Singapore",
-  "geos": [
-   "Singapore",
-   "Indonesia",
-   "India",
-   "Japan",
-   "Malaysia",
-   "China"
-  ],
-  "apac": true,
-  "heldSince": "2017",
-  "stake": "majority",
-  "valuation": {
-   "amount": "up to US$1bn",
-   "basis": "reported value sought for the China data-centre portfolio being carved out and sold (FT, May 2026); whole-company valuation undisclosed",
-   "url": "https://www.datacenterdynamics.com/en/news/pdg-looking-to-sell-china-data-centers-report/"
-  },
-  "summary": "Singapore-headquartered pan-Asian data-centre platform founded with Warburg Pincus in 2017 (Warburg is its largest institutional investor; Ontario Teachers' and Mubadala are co-investors); in 2026 it is running a CICC-led sale of its c.220-290MW China portfolio for up to US$1bn and a Goldman-advised strategic review that could bring in a new minority investor.",
-  "signals": [
-   {
-    "date": "2026-05-21",
-    "publisher": "Data Center Dynamics",
-    "title": "PDG looking to sell China data centers - report",
-    "url": "https://www.datacenterdynamics.com/en/news/pdg-looking-to-sell-china-data-centers-report/"
-   }
-  ],
-  "exit": {
-   "note": "FT via DCD / Private Equity Wire, May 2026: sale process for China data centres (up to US$1bn) via CICC; Mergermarket: Goldman Sachs running strategic review that may include a minority stake sale.",
-   "status": "process"
-  },
-  "firstSeen": "2026-10-09T07:11:58Z"
  },
  {
   "id": "warburg-pincus-psi-software",

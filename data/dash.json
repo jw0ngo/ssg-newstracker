@@ -82,12 +82,24 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 10843,
- "candidates": 221,
- "fromSignals": 28,
+ "archived": 11271,
+ "candidates": 230,
+ "fromSignals": 31,
  "boltons": [
   {
-   "n": 2,
+   "n": 1,
+   "date": "2026-11-03",
+   "month": "2026-11",
+   "firm": "macquarie-capital",
+   "portco": "brennan",
+   "buyer": "Brennan",
+   "title": "Ballard Mining Director Paul Brennan Acquires 50,000 Shares for $29,244.13",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMVN2VmczQm80ZElkSGNvZU5vZmRJWUltSjNnTnF6aXFCdk5JOXF3djl4c2tFMUxVMWJBVkxnZ01HSlZqWExab2R1WE80SEhGSzRLLVhJQ1dtSlQ2aHdFQ1dtWEVqcHlqblpoX28tc1huam9sZHhKNjhaazdiajRTQ2gzUjlJZUVCWC1zTjBDQjhvczlCZGk1alVtTm1Eb0lrc1d1TXNoSEdFenpWQ2EwUVNB?oc=5",
+   "publisher": "Kalkine",
+   "stage": "signed"
+  },
+  {
+   "n": 3,
    "date": "2026-11-03",
    "month": "2026-11",
    "firm": "tpg",
@@ -99,7 +111,7 @@
    "stage": "signed"
   },
   {
-   "n": 2,
+   "n": 3,
    "date": "2026-11-03",
    "month": "2026-11",
    "firm": "ta-associates",
@@ -520,15 +532,15 @@
    "stage": "signed"
   },
   {
-   "n": 2,
-   "date": "2026-06-12",
+   "n": 3,
+   "date": "2026-06-11",
    "month": "2026-06",
    "firm": "eqt",
    "portco": "sagility",
    "buyer": "Sagility India",
-   "title": "Sagility acquires US-based CareSeed to strengthen AI-driven healthcare quality operations",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQak1jNVlsSEtFZGNtQ2Zoa2tadDFIZ2w1eGZMbjBXTkZuMFpzQWNqbVZxV0lFWVV2YXUzamE0TDJjMGQ5RjBNd0VUVE9KUU1QN21MSlJCdXFiMXpmRVRuektQWk1JTVhtUTNqMHdzNUVqVjJtQjNqdGxWQ05tQmNkNW5DQ1ZCZm1ZdGRyX2pyRjU0RVdaN3E2S3BqcEVlcE9UOHZDOTVPb0ZTYnI5ZzVVSWpRN20zX2lsR1ZabFlaNlU5Y05CT2JGQnFxX0hOcTI0OWtMZEgzX25lN085QkZXVVRJQVJQUVpZV1NCdVRn0gHzAUFVX3lxTE95Mk53SHIwaktqRVJhOF84OGI5WTNZOXd0NVZwdDdCalp3N0VoSEV6YmR2VW9PYmlveUFoTDhkUUFESUFEVmtVamRTVVhSNzVpMVlVNTJ1NUo3cml5ZEktdXRqUV9md2JxMXJEYk0wSk02Q3FLbFNEdHRucW5ubmJHYXFQMlV0MHZmeGVKNXgzVnRTWWtCRE5yVEhzTDZGYnNTRDFiZzFEbTF0V2pvNkdLVVMyUlpVNDNDUVNmYW1qQU85QlNsXzBNQnlENVotcWpJN2tWZVBhVlhGTXkzREo3RktsLXYzYWdpVktjNWo0d2V5RQ?oc=5",
-   "publisher": "ET HealthWorld",
+   "title": "Sagility Acquires CareSeed to Accelerate AI-Led Quality Operations and Medicare Advantage Performance Transformation",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOWW52SExBZDNZbzBuNTMwXzhiZExDTE1LQW1iM1NzTDhGdU0zeUYwYjlYdExtSlpsR2p3TnBvVTdwYUhLS19hUW15dG10Q0VGMjBjYmJQZUZxX2xDckpnSExiNVBHSnNrWU45dUhSQThWWHlnZ3M1QWJ2dE52LXhfRzByLXZmMmVFMnloU1hGVUdrYndxazV2Z0cxNXpSVXlrNFQtTjhIVmttdTNLdVl1UUpKSTlYY0paZTRXRnFnY1p3cndNME4xRzNSNGg2UmdMZlplNW9xX2pUZGZvcW9kSHk2MjdMT05QZEFDaWRxX3F0Y2QtWV81YzNRV0JKajNzbDg0?oc=5",
+   "publisher": "Business Wire",
    "stage": "signed"
   },
   {
@@ -596,14 +608,27 @@
   },
   {
    "n": 1,
-   "date": "2026-05-07",
+   "date": "2026-05-18",
    "month": "2026-05",
-   "firm": "kkr",
-   "portco": "ascend-asia",
-   "buyer": "Ascend Asia Financial Services Group",
-   "title": "KKR-backed Singapore Ascend Asia Financial Services Group acquires 3 Singapore financial advisory firms Infinity Financial Advisory, SG Alliance, PromiseLand Financial Advisory",
-   "url": "https://www.caproasia.com/2026/05/07/744-billion-private-equity-kkr-backed-singapore-ascend-asia-financial-services-group-acquires-3-singapore-financial-advisory-firms-infinity-financial-advisory-sg-alliance-promiseland-financial-ad/",
-   "publisher": "Caproasia",
+   "firm": "partners-group",
+   "portco": "forterro",
+   "buyer": "Forterro",
+   "title": "Forterro confirms plans to acquire software specialist 3E",
+   "url": "https://projectscot.com/2026/05/forterro-confirms-plans-to-acquire-software-specialist-3e/",
+   "publisher": "Project Scotland",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2026-04-30",
+   "month": "2026-04",
+   "firm": "partners-group",
+   "portco": "version-1",
+   "buyer": "Version 1",
+   "title": "Version 1 acquires CreateFuture to create €500m IT services group",
+   "url": "https://www.irishnews.com/news/business/version-1-acquires-createfuture-to-create-500m-it-services-group-54RC6UNL6NBV3IQX35MR6DFBBE/",
+   "publisher": "The Irish News",
    "stage": "signed",
    "fromSignal": true
   },
@@ -643,6 +668,18 @@
    "publisher": "CNBC",
    "stage": "signed",
    "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2026-04-10",
+   "month": "2026-04",
+   "firm": "kkr",
+   "portco": "oms-group",
+   "buyer": "OMS Group",
+   "title": "News Content Hub - Malaysia-based telecoms company OMS Group acquires second DriX USV",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQTBDeVM1X3VZY0VNWXIzMjVlblgtRWJDeVZCTThKdmkwYTVLNlRRMmtZeW5nNWlLaTk3MndPR01laXRIRjFDbmhrUGJyMzJibDNsX1BpRllrVzBOQlhPMnRGcWhjM2FlY2syU3ZLd2Z2TVVfNlR0WENPdHBrckhDMmxVZlkxWUVERTdLRk1lWl9Td0xwaUFPODlDTW9DaE9wS05lR1dpcTkwR2F2NUpnbGtLaWJmeXQ3QUU5bXR0NmJjdlpGaVExeHpHVjQ?oc=5",
+   "publisher": "Riviera Maritime Media",
+   "stage": "signed"
   },
   {
    "n": 1,
@@ -976,7 +1013,7 @@
    "fromSignal": true
   },
   {
-   "n": 4,
+   "n": 5,
    "date": "2025-05-07",
    "month": "2025-05",
    "firm": "kkr",
@@ -1060,7 +1097,7 @@
    "stage": "signed"
   },
   {
-   "n": 1,
+   "n": 2,
    "date": "2025-02-18",
    "month": "2025-02",
    "firm": "ta-associates",
@@ -1073,7 +1110,7 @@
    "fromSignal": true
   },
   {
-   "n": 1,
+   "n": 2,
    "date": "2025-02-18",
    "month": "2025-02",
    "firm": "tpg",
@@ -1111,7 +1148,7 @@
    "fromSignal": true
   },
   {
-   "n": 1,
+   "n": 2,
    "date": "2025-01-22",
    "month": "2025-01",
    "firm": "eqt",
@@ -1133,6 +1170,19 @@
    "title": "Employment Hero acquires Canadian employment platform Humi in $100M+ global expansion move",
    "url": "https://employmenthero.com/blog/employment-hero-acquires-canadian-employment-platform-humi-in-100m-global-expansion-move",
    "publisher": "Employment Hero",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2025-01-08",
+   "month": "2025-01",
+   "firm": "partners-group",
+   "portco": "forterro",
+   "buyer": "Forterro",
+   "title": "Partners Group-backed Forterro completes acquisition of Business Micros",
+   "url": "https://app.mergerlinks.com/transactions/2025-01-08-business-micros",
+   "publisher": "MergerLinks",
    "stage": "signed",
    "fromSignal": true
   },
@@ -1282,6 +1332,19 @@
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLVFnZ1hscVZJSzBpQ2QyVW5WaURLMWlEYjBveS0xWlNkRVFCdi1RaUlnR2o1c0VnRVUwemV3LURWNFhlcmIzcTVoa3psZEkwUWZNdml5cTQ0clVSdGpmUzhKaG5vc3NCa0o2cjM2UkI2NGFmUjdjUEF6NW5pOUk1dUNKcw?oc=5",
    "publisher": "Credit Connect",
    "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2024-01-08",
+   "month": "2024-01",
+   "firm": "partners-group",
+   "portco": "velocityehs",
+   "buyer": "VelocityEHS",
+   "title": "Private equity-backed VelocityEHS buys Contractor Compliance",
+   "url": "https://www.pehub.com/pe-backed-velocityehs-buys-risk-management-software-firm-contractor-compliance/",
+   "publisher": "PE Hub",
+   "stage": "signed",
+   "fromSignal": true
   },
   {
    "n": 1,
