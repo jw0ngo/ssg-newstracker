@@ -7558,7 +7558,14 @@
    "url": "https://www.theweeklysource.com.au/navis-capital-looking-to-sell-home-care-business-caring-group/"
   },
   "summary": "Home care and disability provider (4,500 clients, 2,000 support workers, 40+ franchisees); Navis bought in 2023 for A$150m, added Dementia Caring (A$139m) and invested in technology. Revenue A$200m FY23 to A$327m FY25, EBITDA ~A$10m.",
-  "signals": [],
+  "signals": [
+   {
+    "date": "2026-07-22T00:00:00.000Z",
+    "publisher": "The Weekly Source",
+    "title": "Navis Capital looking to sell home care business Caring Group",
+    "url": "https://www.theweeklysource.com.au/navis-capital-looking-to-sell-home-care-business-caring-group/"
+   }
+  ],
   "exit": {
    "note": "The Weekly Source (2026): Navis looking to sell; discussions early-stage, deal not expected before 2027",
    "status": "rumoured"

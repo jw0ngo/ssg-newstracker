@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T23:37:14Z",
+ "at": "2026-11-08T23:37:08Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,8 +82,8 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 11271,
- "candidates": 230,
+ "archived": 12277,
+ "candidates": 244,
  "fromSignals": 31,
  "boltons": [
   {
@@ -120,6 +120,18 @@
    "title": "Fractal Analytics acquires talent and assets from Pricing One SA",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU0hTbTRhM0hobzFhb25adlo0WUd4aDBHTDlyNzliWXB2VGhtVW1vWW5zTHRMQkRoOERFTnNMVHNnWmRJNDliX0kyWUFjenZuY1RzZjlTYzk1S1p6ck1FWWVtRnBtUS1xS1h2U0Q5MU9EZWk4aGg1VHhPSl9YVmVCNWVkZWlQUQ?oc=5",
    "publisher": "InvestyWise",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-10-30",
+   "month": "2026-10",
+   "firm": "partners-group",
+   "portco": "forterro",
+   "buyer": "Forterro",
+   "title": "Battery Ventures-backed Forterro buys software company Targit",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaWppS0c2TjRCc0xRTGdLMWt6SHU5V0gxamNaTUF3MzdvSGtDZjZERnQxMWIwb29BWXZDSEY1UGM1Z2pxaVl3SkJON05IZF9QaWEyTVhKNmZOVXpYbDZ2dld5bE1temZmdGhGRUNkdDVKWi10OVJsOVY5ZjJiOEpkak80R0FINk9kRzlMRW5sR1FjMmU3TDNXblN2WnNnWDJSTUhOR1NMMnc?oc=5",
+   "publisher": "PEI Private Equity",
    "stage": "signed"
   },
   {
@@ -411,7 +423,7 @@
    "stage": "signed"
   },
   {
-   "n": 2,
+   "n": 3,
    "date": "2026-09-01",
    "month": "2026-09",
    "firm": "macquarie-capital",
@@ -481,6 +493,18 @@
    "title": "Infoblox Acquiring Kentik to Expand Visibility",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLVdLWWFpd3hxdjREN0tjcWI4NWg1RHpfNG9jN2NHSGVyZmhXZkxITVNvOS0wMG80NFNaekRsRVhCMFpwNW5kbWc1aGlaY2pZbnFVZnBOVEE5UGhValVvbWRnckZ5SXU0bTljM21QTHJHVzJsQktuaDk3YUNaTGFWaUI0emdfZEpQZ3FsbUtKMURET0pocWFVRXFBYnBLdDR4VVB5R3ROYTR4YnJkZ2NZN3BNOUF6LUU2?oc=5",
    "publisher": "Channel Insider",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-07-07",
+   "month": "2026-07",
+   "firm": "kkr",
+   "portco": "barracuda-networks",
+   "buyer": "Barracuda Networks",
+   "title": "Barracuda Networks acquires access management startup Evo Security",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORkNIZkszR3h4S2xLMjhKUkE0WVRlcktlUTkzSmNrWW15UjJfWmNKbkxRZjZpUGNhZjdhMUFsUVhyZUY3NmswZ2tyRXpGbVVsVnBKajFjLVhXWnNxckZWdE1vd0t5VTNrakdyZHM1X3RhcHktY1Y4Wlc2WTZweW9Md3dUSUJ2UkJQOThkZURDUDRYVTVqbDJDeFZlcHNfQ21qbXJESm5n?oc=5",
+   "publisher": "SiliconANGLE",
    "stage": "signed"
   },
   {
@@ -621,6 +645,30 @@
   },
   {
    "n": 1,
+   "date": "2026-05-18",
+   "month": "2026-05",
+   "firm": "partners-group",
+   "portco": "forterro",
+   "buyer": "Forterro",
+   "title": "Forterro To Acquire Software Provider 3E",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vNU9LUUJ1eDNKRWRWc256NlRTSDg0U1Utelk3Y2ZDWFgxenBBRXE0Uk9wbWlBU2FyNmJIdTg1azBJV3BXa2tVM3AxMURCaXhVYndMOF9nbklxS2pVRzF3d1p1MEYzc2djMUNRbEF6YVZseUcyWi0tUEtqQVU?oc=5",
+   "publisher": "Window + Door magazine",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-05-05",
+   "month": "2026-05",
+   "firm": "warburg-pincus",
+   "portco": "infoblox",
+   "buyer": "Infoblox",
+   "title": "Infoblox completes acquisition of Axur to address external threats",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdnRkZHVSdVk3WGRlajFkeE9rRWNZY2NlVmxlbm5HUjFUNUduN0RqU0dCeVNKYjRCUHJ3T2FPb0VJdVgtR2FLTWtXMVljbGV3UmEyNnNrWlJIMTF1WGZ5MEpkNGFJcXZTY3lNQ3pwVDY4SmFoRTBJTU4xR0pxMzgzUXIyalNJSjBxZGR1UXVVTUw4OEhwRXdLbFRreC00Q0t2RFlTbG9jOVMzR2FqNm56TktR?oc=5",
+   "publisher": "Techzine Global",
+   "stage": "closed"
+  },
+  {
+   "n": 1,
    "date": "2026-04-30",
    "month": "2026-04",
    "firm": "partners-group",
@@ -631,6 +679,18 @@
    "publisher": "The Irish News",
    "stage": "signed",
    "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2026-04-23",
+   "month": "2026-04",
+   "firm": "partners-group",
+   "portco": "forterro",
+   "buyer": "Forterro",
+   "title": "Forterro acquires Klaes",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51TEdlT3hBQ3dKWnBMTkJlVjlTZmVhYWxBWVJlZEtWLW5YM0l0MTRaanZBc2k3UlZjRTBsamw1WHR6Y3dzQUdjNS1YZ0dDSllsbU42VWhQbUl0M1BOc2JJM1FjZmw?oc=5",
+   "publisher": "glassonweb.com",
+   "stage": "signed"
   },
   {
    "n": 1,
@@ -766,7 +826,7 @@
    "stage": "signed"
   },
   {
-   "n": 1,
+   "n": 2,
    "date": "2026-01-16",
    "month": "2026-01",
    "firm": "ta-associates",
@@ -815,7 +875,7 @@
    "stage": "signed"
   },
   {
-   "n": 1,
+   "n": 3,
    "date": "2025-10-24",
    "month": "2025-10",
    "firm": "tpg",
@@ -824,7 +884,7 @@
    "title": "Altimetrik Completes Acquisition of SLK Software",
    "url": "https://www.businesswire.com/news/home/20251024035009/en",
    "publisher": "Business Wire",
-   "stage": "signed",
+   "stage": "closed",
    "fromSignal": true
   },
   {
@@ -898,6 +958,18 @@
    "title": "PE-backed Accion Labs buys product engineering firm NetServ",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcldxQ3o0c2F5Q3MzYXNkcEZJeFk1b1BoNXdSZGJCaTY2MDZTS05IMERmOGx1MEcxcnpBa3J6enlqSHhMQl9tRUFmSll6eDN1R09mdFF1X2h5QnE3MTRYdjEzTG1GTDVjdlREeW5zdWhTXzZFRy1CS19ZTDZobDN4cDZ1VVhILUdkUzJz?oc=5",
    "publisher": "VCCircle",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2025-09-10",
+   "month": "2025-09",
+   "firm": "partners-group",
+   "portco": "forterro",
+   "buyer": "Forterro",
+   "title": "Forterro acquires Spanish SaaS vendor Inology -",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcDZPOUV5WUJPMGhlbEltMG1ESFpkWjNoMlRuMW91Sjlob05UTEVDeTlfQW1QYkRRd2d6UnR4bjNsNXlrQzVlMXlac3A4SzFJdXd5NlZqaTFfb0RIMzNyZHpqQl9xbHFPNV9ZbjlTeTAzOVFWU2g2T2dZQ2FvZ3RGZnRpR1BIeE9pbWFPS3hROVdFclFWVEE?oc=5",
+   "publisher": "Enterprise Times",
    "stage": "signed"
   },
   {
@@ -1235,6 +1307,18 @@
    "stage": "signed"
   },
   {
+   "n": 1,
+   "date": "2024-10-03",
+   "month": "2024-10",
+   "firm": "eqt",
+   "portco": "quantios",
+   "buyer": "Quantios (ex-ViewPoint / TrustQuay)",
+   "title": "Hg-and EQT-backed Quantios snaps up Klea",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX3RoYklla19RREVONFRKVkZJSERfVXppMk93dUFNMnZONjl4bXREaTloT2ZKeUxTT0g1UW5UeWU4MTBnLTJFXzNFamVOcTd0TEpkUWFEVU5FdEZHYUFyR2hxSWc5SE1vRngzRHFVdGhqUWIzMDA5MldCd3hLczJKQnYzZDF4RzkxeTFlZQ?oc=5",
+   "publisher": "PEI Private Equity",
+   "stage": "signed"
+  },
+  {
    "n": 5,
    "date": "2024-09-24",
    "month": "2024-09",
@@ -1285,15 +1369,15 @@
    "fromSignal": true
   },
   {
-   "n": 1,
-   "date": "2024-08-07",
+   "n": 2,
+   "date": "2024-08-02",
    "month": "2024-08",
    "firm": "affinity-equity",
    "portco": "m-daq",
    "buyer": "M-DAQ Global",
-   "title": "Singapore’s M-DAQ Global acquires Easy Pay Transfers",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTWpFLWl2ek40WGZLT3RMUWpRbXBoVkxwcjFqWGZVU0NRWUZnRjluM2lBOXhoSVc1dmRPeEtvZ1o4dDF2d0VES3BkX2lFSEhPNnExcWd6dVA1YWVLWnpKei1KYmtETnhPV2Z4SVVjd1pndVItWll2Q180Y0NWUlVmUHNfWXpSc2piVjgxQmdxQktoM3hqQUlWMzNpSQ?oc=5",
-   "publisher": "The Malaysian Reserve",
+   "title": "Singapore's M-DAQ Global acquires Malaysian payment firm Easy Pay Transfers",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa0QwR2VQLXEzTnBBN0NIQm8tWE5YZFEtYmRzck1iejlCbW92ZVdneDhjVmdsS3Rfc2YxanFtLTF2b2FHeG1rS0NyenNCYW1zd0ZjazJWUk1tVHVsd0tUUF94MXRwdEhRQW1VYnhELUY4QzNQclVLYmlXT1I2eU5VT0IybG8yRml6UTVGWHQzb0NqSWFFWlU4aHBfbEhhSktwZ2lXWGJERnVqQTc1TUhB?oc=5",
+   "publisher": "TNGlobal",
    "stage": "signed"
   },
   {
@@ -1335,6 +1419,18 @@
   },
   {
    "n": 1,
+   "date": "2024-01-16",
+   "month": "2024-01",
+   "firm": "partners-group",
+   "portco": "velocityehs",
+   "buyer": "VelocityEHS",
+   "title": "VelocityEHS actively seeks buys under 2 PE investors",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY1p3VS01QmVSdVlJMWhQUmtRZ00wN2xER215bHZQbTNwMGw3R0ZmWW1OTGVZeXNaSDFocjAxZWlKYnU2QUFDWGZZXzhUYWdZbm5qUnJfX3A0Si1SbGo3VkZGZHpWUGhHSldaNXhJUHlEMjhTczRLQkFOOVV5bkd3UVdodmpRMmVURFkxbkN3ZEV4MEZFcHE0WENzX0c4Y2dVbkE?oc=5",
+   "publisher": "ION Analytics",
+   "stage": "signed"
+  },
+  {
+   "n": 2,
    "date": "2024-01-08",
    "month": "2024-01",
    "firm": "partners-group",
@@ -1343,7 +1439,7 @@
    "title": "Private equity-backed VelocityEHS buys Contractor Compliance",
    "url": "https://www.pehub.com/pe-backed-velocityehs-buys-risk-management-software-firm-contractor-compliance/",
    "publisher": "PE Hub",
-   "stage": "signed",
+   "stage": "closed",
    "fromSignal": true
   },
   {
