@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T23:37:08Z",
+ "at": "2026-11-09T23:38:30Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,10 +82,46 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 12277,
- "candidates": 244,
+ "archived": 13151,
+ "candidates": 254,
  "fromSignals": 31,
  "boltons": [
+  {
+   "n": 1,
+   "date": "2026-11-07",
+   "month": "2026-11",
+   "firm": "eqt",
+   "portco": "wso2",
+   "buyer": "WSO2",
+   "title": "EQT-backed WSO2 acquires tech startup Moesif",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaVd3YnhSU3BnaUxGcHV5X09mdEV4a28tZ3g2NmtJZENpY3FyOXhPTTI3RDN6aEZib0plNE9KQm0zNnpOT2hQOVE4bWluZkNtNHJZSzdiQnJESjBwYXptX18zWXNMVmJZWDJISFY2MkdNeWNGMkxxWEp5NktGcTRjc2xSajJxNU1HS0ltUjBiN21Fdw?oc=5",
+   "publisher": "PEI Private Equity",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-11-06",
+   "month": "2026-11",
+   "firm": "ta-associates",
+   "portco": "rldatix",
+   "buyer": "RLDatix",
+   "title": "Five Arrows and TA Associates-owned RLDatix to buy iContracts",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZnVZZkgzYWFwc2RTV0xTZ0M5MHNXejFiRTFYdUhNZEhIX2JkdkFsaVpIQ1FNRXlnNDhBb1RWaE5GRDc0Wk1YNzUzeGpRWDlwQWZja3RtQWRoU1NFbzNfMVNlY3dBdUxDUHNTeUg4NkJ5YzNEXy12NlByTnN4TWowU3JTR3ByUU5WcUloS1NQXzQ5TmxKbHpsSlB3djBycmtRVXNJLXJ3VG8?oc=5",
+   "publisher": "PEI Private Equity",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-11-06",
+   "month": "2026-11",
+   "firm": "partners-group",
+   "portco": "velocityehs",
+   "buyer": "VelocityEHS",
+   "title": "Private equity-backed VelocityEHS buys Contractor Compliance",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNmN5dFNiRnE4N2VxOWRHai1DMldkMTQ0OGpvYjRTT2hDclo3WEJVRW1waGhwOGJrdkJZUnhobkllVHd5eTBOSU1OYW5fU1BnMlZ3Qllfa0hXYXdmQ1VRcEtjYjdQVVFrNnVyeUxKT0lDZzlMMFVNTGNGZ01iTXZ5aERrMlZNd0lONDg5RzUxOTRHY1ctZ2NtRDVqN0JYSEVkS2lEYWRKNlJlTDdkTXd6SHFrRE4wZ29wSUlra0ZUaw?oc=5",
+   "publisher": "PEI Private Equity",
+   "stage": "signed"
+  },
   {
    "n": 1,
    "date": "2026-11-03",
@@ -147,7 +183,7 @@
    "stage": "signed"
   },
   {
-   "n": 7,
+   "n": 8,
    "date": "2026-10-21",
    "month": "2026-10",
    "firm": "eqt",
@@ -717,7 +753,7 @@
    "stage": "signed"
   },
   {
-   "n": 1,
+   "n": 2,
    "date": "2026-04-15",
    "month": "2026-04",
    "firm": "kkr",
@@ -827,6 +863,18 @@
   },
   {
    "n": 2,
+   "date": "2026-01-20",
+   "month": "2026-01",
+   "firm": "tpg",
+   "portco": "delinea",
+   "buyer": "Delinea",
+   "title": "Delinea Acquires StrongDM to Move Identity Security Toward Runtime Control",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOGxZR3l6aktWNGJ2WWJOMUg0UVpfWWMyNjFqY3k3MXJTWjBpY2RJcHpvNXFMdm1MZHlGWng1d0RHcVMtaHJ0d3FZcnVJTVhrNlBBZ21UN2tKT3BnNEdlN2tFUE1MeHl4VWJwbGRHSkZGcmRsSEM1c3hBWmRNajBYM2N0NmNrdWlsVkl3WWZCYUlySHA2QXNrcXVhTERsOVdISXNZM1RIOFJrdw?oc=5",
+   "publisher": "MSSP Alert",
+   "stage": "signed"
+  },
+  {
+   "n": 2,
    "date": "2026-01-16",
    "month": "2026-01",
    "firm": "ta-associates",
@@ -875,7 +923,7 @@
    "stage": "signed"
   },
   {
-   "n": 3,
+   "n": 4,
    "date": "2025-10-24",
    "month": "2025-10",
    "firm": "tpg",
@@ -1332,6 +1380,18 @@
    "fromSignal": true
   },
   {
+   "n": 1,
+   "date": "2024-09-18",
+   "month": "2024-09",
+   "firm": "ta-associates",
+   "portco": "planview",
+   "buyer": "Planview",
+   "title": "Planview Acquires Plutora",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWlBDOTFLVkotQjZGY1RXcW9ycUtxQzREZkZjMTB1bHVaT0VEazdpT1E2Vkg3XzBpZFVvZFoyVkpWU1RMcUhOTGRrb0NaYU1uckhYdDNMN1pqU3hfODlvRHh1ZkhZQThUMWd3X211TDBKeW1XajJwTUV6YzF0dE04ME9oUVBnR3M5T0E?oc=5",
+   "publisher": "Business Wire",
+   "stage": "signed"
+  },
+  {
    "n": 2,
    "date": "2024-09-18",
    "month": "2024-09",
@@ -1454,6 +1514,18 @@
    "publisher": "Warburg Pincus (press release)",
    "stage": "signed",
    "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2023-11-20",
+   "month": "2023-11",
+   "firm": "eqt",
+   "portco": "straive",
+   "buyer": "Straive (ex-SPi Global)",
+   "title": "Straive acquires Gramener to enhance data, analytics, AI capabilities",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdDZGRUdjZDY2bjhRMFVxQmxqYWVpN3hNWVBJOFJLZ3R0WmZGOTRtSmx6WmpLOHRScFBET3lDOThJQ1pyd3g2LURaLWJPMGI1cExrOVpWT2VmQjE2eGZqR0QwZ3AyRWxiaVo0dkVFTjh0NUoxUjR4alNEWHdsRHhpVU52cVd2R3JxQ3BjaG9adVd4MnQ0U1g1VTJtRGhKdw?oc=5",
+   "publisher": "The Sociable",
+   "stage": "signed"
   },
   {
    "n": 1,
