@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09T23:38:30Z",
+ "at": "2026-11-10T23:37:31Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,10 +82,22 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 13151,
- "candidates": 254,
+ "archived": 13433,
+ "candidates": 256,
  "fromSignals": 31,
  "boltons": [
+  {
+   "n": 1,
+   "date": "2026-11-09",
+   "month": "2026-11",
+   "firm": "ta-associates",
+   "portco": "betashares",
+   "buyer": "Betashares",
+   "title": "I think these Betashares ETFs are strong buys this month",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWkN4ekE2OE5OTF9FcXZOb0llakFudHNSOVY5eTdiTGRSS2JNcW5mYWR4ZVlKRTZmVjEyMU5iNHhJSHhHMGFNWkplaW12S19GckU4V0g3TDlhLTlNVVN0bFlxQ3dWN1ZaYXVDVnhmX3JWUnZYOWJNYVBzbUI2MWJ4b0lUcXRoakNIQVJnRVF6ZkhYSWdWbDZj?oc=5",
+   "publisher": "The Motley Fool Australia",
+   "stage": "signed"
+  },
   {
    "n": 1,
    "date": "2026-11-07",
@@ -1243,7 +1255,7 @@
    "fromSignal": true
   },
   {
-   "n": 2,
+   "n": 3,
    "date": "2025-02-14",
    "month": "2025-02",
    "firm": "tpg",
