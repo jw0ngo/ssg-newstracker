@@ -36,12 +36,12 @@ Sell-side · KKR · MYOB · Melbourne, Australia
 - **The pitch to KKR:** a vendor tech report on cloud migration off the desktop base and the product roadmap against Xero, written for a bank buyer's risk committee.
 - **Why SSG:** Product and Tech DD on SME accounting platforms, with an IT separation view if a bank carves it in.
 
-## 6. Acclime: a repeatable tech DD and integration playbook for Warburg Pincus's roll-up
-Buy-side · Warburg Pincus · Acclime · Hong Kong
-- **Why now:** Warburg signed to take control in December and Acclime has kept buying since: SH Malaysia in September and a conditional deal for Polar 993 in August. [Warburg Pincus, 17 Dec 25](https://warburgpincus.com/?p=24051) [Dealroom, 10 Sept](https://news.google.com/rss/articles/CBMijwFBVV95cUxQR0xPcmFUVTdNTEpwaXp2dC1UblVxUUx6QUxTbHJ4YXgyeXU0SERYcjhGdmVud21Gc0dXZE95b3pmb0JNLVpybHQxaEtBcElJU3Q5SGNEZGVOelFqTm9JMnBkYzdtal81ZjBGaV9WTWdfMU9POFI2TklkUWdFV0t2cXNkTTgxZlpHRjNGdEVkbw?oc=5) [Dentons, 5 Aug](https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZ1c1QUxKakZ4ZDlhVnN0MHpyaHlBWFFmTTA5bDJ2cVhlYVRGYUMySkZoXzhRNzVFR2ZqZFkzckpKRmxxRW5DZ0RWUHJHWk5QLUNFNUIzdGh5WUFzMkpLOEswM2I1d1V6dzZIeUZueHRQRzhYYnY4dmt1WGg5eThmbGZQMV9tME02eC1aTWZPUW1OWGtxSTQ0RVFOYTZRcDJUYUhjXzg5ZDgzYldpbmZXWklfbGt3YUlFOFBOM2w2OW12a1NKVkI4OU1ibWYxb0d2RkxlcHFfNFpLa3V5?oc=5)
-- **The owner's problem:** 50-plus acquisitions across 18 markets sit behind one AI automation platform, Aura; every add-on either lands on it or adds cost.
-- **The pitch to Warburg:** a fixed-scope, fixed-fee tech DD per bolt-on plus a standard integration checklist, so deals close faster and migrate the same way.
-- **Why SSG:** buy-and-build programmes reward one adviser who knows the platform; this is recurring work, not a single mandate.
+## 6. Sleek: a Singapore digital corporate-services platform for Acclime to buy
+Buy-side · Warburg Pincus (via Acclime) · Sleek · Singapore
+- **The target:** Sleek runs company set-up, book-keeping, regulatory reporting and banking for start-ups and SMEs on one platform; Jungle Ventures has backed it since 2021. No sale process is reported, so this is an approach, not an auction. [Jungle Ventures portfolio, 5 Nov](https://www.jungle.vc/portfolio)
+- **Why it fits Acclime:** the same services Acclime sells, delivered software-first; Acclime has kept buying since Warburg took control, with SH Malaysia in September and Polar 993 in August. [Warburg Pincus, 17 Dec 25](https://warburgpincus.com/?p=24051) [Dealroom, 10 Sept](https://news.google.com/rss/articles/CBMijwFBVV95cUxQR0xPcmFUVTdNTEpwaXp2dC1UblVxUUx6QUxTbHJ4YXgyeXU0SERYcjhGdmVud21Gc0dXZE95b3pmb0JNLVpybHQxaEtBcElJU3Q5SGNEZGVOelFqTm9JMnBkYzdtal81ZjBGaV9WTWdfMU9POFI2TklkUWdFV0t2cXNkTTgxZlpHRjNGdEVkbw?oc=5) [Dentons, 5 Aug](https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZ1c1QUxKakZ4ZDlhVnN0MHpyaHlBWFFmTTA5bDJ2cVhlYVRGYUMySkZoXzhRNzVFR2ZqZFkzckpKRmxxRW5DZ0RWUHJHWk5QLUNFNUIzdGh5WUFzMkpLOEswM2I1d1V6dzZIeUZueHRQRzhYYnY4dmt1WGg5eThmbGZQMV9tME02eC1aTWZPUW1OWGtxSTQ0RVFOYTZRcDJUYUhjXzg5ZDgzYldpbmZXWklfbGt3YUlFOFBOM2w2OW12a1NKVkI4OU1ibWYxb0d2RkxlcHFfNFpLa3V5?oc=5)
+- **The pitch to Warburg:** buy-side tech DD on Sleek's platform and how it would sit with Acclime's AI automation platform, Aura: one stack or two, and what migrating Sleek's clients costs.
+- **Why SSG:** Product and Tech DD on the target, with an integration view priced into the bid.
 
 ## 7. Infomedia: post take-private platform integration as TPG funds European M&A
 Transform · TPG · Infomedia · Sydney, Australia
@@ -57,12 +57,12 @@ Sell-side · Affinity Equity Partners · ScotPac · Sydney, Australia
 - **The pitch to Affinity:** a vendor technology assessment of the lending platform, credit decisioning and the Business Fuel integration, usable in a sale or a prospectus.
 - **Why SSG:** bank and sponsor buyers both diligence the platform first in non-bank lenders; an independent report answers it once.
 
-## 9. Software Combined: bolt-on tech DD on tap for Navis's software aggregator
-Buy-side · Navis Capital · Software Combined · Australia
-- **Why now:** the aggregator bought back government hiring platform Acendre in its 14th deal in October, after adding WCC Group in the Netherlands. [Dealroom, 7 Oct](https://news.google.com/rss/articles/CBMirgFBVV95cUxPaVhUbk53TjliQ1hBYkRGOHRKRUEtanNkb2xWdHEyTUxDZmEtZnl4MVFZQlRXalJSNzRCQk5KSlFvYnFzWFhBYkItWWFYV0JGT0hfN0RodW50SXJYbjdVaTZYZUVyUzBvTTluSW9pYU50NlRWbXMzRGJ4U1ZQOWlBeEtxMTBYZUc1c2tfWEVBeU8teFVmTnBudU52WWplODJMVWhobFI0a1FUZUpwclE?oc=5) [Business News Australia, 19 Nov 25](https://news.google.com/rss/articles/CBMingFBVV95cUxQR0RlR2JBUG4ydVZtN3EwTmtzWm84eThqU21lSzhfa2VxanphQkJLQWhtVE9tLVg4SzZhbncyRnoxRHhlVmR3dHEwdk5sdURPcUI3RUxpQk1rNnV0TzZXVWZpMDdyTTM5bzZMWU95Mmx3RjVnSFVmamVTZVpIbEZaUmRLOHNUYmVpWmhKaHBMZjJhdFRjSUVIVVFHNlFMZ9IBqgFBVV95cUxNNWRQTHJUVmFNNU1PSTNOMktOM3VCMFB5RE9NSERwbG1QYk1NLXcwN2pMWVVsaTMwZUxRVWcySmpyLU0ydzdDZWtXZ2lPYVN4RGRDWEEwaXljLTZUaUVTRXhHY3F5WU1BTlZ4ZGFBRWk1OVVmRF9wUTdDZlFyWjEyQWJDeC10MWZ4bnhoeGJrMlRUNEVvQUd2RmhGUWhRWkVQUk40NVBaUk50dw?oc=5)
-- **The owner's problem:** fourteen deals mean many codebases to run, and each new one is bought on a short timetable.
-- **The pitch to Navis:** a light, standard technology DD for every acquisition, covering code quality, hosting, security and key-person risk, delivered in two weeks.
-- **Why SSG:** a retainer-style relationship with the Navis asset closest to SSG's core work.
+## 9. Checkmate: a New Zealand hiring-checks platform for Software Combined to add
+Buy-side · Navis Capital (via Software Combined) · Checkmate · New Zealand
+- **The target:** Checkmate automates background and reference checks for HR teams; it is on Wavemaker Partners' portfolio. No sale process is reported, so this is an approach, not an auction. [Wavemaker Partners portfolio, 5 Nov](https://wavemaker.vc/portfolio/checkmate/)
+- **Why it fits Software Combined:** the aggregator's 14th deal in October was government hiring platform Acendre, after WCC Group in the Netherlands; pre-employment checks sit next to both. [Dealroom, 7 Oct](https://news.google.com/rss/articles/CBMirgFBVV95cUxPaVhUbk53TjliQ1hBYkRGOHRKRUEtanNkb2xWdHEyTUxDZmEtZnl4MVFZQlRXalJSNzRCQk5KSlFvYnFzWFhBYkItWWFYV0JGT0hfN0RodW50SXJYbjdVaTZYZUVyUzBvTTluSW9pYU50NlRWbXMzRGJ4U1ZQOWlBeEtxMTBYZUc1c2tfWEVBeU8teFVmTnBudU52WWplODJMVWhobFI0a1FUZUpwclE?oc=5) [Business News Australia, 19 Nov 25](https://news.google.com/rss/articles/CBMingFBVV95cUxQR0RlR2JBUG4ydVZtN3EwTmtzWm84eThqU21lSzhfa2VxanphQkJLQWhtVE9tLVg4SzZhbncyRnoxRHhlVmR3dHEwdk5sdURPcUI3RUxpQk1rNnV0TzZXVWZpMDdyTTM5bzZMWU95Mmx3RjVnSFVmamVTZVpIbEZaUmRLOHNUYmVpWmhKaHBMZjJhdFRjSUVIVVFHNlFMZ9IBqgFBVV95cUxNNWRQTHJUVmFNNU1PSTNOMktOM3VCMFB5RE9NSERwbG1QYk1NLXcwN2pMWVVsaTMwZUxRVWcySmpyLU0ydzdDZWtXZ2lPYVN4RGRDWEEwaXljLTZUaUVTRXhHY3F5WU1BTlZ4ZGFBRWk1OVVmRF9wUTdDZlFyWjEyQWJDeC10MWZ4bnhoeGJrMlRUNEVvQUd2RmhGUWhRWkVQUk40NVBaUk50dw?oc=5)
+- **The pitch to Navis:** a two-week tech DD on Checkmate covering code quality, hosting, security and key-person risk, plus how it connects to Acendre's hiring workflow.
+- **Why SSG:** Product and Tech DD at aggregator speed, repeatable for the next target on the list.
 
 ## 10. FUJI SOFT: security and modernisation agenda for KKR's Japanese systems integrator
 Transform · KKR · FUJI SOFT · Yokohama, Japan
