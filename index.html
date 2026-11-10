@@ -533,10 +533,11 @@ tr.tdiv td span { display: block; font-family: var(--mono); font-size: 9.5px; le
 <div class="toast" id="toast"></div>
 
 <script>
-const NAV = {"here":"pe","impact":"impact/","brief":"brief/","pe":"./","ai":"ai/"};
+const NAV = {"here":"pe","impact":"impact/","brief":"brief/","pe":"./","angles":"angles/","ai":"ai/"};
+const NAV_ITEMS = [["impact","AI Impact"],["brief","Morning Brief"],["pe","Exit Readiness<span class=\"nl\"> Tracker</span>"],["angles","SSG Angles"],["ai","AI &amp; Tech"]];
 // The two sections of one site. In the public copy the links are relative paths inside the repo;
 // in the private artifacts they are the other artifact's URL.
-document.getElementById('nav').innerHTML = [['impact', 'AI Impact'], ['brief', 'Morning Brief'], ['pe', 'Exit Readiness<span class="nl"> Tracker</span>'], ['ai', 'AI &amp; Tech']]
+document.getElementById('nav').innerHTML = NAV_ITEMS
   .map(([k, l]) => `<a href="${String(NAV[k]).replace(/"/g, '&quot;')}"${NAV.here === k ? ' class="on"' : ''}>${l}</a>`).join('');
 const FIRMS = [{
   id: "warburg-pincus", type: "pe", name: "Warburg Pincus", match: /warburg/i,
@@ -766,7 +767,7 @@ const portcoName = (p) => {
   return !bare.includes(' ') && COMMON.has(bare.toLowerCase()) ? full : bare;   // "Caring Group" stays whole
 };
 const labelRe = new Map();
-const ambiguousName = (p) => { const n = portcoName(p || {}); return !!n && !n.includes(' ') && (COMMON.has(n.toLowerCase()) || (n.length <= 5 && n !== n.toUpperCase())); };
+const ambiguousName = (p) => { const n = portcoName(p || {}); return !!n && !n.includes(' ') && (!!(p && p.vc) || COMMON.has(n.toLowerCase()) || (n.length <= 5 && n !== n.toUpperCase())); };
 function portcoOnTopic(text, p, f) {
   const t = String(text || '');
   if (f && f.match && f.match.test(t)) return true;

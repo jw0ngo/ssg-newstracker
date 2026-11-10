@@ -70,6 +70,7 @@ body.gated > :not(#gate) { visibility: hidden; }
   --ok-soft: #e1efe5;
   --info: #3b5a7c;
   --info-soft: #e3ebf4;
+  --pe: #2f5597; --pe-soft: #e4ebf6; --vc: #b45309; --vc-soft: #f8ebdc; --t-ink: #fff;
   --c1: #2a78d6; --c2: #eb6834; --c3: #1baf7a; --c4: #eda100; --c5: #e87ba4; --c6: #008300; --c7: #6250d6; --c8: #e34948; --c0: #9aa3ad;
   --heat-lo: #d6eced; --heat-hi: #0a4f53; --grid: #e6ebee;
   --display: "Archivo Narrow", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
@@ -82,6 +83,7 @@ body.gated > :not(#gate) { visibility: hidden; }
     --rule: #263037; --accent: #4fc0c3; --accent-soft: #123538;
     --hot: #e98a3c; --hot-soft: #3a2415; --ok: #7cc094; --ok-soft: #15291c;
     --info: #93b3d6; --info-soft: #182636; color-scheme: dark;
+  --pe: #6f97d8; --pe-soft: #18243a; --vc: #e08a3c; --vc-soft: #33220f; --t-ink: #10151c;
     --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500; --c5: #d55181; --c6: #008300; --c7: #9085e9; --c8: #e66767; --c0: #65737d;
     --heat-lo: #1d4a4d; --heat-hi: #8fdde0; --grid: #263037;
   }
@@ -91,6 +93,7 @@ body.gated > :not(#gate) { visibility: hidden; }
   --rule: #263037; --accent: #4fc0c3; --accent-soft: #123538;
   --hot: #e98a3c; --hot-soft: #3a2415; --ok: #7cc094; --ok-soft: #15291c;
   --info: #93b3d6; --info-soft: #182636; color-scheme: dark;
+  --pe: #6f97d8; --pe-soft: #18243a; --vc: #e08a3c; --vc-soft: #33220f; --t-ink: #10151c;
   --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500; --c5: #d55181; --c6: #008300; --c7: #9085e9; --c8: #e66767; --c0: #65737d;
   --heat-lo: #1d4a4d; --heat-hi: #8fdde0; --grid: #263037;
 }
@@ -116,6 +119,14 @@ a { color: inherit; }
 .mast-l { display: flex; align-items: baseline; gap: 12px; min-width: 0; }
 .dashbtn { font-family: var(--display); font-weight: 600; font-size: 13px; color: var(--accent); border: 1px solid var(--accent); background: var(--surface); border-radius: 999px; padding: 4px 11px; white-space: nowrap; }
 .dashbtn[aria-pressed="true"] { color: #fff; background: var(--accent); }
+.dashbtn.ghost { color: var(--muted); border-color: var(--rule); font-weight: 500; }
+.dashbtn.ghost:hover { color: var(--fg); border-color: var(--muted); }
+/* the × that hides a card (this browser only) */
+.pc { position: relative; }
+.pc .meta { padding-right: 22px; }
+.hidex { position: absolute; top: 6px; right: 6px; width: 22px; height: 22px; display: grid; place-items: center; border-radius: 6px; font: 400 17px/1 var(--body); color: var(--faint); opacity: .55; z-index: 1; }
+.pc:hover .hidex, .hidex:focus-visible { opacity: 1; }
+.hidex:hover { color: var(--fg); background: var(--bg); }
 .firms { display: flex; gap: 6px; flex-wrap: wrap; margin-top: -2px; }
 .firm { display: flex; align-items: center; gap: 8px; padding: 4px 10px 4px 4px; border-radius: 999px; border: 1px solid var(--rule); background: var(--surface); }
 .firm.on { border-color: var(--accent); background: var(--accent-soft); }
@@ -159,9 +170,31 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
 .seg button.on { background: var(--accent-soft); color: var(--accent); }
 .focus { display: flex; flex-direction: column; gap: 6px; }
 .focus-label { font-family: var(--mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); }
-.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
 .chip { font-size: 12.5px; font-weight: 500; color: var(--muted); border: 1px solid var(--rule); background: var(--surface); border-radius: 999px; padding: 5px 10px; }
 .chip.on { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+/* PE and VC (ADR-018): blue for PE, amber for VC, on the chips, the cards and the dashboard tiles. */
+.t-pe { --tc: var(--pe); --tsoft: var(--pe-soft); }
+.t-vc { --tc: var(--vc); --tsoft: var(--vc-soft); }
+.chip-grp { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 4px; border-radius: 14px; background: var(--tsoft); }
+.chip.t-pe, .chip.t-vc { border-color: color-mix(in oklab, var(--tc) 35%, var(--rule)); }
+.chip.t-pe.on, .chip.t-vc.on { border-color: var(--tc); color: var(--t-ink); background: var(--tc); }
+.chip.ty { font-family: var(--display); font-weight: 700; letter-spacing: .04em; color: var(--tc); }
+.chip.ty.on { color: var(--t-ink); }
+span.ty { font: 700 10px/1 var(--display); letter-spacing: .06em; color: var(--t-ink); background: var(--tc); border-radius: 4px; padding: 4px 6px; }
+/* Josh, 5 Nov 2026: one colour per card. The whole border is the type colour; time held reads from the hold bar. */
+.pc.bc.t-pe, .pc.bc.t-vc { border-color: var(--tc); border-top-width: 3px; border-left-width: 3px; }
+.tile.t-pe, .tile.t-vc { box-shadow: inset 0 3px 0 var(--tc); }
+/* The PE | VC divider on the dashboard (ADR-019): one rule, a small type label on the grid ones. */
+.tdiv { display: flex; align-items: center; gap: 8px; color: var(--faint); font-family: var(--mono); font-size: 10.5px; letter-spacing: .08em; }
+.tdiv::before, .tdiv::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+.tdiv span { color: var(--vc); font-weight: 500; }
+.tdiv.g { grid-column: 1 / -1; margin: 2px 0 -4px; }
+i.tdiv.v { display: block; width: 1px; align-self: stretch; background: var(--rule); margin: 0 4px; flex: none; }
+i.tdiv.v::before, i.tdiv.v::after { content: none; }
+tr.tdiv td { padding: 0; height: 14px; border-top: 1px solid var(--rule); }
+tr.tdiv td span { display: block; font-family: var(--mono); font-size: 9.5px; letter-spacing: .08em; color: var(--vc); line-height: 14px; padding-left: 2px; }
+.heatm .tdiv.g { margin: 4px 0 2px; }
 .banner { font-size: 13px; color: var(--muted); background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 8px 11px; }
 .banner.warn { color: var(--hot); background: var(--hot-soft); border-color: transparent; }
 
@@ -263,6 +296,8 @@ mark.hit { background: var(--accent-soft); color: inherit; border-radius: 2px; p
   .tabs .long { display: none; }
   .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: -14px; padding-inline: 14px; padding-bottom: 2px; }
   .chips::-webkit-scrollbar { display: none; }
+  .chip-grp { flex-wrap: nowrap; flex: none; }   /* PE and VC groups ride the one scrolling row */
+  .chips .chip { flex: none; white-space: nowrap; }
   .chip { flex: none; white-space: nowrap; }
   .focus-label, .day { font-size: 11px; }
   .top.mini .site, .top.mini .mast, .top.mini .blurb, .top.mini .focus { display: none; }
@@ -536,9 +571,10 @@ details.daily summary span { color: var(--muted); text-transform: none; letter-s
 <div class="toast" id="toast">Copied</div>
 
 <script>
-const NAV = {"here":"brief","impact":"../impact/","brief":"./","pe":"../","ai":"../ai/"};
+const NAV = {"here":"brief","impact":"../impact/","brief":"./","pe":"../","angles":"../angles/","ai":"../ai/"};
+const NAV_ITEMS = [["impact","AI Impact"],["brief","Morning Brief"],["pe","Exit Readiness<span class=\"nl\"> Tracker</span>"],["angles","SSG Angles"],["ai","AI &amp; Tech"]];
 const DATA = { brief: 'data/', pe: '../data/', ai: '../ai/data/' };
-document.getElementById('nav').innerHTML = [['impact', 'AI Impact'], ['brief', 'Morning Brief'], ['pe', 'Exit Readiness<span class="nl"> Tracker</span>'], ['ai', 'AI &amp; Tech']]
+document.getElementById('nav').innerHTML = NAV_ITEMS
   .map(([k, l]) => `<a href="${String(NAV[k]).replace(/"/g, '&quot;')}"${NAV.here === k ? ' class="on"' : ''}>${l}</a>`).join('');
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

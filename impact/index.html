@@ -274,9 +274,10 @@ canvas.drag { cursor: grabbing; } canvas.hand { cursor: pointer; }
 </div>
 
 <script>
-const NAV = {"here":"impact","impact":"./","brief":"../brief/","pe":"../","ai":"../ai/"};
+const NAV = {"here":"impact","impact":"./","brief":"../brief/","pe":"../","angles":"../angles/","ai":"../ai/"};
+const NAV_ITEMS = [["impact","AI Impact"],["brief","Morning Brief"],["pe","Exit Readiness<span class=\"nl\"> Tracker</span>"],["angles","SSG Angles"],["ai","AI &amp; Tech"]];
 const DATA = { base: 'data/' };
-document.getElementById('nav').innerHTML = [['impact', 'AI Impact'], ['brief', 'Morning Brief'], ['pe', 'Exit Readiness<span class="nl"> Tracker</span>'], ['ai', 'AI &amp; Tech']]
+document.getElementById('nav').innerHTML = NAV_ITEMS
   .map(([k, l]) => `<a href="${String(NAV[k]).replace(/"/g, '&quot;')}"${NAV.here === k ? ' class="on"' : ''}>${l}</a>`).join('');
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
