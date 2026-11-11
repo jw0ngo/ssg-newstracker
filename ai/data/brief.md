@@ -1,64 +1,64 @@
-SSG Newstracker · Morning Brief · AI & Tech · Wed 11 Nov, 08:04 SGT
-75 new stories since the last publish, 1 hot.
+SSG Newstracker · Morning Brief · AI & Tech · Thu 12 Nov, 07:46 SGT
+76 new stories since the last publish, 2 hot.
 
-1. [HOT 74] SoftBank, Grab and PETROS to invest US$1.85 billion to build AI infrastructure in Malaysia
-   Sponsors · W.Media · 10 Nov · 5 outlets
-   Why: PETROS raised a round in Southeast Asia (US$1.85 billion) in AI: a future target, priced today.
+1. [HOT 74] SoftBank Group and Grab to Invest $1.85 Billion Initially in Malaysia AI Hub, Targeting 5 Gigawatts
+   Sponsors · BigGo Finance · 11 Nov · 7 outlets
+   Why: SoftBank raised a round in Southeast Asia ($1.85 Billion) in AI: a future target, priced today.
    Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbFpvX0tZblBRNGgzdXQwdGQzWVNfMGU2RW1LUEF1cGdqcHF6V0Z5azd1cEhkVE1udWxqYnVySTZ6UTV5NDNPX2g1VUx1OUUwN2Q1TEs1aVMxRkg1LWlVRlViT1hqeXFwXzZSZEtFQnlxczhxUC1aOTQ4ODNnSmxGTW9pNXh1RGloa3VFREhpY1c5LUpNUk9aV3d4WXJ3MmRuZWdKOVcxUU4?oc=5
+   https://news.google.com/rss/articles/CBMidkFVX3lxTE5JVHpRQ3NORDlVZXJEbjQ2cTBic0V3LXVsVHdMMVBrMGtja3RUa2xhdlVveGZ2WnpTaGhkRncxXzI1eFIzX1RTWDdBUXhrUDNseDJHME9LSzJhdWVNaDNUS01mek41UkFPN2lzc0dqTXNURGRtX1E?oc=5
 
-2. [WARM 62] Alibaba Says T-Head Chip Unit Filed for HK IPO 60 Days Ago
-   IPOs · FourWeekMBA · 10 Nov · 4 outlets
-   Why: T-Head Chip has filed to list in North Asia (3 billion) in AI.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://fourweekmba.com/ai-alibaba-says-t-head-chip-unit-filed-for-hk-ipo-60-days-ago/
-
-3. [WARM 62] Sakana AI prepares an IPO as early as autumn 2027 that could top Mercari's ¥680 billion valuation, Nikkei reports
-   IPOs · MLQ.ai · 9 Nov · 3 outlets
-   Why: Sakana AI is heading for a listing in North Asia (¥680 billion) in AI: the comps are about to reset.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMiywFBVV95cUxOLVAtLWRJV3k4MjhiMFRiclpwejRrNzI3RnJCWVd0dHZkU3JuUnh1RGh4ZWJGY1VtM1BPNmVXb0V3ZUNrbjJxX0dZQm95eUp0MVhSX0lITlc3ZFJzbFlUb2RWQUppTE5FaHJBNUFpaEtxNzVGa29SZkZEZnc0NXVYY25qTDdSZThSbXUxcWthUHlLem10TmIwbVJ6V0p0V0l2d1FUWEdWLTJuTFBMTUtRRVBueERIUjRZT3BiZTgwN19zZGZEY0RwZ0ZoNA?oc=5
-
-4. [WARM 57] SoftBank Earnings Face Scrutiny As AI Selloff And China Deal Setback Raise Debt Concerns
-   Sponsors · Tekedia · 10 Nov · 4 outlets
-   Why: SoftBank raised a round in North Asia in AI: a future target, priced today.
+2. [HOT 74] SoftBank, Grab commit $1.85B to Malaysian AI infrastructure with PETROS
+   Sponsors · TNGlobal · 10 Nov · 2 outlets
+   Why: PETROS raised a round in Southeast Asia ($1.85B) in AI: a future target, priced today.
    Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxPbWRZZGxNNVdSY3ZSZmdIM1JwSFVIR0RUWTB2WktROUJWbWR2OTNzV29XU29LRmlCSzN5S0cxWWpIZnRqeFNTQlgyVFBWREZUbkRPelBLZ3RYb1pjOUFYYTRVMGs1WlE1STlvS1o1VEx0MHIxMHJJNGZwX0UzR21Qa0V4OUVsREs2WnNWSkhfMmJPWU5QLXE2bWVZVHZCNnV1MlI2YzF6YzJ4M0FSSmJXNnQtSQ?oc=5
+   https://news.google.com/rss/articles/CBMiqAFBVV95cUxPakZzNkFKa3Voc2dFSEttZFhxSzJBR2haVGNoMUhKenJpTTQwUVJyZW1mZE5zUHpreUgyRUtUa0M1ZF9HUC0weXgzV3dnMVYtT3NtaEtpdDN4V0d2RHF5VXlfdkNwZG90b3laQ2FqV2h4ZDdUYVprdzlZdkpNbklfT3h2cWVFQXNQWTdRMUZXdldteVdaaWlyRVR5QTRicElpWlVHNzFIOUY?oc=5
 
-5. [WARM 55] SoftBank lifts outlook as cloud and AI offset Japan’s cyber nerves
-   Sponsors · NAI500 · 9 Nov · 5 outlets
-   Why: SoftBank reported numbers in North Asia: the public comp for the sector moved.
-   Call: Update the comps set before the next pitch.
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxNSTJOY21MQXBQcnRHSldjSmozUk1QRWFhMF9YemxHWGpfRm9KSGl1UV9Zc29Jc3RxX01yQXBMM2EzUVI1WDg0OS1DX0h2UDdCeGdUUGRickFodXM3TFBfWnEwRjBySHlIdl9wSFRjMUNwemZGOXF3MHgyNGZEc3VBNEpQaFFxNXVIQndTQWR4eUxoenQ5bjhJZkJDUDFzU1RV?oc=5
+3. [WARM 63] Chinese university buys Nvidia AI H200 chips despite US ban, records show
+   M&A · Al Jazeera · 11 Nov · 3 outlets
+   Why: An acquisition involving Nvidia AI H200 in North Asia in AI: a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
+   https://news.google.com/rss/articles/CBMitAFBVV95cUxNQzNzRzNMbFdRYllVV3d2QUlfMnFRSmtoTXRXR3N3Tl9Ba3ZIZDRWVVFxUjhtZzl0QzNqQ19ZN1R5dDJZbzdWUWxkV3E2cmU3aGo0aDJnN0FYSENCRjgwejJlbjBabjVpbTVraVEwUDR5NTN6N1RsUDNHT3U1TkhMSTVtVGN3MjN2YXQ0RV9rZmdmLVVoQ2JUU3pGYU9yV0NLRVBnZ1htVUI2bjhTd2c2MVo3bTTSAboBQVVfeXFMT0FRdDZJNzZxQ2kyMnhLc1Z5N1hJUEo2RkFvU2FseElhZDk5aWhtVE9JREhCUFdaeHgwaUN2U3laZC1tMjJxTV9MdXV1QUY4U1JoamhQREc3YWo2V0t5NzJaelp6cUs4YXpvUjRKcFh6NXdkVEozOXRuNGlxelhYVFMxSkxsdUZIeUtBZ2tRYUtLWnQwN1VWNGZ5aGpfYmRKU2NoVmxiN0dXV0ZSR0xGZkJXNXlQTkMxcG93?oc=5
 
-6. [WARM 53] Alibaba Officially Announces Spin-Off of T-Head for Hong Kong IPO; Confidential Filing Made in September, Adding Another Name to the Chinese AI Chip Listing Wave
+4. [WARM 61] Mashup Ventures raises 25.9 billion won fund for AI, deep tech startups
+   Sponsors · Seoul Economic Daily · 11 Nov
+   Why: A sponsor has raised a fund (25.9 billion) in North Asia: dry powder for the sectors SSG works in.
+   Call: Relationship touchpoint: ask where it deploys in APAC.
+   https://en.sedaily.com/business/2026/11/11/mashup-ventures-raises-259-billion-won-fund-for-ai-deep
+
+5. [WARM 60] Apollo backs $750m round for AI data company; KKR to buy Texas water business
+   Sponsors · Alternatives Watch · 11 Nov
+   Why: An acquisition involving Apollo ($750m) in AI: a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
+   https://news.google.com/rss/articles/CBMilwFBVV95cUxOSG8ta29CRm9fYWZZQ0tkdHFOUF8teW94clQxT2VERGxmUXNHSGpmb29YZTBZZFBjd09MeHJsNHp4SGUtbndLZEN5MjhWU0JHOVFfYmJpSTNwdTQzNXRKUFlqckRMRG9lcVU4aG5lLW9MY2dqY3hjdV80bGtGeTJUYzFlUGdCdUdoRXNNNEpjWU1IT1hNTjVB?oc=5
+
+6. [WARM 57] Anthropic opens Australian retail IPO offering as AI scrutiny intensifies
+   Platforms · CNBC · 11 Nov · 5 outlets
+   Why: Anthropic has filed to list in India or ANZ in AI.
+   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
+   https://news.google.com/rss/articles/CBMigwFBVV95cUxOU3JDTlRpUnJBd3B5dFpHcU1KX0RmWE5HN3d4TEN5b3JaZjlLQjBGWmYtcGQ2cF9hbjBLR0Q1X3VRQ2J2c3JCQm90c1kzbk1VcGxxOU1ITkJRYkZLbmpOd2o4QzZ2ZEFSc2NRbGZtSXJDQ3IwNTVaTThJRDAtWUdUd0RLWQ?oc=5
+
+7. [WARM 53] Alibaba Prepares Hong Kong IPO For Chip Unit T-Head as China Ramps Up AI Chip Ambitions to Challenge Nvidia
+   IPOs · Benzinga · 11 Nov · 7 outlets
+   Why: Chip is heading for a listing in North Asia in AI: the comps are about to reset.
+   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
+   https://news.google.com/rss/articles/CBMi8gFBVV95cUxNT2VJUzNDdGdRVllZMmF6S1cwMndUaG5lUVRadlh3bmVWV1hkRnB1ZFcwZWlwQ0dPelIwc2w1dFM4WS1hMDhFNGlybHdsd1YzQkhSSnJkUDVYT19MWWRoYzU4eEUyRUFaQlA2b1l4SVNLWlNBUmVSRUVKWlVNaGpaV3dJcGx5WVh0MllXS2tCYzJGZFJIVVp5NzZiR2lDUVgxb242UmFoemtKVWJYb2d3ZTB5czkwSFc3R1lPVS1IZlVNU09wUjFKT1BqRW5kcl9BV2kwTFB5RHFzRjNhMG5Dd0docmp0cnhMUVFVd0FyQTQxdw?oc=5
+
+8. [WARM 53] Alibaba Officially Announces Spin-Off of T-Head for Hong Kong IPO; Confidential Filing Made in September, Adding Another Name to the Chinese AI Chip Listing Wave
    IPOs · BigGo Finance · 11 Nov
    Why: Announces Spin-Off has filed to list in North Asia in AI.
    Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
    https://news.google.com/rss/articles/CBMidkFVX3lxTFB5bEVzWW9jZ2haQ3B4MVRDbHVWZnhlX3YxWWVvRXVRaGNuQWk5VWQ0WVVWZ2RwYTc2RWdqaVpZMC1YUjQwWXJOMjRiUVpfMExyUHU4dDlmWmtJOW1Fd2wzeEMyT1czS1Vwd0hhWkJGTi1WNDJsQkE?oc=5
 
-7. [WARM 53] Chinese space-AI tech hopeful Adaspace faces wary investors in Hong Kong IPO
+9. [WARM 53] Chinese space-AI tech hopeful Adaspace faces wary investors in Hong Kong IPO
    IPOs · South China Morning Post · 10 Nov
    Why: Adaspace has filed to list in North Asia in AI.
    Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
    https://news.google.com/rss/articles/CBMizwFBVV95cUxNWEVnMl9OSGZTYjBDTjhraFd6N3VqYUdwTHVHMDU4WW9TV05KOVl2bWVPc2tfY2FGUmdmZVlfYzBxSXJieDlZTjRIemtFcTBJdGd0bm1tQkkwVzZ4OHEwYzFrQ0JFQzVJZW84ZFNwWkJtWHdjQVItSmlTa2tnLW5kcFBnTmNpemppTlIzNWk2Ml9ULTI2dXFuTkVVd1poNWhRaE5IRmJ5OG5YYnlIVVVfTG91WDdNUXNOT3FIaXB5YUZaTUhJWXZGZzRyTzN3dXc?oc=5
 
-8. [WARM 51] EXCLUSIVE: Anthropic eyes $1.4 trillion IPO valuation in test of Wall Street's AI fervor
-   IPOs · Reuters · 11 Nov · 5 outlets
-   Why: Wall Street AI is heading for a listing ($1.4 trillion) in AI: the comps are about to reset.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMisAFBVV95cUxNaUtnS210c1pKNVpEZXJ1V1JpdUdyZ0h5OGh2SzVCXzJaVGRwaDZnb0NQZUxFS0ZFWmxwbU53ZlJtdlBkOWplZHdaNkloU0xwV3hvdlpjNnh0R1FISXdMOExfc09JckJqTWxjSWlZSjZpN0RWR1kyRUF6YUlXN0dqSm5XQU5TUmFmbWpFbGlzT3FZRllaMGU4cld0cDlsaFVYY0IzV2ZNYmwxYW0yd1FDaw?oc=5
-
-9. [WARM 51] SoftBank Posts Record First-Half Profit as AI Infrastructure and Payments Drive Results, Raises Full-Year Outlook
-   Sponsors · finance.biggo.com · 9 Nov
-   Why: SoftBank Posts Record First-Half raised a round in Asia in fintech: a future target, priced today.
-   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMidkFVX3lxTE1adW1yVXVRcnVKV1ZCeVBTT052WmRWaE9iMjU3UkxlX2cyekdvaFdoNS1Jc21ZaHJIN1pBX01pcFRFbDdEYnJhTHZfUFNCX3hBMUtfekpNYl9Da0FGcGh0LWxyRHJSMXE5QnFJdjA1NERwQTFXZEE?oc=5
-
-10. [WARM 49] SoftBank Deepens Losses with AI Bets, but Stock Rises
-   Sponsors · Brief IA · 11 Nov
-   Why: A market move around SoftBank Deepens Losses in Asia.
-   Call: Note it for the comps discussion.
-   https://news.google.com/rss/articles/CBMijwFBVV95cUxOYUZUQzRaZFc1M1Joa2JvV1U0cVBhZmdlczFZZFNjQ3hyVHlBQmVVTXlkb28tc3lrSWllMVRJQkFCZEM0X1BCZ0tEMTNvNUJFb2NBWW1ONlk1ZWw2WGIwYlZHOWZWeFN3NGVIMHd2T3hOVXl5Qm9MdENTNUtEcnJsNVZwSkl2TEZBVlJjMmZiMA?oc=5
+10. [WARM 52] Japan's RIKEN Quantum Computer "Reimei" Upgraded to 56 Qubits; SoftBank AI Data Center Tie-Up Also Planned
+   Sponsors · BigGo Finance · 12 Nov · 2 outlets
+   Why: Qubits SoftBank is in the news in North Asia.
+   Call: No call yet; note it for the next conversation.
+   https://news.google.com/rss/articles/CBMidkFVX3lxTFBzTmZ0b3lWbmxLMEU3RzkwSUhDT0ZWRHhCTHExQTh5NE11eHdNbkhXTktQaGVIbXBYdVh3N2MzSlJKbVQ3RTZKazZ5cnMzd3ZXZFA1ZWJpQ0hLVFNHc1ByRjB0TUtxWTBBbEJEYTV3V0dLRlhnX1E?oc=5
 
 Full page: https://jw0ngo.github.io/ssg-newstracker/brief/
