@@ -515,6 +515,7 @@ tr.tdiv td span { display: block; font-family: var(--mono); font-size: 9.5px; le
 .ang-h { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .ang .n { font-family: var(--display); font-weight: 700; font-size: 22px; line-height: 1; color: var(--faint); font-variant-numeric: tabular-nums; min-width: 22px; }
 .ang .svc { font-family: var(--display); font-weight: 700; font-size: 12.5px; letter-spacing: .05em; text-transform: uppercase; color: var(--sc); background: var(--ss); border-radius: 999px; padding: 3px 10px; }
+.ang .ind { font-family: var(--display); font-weight: 600; font-size: 12.5px; letter-spacing: .02em; color: var(--muted); border: 1px solid var(--rule); border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
 .ang .cl { font-size: 13px; font-weight: 600; color: var(--fg); }
 .ang .cl span { font-weight: 400; color: var(--faint); margin-right: 4px; }
 .ang .cl .via { margin-left: 5px; }
@@ -551,6 +552,7 @@ const NAV = {"here":"angles","impact":"../impact/","brief":"../brief/","pe":"../
 const NAV_ITEMS = [["impact","AI Impact"],["brief","Morning Brief"],["pe","Exit Readiness<span class=\"nl\"> Tracker</span>"],["angles","SSG Angles"],["ai","AI &amp; Tech"]];
 const DATA = { angles: 'data/' };
 const SERVICES = {"buy-side":{"label":"Buy-side","what":"A named PE- or VC-owned company for a PE client to acquire, for its own thesis or as an add-on for one of its portfolio companies","work":"Buy-side tech due diligence"},"sell-side":{"label":"Sell-side","what":"A PE-owned company reaching exit readiness","work":"Vendor tech due diligence and exit readiness"},"transform":{"label":"Transform","what":"A newly acquired company that may need technology implementation or transformation work","work":"Post-deal technology transformation"}};
+const INDUSTRIES = {"fintech":"Fintech","data":"Data & Info Services","ai":"AI Defensible Applications","internet":"Marketplaces & Networks","saas":"SME & Vertical SaaS","healthit":"Health IT & Services","hrtech":"HR Tech","itservices":"IT Services & Outsourcing"};
 const FIRM_NAMES = {"warburg-pincus":"Warburg Pincus","kkr":"KKR","tpg":"TPG","eqt":"EQT","navis":"Navis Capital","ta-associates":"TA Associates","macquarie-capital":"Macquarie Capital","affinity-partners":"Affinity Partners","affinity-equity":"Affinity Equity Partners","partners-group":"Partners Group","sequoia":"Sequoia Capital","peak-xv":"Peak XV Partners","jungle-ventures":"Jungle Ventures","openspace":"Openspace Ventures","golden-gate-ventures":"Golden Gate Ventures","wavemaker":"Wavemaker Partners"};
 document.getElementById('nav').innerHTML = NAV_ITEMS
   .map(([k, l]) => `<a href="${String(NAV[k]).replace(/"/g, '&quot;')}"${NAV.here === k ? ' class="on"' : ''}>${l}</a>`).join('');
@@ -564,7 +566,7 @@ let DOC = null, FILTER = 'all';
 const card = (a) => {
   const s = SERVICES[a.service] || { label: a.service };
   return `<article class="ang s-${esc(a.service)}" data-s="${esc(a.service)}">
-    <div class="ang-h"><span class="n">${a.n}</span><span class="svc" title="${esc(s.what || '')}">${esc(s.label)}</span><span class="cl"><span>for</span>${esc(a.client)}${a.via ? `<span class="via">via</span>${esc(a.via)}` : ''}</span></div>
+    <div class="ang-h"><span class="n">${a.n}</span><span class="svc" title="${esc(s.what || '')}">${esc(s.label)}</span>${a.industry && INDUSTRIES[a.industry] ? `<span class="ind" title="Industry">${esc(INDUSTRIES[a.industry])}</span>` : ''}<span class="cl"><span>for</span>${esc(a.client)}${a.via ? `<span class="via">via</span>${esc(a.via)}` : ''}</span></div>
     <h2>${inline(a.title)}</h2>
     <p class="co">${a.service === 'buy-side' ? '<b>Target</b>' : ''}${esc([a.company, a.place].filter(Boolean).join(' · '))}</p>
     <ul>${a.bullets.map((b) => `<li>${inline(b)}</li>`).join('')}</ul>
