@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10T23:37:31Z",
+ "at": "2026-11-11T23:37:02Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,10 +82,22 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 13433,
- "candidates": 256,
+ "archived": 13712,
+ "candidates": 259,
  "fromSignals": 31,
  "boltons": [
+  {
+   "n": 1,
+   "date": "2026-11-10",
+   "month": "2026-11",
+   "firm": "eqt",
+   "portco": "ifs",
+   "buyer": "IFS",
+   "title": "IFS Coatings acquires 100,000 sq. ft. facility in Indiana",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQXJjS2thSlI5czFTQVgtWFBIWHBpYzRzUG16Q1pJOEVGb0hSTXkyYmszejV3d01Sakl0cS1GZDI4c1BxcGc3Y3BLLXVNMEdoM2VLNEZsaWUyS3dMOFlsLTJINGdhWTVsRU1xblNoTkctQ3AxWENkd0tKV2p2T1dvRzJmNkdHVVJPZ3RycFFvMXRJZ0ZPNkFYRlhwQmhvSkdTNDJvdDIxb3d2TTFQNlRKakRnbVY1MW5L?oc=5",
+   "publisher": "Woodworking Network",
+   "stage": "signed"
+  },
   {
    "n": 1,
    "date": "2026-11-09",
@@ -705,18 +717,6 @@
   },
   {
    "n": 1,
-   "date": "2026-05-05",
-   "month": "2026-05",
-   "firm": "warburg-pincus",
-   "portco": "infoblox",
-   "buyer": "Infoblox",
-   "title": "Infoblox completes acquisition of Axur to address external threats",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdnRkZHVSdVk3WGRlajFkeE9rRWNZY2NlVmxlbm5HUjFUNUduN0RqU0dCeVNKYjRCUHJ3T2FPb0VJdVgtR2FLTWtXMVljbGV3UmEyNnNrWlJIMTF1WGZ5MEpkNGFJcXZTY3lNQ3pwVDY4SmFoRTBJTU4xR0pxMzgzUXIyalNJSjBxZGR1UXVVTUw4OEhwRXdLbFRreC00Q0t2RFlTbG9jOVMzR2FqNm56TktR?oc=5",
-   "publisher": "Techzine Global",
-   "stage": "closed"
-  },
-  {
-   "n": 1,
    "date": "2026-04-30",
    "month": "2026-04",
    "firm": "partners-group",
@@ -787,6 +787,18 @@
    "title": "News Content Hub - Malaysia-based telecoms company OMS Group acquires second DriX USV",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQTBDeVM1X3VZY0VNWXIzMjVlblgtRWJDeVZCTThKdmkwYTVLNlRRMmtZeW5nNWlLaTk3MndPR01laXRIRjFDbmhrUGJyMzJibDNsX1BpRllrVzBOQlhPMnRGcWhjM2FlY2syU3ZLd2Z2TVVfNlR0WENPdHBrckhDMmxVZlkxWUVERTdLRk1lWl9Td0xwaUFPODlDTW9DaE9wS05lR1dpcTkwR2F2NUpnbGtLaWJmeXQ3QUU5bXR0NmJjdlpGaVExeHpHVjQ?oc=5",
    "publisher": "Riviera Maritime Media",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-04-09",
+   "month": "2026-04",
+   "firm": "eqt",
+   "portco": "carenet",
+   "buyer": "CareNet",
+   "title": "Carenet acquires South Africa asset in global expansion",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOVoyZWFUTVdFZkM3VkhkRVlod0hIZzlpem9qTXRfc3lrUXEyRnBMbzN5TldsZlliTFA5ZXpod05zeEU0UUVRQU11S3JwWTItazg3Snk4VzU2SkFmd3NfRXlhdTVyTER2NzkyeHpsUzJHbzBpUWF2dWc4SG1uQWQ3RWdTNWZQeVVHSzYzY0FsSlBFZHZKb1VMcnhOc2c?oc=5",
+   "publisher": "The Business Journals",
    "stage": "signed"
   },
   {
@@ -896,6 +908,18 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYaUhNdDYtNDJ5YnZvSFBHNWRWZHNXakYxU2s4bWRyeWM1UG13S2w2WGJfLTRUMFRudm5FOTh2bmVkcnBSRGV2VWpWVEJabUkwVjBoMFUwWVlGbVQyZ2ZmZVVjNFl4amE1U3NfUHlCWQ?oc=5",
    "publisher": "Orrick",
    "stage": "signed"
+  },
+  {
+   "n": 2,
+   "date": "2026-01-15",
+   "month": "2026-01",
+   "firm": "warburg-pincus",
+   "portco": "infoblox",
+   "buyer": "Infoblox",
+   "title": "Infoblox Buys Axur to Expand Cyberthreat Takedown Power",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT2pBWFotNUxtYWUxQVE5YUVhV1k3eEtlaEVnaG11ekt4WThhUVhJODRQWlVGSW9LQVBWN2VaLTZNQzFqRmxkMk01czMycm8yQks0VUJfaDV6UElBZ0w4d0F6eDFYLTdrYTkyd19PdlRjZGd3N2FFVk43ekRjRmtOQS02X01vaUN6OERoUkVUREFTNWU3SWRfUVFaeHI?oc=5",
+   "publisher": "BankInfoSecurity",
+   "stage": "closed"
   },
   {
    "n": 1,
