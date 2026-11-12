@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T23:37:02Z",
+ "at": "2026-11-12T23:37:20Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,8 +82,8 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 13712,
- "candidates": 259,
+ "archived": 14002,
+ "candidates": 262,
  "fromSignals": 31,
  "boltons": [
   {
@@ -1045,15 +1045,15 @@
    "stage": "signed"
   },
   {
-   "n": 1,
-   "date": "2025-09-10",
+   "n": 2,
+   "date": "2025-09-09",
    "month": "2025-09",
    "firm": "partners-group",
    "portco": "forterro",
    "buyer": "Forterro",
-   "title": "Forterro acquires Spanish SaaS vendor Inology -",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcDZPOUV5WUJPMGhlbEltMG1ESFpkWjNoMlRuMW91Sjlob05UTEVDeTlfQW1QYkRRd2d6UnR4bjNsNXlrQzVlMXlac3A4SzFJdXd5NlZqaTFfb0RIMzNyZHpqQl9xbHFPNV9ZbjlTeTAzOVFWU2g2T2dZQ2FvZ3RGZnRpR1BIeE9pbWFPS3hROVdFclFWVEE?oc=5",
-   "publisher": "Enterprise Times",
+   "title": "Forterro Acquires Inology to Boost Southern Europe Growth",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONWNTbk5PTTdWaHJjdWFjYzg3Q3FDNjhQRGRGUUMtMWZwVWNTQy15bDFhX05nejJtUHVjUjZaTFBmNXh1cWxybzM3NlFkLXpUTVdUamJIdHBPRFJEZVU0akxMb2daRFJaa2JHYXY3UmQwZXlhcWdodGRWUUpVdjNwRmtLUjZFNDB1YXJVUkxFdGY1WVJHYTRYblNPM1lGcVlDekZVZENTZnY?oc=5",
+   "publisher": "The European Magazine",
    "stage": "signed"
   },
   {
@@ -1391,7 +1391,7 @@
    "stage": "signed"
   },
   {
-   "n": 1,
+   "n": 2,
    "date": "2024-10-03",
    "month": "2024-10",
    "firm": "eqt",
@@ -1465,15 +1465,27 @@
    "fromSignal": true
   },
   {
-   "n": 2,
-   "date": "2024-08-02",
+   "n": 1,
+   "date": "2024-08-07",
    "month": "2024-08",
    "firm": "affinity-equity",
    "portco": "m-daq",
    "buyer": "M-DAQ Global",
-   "title": "Singapore's M-DAQ Global acquires Malaysian payment firm Easy Pay Transfers",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa0QwR2VQLXEzTnBBN0NIQm8tWE5YZFEtYmRzck1iejlCbW92ZVdneDhjVmdsS3Rfc2YxanFtLTF2b2FHeG1rS0NyenNCYW1zd0ZjazJWUk1tVHVsd0tUUF94MXRwdEhRQW1VYnhELUY4QzNQclVLYmlXT1I2eU5VT0IybG8yRml6UTVGWHQzb0NqSWFFWlU4aHBfbEhhSktwZ2lXWGJERnVqQTc1TUhB?oc=5",
-   "publisher": "TNGlobal",
+   "title": "Singapore’s M-DAQ Global acquires Easy Pay Transfers",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTWpFLWl2ek40WGZLT3RMUWpRbXBoVkxwcjFqWGZVU0NRWUZnRjluM2lBOXhoSVc1dmRPeEtvZ1o4dDF2d0VES3BkX2lFSEhPNnExcWd6dVA1YWVLWnpKei1KYmtETnhPV2Z4SVVjd1pndVItWll2Q180Y0NWUlVmUHNfWXpSc2piVjgxQmdxQktoM3hqQUlWMzNpSQ?oc=5",
+   "publisher": "The Malaysian Reserve",
+   "stage": "signed"
+  },
+  {
+   "n": 2,
+   "date": "2024-07-31",
+   "month": "2024-07",
+   "firm": "affinity-equity",
+   "portco": "m-daq",
+   "buyer": "M-DAQ Global",
+   "title": "M-DAQ Acquires Malaysian B2B Payments Provider to Expand ASEAN Presence",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeWV3QlJXRk94ZXl4d3BmNFp2eV80LVlpd1ZOQlBRalR0U1QxMUl3eVBZb3RtaUFaakZyVGJneFlyVWxoWDZWYWxDR2ZYXzlUZ0kzQ3c1R2pDdXlYUk9ESjlBWTJsNkRWQjY4QVdldHlkT0cxWGVYaFR6VF9YLW5jOWVQYmRFa2phNVVrNFRR?oc=5",
+   "publisher": "Fintech Singapore",
    "stage": "signed"
   },
   {
