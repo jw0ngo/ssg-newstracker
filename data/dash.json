@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T23:37:20Z",
+ "at": "2026-11-13T23:36:45Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,10 +82,34 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 14002,
- "candidates": 262,
+ "archived": 14250,
+ "candidates": 266,
  "fromSignals": 31,
  "boltons": [
+  {
+   "n": 1,
+   "date": "2026-11-12",
+   "month": "2026-11",
+   "firm": "kkr",
+   "portco": "reliaquest",
+   "buyer": "ReliaQuest",
+   "title": "Gibson Dunn Advised ReliaQuest in its Acquisition of Digital Shadows",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR2xodm55OEE5c01YWnNtZ3d3NDUxcHhSQWhFWnVhSmYydDVfZ2hJSV96MWNZMkhEdHo4TE9LT2dkUmt3TVpZSFhMSV9KcXBrWGwtT3Z1WmxhLVFYM3dXb2dOS0g2eTJqb05BYWlHNEF2UWZ0S2IzYU5mbnBOWlBEeGptRjJHcGNrRDVWa0tEYkRBZzY0RzA0TmVlNkM?oc=5",
+   "publisher": "Gibson Dunn",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-11-12",
+   "month": "2026-11",
+   "firm": "eqt",
+   "portco": "vinted",
+   "buyer": "Vinted",
+   "title": "Vinted Brings AI-Powered Post-Purchase Offers to the US Through Expanded Rokt Partnership",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYkEzdEE4S1lGQ2g1NDNBTzJ4VV9CRXZ1bWp4c1lncjVDZzYxbTA3YjVaTlFXYi1HOEU4eWJyazhkOEZ3MnpKUjRpUWxrMTROUTNhWGhyMDB1Y3JOenROYXFTa2k0SW5DcTNRS0g5R0VSa3JqdnQ0aWlxWjJ6ODdDNTFGZUxYRmE1OGNibGZTc3lUV3prZXNlQUpKVzNpVEozVWo2MFRQakRTZVE?oc=5",
+   "publisher": "WWD",
+   "stage": "signed"
+  },
   {
    "n": 1,
    "date": "2026-11-10",
@@ -495,7 +519,7 @@
    "stage": "signed"
   },
   {
-   "n": 4,
+   "n": 5,
    "date": "2026-08-24",
    "month": "2026-08",
    "firm": "tpg",
@@ -838,7 +862,7 @@
    "stage": "signed"
   },
   {
-   "n": 12,
+   "n": 13,
    "date": "2026-02-25",
    "month": "2026-02",
    "firm": "ta-associates",

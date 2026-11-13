@@ -6427,6 +6427,12 @@
   "summary": "Accounting, payroll and business-management software for 1m+ ANZ SMEs and 10,000+ accounting practices. KKR took it private off the ASX in 2019 at A$3.40/share; a 2022–23 ~A$4bn sale to ANZ collapsed and KKR has since focused on reinvestment and cloud migration.",
   "signals": [
    {
+    "date": "2026-08-14",
+    "publisher": "PE Insights",
+    "title": "KKR said to seek over $2.7bn for MYOB in talks with ANZ",
+    "url": "https://pe-insights.com/kkr-is-said-to-seek-over-2-7bn-for-myob-group-in-talks-with-anz/"
+   },
+   {
     "date": "2018-12-24",
     "publisher": "Reuters via Business Standard",
     "title": "Australia's MYOB recommends KKR's marked-down $1 billion buyout offer; shares rise",
@@ -6440,7 +6446,7 @@
    }
   ],
   "exit": {
-   "note": "Capital Brief (2025) reported industry sources expect a trade-sale process with Macquarie/Jefferies tipped; no mandate in place and a KKR source said no imminent exit. ANZ talks (~A$4bn) ended 2023.",
+   "note": "PE Insights, 14 Aug 2026: KKR said to seek over $2.7bn for MYOB in talks with ANZ; no signed deal found as of 13 Nov 2026.",
    "status": "rumoured"
   },
   "firstSeen": "2026-10-05T10:37:52Z"
@@ -13426,8 +13432,14 @@
    "basis": "undisclosed",
    "url": null
   },
-  "summary": "Mobikwik is a leading FinTech platform known for digital credit, one-click insurance, and instant savings.",
+  "summary": "Mobikwik is a leading FinTech platform known for digital credit, one-click insurance, and instant savings. Peak XV fully exited its stake in the listed company via a block deal in April 2026.",
   "signals": [
+   {
+    "date": "2026-04-28",
+    "publisher": "Entrepreneur India",
+    "title": "Peak XV Partners Exits MobiKwik with INR 130 Cr Block Deal",
+    "url": "https://india.entrepreneur.com/business-news/peak-xv-partners-exits-mobikwik-with-inr-130-cr-block-deal"
+   },
    {
     "date": "2026-11-05",
     "publisher": "Peak XV Partners portfolio page",
@@ -13436,8 +13448,8 @@
    }
   ],
   "exit": {
-   "note": "Peak XV Partners portfolio page, 2026-11-05: shown as listed (IPO)",
-   "status": "listed"
+   "note": "SOLD: Entrepreneur India, 28 Apr 2026: Peak XV fully exited listed One MobiKwik Systems via a ~INR 130 crore block deal.",
+   "status": "partial"
   },
   "firstSeen": "2026-11-05T04:22:12Z"
  },
