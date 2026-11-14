@@ -1,64 +1,64 @@
-SSG Newstracker · Morning Brief · AI & Tech · Sat 14 Nov, 07:47 SGT
-68 new stories since the last publish, 1 hot.
+SSG Newstracker · Morning Brief · AI & Tech · Sun 15 Nov, 07:46 SGT
+30 new stories since the last publish, 1 hot.
 
-1. [HOT 68] SoftBank Group (TSE:9984) Commits $1 Billion To Malaysia AI Infrastructure
-   Sponsors · Yahoo Finance · 11 Nov · 2 outlets
-   Why: SoftBank raised a round in Southeast Asia ($1 Billion) in AI: a future target, priced today.
-   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMimwFBVV95cUxNY3p4S3M0RGlGTHk2TjByLXdBUVIyMExfb0Y4MDFZUWJUZjhaVThpaHdIcW0ySEk2T2ljYU5sZ0RsTVkwMktBYUJvTzRCTmVfcS1NbXVMOHFwZHhPMHFrNEY3eVU4QnJUc2UxQ2xERF9QTjFVZGFKN1k4NW80b0h2anlOUlh5NjZoWlVzRTR0d3U5bmh1VGtWV2M5OA?oc=5
+1. [HOT 68] BankBazaar explores majority stake sale as early investors seek exit; Juspay among potential buyers
+   Targets · TechStory · 13 Nov
+   Why: A reported development at BankBazaar in India or ANZ.
+   Call: Watch; no call yet.
+   https://techstory.in/bankbazaar-explores-majority-stake-sale-as-early-investors-seek-exit-juspay-among-potential-buyers/
 
-2. [WARM 60] Alfa Laval to Acquire Maritime Software Firm NAVTOR from Accel-KKR for $700 Million
-   Sponsors · Private Equity Professional · 13 Nov
-   Why: An acquisition involving Alfa Laval ($700 Million) in software: a fresh comp for the targets SSG watches.
-   Call: Record the multiple and the buyer’s rationale; use it in the next software pitch.
-   https://news.google.com/rss/articles/CBMiugFBVV95cUxOMnJTWHZzT0g0TEpMOTV1bXhrMUhfVjFNVm9TdVhfSTcwUDdXcDFmcW5UMHJIXzNVWDZYek0xOVpZRzBrZi1DS0FDekxBS3hyNFZnWTh3emdJZFd5Sk5VTmZQZ2hjRTBvaWxPS1c4bDNfQm16RnI2OEdrTDJEbTFEckVZaERib0xtTFFsa3h1dWllT2JBb1U1UUdNSHl6djR4ZXN1d2RMc2F0R3FqUkhzbTFULWN3QUtueXc?oc=5
-
-3. [WARM 59] Xero (ASX:XRO) share price soars 10% after HY27 result, $1 billion share buyback
-   IPOs · Rask Media · 12 Nov
-   Why: A pricing move by Xero in software: margins and moats in the category shift with it.
-   Call: Re-run the pricing assumption on any software target under review.
-   https://www.raskmedia.com.au/2026/11/12/xero-asxxro-share-price-soars-10-after-hy27-result-1-billion-share-buyback/
-
-4. [WARM 59] Billionaire Masayoshi Son’s SoftBank, Grab and Petroleum Sarawak to invest $1.85B in Malaysia’s AI infrastructure
-   Sponsors · VnExpress International · 11 Nov
-   Why: Petroleum Sarawak raised a round in Southeast Asia ($1.85B) in AI: a future target, priced today.
-   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMiggJBVV95cUxPQm04VW9Id3NxRk1BMTRobmxVcGdoZTZiYkQteXg5UDF6c2FLRjNKUk02NTRDUXdGdWRjSWd3N1BBRDFxTmo2TGNsMXgwdGRkR2JEZ1R4elhiRUpBckFJYWNqeDZqVFJwZFFkeXFPTlVWVmNtMW4wOVhsM3Z2SmJFQXZMVmZ4M0VxTkZPNkRTOUJTbE56MzZaMlUxcDZ1NDdraXZfeDJBYWJoejNNM0pubkluT090dDFPM1NZWTl4WWNxMFdqdU5nd1VoWDZlRzFRakVEa3ZmcWZuZ1Rwb3VjOEhkQXhSdF9pZlBlV2NvMWhQSkI5b0NNQXZUbktiYUZjN2c?oc=5
-
-5. [WARM 57] Indian fintech firm Razorpay gets regulatory nod for IPO
-   IPOs · Reuters · 14 Nov · 2 outlets
-   Why: Razorpay has filed to list in India or ANZ in fintech.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMiogFBVV95cUxOTE51c3BkMXhjUkhrTHo4UV9OSEFKSlRwTllET3dLRWRXZDA5eTNCV2hfTGhuVzZ6RUVVUGN0TkhpdWxqZHhnaHA0cTEwQ3FscDhRY1FvQ052b0p1MUZsUHB4dnJTcUFCS2Y1LWpUcW9FdTBzMTR0dGNNV3p5eXp1NVZ2d01EMTBHMVNwSlIxbU1ZSXlmaUdkdXN6TUwxcUNlMkE?oc=5
-
-6. [WARM 57] Moonshot AI Begins Offshore Restructuring as It Weighs 2027 Hong Kong IPO
-   IPOs · www.tokenpost.com · 13 Nov
-   Why: Moonshot is heading for a listing in North Asia in AI: the comps are about to reset.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VOXVSOXMwd3ctZDJwRF9KUjFiWlZacmFzU09sTVVob3phSW1oOUR1MFBPdkM4eGUxdmV0cWRycWFUeWQ3M0hpTEdoVl9CYUxPUm5FZzZBZ00?oc=5
-
-7. [WARM 56] Sakana AI Says No Near-Term IPO After Report of 2027 Listing
-   IPOs · FourWeekMBA · 9 Nov
-   Why: Sakana has filed to list in North Asia (¥680bn) in AI.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://fourweekmba.com/ai-sakana-ai-says-no-near-term-ipo-after-report-of-2027-listing/
-
-8. [WARM 55] SoftBank's AI Infrastructure Retreat Comes With a $3.7 Billion Bill
-   Sponsors · ad-hoc-news.de · 13 Nov
-   Why: Regulation touching SoftBank in Asia in AI.
-   Call: Check which targets in the pipeline it reaches.
-   https://news.google.com/rss/articles/CBMi1AFBVV95cUxQczRQanRkMU0wRExCNVNBVkdMakN6QVd2alBqeTJ0Wi1NWW1jZDYteUh4bGtRY3p1ZXlBYnY5dDRmbWpsMHNySnZTSjlESVZNSENDRlc5eGtnUkJ2ZE1VTzFLdkZ1WmdMbVJwVDJZX05yUFRIUjFkUWZ5NG4tSnlOc3hDaUM3dXJ6ZXAxTHN0aHBQVldUQ2lkbWJoMjZvZzVFNkNBdWZrbnpBVDBtaGtlWDlUTXhZVks5NS1qcnk5YjVxcnoyTS15UDVuQkZSVDNvTmtLMQ?oc=5
-
-9. [WARM 54] Chinese university bought advanced Nvidia chips despite US curbs
-   M&A · CNA · 12 Nov
-   Why: An acquisition involving Nvidia in North Asia: a fresh comp for the targets SSG watches.
+2. [WARM 57] Singapore-based billionaire Leo KoGuan vows to halt Nvidia buys after Jensen Huang exit
+   M&A · The Straits Times · 14 Nov
+   Why: An acquisition involving Singapore-based in Southeast Asia: a fresh comp for the targets SSG watches.
    Call: Record the multiple and the buyer’s rationale; use it in the next pitch.
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxNaGxSZkE4TVpTM1F5Vk81dHJzQm51MFh2ZlRxVGVxbmZRS2l5TFlETGNsTGh6WUpMaHJNakdiUnowbG1VblZGaWlMOEhaWWwtRk45ZlZFMDdoc2R1aHFFTnBXTTNabmxVM01aUHppc0xNcHZUbnJOaG45OVFRelRHZVhkeFFWN0ptRGdMQWRpX1JlYzBENV9GTDdhcS1CZGE5T0ZkZU9pb1RXZW8yLUszVERWSQ?oc=5
+   https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdFd6QmEzMGltNnRSRGJPVHNPMExHc3hlM256MHBaSC1JS0hRZW9ZR2RLRURQYW1WWmVTYWxubUgyNGRrTmstanFiU3h4V3pOajBjeFQ3bXFSdHJOdW9iS3QwSFg1WkVPSldmSHhsYUtCVFJRdUJUaUFMaFNnMWRKeXpjMzRtaFZhTmNQS0ZZZDNpUzNFS0ZzSTNIX2xOczJNaHF6R25zWGlxVlk0TnA1Wm45YjV6MVFhaWtnTVFFamRQaWtYZkFSeUQxV0JuRnR2c280SW1ya2R2TTQ?oc=5
 
-10. [WARM 51] MC Tech3 | Paytm reclaims listing price, Jensen Huang’s exit and India’s AI ecosystem, Sachin Bansal’s AI bet; and more
-   IPOs · LinkedIn · 13 Nov
-   Why: A pricing move by MC Tech3 Paytm in AI: margins and moats in the category shift with it.
-   Call: Re-run the pricing assumption on any AI target under review.
-   https://news.google.com/rss/articles/CBMimAFBVV95cUxNc0JvZFdjeHF2aDd3SVNEdEcycE8teUcwVjlZNXh5dHJFSkR2XzJMdFV4cmhBZE04eHo3OWdGbklnR3dDam5mTkxpVnVCa2E2RGVOejRzU2lHLS0wRUxqeDdLVXZJaTVSX3pRN2p0dFFrcUd2TEFiTTJJbDNrNUpMRmRub1Q0THJ0OWdjakJkY05IVnN0c3M1NA?oc=5
+3. [WARM 55] Bain and GIC-backed WHI wins approval for a Dec. 15 Tokyo listing, set to be Japan's largest IPO of 2026
+   IPOs · MLQ.ai · 14 Nov
+   Why: Bain has filed to list in Southeast Asia.
+   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
+   https://news.google.com/rss/articles/CBMivwFBVV95cUxOZk1VbEEyeDFBTTlTVWlVVy05ZTBiUXFfclliT1QwZTFhNTNlTGcyUlhQSVBVSHBWV1lqUkhqSlB0ekxWVzVxSDBMcE5wTzA1V0xuRWRnV1ZqNFI0V1JGMVVDZXZ1UmVlNmE3Vm1OSngxMEpyU0VBRmRuQnZPVl92Y3k2VTVCUDhhZm1mbXJUNjVVcFR4SVBIOHN1aWVTZWlsVkdYWFd3NzRLM0ZSSWg0UGlUY1RiWEtlYlEtYmNfSQ?oc=5
+
+4. [WARM 55] Adaspace Hong Kong IPO Raises $95.6 Million for AI Satellites
+   IPOs · iNews Zoombangla · 14 Nov · 2 outlets
+   Why: Adaspace has filed to list in North Asia ($95.6 Million) in AI.
+   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
+   https://news.google.com/rss/articles/CBMidEFVX3lxTFAxTmd3bzdVR0pVSHdEaDZ5Xy1hVm9rQXQ4QnBySHBIYkFZWElfSVo1bFZzLWVOYU9PelRmUXljRXEtTzZzMlBSQU5adHBhUmtYMEhnRm9WandHTTd1MjMxRDlTRWtNRFpPNmw1Yndxc1p0UVRH?oc=5
+
+5. [WARM 54] AI Startup mistEO raises Rs 18 crore to expand climate forecasting technology
+   Targets · Exchange4Media · 14 Nov
+   Why: A company raised a round in India or ANZ (Rs 18 crore) in AI: a future target, priced today.
+   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
+   https://news.google.com/rss/articles/CBMizgFBVV95cUxQeUNrTnFhb2xhV3Bnc3RJVU9ZX0s5ZjVWUEZwLVdfbER3b1BtWXEwV2tGdW1CckR5cy1TeFphVnlJa2Y4bDV4NW1OdGcxZ1REVldMbWxvdHZvRk1MaG5pMHZtWTVFenBUdExUSVZZZzB1dTVMNE1UR2hPa2FtS3lqdDdXQTdESDRZMVhidTVsazFTVzh3dTRISG8zb044MTU1S1l5a1Vua3RXRzlNaUszd090SVVac3c3ai14SlZvLVdSRy1USUtvbWcyVVBVQQ?oc=5
+
+6. [WARM 48] Razorpay clears SEBI review for an India IPO reported at up to 6,000 crore rupees
+   IPOs · MLQ.ai · 14 Nov
+   Why: Razorpay has filed to list in India or ANZ (6,000 crore).
+   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
+   https://news.google.com/rss/articles/CBMiowFBVV95cUxOa1JFNjV2X3VRSVZVQ2t0cnI2ckxCamxKbElSSTJGeFo1N0VQcTJpaDltNmd0ZWRuamNCQ0M2TU9uMWFVM0dEa2ZNWGJDQlBEV2dhaVVwY01Wd2dKLXljbFR3MmVqb0w1ZzZsaW54bkRMQk9USEROeHpNNWQwRGI1bnVUdndFU3F2S3BJX3c1dnpCWWN5eDJkbW5WaUlwQ09HM0tJ?oc=5
+
+7. [WARM 47] Forget SpaceX: This Potential Blockbuster IPO Has Attracted $26 Billion From AI Giants
+   IPOs · Yahoo Finance · 15 Nov
+   Why: Potential Blockbuster has filed to list ($26 Billion) in AI.
+   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
+   https://news.google.com/rss/articles/CBMipgFBVV95cUxPYnhVZllETlozaXNiUHp2aXQzbUsxQXRhakhMSDdZdHpQcXlVVkFmdTVuQXFQRjNMX2phN3p0cFJoY20yN0RCSGpEQWxueGdFVWxxVWo5Smd1bld5d2FITmdibm1ocThxbmwxN0lsTzZiSE1IUFloMG9icmNEM2cxZXZvaThnUC1hMnRZWVZKZENQYjVjcEgxYjFROS00TVdaSWxLMW5R?oc=5
+
+8. [WARM 46] EQT raises Kakaku.com bid to ¥3,700, matching Bain-LY Corp counteroffer; deadline extended to 26 Nov
+   M&A · DealStreetAsia · 11 Nov
+   Why: EQT is raising in North Asia.
+   Call: Add it to the watchlist; a round that closes is a future target.
+   https://www.dealstreetasia.com/stories/eqt-raises-bid-for-kakaku-com-500807/
+
+9. [WARM 42] Mahanadi Coalfields IPO: Coal India subsidiary files RHP - Latest GMP at ₹12.5; check key dates, size, valuation, more
+   IPOs · Livemint · 14 Nov
+   Why: Coal has filed to list in India or ANZ.
+   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
+   https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU0M3YWtsQmtlSlZxaVJ5NHBmdkVqTnd4MjV3Y3FEYWxrUEswYmJoWnQ1eDdINFFjSFlqY3VjZEhpc2VoY3RIUVhqRnJ2NUJVU05iU0VieTVPOGVTVVdzS3BCQlo1aEdyOElZai1OQWE0VVVFb0EzWTZlQjVTdXlVd1VZanFTcnJ0QXFITk5RTk9NaEh5SDk2dFg5OTk3MHlHbTFxc0xHRUVZeVpQN2ctNHFLbU5kVmZCd01oNnEyUFhHMm5MaW1PYS1zdEk0R2Rja0JqLXNVZWxGQy1fYWlLb0R5MGFRWUw1VVpYeEhwMzBnX1EzdmM0QkRhRkwyUdIBgwJBVV95cUxPaVc1Tm5qdnpEMl81ck1KQlFWMlNVaUE5dVRSX2NidEotbXJyb1hwdm9VM3BMeWJBOENWOHlEN3IyMGMxNkVMNXl5MFpKQ0pyM2Z4Y19zbHhXYlRoRXJpODNtQWgxYkVTX1VHTEVpTWJ0em1fTHJZQWhvR29WaDNDSm5MWHl3aHhIQkZKSE1vLV8zRUw1LUVHN1hfMDlhOXFNRGFTTnYxeEJvN0JQZ05FNm1CajFyaExrNFpsMkl0a3RmVE1icm9NVnZkMXhLVV9xV18yUHhJckFTVFVMV3puV2tYSW1vT3h4U2JFNFhIQXdIVWZmSDExNFJhdmt0UTFCamI0?oc=5
+
+10. [WARM 40] LeanTaaS acquires computer vision firm LookDeep Health
+   M&A · Health IT Answers · 12 Nov
+   Why: An acquisition involving LeanTaaS in AI: a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
+   https://www.healthitanswers.net/health-it-business-news-financial-edition-november-12-2026/
 
 Full page: https://jw0ngo.github.io/ssg-newstracker/brief/
