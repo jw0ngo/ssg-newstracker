@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T23:36:45Z",
+ "at": "2026-11-14T23:37:21Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,10 +82,22 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 14250,
- "candidates": 266,
+ "archived": 14387,
+ "candidates": 276,
  "fromSignals": 31,
  "boltons": [
+  {
+   "n": 2,
+   "date": "2026-11-13",
+   "month": "2026-11",
+   "firm": "kkr",
+   "portco": "incred",
+   "buyer": "InCred",
+   "title": "InCred Capital acquires Quintessentially India",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUkNwZHdtQjY5U0NEREZJX0hpd3d2ek16Z3I4cWlTZ0hmRGxGT0MtWXlxZEpESlVTTms5RXQ5UG5ZcGd3MVEwVWE0cXNGNHdRdlZpUmpJTzFEcFJCZmt6MEE5dms1ekZvT0RndzEtRWh1LWp2NnR4enE5c21LUlplR1BDMlVtVkUtcUxZenQtZUc4ZWpWZnptMDlSZHBzekZ1MkRNaGlQc2dfT2U40gGzAUFVX3lxTE40NHBoaTk0NFJ1WUxDbGhWaFc0QklNcjV5YUlaQklJMWE4dnAwUG95Nmg2U184R01GVnZjc1gxQzd0ZDJWQmR5cGJKdEQ5VzZqMk1CYy1QN0pvakdhQk10RC1hUWxmUlUzSTRWQ1RSakU1YmpGOGNQRG9WQ1NhWUxXV3RwN2FPT3ZYR2Z4NFd3cnZNeXE5dE5RRGpDeEJrbzBZVGNxZjkxZENud3RoR0dNYmd3?oc=5",
+   "publisher": "BusinessLine",
+   "stage": "signed"
+  },
   {
    "n": 1,
    "date": "2026-11-12",
@@ -947,6 +959,18 @@
   },
   {
    "n": 1,
+   "date": "2026-01-14",
+   "month": "2026-01",
+   "firm": "tpg",
+   "portco": "veeam-software",
+   "buyer": "Veeam Software",
+   "title": "Veeam Acquires Object First In Move To Expand Data Resiliency",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOV0NVMEVNNGJlc05JUTJpSm9VSlc3SE5LUzdGdXVKNDZhR0EzOXpJWkxlcElSREVsdHNpbWhIMW84U0hUQ2Zobk1jTWt2Xy1tS2YyZThWcVhDaDhuX3Ywd28wS0c4dGw1aEYwZGhhTXlRWXV3OWg5eG1IMjFfYlRZelEyYVR5dTBLazFRQWhZQ1lOUVFpbDIzUmI2d2QteUt4?oc=5",
+   "publisher": "CRN",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
    "date": "2025-12-17",
    "month": "2025-12",
    "firm": "affinity-equity",
@@ -1217,6 +1241,18 @@
    "stage": "signed"
   },
   {
+   "n": 2,
+   "date": "2025-04-28",
+   "month": "2025-04",
+   "firm": "warburg-pincus",
+   "portco": "perfios",
+   "buyer": "Perfios",
+   "title": "Perfios acquires IHX to enter health insurance tech",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdWI0dVBuUzZIY2l3Um1WUE5GNzVnRjVuQm1iRXplMF9xdzZyU3lObDNjRFR2bHpQSnUxMnhpdmhQM3FqMVVMdEZPSUlCV3h2NmJXaEc5R1hDWndWTFJqNVBLV01weWRnZjQ4OHVQZlZjRENZVHJIbDJSalJJWjdBbkR5Uk5mNDlWd3JUXzYyb1JGRjDSAZMBQVVfeXFMTnViNHVQblM2SGNpd1JtVlBORjc1Z0Y1bkJtYkV6ZTBfcXc2clN5TmwzY0RUdmx6UEp1MTJ4aXZoUDNxajFVTHRGT0lJQld4djZiV2hHOUdYQ1p3VkxSajVQS1dNcHlkZ2Y0ODh1UGZWY0RDWVRySGwyUmpSSVo3QW5EeVJOZjQ5VndyVF82Mm9SRkYw?oc=5",
+   "publisher": "Entrackr",
+   "stage": "signed"
+  },
+  {
    "n": 1,
    "date": "2025-04-04",
    "month": "2025-04",
@@ -1315,7 +1351,7 @@
    "stage": "signed"
   },
   {
-   "n": 2,
+   "n": 3,
    "date": "2025-02-10",
    "month": "2025-02",
    "firm": "kkr",
@@ -1365,6 +1401,18 @@
    "publisher": "MergerLinks",
    "stage": "signed",
    "fromSignal": true
+  },
+  {
+   "n": 2,
+   "date": "2025-01-06",
+   "month": "2025-01",
+   "firm": "ta-associates",
+   "portco": "veracode",
+   "buyer": "Veracode",
+   "title": "Veracode Looks To Boost Security For Software Supply Chain With Acquisition Of Phylum",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQT0hJc3RLUTdLMldSVTkyZC1uSkoyTnBHck80X2lnXzkwaHJhZEFTVDg3SkdnUVgwekhmNXNQRF9HamF5WkdxejRadjJnR21IY0tzQUtoRGlMXy15dEVOTHo4a0N4dmNqNzR2enhJMkk0d01lTnVURHdWVUk2NWRaWDhFNHB5OEY4SkFFR3czYTZxMmEtSXhvZ0hDV3dNLXNWb3p2bktTSTB0MlVKbWJIbXMzS0loZm5GbzZ5MFJTZUpidw?oc=5",
+   "publisher": "crn.com",
+   "stage": "signed"
   },
   {
    "n": 1,
@@ -1525,6 +1573,18 @@
    "stage": "signed"
   },
   {
+   "n": 1,
+   "date": "2024-05-08",
+   "month": "2024-05",
+   "firm": "kkr",
+   "portco": "ness-digital-engineering",
+   "buyer": "Ness Digital Engineering",
+   "title": "Ness Digital Engineering Acquires Intricity - a New York based company specializing in data strategy, governance, modernization, and monetization",
+   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPQzVkcTR3R2luUW9UejJJRllFR3BpM1JxVkppQ0JwMDhHekFpTm45d0JfTW5veTNKZmRwb1ItMTF2MktSWnk2NkpXR3ZQY2NRaUMzWXZxb2NsLVI4SmhFdkpvZFVIRUdYekVHOU5Bd2puNUROT09kTXA5cDc2bzRGdkVzWEtVaVdTcGhNWDFxYmgwVGNQTkdYSEZ3dXlWU3lPVFRnMmhmVFB5S2RVeHUzWnhlTVJqLTRJSUNlQWVHR2V6OVItU3lFYkp0THFpMVJUVTZiRldzT2Fzc3BYUnVuUERRT2dlSmI0VUNONGxWTUZuTzVBYUtuMGh0eXM1d1I4dENxTzFpcG1CeXZkOFQ4ZDIzZEc3b0pIQzBESmdn?oc=5",
+   "publisher": "PR Newswire Canada",
+   "stage": "signed"
+  },
+  {
    "n": 2,
    "date": "2024-03-15",
    "month": "2024-03",
@@ -1536,6 +1596,18 @@
    "publisher": "Virtuos newsroom",
    "stage": "signed",
    "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2024-02-20",
+   "month": "2024-02",
+   "firm": "affinity-equity",
+   "portco": "jobkorea",
+   "buyer": "JobKorea (Worksphere)",
+   "title": "Jobkorea buys applicant tracking developer Ninehire",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hdXlkVkUxSmV1OTEzZHBwT3Q3NDBvMEdJWHdKbDZfd1U0Mml2TF9rZkZhRTBKVzJzSXJKVUwtNFBkMEthMm04MXplbXgzMnQzUnJua3gyZw?oc=5",
+   "publisher": "매일경제",
+   "stage": "signed"
   },
   {
    "n": 1,

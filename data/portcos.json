@@ -12279,6 +12279,12 @@
   "summary": "Groww is India's largest stock broker in FinTech, empowering millions to invest easily.",
   "signals": [
    {
+    "date": "2026-11-06",
+    "publisher": "TradingView",
+    "title": "V2 Retail promoters sell Rs 258 crore shares; Peak XV Partners, YC Holdings offload Rs 2,457 crore worth of Groww shares",
+    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNTGoxV2g4VEtXVGhkbVU2UkhwLWJ6SllmWVJkZmhwNlZyYjZtcFBYS2EzeVRhZ0h5dTViR2JBS21BYjFWcVJXUDg4MDQyZkhYUWpoZWhPNUQ2aHVJQ2p2bGlBUWx0WlVVVm5YMWJQaGNiN1pMV0ZmLXlwRkpINjZwNkhOSVBYUzZrYUtVSTd5VlFHSm14dXBrQWRlRW91WEY4b0ctSmd4TzRVb0NWdXA1RGFKTy1rUmtlQmo0Ti1YU0RRemJrUzNVazhNUFNxTURfZEVNSkNxeHVZUVdFN2g0RmdyaTlnOTdWa0JPR1dIdXhZTzRpNXpiRzI2YlNxUUh0V1o2THVka3hRUDJhUWc?oc=5"
+   },
+   {
     "date": "2026-11-05",
     "publisher": "Peak XV Partners portfolio page",
     "title": "Groww on Peak XV Partners' portfolio page (partnered 2019)",
@@ -12286,8 +12292,8 @@
    }
   ],
   "exit": {
-   "note": "Peak XV Partners portfolio page, 2026-11-05: shown as listed (IPO)",
-   "status": "listed"
+   "note": "TradingView, 2026-11-06: Peak XV (with YC, Goldman) sold a combined 1.84% of listed Groww parent for Rs 2,457 cr in a bulk deal; Peak XV the largest seller, still holds",
+   "status": "partial"
   },
   "firstSeen": "2026-11-05T04:22:12Z"
  },
