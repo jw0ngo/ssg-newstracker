@@ -1,64 +1,64 @@
-SSG Newstracker · Morning Brief · AI & Tech · Sun 15 Nov, 07:46 SGT
-30 new stories since the last publish, 1 hot.
+SSG Newstracker · Morning Brief · AI & Tech · Mon 16 Nov, 07:47 SGT
+13 new stories since the last publish.
 
-1. [HOT 68] BankBazaar explores majority stake sale as early investors seek exit; Juspay among potential buyers
-   Targets · TechStory · 13 Nov
-   Why: A reported development at BankBazaar in India or ANZ.
+1. [WARM 43] Chinese AI chipmaker SigmaStar reportedly eyes Hong Kong listing as early as this year
+   IPOs · 联合早报 · 13 Nov
+   Why: A reported development at SigmaStar in North Asia.
    Call: Watch; no call yet.
-   https://techstory.in/bankbazaar-explores-majority-stake-sale-as-early-investors-seek-exit-juspay-among-potential-buyers/
+   https://news.google.com/rss/articles/CBMitgFBVV95cUxNRWtsYTZJNkU3UHEwd0RFcXY2UUhfOHRCd3dwdlE2ZndiS2pkRzVoWkN4a01zSHJZenowdzZzVUVMWTNLdEI3UE9BRkJkUmpFNVpFTVNjUzhhVVdHbVlrVmRDVDRVbUpKT3BJRVYyOGw4LXBCelNKRGNqa1ZSVHlwWS1aWFNGaUFzdm1iaEpYbVRRNjhvNEU3NEpYWXQwSk03dy1PbFpLUm53UVlVOXRQaFZXM2F1QQ?oc=5
 
-2. [WARM 57] Singapore-based billionaire Leo KoGuan vows to halt Nvidia buys after Jensen Huang exit
-   M&A · The Straits Times · 14 Nov
-   Why: An acquisition involving Singapore-based in Southeast Asia: a fresh comp for the targets SSG watches.
-   Call: Record the multiple and the buyer’s rationale; use it in the next pitch.
-   https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdFd6QmEzMGltNnRSRGJPVHNPMExHc3hlM256MHBaSC1JS0hRZW9ZR2RLRURQYW1WWmVTYWxubUgyNGRrTmstanFiU3h4V3pOajBjeFQ3bXFSdHJOdW9iS3QwSFg1WkVPSldmSHhsYUtCVFJRdUJUaUFMaFNnMWRKeXpjMzRtaFZhTmNQS0ZZZDNpUzNFS0ZzSTNIX2xOczJNaHF6R25zWGlxVlk0TnA1Wm45YjV6MVFhaWtnTVFFamRQaWtYZkFSeUQxV0JuRnR2c280SW1ya2R2TTQ?oc=5
-
-3. [WARM 55] Bain and GIC-backed WHI wins approval for a Dec. 15 Tokyo listing, set to be Japan's largest IPO of 2026
-   IPOs · MLQ.ai · 14 Nov
-   Why: Bain has filed to list in Southeast Asia.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMivwFBVV95cUxOZk1VbEEyeDFBTTlTVWlVVy05ZTBiUXFfclliT1QwZTFhNTNlTGcyUlhQSVBVSHBWV1lqUkhqSlB0ekxWVzVxSDBMcE5wTzA1V0xuRWRnV1ZqNFI0V1JGMVVDZXZ1UmVlNmE3Vm1OSngxMEpyU0VBRmRuQnZPVl92Y3k2VTVCUDhhZm1mbXJUNjVVcFR4SVBIOHN1aWVTZWlsVkdYWFd3NzRLM0ZSSWg0UGlUY1RiWEtlYlEtYmNfSQ?oc=5
-
-4. [WARM 55] Adaspace Hong Kong IPO Raises $95.6 Million for AI Satellites
-   IPOs · iNews Zoombangla · 14 Nov · 2 outlets
-   Why: Adaspace has filed to list in North Asia ($95.6 Million) in AI.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMidEFVX3lxTFAxTmd3bzdVR0pVSHdEaDZ5Xy1hVm9rQXQ4QnBySHBIYkFZWElfSVo1bFZzLWVOYU9PelRmUXljRXEtTzZzMlBSQU5adHBhUmtYMEhnRm9WandHTTd1MjMxRDlTRWtNRFpPNmw1Yndxc1p0UVRH?oc=5
-
-5. [WARM 54] AI Startup mistEO raises Rs 18 crore to expand climate forecasting technology
-   Targets · Exchange4Media · 14 Nov
-   Why: A company raised a round in India or ANZ (Rs 18 crore) in AI: a future target, priced today.
+2. [38] Q-CTRL Series C: $290M for AI and Quantum
+   Targets · CASRAI · 15 Nov · 2 outlets
+   Why: Quantum raised a round ($290M) in AI: a future target, priced today.
    Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMizgFBVV95cUxQeUNrTnFhb2xhV3Bnc3RJVU9ZX0s5ZjVWUEZwLVdfbER3b1BtWXEwV2tGdW1CckR5cy1TeFphVnlJa2Y4bDV4NW1OdGcxZ1REVldMbWxvdHZvRk1MaG5pMHZtWTVFenBUdExUSVZZZzB1dTVMNE1UR2hPa2FtS3lqdDdXQTdESDRZMVhidTVsazFTVzh3dTRISG8zb044MTU1S1l5a1Vua3RXRzlNaUszd090SVVac3c3ai14SlZvLVdSRy1USUtvbWcyVVBVQQ?oc=5
+   https://news.google.com/rss/articles/CBMicEFVX3lxTE1PNzNMbHNJSFFzT0cwRjlYZE9vX0pVWlI0c1MzWFJManQ3QVVDdmxLMTM0U29OUGxzZThuVzJtWF9aRXc2QTlrdG5LTmJsdTVmVFFZdmFQdm9VcktOSUFUVHdqZFczX3Q5eEFhVDNuVGI?oc=5
 
-6. [WARM 48] Razorpay clears SEBI review for an India IPO reported at up to 6,000 crore rupees
-   IPOs · MLQ.ai · 14 Nov
-   Why: Razorpay has filed to list in India or ANZ (6,000 crore).
+3. [38] Quantum Error-Reduction Software Maker Q-CTRL Raises $290 Million Series C
+   Targets · Wowtale · 15 Nov
+   Why: Quantum Error-Reduction raised a round ($290 Million) in software: a future target, priced today.
+   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
+   https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3TjdFVUhBb1AtTHdoMjRuOFE0NDJCanhiT1hHS3hLMHFDZUJhb2ZlNkRDUndCNWN3d1FsU1drOWxwczdjY09kRDhyVWdIeUUzRkdF?oc=5
+
+4. [38] Banks rebuff Chinese and Hong Kong orders for Anthropic's IPO over US arms-export rules, Bloomberg reports
+   IPOs · MLQ.ai · 14 Nov · 2 outlets
+   Why: Anthropic has filed to list in North Asia.
    Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMiowFBVV95cUxOa1JFNjV2X3VRSVZVQ2t0cnI2ckxCamxKbElSSTJGeFo1N0VQcTJpaDltNmd0ZWRuamNCQ0M2TU9uMWFVM0dEa2ZNWGJDQlBEV2dhaVVwY01Wd2dKLXljbFR3MmVqb0w1ZzZsaW54bkRMQk9USEROeHpNNWQwRGI1bnVUdndFU3F2S3BJX3c1dnpCWWN5eDJkbW5WaUlwQ09HM0tJ?oc=5
+   https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOWJCU2h5Q1RUSzFwY3RaS2Uzel9ucElDVHEyTC10RHh5VnZPRFcxT283YTBvM0pib1ZUdWYta25qbmQ4SkxsdENSMXRYb05nbG5xb3RmNEk4T01FQXJ1Z1M5RnRqclhkVko1QkVyZFhpRmhiVnlHZ3JRbmVDbGlMWmQya2JHdVhaczVGRW9yYlcwRmNGbEd0NmZaeFZFbDZVRTR2czRCa3lHckhWSXZQUmJvZ0ZsbWQ1LWc0cEhJNGVNck0?oc=5
 
-7. [WARM 47] Forget SpaceX: This Potential Blockbuster IPO Has Attracted $26 Billion From AI Giants
-   IPOs · Yahoo Finance · 15 Nov
-   Why: Potential Blockbuster has filed to list ($26 Billion) in AI.
+5. [37] Anthropic’s IPO is the next big test for AI
+   Platforms · Financial Times · 15 Nov
+   Why: Anthropic has filed to list in AI.
    Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMipgFBVV95cUxPYnhVZllETlozaXNiUHp2aXQzbUsxQXRhakhMSDdZdHpQcXlVVkFmdTVuQXFQRjNMX2phN3p0cFJoY20yN0RCSGpEQWxueGdFVWxxVWo5Smd1bld5d2FITmdibm1ocThxbmwxN0lsTzZiSE1IUFloMG9icmNEM2cxZXZvaThnUC1hMnRZWVZKZENQYjVjcEgxYjFROS00TVdaSWxLMW5R?oc=5
+   https://news.google.com/rss/articles/CBMihAFBVV95cUxOelhLb2QtNy1faTdqOEwwQVNzSk5IX25mc0VOQjQzVTdPc3pZdUMyOE9EWkxVd1pJX0huTDZMMTBNR0ZLV0E2WHVkb1Vuam1vMjJ3TUptVGloS2VhWFlmYW1ITGJvVjJpNzNCdkYyQ3hTdXIzUlhaUElJN01UQzVWc2NfSjE?oc=5
 
-8. [WARM 46] EQT raises Kakaku.com bid to ¥3,700, matching Bain-LY Corp counteroffer; deadline extended to 26 Nov
-   M&A · DealStreetAsia · 11 Nov
-   Why: EQT is raising in North Asia.
-   Call: Add it to the watchlist; a round that closes is a future target.
-   https://www.dealstreetasia.com/stories/eqt-raises-bid-for-kakaku-com-500807/
-
-9. [WARM 42] Mahanadi Coalfields IPO: Coal India subsidiary files RHP - Latest GMP at ₹12.5; check key dates, size, valuation, more
-   IPOs · Livemint · 14 Nov
-   Why: Coal has filed to list in India or ANZ.
+6. [37] Amid Jensen Huang’s fall and the Anthropic IPO, Howard Marks just nailed the only question that matters for AI investors
+   IPOs · AFR · 15 Nov
+   Why: Jensen Huang has filed to list in AI.
    Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU0M3YWtsQmtlSlZxaVJ5NHBmdkVqTnd4MjV3Y3FEYWxrUEswYmJoWnQ1eDdINFFjSFlqY3VjZEhpc2VoY3RIUVhqRnJ2NUJVU05iU0VieTVPOGVTVVdzS3BCQlo1aEdyOElZai1OQWE0VVVFb0EzWTZlQjVTdXlVd1VZanFTcnJ0QXFITk5RTk9NaEh5SDk2dFg5OTk3MHlHbTFxc0xHRUVZeVpQN2ctNHFLbU5kVmZCd01oNnEyUFhHMm5MaW1PYS1zdEk0R2Rja0JqLXNVZWxGQy1fYWlLb0R5MGFRWUw1VVpYeEhwMzBnX1EzdmM0QkRhRkwyUdIBgwJBVV95cUxPaVc1Tm5qdnpEMl81ck1KQlFWMlNVaUE5dVRSX2NidEotbXJyb1hwdm9VM3BMeWJBOENWOHlEN3IyMGMxNkVMNXl5MFpKQ0pyM2Z4Y19zbHhXYlRoRXJpODNtQWgxYkVTX1VHTEVpTWJ0em1fTHJZQWhvR29WaDNDSm5MWHl3aHhIQkZKSE1vLV8zRUw1LUVHN1hfMDlhOXFNRGFTTnYxeEJvN0JQZ05FNm1CajFyaExrNFpsMkl0a3RmVE1icm9NVnZkMXhLVV9xV18yUHhJckFTVFVMV3puV2tYSW1vT3h4U2JFNFhIQXdIVWZmSDExNFJhdmt0UTFCamI0?oc=5
+   https://news.google.com/rss/articles/CBMivAFBVV95cUxNRzN4MWNKcmNNLTkwUVNVS2tSY29oVm5JUm1KeGR5aVFIdjEzZElCN3kxTjBGQ2duUmJXZk1YLTRYUUpqclI2ZWRVVlN6eTExekd0MkZjdGFTd2VxV0RrU3FhS0ZqNU8zNkd6Z1YyeEl4RDRUdF9zU3lhM3pBTkZkaHlfRFRqSE9DX0g4X0l1cG5LejFkUDJ5OS0zMGMyUTRrcFcxMHNpb3ZBTWM5MDZhTnR4eU45a0NtU3kzNg?oc=5
 
-10. [WARM 40] LeanTaaS acquires computer vision firm LookDeep Health
-   M&A · Health IT Answers · 12 Nov
-   Why: An acquisition involving LeanTaaS in AI: a fresh comp for the targets SSG watches.
-   Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
-   https://www.healthitanswers.net/health-it-business-news-financial-edition-november-12-2026/
+7. [30] Imprint raises $130m as AI reshapes brand loyalty
+   Targets · FinTech Global · 12 Nov
+   Why: Imprint raised a round ($130m) in AI: a future target, priced today.
+   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
+   https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaC1lX3IzRFVzMmV0Q3hCcmJiTnRnWEhROFlNaG5nQ2lvbXdhbXlHQ0EwUXNMaEc5Umc4dXVONkV0NEx6Rk9ZYW9HLXNKU09lNTV1emdVVkpuQll3YkI4RkNJZW92c3dxMzdQakpOdVo1VXhLZnRyNXZDOWMyVWkyRzZjUVk0MU1BcXRV?oc=5
+
+8. [28] OpenAI Launches ChatGPT Wallet for Secure AI Agent Payments
+   Platforms · FinTech Magazine · 16 Nov
+   Why: ChatGPT Wallet shipped a platform move in fintech: it changes what a target in that stack is worth.
+   Call: Fold it into the tech view on every fintech target in the pipeline.
+   https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZIdi01UEZUT0RXRWJ5aTJjZDVxMW52MkJjdVprU04wcDFFX2RKTldQc1V5ZzF3cG9QRnVBR0d6NWVqX1NkUGFUYUpDOE5vTnIzbVZqRVZYQ01RMVI3RmNrWTJ0dDRRaTNBclF4Q0Nydm13a1JCSWtkWGtTM0FJQlNfR0Q4VjRVcDBRcGtPLTBn?oc=5
+
+9. [28] OpenAI Launches ChatGPT Wallet So Agents Can Pay Without Seeing Your Card Details
+   Platforms · gHacks · 15 Nov
+   Why: ChatGPT Wallet So shipped a platform move in AI: it changes what a target in that stack is worth.
+   Call: Fold it into the tech view on every AI target in the pipeline.
+   https://news.google.com/rss/articles/CBMitwFBVV95cUxNNXZlbVVKbVV0TUlDRHhEeFBRMkw2ME0tZ2VmblVuRTFmU2ZRb2ZxRklDWENjRFlJSDBMQUQ4Y1hleWNpVzVRaTVNbzdsM21wVmotWmVSSklETXltVDBHSnlua1FvSHhady1CQjRldE9Rc2Y0QzBsaWR5Zk5XYjZEZ09nZ0hhQnByb05Rd3dpWjhJb2ZIam5qRTd1YUtuNFFIcy1YazRoc0xzckRNMWJkR19UdlpnYWc?oc=5
+
+10. [28] ServiceNow stock broadens AI push with risk and CRM launches
+   Platforms · ad-hoc-news.de · 14 Nov
+   Why: CRM shipped a platform move in AI: it changes what a target in that stack is worth.
+   Call: Fold it into the tech view on every AI target in the pipeline.
+   https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZkRvNkpQM2xBcWRHTVpVc0xobFo1a09sSTNFa1FPYmRzNXprNnpPMjNvUXNSQThyZXYwRDJBZGFBS09Ca0U2eEZSSWhuT1JWUWZ4aC1fOE1kQ1cxb3VjX1hqdkZUYTZIWUNweDJDRWo5WWpTX184V0JuSUpJOVRvNzFWYlU1MWl0NlE0WVF3bmJyNjNFOWY3TXRzTDN1Y0FSUWZZZEl6bENDOFhtd2wyT05HRGd2Y2hFRVJ3QmFfakg?oc=5
 
 Full page: https://jw0ngo.github.io/ssg-newstracker/brief/

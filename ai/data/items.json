@@ -132,6 +132,18 @@
   "firstSeen": "2026-10-07T00:18:46.308Z"
  },
  {
+  "id": "017fc81170cf",
+  "theme": "targets",
+  "title": "Databento Reaches $1.1 Billion Valuation With $100 Million Series C",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nTk1BdXNGNThHVi1TLVhYYU56Y0ZUUTEtQkNreTUxb0xxTkZyWi0yTTNicGpzVHNuSlhBc0JDVmpVczVJYW5UWjlWLXc5azV2bDlPNnRiR1cyaHBQTTNjT3dySWFfMm9XWGJxcw?oc=5",
+  "date": "2026-11-12T08:00:00.000Z",
+  "summary": "",
+  "publisher": "TechBuzz News",
+  "source": "rounds",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
+ },
+ {
   "id": "01949ed4c467",
   "theme": "ma",
   "title": "Is Amazon (NASDAQ:AMZN) stock a buy after its reported 7 billion dollar talks to acquire AI startup Decart?",
@@ -1534,6 +1546,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-11-08T23:54:52.325Z"
+ },
+ {
+  "id": "0bd8dbf1baa4",
+  "theme": "platforms",
+  "title": "ServiceNow stock broadens AI push with risk and CRM launches",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZkRvNkpQM2xBcWRHTVpVc0xobFo1a09sSTNFa1FPYmRzNXprNnpPMjNvUXNSQThyZXYwRDJBZGFBS09Ca0U2eEZSSWhuT1JWUWZ4aC1fOE1kQ1cxb3VjX1hqdkZUYTZIWUNweDJDRWo5WWpTX184V0JuSUpJOVRvNzFWYlU1MWl0NlE0WVF3bmJyNjNFOWY3TXRzTDN1Y0FSUWZZZEl6bENDOFhtd2wyT05HRGd2Y2hFRVJ3QmFfakg?oc=5",
+  "date": "2026-11-14T10:33:59.000Z",
+  "summary": "",
+  "publisher": "ad-hoc-news.de",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
  },
  {
   "id": "0bde3905227d",
@@ -4020,6 +4044,18 @@
   "firstSeen": "2026-10-06T00:02:17.930Z"
  },
  {
+  "id": "2140c3826d22",
+  "theme": "listings",
+  "title": "Meritto Parent NoPaperForms Files Updated DRHP For ₹375 Cr+ IPO",
+  "url": "https://inc42.com/buzz/meritto-parent-nopaperforms-files-updated-drhp-for-₹375-cr-ipo/",
+  "date": "2026-09-04T00:00:00.000Z",
+  "summary": "Info Edge-backed NoPaperForms, maker of education CRM SaaS Meritto, filed an updated DRHP with SEBI for a Rs 375 crore fresh issue plus an OFS by Info Edge's venture arm; FY26 revenue Rs 115.6 crore.",
+  "publisher": "Inc42",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-15T22:51:37Z"
+ },
+ {
   "id": "214932067789",
   "theme": "platforms",
   "title": "Mistral releases Large 4 for cybersecurity — Channel NewsAsia",
@@ -4726,6 +4762,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-12T23:48:01.628Z"
+ },
+ {
+  "id": "25d5080a2f29",
+  "theme": "targets",
+  "title": "Quantum Error-Reduction Software Maker Q-CTRL Raises $290 Million Series C",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3TjdFVUhBb1AtTHdoMjRuOFE0NDJCanhiT1hHS3hLMHFDZUJhb2ZlNkRDUndCNWN3d1FsU1drOWxwczdjY09kRDhyVWdIeUUzRkdF?oc=5",
+  "date": "2026-11-15T11:13:23.000Z",
+  "summary": "",
+  "publisher": "Wowtale",
+  "source": "rounds",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
  },
  {
   "id": "25d93ead2414",
@@ -8316,6 +8364,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "45715ec5a673",
+  "theme": "platforms",
+  "title": "OpenAI Launches ChatGPT Wallet for Secure AI Agent Payments",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObmd5M2lWajZIdi01UEZUT0RXRWJ5aTJjZDVxMW52MkJjdVprU04wcDFFX2RKTldQc1V5ZzF3cG9QRnVBR0d6NWVqX1NkUGFUYUpDOE5vTnIzbVZqRVZYQ01RMVI3RmNrWTJ0dDRRaTNBclF4Q0Nydm13a1JCSWtkWGtTM0FJQlNfR0Q4VjRVcDBRcGtPLTBn?oc=5",
+  "date": "2026-11-15T16:39:15.000Z",
+  "summary": "",
+  "publisher": "FinTech Magazine",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
+ },
+ {
   "id": "457b61950bad",
   "theme": "platforms",
   "title": "Why Workday Acquired Agentic Identity Platform C1.AI",
@@ -8362,6 +8422,18 @@
   "source": "incumbents",
   "official": false,
   "firstSeen": "2026-10-13T23:47:46.538Z"
+ },
+ {
+  "id": "45b37fa5f996",
+  "theme": "platforms",
+  "title": "ServiceNow Launches Autonomous CRM Engine to Speed CRM deployment",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTENsSnc5T3lYSmhoaXRQWHg5RHpqcjBSQVVldFI5NVFocDFxOG03VWJ3RlhFQUh1dHBQT2tyY2YzLWNFYjFYX3pCNW9TeE1TR25WdWMtbDlJVkVRMVlPUnYyNnJRUjRLSVYwaVdKaFBpWFRMR05WY2I2THlhWnFpbTZtbUZoWUxBRVF5TEF1Nk16YzA0aW1OYjhtSldHSUxnMVllTkEtS3NwY0VDMVRZaU1nZGk5YU9QeGc?oc=5",
+  "date": "2026-11-12T18:54:46.000Z",
+  "summary": "",
+  "publisher": "CX Today",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
  },
  {
   "id": "45cf4b866e08",
@@ -9742,6 +9814,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-11-14T23:46:49Z"
+ },
+ {
+  "id": "52845c2fb6e0",
+  "theme": "platforms",
+  "title": "Anthropic’s IPO is the next big test for AI",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOelhLb2QtNy1faTdqOEwwQVNzSk5IX25mc0VOQjQzVTdPc3pZdUMyOE9EWkxVd1pJX0huTDZMMTBNR0ZLV0E2WHVkb1Vuam1vMjJ3TUptVGloS2VhWFlmYW1ITGJvVjJpNzNCdkYyQ3hTdXIzUlhaUElJN01UQzVWc2NfSjE?oc=5",
+  "date": "2026-11-15T11:40:44.000Z",
+  "summary": "",
+  "publisher": "Financial Times",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
  },
  {
   "id": "5287deab2e08",
@@ -13884,6 +13968,18 @@
   "firstSeen": "2026-10-22T23:49:28.706Z"
  },
  {
+  "id": "7752e42c49ff",
+  "theme": "targets",
+  "title": "Imprint raises $130m as AI reshapes brand loyalty",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaC1lX3IzRFVzMmV0Q3hCcmJiTnRnWEhROFlNaG5nQ2lvbXdhbXlHQ0EwUXNMaEc5Umc4dXVONkV0NEx6Rk9ZYW9HLXNKU09lNTV1emdVVkpuQll3YkI4RkNJZW92c3dxMzdQakpOdVo1VXhLZnRyNXZDOWMyVWkyRzZjUVk0MU1BcXRV?oc=5",
+  "date": "2026-11-12T14:56:02.000Z",
+  "summary": "",
+  "publisher": "FinTech Global",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
+ },
+ {
   "id": "7757bce0156f",
   "theme": "targets",
   "title": "Zenity Raises $125M Series C to Expand AI Agent Security Platform",
@@ -14854,6 +14950,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-20T23:48:00.901Z"
+ },
+ {
+  "id": "7f40109338ae",
+  "theme": "listings",
+  "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOFFaaTFOMmRsSmNwRlBQZTNqWUJhZXlDbzRYQk5TRWpoLVQ5R0trbFZySzNhQU9pa1JZRXE5Q2VhVTNBUVhxOFB2b0JiUVNLZHpWQkxsYW5EeHY5YW9jU09hNzFhbnMxMnctaVFaUTdyYnhGS1g2Z2pNU0pWdmlYUUtuR0pWR2ZnMVhMWHhjd3VweXMyd0h2X2ZRc9IBoAFBVV95cUxObFlSaHJnalF6bnZ6eDUwbTlYZGlPNjlFN2xxZ3Q1blZNREx3YTlQaWx4NEtXeHlEbmZqc0doTExsM1RXSXMzM05TaVEzTjIxd1N6OGVWYkFhZUZLaXZKZWkyLW5EaW85eHQtMk5FMUcxMmVkNmJwSHZOWWZpVUZVd1FROVJKYjBlWUxERUpxZTNYdUZ0aldWX3RIa0ZrUXR3?oc=5",
+  "date": "2026-11-15T12:00:01.000Z",
+  "summary": "",
+  "publisher": "CNBC",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
  },
  {
   "id": "7f66ddda8ef4",
@@ -18864,6 +18972,18 @@
   "firstSeen": "2026-10-21T23:48:44.166Z"
  },
  {
+  "id": "a5689e25298c",
+  "theme": "listings",
+  "title": "Amid Jensen Huang’s fall and the Anthropic IPO, Howard Marks just nailed the only question that matters for AI investors",
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRzN4MWNKcmNNLTkwUVNVS2tSY29oVm5JUm1KeGR5aVFIdjEzZElCN3kxTjBGQ2duUmJXZk1YLTRYUUpqclI2ZWRVVlN6eTExekd0MkZjdGFTd2VxV0RrU3FhS0ZqNU8zNkd6Z1YyeEl4RDRUdF9zU3lhM3pBTkZkaHlfRFRqSE9DX0g4X0l1cG5LejFkUDJ5OS0zMGMyUTRrcFcxMHNpb3ZBTWM5MDZhTnR4eU45a0NtU3kzNg?oc=5",
+  "date": "2026-11-14T22:00:00.000Z",
+  "summary": "",
+  "publisher": "AFR",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
+ },
+ {
   "id": "a589e1664d36",
   "theme": "capital",
   "title": "OneByZero raises US$20 million Series A to expand enterprise AI across Asia Pacific",
@@ -18922,6 +19042,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
+  "id": "a5e8b4274626",
+  "theme": "platforms",
+  "title": "OpenAI, Microsoft, CrowdStrike roll out rival controls for rogue AI agents",
+  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbXRocE1TMzNKRkRqZllqRlpCYmsxbHBBaGgzdFJEcEZtaFNaYWNCdEdQMGhKa0xWQTkxdlRNcUl0b0JSUHpjTnpkWl9abG9UR0dfOHpRTTZyMHF3OVZ0cUpYY3lUNWRRcEx2MGx6RW56RWpOSzNQTnA1ZDlUSXlMY09nUnhoWS1HWDctTVRtaUM4cG5FYW5RS0ZTZG41MGpBLXpSVHRB?oc=5",
+  "date": "2026-11-14T00:03:58.000Z",
+  "summary": "",
+  "publisher": "Cryptopolitan",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
  },
  {
   "id": "a5e9f1774616",
@@ -20688,6 +20820,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "b5872b40a2e7",
+  "theme": "platforms",
+  "title": "OpenAI Launches ChatGPT Wallet So Agents Can Pay Without Seeing Your Card Details",
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNXZlbVVKbVV0TUlDRHhEeFBRMkw2ME0tZ2VmblVuRTFmU2ZRb2ZxRklDWENjRFlJSDBMQUQ4Y1hleWNpVzVRaTVNbzdsM21wVmotWmVSSklETXltVDBHSnlua1FvSHhady1CQjRldE9Rc2Y0QzBsaWR5Zk5XYjZEZ09nZ0hhQnByb05Rd3dpWjhJb2ZIam5qRTd1YUtuNFFIcy1YazRoc0xzckRNMWJkR19UdlpnYWc?oc=5",
+  "date": "2026-11-15T02:36:00.000Z",
+  "summary": "",
+  "publisher": "gHacks",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
+ },
+ {
   "id": "b588cb86e462",
   "theme": "targets",
   "title": "Fal raises at $16B valuation, Crowdstrike strikes for two deals",
@@ -21490,6 +21634,18 @@
   "source": "buyouts",
   "official": false,
   "firstSeen": "2026-11-11T00:05:42.750Z"
+ },
+ {
+  "id": "be254d0077d1",
+  "theme": "listings",
+  "title": "Chinese AI chipmaker SigmaStar reportedly eyes Hong Kong listing as early as this year",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRWtsYTZJNkU3UHEwd0RFcXY2UUhfOHRCd3dwdlE2ZndiS2pkRzVoWkN4a01zSHJZenowdzZzVUVMWTNLdEI3UE9BRkJkUmpFNVpFTVNjUzhhVVdHbVlrVmRDVDRVbUpKT3BJRVYyOGw4LXBCelNKRGNqa1ZSVHlwWS1aWFNGaUFzdm1iaEpYbVRRNjhvNEU3NEpYWXQwSk03dy1PbFpLUm53UVlVOXRQaFZXM2F1QQ?oc=5",
+  "date": "2026-11-13T09:16:32.000Z",
+  "summary": "",
+  "publisher": "联合早报",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
  },
  {
   "id": "be48c23d8fad",
@@ -22870,6 +23026,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-10-14T23:46:58.861Z"
+ },
+ {
+  "id": "c97f61bc0a0b",
+  "theme": "targets",
+  "title": "Quantum software startup Q-CTRL raises $290M Series C",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSmZrb1NSTjVWRDBBQTJhZmxhdDNqV3luRWFXY0xzR1FjdUl3bk9BQmd3cno2T2lTZVNDdG80TWNhZGRVckNaZTFaSnNWWkoycVU3OXBoZlBBRHFJbjA1cHU1Z2R4Yk1kZlBSRVNBRlVPZkxBZk9lQ1FPN0JjbFlQUzQwXy14N2RQRzI0TWswOUtsMS1zdGw4V05zUjYwQQ?oc=5",
+  "date": "2026-11-12T13:27:29.000Z",
+  "summary": "",
+  "publisher": "Axios",
+  "source": "rounds",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
  },
  {
   "id": "c97fa33c2ed7",
@@ -26628,6 +26796,18 @@
   "firstSeen": "2026-10-22T23:49:28.706Z"
  },
  {
+  "id": "ec8814e6713f",
+  "theme": "listings",
+  "title": "Banks rebuff Chinese and Hong Kong orders for Anthropic's IPO over US arms-export rules, Bloomberg reports",
+  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOWJCU2h5Q1RUSzFwY3RaS2Uzel9ucElDVHEyTC10RHh5VnZPRFcxT283YTBvM0pib1ZUdWYta25qbmQ4SkxsdENSMXRYb05nbG5xb3RmNEk4T01FQXJ1Z1M5RnRqclhkVko1QkVyZFhpRmhiVnlHZ3JRbmVDbGlMWmQya2JHdVhaczVGRW9yYlcwRmNGbEd0NmZaeFZFbDZVRTR2czRCa3lHckhWSXZQUmJvZ0ZsbWQ1LWc0cEhJNGVNck0?oc=5",
+  "date": "2026-11-13T23:56:46.000Z",
+  "summary": "",
+  "publisher": "MLQ.ai",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
+ },
+ {
   "id": "ec9fcdeb175d",
   "theme": "listings",
   "title": "Nvidia Partner Lablup Ends Kosdaq Debut 25% Below IPO Price",
@@ -27466,6 +27646,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-10-21T23:48:44.166Z"
+ },
+ {
+  "id": "f38683e73d78",
+  "theme": "targets",
+  "title": "Q-CTRL Series C: $290M for AI and Quantum",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PNzNMbHNJSFFzT0cwRjlYZE9vX0pVWlI0c1MzWFJManQ3QVVDdmxLMTM0U29OUGxzZThuVzJtWF9aRXc2QTlrdG5LTmJsdTVmVFFZdmFQdm9VcktOSUFUVHdqZFczX3Q5eEFhVDNuVGI?oc=5",
+  "date": "2026-11-15T13:08:22.000Z",
+  "summary": "",
+  "publisher": "CASRAI",
+  "source": "rounds",
+  "official": false,
+  "firstSeen": "2026-11-15T23:47:28Z"
  },
  {
   "id": "f39687b89c20",
