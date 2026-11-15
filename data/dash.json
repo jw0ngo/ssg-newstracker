@@ -1,5 +1,5 @@
 {
- "at": "2026-11-14T23:37:21Z",
+ "at": "2026-11-15T23:36:40Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,10 +82,22 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 14387,
- "candidates": 276,
+ "archived": 14460,
+ "candidates": 278,
  "fromSignals": 31,
  "boltons": [
+  {
+   "n": 1,
+   "date": "2026-11-14",
+   "month": "2026-11",
+   "firm": "eqt",
+   "portco": "vistra",
+   "buyer": "Vistra",
+   "title": "Wall Street Zen Upgrades Vistra (NYSE:VST) to Buy",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdmhaTVhZRlBueFhGam1TVWw0cUY4UEJDSS11eUswR2FkWHBkWXBnSEtJeXRURUliLWQ5WDcwYTRfOHFCYXF2QTZLeXBCaUFHQjFSc2lJamdWUlhnZmhIVzhoWlVVWExTU0hMOWlhX19zZks1SVlCWlAzTXRDdVV1X2c5dVZFanhpdmRaUXljMWpKLTZWYzM1dzhlZ1BNRUR6YlBVYmpXTENHUVJTVVE?oc=5",
+   "publisher": "MarketBeat",
+   "stage": "signed"
+  },
   {
    "n": 2,
    "date": "2026-11-13",
@@ -1029,6 +1041,18 @@
    "title": "PropertyMe expands into real estate CRM with the acquisition of Phoenix Software",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZV91MnRmd1otV1RBZVpFT3BJQ1hYMVl1a0hrQm0xaWp0bGRIS0twRE83VXpWTjI4MEhyanc0NU1hTllMVDJqTWNITzAtZVdIcXZORHJUeXoxQ29WNEliZDFQZ3gzMWZNNng4SENCNl9McjVFQmVya2FFNFh4enVYWEpTRGNMa3FqQlh6aGhUV056YWFHQTZMUjJONnU0NGpST1N0QVZDMA?oc=5",
    "publisher": "Elite Agent",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2025-10-21",
+   "month": "2025-10",
+   "firm": "tpg",
+   "portco": "veeam-software",
+   "buyer": "Veeam Software",
+   "title": "Cloud data firm Veeam to buy Securiti AI for $1.73 billion",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMHRXTnIyNTRrMnBQb1RHX3BVeVNib2xCN2JhVm5Ddnl4RW9IMkxGVGhjd25HUzRyUTQ3WGtkSDItbDFPelV1NlJxRFdweUUzeTBpRllPR0wzcTJvN0VMNjFXRnpUMXBfMVZibXVrZmg0OFZuWDMtSVdqRGN5NU5SVGFOSV8yV3RwZkVYWW1Zb3R0dzFfaTRNWVNldXgwZWQ1blk4cg?oc=5",
+   "publisher": "Reuters",
    "stage": "signed"
   },
   {
