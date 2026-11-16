@@ -1,54 +1,56 @@
-# SSG Angles · week of 9 November 2026
-_Published Tue 10 Nov 2026 · the ten angles to take to PE clients this week · refreshed every Monday from the roster, the targets and the week's stories_
+# SSG Angles · week of 16 November 2026
+_Published Mon 16 Nov 2026 · the ten angles to take to PE clients this week · refreshed every Monday from the roster, the targets and the week's stories_
 
-## 1. Douzone Bizon: a cyber and data remediation programme for EQT's new Korean ERP platform
+## 1. Kakaku.com: a day-one technology plan if EQT's raised tender offer closes on 26 November
+Transform · EQT · Kakaku.com · Tokyo, Japan
+Industry: Marketplaces & Networks
+- **Why now:** EQT raised its tender offer for the Japanese internet platform to ¥3,700 a share and extended the deadline to 26 November, in a contested take-private. [BigGo Finance, 11 Nov](https://news.google.com/rss/articles/CBMidkFVX3lxTE9xZmM0NDFMQWp0cGI0QnVGSTRwMVVaU3k2bTJGV2F4aHp2VV85bU4tYzFnTlZuVUpJRDVTQ2tCN3hvM2VVcUhOeEJ5OEJTUVJ5WUNKbV9vbF9OR0JKSW1FZ1ZhdlduRkg1Nm9MalYwQzV5Q1pSZEE?oc=5)
+- **The owner's position:** a higher price leaves less room for error after closing, so the first-year technology plan has to be ready before the offer ends.
+- **The pitch to EQT:** a platform and data assessment now, turned into a 100-day plan covering architecture, AI in search and listings, and cyber.
+- **Why SSG:** Product and Tech DD that carries straight into post-deal transformation, in a market where EQT is already working on Douzone Bizon and CareNet.
+
+## 2. Douzone Bizon: a cyber and data remediation programme as the breach reaches two more agencies
 Transform · EQT · Douzone Bizon · Seoul, South Korea
-- **Why now:** two cyberattacks in five days, data-leak concerns at 10 clients and a privacy-regulator probe over undeleted client data, all in the last fortnight. [THE ELEC, 27 Oct](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tdkdKRmlVUl9vSmRTNlgzU25OSmt5RlBwR2dXWEg0LW9nQ2tmUlRWQ2JHV3hhUG9XLUF5djJEVGZ0aXpONjk2S3lLbGxKOVN0dTJmMVZDdXdrOEFpaGZ6N3hnTEFGUVE?oc=5) [THE ELEC, 2 Nov](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85bGh4anV0RlFHQjlKNFBSNndJbkZTSVh6ejZYOHc0ajQ0RDNpUXZKYkpwZG03V1FHNDBkRGx5cllPVHhjQ3Y4YzFjam9sckR6UmdQM2V3RWIwaXZWc0FwTHk5ZGRFQzQ?oc=5) [THE ELEC, 4 Nov](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TdTNfd0FlNUxYODFsQVViVENlUDNTVW1sVlBTLW1TY2ZmR01ub0pOSTVseGh4aG1wOExSajIzZDNFTURJYnJYSGZXQ2hQU3p3bHN1SFBYRzE3bERXTTRtei1rN1VkQ2s?oc=5)
+- **Why now:** the cyberattack fallout widened on 10 November, with data-leak concerns at two more agencies, on top of a privacy-regulator probe over undeleted client data. [THE ELEC, 10 Nov](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FYlMyRGpKNHhDWFFoRzBfWkZGNWtQSlJJQlJRdWpHbGZCOVlNY09kQmtKaldPcWF0WjZxeXRmdjVvWXNEOU16UlBCM2FzbXk5cVpWUDJBVFU1SFlEUzBXbE5FUVRYOUk?oc=5) [THE ELEC, 2 Nov](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85bGh4anV0RlFHQjlKNFBSNndJbkZTSVh6ejZYOHc0ajQ0RDNpUXZKYkpwZG03V1FHNDBkRGx5cllPVHhjQ3Y4YzFjam9sckR6UmdQM2V3RWIwaXZWc0FwTHk5ZGRFQzQ?oc=5) [THE ELEC, 4 Nov](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TdTNfd0FlNUxYODFsQVViVENlUDNTVW1sVlBTLW1TY2ZmR01ub0pOSTVseGh4aG1wOExSajIzZDNFTURJYnJYSGZXQ2hQU3p3bHN1SFBYRzE3bERXTTRtei1rN1VkQ2s?oc=5)
 - **The owner's problem:** EQT paid about US$930m for 37.6% and then tendered for the rest and delisted it; the security record is now the value-creation plan's first risk. [EQT, 6 Nov 25](https://eqtgroup.com/news/eqt-to-invest-usd-930-million-in-douzone-bizon-a-leading-provider-of-erp-and-software-solutions-in-south-korea-2025-11-06) [Bizwatch, 23 Feb](https://news.bizwatch.co.kr/article/market/2026/02/23/0008)
+- **What it is doing:** it won ISO/IEC 42001 certification for its ONE AI supply and operations on 11 November, so the AI story and the security record now pull in opposite directions. [Digital Today, 11 Nov](https://news.google.com/rss/articles/CBMimwFBVV95cUxPZm4xOGtxeWp3d3VBMVVtZFZsNHdodXc3NkE0bmxUXzV5eHlQdVRSMzhyNU1xLURxUTBtSW5YYlNsUjNBNW05LTVYV0ZHanhJay1jbTVvWDk2clpIa1V4aUEzd0twODZpQmxpWDBya2dCUl9ZVk92VTc1TDRmYjFlcmo4blhBbXBhdkFvbWFuTnc3WUJsVWNveHZrZw?oc=5)
 - **The pitch to EQT:** an independent cyber posture and data-governance review, then a remediation roadmap the board can show regulators and ERP customers.
 - **Why SSG:** IT and cyber diligence findings convert directly into a 100-day programme; offer the review first, the transformation office second.
 
-## 2. Iress: buy-side tech DD for a counter-bid while Blackstone and Thoma Bravo are in the data room
+## 3. Iress: buy-side tech DD for a counter-bid while Blackstone and Thoma Bravo are in the data room
 Buy-side · EQT · Iress · Melbourne, Australia
 - **Why now:** Blackstone and Thoma Bravo are in takeover talks with the ASX-listed wealth and trading software group, after a withdrawn A$10.50 approach. [Markets Group, 20 Sept](https://www.marketsgroup.org/news/blackstone-thoma-bravo-in-takeover-talks-with-australias-iress) [IFA, 18 Sept](https://www.ifa.com.au/streamlined-iress-core-earnings-rise-amid-takeover-talks/)
 - **Why EQT:** a sponsor-contested fintech software take-private in Australia is EQT's shape of deal, and it has looked at Iress before.
 - **The pitch to EQT:** a fast outside-in read of the legacy-stack question (Xplan, trading) so a counter-bid or consortium seat can be priced before exclusivity is granted.
 - **Why SSG:** the diligence is product and platform modernisation, which is what decides the price here.
 
-## 3. MoMo: vendor tech DD as Warburg Pincus sells into a contested stake sale
+## 4. MoMo: vendor tech DD as Warburg Pincus sells into a contested stake sale
 Sell-side · Warburg Pincus · MoMo · Ho Chi Minh City, Vietnam
 - **Why now:** Morgan Stanley and Jefferies are running a sale of up to 50%, with Blackstone, CVC and MUFG among the bidders. [Reuters, 3 Jul](https://www.sahmcapital.com/news/content/update-1-blackstone-cvc-and-mufg-among-bidders-for-stake-in-vietnams-momo-sources-say-2026-07-03)
 - **The owner's position:** Warburg has held since 2019 and owns about 26%, so this process is its exit. [DealStreetAsia, 18 Jan 19](https://dealstreetasia.com/?p=117956)
 - **The pitch to Warburg:** a vendor-side technology and data fact base on the super-app (payments core, lending and risk models, AI) so three bidders diligence one version of the truth.
 - **Why SSG:** a vendor report shortens confirmatory DD and protects price when financial sponsors and a bank are bidding against each other.
 
-## 4. Device Technologies: exit-readiness support while Navis weighs four sponsor offers
+## 5. Device Technologies: exit-readiness support while Navis weighs four sponsor offers
 Sell-side · Navis Capital · Device Technologies · Sydney, Australia
 - **Why now:** Navis retained Jefferies and Morgan Stanley to assess offers from Blackstone, Carlyle, CVC and EQT, reportedly seeking about $1bn. [AsiaWatch, 13 Jul](https://jerryborrell.substack.com/p/asiawatch-for-july-13th-2026)
 - **The owner's position:** held since 2018 and built through bolt-ons across ANZ and Southeast Asia, so the integration story is the equity story.
 - **The pitch to Navis:** a vendor IT and systems-integration assessment across the acquired distributors, covering ERP, data and cyber, ready for bidder Q&A.
 - **Why SSG:** the same pack is the pitch to the four bidders, one of them EQT, for buy-side IT DD.
 
-## 5. MYOB: vendor tech DD ahead of the trade sale KKR is sounding out
+## 6. MYOB: vendor tech DD ahead of the trade sale KKR is sounding out
 Sell-side · KKR · MYOB · Melbourne, Australia
 - **Why now:** KKR is said to be seeking over $2.7bn for MYOB in talks with ANZ, seven years after the take-private. [PE Insights, 14 Aug](https://pe-insights.com/kkr-is-said-to-seek-over-2-7bn-for-myob-group-in-talks-with-anz/) [Reuters, 24 Dec 18](https://www.business-standard.com/article/reuters/australia-s-myob-recommends-kkr-s-marked-down-1-billion-buyout-offer-shares-rise-118122400082_1.html)
 - **The owner's problem:** the last ANZ deal collapsed, so this one has to survive diligence on the first pass.
 - **The pitch to KKR:** a vendor tech report on cloud migration off the desktop base and the product roadmap against Xero, written for a bank buyer's risk committee.
 - **Why SSG:** Product and Tech DD on SME accounting platforms, with an IT separation view if a bank carves it in.
 
-## 6. Sleek: a Singapore digital corporate-services platform for Acclime to buy
+## 7. Sleek: a Singapore digital corporate-services platform for Acclime to buy
 Buy-side · Warburg Pincus (via Acclime) · Sleek · Singapore
 - **The target:** Sleek runs company set-up, book-keeping, regulatory reporting and banking for start-ups and SMEs on one platform; Jungle Ventures has backed it since 2021. No sale process is reported, so this is an approach, not an auction. [Jungle Ventures portfolio, 5 Nov](https://www.jungle.vc/portfolio)
 - **Why it fits Acclime:** the same services Acclime sells, delivered software-first; Acclime has kept buying since Warburg took control, with SH Malaysia in September and Polar 993 in August. [Warburg Pincus, 17 Dec 25](https://warburgpincus.com/?p=24051) [Dealroom, 10 Sept](https://news.google.com/rss/articles/CBMijwFBVV95cUxQR0xPcmFUVTdNTEpwaXp2dC1UblVxUUx6QUxTbHJ4YXgyeXU0SERYcjhGdmVud21Gc0dXZE95b3pmb0JNLVpybHQxaEtBcElJU3Q5SGNEZGVOelFqTm9JMnBkYzdtal81ZjBGaV9WTWdfMU9POFI2TklkUWdFV0t2cXNkTTgxZlpHRjNGdEVkbw?oc=5) [Dentons, 5 Aug](https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZ1c1QUxKakZ4ZDlhVnN0MHpyaHlBWFFmTTA5bDJ2cVhlYVRGYUMySkZoXzhRNzVFR2ZqZFkzckpKRmxxRW5DZ0RWUHJHWk5QLUNFNUIzdGh5WUFzMkpLOEswM2I1d1V6dzZIeUZueHRQRzhYYnY4dmt1WGg5eThmbGZQMV9tME02eC1aTWZPUW1OWGtxSTQ0RVFOYTZRcDJUYUhjXzg5ZDgzYldpbmZXWklfbGt3YUlFOFBOM2w2OW12a1NKVkI4OU1ibWYxb0d2RkxlcHFfNFpLa3V5?oc=5)
 - **The pitch to Warburg:** buy-side tech DD on Sleek's platform and how it would sit with Acclime's AI automation platform, Aura: one stack or two, and what migrating Sleek's clients costs.
 - **Why SSG:** Product and Tech DD on the target, with an integration view priced into the bid.
-
-## 7. Infomedia: post take-private platform integration as TPG funds European M&A
-Transform · TPG · Infomedia · Sydney, Australia
-- **Why now:** TPG took the automotive aftersales software group private in December and it has since bought Veact and 50% of Intellegam in Europe. [FilingReader, 3 Dec 25](https://filingreader.com/news-wire/sydney/2025-12-03/infomedia-acquisition-finalized-shares-delisted-from-asx) [AAP / Cision, 9 Jun](https://www.aap.com.au/aapreleases/cision20260609ae68904/) [Ashurst, 12 Jul](https://news.google.com/rss/articles/CBMixgFBVV95cUxPMmRSUWg2Ni1LellYcDl4dkNqNTNNOTVvTHpwcG1idG4waGFZdnJKMkUtOTVJVmN4VWM4VV9ja0RackNzVGZtVjFSenZZSm5mVUluN2NvT3JVNEUxYkJ0Qi03OEtDbENHVEJzcnRmMWNka0N3WVRGNGluQVlJcUNUZG1vRV9wbVFtVGVsNFplWHdKMmkyYzFuSUZselY3NWdnb3hXSk5hQzBuVVA0QTN6NnlzdU9OeTY0SU1tckVNNUlSeTNxVXc?oc=5)
-- **The owner's problem:** a parts, service and data product family now has to absorb two European products without slowing OEM delivery.
-- **The pitch to TPG:** a product and data-architecture integration plan with an AI roadmap for the data business, tied to the value-creation plan.
-- **Why SSG:** Carve-out and Integration with Product and Tech DD on each further add-on.
 
 ## 8. ScotPac: a tech equity story for the relaunch after Affinity's first sale attempt stalled
 Sell-side · Affinity Equity Partners · ScotPac · Sydney, Australia
