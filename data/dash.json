@@ -1,5 +1,5 @@
 {
- "at": "2026-11-15T23:36:40Z",
+ "at": "2026-11-16T23:37:26Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,32 +82,20 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 14460,
- "candidates": 278,
- "fromSignals": 31,
+ "archived": 14513,
+ "candidates": 277,
+ "fromSignals": 30,
  "boltons": [
   {
-   "n": 1,
-   "date": "2026-11-14",
-   "month": "2026-11",
-   "firm": "eqt",
-   "portco": "vistra",
-   "buyer": "Vistra",
-   "title": "Wall Street Zen Upgrades Vistra (NYSE:VST) to Buy",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdmhaTVhZRlBueFhGam1TVWw0cUY4UEJDSS11eUswR2FkWHBkWXBnSEtJeXRURUliLWQ5WDcwYTRfOHFCYXF2QTZLeXBCaUFHQjFSc2lJamdWUlhnZmhIVzhoWlVVWExTU0hMOWlhX19zZks1SVlCWlAzTXRDdVV1X2c5dVZFanhpdmRaUXljMWpKLTZWYzM1dzhlZ1BNRUR6YlBVYmpXTENHUVJTVVE?oc=5",
-   "publisher": "MarketBeat",
-   "stage": "signed"
-  },
-  {
-   "n": 2,
+   "n": 3,
    "date": "2026-11-13",
    "month": "2026-11",
    "firm": "kkr",
    "portco": "incred",
    "buyer": "InCred",
-   "title": "InCred Capital acquires Quintessentially India",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUkNwZHdtQjY5U0NEREZJX0hpd3d2ek16Z3I4cWlTZ0hmRGxGT0MtWXlxZEpESlVTTms5RXQ5UG5ZcGd3MVEwVWE0cXNGNHdRdlZpUmpJTzFEcFJCZmt6MEE5dms1ekZvT0RndzEtRWh1LWp2NnR4enE5c21LUlplR1BDMlVtVkUtcUxZenQtZUc4ZWpWZnptMDlSZHBzekZ1MkRNaGlQc2dfT2U40gGzAUFVX3lxTE40NHBoaTk0NFJ1WUxDbGhWaFc0QklNcjV5YUlaQklJMWE4dnAwUG95Nmg2U184R01GVnZjc1gxQzd0ZDJWQmR5cGJKdEQ5VzZqMk1CYy1QN0pvakdhQk10RC1hUWxmUlUzSTRWQ1RSakU1YmpGOGNQRG9WQ1NhWUxXV3RwN2FPT3ZYR2Z4NFd3cnZNeXE5dE5RRGpDeEJrbzBZVGNxZjkxZENud3RoR0dNYmd3?oc=5",
-   "publisher": "BusinessLine",
+   "title": "InCred Capital acquires Quintessentially India for uninclosed amount",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTUxkVVBJSUFyWGZQUU9yWDczdVV5dURLMmtQRkhmWVVjOEdLTkthXzVPVmZURmZoNkxheDZQTDFEa3VtZzlFZmFBc1hUQllxdzhBRk15RENnSm1RT2JfTFVBTWdQOGpwWTh6b0FBTkhhUklEekVEb0hsQjRmR1ppMUdXcmFNRHk0Z1NRVlZVaXpEWUpIN2ZyNko5a2ZDVHVyX2FKekkyZDAwUjZzb3B4YUtRVdIBuAFBVV95cUxPVXdINlIza3pMdTlSQ25ZWDRkOGlnVWhYdDl3OEF0TXNJTlF5azY4RjZmUHFMdEwyUGRiRmtnaWxxRGI4TjRLX2hlY09DREQ2dmpFa3Z2VHFibU1GTVQtM0pXU2R6VTE1RjdqTDk0U2F6NWFXd1dpNWtpYms1cENhdkJpd28xTFhLdG5sSTc1RmZ3RjF6R3ZGbjJady10UEdRX2hJamZPclFiVnkxd085RUJuM1NmNUxw?oc=5",
+   "publisher": "CNBC TV18",
    "stage": "signed"
   },
   {
@@ -148,18 +136,6 @@
   },
   {
    "n": 1,
-   "date": "2026-11-09",
-   "month": "2026-11",
-   "firm": "ta-associates",
-   "portco": "betashares",
-   "buyer": "Betashares",
-   "title": "I think these Betashares ETFs are strong buys this month",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWkN4ekE2OE5OTF9FcXZOb0llakFudHNSOVY5eTdiTGRSS2JNcW5mYWR4ZVlKRTZmVjEyMU5iNHhJSHhHMGFNWkplaW12S19GckU4V0g3TDlhLTlNVVN0bFlxQ3dWN1ZaYXVDVnhmX3JWUnZYOWJNYVBzbUI2MWJ4b0lUcXRoakNIQVJnRVF6ZkhYSWdWbDZj?oc=5",
-   "publisher": "The Motley Fool Australia",
-   "stage": "signed"
-  },
-  {
-   "n": 1,
    "date": "2026-11-07",
    "month": "2026-11",
    "firm": "eqt",
@@ -192,18 +168,6 @@
    "title": "Private equity-backed VelocityEHS buys Contractor Compliance",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNmN5dFNiRnE4N2VxOWRHai1DMldkMTQ0OGpvYjRTT2hDclo3WEJVRW1waGhwOGJrdkJZUnhobkllVHd5eTBOSU1OYW5fU1BnMlZ3Qllfa0hXYXdmQ1VRcEtjYjdQVVFrNnVyeUxKT0lDZzlMMFVNTGNGZ01iTXZ5aERrMlZNd0lONDg5RzUxOTRHY1ctZ2NtRDVqN0JYSEVkS2lEYWRKNlJlTDdkTXd6SHFrRE4wZ29wSUlra0ZUaw?oc=5",
    "publisher": "PEI Private Equity",
-   "stage": "signed"
-  },
-  {
-   "n": 1,
-   "date": "2026-11-03",
-   "month": "2026-11",
-   "firm": "macquarie-capital",
-   "portco": "brennan",
-   "buyer": "Brennan",
-   "title": "Ballard Mining Director Paul Brennan Acquires 50,000 Shares for $29,244.13",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMVN2VmczQm80ZElkSGNvZU5vZmRJWUltSjNnTnF6aXFCdk5JOXF3djl4c2tFMUxVMWJBVkxnZ01HSlZqWExab2R1WE80SEhGSzRLLVhJQ1dtSlQ2aHdFQ1dtWEVqcHlqblpoX28tc1huam9sZHhKNjhaazdiajRTQ2gzUjlJZUVCWC1zTjBDQjhvczlCZGk1alVtTm1Eb0lrc1d1TXNoSEdFenpWQ2EwUVNB?oc=5",
-   "publisher": "Kalkine",
    "stage": "signed"
   },
   {
@@ -640,7 +604,7 @@
    "stage": "signed"
   },
   {
-   "n": 3,
+   "n": 4,
    "date": "2026-06-16",
    "month": "2026-06",
    "firm": "ta-associates",
@@ -811,19 +775,6 @@
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZ05VeHBIMmR0VVBkU3JxdUVYcUpvMVhpWktHUlRDcklva0xObVZETUxtd3BOS2V1Ty1EdnZXNWhuOTd6QlhDNEJaOVlpeVh4cVB0NndSR250a2NHRUJmZWhydEJOeHBhdTlRY21SVU9scEFKcGtaWXJsdDdiU0lpS3J1U3pOVERzQXhHczJUbTQ?oc=5",
    "publisher": "Yahoo! Finance Canada",
    "stage": "signed"
-  },
-  {
-   "n": 2,
-   "date": "2026-04-15",
-   "month": "2026-04",
-   "firm": "kkr",
-   "portco": "samsung-sds",
-   "buyer": "Samsung SDS",
-   "title": "Samsung SDS shares jump 20% on KKR partnership and $820 million bond purchase",
-   "url": "https://www.cnbc.com/2026/04/15/samsung-sds-kkr-820m-ai-investment-shares-surge-convertible-bonds-expansion.html",
-   "publisher": "CNBC",
-   "stage": "signed",
-   "fromSignal": true
   },
   {
    "n": 1,
@@ -1044,7 +995,7 @@
    "stage": "signed"
   },
   {
-   "n": 1,
+   "n": 2,
    "date": "2025-10-21",
    "month": "2025-10",
    "firm": "tpg",
