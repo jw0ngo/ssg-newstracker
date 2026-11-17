@@ -254,6 +254,174 @@
   "firstSeen": "2026-11-02T10:20:03Z"
  },
  {
+  "id": "brookfield-everise",
+  "firm": "brookfield",
+  "name": "Everise",
+  "slug": "everise",
+  "industry": "software",
+  "industryLabel": "IT services / tech-enabled BPO (healthcare CX outsourcing)",
+  "hq": "Singapore / Plantation, Florida, United States",
+  "geos": [
+   "United States"
+  ],
+  "apac": true,
+  "heldSince": "2020",
+  "stake": "unknown",
+  "valuation": {
+   "amount": "US$1bn",
+   "basis": "approximate valuation at Warburg Pincus's investment, announced 3 Oct 2023",
+   "url": "https://www.prnewswire.com/apac/news-releases/warburg-pincus-to-invest-in-everise-and-partner-with-brookfield-for-the-next-phase-of-growth-301945812.html"
+  },
+  "summary": "Healthcare-focused customer-experience outsourcer with about 28,000 agents in eight markets and an AI unit, EverAI Labs. Brookfield bought control from Everstone in 2020; Warburg Pincus joined in 2023 at about US$1bn as Everstone exited. A June 2025 company release still describes it as backed by Brookfield and Warburg Pincus.",
+  "signals": [
+   {
+    "date": "2026-04-23",
+    "publisher": "AAP (PR Newswire)",
+    "title": "Everise Named Leader in Everest Group's Healthcare Customer Experience Management PEAK Matrix 2026",
+    "url": "https://www.aap.com.au/aapreleases/cision20260423ae42092/"
+   },
+   {
+    "date": "2025-06-02",
+    "publisher": "AAP (PR Newswire)",
+    "title": "Everise Launches Strategic Partnership with Krisp, Driving AI-Powered CX Across Global Workforce",
+    "url": "https://www.aap.com.au/aapreleases/cision20250602ae00619"
+   },
+   {
+    "date": "2024-09-24",
+    "publisher": "AAP (PR Newswire)",
+    "title": "Everise Signs Agreement to Acquire Continuum Global Solutions' Healthcare Vertical",
+    "url": "https://www.aap.com.au/aapreleases/cision20240924ae14312"
+   },
+   {
+    "date": "2023-12-21",
+    "publisher": "GlobeNewswire via FinancialContent",
+    "title": "Brookfield and Everise Announce the Successful Closure of Investment by Warburg Pincus for the Next Phase of Growth",
+    "url": "https://markets.financialcontent.com/inyoregister/article/gnwcq-2023-12-21-brookfield-and-everise-announce-the-successful-closure-of-investment-by-warburg-pincus-for-the-next-phase-of-growth"
+   },
+   {
+    "date": "2023-10-03",
+    "publisher": "PR Newswire",
+    "title": "Warburg Pincus to Invest in Everise and Partner with Brookfield For the Next Phase of Growth",
+    "url": "https://www.prnewswire.com/apac/news-releases/warburg-pincus-to-invest-in-everise-and-partner-with-brookfield-for-the-next-phase-of-growth-301945812.html"
+   }
+  ],
+  "exit": {
+   "note": "No live process found; a 2023 sale exploration ended with Warburg Pincus's investment (PR Newswire, 3 Oct 2023)",
+   "status": "none"
+  },
+  "firstSeen": "2026-11-17T01:24:19Z"
+ },
+ {
+  "id": "brookfield-indostar-capital-finance",
+  "firm": "brookfield",
+  "name": "IndoStar Capital Finance",
+  "slug": "indostar-capital-finance",
+  "industry": "fintech",
+  "industryLabel": "listed non-bank lender (vehicle finance, micro-LAP)",
+  "hq": "Mumbai, India",
+  "geos": [
+   "India"
+  ],
+  "apac": true,
+  "heldSince": "2020-01",
+  "stake": "majority",
+  "valuation": {
+   "amount": null,
+   "basis": "undisclosed here; NSE/BSE-listed, market value not sourced. Brookfield agreed Rs 1,450 crore for about 40% in Jan 2020; stake expected at about 56.2% after the Feb 2024 warrant issue",
+   "url": "https://www.indiainfoline.com/news/companies/brookfield-asset-and-another-investor-to-inject-rs-457-crore-into-indostar-capital-as-promoters"
+  },
+  "summary": "Mumbai-listed non-bank lender focused on used commercial-vehicle finance and micro loans against property, with AUM of Rs 8,459 crore at Sept 2026. Brookfield Business Partners agreed in Jan 2020 to invest Rs 1,450 crore for about 40%, became co-promoter with Everstone, and its vehicle BCP V Multiple Holdings filed as promoter in Apr 2026.",
+  "signals": [
+   {
+    "date": "2026-10-30",
+    "publisher": "UNI India (PR Newswire)",
+    "title": "IndoStar Capital Finance Limited Q2 FY27 Disbursements ₹1,399 crore, up 51% vis-à-vis Q2 FY26",
+    "url": "https://www.uniindia.com/prnewswire/indostar-capital-finance-limited-q2-fy27-disbursements-1399-crore-up-51-vis-vis-q2-fy26-302924731/230250"
+   },
+   {
+    "date": "2026-04-06",
+    "publisher": "NSE (corporate filing)",
+    "title": "Promoter disclosure for FY2025-26 by BCP V Multiple Holdings Pte. Ltd., promoter of IndoStar Capital Finance",
+    "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_06042026125704_37.pdf"
+   },
+   {
+    "date": "2024-02-28",
+    "publisher": "IIFL",
+    "title": "Brookfield Asset and another investor to inject Rs 457 crore into IndoStar Capital as promoters",
+    "url": "https://www.indiainfoline.com/news/companies/brookfield-asset-and-another-investor-to-inject-rs-457-crore-into-indostar-capital-as-promoters"
+   },
+   {
+    "date": "2020-01-31",
+    "publisher": "Business Standard (PTI)",
+    "title": "Brookfield to pick up 40 pc stake in IndoStar Capital for Rs 1,450 cr",
+    "url": "https://www.business-standard.com/article/pti-stories/brookfield-to-pick-up-40-pc-stake-in-indostar-capital-for-rs-1-450-cr-120013101919_1.html"
+   }
+  ],
+  "exit": {
+   "note": "Already listed on NSE/BSE when Brookfield invested; Brookfield still a promoter per the Apr 2026 NSE filing; no sale process found",
+   "status": "listed"
+  },
+  "firstSeen": "2026-11-17T01:24:19Z"
+ },
+ {
+  "id": "brookfield-la-trobe-financial",
+  "firm": "brookfield",
+  "name": "La Trobe Financial",
+  "slug": "la-trobe-financial",
+  "industry": "fintech",
+  "industryLabel": "non-bank lender / private-credit asset manager",
+  "hq": "Melbourne, Australia",
+  "geos": [
+   "Australia"
+  ],
+  "apac": true,
+  "heldSince": "2022-03",
+  "stake": "majority",
+  "valuation": {
+   "amount": "US$2.1bn",
+   "basis": "valuation implied by the Axight minority-stake sale announced 17 Apr 2026 (reported as about A$3bn by Australian outlets)",
+   "url": "https://www.bloomberg.com/news/articles/2026-04-17/abu-dhabi-s-axight-adds-to-gulf-m-a-wave-with-brookfield-deal"
+  },
+  "summary": "Australian non-bank lender and alternative asset manager with about A$27bn under management. Brookfield's private-equity arm bought it from Blackstone in 2022 and remains majority owner after selling minority stakes to Abu Dhabi's Axight (Apr 2026, at about US$2.1bn) and to OMERS (Oct 2026, indirect, reported near 20%).",
+  "signals": [
+   {
+    "date": "2026-10-27",
+    "publisher": "Alternative Credit Investor",
+    "title": "Canadian pension fund acquires minority interest in Australia's La Trobe Financial",
+    "url": "https://alternativecreditinvestor.com/2026/10/27/canadian-pension-fund-acquires-minority-interest-in-australias-la-trobe-financial/"
+   },
+   {
+    "date": "2026-04-17",
+    "publisher": "Bloomberg",
+    "title": "Abu Dhabi's Axight Adds to Gulf M&A Wave With Brookfield Deal",
+    "url": "https://www.bloomberg.com/news/articles/2026-04-17/abu-dhabi-s-axight-adds-to-gulf-m-a-wave-with-brookfield-deal"
+   },
+   {
+    "date": "2026-04-17",
+    "publisher": "Alternative Credit Investor",
+    "title": "Axight buys minority stake in La Trobe Financial",
+    "url": "https://alternativecreditinvestor.com/2026/04/17/axight-buys-minority-stake-in-la-trobe-financial/"
+   },
+   {
+    "date": "2025-06-23",
+    "publisher": "Bloomberg",
+    "title": "Private Equity Firms Pursue Asian Loans to Fund Investor Payouts",
+    "url": "https://www.bloomberg.com/news/articles/2025-06-23/private-equity-firms-pursue-asian-loans-to-fund-investor-payouts"
+   },
+   {
+    "date": "2022-03-18",
+    "publisher": "Bloomberg",
+    "title": "Brookfield Buys Australia's La Trobe Financial From Blackstone",
+    "url": "https://www.bloomberg.com/news/articles/2022-03-18/brookfield-buys-australia-s-la-trobe-financial-from-blackstone"
+   }
+  ],
+  "exit": {
+   "note": "Minority stake sold to Axight (Bloomberg, 17 Apr 2026) and an indirect minority interest to OMERS (Alternative Credit Investor, 27 Oct 2026; close expected Q1 2027); Brookfield stays majority owner",
+   "status": "partial"
+  },
+  "firstSeen": "2026-11-17T01:24:19Z"
+ },
+ {
   "id": "eqt-acuon-group",
   "firm": "eqt",
   "name": "Acuon Group",
