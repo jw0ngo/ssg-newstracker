@@ -1,5 +1,5 @@
 {
- "at": "2026-11-16T23:37:26Z",
+ "at": "2026-11-17T23:37:00Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,12 +82,12 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 14513,
- "candidates": 277,
- "fromSignals": 30,
+ "archived": 14599,
+ "candidates": 279,
+ "fromSignals": 31,
  "boltons": [
   {
-   "n": 3,
+   "n": 4,
    "date": "2026-11-13",
    "month": "2026-11",
    "firm": "kkr",
@@ -1241,6 +1241,18 @@
   },
   {
    "n": 1,
+   "date": "2025-03-26",
+   "month": "2025-03",
+   "firm": "warburg-pincus",
+   "portco": "perfios",
+   "buyer": "Perfios",
+   "title": "India’s Perfios acquires fraud detection platform Clari5 for undisclosed sum",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNb0Z1Slc3UVZmSE84YjhFSHdaOU5ydW1XeDE1ZnRGSjM5MGdsU3hPOXVNWmR3M3hZWjRHdEJrVGlrbXoyU1FHSXBCSEg1SVZyLXFRN25mUnFwNWE1eUJBWlJzNnJYRmRiajRVVHN2MFRnUkYxcVdSS0x5RTRnZzE1MUc4ajJRYVliYjNIbVM1SUlrVTZNbzhlX21rQXcteXVJZnhkQWhJYW1TTWMyLTl0SQ?oc=5",
+   "publisher": "FinTech Futures",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
    "date": "2025-03-20",
    "month": "2025-03",
    "firm": "warburg-pincus",
@@ -1459,6 +1471,19 @@
    "title": "Everise Signs Agreement to Acquire Continuum Global Solutions' Healthcare Vertical",
    "url": "https://www.aap.com.au/aapreleases/cision20240924ae14312",
    "publisher": "AAP / Cision",
+   "stage": "signed",
+   "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2024-09-24",
+   "month": "2024-09",
+   "firm": "brookfield",
+   "portco": "everise",
+   "buyer": "Everise",
+   "title": "Everise Signs Agreement to Acquire Continuum Global Solutions' Healthcare Vertical",
+   "url": "https://www.aap.com.au/aapreleases/cision20240924ae14312",
+   "publisher": "AAP (PR Newswire)",
    "stage": "signed",
    "fromSignal": true
   },
