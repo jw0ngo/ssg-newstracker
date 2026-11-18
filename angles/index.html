@@ -505,6 +505,11 @@ tr.tdiv td span { display: block; font-family: var(--mono); font-size: 9.5px; le
 .chip[data-s="buy-side"].on { border-color: var(--buy); color: var(--buy); background: var(--buy-soft); }
 .chip[data-s="sell-side"].on { border-color: var(--sell); color: var(--sell); background: var(--sell-soft); }
 .chip[data-s="transform"].on { border-color: var(--tf); color: var(--tf); background: var(--tf-soft); }
+.sets { display: flex; gap: 6px; flex-wrap: wrap; margin: 2px 0 2px; }
+.set { cursor: pointer; font-family: var(--display); font-weight: 700; font-size: 14px; letter-spacing: .01em; padding: 7px 13px; border-radius: 10px; border: 1px solid var(--rule); background: var(--surface); color: var(--muted); }
+.set .ct { font-family: var(--mono); font-weight: 400; font-size: 11px; color: var(--faint); margin-left: 6px; }
+.set.on { background: var(--fg); color: var(--bg); border-color: var(--fg); } .set.on .ct { color: inherit; opacity: .7; }
+.setnote { margin: 0; font-size: 13px; color: var(--muted); }
 .key { margin: 12px 0 0; padding: 0; list-style: none; display: grid; gap: 4px; font-size: 12.5px; color: var(--muted); line-height: 1.4; }
 .key b { font-family: var(--display); font-weight: 700; font-size: 13px; letter-spacing: .02em; margin-right: 6px; }
 .key .s-buy-side b { color: var(--buy); } .key .s-sell-side b { color: var(--sell); } .key .s-transform b { color: var(--tf); }
@@ -540,6 +545,8 @@ tr.tdiv td span { display: block; font-family: var(--mono); font-size: 9.5px; le
     </div>
     <div class="bar"><span class="stamp" id="stamp">loading</span></div>
     <p class="blurb">The ten angles SSG can take to its PE clients this week: which client, which company, and the story to walk in with. Refreshed every Monday from the Exit Readiness roster, the live targets and the week's deal news.</p>
+    <div class="sets" id="sets" role="group" aria-label="Which angles"></div>
+    <p class="setnote" id="setnote" hidden></p>
     <div class="chips" id="chips" role="group" aria-label="Filter by service"></div>
   </div>
   <div class="angles" id="angles"><div class="empty"><b>Loading this week's angles.</b></div></div>
@@ -552,8 +559,9 @@ const NAV = {"here":"angles","impact":"../impact/","brief":"../brief/","pe":"../
 const NAV_ITEMS = [["impact","AI Impact"],["brief","Morning Brief"],["pe","Exit Readiness<span class=\"nl\"> Tracker</span>"],["angles","SSG Angles"],["ai","AI &amp; Tech"]];
 const DATA = { angles: 'data/' };
 const SERVICES = {"buy-side":{"label":"Buy-side","what":"A named PE- or VC-owned company for a PE client to acquire, for its own thesis or as an add-on for one of its portfolio companies","work":"Buy-side tech due diligence"},"sell-side":{"label":"Sell-side","what":"A PE-owned company reaching exit readiness","work":"Vendor tech due diligence and exit readiness"},"transform":{"label":"Transform","what":"A newly acquired company that may need technology implementation or transformation work","work":"Post-deal technology transformation"}};
+const THEMES = {"payments":{"label":"Fintech, remittance & stablecoin","what":"Cross-border payments, remittance and FX platforms, wallets and stablecoin rails"},"corpserv":{"label":"Corporate services","what":"Company secretarial, fund administration, trustee, accounting and payroll outsourcing platforms"}};
 const INDUSTRIES = {"fintech":"Fintech","data":"Data & Info Services","ai":"AI Defensible Applications","internet":"Marketplaces & Networks","saas":"SME & Vertical SaaS","healthit":"Health IT & Services","hrtech":"HR Tech","itservices":"IT Services & Outsourcing"};
-const FIRM_NAMES = {"warburg-pincus":"Warburg Pincus","kkr":"KKR","tpg":"TPG","eqt":"EQT","navis":"Navis Capital","ta-associates":"TA Associates","macquarie-capital":"Macquarie Capital","affinity-partners":"Affinity Partners","affinity-equity":"Affinity Equity Partners","partners-group":"Partners Group","sequoia":"Sequoia Capital","peak-xv":"Peak XV Partners","jungle-ventures":"Jungle Ventures","openspace":"Openspace Ventures","golden-gate-ventures":"Golden Gate Ventures","wavemaker":"Wavemaker Partners"};
+const FIRM_NAMES = {"warburg-pincus":"Warburg Pincus","kkr":"KKR","tpg":"TPG","eqt":"EQT","navis":"Navis Capital","ta-associates":"TA Associates","macquarie-capital":"Macquarie Capital","affinity-partners":"Affinity Partners","affinity-equity":"Affinity Equity Partners","partners-group":"Partners Group","brookfield":"Brookfield","sequoia":"Sequoia Capital","peak-xv":"Peak XV Partners","jungle-ventures":"Jungle Ventures","openspace":"Openspace Ventures","golden-gate-ventures":"Golden Gate Ventures","wavemaker":"Wavemaker Partners"};
 document.getElementById('nav').innerHTML = NAV_ITEMS
   .map(([k, l]) => `<a href="${String(NAV[k]).replace(/"/g, '&quot;')}"${NAV.here === k ? ' class="on"' : ''}>${l}</a>`).join('');
 const $ = (id) => document.getElementById(id);
@@ -562,6 +570,8 @@ const inline = (s) => esc(s)
   .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_, t, u) => `<a href="${u}" target="_blank" rel="noopener noreferrer">${t}</a>`)
   .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
   .replace(/(^|[\s(])_([^_]+)_(?=[\s.,;:)]|$)/g, '$1<em>$2</em>');
+// The week's ten, and a set of five per theme (THEMES): each its own file, loaded once.
+const SETS = { top: null }; let SET = 'top';
 let DOC = null, FILTER = 'all';
 const card = (a) => {
   const s = SERVICES[a.service] || { label: a.service };
@@ -572,19 +582,30 @@ const card = (a) => {
     <ul>${a.bullets.map((b) => `<li>${inline(b)}</li>`).join('')}</ul>
   </article>`;
 };
+function renderSets() {
+  const rows = [['top', 'This week\'s ten', SETS.top], ...Object.keys(THEMES).filter((k) => SETS[k]).map((k) => [k, THEMES[k].label, SETS[k]])];
+  $('sets').hidden = rows.length < 2;
+  $('sets').innerHTML = rows.map(([k, l, d]) => `<button type="button" class="set${SET === k ? ' on' : ''}" data-set="${k}" aria-pressed="${SET === k}">${esc(l)}<span class="ct">${d.angles.length}</span></button>`).join('');
+  const t = THEMES[SET]; $('setnote').hidden = !t;
+  if (t) $('setnote').textContent = `${t.what}. Five angles, ranked by how soon the client has to decide; refreshed ${new Date(DOC.at).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })}.`;
+}
 function render() {
+  renderSets();
   const rows = DOC.angles.filter((a) => FILTER === 'all' || a.service === FILTER);
-  $('angles').innerHTML = rows.length ? rows.map(card).join('') : `<div class="empty"><b>No ${esc((SERVICES[FILTER] || {}).label || '')} angle in this week's ten.</b></div>`;
+  $('angles').innerHTML = rows.length ? rows.map(card).join('') : `<div class="empty"><b>No ${esc((SERVICES[FILTER] || {}).label || '')} angle in this set.</b></div>`;
   $('chips').innerHTML = [['all', 'All', DOC.angles.length], ...Object.keys(SERVICES).map((k) => [k, SERVICES[k].label, DOC.angles.filter((a) => a.service === k).length])]
     .map(([k, l, n]) => `<button type="button" class="chip${FILTER === k ? ' on' : ''}" data-s="${k}" aria-pressed="${FILTER === k}">${esc(l)}<span class="ct">${n}</span></button>`).join('');
 }
+$('sets').addEventListener('click', (e) => { const b = e.target.closest('.set'); if (!b || !SETS[b.dataset.set]) return; SET = b.dataset.set; DOC = SETS[SET]; FILTER = 'all'; render(); });
 $('chips').addEventListener('click', (e) => { const b = e.target.closest('.chip'); if (!b || !DOC) return; FILTER = b.dataset.s; render(); });
 $('key').innerHTML = Object.keys(SERVICES).map((k) => `<li class="s-${k}"><b>${esc(SERVICES[k].label)}</b>${esc(SERVICES[k].what)}.</li>`).join('');
 (async () => {
   const bust = `?t=${Math.floor(Date.now() / 600000)}`;
   let d = null; try { const r = await fetch(`${DATA.angles}angles.json${bust}`); d = r.ok ? await r.json() : null; } catch { d = null; }
   if (!d || !Array.isArray(d.angles) || !d.angles.length) { $('angles').innerHTML = '<div class="empty"><b>This week\'s angles could not be loaded.</b><br>Reload to try again.</div>'; $('stamp').textContent = 'no angles yet'; return; }
-  DOC = d;
+  SETS.top = d; DOC = d;
+  // A theme whose file is missing or malformed is simply not offered.
+  await Promise.all(Object.keys(THEMES).map(async (k) => { try { const r = await fetch(`${DATA.angles}angles-${k}.json${bust}`); const t = r.ok ? await r.json() : null; if (t && Array.isArray(t.angles) && t.angles.length) SETS[k] = t; } catch { /* not offered */ } }));
   $('stamp').textContent = `${d.title.replace(/^SSG Angles\s*·\s*/i, '')} · published ${new Date(d.at).toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' })} · next Monday`;
   render();
 })();
