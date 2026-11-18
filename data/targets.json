@@ -627,12 +627,18 @@
   "hq": "Sydney",
   "listed": "ASX: NXL",
   "apac": true,
-  "live": false,
+  "live": true,
   "ownership": "listed",
   "owner": "ASX-listed",
   "why": "Investigation and e-discovery software with a defensible data moat, mid-migration to the Neo platform and buying French graph-AI firm Linkurious for $35m. Sub-A$1bn, scarred by its 2021 IPO, and the kind of vertical AI application a sponsor can take private and re-platform.",
   "move": "The DD is the Neo migration itself: how much of the installed base has moved, and whether the AI layer is product or marketing.",
   "signals": [
+   {
+    "date": "2026-11-18",
+    "publisher": "Rask Media",
+    "title": "Nuix (ASX:NXL) share price soars 49% on $2.75 per share takeover offer",
+    "url": "https://www.raskmedia.com.au/2026/11/18/nuix-asxnxl-share-price-soars-49-on-2-75-per-share-takeover-offer/"
+   },
    {
     "date": "2026-02-23",
     "publisher": "Investing.com",

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-17T23:37:00Z",
+ "at": "2026-11-18T23:37:55Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,10 +82,46 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 14599,
- "candidates": 279,
+ "archived": 14769,
+ "candidates": 283,
  "fromSignals": 31,
  "boltons": [
+  {
+   "n": 1,
+   "date": "2026-11-17",
+   "month": "2026-11",
+   "firm": "eqt",
+   "portco": "vistra",
+   "buyer": "Vistra",
+   "title": "Only 11% of the Power Plants Vistra Just Bought Are in Texas. Here's Why That Matters After the Election.",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOVFsMDZpM2VmLUJGNFFTNWw0TnV4aGhnOW1Ha1loaFBwakR5ckdMRWZUVHphQlAxci1iMnhUV25sdFNwUmlUTjAwZzlqeWFtZHdNbVBDWHEyUTJ6eDRST1N0Z1IzeFNWMXR5cjc3ZksyZUhKS3RfaVJPUHlqblZDTjlFY3M0RkV5QmR5WFkweDAyWjg5Y0dwNg?oc=5",
+   "publisher": "The Motley Fool",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-11-16",
+   "month": "2026-11",
+   "firm": "tpg",
+   "portco": "fractal-analytics",
+   "buyer": "Fractal Analytics",
+   "title": "Fractal To Spend Up To ₹1,000 Cr To Acquire AI Startups",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRXczWU5YaFdqbEEyMXd5ZHFCRHZ2R0FTVGFjdVhSMXQ4N2syMnRqNU5yME5PbndCdERDRnIzVlo5d0Mwang0UVNfRHFGYjRoeGVtZnZMdzIwQVBjaFJaNjhQM1BINEw0d1BNcHhFZUx4ZkE5Y0RjR1hzQTlXRmRaY0UzUG5PSnFfWW5DWnNOdw?oc=5",
+   "publisher": "Inc42",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-11-16",
+   "month": "2026-11",
+   "firm": "ta-associates",
+   "portco": "fractal-analytics",
+   "buyer": "Fractal Analytics",
+   "title": "Fractal To Spend Up To ₹1,000 Cr To Acquire AI Startups",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRXczWU5YaFdqbEEyMXd5ZHFCRHZ2R0FTVGFjdVhSMXQ4N2syMnRqNU5yME5PbndCdERDRnIzVlo5d0Mwang0UVNfRHFGYjRoeGVtZnZMdzIwQVBjaFJaNjhQM1BINEw0d1BNcHhFZUx4ZkE5Y0RjR1hzQTlXRmRaY0UzUG5PSnFfWW5DWnNOdw?oc=5",
+   "publisher": "Inc42",
+   "stage": "signed"
+  },
   {
    "n": 4,
    "date": "2026-11-13",
@@ -132,6 +168,18 @@
    "title": "IFS Coatings acquires 100,000 sq. ft. facility in Indiana",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQXJjS2thSlI5czFTQVgtWFBIWHBpYzRzUG16Q1pJOEVGb0hSTXkyYmszejV3d01Sakl0cS1GZDI4c1BxcGc3Y3BLLXVNMEdoM2VLNEZsaWUyS3dMOFlsLTJINGdhWTVsRU1xblNoTkctQ3AxWENkd0tKV2p2T1dvRzJmNkdHVVJPZ3RycFFvMXRJZ0ZPNkFYRlhwQmhvSkdTNDJvdDIxb3d2TTFQNlRKakRnbVY1MW5L?oc=5",
    "publisher": "Woodworking Network",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-11-07",
+   "month": "2026-11",
+   "firm": "brookfield",
+   "portco": "everise",
+   "buyer": "Everise",
+   "title": "PE-backed Everise to acquire Continuum Global Solutions' healthcare vertical from Skyview",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaW9KV1l0NlFTTkNPM1pjUlFIV3pLd19VWU9zWUxSVnVIRGlkOXV3V3pCVEpLSEJfOTNLZUt1bVZrQUE3LTVwZHh5RmhIU05mWHhRUFotXzh6TFhnN0ZnbmF5QUpXQnAxVzBpNGUzcjM5SlJYRk5XN1JpRG16cHhvSTYtaVptSzhjakNJS2RwVGFaOFV6dTJNS2MwcGVranZhempZWTJnMlJvZDlMRHI2UTNaaFN4UnBLWC1LREpYNVIwSllpUFVyMnRxaUk?oc=5",
+   "publisher": "PEI Private Equity",
    "stage": "signed"
   },
   {
