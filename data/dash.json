@@ -1,5 +1,5 @@
 {
- "at": "2026-11-18T23:37:55Z",
+ "at": "2026-11-19T23:37:19Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,8 +82,8 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 14769,
- "candidates": 283,
+ "archived": 14908,
+ "candidates": 285,
  "fromSignals": 31,
  "boltons": [
   {
@@ -885,7 +885,7 @@
    "stage": "signed"
   },
   {
-   "n": 13,
+   "n": 14,
    "date": "2026-02-25",
    "month": "2026-02",
    "firm": "ta-associates",
@@ -1644,6 +1644,18 @@
    "publisher": "Virtuos newsroom",
    "stage": "signed",
    "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2024-02-21",
+   "month": "2024-02",
+   "firm": "tpg",
+   "portco": "delinea",
+   "buyer": "Delinea",
+   "title": "Delinea to Acquire Fastpath to Revolutionize Privileged Access and Identity Governance",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORGtkenRjNFotRFp6Y29odlRQN200X1oxblZVaVMtdTZWN282ZUNzN3Jmamp3eUhWbHdVajJCc3JPSS1FNVQ0bHBnX1hlS0h0dW14bEZHWEh4NFZQT3I3RUZHaTVDRXdCSGFsOHFTRG9PRkpEWkw3UTM4dWdpTHFoLUNaR2NsU2dFdG1xYWR2OUpaemxrY2JGdXVmaGhadFBYMl9keXdWNHFYYzlFU1d2QVZTOUlfTmFlc3BROGNYU2FUY2dMc3dtZGVhQjVPV19nZERTSXI5cGFsQQ?oc=5",
+   "publisher": "PR Newswire",
+   "stage": "signed"
   },
   {
    "n": 1,

@@ -386,6 +386,18 @@
   "firstSeen": "2026-11-06T23:38:26.940Z"
  },
  {
+  "id": "024510d99d7e",
+  "firm": "kkr",
+  "title": "KKR Invests in India Renewables Business Run by Petronas-Backed Gentari",
+  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVEZrVk5pRTZPRXM5NnlpeWdFZjhVSC1mbUVFNUJacUZvYW5jeFVvcVdlY044VVp0ak04dlhxTWlRZzQ4ZTJsTmgxdEFfLWV0OHRwS0syMENfZkxNVGFhWVpZeWd3NHNBckl4V1U3dVlHZ01WcXdiVWt4TzFOOXozSGRMVzlOYVY4Q1E3Nm1acHN0VVMyVDBhdkJDZlVZd2xLSkt5VzJNc1loRk5PWnE1NXBPSkctS09Va244?oc=5",
+  "date": "2026-11-19T14:51:00.000Z",
+  "summary": "",
+  "publisher": "WSJ",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "024c746b9d0d",
   "firm": "peak-xv",
   "title": "India must spend $100 bn on R&D: Peak XV Partners MD Rajan Anandan",
@@ -928,6 +940,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-11-05T23:37:14Z"
+ },
+ {
+  "id": "066af6df7164",
+  "firm": "kkr",
+  "title": "Brookfield and KKR negotiate controlling stake in retailer Eyewa – report",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNVBnUXhJRjhEMXVveFBoZ281Mll5dHdtTGNyZU1hVldqTjhjWTlDbk50ZkFIVEp0TGN2QnBwLUJzeXhNSl9kRXYtVTRvOHpqcjFldk1wYjhmSmR4WC1ISndHQjRtTVlBYlhoNEdSOGkzcDVpbWR4NURRanZEaHFLM1RubEQyLWMtNHpjYno2YVI1dw?oc=5",
+  "date": "2026-11-16T09:09:10.000Z",
+  "summary": "",
+  "publisher": "Yahoo Finance",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "069275dc4432",
@@ -1762,6 +1786,18 @@
   "firstSeen": "2026-10-15T23:37:51.023Z"
  },
  {
+  "id": "0a9b826fd570",
+  "firm": "kkr",
+  "title": "KKR takes minority stake in PETRONAS’ India renewable energy venture",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xSnVWYjJteUJ3TU05SmNOWGFsMVEyOWg1QW5aSTRyQ0wwbmVfTDZ5LVNwV0FPd0NyQVVneDRRelZuNFV5SUloek9JM24ySXIx?oc=5",
+  "date": "2026-11-19T22:21:01.000Z",
+  "summary": "",
+  "publisher": "The Edge Malaysia",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "0aa00ce1c193",
   "firm": "kkr",
   "title": "KKR reaffirms strong interest in Luzon Economic Corridor",
@@ -1906,6 +1942,18 @@
   "firstSeen": "2026-10-19T23:37:45.875Z"
  },
  {
+  "id": "0b7739a038b7",
+  "firm": "tpg",
+  "title": "Bill Holdings jumps after report TPG nearing a takeover",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV3VteDFCSW5VTWc2RTlHWEUyX1QwZ1dQNmpXckNkTm0yS05KdjVjMlppMnBkaDF5Sjl5eDJUZHNpNGhiZ2hxQW83VzkxV1BVeFlMbUJ0SXVrRnEzNWtvMEJSRTFLMlhJOU1WUHpWdnN2aXhpOTdlUW5YZFBYYm5nNjlzdmNZZVZmS3dacDJQR2d3b0JqZmI1aTF5WVhWekpyaEtOMEg4Y2Z4WWoxa0JVNUVJclpCd3htWWc?oc=5",
+  "date": "2026-11-17T16:43:52.000Z",
+  "summary": "",
+  "publisher": "TradingView",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "0b8a175d0199",
   "firm": "tpg",
   "title": "AIIB commits $100m to TPG Rise Climate's emerging markets fund",
@@ -1964,6 +2012,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-05T23:37:14Z"
+ },
+ {
+  "id": "0be7970ba13a",
+  "firm": "eqt",
+  "title": "EQT Agrees to Acquire Pickles; Deal Terms Undisclosed",
+  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVEhPbXNkUjJ5Y3drNDZoRkZvSkI4dkFGMl9xeWtJQVR4X3BoZkRSM01OdlhwNTNiNXZhY1QxNzd0ajJ2Q25SWlZ1ek5hejJTbWtVUXdCQWFhTmd1c3NTY0RJQnVScndvb3d2eTlOaXlBb2hJZG5DM05xTXN2b1hiVDQ2Wm53SzdiSDJNRlBIV1NqQzNWblhkTExDd0RDc0QyT0V2YW1la3ptVVJHSFlGUmRlS0s?oc=5",
+  "date": "2026-11-19T22:56:00.000Z",
+  "summary": "",
+  "publisher": "TradingView",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "0bed7b8b05e1",
@@ -2266,6 +2326,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-11-10T23:39:37.245Z"
+ },
+ {
+  "id": "0dd467f7623d",
+  "firm": "kkr",
+  "title": "KKR joins Carlyle in $475m Litmus Music investment",
+  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZVdoS3Z1VF9CMGkwRkViUlNkYmp6MEZUQUIyYTRnd2hqdkI2SDdYRTJVRGpoSEsyWGJJeEUxVEpFOTdqUWxJWU1iaGRPTm5fZTdsbGhnd0lPaGRLbGJZRENFT3plUFJuMm9HMlliWXgxRi05aTk3ZnQtcmkxck5zTkdBeFZYV1R6dlBpZg?oc=5",
+  "date": "2026-11-19T09:44:08.000Z",
+  "summary": "",
+  "publisher": "Private Equity Wire",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "0ddd3e971b0f",
@@ -2592,6 +2664,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-10T22:53:17Z"
+ },
+ {
+  "id": "0fcac20f7922",
+  "firm": "eqt",
+  "title": "Blackstone and EQT to acquire Spanish waste business Urbaser for €5.6bn",
+  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZTFSdHVsVzMwdHE3UlNuMW93NDR2UmNEU1lYRHhORFltcFhGcFVKeDNmVzczQzc4T2hQc0hrZDlONm1SR1h4cl9sZ250LXluaWN1V2FjTXVUM01ybm1qM2xmS212RmlJNzI3YW4wSGRocU5iOTNHVjhielM2ZGJkVUNxdV9rUGRSWkZCdFNoeWxnOXV3VEd2QmM3WU8taE92UjF3M3drUXg2Qnh5b05NYzVuQS01cFQzS0dZ?oc=5",
+  "date": "2026-10-22T17:35:03.000Z",
+  "summary": "",
+  "publisher": "PEI Private Equity",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "0fe779ece846",
@@ -2956,6 +3040,18 @@
   "firstSeen": "2026-11-16T23:37:26Z"
  },
  {
+  "id": "11e28b355278",
+  "firm": "macquarie-capital",
+  "title": "Santander CIB advises Revera Energy on strategic joint venture with Macquarie Capital to develop its UK energy storage portfolio",
+  "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPdFo5NHJzaHhuNmg1LVVoa3hfUVpuOXFQb282TkxGSll6SjNyd1U1dGhycjc2Xzhiek0tU0oxSjd3dEZsdWpCNE5xSk55Z3ltVl9lVnRfT285cTBZbEd0UW1VaVFwUXFDd09UQ1V6MTFNazdzbmc1XzZvOWJPRk5Edm1kSU9WMF9zLXR6UWhaTG4wTzZ5aGpDcWZySHFFakdFcHpIREp1aFdFb1FmbTRNQ0xvZmtVZkFDQ21INk1GZ2FfdThTajRjd0xWdmJGWENLS1NxYXJHQTRvX0RYZmJEUXdEM1kxNDYxMW04VU5RTnY4VUVsSmNscTltWQ?oc=5",
+  "date": "2026-11-19T07:22:06.000Z",
+  "summary": "",
+  "publisher": "Capital-Riesgo.es",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "11f242a9ac22",
   "firm": "kkr",
   "title": "Rinku Singh reveals his supports THIS EPL team due to former KKR captain Nitish Rana",
@@ -3111,6 +3207,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-12T23:37:41.243Z"
+ },
+ {
+  "id": "12d8d5bc80c8",
+  "firm": "tpg",
+  "title": "Corpay Invests Alongside TPG To Acquire BILL",
+  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTkhCRlU4QlNGNWdMWXVKZzl3RG1CWnRpdklBbVZhamdPWkpfMkk0N3FGd18wTkRONG5TNDM0RXo4bWpyNDZkdzFqWTE1c2ZlMDZYc2JOcXk5bFN0VXNCbUNscnpmMGZyUHJQcEJ3eHMzX2Nhazd3em9pZEtGMmN2cmRQVFZlSW5ScWhWNmF2M1RQWDJ0MUZDRkVYa2JIZi1rTk1ZY1g5U0t6cHVnZmI5bzZ3MEc?oc=5",
+  "date": "2026-11-19T23:00:01.000Z",
+  "summary": "",
+  "publisher": "TradingView",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "12de47b509d4",
@@ -3824,6 +3932,18 @@
   "firstSeen": "2026-10-05T07:17:26.548Z"
  },
  {
+  "id": "17070326aa0f",
+  "firm": "sequoia",
+  "title": "Partnering with Blacksmith",
+  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CYnhkT2RBdUgwSkVXczQzWU53dVJjbHJudFlIV0N3cWljQWN1X1Y1QjNNYzdzcEJfaG5SQ0FPT05OTXpzUXF4ZnowVmphSmVuaFFxVzZ1N1JpV2MtU01HTjZ1VXpXQTlY?oc=5",
+  "date": "2026-10-21T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Sequoia Capital",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "170c97e50c23",
   "firm": "tpg",
   "title": "TPG: Weak Realizations Are Hiding A Much Stronger Fee Business (NASDAQ:TPG)",
@@ -3957,6 +4077,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-06T23:38:26.940Z"
+ },
+ {
+  "id": "17d23b5d1fec",
+  "firm": "sequoia",
+  "title": "Jess Lee, Partner and CPO at Sequoia Capital, Honored as AWE Champion",
+  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ09Sc0l2SkljQlpJbjhHUXRrRFVEQUVVNVhxNUhqTXZUWnpIZjl4OGVlemM1MmdDVDMzUUd0by1VN0x2M3d2c2FmYWxvV0tjcGVhRkY2dGhLdEw1b3RHZ0ZmYmphcTJweDV2djRIZWZvLWtray03cGNBd0QydmZ3azE4aHhlTlVoWkFhdkdxanNUUXk0U1E?oc=5",
+  "date": "2026-11-19T06:13:12.000Z",
+  "summary": "",
+  "publisher": "Asia Society",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "17d34a0ce698",
@@ -4176,6 +4308,18 @@
   "firstSeen": "2026-10-05T07:17:26.548Z"
  },
  {
+  "id": "194eab34b06a",
+  "firm": "partners-group",
+  "title": "Partners Group acquires Rawlings Sporting Goods, the leading baseball and softball equipment provider",
+  "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTDNESmZBUWdZUmx3RVdEdEo0amdhNnFIN0RiWjMxZ0ZtNlpkVTRYSUJQOVpKSUhFakZhQWNZcXdoREpIQXh2eVlCOHlrcjlPa0cwZVg2QzFFZWx6aE9Ec3dMZTIxTEhOUlIwWXl4b0FiSS1UWUlGRzVuRm83ODZ4QXdsNENEdlJaZVpZMjAwTm1VZjQ5RXZEeGFxZTduRF8zdzBDZTJvOE1DbHFvbnQ2RS13NzV5UFJldzVaNm1oZThqQnFTa1RweXZGZXBtX2FhdFJyYjA3Y0tvelVnR25TVmo1dlpHZW1rWkN6Sw?oc=5",
+  "date": "2026-11-19T14:00:00.000Z",
+  "summary": "",
+  "publisher": "PR Newswire",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "195ae5278b3e",
   "firm": "eqt",
   "title": "EQT Agrees to Acquire Cleanaway Waste Management Limited at $6.5 Billion Valuation",
@@ -4297,6 +4441,18 @@
   "firstSeen": "2026-10-11T23:38:23.157Z"
  },
  {
+  "id": "19e0aa37873d",
+  "firm": "kkr",
+  "title": "Accel - KKR Company Says Charles Stanley Letter Of Intent Covers 3.4 Million Eleco Shares",
+  "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQWHRTT3hpMFp5ZkstVUNhNGFvTlp3WWZ0RDhPRWFHTjFsUTduNEdCOGppQW4yU2luNG5RRHBCRmhZTzMxZkJ2aEJVOGxJbmVOSzhMS29uSWRGbDJud2o4MEpzamZ2R1ZGWlRCX0VpLTdkZzh4WmVlVmxNT3hvdW5KcU5qS2pXY0lOS19wZ2ZBdHZYOXhXYVd2U2h2V3RmNzZTMmQybk4xVGQtemZaS2REWjRXVmRVbDFQVGxXOWlOa3lJTXgzdnpXdjJDOXRDYWxkbVlMUUhvM0hsc0xJYTYybVptZW56dTdWWVVuRmpR?oc=5",
+  "date": "2026-11-19T18:29:05.000Z",
+  "summary": "",
+  "publisher": "TradingView",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "19e358eb49ea",
   "firm": "tpg",
   "title": "Danone S.A. (ENXTPA:BN) completed the acquisition of Made Pty Ltd. from TPG Capital, L.P. and others.",
@@ -4380,6 +4536,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-18T23:37:55Z"
+ },
+ {
+  "id": "1a4f5cd4fc3e",
+  "firm": "kkr",
+  "title": "Litmus Music Receives Strategic Investment from Carlyle and KKR",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORWl6eHRZU0N0a2dWZFVyUU1Wc1NoV25hNThsaUxzalpXSU5ZY0pydmViSEo0Y2lqSVY1anM1c3BpRUtBVVluYzJFYVZxQTBqY1pNSVZtSDR4MXY3RHIwR0U2TUNVbmNyMUhnZnJjd21fLW0tXzF4MUVuSHlEN3U3V2V6VDdZX3praHNMbHctZ242RWlvWDRVTEJZRWp3REJMdEE?oc=5",
+  "date": "2026-11-19T15:07:38.000Z",
+  "summary": "",
+  "publisher": "FinSMEs",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "1a5c82d71192",
@@ -4997,6 +5165,18 @@
   "firstSeen": "2026-10-23T23:38:28.943Z"
  },
  {
+  "id": "1d8d5f342e02",
+  "firm": "partners-group",
+  "title": "Partners Group to acquire majority stake in Rawlings Sporting Goods",
+  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOWlRU0RMNlJILXN5RXFWQzBiOEFBN0VQblAtOGR2TFZTTDdnYUpkYWdtMFZDSU1EM0d2N3BlVEFJSGVVdGNDVWtuMWdLVkx5VGZ1VFNVY0ZFMHI3eVZjZGZYYWFUN3hURW1PWWltNFBNczBtYUJlYXFIbXFDQjNHYkhwdkdFZldBVy12eUt3ckZEUmtEUXliVU5naVliM0RaMkxYcEhwQnFiNjZlNGdvTE1zSF9ST3dwT3pNSzFQbEJGNUtI?oc=5",
+  "date": "2026-11-19T17:37:30.000Z",
+  "summary": "",
+  "publisher": "Sports Business Journal",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "1da6f9fcfaae",
   "firm": "kkr",
   "title": "KKR & Co. Inc. Reports Third Quarter 2026 Results",
@@ -5092,6 +5272,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-12T23:37:41.243Z"
+ },
+ {
+  "id": "1e685d90cbb8",
+  "firm": "kkr",
+  "title": "KKR Acquires Minority Stake in Gentari’s 8 GW Renewable Energy Platform in India",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUDNLbkdFTlpSNUJ0cE9ka0h4TExRU25rLVdsNWplQklCcWtJSnlVU25Zck13a0x3MlRZV2JDX2hhVnl5UDFaMG12OTRBLUs5UkFzdEZxWGFUcUo1TndJX0E5b2NoU09wdGhJUVZ1R3NzRy1aT0NvMmhwbjQxYVVUdjdCQll2ci16VnlyTXg2NDIyZTVLV09hSWZlVlIwbWRvdm1qTm55enRpN0hjaGZaNE5QUC1IV01DSXc?oc=5",
+  "date": "2026-11-19T14:06:11.000Z",
+  "summary": "",
+  "publisher": "citybiz",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "1e7114dcca20",
@@ -5700,6 +5892,18 @@
   "firstSeen": "2026-11-14T23:37:21Z"
  },
  {
+  "id": "21dcdf8e7b82",
+  "firm": "tpg",
+  "title": "BILL Is Going Private In A $6 Billion TPG Deal",
+  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHemdpMjV3Z0thVkNlMVhYcTVDOUZYSWppaXF4SVVlcDAxbmpSRThxUGxMTkdLTHlVVlN5S3M4VEJIME1hQXJfeFZEOWRVT3puRHJHQ0MzcXZqZHJ3Um15dGk4Nldsb2ZibFVDQ1BQbnllUUVOV3pqM2o0VTZYTFU?oc=5",
+  "date": "2026-11-19T23:03:18.000Z",
+  "summary": "",
+  "publisher": "Finimize",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "21e03820fcec",
   "firm": "kkr",
   "title": "KKR take fresh guard in Hardik Pandya trade talks amid leadership vacuum at franchise",
@@ -5916,6 +6120,18 @@
   "firstSeen": "2026-11-18T23:37:55Z"
  },
  {
+  "id": "22b895d8941e",
+  "firm": "eqt",
+  "title": "EQT explores sale of fertility services chain Indira IVF at $1.5 B valuation",
+  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMmlxekFndGNxd0VULTVkOXZTWV82U2MzRFp5TTRtV1NzSmFwV1Y5X0Z4RFFqM1RSTkl4WVA3YUowcVhoUEphUnRvRW11OUo4c3ItMkJVX2d0cXQwRVpIUkZzNnRKTmd5eERpVnJhcWVqMUd6MTQzSjBILVpfVVcxdlNJaTBHWFRpRmhDYjRqT1hBczRPTWJoS1NLM3NVODFWWWYwa1JocmpRZTJaeVdDWGRqLVFYbVAyRkhCdnV6cVB1dGx2d3Jj?oc=5",
+  "date": "2026-11-19T12:35:24.000Z",
+  "summary": "",
+  "publisher": "Venture Intelligence News",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "22c8b20313d6",
   "firm": "tpg",
   "title": "TPG Raises $10 Billion for 2nd Private Equity Climate Fund",
@@ -5938,6 +6154,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-02T23:38:36.994Z"
+ },
+ {
+  "id": "22eb68bf4029",
+  "firm": "eqt",
+  "title": "EQT snaps up auction marketplace Pickles from Apax in private equity handover",
+  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWFFPZWpYWlFpWGx4dWVRTTZGU3d1bFJVYmZkYm14YjZJeElEdVE1Zmw3TzF4TWZ3QXR2NktfaWZON0NrMEtrTFk4WExQQW55LVlZMmNaeHhOLVdIdlNvYUZqaGtDd0F2dXVNZ1JBMVpOQWp2S1JraFV6S3ItVEJ2ZzUwZEQwbEkzSzcyQ1VmM1Z5ZjAwQS13UVFwRTdQSTMzSDNPeW1UblR6LWlINURYbVpxeVpFRDJaSGNwT3NMSlR1aXhwdDVBWdIB1AFBVV95cUxPT210bU5KV0JpZDhqSVB4Q1IwWEE1eUM0dFBIblMwUGh2UmE3SjQ2M1dYNmd1ZWZJdXpRZXhxRGRYU2gwbjVtZ1VQY0xXYmxNeWRjYnVibTdrNGw1S1BwZXFLV09HSnNTaGhhWFExTVc1cnFlaFNsWjNmYV8yeVExd2gwXzVCSklUc01OVWZCdWhNYnJVUVdmTEdSSy1zVU1CYklaT3l0YV9vRlpnSDEyNVRPVmstalBfeTBzV3JyMDhKZXN6RnA1STB5d0tqYjBEZ2k1dw?oc=5",
+  "date": "2026-11-19T23:05:57.000Z",
+  "summary": "",
+  "publisher": "Business News Australia",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "22f7174aa522",
@@ -6241,6 +6469,18 @@
   "official": false,
   "firstSeen": "2026-10-31T23:39:06.690Z",
   "portco": "sovos"
+ },
+ {
+  "id": "24307e252505",
+  "firm": "kkr",
+  "title": "KKR completes Integer acquisition",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DcnphVnd2Skg1R09tV3NqVGRpYXFya204clZHUDRSVTYwU1pob3FOWXRlZE1ZQmFGRkc0MEpOa1IwcWU5bmROWk91X1F2OXhiTmc0aldsMVNJalY2TFNSZm1VaHJVSFgzS2ZmajhR?oc=5",
+  "date": "2026-11-19T13:10:05.000Z",
+  "summary": "",
+  "publisher": "Medical Buyer",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "243c5ccd66d0",
@@ -7089,6 +7329,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-05T07:17:26.548Z"
+ },
+ {
+  "id": "2905131ea3b5",
+  "firm": "kkr",
+  "title": "KKR Credit Income Fund Confirms Actual October Distribution of AUD 0.01670000 Per Unit",
+  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd1kwWG13VGtkTVpqa3BNcWZ5empERUFrWHBaREpYVE5FUEZYaGUyc0x4SDVzN3dhT2JqbFNpZ2VtT0diUmhVV0hSMF9vN09uTTJRYlp1bGJMeFVLVWZTdm01cHF3cF95RjE4X0RSTTlBcFNxbWZaTzJia3VsbFBXNnlzTWM1MEZKb2hHSGpzU1NsZE05Vjd4cTEzaFltQ0N6WWc4eEx5dmZJVTRteFdoTzBQRmUwTEpFS0s2Y2ozTlBNR0I5anc?oc=5",
+  "date": "2026-11-19T23:15:02.000Z",
+  "summary": "",
+  "publisher": "Kalkine",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "2906b9cd0f5d",
@@ -8235,6 +8487,18 @@
   "portco": "nextech-systems"
  },
  {
+  "id": "2ec9ed239e5d",
+  "firm": "brookfield",
+  "title": "Niel Thassim Heads Up Brookfield's Asia Private Funds Group",
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ0swUEUwOEtOTzduclFMSkZOdUNObFc1WlBDRmtLSFEzVndSTGN6OVRfZHR6a3RFUnRqZWZwTEttM3JOMVljcHpxakpPa0VyeWhrZ1RucnVzT0JMOGZieTZTc0tWNHZzZG5remQxWjlKeXczNkUtT1VsUTdxd051Mmg5VHBKLWxXaUM2LTUxRFgxMHJIZGdkZUJkZTN0STNpSnJ1SQ?oc=5",
+  "date": "2026-11-07T14:23:21.000Z",
+  "summary": "",
+  "publisher": "PEI Private Equity",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "2ee5e41fa0b5",
   "firm": "warburg-pincus",
   "title": "Australia’s Ingenia jumps on improved $1.5 bln Warburg Pincus bid",
@@ -8692,6 +8956,19 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-05T07:17:26.548Z"
+ },
+ {
+  "id": "30f8b49292c8",
+  "firm": "golden-gate-ventures",
+  "title": "Paytm to invest up to ₹200 crore in Funding Societies subsidiaries, acquire 19.1% stake in CardUp",
+  "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOQUZwZUhoZWVDZXotZDE5Y005alRTMnNhbVptTHc5WEhJa3ViMHJLRzdKcUJYZVBPV2l5b1haSmhUZWMxS2s0Yk9VblZVWGhNS3I5ejdEQ2ptbE9TZXpNVHp4V09KX2VKZUxZWEh4YnZXQzVLazMteWNrN1cxZmRoX3B6XzhTeUR6SFV2bmNiaUxMWk43amNMU2RKYTF1bkU5MnhnRjF1UHozaTR0SVRtcTJnS214Ti1ZSVdPYlZvUGdNT3k3ZHpOeC10U2dXNUQ4YlRJUnhsU3h3dXRMbWwxMXQ0bXZKME5PN1Q1cTB2NGdZZWRKclFTdW530gH_AUFVX3lxTE5IZHI4QnE0ZjNFSEhCWmt3Yll2ZWVSS3dyaGdKNVZ6ZjRtMk04Uk1NR3Y3QndCMWVmUzhtNVl4TzhzblF0OC1Uem8wSmFpVnVSM0gwWlBGNkgweDVwOVZuRU5zWkhUNUR2YUpMTnpySkFjdDF0bFV5MXJWN2d6S3g5UWczUWxHUjZ2ODlteTVtaXA4em1CVjJyc3g2dk5fcmxTdUtCamxjNWowOHJ4SV83cUxfMWo0QTNXbTFpc2VOYnhNZUZZUXFSZkhSRTNlajhHRTV1NnhGNENjODFQbnhBN3VucUstRWVXZDlRUzRRWHJqb2l2bHl3U09NbkswNA?oc=5",
+  "date": "2026-11-19T14:56:39.000Z",
+  "summary": "",
+  "publisher": "Business Today",
+  "source": "portco:funding-societies",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "funding-societies"
  },
  {
   "id": "310be7a2e765",
@@ -9441,6 +9718,18 @@
   "firstSeen": "2026-10-14T23:37:43.978Z"
  },
  {
+  "id": "35e89dfd288b",
+  "firm": "kkr",
+  "title": "KKR Credit Income Fund Provides Estimated NTA Update",
+  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRnpHek53VjBqTEtreGtKUElmVDRhWW5McDd1aVFfLWl1OWJwN1pmR19hUjN0cldiSmMweVNTYUV5M0tBOTB4clRJQm9yUndzYUpnQVo1NHhTX1RIOGw5dTdnQXljTzhucmhBeXU5QmNBTjdHNFhneDRjdHdib0dfMElERmtnUnMyWkxERDVFWVVaUXBUV0VGV25jTjFNN2tRVGltVjBMbw?oc=5",
+  "date": "2026-11-18T23:48:52.000Z",
+  "summary": "",
+  "publisher": "TipRanks",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "35fdd6447010",
   "firm": "kkr",
   "title": "RWE AG And KKR Establish Joint Venture For Vanguard West And Vanguard East Offshore Wind Projects In The UK",
@@ -9523,6 +9812,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-27T23:36:59Z"
+ },
+ {
+  "id": "36883385542f",
+  "firm": "macquarie-capital",
+  "title": "Revera and Macquarie Capital form JV for 1 GW UK BESS portfolio",
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMS1Id25ZTkdwQy0ybGdUeUU5bzdLd2VVYVVaOG9mc2t6X2FBamlSZk5EMDNFSFhESnF3SzRRMndGcjk5UWhaQnJfOUVFcUFwbG5ldHdNMHZaNl9rT0gtbjR0NnRKamFlUmFCZkJVSkJ2alJKUFJ2Y1ZYS2dMbDNDenhjX0FtWWwxNlpIbkI0cGxTbEZjbzBwNVIxUlpRQU5fTVFUUWlnSHl1eVdHeXNkdVhLX2xSRVV5aklueQ?oc=5",
+  "date": "2026-11-19T21:08:25.000Z",
+  "summary": "",
+  "publisher": "Enerdata",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "36886cb85871",
@@ -10663,6 +10964,18 @@
   "portco": "cdata-software"
  },
  {
+  "id": "3d011a21f9d6",
+  "firm": "eqt",
+  "title": "EQT stock: Firm weighs sale of Indira IVF chain",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmFtRm9sV1Fiem9rSDY2Ukpsd0RuSW5PdDhlNzYybzR6ZVE3cVFMX0ZuNllYZ1JsSDBvbnpma29YQ1JoMHlTU0VJa1lPSzRXU3Z2LVpoQ0FIUm5DY0tiM2J4SDQ2eVI0TjRvekdoYzJhWUFpb0VnZmpBRmR6cWJiWGw1WHVzeDdUc1I5bDNVYzdDYkRiWERVVy1CdFd1WWV2bXlQcEdKTHJER0R2NHc?oc=5",
+  "date": "2026-11-19T16:18:26.000Z",
+  "summary": "",
+  "publisher": "ad-hoc-news.de",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "3d06aab40f9f",
   "firm": "eqt",
   "title": "EQT targets $50bn India investment programme with data centres in focus",
@@ -10697,18 +11010,6 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-05T23:37:14Z"
- },
- {
-  "id": "3d1c7d8c06dc",
-  "firm": "tpg",
-  "title": "Takeover proposal from BGH Capital",
-  "url": "https://www.eqt.com.au/mediacentre/2026/08/21/takeover-proposal-from-bgh-capital",
-  "date": "2026-08-21T00:00:00Z",
-  "summary": "EQT Holdings disclosed a rival unsolicited A$24.75 per share proposal from BGH Capital, topping TPG Global's A$24.55 indicative bid; both are non-binding and conditional.",
-  "publisher": "EQT Holdings (ASX)",
-  "source": "coverage",
-  "official": false,
-  "firstSeen": "2026-10-09T22:53:22Z"
  },
  {
   "id": "3d4512306274",
@@ -10975,6 +11276,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-18T23:37:55Z"
+ },
+ {
+  "id": "3ec259b204de",
+  "firm": "kkr",
+  "title": "KKR makes minority investment in Gentari’s renewables platform in India",
+  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNzBJdVRFUWJNeVh5RElmRkZzb2dEYVZ5dEFkMlFLbGNqSkhyb2NMR1pHM1g1T0NHcWtPTDhmNmdSaTB0Vzlpdk56WFVUNHp0RDhUNFdodkdBWjF5MGdJeFB3TENjQnhtN1Y0YXRWRzQ4X0ZNQ1Fld19xbTFrZExSSFdTaHQ3U3YwYjFpT2x4R3ZDM1dwaDNKdlZIY3pXT29RSDR6UmlHRUZVYmRlS3NSZm1kXzhVU0gteV9JRUJXd3o2ZDVxcThz0gHMAUFVX3lxTE5LQ3BTY3JxdFNVOFJYMGlmMzBDWGE1amkyOTBReEYwZm9GanIwREFRTG1XSWpTVmNyZGVDWFNmNnNiaUx2RG41d0wwanY0THdyRGhzdTh0bjF2Y3VjMU80Q2ZockN5MWhaZWFPbllNMlR4WWdqVTNmR2w5c2J4WUF4Z0NRN1hWQmNmZ015OGNMYlBKNHkxcHNzU1kzY1VxaDNwZzZSemVUSVpEZ2xQU3pONVFfald3ZG5xRm1hdXJrZm94SjNqb3I0LVQ3MA?oc=5",
+  "date": "2026-11-19T10:48:19.000Z",
+  "summary": "",
+  "publisher": "Moneycontrol.com",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "3ed2435268f6",
@@ -11373,6 +11686,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-12T23:37:41.243Z"
+ },
+ {
+  "id": "410815c5c4a4",
+  "firm": "kkr",
+  "title": "Sports Bulletin Nov 19: India Dominate NZ Test, Lakshya Sen Qualifies for BWF Finals, KKR's Jay Mehta Plans Stake Sale",
+  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaUFnSkdvVUhlZkpEeVh2Tms5aTlCSkRXNU95WDltV081SlJMTWVkOHU1UWxXNG9FMWVZNDZYdHdGcEhyamFlVXRidFhILVl1a2ZENGVwcC1uZTVhUEdIV0p4b1ZMNEdZLWRyM1g1U2Z5RnlUY3VGRFVCaFFiUUNoTVI5OE82SExJeVVuQWx3aVhUcHRBM1FSUEstTk81bktSTkYzQkhOSU1DMmtZcWtLNnlzVklYWkhMQ29sUURZOGZBMzdrckRSUkd3NA?oc=5",
+  "date": "2026-11-19T05:40:26.000Z",
+  "summary": "",
+  "publisher": "myKhel",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "41186548a13b",
@@ -11906,6 +12231,18 @@
   "firstSeen": "2026-10-09T23:37:40.680Z"
  },
  {
+  "id": "443b8fc35781",
+  "firm": "kkr",
+  "title": "KKR's LOGISTEED Holdings to Acquire Neovia Logistics",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONTVhVERJRDg5VFJEaktQTlBVZ3dzei0yUndJNmNiTW55ektsekkzclg0bHpPamU3WkNDVUUwQ0JlQ3ZLcU5BTlJnNXFhYnFiQ0t0MXdyWjlkOTVnN0hWZzM1MFZqVW1KTXlfNk1ObWJIOUdxb2RpWlAtNEtRYXFucmlhUGRrNFZFdzJ3Y1ZZS1R1bTZxaExRdFNDdmtRb3NEenlmYzVnSk8?oc=5",
+  "date": "2026-11-19T10:21:41.000Z",
+  "summary": "",
+  "publisher": "marketscreener.com",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "4454066a6d39",
   "firm": "eqt",
   "title": "EQT values Storable at around $2 billion",
@@ -12159,6 +12496,18 @@
   "firstSeen": "2026-10-20T22:53:55Z"
  },
  {
+  "id": "45a9aa36e41f",
+  "firm": "kkr",
+  "title": "Carlyle, KKR commit $475m to music rights platform; Goldman leads fintech round",
+  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZTcwUnR1Q196LWxrbi1iak5HYnB6NFdnVmc0bkNFa0dfQ01nSnk4QXBONTBteHQ0dVQtRnBwU0dXV0hvZWZyMVc0TVFRNm83MVB1aHVtamNvWjRPN2NjaVZRU3lVMlFWaDl3MUhSTVJyaHE3S0M3NzhQQmdHaEg3NUxXTDBhaU00V0wwd3NqQTJsRGR2QzM3TVFWSzZmTFBwVV9taHdyZ1Iwam8zMGF5QjFWeTFtamJaNG0xaHN4OA?oc=5",
+  "date": "2026-11-19T00:17:54.000Z",
+  "summary": "",
+  "publisher": "Alternatives Watch",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "45aff2773912",
   "firm": "eqt",
   "title": "The Pipeline: EQT’s Middle East move, QIC’s N America hire, CAI’s battery investment",
@@ -12193,6 +12542,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-08T00:14:37.721Z"
+ },
+ {
+  "id": "45d8f0ece728",
+  "firm": "kkr",
+  "title": "Carlyle and KKR commit $475m to catalogue-buyer Litmus Music",
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM25wUjBPQV9rQkVMcFR5T19fVHZFX0laQndGcmZsRzlSLVJJQkF5MVlmeFh0Z2tPMnlwQXZMaWZzR1Zkc0VmYnhPY1A4RFg0cVNrM2JucXlQYTMweVBXV2tJMldxdU5lelB6RWl4UmZnMk5KYU04MjFlTVpZN1BnZl9xTnE2Z0ZRbDVGNnY1eTdLalAtRjhzZw?oc=5",
+  "date": "2026-11-19T13:30:00.000Z",
+  "summary": "",
+  "publisher": "Music Ally",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "4607a8a2d512",
@@ -13051,6 +13412,18 @@
   "firstSeen": "2026-11-11T23:39:17.546Z"
  },
  {
+  "id": "4a9e22f08bb7",
+  "firm": "tpg",
+  "title": "BILL Enters $6 Billion Deal to Be Acquired by TPG in Partnership With Corpay",
+  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZVItVE0xeFB0dWI1NEpzLVZLenNFaXpzU0k2N3pnXzhFYTZJYlZLdWxQNk9TSlNrd2Z4TEV0Z1BIbVpxOFc1MHJtZnhyb0Y5S2xuUXE5Nzd3b2hpRXpEdXZ2Z2dkZ2dfMW5EeUdwNGVVVmtvcXlZR1lsYWpuNEpna1RCbml3OUd3WVlkUmxmRk9pZ1B0RW1ETkloeGd2aDk4a2xSMXVTT0o4M3YwNEltcXpaTFZwX3RQTHRoNWZYVmx1aWFkdEVV?oc=5",
+  "date": "2026-11-19T23:07:16.000Z",
+  "summary": "",
+  "publisher": "marketscreener.com",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "4aa06b29baaa",
   "firm": "tpg",
   "title": "Mizuho Starts TPG Inc. (TPG) at Neutral",
@@ -13277,6 +13650,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-13T23:36:45Z"
+ },
+ {
+  "id": "4c0cbb62c7d2",
+  "firm": "partners-group",
+  "title": "LUN Partners Group Hosts the 2026 International Financial Technology Forum, the 10th Annual LUN Partners Fintech Roundtable, and the 1st Global Cross-Border Digital Payments Alliance Summit in Hong Kong, on 'AI Reshaping Cross-Border Payments, W",
+  "url": "https://news.google.com/rss/articles/CBMi-gNBVV95cUxOOWFIaENuT3JzY0x5NDEwSUdNOEZ0OWtqS05nRUhjb1pzZ2tKVC1SazhiU2JDWDliNUR5b2F5SHRGTF9WTGlYOUFQZVl4dUhhQ19faGpKMk9MTGZNQjlJVGlieUgxTkFIVnZmYmZpNGVJeVhQd1JkZjBWbjJ2NXNicHhpOU9VQ0lTeVFFZVBoRUQyOWl0RVplNmQzRkREVGFtYXQ2dTB0eVYxUF9JN2ZuMDhxUWNwY1FkSXZwOEFaaU9QV2xiVnExTl92SlRsMkZrdEFTWkttQjJaQXVIRmRNLVJjVGh2M3NoMHA1QmRDS3A1LVBTRGRCZXFEcW9PclhyRVdMM01JSEItbkdyd1dyQXpjWWdMX1lzVzctX1J5SHo5SWxiakRTNTA1cDNOVG9qTjBZSDJ2bG80SUhob1A4NHhqOXZXWnRJbER2cEo1T3hFYU9jcDVkQy13X05lOU1xZTlSc0d5anpINTF2emI3LVNXRXRHNmxHcjVHUm0tZUdvb21ralQxM3N2SVR2OHJNM0dYblZ4MlpzTTB0RWMxM0tTODRwbkxyQkZ3bmxZVFdKUHV3OU03UWlzRTNabGNTdnMyN2NqRUVhWHp0UUQ3LXRlcXlIM2ZUQW1OUHE5djlucXNIdDltNmxGUU5JZHNMS2plNzRkczBDQdIB_wNBVV95cUxNT0tJX2ZPSHpBM3YxOGZqcmdUWmx5MS1ER0RWcUhNek5RQjNhN2duQnJ4eDRHWEVHM29oVUUxOENXcE1RdzFKMFZkR2tDTnhpUmx0MlFSRWJWcTJyeG41a2F4RkJmblhTRXZWY3ZPT1F2aV9wRGQ0eVBKY1p2S2dwRVpLdzhDQXVndFdMNVRQbm83UUxkbEtwUGJSdUg3cVBTX0RwbU1vbmdtbGVvTjZaT2xGY29xOUhrNjk0WHRVbEFqTTJqTkprRDlMLVQyV2NOZ0hwcDI3WFhFNnN1RXkxaU5yLXpTdlV3YjVTY0o5aUZzdHJfOXpmZWt4MFR4ZDIyMTdKVmpPdGYybzExYWZOMzBOb1pNUVFuVHYwZXlTMU85d2VlZTRTMVBqSHVneUU1M2c2M2NGWV9zZWg1VFpjSUZJUmctZl9oNjVLU0dyOGVid2pqSzlReU1hUFM0alV6N0lVNzNEN2FwNW96MzZHTjZQTDRsOXphV1hSYTdfbmllaDNtNXk3akVLODFVMjhoRzl1b0oyU204YldTcTlzMTFSTXFQWHhfdkVHMGdQV1N2MGQycHp1OEVjS1drWHdSNTlrTndpcE9yOW9jbEwzU1BNTGxrNmhSUmozR255MXVERFpmOTlDZlMyYUxmTzNxQkdrME55TkZvWXNCUy1Z?oc=5",
+  "date": "2026-11-19T05:06:26.000Z",
+  "summary": "",
+  "publisher": "The Manila Times",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "4c154fa94e3b",
@@ -13678,6 +14063,18 @@
   "firstSeen": "2026-10-08T00:14:37.721Z"
  },
  {
+  "id": "4e650f245db7",
+  "firm": "brookfield",
+  "title": "Brookfield enters Indian logistics with 10.5 million sq ft ESR portfolio buyout",
+  "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU25vREViNThtNnM5YzRkcnBUTUU0Z3cxbFRXeG93T1JMVE1XUVdVS2RJRlVhYlR1WWZkLWtTczRTWFFOUXZseTJtSFRzbmJWTkpNNmRvVmtCVmZXTlM2OEMyd0M0bllhRmwtZDZwNnlWR0h2VTIxYjZJWWFWcGFUZEd6RUdQaGtPOHh1ZEZ4bXBCaHNJRVVKN3ZzWjhxeHZqdUJNcjdNYW40SXhlNG1ia0ZVV2I5aGJ3S1diWVhZWU43YXdKZEpvLXVRd1NVcTjSAdQBQVVfeXFMUFBtOGZLVnNQbXVmcGlCUTdrdWhoaWVTbUtMRmJoWEhCbHNqR2tSMkpQZHlyQ2tLUEZ0eFN6VnN0QTN3RTFfNktLYjFhazBITkR0ak5fOEFPd1JxWW9QUHQ1SUloenZQcmU3X0ExV3hMRkJwNGtOOGtCbGt6amtsV055SW4wR3h0WXFmUFFxRjZva0NmS3YzNnpZYVBaX08teGc4T1p3MVl0WGhZZWpSNllJcmx6bkVWNVVNNlZzd0l6UFZLVHUzZlVTUEpNSTF5SllBNlY?oc=5",
+  "date": "2026-10-07T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Livemint",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "4e6753e7869b",
   "firm": "kkr",
   "title": "RWE, KKR Commit to $15 Billion UK Offshore Wind Investment",
@@ -13918,6 +14315,18 @@
   "firstSeen": "2026-10-21T23:38:08.642Z"
  },
  {
+  "id": "4f7db77b4871",
+  "firm": "kkr",
+  "title": "KKR buys minority stake in Gentari's 8-GW Indian renewables platform",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYTBRZjBOQkRWT1RHYUM2eUcybjdvcXRwX2FYZUJsc1lKLWx2UnFxU1NsQTJGWS10SjVtNld1NGk5WHkwdFJlY3V0X1VnVi1oSTJqeUdyNnRRLXRhekl4dWw5bVpQZ3JNU05kYVg3S0ZORmZQMnJxTXVnQmY2eEZ6S0hId3VrUXRGazVmUlIxMmhyRFN0UDBfRXlpdUNmTWZRYnc4YUdjREw4eTQ?oc=5",
+  "date": "2026-11-19T07:52:14.000Z",
+  "summary": "",
+  "publisher": "Renewables Now",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "4f83cd5c31f8",
   "firm": "partners-group",
   "title": "Partners Group Private Equity Limited (PEY.F) stock major holders",
@@ -14000,6 +14409,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-05T23:37:14Z"
+ },
+ {
+  "id": "4fe265f2b041",
+  "firm": "eqt",
+  "title": "Keefe, Bruyette & Woods initiates coverage of EQT with market perform rating and SEK 330 price target - BN",
+  "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeFhNTnBMb2xfOGdFLXVkNWJ0V0pvd3ZwOHBZUjVvZnN6cTdoTGxFRnoxMS1oY1lNOExmUDdwYXJqQ1ZENWRoRWhjRVhKV3Fmb3lnWjNQTFVldzJ6M245Sm1ZdHNaVC1USU4teXJvN2czX0M1dF9zaG9XMWVUcHVTN3k3dGdLWHc3WW8ya3ZPeGFYWmJ2YXQ0YVRJNkQtVXFSc2NtaTl4Z2UyR294ZkhqMjJMMnFwWFJZTVQ5MFVOMVotREhKZFhxSVhnRkp6RGJ2OUdmZWdwVVNaY3hPWkd0QmFKRUc?oc=5",
+  "date": "2026-11-19T05:37:27.000Z",
+  "summary": "",
+  "publisher": "marketscreener.com",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "4fea28923cae",
@@ -14111,6 +14532,18 @@
   "firstSeen": "2026-11-17T23:37:00Z"
  },
  {
+  "id": "502ec4ef3579",
+  "firm": "kkr",
+  "title": "What Does Carlyle and KKR's (NYSE:KKR) $475 Million Investment in Litmus Music Mean for Music Rights?",
+  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQXlSYjhZbm9ZNk9jOUR1bjB2R3puNkZzcGZUenlFWjU3SVRULUgxc0M3bi1YS2pzNzZjX3BqVVlwNmNKQWY5YlZ2bkVjNkN0YWZ4aldJeXNHZlcwZDZDODNaeG9RZ1pvSUdkT2g4Y0ZFb1hoWVdRdEhtUlJfTWFYajhDd3l4djJ2dGlpclRNQ2k3bzBNTHAxRWYyVEJkczFMZW5wdF9WMlhSWHJyRzdKNVFLZURocGFscmRxQmt0MUNONHkxaGJJQ2JZVTl0Zw?oc=5",
+  "date": "2026-11-19T10:41:00.000Z",
+  "summary": "",
+  "publisher": "Kalkine",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "504aa0719fd3",
   "firm": "kkr",
   "title": "KKR Credit Income Fund NTA Estimate Falls to $2.2904 as at 26 October 2026",
@@ -14158,6 +14591,18 @@
   "official": false,
   "firstSeen": "2026-10-09T00:13:53.254Z",
   "portco": "oxane-partners"
+ },
+ {
+  "id": "507191129379",
+  "firm": "kkr",
+  "title": "KKR makes minority investment in Gentari's India renewables platform",
+  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTzAxbVBzb0RwTDVqVHJuX0pCdFoxOGtabnUxUDUtQWhRX1VOVUd2aXZaZmh5WV9kcm5IRDZYS29kZS1kN1Y0cFBPZ3ZBR1FJMVAtcmZfU1FvdHFFMm9zSVVIb3U5V01oLVVFSHVYcC1vQXNnX0NxS2RJWllMZWRSYUZ1REFKNzFhd1dDc3NhWGJ4UDZMSkRNZUF1R1hmNE1xU1ZSOXZ4TE9iR1lvcWJBWWoyWVQ5bmVn0gHGAUFVX3lxTE1aWEdJSTh1R3RYMVpUbV8yLXREOER0UkRhdmFSb3dUc0FnVnlWVkRtN014S3laSy1Gck1jLTR0TkVLMUdETTNqMXZ4UGZBWS1yODJERVZmcU9FVnUzeEJDZkRFRk9jbGphdktSOU9MR2w1b0dRa3NBTjl1bTdqRTFXelRmbHNVbl9nRzRPc3ZIRGV2NER5Z0NRdWtuNHR6XzE3emlrSW5uX3ZvQW5OcXZRQk5mZExkSDZYR3VWVGxsZnF2X2NGUQ?oc=5",
+  "date": "2026-11-19T08:17:49.000Z",
+  "summary": "",
+  "publisher": "Fortune India",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "5082cc405d00",
@@ -14363,6 +14808,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-11-10T23:39:37.245Z"
+ },
+ {
+  "id": "51c427b05fee",
+  "firm": "eqt",
+  "title": "Cleanaway (ASX:CWY) Keeps Its Network Running as EQT Scheme Advances",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUVNOOWZXVlA3NTRRRnRWM0hOMDk0SVVfVFNtMUtYd2JGVTV3NXR6MkZfQkZUdnhQa0tGVFBuT3d6WFZKcG9sWHFiNVhvT2cwZ1BrSHpoMUJLakl6OWJCMjhFUkdsd3RINEhWWklBampHZ3pQQWd4M1JGNWVCTzR3UHJSRUhaSG9Wd01sS01ORC1ab0g3SUhfbU9JeWZRNkJRejdOa3E1Y2NGYk0?oc=5",
+  "date": "2026-11-19T04:52:00.000Z",
+  "summary": "",
+  "publisher": "Kalkine Media",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "51e50a1f09cf",
@@ -14886,6 +15343,18 @@
   "firstSeen": "2026-11-07T23:40:07.729Z"
  },
  {
+  "id": "54f33d1a8aa8",
+  "firm": "eqt",
+  "title": "Clifford Chance hires EQT lawyers Leisnert and Kamali as Stockholm private capital partners",
+  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc0ZmQVVpM2ZWV2dmYWpEWFI1VlpBMU9md2VMOTEtb0taY1NKaFV5SnBkTGswMFk2UlZ5NWt0TnBPUWZYbmJraVlDcWlOa2dDT29MSl85SGlQMFU5eHdNZEJzVEhoZG0tMVBkVVE5QmZweWJZOEMxTUdsVXh4NmhZVHdYQ1VSX2JJU283cU5aRGotS3QzeXVGTERCMlRJUDM1T2hYcllfNlZFc1lSUHVNaXQzRW1SdzZ5YnUzcGtKOG9CZ3RZZFlj?oc=5",
+  "date": "2026-11-19T09:04:12.000Z",
+  "summary": "",
+  "publisher": "https://www.lawnews.co.uk/",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "550b2e3e0dfa",
   "firm": "tpg",
   "title": "Vulcan Value Partners LLC Boosts Stake in TPG Inc. $TPG",
@@ -15016,6 +15485,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-05T07:17:26.548Z"
+ },
+ {
+  "id": "5635a2f0381a",
+  "firm": "kkr",
+  "title": "What Does KKR’s Minority Investment in Gentari’s India Renewables Platform Involve?",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORF9PenpMajNPeExlUlg2OVpHRHJXbkx1MUUzcUJJelNlOTVUVkVvcS1oMFFOcGFnR1ZOQUk1Ti1JWHVyNGJEdXBLQ1BzZTJpRjNVQUNnZURXLTVzalBPY2U2QTN6Q3UwNlE1d0VabzFZRk1WZXNTMHM1MGFDQU1WbDJWakRhUUM4NzZ5THZYU1RaLWJnbVJlUUE5V0VYUURJNnZSSHB5eHJVRmVmV1VFb0JyNTZtZnVqX0E?oc=5",
+  "date": "2026-11-19T12:00:00.000Z",
+  "summary": "",
+  "publisher": "Kalkine",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "563a3e716942",
@@ -15186,6 +15667,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-11-17T23:37:00Z"
+ },
+ {
+  "id": "583ecb4d1170",
+  "firm": "partners-group",
+  "title": "Partners Group to Acquire Majority Stake in Baseball Equipment Maker Rawlings",
+  "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX19TZ0x6cHhUT2tDYk1qaWxyNDhweDBkdmNpQ19VdkYwSGZtTC1BS2IzRGMyVlhWZjV6anRjS3ZhQmN4WkZGU2QtWWFhVG5qbkVzMkRVZHZOMEIwdmt4YTZ0RV9wM0g4cXA4Vmo0QlY4TFlSLUtPQXlVUHphZ3lLZ1RFaTRmcGNGLWRyUDhfMUVUUDk3SzdBSlB3N1l5ZlhQamE1Nng5MUVtRlpEaEZmUVdPTjJLRlVXekhQeFQwV3F4V1c5Nlg0ZVJR?oc=5",
+  "date": "2026-11-19T14:51:18.000Z",
+  "summary": "",
+  "publisher": "marketscreener.com",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "58437130740c",
@@ -15756,19 +16249,6 @@
   "firstSeen": "2026-11-10T23:39:37.245Z"
  },
  {
-  "id": "5b7f82f60d3c",
-  "firm": "affinity-equity",
-  "title": "Affinity-backed Serveone eyes record 2026 sales after breaking from LG",
-  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBBNWdETzRyejdfQkxSdU9SMU9ORWh6WkVsV0xlN3FRc3owc0psd19wbE4tWnhUNFVBTGx1aVk3b1lTeWo5MkRuR1ExWDJNUElFdmZyYVRKdHFZYTZSOTc5RkF5RldTQXB3aVloQmxsRi1DTHc?oc=5",
-  "date": "2026-08-21T07:00:00.000Z",
-  "summary": "",
-  "publisher": "KED Global",
-  "source": "coverage",
-  "official": false,
-  "firstSeen": "2026-11-02T23:38:36.994Z",
-  "portco": "serveone"
- },
- {
   "id": "5b8b674c5ef2",
   "firm": "eqt",
   "title": "Road closures, parking restrictions announced for EQT Pittsburgh 10 Miler & 10K",
@@ -16129,6 +16609,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-08T23:39:13.278Z"
+ },
+ {
+  "id": "5dcb91a48e93",
+  "firm": "kkr",
+  "title": "Gentari to Expand Its 8 GW Renewable Energy Platform with KKR Investment",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaVQ1S01FeVdlYVFuckxjOVp4WkZpaHNzVHBqVUd0Y1VuME5MQklsTkFjaUJrd3ZiUTMwYmUxTGUwTXhLRUs4R0NLQXJpd0xHU2hWclZnenpmUGc2aHJGZUcwa2JQUUJIS1dpMEczUmkwd3h2TmJRUWxoWElUbUlsX19CelV5RzdwaFVDT3JfRjJBVlhCdzE0UVhtaUc4U0thbHc?oc=5",
+  "date": "2026-11-19T09:21:44.000Z",
+  "summary": "",
+  "publisher": "Indian Retailer",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "5dd78e659f33",
@@ -16685,6 +17177,18 @@
   "firstSeen": "2026-10-05T00:18:25.007Z"
  },
  {
+  "id": "606994379fc8",
+  "firm": "kkr",
+  "title": "KKR Backs Gentari’s 8 GW Renewable Expansion in India",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTmtOSEg4VUtHa081ZmNpeFBzWklzNENtZzFjcUtuYlh5YmlEaExrODF4cDRSNW41eERUUk5NTWl1NmRfRUl5RTBYdWktQmpJQy1CdlFkZWYxeWJBR2xHSVg5WVVQc21NR2wxM2l4Z0NTQTBJM1VOM1JpZkhuVVdMYlJHWjFmZy1QWVo3OFVYTVlKaWpaRlRZTkRn?oc=5",
+  "date": "2026-11-19T07:12:32.000Z",
+  "summary": "",
+  "publisher": "Urban Acres",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "606f0ac037c5",
   "firm": "eqt",
   "title": "Cleanaway backs EQT's A$9.3 billion takeover and prepares to leave the ASX",
@@ -16805,6 +17309,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-10T23:39:14.030Z"
+ },
+ {
+  "id": "6115b7331b24",
+  "firm": "tpg",
+  "title": "TPG to take BILL Holdings private in $6 billion deal",
+  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNk5OWlBKR2RFVjBIRlZNYkZMOC1yRG9hbHgyM2g0Sk1RNmd5WEVpUC14NFo0eUQ4a3VyZUFlS0RSZ3IzeWYxLVpHWTNER0x5NDkxbVl3WG1xT2wxeDlCZy1mOFZ1bUpQNmJoaTRZQjFJY09Gb0g1djd5ZkRoMkhnbU9RUlRwa2ZpNkMtLS05emVOdWJXNWlTUDZURFMxc01LSExhOEZWMA?oc=5",
+  "date": "2026-11-19T23:17:22.000Z",
+  "summary": "",
+  "publisher": "marketscreener.com",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "614ebfbf1aed",
@@ -16939,6 +17455,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-06T00:58:19.774Z"
+ },
+ {
+  "id": "623e2ed4964f",
+  "firm": "tpg",
+  "title": "Bill Holdings to be taken private by TPG for $6 billion equity value",
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOThkazNlX1QxazVPeVlIcGR3bjhINHZFRFZ4MEJZdno1ZV95eVpERC1aVW5VRkt5cXV1aWQwNUZSQnpyaHp4UUY5M1NNUmNWZzlXME83NUFFOGV5ZkRUVVAwdG51a2s0TzU0SUg4MWV5ZDhtaVVRcUdubmxCaU5taHR3RVRTTzdKN1dHUjJQaUs3YV9qbWF5UmNlNFg1YkN6eV9PZjdLVHVwLTlUNUtKRldOZW4ycl9LZHJDVw?oc=5",
+  "date": "2026-11-19T22:52:16.000Z",
+  "summary": "",
+  "publisher": "marketscreener.com",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "623e963f4e1b",
@@ -17447,6 +17975,18 @@
   "firstSeen": "2026-11-10T23:39:37.245Z"
  },
  {
+  "id": "6489eacadb0e",
+  "firm": "eqt",
+  "title": "EQT executive James Yu sells shares for SEK 31.5m",
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd1lyek5Kb2E4UEZfVnR2c0QyWnVTVnlCZ2d6YlJucXM5Qy16ek52aFl3aTdpYlkzQS00V2RkY3ZENHhSSkZCVzJacjZFV3NKUDVLRGJSZUlwSEUwNGsxQUdNMXVUQlVHTjhfcEd6T2JMWV9XQWdLQVFZZ3BTaEd2WklBVklyRjBfVFN2a1ZrbTlQd3RmSjFJSE1iUk5xWUdyNVpqTA?oc=5",
+  "date": "2026-11-19T05:53:19.000Z",
+  "summary": "",
+  "publisher": "marketscreener.com",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "648b7f584781",
   "firm": "tpg",
   "title": "TPG Ark acquisition talks put UK data center ownership in focus",
@@ -17676,6 +18216,18 @@
   "official": false,
   "firstSeen": "2026-10-21T23:38:08.642Z",
   "portco": "sagility"
+ },
+ {
+  "id": "65dc490cb583",
+  "firm": "partners-group",
+  "title": "Partners Group's French Expansion Cuts Both Ways as Goldman Recasts the Earnings Debate",
+  "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNlltb2R4WkZEa0hHSTRCYi1ReHJFNjU4MTlQWi0yRnVGNWZBUzAwa1M0TTMtVnVIQVJfYWN5VGtVaS1QRjdOcVczWGdocXRPNk5RLTJrdzZuMUdxOFUweUN3UGNfWGlLYzd4aURNUVFaTVRNTlpadXUzd3F2MG9FckFkQWpWdXdBNGNqcTBYSF9mUmpPaDlOWlpsSWxWbEIzenZPSWtLcDRKQ3owTGZXRDhKRENxR2J5Vi1LUjNKS2NicnMtSWhVcXozQU14cm5yNW95ZDRKOXVlaUE2cWxjOWgtdkE3YnFtRDgyR25CaVQ?oc=5",
+  "date": "2026-11-19T09:31:16.000Z",
+  "summary": "",
+  "publisher": "ad-hoc-news.de",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "65defed9e9c1",
@@ -18378,18 +18930,6 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-11-09T23:40:00.470Z"
- },
- {
-  "id": "692bdd5021d9",
-  "firm": "kkr",
-  "title": "KKR-Backed Consortium Agrees A$7.7 Billion Steadfast Buyout",
-  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbkxPOVhlYnBycnVibzlTbWdlODBsa0tJMlluazQzSlYwcWRKbDg3MWlSZUZNUTduTEhJcUk2a1Y4emF2azZSaXJqZXBmdFE3c1Z6WHZiSzRITkxhY3Z0QmV6MmZGWEtMM1Q5TnVEaW8xU3g5dl96X2JqMW9EdWlYY0NfQ0VNdlVEUU5uWDEzQQ?oc=5",
-  "date": "2026-08-21T16:05:15.000Z",
-  "summary": "",
-  "publisher": "Finimize",
-  "source": "backed",
-  "official": false,
-  "firstSeen": "2026-10-05T07:17:26.548Z"
  },
  {
   "id": "69425c6a9ec4",
@@ -19900,6 +20440,18 @@
   "firstSeen": "2026-10-09T00:13:53.254Z"
  },
  {
+  "id": "729698fb4113",
+  "firm": "kkr",
+  "title": "KKR-Led Accounts Invest in Gentari Renewables India",
+  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMlpJb0YzY3VQQlY3ZlVUWVBQWVp3WHQ4R05XcDU5amZpREIxb0pINEtHV0lPNXNVVlpWRkI1OWREQkl3OU4yU3NCbXBlMThsZWE1TE8xM3hINDFkZ2xEUkFxS0RIQl8ydkduUld2aTNiaEtPYkVRazhhUy1FNDJ0MENQcmJZeHFseFN0T25JWnFwXzRTSk9iOFU0bWwzVVZCQVpIR1dGOA?oc=5",
+  "date": "2026-11-19T10:04:29.000Z",
+  "summary": "",
+  "publisher": "marketscreener.com",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "72a0390b6ecc",
   "firm": "warburg-pincus",
   "title": "Ingenia Communities updates on revised Warburg Pincus offer, grants non-exclusive due diligence",
@@ -20007,6 +20559,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-11-02T23:38:36.994Z"
+ },
+ {
+  "id": "7373e9504298",
+  "firm": "peak-xv",
+  "title": "Peak XV’s Rajan Anandan on Frugal and Local AI, Exits and More",
+  "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA2SlpnZEVMaEFqUU9UT0NnN3Q2eWtoMEhsNF9rZ0hCRWIya2VvbE9MNjc0QTFuNEF4Zkc2S2ktcmQ1d2U0WXF4SnlhVU9UQVg2N2EzQkhlbWlPeGo5TGFCcHN3?oc=5",
+  "date": "2026-11-19T16:33:12.000Z",
+  "summary": "",
+  "publisher": "The Economic Times",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "73750326204c",
@@ -20566,6 +21130,18 @@
   "firstSeen": "2026-11-12T23:39:26.914Z"
  },
  {
+  "id": "765c2e711060",
+  "firm": "kkr",
+  "title": "KKR Credit Income Fund NTA Rises to $2.3012 as at 16 November 2026",
+  "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcEE5V1NodENzaGpkc0dMZ2hPQVlPaGZiQ3k4Y0dsN0owamxwcDV4bXI5Z0c3blhvU3psR2lFVE9XRWc0bUhwVWtKSmVKYmpVZXNzTzBBQnl4Y1psU2RqYlBBRTNaZVJ2amlXRHJBLWp0cjczaVBIRjNuUTRWWE5SWHJtYURUR2l4eHRWYkhNaHo1eUVSYzRnZVF0d3VrTndSaHV3T0FORnhzZw?oc=5",
+  "date": "2026-11-18T23:52:58.000Z",
+  "summary": "",
+  "publisher": "Kalkine",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "765d7580acd5",
   "firm": "kkr",
   "title": "KKR to buy fund administrator Gen II from Hg, General Atlantic in $5.1bn deal",
@@ -20685,6 +21261,19 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-09T22:53:22Z"
+ },
+ {
+  "id": "76f9ad83fc96",
+  "firm": "eqt",
+  "title": "EQT’s SUSE: 2018 buyout, 2021 IPO, 2023 take-private/delist",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOF9uSlJEQU9QcE1ndlhrX2VNYTlBRENVWFYzZ3FqUF90dXNoU1pVTlVyUDA2MDZVQlRwcWNUODdoc0xqOFQ4aG9XS2lEamdPMENxdG9TWHlPbG9XX250QnZPNUViRENQTzE4VTVjclh6UThua29JQzVFbGd5Q0d3VnlTcnN4LVBoRzU3dURpaVFZcmtT?oc=5",
+  "date": "2026-09-19T05:55:36.000Z",
+  "summary": "",
+  "publisher": "Dealroom",
+  "source": "portco:suse",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "suse"
  },
  {
   "id": "7728b1ed19bf",
@@ -20856,6 +21445,18 @@
   "firstSeen": "2026-11-18T23:37:55Z"
  },
  {
+  "id": "77b17f462f74",
+  "firm": "peak-xv",
+  "title": "August AI Raises $12 Mn From Accel, Peak XV Partners And Claypond Capital",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcXNZLVUySHlJZDRsd1U0cUdlZFhGN25NUWxWbDFXdXV0b1hvNnl6R3dHUXBaWFhzLW1YSXVqS0xjMjFpVWlnWFl2RzZvTG50SGFETGZjNU40blhybGVLcXRoNWV5bGI1N3F0bmZrTElvZDBxbHFxZU8yRkNPRzFzSW43VkxURDRoUDdkMzYycGRKNkFmTDA0NmtUdVJZSEtlWnpEMmkwSXR2MWhwNTc1bTFR?oc=5",
+  "date": "2026-11-19T08:36:27.000Z",
+  "summary": "",
+  "publisher": "BW Disrupt",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "77b884e6d098",
   "firm": "kkr",
   "title": "Samsung SDS to acquire air cargo specialist Woojung to improve logistics profits",
@@ -21011,6 +21612,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-15T23:37:51.023Z"
+ },
+ {
+  "id": "78b96407b584",
+  "firm": "kkr",
+  "title": "KKR stock: Firm invests in Gentari's India renewables platform",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUmNsd242LTZZbHNPZFhlWDcwRHBMUi1RZTgzMlJudU1pOWR3eWNPclVkV1EyQXNTTURGc1pRc0ZZZUU3ZXFvOWxZUkI5TUxlc09KQ2l2OG1CNEFHSjR0akdhclFGTEowN2xtYXl6S0lVV3hXSFMxTWNpM05UbTFob1ZVVkF3eXEyN1VlLThCbXlmOXBJbXY5SE92Tl9MajZhdzBVd3kyUGFxWVhTMTVQOFZDbGhnXzVXNkM4NmlwLVJsdw?oc=5",
+  "date": "2026-11-19T12:29:26.000Z",
+  "summary": "",
+  "publisher": "ad-hoc-news.de",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "78d0b5846ad5",
@@ -21640,6 +22253,18 @@
   "firstSeen": "2026-11-17T23:37:00Z"
  },
  {
+  "id": "7c9967b13496",
+  "firm": "partners-group",
+  "title": "Price to sales forward of Partners Group Private Equity Limited – DUS:PEYA",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcW8xbjNVSXJTUUVNTzEtQ0FjaUl5MG1MREhJeTNyd3ZkdUF0SzhrbHNkLVMyZGVONS1GUTVyLV9icWpQdjdIQ1M3Y25fY0Y1Z0l2Q0xDc2s2RW1HalBJVEltaXZnYjRkM2doMkJXOWh4a2lYWW1GQjlTV2pXc0wwTEZEN2JfYmpMcHctYm91c1BNdVJmNF9FV3VR?oc=5",
+  "date": "2026-11-19T08:11:18.000Z",
+  "summary": "",
+  "publisher": "TradingView",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "7cb402e8068c",
   "firm": "kkr",
   "title": "Samsung Group Companies Invest $1 Billion in KKR-Backed AI Infrastructure Firm Helix",
@@ -21748,6 +22373,18 @@
   "firstSeen": "2026-10-19T23:37:45.875Z"
  },
  {
+  "id": "7d5aedff0716",
+  "firm": "kkr",
+  "title": "KKR invests in Gentari Renewables India to support 8 GW platform expansion",
+  "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS29IYkxMdk9UNWlMMHYtNG84N2tSZ1hPNTdrWVhzR3VkODktTmtkd2N2WE9GZ2F0LUI3SzlYT0ZhX1g5SjhKMFhzaXd5MjA1dGxPSzVCWEFnNUh1NEhCMEdlT1NNU0E4N1E3NDlHcmMxNHN3MVJLRXV2ZGtSczFoUnpFU1JodGZ2a0xGaW4wT0hlckU0R2x0alYyNEtCSjZSSm8zU2hwc2VqaHZmWUo0LWdoWS1vUjIxREpUMjY2cE54QkdFRlE1OEdobFhLOUlpR25VZTFPTlVFV1hz0gHjAUFVX3lxTE5WMFVYOFpsZlBueWMxZ2xyTE8wWkZXbFdoeGNyV2p4RzdmVzFVNThTd0dWTFRQUm1IMkhZd2xTTHhjYUk5TUwxU2EyeklMOXlqeldPNnhCN0hXZXhkVktVUWdiUkl3RElVTlpGRFRCMWNxRzhoeFpSRnBUNHBIRlJUZ0lXZW85NFJ1Wmc1RmEwdkwwVlNqdm9jaC0xam1SNXBJS0F3ZnVsd3JDSnM1RElSallZMXFoWlM2ZnJSRTd4Z205V25zdW82akxmTTZFMWN4aV9laXZiRl9GQUVWNmFZSXJN?oc=5",
+  "date": "2026-11-19T06:51:43.000Z",
+  "summary": "",
+  "publisher": "BusinessLine",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "7d6ca9b6ce9c",
   "firm": "eqt",
   "title": "Range Resources to Merge With EQT in Stock Deal, Giving Range Holders 27% of Combined Company",
@@ -21842,6 +22479,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-12T23:37:41.243Z"
+ },
+ {
+  "id": "7e29c251ace5",
+  "firm": "kkr",
+  "title": "KKR Acquires Minority Stake in Gentari India Renewables",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqS1ZkZEhfWmd4Q29za3Y2ZnRUNVhWMEhhZ0ljRWhyTV8wQ204cjFUTGRPNGl5SHBRTENXRFp5a2w0OFlkeTg2MUxhUEV2U0w1Q3dlRVJYZWZWZUgza1lHSlQzNHcyTmcwbUg2VjRkenFxdw?oc=5",
+  "date": "2026-11-19T17:38:00.000Z",
+  "summary": "",
+  "publisher": "SuaraGarut.ID",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "7e36e84331a9",
@@ -23520,6 +24169,18 @@
   "firstSeen": "2026-11-11T23:39:17.546Z"
  },
  {
+  "id": "896c71d5d6f3",
+  "firm": "kkr",
+  "title": "KKR buys stake in Malaysia-based Gentari's India renewables platform",
+  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRVp4QVhyemxUUVp6Sno2bTI5RU82Tm9EMktFYjRBTUYyQVgzVXZXdUh3aFgtdXVJZFBscDhvRmJFcHgtRGx3eFlKTk1JWWU2enNBMTJLVk12S3lvdnh0VzRQdWFaN0NMbkoydnFqVUxBUGxoRldvdkl1cnVqZFo0ckdSWnVBN2xEYkFSbQ?oc=5",
+  "date": "2026-11-19T06:33:02.000Z",
+  "summary": "",
+  "publisher": "DealStreetAsia",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "89737ce31b24",
   "firm": "kkr",
   "title": "KKR falls foul of EU regulators over €22bn TIM deal",
@@ -24568,6 +25229,19 @@
   "firstSeen": "2026-11-14T23:37:21Z"
  },
  {
+  "id": "8ef9a8cfe709",
+  "firm": "tpg",
+  "title": "Edtech firm Eruditus raises $150 million in TPG-led funding round",
+  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaWV1S0VlYWdMbFNFRGNza3ZUdkl3Yzk5dFVoVnRldWNlVldOUkM3QVk4d2V3MHhMNk92cDlkSUlyR0p6VHVRX2pOazR3UlB4Q0V5amdoMGV3TXlXeHZHbElPUTF3SEZhMmh3My1XaHAxNmluNDhUVUcxcklKWUFoMHZnWWVGYXZJNWJpaGd2QXlBOV9zSERNVWJSRlhmbzFYZnVPR0pjQ2Ezc0JOR1V6aHlFc1VabHdNLWZRZVVPZUhwcTFjc0pvcmwxV2JFSzZ5ODYw0gHOAUFVX3lxTE43UlU1U0lITWNCdjhJTGdmbGlqTEo5OTFXZHRkbzhLQ3RjTl9JRERjWlBEZjVhTTBCLWhpVHFMNl9uWmdfeWJ2ME9OaGREcFROTEk3R1F3azZhclFCV1ZtZnFQWDc3NVVhTlI5M1gzdlloR2x0Z21TQWUyU19ObkQwZ0NxMEJqZ2lRRU9rRzlJOW44N1NIODhNWkFGRUZlSXd0SWFaTGUwTFpFOTJwWUQzUWFVWUt3Nk1qbWxfSnVwVmpfTUx0TFhPN0ZqdHh3?oc=5",
+  "date": "2026-11-17T03:03:03.000Z",
+  "summary": "",
+  "publisher": "ET Education",
+  "source": "portco:eruditus",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "eruditus"
+ },
+ {
   "id": "8f051637d56d",
   "firm": "eqt",
   "title": "EQT IX takes majority stake in Storable (self-storage software, Dec 2020 / close 2021)",
@@ -25373,6 +26047,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-29T23:38:50.968Z"
+ },
+ {
+  "id": "9354f561bd6a",
+  "firm": "partners-group",
+  "title": "Partners Group Bolsters Infrastructure Bench and Closes Aroma-Zone Deal as Goldman Turns Bearish",
+  "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOYVRPMzBnRktLVDhKbVRfNGppbl9DX1lOanhZU1NJTDN4amZ2OUg4X3pyeUJoU1h4Q0NmcTQxU2ozQ0dUZmctUkFBR3FTRDg4MS1OaVV4bFNxSVdYTk54QWRxYkhtRDJWaDRyeHYyUzNpS1c5bEhWdjliM19JYnZjLVpwZ19CbC01ZUhWdUMyTW41dFdOVERmTFFrbmhJa3o2TkQ3SUFzSGlfTmRRd2pWcl9mVWxTSF9LRW43UWZ1VndMbTlhejI3cmhxQjgzYjJSdzd0QWZYWlBYVFF1NmVuVm15NDZFOHdvOU9tZDVDT0NidmpfXzR3TUJZSXg?oc=5",
+  "date": "2026-11-19T02:51:16.000Z",
+  "summary": "",
+  "publisher": "ad-hoc-news.de",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "937027782523",
@@ -26342,6 +27028,18 @@
   "firstSeen": "2026-10-16T23:37:45.990Z"
  },
  {
+  "id": "98dc637fde3a",
+  "firm": "sequoia",
+  "title": "Partnering with Mecka: Bringing AI to the Physical World",
+  "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE84bDJKUTh2UGxZa0NDN1p2Qi1ERlFteVFtUFBCUkQ5NVhKQ214UkNJMk0tdUtYcnB6d29HZndBbVRQZDY4c3BvWGN0WjJLU3lvN2ZwZWZ1V1ZiN20zSTJsR0tn?oc=5",
+  "date": "2026-10-07T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Sequoia Capital",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "98e95d926e0f",
   "firm": "kkr",
   "title": "Samsung affiliates to invest $1b in KKR’s Helix",
@@ -26654,6 +27352,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-09T00:13:53.254Z"
+ },
+ {
+  "id": "9a8c872eee4d",
+  "firm": "kkr",
+  "title": "Diamondback and KKR agree to buy out Deep Blue stake; Reuters pegs it at $2.1B",
+  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaldaRV9pQXBuRk5UdFVqRGFLc2xhd2E0dEh0dW52Skg0R190ck5tdkRySzlILS14MUxHaERJLXVQeDBsNXRTMmpuNkZXR1F4V0hNRjE5cHJERWo5dUtRdTdKdXRuNktVZ3V3OTFSMGIzNzVxVXphLTc0aFZWLWd2NGRfZUZQOWx6aDZ4ZzNHSU1VczNROTcwUkNKNTBWWk1jcVlkSnVvUjBhUVRUNXoweFJQdFZsMXlCUUU2dnRmZDZDNlR4cUE?oc=5",
+  "date": "2026-11-19T11:25:00.000Z",
+  "summary": "",
+  "publisher": "MarketScale",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "9a8fd75e5f64",
@@ -27294,6 +28004,19 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-11T23:38:23.157Z"
+ },
+ {
+  "id": "9ef9b5463875",
+  "firm": "peak-xv",
+  "title": "Paytm to invest up to ₹200 crore in Funding Societies subsidiaries, acquire 19.1% stake in CardUp",
+  "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOQUZwZUhoZWVDZXotZDE5Y005alRTMnNhbVptTHc5WEhJa3ViMHJLRzdKcUJYZVBPV2l5b1haSmhUZWMxS2s0Yk9VblZVWGhNS3I5ejdEQ2ptbE9TZXpNVHp4V09KX2VKZUxZWEh4YnZXQzVLazMteWNrN1cxZmRoX3B6XzhTeUR6SFV2bmNiaUxMWk43amNMU2RKYTF1bkU5MnhnRjF1UHozaTR0SVRtcTJnS214Ti1ZSVdPYlZvUGdNT3k3ZHpOeC10U2dXNUQ4YlRJUnhsU3h3dXRMbWwxMXQ0bXZKME5PN1Q1cTB2NGdZZWRKclFTdW530gH_AUFVX3lxTE5IZHI4QnE0ZjNFSEhCWmt3Yll2ZWVSS3dyaGdKNVZ6ZjRtMk04Uk1NR3Y3QndCMWVmUzhtNVl4TzhzblF0OC1Uem8wSmFpVnVSM0gwWlBGNkgweDVwOVZuRU5zWkhUNUR2YUpMTnpySkFjdDF0bFV5MXJWN2d6S3g5UWczUWxHUjZ2ODlteTVtaXA4em1CVjJyc3g2dk5fcmxTdUtCamxjNWowOHJ4SV83cUxfMWo0QTNXbTFpc2VOYnhNZUZZUXFSZkhSRTNlajhHRTV1NnhGNENjODFQbnhBN3VucUstRWVXZDlRUzRRWHJqb2l2bHl3U09NbkswNA?oc=5",
+  "date": "2026-11-19T14:56:39.000Z",
+  "summary": "",
+  "publisher": "Business Today",
+  "source": "portco:funding-societies",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "funding-societies"
  },
  {
   "id": "9f1e29aaedc2",
@@ -28573,6 +29296,18 @@
   "firstSeen": "2026-10-27T23:36:59Z"
  },
  {
+  "id": "a7403cdbe68b",
+  "firm": "tpg",
+  "title": "TPG closes in on Bill Holdings buyout – report",
+  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaE1Ldy1zbWdHQXB5TVpHNkxIVkZ0TDc4clFnamgwa2NYN1MwS212RnR1dzhaaWlDbEFjeEpDVGszM1d2RFNDMFYxQ1FvVVh2LWVFaUtsNld0SVhDX3luR1dOaVRFcDJjWGxXWk9ZeWJwYWxiSllOOXVEQy1GZG1XSThPZw?oc=5",
+  "date": "2026-11-19T11:57:09.000Z",
+  "summary": "",
+  "publisher": "Yahoo Finance",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "a755bae94bd3",
   "firm": "kkr",
   "title": "Pricing premium for direct lenders in lower middle market vanishes — KKR",
@@ -28984,6 +29719,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-26T23:37:51.028Z"
+ },
+ {
+  "id": "a9552c6382ba",
+  "firm": "partners-group",
+  "title": "Eurazeo seals Aroma-Zone sale to Partners Group, reinvests €228m",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaGQ1MjN4M2x1SFlzSHJPMk5sMjdOYkoydmN0QVp3R2ludnFvRzc3QmdaTEd0SzJFSjJ5MTQtUk5jTWg5V0t4V052a1dnRU5mekdDMmthT29UZnpQcGRIaXVEQlUxR3N1UlZjMjNlZEtRenVPQWtySEl5U3VnX2tYV2t6ZTVHeDBpRV9aMFc2bDExY0FFaTgxNEpRQWgyZjdwOUhPQzl4YW8wX1k?oc=5",
+  "date": "2026-11-18T11:24:07.000Z",
+  "summary": "",
+  "publisher": "PEI Private Equity",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "a95b932c78c5",
@@ -29828,6 +30575,18 @@
   "firstSeen": "2026-10-23T23:38:28.943Z"
  },
  {
+  "id": "ae182e9d1baf",
+  "firm": "kkr",
+  "title": "Gentari Renewables India Utilities 2 Private Limited announced that it has received funding from KKR & Co. Inc.",
+  "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZWloVkRBUFQ1OGdaRzh3Zk5Memo2dTVLSWI5LW9ieXhxSFN3T3VadWVITktaSkE3eWhseXNuMlY2eW5WdFhaTDNzZFZ4OU94QU1wNGd4dk9ZSkpaR1laN0NCUWlWSXU5ZlZWNzRmejFma2drb0RRbHV3RVhES09ZWjhQeTdYZW9WWkE1bWdLVFhGYnZINTJSQ05QNF84THBQeDZCSVNBLWJLNHY0UGoyOWI4ZTVFYjdqRkZFOHh1RXZlLWZBRUpBNHJSYVlDdXpEMXVrTkVVNTB1VUJyVzRMV0dJV2dYMVhO?oc=5",
+  "date": "2026-11-19T12:11:54.000Z",
+  "summary": "",
+  "publisher": "marketscreener.com",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "ae4c7d5b2800",
   "firm": "ta-associates",
   "title": "Hexagon to Acquire TA-Backed Rocscience for $535 Million",
@@ -30069,6 +30828,18 @@
   "firstSeen": "2026-10-05T07:17:26.548Z"
  },
  {
+  "id": "afc604404b2b",
+  "firm": "tpg",
+  "title": "Ministry of Education Addresses Increased Tax Deduction on TPG for Non-ASN Teachers by 0.15 Percent",
+  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWHFRSm93cnV3WWttaXhfWkZPbzhZUzMzTGpEX0VyOExzN1Zfa1RDWnctR01ncFR4MXM5bVlpUWZNVmI2cnFXRVpBaGpaUTJneTBQNFFRaUxqUVFZYXpHOUx2S0FiNFhqaEIwc0M1R2t0UzRjNFhCbzNLUGNxYWw1U2JKOFVCVVpkLXd1QlZ2eDdlbzZJZG96R0xVNHhiZW9DdEJiWl9qcUN2cUhmaHdfZlJ2ZEJYdUR2aHBrYy1LVQ?oc=5",
+  "date": "2026-11-19T03:53:40.000Z",
+  "summary": "",
+  "publisher": "Kompas.com",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "afe7d15a5456",
   "firm": "partners-group",
   "title": "Return on equity % of Partners Group Private Equity Limited – FWB:PEY",
@@ -30225,6 +30996,18 @@
   "firstSeen": "2026-10-06T00:58:19.774Z"
  },
  {
+  "id": "b09e83c2f964",
+  "firm": "tpg",
+  "title": "Tpg gp a, 10% owner, sells $484.8M in LifeStance Health shares",
+  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWXJhWXVHa1hNU3l1TzRKY2t6UW9UdmE1Z20xQTBHMWZtZEpQMzNUaFZrNEEwMmgyeHRGbnZNMmxwRDBSVkZKOXp4eGMwang5Y3RBMVpEY0dqWl9UOGRTWUVpWFBhMUNZR3ZLTFBsT0xOdlNoaDk2VFJIUVFRcEUySlhHTFl2a1lCR2FIVWdKbUhuUGNSWkc5SGdOWXpmYVhpaUQyOFRUNzFuZGUwejVERXhQN0tPRHotOEJfTHZHZw?oc=5",
+  "date": "2026-11-17T07:31:22.000Z",
+  "summary": "",
+  "publisher": "Investing.com",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "b0a7e8e3d832",
   "firm": "kkr",
   "title": "Yashasvi Jaiswal to KKR or LSG? Why Rajasthan Royals can still trade the India opener",
@@ -30235,6 +31018,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-11-18T23:37:55Z"
+ },
+ {
+  "id": "b0d9a3a0468f",
+  "firm": "kkr",
+  "title": "KKR takes minority stake in Gentari's ~$680M India renewables push",
+  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbUI3alVGSVNsSjhxS2lwZ0Z2dTJQWDJtSmxnRUQ2b3NHTlpCYllXNzJBWHNpcUxRc1JGRnIxWklaQzQ0RUZvdWZxcjgzX1pMUjRRdjB6VHZfYWZ0QV9pUXlXNDJUX2hoRE5LUXE1RlNrXzMxbUxlYmJxNjNwbVZ3eHRhYTZSNW1ZVl9MVTVpa1B4Y1V1a1M5VlRDZXFoTFE?oc=5",
+  "date": "2026-11-19T06:12:36.000Z",
+  "summary": "",
+  "publisher": "Dealroom",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "b118b87a8b57",
@@ -30804,6 +31599,18 @@
   "firstSeen": "2026-11-14T22:53:38Z"
  },
  {
+  "id": "b41c7af58b5a",
+  "firm": "eqt",
+  "title": "EQT agrees sale of cybersecurity firm Ontinue to Quorum Cyber",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQmlrRmZVeEpZNWNBcl9hNGpkZ0N0Z0ttekVweERhZlNyYldwQzBNYUU2OW5tWFNjNzFLYXh1NUR6UkhTWTNXRlNpODY5YXhNZy1RS3QwdWI4ZEgzNE0tU3F3WUhqNjY3MVk5a0ZOUXZyZ2VGUjNQdVQ3c05xT0N6U09fMnNZSnVZVXVWMC1YeFNZeFlfa0k3UmxoSUsyeEhPUVh5a3ZKV1U?oc=5",
+  "date": "2026-10-28T11:54:47.000Z",
+  "summary": "",
+  "publisher": "PEI Private Equity",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "b426b9515d3e",
   "firm": "kkr",
   "title": "RWE, KKR Close £12 Billion Financing for Two UK Offshore Wind Farms",
@@ -30850,6 +31657,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-16T23:37:26Z"
+ },
+ {
+  "id": "b4ecdd430a3a",
+  "firm": "kkr",
+  "title": "KKR picks up minority stake in Gentari’s India renewables business",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWU1kVnFOV0dMUzVmS25SQlZ5WGZBWG1XMnl0TmtvYThkbW9WTk1XTTNDY0p4QTRhbUJaVGJ3RFNyR20tRUUxeFRHRU9nQTB5VWVKbjdiWmNWOUk0ODJPNUFJSnl3aUtWem9UOGhDNjgwOGxEcUN5Y1hSVThvLWxBZi0xN1JEbzBrREFjOW9MWlVTcjU5bUJkRG9uS2FoeVRqcmJJRHJZMEM3MS10dlRySnRnU1B4QdIBuwFBVV95cUxON2dicXVnRXVMU2FUZjEyaFZseExqcmJVbFFOaFlRQ2JfSlVUSGYxQlB2cW9JLUg3OWJLRTE4dDZKQ2NRckFGQkJrelJYSGVVbzZwZUlLNTd3T2lfVWVTSzZhcGVBaG5IRVc5anNpWU1WZ0tyeHBJTURHb1J3UFR3WHMzUDhjVVJ1MFMtNWlkX1JBMFdybzFvUVB6ZlMwMDlXZUgxMkxRdGhyR0FINnJ4NjJBbDFlMmNrbkNZ?oc=5",
+  "date": "2026-11-19T07:06:54.000Z",
+  "summary": "",
+  "publisher": "Livemint",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "b4f8868af70a",
@@ -30996,6 +31815,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-31T23:39:06.690Z"
+ },
+ {
+  "id": "b57ffcb7e5ed",
+  "firm": "kkr",
+  "title": "KKR reportedly leads bid for Japan’s CoCo Ichibanya owner",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTlo1aVdoU3RhTG16bzJmNXdQaFQ3WnBqUXRtUDNmbVhUTThaQW9xWUFxVXB3bnlHNkl0cDN5alZKd1RKaFJJY05uOUJHS3N3dE9JMXhYVXhoMVlVcTZqd055cVJhSmlKaFFSdkRwRmJIbERFQVZqcnBXTWFaVGZWQ3dlamp3THR6UHlnTTV4ZDZ0d2hBdGZDR2F3?oc=5",
+  "date": "2026-11-19T02:10:34.000Z",
+  "summary": "",
+  "publisher": "Inside Retail Asia",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "b5a0fe37c105",
@@ -31275,6 +32106,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-07T23:40:07.729Z"
+ },
+ {
+  "id": "b7835a9b2b56",
+  "firm": "partners-group",
+  "title": "Partners Group buys majority of Rawlings; MLB keeps a stake",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYW51WHVHMUVEOVJkWVl5aHkxVWg0eGRfRzJwVTd2Mk9vZkphRi1RNXZFa2puVngzdTlMSGJGYkE1dFJ1T1hBMzE5eElrRVNrNjZMcUMtQWFLVEREMXRLMDh2eHpzQkVZVy1pZ3ZNNFZ6eEhEcUlJMVZpVHNVZ0Zua1g4ejEtYTc0YjJHVTF1MVhtUzd3MWJV?oc=5",
+  "date": "2026-11-19T18:14:31.000Z",
+  "summary": "",
+  "publisher": "Dealroom",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "b78d38a397c0",
@@ -31593,6 +32436,30 @@
   "firstSeen": "2026-10-30T23:38:31.089Z"
  },
  {
+  "id": "b94c42083250",
+  "firm": "kkr",
+  "title": "Latham & Watkins Advises on Carlyle and KKR’s US$475 Million Strategic Investment in Litmus Music",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZVk0dE15d1VUN2R4bmpHa281dzFOR1hrLVREUXRlY3lvM0NhZUZVOU9qQTBwOEpybElEdFlkYmZfMDRoU1o1MFZUdDVVWUJxWnh5OWxjNjdHLXZxc0VSS0FEalZtZzhRczEyTkZQamtNT2ZlNVl0M0g5cnQ1eUJndk1PcWNuUGRzbzBWVXZqbjNKb3RDWU1WcHB3cWw0M2l6aXd6M21EWDRmTzh1NkRRSU1SSVFVRTBPd0E?oc=5",
+  "date": "2026-11-19T09:57:32.000Z",
+  "summary": "",
+  "publisher": "Legal Desire",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
+  "id": "b9785a671390",
+  "firm": "kkr",
+  "title": "KKR Invests In Gentari’s India Renewables Platform For Minority Stake",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTEdLeEdyUmhFWTRkcUlHdFlhRTQwbmwtU3Q4V21Ra3ZUYkFoNUowZFRyQnlIREUwNTRzZFdNekh2aG9haExGTlpWQzR1WUJsd3NCMmJPT2xUaU51NDdPdWRQbTZoUlEtcHE2c1dpQ0JiUDY0d2RBVkw1OEd3R19VNVRSR2loU2ZEdUVsSXRYREpqaXNyZ2EtTFROdkZqeVM1R3czUklieXJGMTZoRzhJ?oc=5",
+  "date": "2026-11-19T08:06:08.000Z",
+  "summary": "",
+  "publisher": "BW Disrupt",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "b97da226c6c5",
   "firm": "eqt",
   "title": "EQT confirms no due diligence issues in Cleanaway takeover proposal",
@@ -31639,6 +32506,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-11-16T23:37:26Z"
+ },
+ {
+  "id": "b9d0c12d2270",
+  "firm": "kkr",
+  "title": "KKR Invests in Gentari’s Renewables Platform in India",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU0FTTlhmOUphRFhtb1p5bUZxbnhoa3FxZjF2VTJXbWlRMWU4RmVZVnlDeDBqR2lnYzRQZ2N4ZXo4dExsT0Y4SkhmengzbS13YW5RM3k1NEJubGQ5dFcyaTFmVlZDNEZXb2tra3NLX3FVaWdjcm5wWWpzdGN6a1A2LWZ5YmRsM0ZCZ3hENlNROHM5NHdFeXRPbTlTdzk4ak91djBuM1IwR2ZYcXZNblE?oc=5",
+  "date": "2026-11-19T05:34:00.000Z",
+  "summary": "",
+  "publisher": "Business Wire",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "b9d0da6356ad",
@@ -31774,6 +32653,18 @@
   "portco": "boomi"
  },
  {
+  "id": "baa8c39e62d3",
+  "firm": "warburg-pincus",
+  "title": "Ingenia Communities Group Deal Talks Become Non-Exclusive With New Warburg Pincus Proposal",
+  "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQS1JsQkZjYXlqbWt0RGcxUzE1NW00RXEwRDJzdWpaTzVNNG13QmxoN2ROaGdjLVdQeU9ZWmZxcWt6dEJDRFVmUkVrWjNJNnJGc2tfVmd3VjM2bzRmXzJiZUJkcWdWblF6QWNmdlBGSnduVDRDLU95Z3Q4TTZBc015YW83UGlGdjhVS1ZEbThHUmlsNjd0SFRJNHpyZVAtaG9UbDd6Tjh4NmdGSHlRMTZlYnhWcE5yaGxGakpLdnlkZHBLVGxxV1k4N0RQTkVtZWR2c0dENk5zR2dxd2s?oc=5",
+  "date": "2026-11-12T23:49:11.000Z",
+  "summary": "",
+  "publisher": "www.marketscreener.com",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "babf0d606214",
   "firm": "warburg-pincus",
   "title": "Flash Note: INA AU Bidding War Escalates: Warburg Returns, Cementing Peet Dump",
@@ -31880,6 +32771,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-06T23:38:26.940Z"
+ },
+ {
+  "id": "bb514bc1ccb2",
+  "firm": "affinity-partners",
+  "title": "Jared Kushner's firm held a $32-million stake in defense contractor Arxis — and didn't disclose it until after the midterms",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM09tUG5rbEMzMWtVZm9ldVpzOTFjbGNjdXdkLVpMc0loQkdsYXh2YW14TUZUMy1CMmJwaW5UYXdHaHBsMW41eThBTVpFLU94Y1prS3FWazVQelF4RnFRNmhydTFVN3RKc1N1MnhHWWJHeXl2QnR5ZkZtb0dvSkt2bTJFel9ONDJYbFZydDFnd0F3YjMzY1NpVmZ2ZnY3blgxNFd2MlR5NVQ1NTA1dzlr?oc=5",
+  "date": "2026-11-19T23:01:58.000Z",
+  "summary": "",
+  "publisher": "MoneyWise.com",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "bb5aef9e8f2d",
@@ -32678,6 +33581,18 @@
   "firstSeen": "2026-11-04T01:17:00.929Z"
  },
  {
+  "id": "c0196cd74ec3",
+  "firm": "tpg",
+  "title": "BILL Agrees to be Acquired by TPG in Partnership with Corpay",
+  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNckZLdm9UQ2plN1FiYzhIaXBMcW5Dd2lHY1gwMjZQQnRCYmlHLXgybkFYMEpTTjdydDRNUU9VX1VpR01TcTZZRVl2X1dxSXlLS0c4QklUMXBScEpQdS0zdU9aYXhiZl95eVVmc2o0QmFkQjRqN2tac0MyMk83alJ5S2JPVy1JR3hJRkw4ckFpVERuMlZDVG90R0N2Zl9kamJRRDRLNkczV1lwdjduX1V1ZFZTUVJteVVH?oc=5",
+  "date": "2026-11-19T22:46:00.000Z",
+  "summary": "",
+  "publisher": "Business Wire",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "c0364b46982d",
   "firm": "eqt",
   "title": "EQT to sell Korean financial platform Acuon to Hanwha Life, Centroid",
@@ -33109,6 +34024,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-21T23:38:08.642Z"
+ },
+ {
+  "id": "c3f140223d84",
+  "firm": "eqt",
+  "title": "EQT strengthens EMEA real estate capital raising leadership",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRUcyak9zWnN6elZSMGNuTU1NMDloUG96b0NXYXlqcExTU3Zqd3NwbXJtNGQ5SmhLQVNmYXhJUnA1ekxEOFU2OUFMcWNyaXhpN1UxWFN3WWtVZ010bzYtLWIzbS03dUUwb2pyX3hjWFJZMVhqRDFjeWpmRVBPeXlhMDJPc0FEUGxRdXdrMnRxQjREZ0RV?oc=5",
+  "date": "2026-11-19T11:16:21.000Z",
+  "summary": "",
+  "publisher": "PBSA News",
+  "source": "recent",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "c4057205fdfb",
@@ -33966,6 +34893,18 @@
   "firstSeen": "2026-10-07T00:14:27.072Z"
  },
  {
+  "id": "c9000d6b4322",
+  "firm": "kkr",
+  "title": "KKR release Pathirana but retain Cameron Green",
+  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOXlFMzJSbVJsbnhneXpvQVpkRVdyOTdDdmgwZWZ4a0lnRndTWUdfak45Z2xJN3RJaDhhYmhqZlEwUldHTkxISjNlaFVRMFpLR01TYVB2TTFnWDZDeGw1YzlmUGVxN1d4SVIxYThqRHV4THJ5VEtzaVBGNzVpQjd6VVVHdk9ZRlRBcV9YTVFIYmFCMmliWVlLczdlTHZxZ0ZGTXZJWk9iR3Bqa1RZT0c0X1pGd0xWN1g2NTNTTW5NdE9zckE4NmdtbFpXQ19QR015bWRIaENJaUI5QQ?oc=5",
+  "date": "2026-11-17T16:44:50.000Z",
+  "summary": "",
+  "publisher": "Cricbuzz",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "c90b8b2cc228",
   "firm": "sequoia",
   "title": "Sequoia Capital closes London office as new leaders deepen overhaul of venture firm",
@@ -34048,6 +34987,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-28T23:38:02.490Z"
+ },
+ {
+  "id": "c9d620dbaa20",
+  "firm": "kkr",
+  "title": "KKR takes minority stake in Gentari’s India renewables platform",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNVlNMXdRNXpGOUdpcXBncDJVUkcwdXhMb2ExTFVveS1SbHZob2UzT2lmS0FKekcyM1h1VVQzRG9ZTXBMZlVFYTllTEhmbFpHdTJrMkJvbzF0Q0RuVUlxakt0ejRfTnFkZUJYRThOdVU1NF92SUpSRFpIS19nV0ZBT2tpX1FIWl8tVGtTTHNxcW53QmkwVmNoQmdHTHg3NEk3Z0VTdWQ1SWpXSlJT?oc=5",
+  "date": "2026-11-19T12:29:27.000Z",
+  "summary": "",
+  "publisher": "PEI Private Equity",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "c9d787dab0c5",
@@ -34266,6 +35217,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-13T23:36:45Z"
+ },
+ {
+  "id": "cb14e9022ec8",
+  "firm": "eqt",
+  "title": "EQT to acquire Flatiron Energy, picking up a 24 GWh project portfolio",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNDZ0RUV0dWE5Ymptb3RjSzBYQ09MdTRWUWJ5RFBFU1pXMGtwSnVSOGkxbkw3WE5zRzJlTE42MkQ1UGZrTUdEWkxleG45TjJCYUt4dFdJSWFoSFI1dkZKSWlyZ2pRVW4wR1Z6M0Jrb3d0bHFpMVFDNWtacmcycDlEalNncHlOMmFiejZUN0Z5UlotZ1Z6eWdSenFGTDFvNGx1dnFjWHNaRzU?oc=5",
+  "date": "2026-11-18T17:13:58.000Z",
+  "summary": "",
+  "publisher": "ESS News",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "cb1f944959dd",
@@ -35474,6 +36437,18 @@
   "firstSeen": "2026-10-05T07:17:26.548Z"
  },
  {
+  "id": "d10f00f16cfc",
+  "firm": "eqt",
+  "title": "EQT to acquire a leading Australian digital auction marketplace Pickles from the Apax Funds",
+  "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVmlxQndPU2ZhSm1MYUxKc0ZnUmh2RGVUbV9XWUg1SjduU1VLSmljSkxkbklNYkZEX1JHbm50X25Cczd3ZGpONWV0SEprNHhPdHJwRFdya1NhR20wcnU5a2hud0hscG9tS1FZVW1sSDU2R1Y4NDM4OGFaQTdEaFhCaXp1bEFCb3dKRVZnSUJNeENuQnVNSU14dkptSHFVeV9EMVhvaEVxajU1Q1EteEFacEVlT2dtVHA4X3NJMUFVWV9oLXQ3ektkRVhLX1R0UURCa0M0cXFiOE8yUkNrZFBKU2ZoakVNaUk?oc=5",
+  "date": "2026-11-19T22:56:00.000Z",
+  "summary": "",
+  "publisher": "TradingView",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "d114b730e31b",
   "firm": "tpg",
   "title": "TPG pursues $5 billion acquisition of British data centre group Ark: FT",
@@ -36619,6 +37594,18 @@
   "firstSeen": "2026-11-17T23:37:00Z"
  },
  {
+  "id": "d825148d0e32",
+  "firm": "kkr",
+  "title": "KKR Makes Minority Investment In Gentari’s 8 GW Renewable Energy Platform In India",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYUdsU3pVclBNYnhrLW51UnZkd3JmaktIRUlSTWN2V3VYcU4xMFU0MS1oSzh4RVRfeVhFSzNxU2pKS3h5TE1LWk1fMWRiUVkxa1FXWjVtd0hBeEFudW9iOV9JVGRweVJQYzRLNWM3MXlwNXEtZ2pJcEMzSVItS3hPV0xFcmlLSU9FQ2hvbkR4ZHdoZXlCbUZ6cE92SkljbjVwR0FjTHJtZWZBQ0x6VzB2RkJpZHRtUE1EYnc?oc=5",
+  "date": "2026-11-19T11:37:16.000Z",
+  "summary": "",
+  "publisher": "SolarQuarter",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "d82727fdb991",
   "firm": "kkr",
   "title": "TotalEnergies and KKR expand their solar joint venture in Texas and Ohio",
@@ -36920,18 +37907,6 @@
   "firstSeen": "2026-11-08T23:39:13.278Z"
  },
  {
-  "id": "da09976ba1bb",
-  "firm": "kkr",
-  "title": "KKR-Backed Group Agrees To Buy Steadfast For A$7.7 Billion",
-  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeGZ6SGptU1pseW5sVkllMk51ZnJycU1UeGhqOEpob0xjdjVmU2pXaXRyeWh2RUUyaDQ3MUdxWE04QlZLWmNacmY3c1ppVnYwTXVPU1hCUjhGWW1FU1AxTE5hblBVbGtaNmlHNXFmM1RwRE41eVVGU0Ytd00tSXFpNFZGSmtnZjlac0JaVEdR?oc=5",
-  "date": "2026-08-21T13:49:51.000Z",
-  "summary": "",
-  "publisher": "Finimize",
-  "source": "backed",
-  "official": false,
-  "firstSeen": "2026-10-05T07:17:26.548Z"
- },
- {
   "id": "da1731bbd452",
   "firm": "kkr",
   "title": "Blackstone (BX) vs KKR (KKR): Which is a Better Stock to Buy?",
@@ -36942,6 +37917,18 @@
   "source": "recent",
   "official": false,
   "firstSeen": "2026-10-05T07:17:26.548Z"
+ },
+ {
+  "id": "da1ef69a2fcd",
+  "firm": "kkr",
+  "title": "KKR takes minority stake in PETRONAS’s renewable energy business in India",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRjN5WTZkajZHNjN2ZEtPZU5uSXhVZHZFQzNuU1g5NHI5R3h4OG1QcXRYWHViV3RELWRJZXFwdVplSzQzLWpvRWVZRTcwTUkzUEwweWprbEI0cFNxZk5rNV9JQmtJMHRlVlpORlk2WnpWdlBxRTFWSkJmZ1FaSjRFQVlnc2lxYzF5MDFyV2xHRQ?oc=5",
+  "date": "2026-11-19T07:25:36.000Z",
+  "summary": "",
+  "publisher": "Traders Union",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "da22a1627ac1",
@@ -38624,6 +39611,18 @@
   "portco": "incred"
  },
  {
+  "id": "e373ecc435b0",
+  "firm": "eqt",
+  "title": "EQT to exit elderly care company Colisée",
+  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdkhZOEIxUDBibVByWlhfWFVlTUxybjJJUkdoMzFnRVJ2b05RR0NCV2ZkTXdWeGh1X2ZyeUdWWkd1UE9DWTF2UWxoU0s5NVEzSXZaekRGNzhaWTFtejRLT21WQlVfV2dQUXlaMVNVeGtqM2JfdnR1cGtjTWhMcGhsSWJVR3ZBN240T0UxdA?oc=5",
+  "date": "2026-11-03T17:44:56.000Z",
+  "summary": "",
+  "publisher": "PEI Private Equity",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "e3765b6581c0",
   "firm": "eqt",
   "title": "EQT to invest $50 bn; AI infra, renewables in focus",
@@ -38862,6 +39861,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-17T23:37:00Z"
+ },
+ {
+  "id": "e45590aaa7e3",
+  "firm": "tpg",
+  "title": "BILL to go private in $6B buyout led by TPG with Corpay",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMmZ3aEkwc0l1ZGhtZ2FPRGgwWjJuMHZCZnJWcGVRbTNqUmstOVpZUU4tNjBtMnpJalhOV2w2NV9ZZ2ZBRG9MZm43VDNxb1pYVEdSdXFQSEJoMTF3WnlQSjhhdzNjZnoyY3RtNE45OVRaN3QxS3NUWEZqTW1xSWFraXp1OFA2WGZYWmpEZkkwTFdTQQ?oc=5",
+  "date": "2026-11-19T23:17:53.000Z",
+  "summary": "",
+  "publisher": "Dealroom",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "e462d7b67aae",
@@ -39525,6 +40536,18 @@
   "firstSeen": "2026-10-05T07:17:26.548Z"
  },
  {
+  "id": "e831db92625c",
+  "firm": "kkr",
+  "title": "KKR reassigns asset management of two German resi portfolios",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTmVJUDZQQVQ3Z0VKWGJ0X3lyM2xXQkVQeHdHbG1zb3JPS245YjVaV3NPWUxvWGtrMThHM3BBTkNnOHl2SU5mcURjWjdhWDlqbGxWUEdrem1JR0VOY0N2aW5DQ3IxUDRaNnlIRlN1QU1QZndYMnlXU3BzdHExM3hITU1qX0VlQk1Odjg5djhSbzVoTm1xYm5uTEpfYXFUQQ?oc=5",
+  "date": "2026-11-19T10:44:12.000Z",
+  "summary": "",
+  "publisher": "Green Street News",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "e84e89949152",
   "firm": "partners-group",
   "title": "Partners Group Launches Global Multi-Sector Private Credit Income Strategy",
@@ -40151,18 +41174,6 @@
   "firstSeen": "2026-11-11T23:39:17.546Z"
  },
  {
-  "id": "ec1836b93de7",
-  "firm": "tpg",
-  "title": "BGH Capital tops TPG's offer for Australia's EQT Holdings",
-  "url": "https://www.dealstreetasia.com/?p=492840",
-  "date": "2026-08-21T00:00:00.000Z",
-  "summary": "BGH Capital made an indicative A$24.75 a share approach for Equity Trustees' parent, topping TPG's A$24.55 (about A$658m) proposal.",
-  "publisher": "DealStreetAsia",
-  "source": "coverage",
-  "official": false,
-  "firstSeen": "2026-10-20T22:53:55Z"
- },
- {
   "id": "ec209e5571a1",
   "firm": "tpg",
   "title": "TPG (NASDAQ:TPG) Stock Price Expected to Rise, TD Cowen Analyst Says",
@@ -40209,6 +41220,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-24T23:38:36.467Z"
+ },
+ {
+  "id": "ec938e1702b2",
+  "firm": "kkr",
+  "title": "KKR Acquires Stake in Gentari’s India Renewable Energy Platform",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX1JuVkxtaFlhQmdFU0J4djczNm9Ca0pjYWRGTWtyR0pkZ1ZnTkJDSm5OdXR4S2RoZEZITnRmdjRTbGgtRkd3ejBfZnlwQUgtcnhCamx3cFhFaGQ4cU9pZ0VraVkwY1E3aUc0X0IzWVgxNlY3TlJJdFBzM2NsZ3FfOXlJcFlTRXhHSF8ySWY4Z1ViQQ?oc=5",
+  "date": "2026-11-19T15:46:57.000Z",
+  "summary": "",
+  "publisher": "ESG Today",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "eca7040be705",
@@ -40463,6 +41486,18 @@
   "official": false,
   "firstSeen": "2026-11-02T23:38:36.994Z",
   "portco": "equity-trustees"
+ },
+ {
+  "id": "ee16b6375a67",
+  "firm": "partners-group",
+  "title": "Partners Group Draws a Second Bearish Call as KBW Questions the Payoff From Its French Build-Out",
+  "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPaFdlMExkREhRUThmLWNSRlM4bWZYc1kwTHdFUmgwcWZyRHFuUGh4dFNPblE4bWw4WjNSREFlTEFHbmxfMkY3NWJUMXNNRHlOdExrY3RPZ0U0T2NlckplS0tPb3JiR3BZelVMaVBEbGlWOVhWZXNnNWVyZXFmVWZzaHFLWkJlN0tRTmZnOGJQTkFWd2NuZXN2VHdHcHVVbXctOXdPV3BJN1FwV3VGVEI1cGx2aEtScHNNM2lrZkk4QklpcTM1aXgtVVB4Q3VKSEt3SmdhLTEwUmhxdU80akwwNnpfUXUwTkhCcEI2NjFmUjN6Ykc2Z3ZUYkcxWXo?oc=5",
+  "date": "2026-11-19T14:51:22.000Z",
+  "summary": "",
+  "publisher": "ad-hoc-news.de",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "ee2e7a277c88",
@@ -40801,6 +41836,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-05T00:18:25.007Z"
+ },
+ {
+  "id": "efaa9fa542ca",
+  "firm": "eqt",
+  "title": "Travel group Kuoni picks private equity firm EQT as suitor: Reuters",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRmZZMlZka1g4WEVvcUNwdGx6dW1GUnVEZXM2MEh1OG4xSjZWU2dHV1ZxQk9uMmJpLTd3aEhjS2ZxUVF0ZlFZTXI4MHVDOXNrSVJvRWdTTkZZMkRDSEl6dlJ0RFphUVY5bjRVS1ZJNlRKZDdWbEF4MUNZRUdPUWNsX3o0SmxfbXdfaFBuOHZNVjRJeFFNSThJbmI2S19uYTRqZU9mR1RQZ2xDWnFacks4?oc=5",
+  "date": "2026-11-06T01:12:42.000Z",
+  "summary": "",
+  "publisher": "PEI Private Equity",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "efb396a7f829",
@@ -41224,6 +42271,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-11-18T23:37:55Z"
+ },
+ {
+  "id": "f269584145e2",
+  "firm": "eqt",
+  "title": "EQT to Acquire Energy Storage Developer Flatiron Energy",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbHhHQ29jR25iYmt1LVBjMjlOX2VweVk0M185YU5hZVVmMEZlTDJGQTdIeTR5bV83ZlpXd1dGTjZ1c0dtRmJjMEFkYlZZOFdhU1R5azJmU3o4Z2ZBM0h6eVdmeUdyYVhNY1dSRXJVVlRER0otS21iV3FoYW90TWNnQmlvdjh0UEdHbkNV?oc=5",
+  "date": "2026-11-19T07:47:36.000Z",
+  "summary": "",
+  "publisher": "Mercomindia.com",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "f27ec0e1d271",
@@ -41755,6 +42814,18 @@
   "firstSeen": "2026-10-16T23:37:45.990Z"
  },
  {
+  "id": "f5b7bce46e6d",
+  "firm": "kkr",
+  "title": "\"What else is Jadeja there for?\" - Former KKR batter questions India's team selection for 1st NZ vs IND 2026 Test",
+  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObDJHMlE2SEtFQnRHN2ZnU2NaLW9MUWd0VG40dy15aGU4NUxfbWZ3ZDRnUm9PVmY1eVZpUGtWOHpEbE9mMlhSRFRNZ2xyNnNqZFhlc2FzbzJRMWFLY2NYQWRoa2xaN0d3M2N5clpsZHhKeExKU1ZYYWNaY3JOQV9fLXU0NF91eEFEbFgwNTY3U1p4ajRIVVZHM0prM2hwaUdGdC0wanlxbjZIdF9nZWdoVlFFbjdCSXpGVmFqdjlUb3YzbXlEZEM0Q0xaa0V3U3ZXeXc?oc=5",
+  "date": "2026-11-19T15:46:31.000Z",
+  "summary": "",
+  "publisher": "Sportskeeda",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "f5c4d6daa388",
   "firm": "warburg-pincus",
   "title": "Ingenia Rejects New $1.5 Billion Warburg Pincus Takeover Bid",
@@ -41911,6 +42982,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-05T00:18:25.007Z"
+ },
+ {
+  "id": "f6ec09d21072",
+  "firm": "kkr",
+  "title": "KKR completes USI Insurance Services sale to Aon, generating $3.3bn after-tax proceeds",
+  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSldUZHhxbFFXNjN2Z3ROZmhDSDNCVXB4R1JSRkwzS0pUZTVCUGpjbTZmZkZoTVRWclJQUFVaSDczaUthbkJOQ1ZjejlDVkZJSUdBa0Fza1BjYUxRdTJTUXl1NzdvZURjX2h4MUJER1V5N2VFS3BaS0E2eGFuZUZHR2JHbVVxQi1MQXJURGcyWFRhaFZmNE5YZEpqTlBhT25YRmpubDVWOU1Ra2lfY2pIVmhMLWQ1VEh5ZlMyT2ZJX3hSRWFUMktr?oc=5",
+  "date": "2026-11-17T08:24:36.000Z",
+  "summary": "",
+  "publisher": "PEI Private Equity",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "f7087993af67",
@@ -42842,6 +43925,18 @@
   "firstSeen": "2026-10-15T23:37:51.023Z"
  },
  {
+  "id": "fcf884d8a2d1",
+  "firm": "kkr",
+  "title": "KKR buys minority stake in Petronas unit Gentari’s India renewables arm",
+  "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdnQzaGhqYmFmRzhkSWQ4NzROb0xhWTlvbzRiRnp6YWhjZDBGYVo4blRNbWpmdjRIb2t2SnpFeVh0Qjd6TnJSX1EzRnk5dHc2MkEwMWhWalotMWp4SjZhYnYwS0pOOFFickJTblRJYUFHOG5TYnpvTlpSTmdXZDNrYlVZcGpGektsZnVJUjRWOXA2X0pYZnV0STRQTWk5c2VaTHBNQnVpWng4dmZjQkRodEJLellGZUp3WTNFVWZ3MnZUaWpkZjA5VVY3SmMzdkhWM0phNGJPNDNnQ2ps0gHiAUFVX3lxTE5DSWdZZmE2Tk5wSVROODRmZWhNZENfUVZxQTA3cFozUFdrXzN0enhndE9qd3VOUXRIcWlJazlEVk9wU1A4YlBNWkVyNTdGQlhDV1ZrQlF4azFNSEtjYmZqdlZVRDFXVjkyZWZEYnhTeDM1ZThRUXdyb0ozTmtFWVpDTmw4eVh0X0dyUXVXdEsxRHkzWVVQcmkwcmRGcE9PekpqU0k0RTBuMDdUQkdwdkl5U0xtSEs3ZGJDMnpld3NmQ1p2dGgyX3dRNHpvZHlxZThHMk5CdnJiMU9oZmVzaGFvZmc?oc=5",
+  "date": "2026-11-19T10:30:53.000Z",
+  "summary": "",
+  "publisher": "The Economic Times",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
+ },
+ {
   "id": "fd0cc51c265a",
   "firm": "kkr",
   "title": "KKR-Backed Advanta Said to Start Road Show for $400 Million IPO",
@@ -42972,6 +44067,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-17T23:37:00Z"
+ },
+ {
+  "id": "fdd2928e53b0",
+  "firm": "tpg",
+  "title": "TPG, Corpay to take BILL private in $6B acquisition",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaDg2RnRvYTJQdXYwMUxSVHBlcFNWYVBudkx6OTZjWmJmcXNOVHRNSmh3ektac1k4VXZLa0dDMUlvSGV0blJULTdmR2Etb3VkUmdzREpKUFRtXzJsSVdKVnlIbnBWZTdpdXJVZ095Uko0TjFoNTJBNVc3bHlvUWZvTFd2eG1tR3hKdzNDS3FjMEpYcGthbEpHbGIxSXZpdlNYa2F3Z1NFeFp3TGg1SW1xYUhB?oc=5",
+  "date": "2026-11-19T23:08:04.000Z",
+  "summary": "",
+  "publisher": "TradingView",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z"
  },
  {
   "id": "fde5cd01ce2a",
@@ -43265,6 +44372,306 @@
   "firstSeen": "2026-11-05T23:37:14Z"
  },
  {
+  "id": "85ea7209e3d1",
+  "firm": "tpg",
+  "title": "Tata Technologies Limited FY30 Growth Ambitions Based on Multiple Levers Including Selective Capability-Led Acquisitions",
+  "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQcEVmR3JpcDFiR1Zxdnk5TUVFbW5VaUl3bHE4c3piNEpFLVNjVFhwaU4zTWVidEtLajJEVmhZTWNTX3JFNGVxSEZ6QmxiZWdlemNjSDd3Mm43SFkxd19mWGt5UGtlbno1VFctR051TnZVUWNFR0gwOXF2cndIb28zd3ZYSHFuMXB3cXR0Nm9hNUVvdnZET08xME5YZmktZGtSeUMwR19OdDdLTThGYkk5RzVBTzVUVkpBUU5icVFDMkVSVHJkcDh2cjRNWlZDYkhTSGw5bGJpckJIdGpvUWdzS3BEcmlZMzh4?oc=5",
+  "date": "2026-11-19T21:22:13.000Z",
+  "publisher": "www.marketscreener.com",
+  "source": "portco:tata-technologies",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "tata-technologies"
+ },
+ {
+  "id": "21e5b263d1b2",
+  "firm": "navis",
+  "title": "Pharmacy chain Big Caring ends 0.9% higher after $155 million Malaysia IPO",
+  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS1BoY3VjMkRhcG01cVlWaE03T3pZNS05bzRyYllMN2xkakl6TmJOeGRSQ0pqSjZvNmRDM2ZNUHVpdzl2dl8yN2dfQ3VCX1lhU0ZWcWxHSU5vd1NYcmx3UFdLUW5VY3VJaUFYSGNwdFJOdnNZSmhqTjVrZEQtSk1nNjdVZGNtWUdGaWRyU0xoOXNMYy1WXzBiMUpLOTVSUDR2aU9kNTExQUl2ancxYUhvUFdGUi1ocm1DcU5qNTVFQjhxYW9SZXc?oc=5",
+  "date": "2026-11-19T18:45:46.000Z",
+  "publisher": "Reuters",
+  "source": "portco:caring-group",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "caring-group"
+ },
+ {
+  "id": "6406407d6d36",
+  "firm": "eqt",
+  "title": "Anthropic Opens Today With Demand Seven Times the Offering, So Remember What Musk's SpaceX Did After Its Debut",
+  "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNc190dWZTcG00dnRDalpjYm45UlNFb1dfOVBQdnFLeVViajNMaFl0RVUzaFZFOUJEQnY5eXMwX3E5aktPWkN5aUZ5MDlJWlhjellySlA4bG1XTjU2NHpISWI4Vm9PX0ItUG9EVnJRRy1YeXY0b2dCLTNtc0NKR2ZjbUR2TjVzNC01SGZFbWdaZUxnWjFXcGtEZVZjT0haX3o2OVc0VG9NcXJCa2hwTEdoSERqbnhHZ0p1dlc0RDJOdW5iZjJSRmVYdl9nMG5sQXJfaVhEVVBFWnRnd29yV3cxLVBzNXczUDQ?oc=5",
+  "date": "2026-11-19T17:52:00.000Z",
+  "publisher": "24/7 Wall St.",
+  "source": "portco:remember",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "remember"
+ },
+ {
+  "id": "3222e7abb187",
+  "firm": "ta-associates",
+  "title": "Viridian Therapeutics, Inc. Stock 12‑Month Price Target Raised to $42.76, Implies 42% Upside",
+  "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNW1ydmtJNVZuR1ctS05DN3FGYWRPSXhnTnY0b0VNSWFHOTFHS05qWk16WHFZd2lTcXhSd0RuUnBYZnM0RW91aU4zamxNMi1aUndteTdaZUJDcjFzMUdyNzFNTHhwUUFfZkJYTFNFNmJrS3dnTmFHeUhpX3A3bEk2enkzd1NTVU1EdUdaOTRlWDl5ZjN3ZXgzYU5veVQtejJ1ZlFkU3FxQkczQXA0ZUZVNDd2TlEyWGliOTlmWUx4ZkNCVFFKREFHbHZFNzZKUF9EZEVTYjNKOHpINW1lTmhKNVR0Zw?oc=5",
+  "date": "2026-11-19T16:20:00.000Z",
+  "publisher": "TradingView",
+  "source": "portco:viridian-financial-group",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "viridian-financial-group"
+ },
+ {
+  "id": "1dac1d5395b7",
+  "firm": "ta-associates",
+  "title": "BofA backs ADP, Accenture as AI reshapes payroll and IT services",
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMGJkLTR1ODl1dmlSWWJiMUlULTJjSUllOFNrcG9hM29HMW8xajNjangySFQwWk5jb1pRblYxaC0zLWEtZGRBVkZmcG5RbzNFd1Z3N0lZQ0FSVnY0XzJNaTMzSHVfLU1ndGd3THZQbVNaVXBLaFplQi1wOWJ3bVNfclZYMFZQQ2VzcThBS0JnSTE3OGI3WV9IYmlJQ0gyUnEwUDJtdDJBeEVlazFVcEEzMm9YMFpPVGl0R0ktRQ?oc=5",
+  "date": "2026-11-19T15:38:57.000Z",
+  "publisher": "Investing.com",
+  "source": "portco:payroll-inc",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "payroll-inc"
+ },
+ {
+  "id": "8b06b30bc21a",
+  "firm": "peak-xv",
+  "title": "Tiger Global-backed fintech unicorn Razorpay is reportedly preparing to publicly file documents for its initial public offering (IPO) in India as early as next week, with plans to raise up to $600 million and a potential IPO launch in February 2027, according to a Bl",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE96enI3N0VPRHFHNWJoWTl2alRVZ2M4VllJbUIyaXF4ZFhrWl8xdWI2RHRRakFSdDRhcTd3bnl3OFo0ckU4VW9rRDJ6d1VXV3lfa0E?oc=5",
+  "date": "2026-11-19T15:30:07.000Z",
+  "publisher": "Instagram",
+  "source": "portco:razorpay",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "razorpay"
+ },
+ {
+  "id": "a96c4a55a9cc",
+  "firm": "golden-gate-ventures",
+  "title": "Paytm Lines Up ₹200 Cr Investment in Singapore’s Funding Societies",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSWNremRIUFNOaFhaczRGaFN0cjNZTkVKaGRpMmQ0VGlYRHZUNDYzOWdydXo2Y0FSMVhPZjJEODVKMHlrTmRSdHY1ZWxZckRhQ0JmN0loM2w0SThnbjFKak1YaWZ6MnFqSTNHMzc1MXlrYXBsZjFHV2xva1Ffc3BiUEFoMDZ1RUtPMTFBNzJtOTBkLTdOVUFXLWFzTU1GQQ?oc=5",
+  "date": "2026-11-19T15:27:42.000Z",
+  "publisher": "Inc42",
+  "source": "portco:funding-societies",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "funding-societies"
+ },
+ {
+  "id": "cb93128e5117",
+  "firm": "peak-xv",
+  "title": "Paytm Lines Up ₹200 Cr Investment in Singapore’s Funding Societies",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSWNremRIUFNOaFhaczRGaFN0cjNZTkVKaGRpMmQ0VGlYRHZUNDYzOWdydXo2Y0FSMVhPZjJEODVKMHlrTmRSdHY1ZWxZckRhQ0JmN0loM2w0SThnbjFKak1YaWZ6MnFqSTNHMzc1MXlrYXBsZjFHV2xva1Ffc3BiUEFoMDZ1RUtPMTFBNzJtOTBkLTdOVUFXLWFzTU1GQQ?oc=5",
+  "date": "2026-11-19T15:27:42.000Z",
+  "publisher": "Inc42",
+  "source": "portco:funding-societies",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "funding-societies"
+ },
+ {
+  "id": "9cc3d7877923",
+  "firm": "peak-xv",
+  "title": "One 97 Communications to invest up to INR 200 crores in Funding Societies subsidiary",
+  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM2MtUV9ZcUg5Wk5NMWpHYnRhUi1kbS1qNmEwZUNSSkZfZ0dNQmFubHBLSUlpaXdUMmFkcjZhNmZZR3BZaF9kZDFEVG9DeEtXQVJMRFVzU3hjSUZQcGMxZVF5OXh3cnZ2NUZjY3RNSnJaU2ZldEZNT2pKRkZueG9fMnd4cEFXNndDUkhSYldFTF9QWXE0bWJoWGQ4dnd6bjdoeW8yY3RLc2dGbGIySEVOeHB3bjVmaHJaLTlLYnpn?oc=5",
+  "date": "2026-11-19T15:22:50.000Z",
+  "publisher": "Business Upturn",
+  "source": "portco:funding-societies",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "funding-societies"
+ },
+ {
+  "id": "f9cd62148e21",
+  "firm": "golden-gate-ventures",
+  "title": "One 97 Communications to invest up to INR 200 crores in Funding Societies subsidiary",
+  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM2MtUV9ZcUg5Wk5NMWpHYnRhUi1kbS1qNmEwZUNSSkZfZ0dNQmFubHBLSUlpaXdUMmFkcjZhNmZZR3BZaF9kZDFEVG9DeEtXQVJMRFVzU3hjSUZQcGMxZVF5OXh3cnZ2NUZjY3RNSnJaU2ZldEZNT2pKRkZueG9fMnd4cEFXNndDUkhSYldFTF9QWXE0bWJoWGQ4dnd6bjdoeW8yY3RLc2dGbGIySEVOeHB3bjVmaHJaLTlLYnpn?oc=5",
+  "date": "2026-11-19T15:22:50.000Z",
+  "publisher": "Business Upturn",
+  "source": "portco:funding-societies",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "funding-societies"
+ },
+ {
+  "id": "cb05345cd192",
+  "firm": "navis",
+  "title": "Big Caring rebounds to end above IPO price in debut on Bursa Malaysia’s Main Market",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVg3Znlqd2hYWjcwc1NqUWVxUmY1Q2l4SlZFckcyT2p3VUNMdVpheG1uRklVZTh2U3Zub2dPVVcySlhINUFTLXVFWTYxbzdUQ2VfQUdGdm9wZGVLYVVMOVBXdDg0NzJWSEgyQnptQ1M0aE5uVTRsUFpfQUNCTThGWG9aWDF0Z3pPd3Ixajd3dHB6cENTNm9YN2piajV2bkdURFB6ZF9mSTg0c25mWUE4?oc=5",
+  "date": "2026-11-19T15:20:10.000Z",
+  "publisher": "The Sun Malaysia",
+  "source": "portco:caring-group",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "caring-group"
+ },
+ {
+  "id": "79ad592c525c",
+  "firm": "eqt",
+  "title": "School funding allocations for England for 2027–28: IFS response",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYlNoNVFmRGdZN0VWYnUtUUQ2cmxyRG9qbEJsNEFHblJraHpNSTJyTkFLMUVaTW1GWS1ZR0syVXNkV2ZNT3poLWtvdVJwd0F0UFJGQjdrLW43SEEtWFBFSUVVZWVLYWpwQTk5Tjhicy1KT1dWWjBHQ0ZpWXdUeTJqdGlneDlmSUEtYTRN?oc=5",
+  "date": "2026-11-19T15:12:10.000Z",
+  "publisher": "IFS | Institute for Fiscal Studies",
+  "source": "portco:ifs",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "ifs"
+ },
+ {
+  "id": "c3d59c85490e",
+  "firm": "eqt",
+  "title": "Vistra Corp. $VST Stock: Voya Investment Management LLC Trims Position",
+  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONEhpUzRRUE5rczkxYlpMQ3lJVVR6bHUxcUFMMGppb19YV3FJN1loeld2ZWdCejNhLVNwY1NwQk4yNktXTFVpd05KVWtVSnBxbk1wTlFSelJWQ1JHd1dJVlpoeG5vc2pjLTMzY3EwdFFHbjA1U1NDNWpYM2NXUFBYNmJwOXFsZXV4YzNnRGpQTWJxRXdPMWNwdkY3VVBlRThpbW1UdDFFTVBkS2xhbnMtMzNTRkZIY0FDZGJDanRoVjloTmlZMzZR?oc=5",
+  "date": "2026-11-19T13:21:16.000Z",
+  "publisher": "MarketBeat",
+  "source": "portco:vistra",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "vistra"
+ },
+ {
+  "id": "12629d5423d2",
+  "firm": "peak-xv",
+  "title": "Paytm, Pine Labs, MobiKwik shares tumble up to 9% on MDR delay concerns: Should investors stay away from fintech stocks?",
+  "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPbVB2dHdpTWVLOGltcDhIUzdpMU5lSFRjVjllTVJHTnMtem9xdHpxT2UyWFVhOFA1bFRHeS1PSC1xX3o5Z2Z4THNEYTRZd3ZjR3JmQnJHZkoyTXFjTWx5aUJOdkFrRE0xTVlPQ2daWjhRWTFsRkZGOWo1VXZ5UGJieWM1Tk11b0JKeGhnQVVGLUxfSWNOandOc2R6ZTNTOEZhVjdiM2x4UlAwMDdrMjZsS2dpenl3T3FPOE8zVUpKcmlQNXRtSGhNMVZvbHkxR1dJdHFqSGczSGxmYUMzUllyV2tmWEl6bVJVZGlaS2oyYVhTYl9DWEF2dXdMbnZUdEN1Z1gzaTYxdUZham5EYjF4OFJfONIBmAJBVV95cUxNcmlOU0tIQ2Y5N1NLWE9FZHZ2Z2lwT1VtdUExTUNCcm1EWnp5Y0EyajY0MEVvNjY4bUpUMEhrWXk5N0VNbERINVpUME00Q2NaSmtaSUlJdXpsc0FxT25zTWNpU054NmJnUmJvYVE5Z0dldW5FMFNRY1ZPbEgzblduQ09BMVZRdVBmdDVrY0FkRkVzTklLSDlfT0JISkJ0TlFaakdSbTRKQmdWaXliRDIzZWRSUkhPd3lIN3VTVmEwczV6RGd2RU91YWdWTGIzU3hmX285NkE3MFBna0ZrbUtrSHZmR3kzazZGUThzLWwxVGg4Z25oQ05TVFlHQlVNdDFYeWRhMlBwWGkzVHctWnNITEEtek9TU1l5?oc=5",
+  "date": "2026-11-19T12:28:16.000Z",
+  "publisher": "Livemint",
+  "source": "portco:pine-labs",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "pine-labs"
+ },
+ {
+  "id": "647ccc5b5b66",
+  "firm": "tpg",
+  "title": "FTSE 100 Airtel Africa (LSE:AAF) Grows Profit and Advances Its Mobile Money Listing Plan",
+  "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSUktN3c4dkloakxjMUtPVHp0TjlQWWFQX0tWV1ZEYURGRmpUdWlqRThvYXRFenJDdGZwcUZfOE92S19ya1Vra1FfMzJJRG1jLUdjT0lEUU9SUmFpbF9XTFJkZHJqVUFQMEx4cjhmSVg1Q2ZlRGhzeHUyMjBiRUVvaC01Ulpac2Znc25YeHBxR0hVa294ZzhraTI3RzRXUDA0bDlXOGFHNUhFNk5CU3N3cU9xcWVhdzduWHBPalBJTzN2TFgtb2xjSDhrNmt1RGc?oc=5",
+  "date": "2026-11-19T11:40:00.000Z",
+  "publisher": "Kalkine Media",
+  "source": "portco:airtel-money",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "airtel-money"
+ },
+ {
+  "id": "863ccd994226",
+  "firm": "ta-associates",
+  "title": "Valeria Raises €5.5 Million To Expand AI-Native Payroll Platform",
+  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOM2ZvNWd0WDktUGNiSy1jOVpCM2pwVXpNOFVONVRITjhya3lpME1mcWpDdlJHS3l1SU4wb2V0WUdERDBob1p6Z1BCc3plQ0NseEhuZ0gwQ3BvVm04dWctUWZxMWtTd29jS3RCd0NvUC15NURRSXA1WnRUV3k5VTFCVEtmYm9zeEtWVVgtaA?oc=5",
+  "date": "2026-11-19T10:58:19.000Z",
+  "publisher": "Pulse 2.0",
+  "source": "portco:payroll-inc",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "payroll-inc"
+ },
+ {
+  "id": "bd3bb4a26c70",
+  "firm": "eqt",
+  "title": "PropertyGuru, Kenji Chai turn neighbourhood ‘oyens’ into fundraising collectibles for animal rescues",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMXR6NTE4SnlvamlDSmZaRWVmVTc1ME9NZ3oyczc1cFhDRm1JME4xY3hrZUtIdDJxbUJOUWcwUlRXZ3VrMFR3WDBKbHJudkpiTjhHejd4NnB6cXMwbWY1NWlySTYxcXBxMzhUZFQ5cXp2YjR4MDh1Y1lrM2tlVWQyTkwyYlpHZ3haUVo5Yi1tVnhwWG1ZamxJcmZFR3V5QVRmN2VwZ0Y1eEN5cUpPbUxkdkFNd2VFZzRoa0hPeFAzSWs?oc=5",
+  "date": "2026-11-19T10:31:39.000Z",
+  "publisher": "Focus Malaysia",
+  "source": "portco:propertyguru",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "propertyguru"
+ },
+ {
+  "id": "1eb4bbdaf85d",
+  "firm": "navis",
+  "title": "Big Caring’s Major Shareholder Raised RM404 Million From IPO Amid Subdued Debut",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeVRfUDRWMUlTYlpydlByT2hPNEROa2ZXTXlSTXVZNEVseU1INHJQRUJtWFdpeVo1NzFqMnVuZGd0Q2JMd01vMWJDSlFJQUJuamVVdjZOVTBoREU3N3lHbEEzTk1ldjdhdGJqMER4bzJSSXFvaDExTXpkWFQteEZNU3I4c2wwQ2JranM3ZXZjM3c2MDBGUXU1MmpVSGsyS29OdU50MElzMzFwOHVDVHBLUTR1cGRJTWtMOG8yNC0zRVU?oc=5",
+  "date": "2026-11-19T10:20:21.000Z",
+  "publisher": "BusinessToday Malaysia",
+  "source": "portco:caring-group",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "caring-group"
+ },
+ {
+  "id": "4c7b77a2b92d",
+  "firm": "ta-associates",
+  "title": "Fractal Analytics: The AI Opportunity Is Expanding; So Is the Investment Cost",
+  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLTM5TlV3OFpZMGFRbURwMmowZFZ2aFBKSUZnZTFDd3Y3TERkYmNtWjdiYkhNU0lPNFZCWEgtVFh4YVktSV9TcnB4Y3JZdzNySHdUQzhBb010OVNwYTJtQjNGVlhpbmt1cTd3YXdzaGlzMDNvM3djaVhIQlBnY3Z5RElEN0lTQnFIdzVuNzFweVotc3FFaThpalBPTTMxampDWkd0Z3pYSGtNU0YtZmdWclJSdnVpZE5WcjhB?oc=5",
+  "date": "2026-11-19T09:44:02.000Z",
+  "publisher": "Moneylife",
+  "source": "portco:fractal-analytics",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "fractal-analytics"
+ },
+ {
+  "id": "c92865760234",
+  "firm": "tpg",
+  "title": "Fractal Analytics: The AI Opportunity Is Expanding; So Is the Investment Cost",
+  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLTM5TlV3OFpZMGFRbURwMmowZFZ2aFBKSUZnZTFDd3Y3TERkYmNtWjdiYkhNU0lPNFZCWEgtVFh4YVktSV9TcnB4Y3JZdzNySHdUQzhBb010OVNwYTJtQjNGVlhpbmt1cTd3YXdzaGlzMDNvM3djaVhIQlBnY3Z5RElEN0lTQnFIdzVuNzFweVotc3FFaThpalBPTTMxampDWkd0Z3pYSGtNU0YtZmdWclJSdnVpZE5WcjhB?oc=5",
+  "date": "2026-11-19T09:44:02.000Z",
+  "publisher": "Moneylife",
+  "source": "portco:fractal-analytics",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "fractal-analytics"
+ },
+ {
+  "id": "5904412c1b4f",
+  "firm": "ta-associates",
+  "title": "20B Yuan Valued Robotics Giant Faces Severe Cash Crunch, Unable to Meet Payroll Obligations",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZcUYtek5Zakg2aFdDeUxoTVdnWVZhdWZaQXdDb283WWJIYTYxZUJSVEJUMTZIS3ZpZFJRT2w1YU5JQzZiNGE4cHE3Q0ZJX0VJYmhj?oc=5",
+  "date": "2026-11-19T09:33:02.000Z",
+  "publisher": "36Kr",
+  "source": "portco:payroll-inc",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "payroll-inc"
+ },
+ {
+  "id": "9f6e3e214110",
+  "firm": "peak-xv",
+  "title": "Paytm, Pine Labs & MobiKwik Fall: Why Are Payment Gateway Stocks Facing Heavy Selling?",
+  "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdTl5bk1ETEk0aW5Zc3JpVXhwbXd5MWt6d0p3WUhyNXN4YXdsR1hXNkVtLXFZWGotalp6NnZKbkM2N3JFQUNqUWNRMHJWUVBTT0oyVFZRalo5b3BBT1M1SlVWbDhFcHdWUnFkdE9oQzRmNFp0R28yTW9OSFhLeFFra0FFUmx6enVRS1RXR1I5dWJEU1FOTi1WXzRqRmJRcklKY2VXcGQ4dEVIaDdpV1FWcFJncGw4eVVwR1NHMHZadjlHb0hzVFd1bWJLMG0ydF8wTjFSMEltY18zSVRJdzM5ZzVYcXRENzR50gHuAUFVX3lxTE9yTm0zSDB0Tml4bDhyeVY2UExQUUtOZkZuMXZEUTh2bDRkZzdxelBhNmlja3RQeDNNRURBX3RNTlNKTnFVWVRadWhuRWtlemJYcllyS0pLSXVMRExYb0V6WHRsOXFGc3dDNWdXQ2EyWHh5S2dzQmQxcnBzOHVGb0NEakpwbHVDY2IxalVNSjQ5Sk13elFiSVAwN3pwQ19kSEk1MHlhY3l6Q0g3MTB0WVdBcFplVFk2Y3ZjU2h6enBXV0ZlZ0I3cGg5Y2V0OWxyTFQySnFxWjhKTWg1WnJONFhYSDZfVlM0U21paUgzUlE?oc=5",
+  "date": "2026-11-19T08:18:00.000Z",
+  "publisher": "Business Today",
+  "source": "portco:pine-labs",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "pine-labs"
+ },
+ {
+  "id": "09ea4f80350d",
+  "firm": "eqt",
+  "title": "PropertyGuru, Kenji Chai support Malaysian animal rescuers through Oyenji fundraising initiative",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdHBOWHprdXMyOHBPcWczUVcyT0NINElDV1U3d2lqc2V0U1gtTTZMUDRzT1ZfSmRlQU1TVE5jOElRUkxmWnIyREJBb3lEcGlIR205U08yRC00SlNZYTk1YzBSblhEdVVaY3ZjeEhybW1vSzNmZjdPXzNNdkI5dVFnYTdRVWMySTZlVlhyQm9KdFVzYURydDZSOXlzZ3FqMXJmWEItUWJNUFhfMnZKTkxEeHN0Z19Ja1J4d213Y2ZNaG8?oc=5",
+  "date": "2026-11-19T05:41:37.000Z",
+  "publisher": "marketech apac",
+  "source": "portco:propertyguru",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "propertyguru"
+ },
+ {
+  "id": "597e16305a54",
+  "firm": "tpg",
+  "title": "Tata Technologies reveals strategic insights at Investor Day presentations",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcTFWNlIzWUhLWXZMVlpMTnhySmNuQi01VEV2QUFIM3BFSEU1NkV1aFJiWnRCY1Zib2FXODl1UzVnekUzYTlzY1BZRWdiUEtwNl9tdGkzTTZfal94ZnBzNWs5NWV0Z0lmdjQwREdLV1NWcmw3dHhEeG13bXdpNXU2UGlydnNLYXZZMFc2S3p4QkpkYzdNdWl6TnhaUlpzTUtZTlJVWnNNRFNKdDUwT1NoQQ?oc=5",
+  "date": "2026-11-19T04:21:56.000Z",
+  "publisher": "Business Upturn",
+  "source": "portco:tata-technologies",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "tata-technologies"
+ },
+ {
+  "id": "47b8bc046fc6",
+  "firm": "tpg",
+  "title": "Tata Technologies (NSE:TATATECH): What Did Its Investor Day Presentations Cover on 19 November 2026?",
+  "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdk5PVm10VGRpOWpXZjBXUDBnWXRJUGlJZ181WmxjUnF2amhGMFpWZFhsSXZJcko2TG9jSktEREU1bENuU1RqYkZWTWs1cVhVNjl3UXN4MFRmX2Q5aDRPMVM4MWw0a1B1b2VEWHc2bWN4OGVRR3BROU5wOU5mMjB1TWp4YkhVZ0NzMmMwQUxqUmVRTU9yWDJ0SEFjTWJyNzRRZ0I1VFltbVZEUGxDZl9rN0MtY2lSVzczUHF4Z0Z2dlBjTnhDZWx0MXgtcnpEN01nSUg3TWtLUzIxV00?oc=5",
+  "date": "2026-11-19T04:10:00.000Z",
+  "publisher": "Kalkine India",
+  "source": "portco:tata-technologies",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "tata-technologies"
+ },
+ {
   "id": "7721b233dea9",
   "firm": "tpg",
   "title": "Airtel Zambia targets retail investors with new mobile trading service",
@@ -43335,6 +44742,18 @@
   "official": false,
   "firstSeen": "2026-11-18T23:37:55Z",
   "portco": "payroll-inc"
+ },
+ {
+  "id": "a00a4bfab3de",
+  "firm": "ta-associates",
+  "title": "Mark Lister: Craigs Investment Partners Investment Director on the Reserve Bank's warning about the impact of the AI bubble popping - The Mike Hosking Breakfast",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONk1zME56NFV3cmNudHpUT0MxU2lUTnFLZlN1azVsS0pkWmVoV3o1WnFIclRHNnJGbGNQLXZlWG5tdElBeTNWWFNpTWQyTktHQzRld3FkLVlzUUN1OXVkMUlFQ0VNMXhjVzNtMUJRZGJzZ1lFUWhkdUtCVjBpcFN5RE9qS092dk1HejMzWGtZQ2tvTHpwWGV1UlU1MS1kZDFMM3FUUjVtaXFRNGRyZUFKMXJqY05NQQ?oc=5",
+  "date": "2026-11-18T12:58:01.000Z",
+  "publisher": "iHeart",
+  "source": "portco:craigs-investment-partners",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "craigs-investment-partners"
  },
  {
   "id": "5d5ff57356c3",
@@ -43433,6 +44852,18 @@
   "portco": "jio-platforms"
  },
  {
+  "id": "7acbe47609d8",
+  "firm": "tpg",
+  "title": "Why Has Airtel Africa (LSE:AAF) Stock Slipped After Strong Half-Year Growth And The Airtel Money Listing?",
+  "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUF9ONTl6NzlpMnZXdHFsSm9SUF9HUXZONWxjakUzeWZ2ZnN3SjlBRWJRWkxNN1Jhb001dWpMcG1ZakNwdkx5Z3FTa2RaNmJfb0tPcGxKbHFrWUNlZFA5QlZUX3o4RkJpd09CYXpPV3RSTHpFVnliXzFvWmdrNTVibFE3aThlcGM0WlRfUHF0ZWJQQm5ibEhXQUNKVmtFdlJPSWlJQU1ndGtKRDVGUDJIR2NuM3NoMVdHRjg4NVhmQmEzNWFrUi11WjZzSFdodUlXYmJhU2J0VlBYUlllM1EtelBTRGY?oc=5",
+  "date": "2026-11-18T06:55:00.000Z",
+  "publisher": "Kalkine Media",
+  "source": "portco:airtel-money",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "airtel-money"
+ },
+ {
   "id": "e36f38915061",
   "firm": "partners-group",
   "title": "ByteDance job listing points to a TV version of Hongguo short dramas",
@@ -43529,6 +44960,18 @@
   "portco": "betashares"
  },
  {
+  "id": "69d925c99978",
+  "firm": "ta-associates",
+  "title": "Betashares Lodges PDS for Fixed Rate Australian Major Bank Subordinated Debt ETF Ahead of 18 November 2026 Listing",
+  "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPSXFzMFdVakxkYWpZQ1Fxb3kyMzhwbWZIblF4dFdQUHVqVi1jemFnUWhGMDRpX1ltS3RXVHBqdjV6N2xfUGk1YnFnYWFRMEo3d0NYRTh3SkhkSjNXRjNING9tWFlPTGVhSkNLV1VGVW1WZ0hOUDJOVFpQS2thY2hJXzk5SXNJYTRWaV9MUktwZTdzNS1pNmZZb21OZnBOQmdfS201SlBIU2tRUmRfWnpFZ1NOSmt3MkVOM1h0eWFNQVo0RnhjVlp4VFJMa05SbVNkSjZ2c0ZPaHRjTGgyZnAzVGlSSjh5UmdoY3NCQw?oc=5",
+  "date": "2026-11-17T23:15:02.000Z",
+  "publisher": "Kalkine",
+  "source": "portco:betashares",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "betashares"
+ },
+ {
   "id": "7088e244f18a",
   "firm": "macquarie-capital",
   "title": "HawkEye 360 (NYSE:HAWK) Stock: Insider Arthur Money Sells 23,000 Shares",
@@ -43613,6 +45056,18 @@
   "portco": "viridian-financial-group"
  },
  {
+  "id": "203db9acf1cc",
+  "firm": "ta-associates",
+  "title": "Fractal Analytics Explores Acquisitions Worth Up to ₹1,000 Crore to Expand Enterprise AI Capabilities",
+  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdG9rM2FnclBINUQwTU44SmtIZzE4X0VZZ3hfRlBKOEhHbHJWS0tJN0pqU0dPVVJQelNWbXkwQ2cwdmdGVEdiNTJHVDJhdHQxc19ILTJ3NjlwcnFyMlZkdkNxMGZ1RHJSZWp4SWhVYXhYUk5rMW12SURERGdRd0lrU2NCdEZEemhsQ0puRjNEaXNqQ2FUZzdHM1E5VkxLQW9rRm9TeGRObDhfcUVJUW55Q1ZiN3h0RHAxd0R2eHdDOG5FNFFPdlNkdGhQYXJhUlpKZ0E?oc=5",
+  "date": "2026-11-17T12:36:04.000Z",
+  "publisher": "Voice of Healthcare",
+  "source": "portco:fractal-analytics",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "fractal-analytics"
+ },
+ {
   "id": "88424cced08d",
   "firm": "navis",
   "title": "Big Caring Group posts RM72.52mil net profit ahead of Bursa listing",
@@ -43685,18 +45140,6 @@
   "portco": "caring-group"
  },
  {
-  "id": "0ed129cccd36",
-  "firm": "navis",
-  "title": "Big Caring posts RM72.5m quarterly net profit ahead of RM2.03b IPO",
-  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5PVjVPMWZiTVNscDlhLWI2a2l3NlJldjd4N01EdXQ3aGhjT3JRSnk5MDNjRjYyZEp5czVoc0oxUlRJTGhIOFdJaGQxS0x5TU9u?oc=5",
-  "date": "2026-11-17T09:55:49.000Z",
-  "publisher": "The Edge Malaysia",
-  "source": "portco:caring-group",
-  "official": false,
-  "firstSeen": "2026-11-17T23:37:00Z",
-  "portco": "caring-group"
- },
- {
   "id": "4ebe12192e57",
   "firm": "tpg",
   "title": "Mutual funds deployed over Rs 15,000 crore across 10 IPOs in October, Jio Platforms leads in investment",
@@ -43719,42 +45162,6 @@
   "official": false,
   "firstSeen": "2026-11-17T23:37:00Z",
   "portco": "jio-platforms"
- },
- {
-  "id": "aebf3bd9b256",
-  "firm": "ta-associates",
-  "title": "Eric Trump-backed U.S. humanoid startup faces survival crisis after missing payroll",
-  "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcmdjOS10Nm4xVUtJZ0E3T2FHZlhhR0g5aGt4X2ZkLUEzTGJrQnc2b3MtYkF4WFI0VjJDd1Niek9samRWTU9RNVhVdFJTMFNGbTRVcWxKNjUzZFNzUlV2a1I4QXVsMlktZWM2WDFfdXBqQVBpSjF1Zmk1eTBCQkRLX3QxR2FjbXhQV0s5VTBEcHVIX2lLeFhpc1ltYThfWjRIM0xtSXM3cDJZcFh3NjB1MlJvdmxYWnZlT09DWjhOQlBNSEFVZ2tILWtQTHFMYVdTXzJCTmNjUmpaa3NRSFAzQ1N4UU5nTVA5QWtSeA?oc=5",
-  "date": "2026-11-17T05:33:49.000Z",
-  "publisher": "디지털투데이",
-  "source": "portco:payroll-inc",
-  "official": false,
-  "firstSeen": "2026-11-17T23:37:00Z",
-  "portco": "payroll-inc"
- },
- {
-  "id": "4f03c48a3afc",
-  "firm": "ta-associates",
-  "title": "Fractal Analytics earmarks Rs.1,000-Cr for acquisitions to scale enterprise AI capabilities",
-  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcTZaOUROU1RaQ0t6c1pWeTJ0enN5TGpRSjNObFNZdUF0RXVIck8wM3FtaTZzLUVEWm0yVk90ZTdpNXZqbXNBb0VBSDVHaWI4cmhDeFpiUm9vb1lIeHk4d0M4T1M0OVlHTURaMFJWZFNVeERPVnllNldfaHdmQjRfU1ZPeFM1elZmTTY3Qmx1cXZnT2RiaS1IZEc1QXhvS2o1S3BnRzZxRHd2MEdlR0dRcTdicjRCSVR5T3Byd2FjVEtXRks3Ti1CSFJOMA?oc=5",
-  "date": "2026-11-17T04:04:17.000Z",
-  "publisher": "Venture Intelligence News",
-  "source": "portco:fractal-analytics",
-  "official": false,
-  "firstSeen": "2026-11-17T23:37:00Z",
-  "portco": "fractal-analytics"
- },
- {
-  "id": "a5dfe9f2b583",
-  "firm": "tpg",
-  "title": "Fractal Analytics earmarks Rs.1,000-Cr for acquisitions to scale enterprise AI capabilities",
-  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcTZaOUROU1RaQ0t6c1pWeTJ0enN5TGpRSjNObFNZdUF0RXVIck8wM3FtaTZzLUVEWm0yVk90ZTdpNXZqbXNBb0VBSDVHaWI4cmhDeFpiUm9vb1lIeHk4d0M4T1M0OVlHTURaMFJWZFNVeERPVnllNldfaHdmQjRfU1ZPeFM1elZmTTY3Qmx1cXZnT2RiaS1IZEc1QXhvS2o1S3BnRzZxRHd2MEdlR0dRcTdicjRCSVR5T3Byd2FjVEtXRks3Ti1CSFJOMA?oc=5",
-  "date": "2026-11-17T04:04:17.000Z",
-  "publisher": "Venture Intelligence News",
-  "source": "portco:fractal-analytics",
-  "official": false,
-  "firstSeen": "2026-11-17T23:37:00Z",
-  "portco": "fractal-analytics"
  },
  {
   "id": "ce7fa6b2770c",
@@ -43805,42 +45212,6 @@
   "portco": "avidxchange"
  },
  {
-  "id": "682ba69aa6f3",
-  "firm": "ta-associates",
-  "title": "Eric Trump-Backed Foundation Future Industries Missed Payroll After CEO’s $4.6M Loan: how 7 outlets framed it",
-  "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNOF9yd0pSOHdxbXVURzdoRV93Q25fMnhYRmh2Q2txWFVCVE1vT3NhVFEzaW9lZEFnS2ZBams4UlZmbE4xTUtaTzN1bC1GMzZBZ0x5dnRSTlM5WWIxbDRrRUhzT1J1MHIyXzR3TWhleFZ2UkVNTTNyWkNlR3RUeXN1R2NGcEJrUWxMcm40cVdSUGhiNm5DZ29PSGlSV2h2ZWZmX0txdjBrSURZVDd2SHhUREhqWW9LSnNlYjZ6ZnpXbVY4amkyTTAySUdoVkxUeU1ObERuRlpuNjVBUi1mWFBCU09UMXFLWFJXVlE?oc=5",
-  "date": "2026-11-16T23:21:51.000Z",
-  "publisher": "NewsCord",
-  "source": "portco:payroll-inc",
-  "official": false,
-  "firstSeen": "2026-11-17T23:37:00Z",
-  "portco": "payroll-inc"
- },
- {
-  "id": "a8ded38235a2",
-  "firm": "ta-associates",
-  "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
-  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSEF0S2EzRXozeVdvVHdyTkVCRDF2Z0ZhenNTb09xM3BKU0VVYWFvNXRpa3lEbTlxbTNqTFU2amtzdm9oSzZBRExBNFQxZEVPM0hNNHRrdXFsRGl6cnlkSktyZllqaUtxdkl2LVVQaUtXcWpyUEhKMHZuX2dfVTY0V256Wm80dTU0RkFTQkVIdWxBVGxJWHJHemdrYnRWa2M3bHhxVG9ORC0?oc=5",
-  "date": "2026-11-16T22:58:27.000Z",
-  "publisher": "Ars Technica",
-  "source": "portco:payroll-inc",
-  "official": false,
-  "firstSeen": "2026-11-16T23:37:26Z",
-  "portco": "payroll-inc"
- },
- {
-  "id": "edc0a527334c",
-  "firm": "ta-associates",
-  "title": "An 8.26M-share stake in Viridian Therapeutics (VRDN) spans a fund and separately managed accounts.",
-  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSEpTMzhMeFdhbHh2TF9aLUpFYWNwaUVseTR6SkVwQS1TWk4xUERSTlJWbXVBMDlBWHJ6VDRabmtHSDJVNzhQYktKQWkwZ2lzMHRtVC10UDRtTEtHUGFSaFpiaUE3THlMNUVoNVFNdUFuQ0I0OF9PY2w0WnJxVlNqemdlTUlfcHFZcmF6RVN1Y1c4Wk9JNms3NW90aHV2dUt6QXpoazhOR3dTVGZlLWFva2lwXzIxUkEzZEgwRmtycHFlUHNDTlE2N3J4NA?oc=5",
-  "date": "2026-11-16T21:19:07.000Z",
-  "publisher": "Stock Titan",
-  "source": "portco:viridian-financial-group",
-  "official": false,
-  "firstSeen": "2026-11-16T23:37:26Z",
-  "portco": "viridian-financial-group"
- },
- {
   "id": "1ab6324e03d6",
   "firm": "warburg-pincus",
   "title": "Galvanize Therapeutics Raises $130M Series D in Redwood City",
@@ -43887,18 +45258,6 @@
   "official": false,
   "firstSeen": "2026-11-16T23:37:26Z",
   "portco": "remember"
- },
- {
-  "id": "4f00b05b87c8",
-  "firm": "tpg",
-  "title": "Fractal Eyes AI Acquisitions Ahead Of Enterprise AI Scale-Up",
-  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeU80dGZzdGY2aU1VNWVkTlpyT0d0VGhscW9idTdDVjMzT0s1ODhYM1lCZno2dHk0WEMyRER3U1dHMjY3ZVJEREd1RWtGZ2hzZVE1Y1lPN0ItQTQxREZ1RVBDblRtTDNUNkxzUUVqcDR5cVp5S015aklfM3NoWVE2dzdqWUJxbWIzamFjSA?oc=5",
-  "date": "2026-11-16T15:34:00.000Z",
-  "publisher": "Inc42",
-  "source": "portco:fractal-analytics",
-  "official": false,
-  "firstSeen": "2026-11-16T23:37:26Z",
-  "portco": "fractal-analytics"
  },
  {
   "id": "b9fa91daea9d",
@@ -44019,18 +45378,6 @@
   "official": false,
   "firstSeen": "2026-11-15T23:36:40Z",
   "portco": "razorpay"
- },
- {
-  "id": "ecbc9303b578",
-  "firm": "eqt",
-  "title": "Vistra (VST) Looks Cheap After Asset Impairment Raises Fresh Questions",
-  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWU4tMWlfc3JlTk5oMllyU1Jidl9MUUJ3eC1PLVlObFFhZEJDZWtwQ1NlXzZ6NnluZ09oeTU5cmFlRmRwVDkxZGlkeXRMWlRmb3ZiVEVGTENEdm5uRl9LSWdZRzF2YmZBQXo3ZThYSWl4bERISHpEbXdtLUxXY1BweVhvNnMtM05zbzF0Y3VpcUVneW8xUDVpMU9UUzVaZEJCc003a0haS05VOGFFMFBJd2lUQlgtdEFUNkdqOU52NzbSAcYBQVVfeXFMT2dFMVJqX3ZLeFFGOWY2WDk3RlhLTE5zYmJFSEZCLUp5U1ZhWjBkT2FTb2NFR281T0l3UFMycjZaQThqMGJCcl9ER0hhSnVzSlVuRkRiNVJISEF2dE5YVlY4VnJDWWtLNGNWcmFwb3lYdlBBbnRQYk9pNkN0WnBpQmxhdzBCUXc4a2tRdlNIcDZkbzRhdENXQVFPa2g1bHdoMmZkNDRReHduMUM1T0tFQWFMWEd6Wlcta095eXRZS2gxZnN1M3NB?oc=5",
-  "date": "2026-11-15T06:24:39.000Z",
-  "publisher": "Simply Wall St",
-  "source": "portco:vistra",
-  "official": false,
-  "firstSeen": "2026-11-15T23:36:40Z",
-  "portco": "vistra"
  },
  {
   "id": "c6af40dd1ede",
@@ -44163,18 +45510,6 @@
   "official": false,
   "firstSeen": "2026-11-13T23:36:45Z",
   "portco": "betashares"
- },
- {
-  "id": "c078699dd454",
-  "firm": "navis",
-  "title": "Hope 30-50% first day, hehe buy Big Caring Group Bhd (BCG) has finalised its initial public offering (IPO) on Bursa Malaysia's Main Market at RM1.08 per shareOverall public portion oversubscribed",
-  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56dTdZSG9mZGdmQjJvTWViS3ctSG5tTHplZ3lrOGJwQUp4MlhMb0Q4ak1nTkJaV0lpa3o3TEVFWkhkN0Q4cWNVRV8zNjJlckxyeUdyejdibVpmOG1zNm1kTGF6cGszRU9sZ0xtbGdwVWlqY2I4WEtRTGpSMmR0NUE?oc=5",
-  "date": "2026-11-13T09:10:33.000Z",
-  "publisher": "Moomoo",
-  "source": "portco:caring-group",
-  "official": false,
-  "firstSeen": "2026-11-13T23:36:45Z",
-  "portco": "caring-group"
  },
  {
   "id": "091ecaa8a451",
@@ -44501,18 +45836,6 @@
   "portco": "betashares"
  },
  {
-  "id": "f83cba364a4b",
-  "firm": "ta-associates",
-  "title": "Is the Betashares S&P 500 Equal Weight ETF (ASX:QUS) Making New Highs in November?",
-  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORm1NSW44YWFHLU96NWl3TzU4N2N3Q1IzbFFqTkNpcFJ3NkxZYmRYVzk1UktCNzNvU2lKOFpid1k1VnE0RjFGRW9hOGNlaUJRcWpsaGZRRWZ1dHZVYzl1aFVMOG5ZVDZiMzJSRVdJakJ4QXhReTJRb040RXNvemwxYjRpSkg5NEtmc2ZtTlU4SkZoZ1FEQll1a2dFNUhtNUtBcjFoa1hKQk9CeVhLcG9QSDd3WWVxN1FiOTlwbmlPcC0?oc=5",
-  "date": "2026-11-12T12:34:00.000Z",
-  "publisher": "Kalkine",
-  "source": "portco:betashares",
-  "official": false,
-  "firstSeen": "2026-11-12T23:39:26.914Z",
-  "portco": "betashares"
- },
- {
   "id": "8ea0828a3bfb",
   "firm": "eqt",
   "title": "Sitecore Launches MarketingIQ to Turn Brand Intelligence into Business Growth",
@@ -44789,18 +46112,6 @@
   "portco": "airtel-money"
  },
  {
-  "id": "1d97b6997a61",
-  "firm": "tpg",
-  "title": "Airtel Money customers in Kenya can now send money to 30 banks via Pesalink",
-  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX2R4ZUEyejhNR3o2NTlBazkwWEJOUG5fZzRja1FTRHR1dmNGdlZkeG4tbndtSjlPTk9sX3RTbk8xempoVzlfdWxsdjRQNUFqZ25VUnluRG9fcDh0WUVIQWdaZzEzaVRhVGdFd1VRbFg1TEdJb2F2R3N3VWlibi05STUtQnIxSFpPNTltMDJlVVphcUNvQU5nRFluUmIwb3ZFZmJvNkMzWkhwbDBrYnN4OGhkbw?oc=5",
-  "date": "2026-11-12T04:44:53.000Z",
-  "publisher": "Africa Business Communities",
-  "source": "portco:airtel-money",
-  "official": false,
-  "firstSeen": "2026-11-12T23:39:26.914Z",
-  "portco": "airtel-money"
- },
- {
   "id": "19dec67ba3a4",
   "firm": "ta-associates",
   "title": "Certify documents through Justice of Peace services at Yarra Junction",
@@ -45053,18 +46364,6 @@
   "portco": "ifs"
  },
  {
-  "id": "d91a9968e475",
-  "firm": "tpg",
-  "title": "Airtel Money now lets Kenyan Users send cash straight into bank accounts",
-  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRV9wUWw0NWlrb0ZYZjNKZlR6TzhvYm1QcVBoc3lmSXQ1b2pmRWNwV3NsQnNHNGwteUNzLVU5dFZQYlloRFpLV2tUYUZWSWFra20xenBkUFQ1N2NlRjZWOXR0bDJCT3hvdDdBSlhIM0FEWl9wUlpZRURFeGFzUGtqa3NiSkNPS2J2eF8zZW9NNkJkaUt5dnpsc0JTRkhaT1RMUk50aWJnQQ?oc=5",
-  "date": "2026-11-11T18:13:54.000Z",
-  "publisher": "Innovation Village",
-  "source": "portco:airtel-money",
-  "official": false,
-  "firstSeen": "2026-11-11T23:39:17.546Z",
-  "portco": "airtel-money"
- },
- {
   "id": "5c619be9c730",
   "firm": "partners-group",
   "title": "Darwinbox Launches Claude Connector With 280+ HR Tools Across the Employee Lifecycle",
@@ -45207,30 +46506,6 @@
   "official": false,
   "firstSeen": "2026-11-11T23:39:17.546Z",
   "portco": "biocatch"
- },
- {
-  "id": "250e574d20cd",
-  "firm": "eqt",
-  "title": "Four Branches Bourbon was started to remember its founders’ lost comrades-in-arms",
-  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR3RlQXQ4VzV1ZnBJblBPMm40bUJMUmFua2c1Qmtsdm54SE5xanRmXzVEV1ZjNTBOc2hNMDVtQTluUGJaYnBOeG92VkhlSkx0T1dabGRtNDQtbVl0ZWpMYnhIT3U4VzNlclBCNW1MTXpIUU0tZ2xNLTdvMW1hSzVpdFJnTjNtSy1kWThTZU1ZU0JlVXJTaVZWcGx6QzJvQUhCeDVlN1dWclkySGQ0R0dVTg?oc=5",
-  "date": "2026-11-11T12:00:00.000Z",
-  "publisher": "We Are The Mighty",
-  "source": "portco:remember",
-  "official": false,
-  "firstSeen": "2026-11-11T23:39:17.546Z",
-  "portco": "remember"
- },
- {
-  "id": "34c603e6e3b8",
-  "firm": "navis",
-  "title": "Big Caring Group is expected to open between RM1.20 and RM1.35, a 11% to 25% premium over its RM1.08 retail price. Strong institutional backing (41.2% cornerstone lock-in), dominant 24.2% market share, and robust public oversubscription (4.31x) will dri",
-  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSHBaZTNQMVFDWDd3MkZPcTdybWRxSFUxenlSb2pZWXA4cEFSakwzdXlZTDZSZndJajBfVGVKbWRkRWdIU25tSHFhZEYzQUk3VllBSXFTQ1NEMjRNVEI0TWVvX2dpa1JpV3lYZXlZdUhVMl9vNDZ2b0ZzeFZBYjc1RUFaME9tVEFqODRXY1FiYmdBN2FKZTFkMmdfWkNFcm0zZVp5VDYwVUg?oc=5",
-  "date": "2026-11-11T11:23:36.000Z",
-  "publisher": "Moomoo",
-  "source": "portco:caring-group",
-  "official": false,
-  "firstSeen": "2026-11-12T23:39:26.914Z",
-  "portco": "caring-group"
  },
  {
   "id": "21099ba85701",
@@ -45735,18 +47010,6 @@
   "official": false,
   "firstSeen": "2026-11-10T23:39:37.245Z",
   "portco": "sakana-ai"
- },
- {
-  "id": "785047b62a1d",
-  "firm": "eqt",
-  "title": "What Intercorp Financial Services (IFS) Said on Its Q3 Earnings Call",
-  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTktiYXN1NHBpb2VsbVZobFFmWk00dEpHUXlBelB5Q0hiaUVIZ3RCMElCc1VQYTRSMlVSenRnaDhKYkVZR3FyODRvODU0N3QxYlNBNzU1VjQ0VHZwWXpDTGdYSXNnT3EweVdILWxXdndyQ2xOME1MdVZISEJHeVRCS3JlaXNZQmZmVGRXa210bFpjblZlck1IZFdGMFJqeGhMNldwYXI0aFhENTFFZzZnOE8ybFQ0eW5jUmh4YnhzZ2pWVWFZeU1GV3Bmaw?oc=5",
-  "date": "2026-11-10T21:21:01.000Z",
-  "publisher": "MarketBeat",
-  "source": "portco:ifs",
-  "official": false,
-  "firstSeen": "2026-11-10T23:39:37.245Z",
-  "portco": "ifs"
  },
  {
   "id": "e77ad9640670",
@@ -46529,18 +47792,6 @@
   "portco": "advanced-navigation"
  },
  {
-  "id": "b04aaebf13a9",
-  "firm": "peak-xv",
-  "title": "Pine Labs Limited remains over 32% below its listing price",
-  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS2E3ZzNaSzI5bWRVQXNZd1ZVMmRuOWNDWVpiUmFnUUdvQXBoZ2tsUkxvakItMlhySHhJejRMY21CYlNzbUdSMmRNNHZqb3RNRy00X1F4S1dOYXBjSTIzOHd4UThzVmVqLXQwakV6bXA4V3Ntbm1jb09URS1lNm1yY2tvZEMzX2NxTmR1aUlBeV8wcm91WUQwdlROVm1XZlJzc3ZtLW1Ubw?oc=5",
-  "date": "2026-11-09T06:00:45.000Z",
-  "publisher": "Multibagg AI",
-  "source": "portco:pine-labs",
-  "official": false,
-  "firstSeen": "2026-11-09T23:40:00.470Z",
-  "portco": "pine-labs"
- },
- {
   "id": "7012607de15c",
   "firm": "affinity-equity",
   "title": "Yogiyo Operator Great Imagination Appoints CMO Kim Hyejeong as New Co-CEO",
@@ -46719,18 +47970,6 @@
   "official": false,
   "firstSeen": "2026-11-08T23:39:13.278Z",
   "portco": "accion-labs"
- },
- {
-  "id": "7788f9bea9eb",
-  "firm": "peak-xv",
-  "title": "Pine Labs Limited (PINELABS.NS) Seasonal Returns Chart - Yahoo Finance",
-  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ydWpwWGZTUEw0ZG95cVdOTzFtS09rY2QzblJ2S3BfTk54QkRPbnd0N29NX0xsUUlqaUJJRHVwMDBsSmE3Wi14akgzbEdDSkRqb1RVb2hSX2Jua1NrdDFOdUxOS3VFM1RtM3lz?oc=5",
-  "date": "2026-11-07T22:02:54.000Z",
-  "publisher": "Yahoo! Finance Canada",
-  "source": "portco:pine-labs",
-  "official": false,
-  "firstSeen": "2026-11-07T23:40:07.729Z",
-  "portco": "pine-labs"
  },
  {
   "id": "14c6d9460582",
@@ -47357,6 +48596,18 @@
   "portco": "ags-health"
  },
  {
+  "id": "d4ab610a4919",
+  "firm": "ta-associates",
+  "title": "Interswitch Backs 2026 Africa Magic Viewers’ Choice Awards",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeWpGalZjUVVUZkNqeW10UllKV0tTV0k0RkkxNG5oTlk1V3RhREowNGpRdzBac3RDT3Z2ZzR0Ny03aDVKUk5jaVlvQnhXY3VENDVKUWZPYS1oQlZmLWpYbUdQUHpibFg3WElLVDdkWDl4SXpWTUVXRHNFbFc0UUExSjN3V25rVmhJZ2R4Q0RYb2lPbjRh?oc=5",
+  "date": "2026-11-05T08:00:00.000Z",
+  "publisher": "Business Post Nigeria",
+  "source": "portco:interswitch",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "interswitch"
+ },
+ {
   "id": "95b4627e8097",
   "firm": "wavemaker",
   "title": "Cohere and Singapore's Centre for Strategic Infocomm Technologies Partner to Advance Secure, Enterprise-Grade AI for National Security Operations",
@@ -47535,18 +48786,6 @@
   "official": false,
   "firstSeen": "2026-11-04T23:36:53Z",
   "portco": "ascend-asia"
- },
- {
-  "id": "10972cc1f576",
-  "firm": "ta-associates",
-  "title": "Housing Finance Expands Agent Banking Through Interswitch Partnership",
-  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa2VCSTFZSWpyVVhJSWpRM0thRHNwQU5vYkZFUnZSQVdkU2VURE1UN1o2V0ZudkJiYmlmMVB5eDhVSlNSZk1ReUNscU9ia1ZzVWF0UXJhdlZiRTh6dlRzaDhDQmM2MXpoODJ5Rm4yTm9kZFd0S2FIckQ0blVMZzhvSWFteEJ6QkFMSVVtQndwX091M0RIYUYwelp6blhKWktxXzZVMDN5dXBYcWtzYnY00gG3AUFVX3lxTE5pX3VXMk5rMUFBZHJWSkNLY1FOUlZIb0Q4VDYyNlh6LVV3Tmk5dU5ucG1pam5MaEhMb3dYVk16dmhneE9PY1J0SUpqRVdvRmU0MHZUd0tsSVNoaldtRHNIZ0pSVlNBM0lsMG14LWFtY2ZCMjFnTXB5WkllS2hUbXdUa05mVlhrRG9WcTcxYVUtYUZVQUFWWGJvUHNxbHFBMjZVU0RaOWxvbTJFS29pZExVUUxBMUdZZw?oc=5",
-  "date": "2026-11-04T15:34:52.000Z",
-  "publisher": "Nilepost",
-  "source": "portco:interswitch",
-  "official": false,
-  "firstSeen": "2026-11-05T23:37:14Z",
-  "portco": "interswitch"
  },
  {
   "id": "5f014a4ace53",
@@ -48149,18 +49388,6 @@
   "portco": "cloudera"
  },
  {
-  "id": "0ae1b683d544",
-  "firm": "eqt",
-  "title": "Japan’s development and design talent shortlisted for the 2026 PropertyGuru Asia Property Awards",
-  "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZkczME9RenVGdTcxcTdvbnd6SWEyMzd2S0FBMi1kb1JfT3NTOVFtNl9MdHhxejJqemxDS1FJUEt1NUNpekxTX0c1cFJRODJWZmFvQXRYdlFpU3czM1U0akJLb09Xb1dDRVkzVVRlOG9HaVJybHl3M1hiWHZDTU5JQm9PRk42bnFiUVVERWlqVlJ5WUN0YWJfdGRYQno5dzJjNTBENlhzSk9YNHF3cV9nVF9ZN0hqblpkNGdkdWx3emlYMzVtNmpMeExtTjBaRWs?oc=5",
-  "date": "2026-11-03T07:52:39.000Z",
-  "publisher": "Asia Property Awards",
-  "source": "portco:propertyguru",
-  "official": false,
-  "firstSeen": "2026-11-04T01:17:00.929Z",
-  "portco": "propertyguru"
- },
- {
   "id": "719c3403af31",
   "firm": "kkr",
   "title": "Saviynt Secures FedRAMP Class D High Certification for Identity Security",
@@ -48195,18 +49422,6 @@
   "official": false,
   "firstSeen": "2026-11-04T01:17:00.929Z",
   "portco": "altimetrik"
- },
- {
-  "id": "5383a9f53c5d",
-  "firm": "eqt",
-  "title": "16th PropertyGuru Asia Property Awards (Singapore)",
-  "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPel9SZ2s3NlkwSEY2bFNHQURYNFd5MGdSaXJYSlBYRUJOMkJtUDNVRFZId2cxUlJQa2NGMDdwbHFrVDdpQ1gyVEkyNUdieFdPMXpEY0xIeGVvN01TeDJyYmw1dXdtaG5CbzVtX0pGbC00N2UtWVgtdjNsei1sU19RbXpsN1MtQXd0NWpHRWFsQjN3S3VSNk1tTkJJVHBfREdBNHlzTUFpcWEzUF9Odk5GRXFCcVY2NDd3dm11dXZwemZ1TlY3RVI4YlNJU2lZZXFKTHh0SFBKYXREcmR6SmJMOXVITWFSMjJJa0NMRE9qU05TZWhVUVFuWnhuRE5GZDVIN0VtcS03MHo4N0xISEVGRWctSVJpT2VDZVE?oc=5",
-  "date": "2026-11-03T06:18:41.000Z",
-  "publisher": "GlobeNewswire",
-  "source": "portco:propertyguru",
-  "official": false,
-  "firstSeen": "2026-11-04T23:36:53Z",
-  "portco": "propertyguru"
  },
  {
   "id": "1cbce9ea9e75",
@@ -48977,18 +50192,6 @@
   "portco": "zenoti"
  },
  {
-  "id": "14f00230c80f",
-  "firm": "tpg",
-  "title": "Sahej Grover joins Tata Technologies as Director – Brand, Digital & Communications",
-  "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTFVYZ3ptS2NsclhZMHdwNGtaeUFIeEVtSW5BZEZvY1EwWGxTeWdIaFMzMlJCTmNRM3E5dllNdV9OTG9IRjNSVmxrRmk1NEV1OUhlQjRBYmFsd3RTUjdNWk1fSG4tRTJTNUdWRHhXZVNmcXUxSGNzSWRlODhzaHhMWktoOFRaR0ZvQUpjWmdHQVhVaE9RUXRtTDA4R2laT0F4TUN1M2hVUjIzUW4zbzVCSjdLczROQjhaT1RZcnhBV1ZNN3MwdUNZS3pHRWRnZlhzVExZQmRQbHdKMkdVb21NaW1RaUEzTUtDVmdYNA?oc=5",
-  "date": "2026-10-29T11:28:46.000Z",
-  "publisher": "Exchange4Media",
-  "source": "portco:tata-technologies",
-  "official": false,
-  "firstSeen": "2026-10-29T23:38:50.968Z",
-  "portco": "tata-technologies"
- },
- {
   "id": "222660e15d0e",
   "firm": "eqt",
   "title": "Indira IVF in Talks to Acquire Sabine Hospital in INR 1,300 Cr Deal",
@@ -49155,18 +50358,6 @@
   "official": false,
   "firstSeen": "2026-10-28T23:38:02.490Z",
   "portco": "vastu-housing-finance"
- },
- {
-  "id": "03008407d757",
-  "firm": "tpg",
-  "title": "Buy, Sell Or Hold: Jio Platforms, Apollo Hospitals, Kaynes Tech, HDFC Bank, L&T, Tata Technologies | Ask Profit",
-  "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWk5vWF9RamNNSnRoXzlTclR1RGgyX0VmQVpGTGpzNUt3M0pHQmZiZTZoaVFKXzcyS3RiZlFTNElUelF5ak4yaGFBNWJaZmpLeThKWmhVV2gwWGFMbTZiWVN6MEo3QkdTM01GUDNrb0lSUG9oN3pxSnpTTkp0aUlKSkpUZkZzSUVjSnhuNl9DazVfQ2tyNjB1VEVReVJCWjFQMFFuS05kUS1QSUlZLUlXRzhQX2xYUjNta3pxY3VYUmw4dFpsNkNuU3l3ZDBsamlRQ3o5VXNqN0FWdnE1WnfSAeYBQVVfeXFMTi1BOS0zbE03b1YxRER2Si1xNk1FQ0NFUV9hT2xIX1hFWkhsaXdRRTZReWZ1T3lCU2t0VHQ1VElsUkFyQ0dtVzlrejIwUUliMGQza0U2Ylk3RkFvYnZ3dzlYTWlUbGNxY0VrbmVDcDBYNHNsRW85V0ZEcDhQM2tYdVNMNFFWaFRzbUMyUVlHY2NIVkdGX1M2dTVReFNHUVBzbjJmZkJtd0FMSVVxd2lwNEQ1UGYzRGVBbnVuUjFfeXVlbDN6T0JPaDJOZkVGNlB4SjB2ckhudHNTa2dPeG1WdlY1NGJmTkE?oc=5",
-  "date": "2026-10-28T06:16:44.000Z",
-  "publisher": "NDTV Profit",
-  "source": "portco:tata-technologies",
-  "official": false,
-  "firstSeen": "2026-10-28T23:38:02.490Z",
-  "portco": "tata-technologies"
  },
  {
   "id": "3a89d7685e95",
@@ -49707,18 +50898,6 @@
   "official": false,
   "firstSeen": "2026-11-02T23:38:36.994Z",
   "portco": "fisher-funds"
- },
- {
-  "id": "581b01967b6a",
-  "firm": "tpg",
-  "title": "Tata Technologies posts 22.2% YoY revenue growth, secures $138m deal",
-  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbF8zbElVc1g0d2JJeG9FbExBVThMUk9JU3FXQmU5VndsNHVmNXA1cUxwZTcwX2xxRDdZNUhUTEZYemt0Q3g4ZGpEY3c0blA5bkZRQzJGYTNhTTlFZEJsemxOZ0d5Z2ZORlliMDZWM3hPMVdDNDVrcE9lOVpEZG1nM0M3ajQyQ0ZKOWlMaC1ZQlRYeEZXYlZzZFJ3aFhfeElNdTBwTFZnVnN3MlR2MUE?oc=5",
-  "date": "2026-10-24T20:51:18.000Z",
-  "publisher": "scanx.trade",
-  "source": "portco:tata-technologies",
-  "official": false,
-  "firstSeen": "2026-10-26T23:37:51.028Z",
-  "portco": "tata-technologies"
  },
  {
   "id": "107f6d77f488",
@@ -50465,18 +51644,6 @@
   "portco": "viatel-technology-group"
  },
  {
-  "id": "0723f72c1b2c",
-  "firm": "ta-associates",
-  "title": "Craigs Investment Partners Adjusts SkyCity Entertainment Group's Price Target to NZ$0.84",
-  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUzNNQ3lyb1Q1RnVMUlh3MTRpM2Voc2xoU0xIYklxOWFKZWs2Z0padm1LempvR2tSdG5lTGRKeWh3bmFqM1p1bTNJZXhCY3h0OE55X3IybXlrQ0g2VnBCZlhEN0N4TTdkWDljbGd5M0RaUkZjQzhmRWI4WmVhTVdGZWhEX1JadlVhTGRYbWhXb2pyOGZqWkdXdG5OcnlyOWkyR2NqQWxIbjJsMERuZm14YUU1ZE9mVzFmd00xU0tCMWVveGtOUWVoQ1h0NmRGZHdiSEZ2T0xYZDM?oc=5",
-  "date": "2026-10-19T07:00:00.000Z",
-  "publisher": "www.marketscreener.com",
-  "source": "portco:craigs-investment-partners",
-  "official": false,
-  "firstSeen": "2026-11-02T23:38:36.994Z",
-  "portco": "craigs-investment-partners"
- },
- {
   "id": "c4c775fe33c1",
   "firm": "partners-group",
   "title": "Deloitte & Sirion Join Forces To Advance AI-Native CLM",
@@ -51209,6 +52376,18 @@
   "portco": "oxylabs"
  },
  {
+  "id": "b7589f255e8a",
+  "firm": "ta-associates",
+  "title": "Cyril Amarchand Mangaldas: Advises on Oxane Acquisition India",
+  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUVJMZlF2amR4NEgtSVVDT29zRDlWNXRIU096b1ZBbG5EN2tKbTRPWnVWb2UzMXQ3U3JVdUd2dmdZbEJ6eDZuR1VKU2hxWlM5RGxwWDQ2T0l2M29qaEdpNkdoQnNvc2hyQnRvWlVMamtLWTUyQ3g4bVd3Q2JmZGVicjg4djl4U0tTdGpfUFlLdkxBMGxIU2cxWkw2WGFUU3dGN3JDNVFzdXhrVkFteVR4bjUtZG1HYTEyeGZjZFRR?oc=5",
+  "date": "2026-10-08T07:00:00.000Z",
+  "publisher": "Wansom AI",
+  "source": "portco:oxane-partners",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "oxane-partners"
+ },
+ {
   "id": "bc5215c7479e",
   "firm": "wavemaker",
   "title": "Hati Health Launches Breast Cancer Awareness Month Initiative, Pairing Screening Access with Free OB-GYN Consultations for Filipino Women",
@@ -51675,18 +52854,6 @@
   "official": false,
   "firstSeen": "2026-10-06T02:13:34.554Z",
   "portco": "cotiviti"
- },
- {
-  "id": "0130e0ce7799",
-  "firm": "peak-xv",
-  "title": "Indian fintech company Razorpay has partnered with OpenAI to help Indian businesses advertise on ChatGPT through Razorpay Engage, its growth marketing platform. Under the partnership, Razorpay Engage will help businesses prepare product catalogues",
-  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE91Sk51dUUzaGN5VlEyRVViLUhQMlEyajlyU2M2UFh6dzJJYkN1T2QybmZwSEJpR2toUFlDV0RhVWJqM3huU0NwT1g1WVlpeTNMM1E?oc=5",
-  "date": "2026-10-05T07:00:00.000Z",
-  "publisher": "Instagram",
-  "source": "portco:razorpay",
-  "official": false,
-  "firstSeen": "2026-11-05T23:37:14Z",
-  "portco": "razorpay"
  },
  {
   "id": "621579aa7324",
@@ -52181,6 +53348,18 @@
   "portco": "sapia-ai"
  },
  {
+  "id": "18593d209955",
+  "firm": "peak-xv",
+  "title": "Repario Acquires UnitedLex: AI Legal Services Expanded",
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNUZHQ09XYUxKTUdYNVptY3c1dVJJUDBUZTVheTdhRlhQOXZsZUZvSnU4VGMzSTRrWVp4Y3pDNERDc29aelBHcWptQjQ3OHdjRnNvT2F6RUZRU0JEYWY3dUN1WEtyQ0pWMkg1bFVDMnJTWFpadGZJTThoWUVvQWFYaXZBc2NjUlhxaDJzdVNfOWV2UGotZHJHRzFYNkNMamJUS3NDQ29BWGotQml6U09Hbnh6X0RwREk?oc=5",
+  "date": "2026-09-29T07:00:00.000Z",
+  "publisher": "Wansom AI",
+  "source": "portco:unitedlex",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "unitedlex"
+ },
+ {
   "id": "1a65c3dd66a3",
   "firm": "peak-xv",
   "title": "US eDiscovery and legal data business Repario acquires ALSP UnitedLex",
@@ -52359,6 +53538,18 @@
   "official": false,
   "firstSeen": "2026-10-17T23:37:47.707Z",
   "portco": "novotech"
+ },
+ {
+  "id": "d2cabb7792fa",
+  "firm": "jungle-ventures",
+  "title": "Singapore fintech iPiD raises $16M Series A led by Foundation Capital",
+  "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSldCNmxnbW41N0lzN09sYzBqSmt6RjNGcE5DdUFnSWtIeFVlN2NpNzZla1FKN0dUR3IzUmdDbkVLYXltcy1JYklucXNNTldkVFZRYUlyQ0dFRktSQWcxcXVpNTAtdTI4dnpPdjRtdEVlVFJGRlJTeGttSzlYZWdiUW43RjlXRTJZcVE?oc=5",
+  "date": "2026-09-25T07:00:00.000Z",
+  "publisher": "TNGlobal",
+  "source": "portco:ipid",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "ipid"
  },
  {
   "id": "611946dbf93b",
@@ -53321,6 +54512,18 @@
   "portco": "volue"
  },
  {
+  "id": "d2e8362bfba8",
+  "firm": "peak-xv",
+  "title": "Circle’s Tazapay deal signals a new acquisition opportunity for African fintech",
+  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdDdaaGtEWTdKT0xJYXlzUUl2UndjdERFMUZIS2lqRVc1TF94TEVfX1hLYm56WUlwUWVjVkpvTmlIaDRPWFVpVVVpSzRtUnA3X2lxOW50anZ6M3pBT1N6NFl5bUdnVnRhODZkQldteFhpTHF4NWNNemV2TGJhcWhDOEtzVQ?oc=5",
+  "date": "2026-09-08T07:00:00.000Z",
+  "publisher": "Condia",
+  "source": "portco:tazapay",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "tazapay"
+ },
+ {
   "id": "2badc407c7ae",
   "firm": "warburg-pincus",
   "title": "Evolution sells data center in Thailand to hyperscaler",
@@ -53765,6 +54968,18 @@
   "portco": "ringg-ai"
  },
  {
+  "id": "77bc55bf7669",
+  "firm": "peak-xv",
+  "title": "Wealth-tech firms Stable Money, Grip Invest, Bachatt in talks to raise fresh capital",
+  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbmtKVXdNRlRoU0t5ZFZ5N0ltdllqT3o1MnF2U3VqaUhKVXRscmlMM2hIMzhMNTB4VDhtV0F3cVp4RXZLOTh3S0VHTWN4NnJHd3pMRjJuSzRmVE50eXZjVEJhUXFzSlZlNDVxLUxFMGw3OXcyejd6QUxUUVJEY19lUTdIdlZyTy00SlF6bjV1b3I1TGp4WFA2bk5WWmVPU1NUSHFRWEVTR1NmM09Fdy1jdlprckxSWGJYeVg5WHphVGdtdzJ6ZEpqUDdGTUNiOHk5c3c?oc=5",
+  "date": "2026-08-25T07:00:00.000Z",
+  "publisher": "Venture Intelligence News",
+  "source": "portco:stable-money",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "stable-money"
+ },
+ {
   "id": "4edc887be4ec",
   "firm": "wavemaker",
   "title": "Hati Health and Shinagawa Diagnostics Renew Partnership to Make Executive Health Checkups and Preventive Care More Accessible in the Philippines",
@@ -53787,18 +55002,6 @@
   "official": false,
   "firstSeen": "2026-10-26T23:37:51.028Z",
   "portco": "nord-security"
- },
- {
-  "id": "bd77b8cd8418",
-  "firm": "peak-xv",
-  "title": "Stable Money - 2026 Latest Shareholding & Valuation",
-  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNmRTS25tNkJzUHVmTEFCalR4Rno5NGJiZzI3bDJtcXhsTzV3SXF3VFE4dGhJLVh4c083Tlo0czBkQVFYSWpYTEFTSTBPa3Fwc1RQbEJXZ3E4SlM1WDcxRkpQQVB0MlplS1FrbE9WMjFCM2FYUVlLdl9lLUdnQVllMUZNTmI4cUlkU01MOVRKcnMyb1VmdlNrb2VERmMwdTVkT0d4bnFSR1A5M3VXVFE?oc=5",
-  "date": "2026-08-24T07:00:00.000Z",
-  "publisher": "Tracxn",
-  "source": "portco:stable-money",
-  "official": false,
-  "firstSeen": "2026-11-05T23:37:14Z",
-  "portco": "stable-money"
  },
  {
   "id": "fb8dbe8c4d05",
@@ -54341,18 +55544,6 @@
   "portco": "funding-societies"
  },
  {
-  "id": "f927e01ba86a",
-  "firm": "golden-gate-ventures",
-  "title": "Funding Societies taps Malaysia Debt Ventures for fresh SME financing facility",
-  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcmFZTzRubWdwYlQtbWpLaTRHS2pxdnc3NnZ0RTNyaEl3UDJhNWZGRkJ3dnd0T1JBWG1UNEFSQUp3cFVXcGxVWFBFRDJOZ2RsUWl5Zm5VS0FkT3h3cERGdFEtSEJlOEpZNlJQejZhcXJaUDlMM3BQWWY5d0w2RlJnYnF3R1hGeDk1TDVZbnFaak5KLW1MakJuQmdfV2tjTFBQNmloLUFDazg0d2tuU21XNnNn?oc=5",
-  "date": "2026-08-03T07:42:02.000Z",
-  "publisher": "Dealroom",
-  "source": "portco:funding-societies",
-  "official": false,
-  "firstSeen": "2026-11-11T23:39:17.546Z",
-  "portco": "funding-societies"
- },
- {
   "id": "1a37d356c2fb",
   "firm": "warburg-pincus",
   "title": "Polar 993 joins Acclime through strategic acquisition",
@@ -54399,30 +55590,6 @@
   "official": false,
   "firstSeen": "2026-10-26T23:37:51.028Z",
   "portco": "billdesk"
- },
- {
-  "id": "66686464c020",
-  "firm": "peak-xv",
-  "title": "Funding Societies secures new financing facility from Malaysia Debt Ventures to deepen SME financing reach in Malaysia",
-  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdVlYSC1RZ3NTSHpNd2UzNUxYUk1NRXFhQWVIcWxnWGdSZkd4dnE1bGF1ejlCZ2tLbzg4YlNKYkFiUzRvWUxqeUg1WVdneUNuQVFNcEl5Y0gycEtCakJJNXphbGs5ZTlwZDZEdTlsaUlpRW9BUHRXdnRxTDBPQUpueUpQeFBXd2w1emZHczBUZ1AxWEZWdlJ0aVlqT1JfTVJmWUdkQ0RCV3hWeXFlZUpHdEFTTUVYcXYzZFpnYVdaSzM?oc=5",
-  "date": "2026-08-03T07:00:00.000Z",
-  "publisher": "Digital News Asia",
-  "source": "portco:funding-societies",
-  "official": false,
-  "firstSeen": "2026-11-05T23:37:14Z",
-  "portco": "funding-societies"
- },
- {
-  "id": "8eda39f5175d",
-  "firm": "golden-gate-ventures",
-  "title": "Funding Societies secures new financing facility from Malaysia Debt Ventures to deepen SME financing reach in Malaysia",
-  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdVlYSC1RZ3NTSHpNd2UzNUxYUk1NRXFhQWVIcWxnWGdSZkd4dnE1bGF1ejlCZ2tLbzg4YlNKYkFiUzRvWUxqeUg1WVdneUNuQVFNcEl5Y0gycEtCakJJNXphbGs5ZTlwZDZEdTlsaUlpRW9BUHRXdnRxTDBPQUpueUpQeFBXd2w1emZHczBUZ1AxWEZWdlJ0aVlqT1JfTVJmWUdkQ0RCV3hWeXFlZUpHdEFTTUVYcXYzZFpnYVdaSzM?oc=5",
-  "date": "2026-08-03T07:00:00.000Z",
-  "publisher": "Digital News Asia",
-  "source": "portco:funding-societies",
-  "official": false,
-  "firstSeen": "2026-11-05T23:37:14Z",
-  "portco": "funding-societies"
  },
  {
   "id": "35e429059ad5",
@@ -54557,18 +55724,6 @@
   "portco": "apna-mart"
  },
  {
-  "id": "74525906ea2d",
-  "firm": "ta-associates",
-  "title": "TA backs private credit tech firm Oxane Partners in growth deal",
-  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTGEzMGstSmtwZzk2M3lLN3hpMldJMmJ6ckpTV2lfTkg2ZXRIaUNROTRqY2t2QldsX0JzWDJRMk1ET0xwSEZ2c1p0U0sxOWcweUNEZXFYQU1nZFVrVWhibmxQbGl1NDlwa0sySE9sR09ST0NtWDRjeFNaZ3ZnSjJsRmlha2pMekZVYjFWMi1ETm1obHQtQWZWWVdheHpPQQ?oc=5",
-  "date": "2026-07-29T13:56:59.000Z",
-  "publisher": "Dealroom",
-  "source": "portco:oxane-partners",
-  "official": false,
-  "firstSeen": "2026-10-06T02:13:34.554Z",
-  "portco": "oxane-partners"
- },
- {
   "id": "51d4e6e12d05",
   "firm": "eqt",
   "title": "Hg Agrees Sale of Quantios to Vista Equity Partners",
@@ -54675,18 +55830,6 @@
   "official": false,
   "firstSeen": "2026-10-06T02:13:34.554Z",
   "portco": "unit4"
- },
- {
-  "id": "9f9882735b66",
-  "firm": "peak-xv",
-  "title": "Funding Societies Adds Insurance to SME Loans at No Extra Cost",
-  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5UTY5aG9vLWNsUE9lY1JSM1NGLVRnSDJPRzA5dnlTck1INGpXZjBJeUswQmRhZllTT1dPNVN6WUUzaHltdXRKc3RwdDktOXl0VlZWa3h2NDhKNkVucnRUNTh3ejB6REhTdWQxSGphd2QxTDQt?oc=5",
-  "date": "2026-07-24T07:00:00.000Z",
-  "publisher": "Fintech Singapore",
-  "source": "portco:funding-societies",
-  "official": false,
-  "firstSeen": "2026-11-05T23:37:14Z",
-  "portco": "funding-societies"
  },
  {
   "id": "a0fc573a4a25",
@@ -54891,18 +56034,6 @@
   "official": false,
   "firstSeen": "2026-11-02T23:38:36.994Z",
   "portco": "m-daq"
- },
- {
-  "id": "c833e778379f",
-  "firm": "kkr",
-  "title": "Netstars 🤝 Canton Network Netstars, listed on the Tokyo Sto",
-  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wMkR0Q3V2ODhFZFdTaFhtNmdlalkzWGxGb2RHZWc0S29JN3phN2hSbVpIc2E5RHp5b0Z1dGpsRXlGaTF5V0ZOMWtVNjktWnVLQlYwTjV3Ql9kRmxQZkp6UXJiS05DeTM3M0pnWU55Zw?oc=5",
-  "date": "2026-07-07T07:00:00.000Z",
-  "publisher": "KuCoin",
-  "source": "portco:netstars",
-  "official": false,
-  "firstSeen": "2026-11-18T23:37:55Z",
-  "portco": "netstars"
  },
  {
   "id": "ddf31cb9622a",
@@ -56873,6 +58004,18 @@
   "portco": "indostar-capital-finance"
  },
  {
+  "id": "611d956648af",
+  "firm": "navis",
+  "title": "Eton Solutions secures $58m Series C, eyes AtlasFive expansion",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQUlhMXdPaVY5SWktUlQ1dnNYSWd0U0FUY1dxbFhqTkkwbVB4RVQ2dHg0XzFwSlhGdjFkMzltX19WWjh2a0h2WUFXdVJyREdBOG9jSjlQeFZyWERRMG1DbGpSbUkxSllqRllJMDYxcXBfVHBVZmpCVlRCeEw2ajF4UTc0SDZmWElmTjVBYXIzT0NnUWZL?oc=5",
+  "date": "2025-07-18T07:00:00.000Z",
+  "publisher": "FinTech Futures",
+  "source": "portco:eton-solutions",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "eton-solutions"
+ },
+ {
   "id": "6892495545c4",
   "firm": "jungle-ventures",
   "title": "CAM, Veritas Legal, SAM act on Indium's sale of shareholding in Infinity Fincorp Solutions to Partners Group",
@@ -56907,6 +58050,18 @@
   "official": false,
   "firstSeen": "2026-10-06T02:13:34.554Z",
   "portco": "moneythor"
+ },
+ {
+  "id": "65b1445991bd",
+  "firm": "jungle-ventures",
+  "title": "CAM advises Indium IV Holdings on Sale of Stake in Infinity Fincorp Solutions to Partners Group",
+  "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPLUd5RE51NTI0ZzJMVHZBRkdUeHBrZlVwdjRUZDJjM00xTTJFNWVLM19EOUxvWlBRY2YzX2hvYUppVWk5Ymp2aElhbHBpdDUyc0pjbVRFdFNFckZDUGhjaWtoc1N0TlR1VXNzSF82NU51eExFMEFhX01ibHRUY2tGRW9FNDJVaXVKWDdqMzI0ak9uYTRWLTBJeTdVVlpBMnlKdXg0NGJBc0lmUQ?oc=5",
+  "date": "2025-07-14T07:00:00.000Z",
+  "publisher": "SCC Online",
+  "source": "portco:infinity-fincorp-solutions",
+  "official": false,
+  "firstSeen": "2026-11-19T23:37:19Z",
+  "portco": "infinity-fincorp-solutions"
  },
  {
   "id": "86cffa50d66b",
@@ -57701,18 +58856,6 @@
   "portco": "fano-labs"
  },
  {
-  "id": "ac97056888b1",
-  "firm": "jungle-ventures",
-  "title": "Infinity Fincorp Solutions Secures USD 8 Mn Funding To Boost Credit Accessibility For MSMEs",
-  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbGloNXRtOU1jZDZzc21sVDlVNjU3UVVkZVRlMXF4TGNVWEVqQm51MHM3NzR2LTVxUkdvaDJkaFNMY1VPSFpzSVlydmdubW90TS1lWlpjOU5HaFFFU1VyQ3I2Z3JJdGNmYUdjNXJhVkw0UXhiUmE0dHBMMnB5QU1hYnJqOEt1RGtxeVNVd25CYXBPRHZRWm16N0tFMjZTX3lzTlpsUTBZYzJIVUhLaTh4a1FHTDAxUkR6Y2xrcnZyRDhWWHZhYVpmeWswOVlRc1NnREE?oc=5",
-  "date": "2024-05-02T07:00:00.000Z",
-  "publisher": "KNN India",
-  "source": "portco:infinity-fincorp-solutions",
-  "official": false,
-  "firstSeen": "2026-11-05T23:37:14Z",
-  "portco": "infinity-fincorp-solutions"
- },
- {
   "id": "a2a8098798d6",
   "firm": "wavemaker",
   "title": "APPRO Extends Partnership With Silent Eight To Enhance Their Already World-Class Compliance Offerings",
@@ -57723,18 +58866,6 @@
   "official": false,
   "firstSeen": "2026-11-05T23:37:14Z",
   "portco": "silent-eight"
- },
- {
-  "id": "9e345ed8617b",
-  "firm": "affinity-equity",
-  "title": "ScotPac enters partnership with payroll funding provider",
-  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUjBMUHVsWjRTRE5nYmV1aXFBTjZrN2xNUVVwWnF6LU5KRUk2dXQ5bnNPMElpSGZlbzlWSDdCTzVyaEJzdWdZYXVrd0xUUnpxZldxb1Q5OWo5a1M4TWthU0tZZGJDR2o1RDhNWmxJQThqRTNUb3BYT0ZVV0kzc3dwdmwxYnVudHczWU5VZzBmOTd3bU0zWXMyLUsxY3hyWnNOQnVv?oc=5",
-  "date": "2024-04-17T07:00:00.000Z",
-  "publisher": "The Adviser",
-  "source": "portco:scotpac",
-  "official": false,
-  "firstSeen": "2026-11-18T23:37:55Z",
-  "portco": "scotpac"
  },
  {
   "id": "816f50b43142",
@@ -57855,18 +58986,6 @@
   "official": false,
   "firstSeen": "2026-11-05T23:37:14Z",
   "portco": "silent-eight"
- },
- {
-  "id": "9ab89fe9f868",
-  "firm": "peak-xv",
-  "title": "US legal data provider UnitedLex hires former Dell lawyer as inaugural GC",
-  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQejg4SlBsbEQ4Q3RKYklXU1RLa3VKWmxOVUN5dnBWUldweUh2YjBhaW5CRnJHck9SVlR4Qkc2eWowNTFZdWdMQlJrQ21mYi1VZEFTcDM4eGRPZjRwb2cyN25uUkVqNkVNRmhCdEN5Z3Q1YlBFYmYzNHQ3eDFqbW9vQlZsYW5wNlpQeDlZeWRqR3RSOFJhazhQTF8yUEw3a0dXTjFRM2RMaFVWYURCNG9xUmFxajdyNHdZbFR6V0pn?oc=5",
-  "date": "2024-02-15T08:00:00.000Z",
-  "publisher": "The Global Legal Post",
-  "source": "portco:unitedlex",
-  "official": false,
-  "firstSeen": "2026-11-06T23:38:26.940Z",
-  "portco": "unitedlex"
  },
  {
   "id": "7ecd63d71794",
