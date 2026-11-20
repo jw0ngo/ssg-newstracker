@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19T23:37:19Z",
+ "at": "2026-11-20T23:37:12Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,8 +82,8 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 14908,
- "candidates": 285,
+ "archived": 15067,
+ "candidates": 287,
  "fromSignals": 31,
  "boltons": [
   {
@@ -773,6 +773,18 @@
    "title": "Forterro To Acquire Software Provider 3E",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vNU9LUUJ1eDNKRWRWc256NlRTSDg0U1Utelk3Y2ZDWFgxenBBRXE0Uk9wbWlBU2FyNmJIdTg1azBJV3BXa2tVM3AxMURCaXhVYndMOF9nbklxS2pVRzF3d1p1MEYzc2djMUNRbEF6YVZseUcyWi0tUEtqQVU?oc=5",
    "publisher": "Window + Door magazine",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-05-12",
+   "month": "2026-05",
+   "firm": "kkr",
+   "portco": "incred",
+   "buyer": "InCred",
+   "title": "InCred Capital acquires Singapore based fund management company S Cube Capital",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSFM4REZXbWtjdDBtOUlDME4xSUx6elFlbHJVOWdzM1ZjVXNKaEFLblBCNlhubVhzeXlIdUpwTXUxZ1haSDBNWEs3YnNDTVdxZHJhMUhZYUE5cXVtMDJHcmVUWE94OW9DR0VXcl81aTNOa0Nld3BLNklLLWFBZm9QN1BBVXhlTXRPZEtDQVRlb3RxOTZqYU0xU0ZUeXI5T0V6Z1BUSG04dFZRSVRfX0ZoalZyVHBSaW1OdjlRVDNqWW9jNFgzamdGSEJEX3hhNEF2dlBKZ3ZIaEVqbVJ6U1ZHV3ln0gHnAUFVX3lxTFAzR1N1bk11LUMxaDJucHAtM1N6SXlRMnJYQjkyWUpncExvNGpvX25EVjg4Vy1rNmFQNGU3UExxeWhSWUJ4dnFIeUVnMWNWOFl3azhkam5TUnlIc05NSWNKTF8teFBEbTc2S2d6aWxHNjBaVVpxczcwYml3MDVJZTJtbEFuQjVtZzFHTVdBMFRIa3lOZzBtUTItMVdIdzVmSmM1ZTR2cmY5ME10amNiV21mcF9UWDY4N1NkS1lpcnd2NEdYQklRNDVoaG1wMjIzZHZ3dGxPXzZDUlZ1Vk5lbHppM3M5ZnZVbw?oc=5",
+   "publisher": "bfsi.economictimes.indiatimes.com",
    "stage": "signed"
   },
   {
@@ -1621,7 +1633,7 @@
    "stage": "signed"
   },
   {
-   "n": 1,
+   "n": 2,
    "date": "2024-05-08",
    "month": "2024-05",
    "firm": "kkr",
