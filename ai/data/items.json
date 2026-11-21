@@ -1332,6 +1332,18 @@
   "firstSeen": "2026-11-12T23:48:01.628Z"
  },
  {
+  "id": "0856a3983413",
+  "theme": "sponsors",
+  "title": "SoftBank's AI Bill Comes Due as Anthropic Listing Fails to Calm Investors",
+  "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNFQ1NVl2MEZwQVJ1V2k5QzcwbTJFMS1fR1NfZEFLSThnYlJrWWk4cjNDRlBxQlpLN2Mtak1OYTVXV0hwRHJ0aGpQNUdIVS1tVDFud1hyc2F0dWRDZUN4dkxkTFdDRkxINWNuZU5rLS1JanFqWGNQN3M3QzhFaGF2MVlKeDdPT2RXRkFVQk1Xekd3bVIxOUtSTUtHTkR0c2ZlWlpQaVRtQ1MyZzU5aUg5RjBZNjJTc1JrTFpvR01ZNGVDVUlGXzF6bktDVXJ4b20taW9IcnBxR1dIbzdhM0E?oc=5",
+  "date": "2026-11-21T13:11:50.000Z",
+  "summary": "",
+  "publisher": "ad-hoc-news.de",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
+ },
+ {
   "id": "08616ce842fb",
   "theme": "targets",
   "title": "Sequoia-backed Rox raises $100M at $1.3B valuation: can AI agents unseat Salesforce in sales?",
@@ -2650,6 +2662,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-10-28T23:48:30.535Z"
+ },
+ {
+  "id": "111d93cc4e09",
+  "theme": "targets",
+  "title": "Anthropic Raises $81 Billion Ahead of Record-Breaking IPO",
+  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbE1HWEtfSEJ4V29IWnNGV2NWMWpQZlhXLWNwYUNOSVRENmdhQkJlVkwzdk9HMHM3VzNZQ1Z4azhSMEV2eDlvQ1lIV2pCVHNyXzI5ZHYwR1h5b19XNWYxZ1hMQnpqMzJudHdKRU5IWW1lMXNqUlZTdmF3dVplSW5JZi1HVUF2RG9wNEFoY1J0QTE4N3o2enc5XzRSM0lISlE?oc=5",
+  "date": "2026-11-19T02:01:00.000Z",
+  "summary": "",
+  "publisher": "blue News",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
  },
  {
   "id": "116ca1a14bca",
@@ -6360,6 +6384,18 @@
   "firstSeen": "2026-10-26T23:51:11.810Z"
  },
  {
+  "id": "2d189434f801",
+  "theme": "targets",
+  "title": "AI agent developer Manus raises $500M+ at reported $4B valuation",
+  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNalJnVGZaZ052LWh4elJYalRSSi1kNUE2WFRIRXlGZDRlY3pSQ1FfOVdJUFpiMFdOY0Q2SlBLQWxwUk1uanZlOGlYUXg1SGRrOFJNWk5DaS1Bd0g1c1I4MkhyLWwwRUpRaVdIa3l5bXpJcVlZa045akQzbTRORm0tTmRvbllUMFBSNkU3Mm1JTVk5N2h5ZUF2VF85Q3B3d0E?oc=5",
+  "date": "2026-10-08T07:00:00.000Z",
+  "summary": "",
+  "publisher": "SiliconANGLE",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
+ },
+ {
   "id": "2d2872b595bc",
   "theme": "ma",
   "title": "MongoDB Acquires Firebolt To Add Real-Time Analytics For Applications And AI Agents",
@@ -6790,6 +6826,18 @@
   "source": "ipos",
   "official": false,
   "firstSeen": "2026-11-18T23:46:43Z"
+ },
+ {
+  "id": "2f652e7acb3a",
+  "theme": "sponsors",
+  "title": "SoftBank shares crash 14.5%, biggest 1-day fall in 2 years: Why Anthropic's strong IPO debut failed to revive AI trade",
+  "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPSGZmVnNEVTBXTEZkSWw2aG55YXM3Rk5lNS1rSVFOalJEbWNBbHlSaGdncUlXX1BnN2M2NE41T1BLbGplMWV2WkpxTVFhWlpqaEJUcWg4c2o0amVUV0ViMlVqQ3U1UGtFcTV1YzNiU3JKa2Yxa0RHbGNaMHE5MTVjUHFzZDUzc3BseVJ6VXlTNmFTaDhrYV8tUEdHdEY2bWR0LXpkOUFrckZXSzVUTVQ5M1hCdHFIVV9ZZGdSc0xOVFNROG5nMGU2bmR3QmFRUXFvekg3TTFvMGtITDBtVVF4bF9aUUVFMVRoX1JqWHQzMHh5OTNLdkZENHZHdGpTcFlZVHk1TG5QYS1hYUdMOEZqZ3hn0gGXAkFVX3lxTE1qNkxQbHV6dUMyMVFWOXNqLS1KWVA4T19hcDdyTjlaenZyaklIQk1uVXRPSmlFWVZtbkZ4VmVVbGxJd3VGMEpmZGRRZHRaV1dQZnkybmVlbnltamlZY2lJc20xTEY4U09udnRyLUtmemtMOEI3LVlBeWN4ZmZ6QkpTdWJkS0VFdGRSVklkNTZCTzhqaFFKazZBUE9GZEJWQVgtRVBjdy1jd01CVm9HbE80eTZzblIwd3A1dzRCdGFORGhqNUMtb0w0aEh6TEJoMVNwSXl5RU1wMkd4NVRPMk5CN0dWQjl3QTRSY0VzTlo1MTJvRHUxX1JSck0wRkdvRVVHTHFjRkxHZ3E5c1NlbTRpT1BlbjJrSQ?oc=5",
+  "date": "2026-11-20T12:54:13.000Z",
+  "summary": "",
+  "publisher": "Livemint",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
  },
  {
   "id": "2f8576451d31",
@@ -7390,6 +7438,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-19T23:46:50Z"
+ },
+ {
+  "id": "3492a243c5b5",
+  "theme": "targets",
+  "title": "IIT Delhi grad quits Google after clearing family's Rs 1 crore debt, his AI startup raises $400,000",
+  "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdFVtSjRsckwtTEFaZG0wTkZhRTZDVmI2NzNrYU93WmsyYU1IWDRVcVdLSWpiNlRZakFCQ2hDLUx5bFkycDhBLTZGdUEwbmxYZVRBclJXcFpxZ0oxMUY1czFTTHUzSTJudkJIU0Z1N09GaGdfOS1MbC1GclJ4NGRBUWR2NU5LQ2hmeVN0YzI4NG1oSkdwQXF0dmgwRkV2WTdKbi0yMHYtcUF2OTZ4SHJKSTl0VVhJc2Y2R2haYkNVeXNYT25yeFROODl3b3Z6WV9xekVRUGR1bEpiXzYzSkpwcVh3OXZQRjDSAewBQVVfeXFMTkNaZXRFLUlfdG5sb1hCQlVjdU13WWVmb1h4dDdIeTBpRndBVko3R2c2X21fdGtma3ktN1I2S0FUNDNuSmt4bDNoTXJqOFFlZVBIbzNWRkZPQkJpc3BjZ3RQLUg3aEpNYzZ5eEhsNFNtQVhrMmhnU1Y4WnFTN3Z3Zk5RMnd3aUVGczQtN25IRmd4ckh3ekc1aU1KWnNPY1BNUjVFckU0Ym40dEZKbUIwT1padFFwczBOa2hIMkRqSTNiaGY2VXczalRZUUtGakxjNUtEZUl4aDctS0ZNN3hGQ1FqUFBIX0t3bHlNeGU?oc=5",
+  "date": "2026-11-19T03:50:32.000Z",
+  "summary": "",
+  "publisher": "Moneycontrol.com",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
  },
  {
   "id": "34ae4255f953",
@@ -8160,6 +8220,18 @@
   "firstSeen": "2026-10-22T23:49:28.706Z"
  },
  {
+  "id": "3a8eda589025",
+  "theme": "listings",
+  "title": "Anthropic shares slide as tech stock sell-off worsens",
+  "url": "https://www.itv.com/news/2026-11-21/anthropic-shares-slide-as-tech-stock-sell-off-worsens",
+  "date": "2026-11-21T00:00:00.000Z",
+  "summary": "Anthropic shares fell about 9% to near $88 in their second session, close to the $83 IPO price, as the Nasdaq erased its 2026 gains and Nvidia dropped 14% amid AI spending doubts.",
+  "publisher": "ITV News",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-21T22:51:37Z"
+ },
+ {
   "id": "3a90aab8e712",
   "theme": "listings",
   "title": "Jio’s Mumbai IPO Could Reset India’s Tech Leaderboard",
@@ -8808,6 +8880,18 @@
   "firstSeen": "2026-10-18T23:48:05.410Z"
  },
  {
+  "id": "3f976623ba3b",
+  "theme": "platforms",
+  "title": "Mistral targets Asia Pacific's demand for sovereign AI with Singapore hub",
+  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVGlmUnBhaFJlTFZ4c1VQTXowNFh0WDN4Q05BdnNXbFZnVXNRVWJxSnV3RXVWRjdrbm44VmMxalNZeGhVMkxyWUljc3dxWk1hOXhPMU14dkp4TkY1cUN2SERpUnNYUU16dEFfdnNNNkI1MkFGeVBTb2t0YlozaGE1NzAxYktyaDViVE4weGJhcGtDRWxaUU9UbDFMSWxJWDNnQVkxQjdheXBFMEZXdWZqa1ZwempMUVExLVJQRE81S1lnanFuQkxNMnRBeFY?oc=5",
+  "date": "2026-11-21T06:10:15.000Z",
+  "summary": "",
+  "publisher": "The Edge Singapore",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
+ },
+ {
   "id": "3f9a8bbb40eb",
   "theme": "sponsors",
   "title": "General Atlantic plans early 2027 IPO at up to $10bn valuation",
@@ -9132,6 +9216,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "422edf39952c",
+  "theme": "sponsors",
+  "title": "TPG nears take-private deal for payments group Bill Holdings",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN0h4U1hmbmZxdnNvOGZoNXNYWml0VUZDNVlWLVhKSjZTY0h1UUtRdTZMYTkweHFuUl9SUkYzTERSRUlQWVZTRDE0dk1ZOTlZd2hMUmxoclpYNjRId0hxdnBGLUtCQ3hpVktuRXBVaXRKUVRPVlE2NlB5c0ZvaDlZQndObkg?oc=5",
+  "date": "2026-11-17T16:32:28.000Z",
+  "summary": "",
+  "publisher": "Financial Times",
+  "source": "pe",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
+ },
+ {
   "id": "42463097036c",
   "theme": "agents",
   "title": "OpenClaw Launches Free Open-source Enterprise Agent Platform for AI Agents",
@@ -9286,6 +9382,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-11-02T23:51:32Z"
+ },
+ {
+  "id": "43989fe9cf6d",
+  "theme": "platforms",
+  "title": "Ex-Qwen chief’s Pragmatik Labs raises funding at $5 billion valuation",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN0pnTDdZeXFPaE5kLVVxcGtLbEp6ZVlNYW92Vld0a05tN3ZCRHF0SmhNRWVZeDUwV1ZEZExyc0pmeUVqYzJfMUVsblBoeGVnZmxmUGVFNzh5MzYzMHFPZTNTUnNVcTlMdThKcG85S2RjOUtWUVVUZFoyYy0zeFlLelJ4T1U4ZmN3OFl1Z3puQkszNm9lTXRqaUlrWHIwUUt1WlE?oc=5",
+  "date": "2026-11-20T14:14:22.000Z",
+  "summary": "",
+  "publisher": "TechNode",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
  },
  {
   "id": "43a71613c42e",
@@ -12192,6 +12300,18 @@
   "firstSeen": "2026-10-12T23:47:35.683Z"
  },
  {
+  "id": "59f0f0c9fb33",
+  "theme": "ma",
+  "title": "Mistral AI buys SkipLabs in its fifth acquisition of 2026",
+  "url": "https://dealroom.co/news/170004-mistral-ai-buys-skiplabs-in-its-fifth-acquisition-of-2026/",
+  "date": "2026-11-06T00:00:00.000Z",
+  "summary": "French AI lab Mistral acquired SkipLabs, a six-person Paris dev-tools startup behind the Skip reactive framework, to form a code-reliability team; terms undisclosed. It is Mistral's fifth acquisition of 2026.",
+  "publisher": "Dealroom",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-21T22:51:37Z"
+ },
+ {
   "id": "5a23659ad7a9",
   "theme": "capital",
   "title": "Physical AI startup SiMa.ai raises $150 million in Series C funding at $1.45 billion valuation",
@@ -12634,6 +12754,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-10-09T23:48:08.047Z"
+ },
+ {
+  "id": "5eaca36f01ec",
+  "theme": "ma",
+  "title": "Nvidia Nears Acquisition of Diffusion AI Developer Inception for More Than $500 Million",
+  "url": "https://theinformation.com/articles/nvidia-nears-acquisition-diffusion-ai-developer-500-million",
+  "date": "2026-11-19T00:00:00.000Z",
+  "summary": "Nvidia is in advanced talks to buy Inception, a Palo Alto startup building diffusion-based language models (Mercury), for more than $500 million plus earnouts, The Information reported.",
+  "publisher": "The Information",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-21T22:51:37Z"
  },
  {
   "id": "5eb2833bbccc",
@@ -13198,6 +13330,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-07T11:38:17.671Z"
+ },
+ {
+  "id": "638846457d25",
+  "theme": "ma",
+  "title": "Dropbox targets AI infrastructure gains with $350m Tigris Data acquisition",
+  "url": "https://www.itpro.com/business/acquisition/dropbox-targets-ai-infrastructure-gains-with-usd350m-tigris-data-acquisition",
+  "date": "2026-11-05T00:00:00.000Z",
+  "summary": "Dropbox agreed to buy Spark Capital-backed AI object-storage startup Tigris Data for about $350 million in cash, its largest acquisition, to power a new DBX Agent Cloud storage offering; closing expected Q4 2026.",
+  "publisher": "ITPro",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-21T22:51:37Z"
  },
  {
   "id": "6389c0e3b4fa",
@@ -18036,6 +18180,18 @@
   "firstSeen": "2026-11-11T00:05:42.750Z"
  },
  {
+  "id": "86ef24353b83",
+  "theme": "targets",
+  "title": "Future Secure AI raises about US$80 million in convertible notes at US$1.2 billion valuation",
+  "url": "https://www.overnightsuccess.vc/p/7th-november-2026",
+  "date": "2026-11-07T00:00:00.000Z",
+  "summary": "Australian AI security company Future Secure AI raised about US$80 million via convertible notes at a roughly US$1.2 billion valuation, making it Australia's latest unicorn.",
+  "publisher": "Overnight Success",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-21T22:51:37Z"
+ },
+ {
   "id": "871234c3a347",
   "theme": "platforms",
   "title": "Oracle launches NetSuite Next AI rollout in the UK",
@@ -18874,6 +19030,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-16T22:51:47Z"
+ },
+ {
+  "id": "8eb5e96869ab",
+  "theme": "ma",
+  "title": "LeoLabs Acquires FishEye Software to Advance Missile Warning Radars",
+  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeHdKSEdmOEUxSmh6MDNMRTVTYUtaQklHenB2Y1p1cHNSdXVaYXVUQWZDU1R3NU5CZmx3SW44bVUwak9DTTREN3NzdlB6LXVzamtWVldjUU5KVk83VHdtWkRhY29jM2N3UHFyTXhPUlJCMHdFRVBsTktuYUM4RkhmRlpyRdIBiAFBVV95cUxQQW51Q2c2S3R5RmpiR3pmdEozR1JKM2VFNC1ocGpMTHlsdmpuZGFiMkZVMFRlUUdwcWMtYnYyLVBvQ0trNk9sQUl5M1JlLVJkd1V4dlB0aGh6eDI1MDMzbDA4ZGt5ZGFnbHFScWQ2a1o1eG5fT1IzeU9DVXlhWTZrMUYxcEJmUFZ0?oc=5",
+  "date": "2026-11-20T13:13:49.000Z",
+  "summary": "",
+  "publisher": "The Defense Post",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
  },
  {
   "id": "8ecab7cd7a53",
@@ -20700,6 +20868,18 @@
   "firstSeen": "2026-10-22T23:49:28.706Z"
  },
  {
+  "id": "9d4ebdf87285",
+  "theme": "platforms",
+  "title": "Microsoft Contact Center Intelligence now generally available: Transform customer interactions",
+  "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNSmlmR1QwZzhzNkZfaWZwYWJQMTQ1QXVrZ2xhN0Iya2NsemxpeG1jdlBQRzNMMmJNTFoyTW5oTUZzWHlZa1dEM3ZyUkh2ME12eXZqQ3dMRTZNQWRzTXlYSy0tSUcwOGtmcUI4dHctMnJ5QkhkYWJKVGxtMnhwejlZTG9reWxKRUtTbkpRc2tWS2NDZ21EZHlvNGx2LWQ2M2d6ODZoOE1wRWlBZ19RTWhROGxRV0lWZzlqdG11dlVDQlk5TmZxXzNMMkJJcmVsOTYwd3VtV3BrcjdoLWIxeHhvbTdiLU9IVjQ3YUtPc0VWZlZ4N005YnIxMkNBNzVFRVdf?oc=5",
+  "date": "2026-11-18T16:30:00.000Z",
+  "summary": "",
+  "publisher": "Microsoft",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
+ },
+ {
   "id": "9d5e802ed2db",
   "theme": "ma",
   "title": "Proofpoint agrees to buy Varonis for $6.3bn in cash",
@@ -21372,6 +21552,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "a37c114f516c",
+  "theme": "listings",
+  "title": "Anthropic's record IPO collides with tech's worst week on Wall Street since 2020",
+  "url": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
+  "date": "2026-11-21T00:00:00.000Z",
+  "summary": "Anthropic's record Nasdaq IPO landed in tech's worst week since 2020, with shares sliding toward the $83 offer price and AI-exposed stocks including Nvidia selling off.",
+  "publisher": "CNBC",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-21T22:51:37Z"
+ },
+ {
   "id": "a38fcc9a76c0",
   "theme": "ma",
   "title": "Televisa, Fintech to Acquire AT&T Mexico for $2 Billion",
@@ -21646,6 +21838,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-10-31T23:49:22.811Z"
+ },
+ {
+  "id": "a5b82f24d71f",
+  "theme": "listings",
+  "title": "Anthropic IPO raises record $81.3 billion on strong AI demand",
+  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE45ZV9aZUpNTGl2cUJrTEZ3SzR5a2ZjcW42VURGbElXZ1B1TUtISE4zeXhEVlFTWW11ajJpV2FSNzNCM0lRYlBWREpXMURsUWJGUlppbTdnbUpjdXNuVU1yQ3VFLW1wam5kNDVZQ1o1cDE2bVg0UUFweWE3VQ?oc=5",
+  "date": "2026-11-18T23:54:56.000Z",
+  "summary": "",
+  "publisher": "NPR",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
  },
  {
   "id": "a5e1fd66825d",
@@ -21960,6 +22164,18 @@
   "firstSeen": "2026-10-07T00:18:46.308Z"
  },
  {
+  "id": "a7a5199a524f",
+  "theme": "ma",
+  "title": "CrowdStrike, Zscaler Merger Would Create Cybersecurity Giant",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRjNJdENkek5FY190R3h0ZGl6cjFVRE5SWVhqNkNkNDlTeWdPaEJvUllRYXN5dF9wdWh5enFMLUdKOHc4aHFOY2NLaGg3MHJRMTNFTTVXVjhFb1pnc1BaY3hicTFrNXUxLTBPQnRNUGFRX2dXY1NWLUlDS0FpSFhWRU4zRFZBMkctckRrTGRpeXVMQlV2bE4wVmdrVDE?oc=5",
+  "date": "2026-11-20T23:56:00.000Z",
+  "summary": "",
+  "publisher": "Investor's Business Daily",
+  "source": "strategics",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
+ },
+ {
   "id": "a7b39bdab742",
   "theme": "ma",
   "title": "M-KOPA acquires Finnish firm KilpiTek in 1 billion shilling deal to control device-locking software",
@@ -22258,6 +22474,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-11-13T23:47:08Z"
+ },
+ {
+  "id": "a9a912e73e02",
+  "theme": "listings",
+  "title": "Chamath Palihapitiya: Anthropic's $2 Trillion IPO Leaves Only Ten AI Winners — and Buybacks Are Now a Confession",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUZEtRNUdjS2xIQjNNMm92RThoOFRPNTRYZW51ZzdrbVNIUk1XOG1PcWtlYVJ0Q2tKbkpHNzU5N1JxYm1ZbDNXZktNalByZy0wQ0puamUzRktkNkU?oc=5",
+  "date": "2026-11-21T00:08:00.000Z",
+  "summary": "",
+  "publisher": "BigGo Finance",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
  },
  {
   "id": "a9b79f525e31",
@@ -26484,6 +26712,18 @@
   "firstSeen": "2026-11-04T01:29:25.534Z"
  },
  {
+  "id": "cd80f8becd1f",
+  "theme": "targets",
+  "title": "Anthropic's IPO raises $81B, valuing the AI fir...",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPelc3WkE3WGZKb2tzWk1LOXBCeFJoMWZmVW5PQ2Fsa3I3NlFtUmFkZ1I0ZVRfN2p2ZDJuMXhKTHIzUFVJZms5b0ZXZnp5eWphbFk2VlJhU1Z4aUZacXUzOEtWWTRLM2RhcktJRFgwbDNHbV95aHU4WUxXZnhjMDVXb0Z0TkJnNHU1SGVzZ1MzNHhkaUx0?oc=5",
+  "date": "2026-11-20T02:18:15.000Z",
+  "summary": "",
+  "publisher": "Pluang",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
+ },
+ {
   "id": "cd86b7288d69",
   "theme": "ma",
   "title": "Frontline Managed Services Acquires KL Software And Launches Intelligent Applications Business",
@@ -26962,6 +27202,18 @@
   "source": "ipos",
   "official": false,
   "firstSeen": "2026-11-19T23:46:57Z"
+ },
+ {
+  "id": "d0f4037f85fe",
+  "theme": "targets",
+  "title": "Nominal raises $240M Series C at $3B valuation",
+  "url": "https://zplatform.ai/guides/biggest-ai-funding-rounds/",
+  "date": "2026-11-09T00:00:00.000Z",
+  "summary": "Hardware-testing and engineering data software company Nominal raised a $240 million Series C at a $3 billion valuation, per an AI funding round tracker.",
+  "publisher": "zplatform.ai",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-21T22:51:37Z"
  },
  {
   "id": "d111c5330acd",
@@ -28452,6 +28704,18 @@
   "firstSeen": "2026-10-05T08:01:27.460Z"
  },
  {
+  "id": "dc67f209385c",
+  "theme": "platforms",
+  "title": "Mistral launches S’pore science hub, to double Asia-Pacific workforce | The Straits Times - newspaper",
+  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdWd2N3pUX2UyNWZHQmo2R3Y5U2pJTU9RUkVrNmhRVG91TzdtV2xSRHc4T1JXc2MxRU5XMFN0N2tqeG9NN1pISXNxS3FCR2hKSFhNdnZsbXZmc0RhcWk5UktUb0hzNWplanlON2pTWFlsTkNGZG1ZZ0s2X2IwM2gxTHBsYUJhNjV4R01CMGV0ODRMU0FadE9kaDVTSDA5dEUzajRzVzhoTkNxUUU1UVZUSnM2bG5OVkd1Ykl6LTd2aEZHQ3dI?oc=5",
+  "date": "2026-11-21T04:36:19.000Z",
+  "summary": "",
+  "publisher": "Magzter",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
+ },
+ {
   "id": "dc8950ef8f67",
   "theme": "platforms",
   "title": "Atlassian Launches Forward Deployed Engineering Program to Scale Enterprise AI Transformation",
@@ -28534,6 +28798,18 @@
   "source": "ipos",
   "official": false,
   "firstSeen": "2026-11-16T23:46:53Z"
+ },
+ {
+  "id": "dd1097e02c81",
+  "theme": "ma",
+  "title": "Here’s My Top AI Stock to Buy With Nvidia in Uncertain Territory",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjc4VFNySHZORFB1dl9XUm9YSFpMc3h3bnpnZ3N4TXQ1WVc5MVNCV2MtczFrRVl3SGVxNUxyQmp1RnhSY0ZtTC1JV3lQNTVCV0pqM0NhaE9Ra3M1dzJWNG03eTNjeHE0bjVxSkNVNnhHb3l3SS1pbW5kRFJpenFDd2Y0aXpDQktjeG95OERqdmFGMVdMV090aHFvcVJaWEtzZzdXT1ZLeXlZZTg?oc=5",
+  "date": "2026-11-21T07:31:02.000Z",
+  "summary": "",
+  "publisher": "The Motley Fool",
+  "source": "strategics",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
  },
  {
   "id": "dd1aa65f4963",
@@ -28918,6 +29194,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-07T23:32:06Z"
+ },
+ {
+  "id": "e0ecf870f495",
+  "theme": "ma",
+  "title": "Amazon Nears $7B Decart Deal, 1.75x Its May Valuation",
+  "url": "https://fourweekmba.com/ai-amazon-nears-7b-decart-deal-1-75x-its-may-valuation/",
+  "date": "2026-11-19T00:00:00.000Z",
+  "summary": "Amazon is reportedly close to buying Israeli AI infrastructure startup Decart for more than $7 billion, rising to nearly $7.5 billion with earnouts, per Calcalist and Globes; Decart was valued near $4 billion in May.",
+  "publisher": "FourWeekMBA",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-21T22:51:37Z"
  },
  {
   "id": "e0f0065ce273",
@@ -29400,6 +29688,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "e3c2860178a4",
+  "theme": "targets",
+  "title": "GTCR explores potential takeover of payments firm Global Payments",
+  "url": "https://www.thestar.com.my/tech/tech-news/2026/11/21/gtcr-explores-potential-takeover-of-payments-firm-global-payments",
+  "date": "2026-11-20T00:00:00.000Z",
+  "summary": "Private equity firm GTCR, Global Payments' largest shareholder with 16.35%, said in a filing it is exploring a takeover of the payments processor with other PE firms; Bloomberg put the deal near $50 billion including debt. Shares rose 10%.",
+  "publisher": "Reuters",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-21T22:51:37Z"
+ },
+ {
   "id": "e3c42ea5a643",
   "theme": "platforms",
   "title": "Google Launches Gemini 4 Hydrogen for Everyday Agentic Workflows",
@@ -29518,6 +29818,18 @@
   "source": "incumbents",
   "official": false,
   "firstSeen": "2026-10-13T23:47:46.538Z"
+ },
+ {
+  "id": "e4c6277fdc47",
+  "theme": "sponsors",
+  "title": "Why is SoftBank stock down today? It fell as much as 16% in Tokyo the morning after Anthropic's debut",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOamRoWGR5Wl9VMzUyU1ZkeDhxcnZTLUdEQzkyaXZKcENlN3NoUDZRcUZSRlE2dDRjUG9CdUVWNFNSX2pPVnZ2NVJFQVl0ZU1tV1FiVUJ2ajVQN3hlMVRLcGtPdnhPTE82Qkh0anBGT0FxejVhM3RjSWNOV2ZBSjZjN1JEZ2hqMGtyTUJONWtMcFlPOVh4b1hyRl8zRDdDUGJzUVJlNXM4cWtlcDhOUGtiM2s3ZGZjTloyU1V6RWpSeVU?oc=5",
+  "date": "2026-11-20T04:39:21.000Z",
+  "summary": "",
+  "publisher": "Nacionale",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
  },
  {
   "id": "e548a726e937",
@@ -29940,6 +30252,18 @@
   "firstSeen": "2026-10-29T23:48:27.049Z"
  },
  {
+  "id": "e91911708b9f",
+  "theme": "listings",
+  "title": "China AI Startup DeepSeek Plans Shanghai IPO after Raising $15 Billion in New Funding",
+  "url": "https://www.caproasia.com/2026/11/20/china-ai-startup-deepseek-plans-shanghai-ipo-after-raising-15-billion-cny-100-billion-in-new-funding-previously-reported-with-74-billion-cny-500-billion-valuation-founded-in-2023-by-ceo-liang/",
+  "date": "2026-11-20T00:00:00.000Z",
+  "summary": "Chinese AI model developer DeepSeek, backed by High-Flyer Quant, is reported to be planning a Shanghai IPO after raising about CNY 100 billion ($15 billion) in new funding at a valuation previously reported near $74 billion.",
+  "publisher": "Caproasia",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-21T22:51:37Z"
+ },
+ {
   "id": "e9421351eab4",
   "theme": "listings",
   "title": "Anthropic's IPO dilemma after the AI sell-off: 'Damned if you do, damned if you don't'",
@@ -30262,6 +30586,18 @@
   "source": "incumbents",
   "official": false,
   "firstSeen": "2026-11-18T23:46:43Z"
+ },
+ {
+  "id": "eb82db326e44",
+  "theme": "listings",
+  "title": "Anthropic IPO: My 10-Year Outlook For AI (NASDAQ:ANT)",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQclNsazN6emMzbGZmeGh6NWFYZ3VCbVdYUFJTMWdLaEprVVpOMlBlNkl3c3JkVndyXzFBUXd6Q0FUMDZ4QXctSzE4NzJTNjA1N25LQ1pvRzJHX1VkSkVGRm9HQThUcHB3MlBETmUwUmVwM01uTzJYc2xUemZJaDhPYUo3Zm9jNVE?oc=5",
+  "date": "2026-11-20T16:05:34.000Z",
+  "summary": "",
+  "publisher": "Seeking Alpha",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
  },
  {
   "id": "eb8b4c32efb1",
@@ -30696,6 +31032,18 @@
   "firstSeen": "2026-11-18T23:46:43Z"
  },
  {
+  "id": "ef205ae8d86d",
+  "theme": "sponsors",
+  "title": "SoftBank Shares Plunge 14.48% as Anthropic IPO Triggers Wider Asian AI Stock Sell-Off",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeUcwcHVqR1hQelZWQlR1Wl9Wc1Jfc2FrYktFTXl3aGtSb2hxeVR2ZmNEaFZGOVN1b1l0SjdPcEc1WTdHWEh6UVAtRFpWaDhMYy0xcDlfRllWcVoyS1hXc2xDZlVGdXk1NDFjZVpIXzktbzFqaVNiTjIwa1NydzVvSnlnNUhHbmdqc0JaWjFBUGdSRUJKQm9KUkx1WlQ2c3NDeHAxcVZPZG5uVDNnZkE?oc=5",
+  "date": "2026-11-21T14:49:28.000Z",
+  "summary": "",
+  "publisher": "Tekedia",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
+ },
+ {
   "id": "ef3d568cc58a",
   "theme": "ma",
   "title": "ECARX completes acquisition of Flyme software business By Investing.com",
@@ -30718,6 +31066,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-11-12T23:48:01.628Z"
+ },
+ {
+  "id": "ef7185b0319c",
+  "theme": "platforms",
+  "title": "A Tick in the Market – The Anthropic IPO Flop & AI Selloff Edition",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORmU0ci1XaUI4TEg5dElHS0xvbzR0X2tKZnJqQnoxaktyajdJcWE2dkdlZnV6V0pvaS1NWUNRdVdpb2U0YTMyXzdEWWI3cUdSR3RCdHRZc1lSNzl1UHg0UU5LY2g2T2poMjZFbGFGT0tZR3VTWlZwNXhYZXVLMEk2ZHhXMWNCNWRKbVZORl9MNEt5enlXN1VUSThub25RWXJQbWc?oc=5",
+  "date": "2026-11-20T08:00:00.000Z",
+  "summary": "",
+  "publisher": "Moomoo",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-21T23:46:51Z"
  },
  {
   "id": "efa4b7ddebd6",
@@ -32650,6 +33010,18 @@
   "source": "incumbents",
   "official": false,
   "firstSeen": "2026-11-20T23:46:44Z"
+ },
+ {
+  "id": "fde042d9e987",
+  "theme": "targets",
+  "title": "Sand.ai raises $200 million Series A+ at valuation above $1 billion",
+  "url": "https://techstartups.com/2026/11/05/startup-funding-news-today-november-5-2026-bit-bio-sand-ai-sentra-pliant-more/",
+  "date": "2026-11-05T00:00:00.000Z",
+  "summary": "Chinese AI video-generation startup Sand.ai raised $200 million in a Series A+ round, reportedly valuing it above $1 billion.",
+  "publisher": "Tech Startups",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-21T22:51:37Z"
  },
  {
   "id": "fde09a9bce44",
