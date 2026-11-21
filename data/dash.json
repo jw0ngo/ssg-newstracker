@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20T23:37:12Z",
+ "at": "2026-11-21T23:36:58Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,8 +82,8 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 15067,
- "candidates": 287,
+ "archived": 15231,
+ "candidates": 289,
  "fromSignals": 31,
  "boltons": [
   {
@@ -1093,18 +1093,6 @@
   },
   {
    "n": 2,
-   "date": "2025-09-15",
-   "month": "2025-09",
-   "firm": "eqt",
-   "portco": "citiustech",
-   "buyer": "CitiusTech",
-   "title": "Blank Rome Represents CitiusTech in Acquisition of Health Data Movers",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbE10WlpPdGQydGlldDBTQU5YVEMwSUNVejJ1R3NrbHJsVkprOXZBYndCTGJ3YXJjeVMxMFozMU5hQ3FNVzZDcGF5cmxQRUZkN3ZWaDlXODRFYTlJTjhJemhmdUxVUlYzUlJtN2xIRy1BbXpJQTRmaHNkM3NBR1VGQVZrbTREcUhKeEl6X3o3OERKeWxGaEg2ZG9EcG1GVXJyNWpET1RlNE5udw?oc=5",
-   "publisher": "Blank Rome LLP",
-   "stage": "signed"
-  },
-  {
-   "n": 2,
    "date": "2025-09-13",
    "month": "2025-09",
    "firm": "tpg",
@@ -1149,6 +1137,18 @@
    "title": "Ireland’s Aryza grows its Australian base with acquisition of collections software group Bravure",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcGJmZ1lGWDlqVWhVWXNlSDBYb24xME13SjBpNnFkbnhJaG1NWmt6Wm1udzdTTVI1d3djbTE1SWtueXZzTFh2ZVRiM3J1U01UVzN6bXpPSkk3Y1RIak5PX2kwNzBQMnU2ZVZTMTJqVEJJWTVKVk00MWNldHQ5aFRLVEZXOGtyeW_SAZMBQVVfeXFMTTl4TE90b1F4eE56UFVIMkZDS2g1WldGQmJrUWU3blpqamZxOTdDYUtTekpiOWRxMkhQdHd5Qy1uamVwNld1RzdZREdoUUg5amt5WEJ1amJ0WkV1QXhwVG1XTkNEZmNsejRqYUhaVk5BT1NKZTRzX1FEbll1NDQyX3VTelRzMDFNNERFODhZQzVoM1RZ?oc=5",
    "publisher": "Business News Australia",
+   "stage": "signed"
+  },
+  {
+   "n": 3,
+   "date": "2025-08-19",
+   "month": "2025-08",
+   "firm": "eqt",
+   "portco": "citiustech",
+   "buyer": "CitiusTech",
+   "title": "CitiusTech has announced the acquisition of Health Data Movers, a Best in KLAS healthcare technology services firm, strengthening its position as a strategic partner for healthcare providers navigating rapid digital transformation. With deep expertise in Epic S",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWFpXXzBpc2g3NVAtX1BObHA4X3RPdXhrcmNnYnluRmVpUzJxTjFHanFhRG9KWmhPVncxN0c1RE5fXzJtVGtGelRsNUhiY0tUOGVZLUhoaXFkVVNfSktmZVJDS2lLZFQ0U3VUNlFFd3JKRGg1M3BNRFl0YmNWekY1V0lPYWppblFNSk1zSXpFMVlkSGtYTC1vcHg1M0hvYXRmc0psdC16WWdNcmNVVzZvOFJtWk81U2FBQ21YUUFZb3JfY0lyQkF1MDZn?oc=5",
+   "publisher": "LinkedIn",
    "stage": "signed"
   },
   {
@@ -1276,7 +1276,7 @@
    "stage": "signed"
   },
   {
-   "n": 2,
+   "n": 3,
    "date": "2025-04-28",
    "month": "2025-04",
    "firm": "warburg-pincus",

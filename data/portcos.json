@@ -7445,6 +7445,12 @@
   "summary": "ASX-listed forensic data-processing and investigative analytics software sold to regulators, law firms and enterprises. Macquarie Capital remains Nuix's largest holder (~29.75%) after selling down from ~76% at the Dec-2020 IPO; a legacy principal position awaiting full exit.",
   "signals": [
    {
+    "date": "2026-11-18",
+    "publisher": "Rask Media",
+    "title": "Nuix (ASX:NXL) share price soars 49% on $2.75 per share takeover offer",
+    "url": "https://www.raskmedia.com.au/2026/11/18/nuix-asxnxl-share-price-soars-49-on-2-75-per-share-takeover-offer/"
+   },
+   {
     "date": "2026-09-01",
     "publisher": "FilingReader",
     "title": "ECP Asset Management exits Nuix stake",
@@ -7464,8 +7470,8 @@
    }
   ],
   "exit": {
-   "note": "Sold ~A$565m of stock at Dec-2020 ASX IPO; retains 95.65m shares (29.75%) per 2025–26 substantial-holder data",
-   "status": "partial"
+   "note": "Rask Media, 18 Nov 2026: Haveli Investments made a non-binding A$2.75/share (~A$945m) proposal; board granted five weeks' exclusivity for due diligence. Macquarie still holds ~29.75% after its Dec-2020 IPO sell-down.",
+   "status": "process"
   },
   "firstSeen": "2026-10-06T00:58:19Z"
  },
