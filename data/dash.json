@@ -1,5 +1,5 @@
 {
- "at": "2026-11-21T23:36:58Z",
+ "at": "2026-11-22T23:37:10Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,8 +82,8 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 15231,
- "candidates": 289,
+ "archived": 15307,
+ "candidates": 290,
  "fromSignals": 31,
  "boltons": [
   {
@@ -1703,6 +1703,18 @@
    "title": "VelocityEHS actively seeks buys under 2 PE investors",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY1p3VS01QmVSdVlJMWhQUmtRZ00wN2xER215bHZQbTNwMGw3R0ZmWW1OTGVZeXNaSDFocjAxZWlKYnU2QUFDWGZZXzhUYWdZbm5qUnJfX3A0Si1SbGo3VkZGZHpWUGhHSldaNXhJUHlEMjhTczRLQkFOOVV5bkd3UVdodmpRMmVURFkxbkN3ZEV4MEZFcHE0WENzX0c4Y2dVbkE?oc=5",
    "publisher": "ION Analytics",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2024-01-09",
+   "month": "2024-01",
+   "firm": "tpg",
+   "portco": "delinea",
+   "buyer": "Delinea",
+   "title": "Delinea acquires cyber startup Authomize for several tens of millions of dollars",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54VE1PZlJmeTM0TndYNEpYYlZYM0ZfUjB3NC1BaTFpNjhDMW9aN3c1Mml0eU1Fb0cybUdQZlR0enRvRENZdjl1YmdvRERIMFBRODE1c0NUWVRQSHhkLWVRanoyekFvalNk?oc=5",
+   "publisher": "CTech",
    "stage": "signed"
   },
   {

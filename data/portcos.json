@@ -6595,6 +6595,12 @@
   "summary": "Accounting, payroll and business-management software for 1m+ ANZ SMEs and 10,000+ accounting practices. KKR took it private off the ASX in 2019 at A$3.40/share; a 2022–23 ~A$4bn sale to ANZ collapsed and KKR has since focused on reinvestment and cloud migration.",
   "signals": [
    {
+    "date": "2026-11-09",
+    "publisher": "Capital Brief",
+    "title": "KKR's MYOB in focus as thirsty dealmakers circle",
+    "url": "https://www.capitalbrief.com/article/kkr-denies-firing-the-starting-gun-on-myob-sale-5c03c770-efba-4f48-98a5-33bd97f8f35f/"
+   },
+   {
     "date": "2026-08-14",
     "publisher": "PE Insights",
     "title": "KKR said to seek over $2.7bn for MYOB in talks with ANZ",
@@ -6614,7 +6620,7 @@
    }
   ],
   "exit": {
-   "note": "PE Insights, 14 Aug 2026: KKR said to seek over $2.7bn for MYOB in talks with ANZ; no signed deal found as of 13 Nov 2026.",
+   "note": "Capital Brief, 9 Nov 2026: sources expect KKR to lay exit groundwork this year, trade sale likelier than ASX listing; KKR-side source says no imminent plans.",
    "status": "rumoured"
   },
   "firstSeen": "2026-10-05T10:37:52Z"
@@ -18827,6 +18833,12 @@
   "summary": "Korea's dominant taxi-hailing and mobility app (Kakao T), spun out of Kakao; a TPG Capital Asia-led consortium (with Carlyle) invested in 2017 and 2021 and holds c.29% as second-largest shareholder; after 2025 stake-sale talks with Mubadala/Goldman/VIG and Tencent did not close, the company resolved in August 2026 to pursue a US ADR listing that is widely described as TPG's exit route.",
   "signals": [
    {
+    "date": "2026-10-30",
+    "publisher": "EDAILY",
+    "title": "[Market In] “Kakao Is Obstructing ADR Listing”… TPG, Kamo’s Second-Largest Shareholder, Considers International Lawsuit",
+    "url": "https://en.edaily.co.kr/news/eda202610305701/"
+   },
+   {
     "date": "2026-09-23",
     "publisher": "KED Global",
     "title": "Kakao blocks TPG's exit from Kakao Mobility via ADR listing",
@@ -18840,7 +18852,7 @@
    }
   ],
   "exit": {
-   "note": "KED Global, 2026-09-23: Kakao blocked Kakao Mobility's US ADR listing, stalling TPG consortium exit; mixed-ADR (new + existing shares) structure being explored (Chosunbiz)",
+   "note": "EDAILY, 30 Oct 2026: TPG weighing international lawsuit over Kakao board's opposition to US ADR listing; exit stalled, law firms retained (Nov).",
    "status": "process"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
