@@ -1,64 +1,64 @@
-SSG Newstracker · Morning Brief · AI & Tech · Sun 22 Nov, 07:46 SGT
-20 new stories since the last publish.
+SSG Newstracker · Morning Brief · AI & Tech · Mon 23 Nov, 07:46 SGT
+21 new stories since the last publish, 1 hot.
 
-1. [WARM 63] GTCR explores potential takeover of payments firm Global Payments
-   Targets · Reuters · 20 Nov
-   Why: A reported deal involving GTCR ($50 billion) in fintech: a comp in the making.
-   Call: Note the mooted multiple and who is bidding; call any sponsor in the frame.
-   https://www.thestar.com.my/tech/tech-news/2026/11/21/gtcr-explores-potential-takeover-of-payments-firm-global-payments
+1. [HOT 67] Anthropic's $1.5 Trillion IPO Valuation Surpasses India's Top 10 Firms as AI Investment Surges
+   IPOs · Kotak Neo · 22 Nov
+   Why: Surpasses has listed in India or ANZ ($1.5 Trillion) in AI: a public comp from today.
+   Call: Update the comps set; tell the sponsors holding similar assets.
+   https://news.google.com/rss/articles/CBMitgFBVV95cUxOdTBzeV96S0JaX0JyZ2FKV01jUjVlSUlTd3A1RXNOVjA0SEdxRS1zaGZlT21kenZ4ellPTXAzS2ZQOUdINENNY3ZFZWh0MzJ4Ynh5ZXlGWDR4eFExVjNEQlR2WFNHbHNQVEYyalZtLWpuUWotVjMzMml4TXZqVVJPZnpZVUVxb1hqaWR5aWtRNnBaQnJWNVdIU3FVNnZzUk9Tc0R3ZVR0TVlxQmRJNDJlZGhKd21Cdw?oc=5
 
-2. [WARM 63] China AI Startup DeepSeek Plans Shanghai IPO after Raising $15 Billion in New Funding
-   IPOs · Caproasia · 20 Nov
-   Why: DeepSeek has filed to list in North Asia ($15 Billion) in AI.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://www.caproasia.com/2026/11/20/china-ai-startup-deepseek-plans-shanghai-ipo-after-raising-15-billion-cny-100-billion-in-new-funding-previously-reported-with-74-billion-cny-500-billion-valuation-founded-in-2023-by-ceo-liang/
+2. [WARM 59] Melstarr Fintech acquires 50% stake in Bluewhale Estate LLP for ₹25,000
+   M&A · scanx.trade · 22 Nov
+   Why: An acquisition involving Melstarr in India or ANZ in fintech: a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next fintech pitch.
+   https://news.google.com/rss/articles/CBMiuwFBVV95cUxPajdwX2tPcXJndXhCaHc3X3dQNjdTaHl3cmcxUHhjYTR5dmFuakktZnVHZzV2VDcta19KRVkxVVZEd3FoQW54UElfVU5nLW9wOE5pSjhuUjVHaVBJLWllbXNhSDg1Q3ZTbUVUcVZVTkx3ZEJBY0FUTGM5YWZ4UmlwcE5WNDNWLUdvRVJTNWdhWUpLaEpKMnRkdDFvZV9WbGxiUlI0WU5zWW1uVzJFemRad0E1WElILTBNczRj?oc=5
 
-3. [WARM 55] SoftBank Shares Plunge 14.48% as Anthropic IPO Triggers Wider Asian AI Stock Sell-Off
-   Sponsors · Tekedia · 21 Nov · 3 outlets
-   Why: SoftBank has filed to list in Asia in AI.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMirgFBVV95cUxPeUcwcHVqR1hQelZWQlR1Wl9Wc1Jfc2FrYktFTXl3aGtSb2hxeVR2ZmNEaFZGOVN1b1l0SjdPcEc1WTdHWEh6UVAtRFpWaDhMYy0xcDlfRllWcVoyS1hXc2xDZlVGdXk1NDFjZVpIXzktbzFqaVNiTjIwa1NydzVvSnlnNUhHbmdqc0JaWjFBUGdSRUJKQm9KUkx1WlQ2c3NDeHAxcVZPZG5uVDNnZkE?oc=5
+3. [WARM 58] MBK seeks to take Japan's Wacom private in $900 mn deal with Samsung backing
+   M&A · KED Global · 22 Nov
+   Why: MBK is in the news in North Asia ($900 mn).
+   Call: No call yet; note it for the next conversation.
+   https://www.kedglobal.com/mergers-acquisitions/newsView/ked202611220002
 
-4. [WARM 54] Nvidia Nears Acquisition of Diffusion AI Developer Inception for More Than $500 Million
-   M&A · The Information · 19 Nov
-   Why: A reported deal involving Diffusion ($500 Million) in AI: a comp in the making.
-   Call: Note the mooted multiple and who is bidding; call any sponsor in the frame.
-   https://theinformation.com/articles/nvidia-nears-acquisition-diffusion-ai-developer-500-million
-
-5. [WARM 53] Mistral targets Asia Pacific's demand for sovereign AI with Singapore hub
-   Platforms · The Edge Singapore · 21 Nov
-   Why: Regulation touching Mistral in Southeast Asia in AI.
-   Call: Check which targets in the pipeline it reaches.
-   https://news.google.com/rss/articles/CBMizAFBVV95cUxOVGlmUnBhaFJlTFZ4c1VQTXowNFh0WDN4Q05BdnNXbFZnVXNRVWJxSnV3RXVWRjdrbm44VmMxalNZeGhVMkxyWUljc3dxWk1hOXhPMU14dkp4TkY1cUN2SERpUnNYUU16dEFfdnNNNkI1MkFGeVBTb2t0YlozaGE1NzAxYktyaDViVE4weGJhcGtDRWxaUU9UbDFMSWxJWDNnQVkxQjdheXBFMEZXdWZqa1ZwempMUVExLVJQRE81S1lnanFuQkxNMnRBeFY?oc=5
-
-6. [WARM 50] IIT Delhi grad quits Google after clearing family's Rs 1 crore debt, his AI startup raises $400,000
-   Targets · Moneycontrol.com · 19 Nov
-   Why: IIT raised a round in India or ANZ (Rs 1 crore) in AI: a future target, priced today.
+4. [WARM 51] SoftBank's AI Ambitions Hit a Valuation Reckoning as Shares Slide 16%
+   Sponsors · ad-hoc-news.de · 22 Nov
+   Why: SoftBank raised a round in Asia in AI: a future target, priced today.
    Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdFVtSjRsckwtTEFaZG0wTkZhRTZDVmI2NzNrYU93WmsyYU1IWDRVcVdLSWpiNlRZakFCQ2hDLUx5bFkycDhBLTZGdUEwbmxYZVRBclJXcFpxZ0oxMUY1czFTTHUzSTJudkJIU0Z1N09GaGdfOS1MbC1GclJ4NGRBUWR2NU5LQ2hmeVN0YzI4NG1oSkdwQXF0dmgwRkV2WTdKbi0yMHYtcUF2OTZ4SHJKSTl0VVhJc2Y2R2haYkNVeXNYT25yeFROODl3b3Z6WV9xekVRUGR1bEpiXzYzSkpwcVh3OXZQRjDSAewBQVVfeXFMTkNaZXRFLUlfdG5sb1hCQlVjdU13WWVmb1h4dDdIeTBpRndBVko3R2c2X21fdGtma3ktN1I2S0FUNDNuSmt4bDNoTXJqOFFlZVBIbzNWRkZPQkJpc3BjZ3RQLUg3aEpNYzZ5eEhsNFNtQVhrMmhnU1Y4WnFTN3Z3Zk5RMnd3aUVGczQtN25IRmd4ckh3ekc1aU1KWnNPY1BNUjVFckU0Ym40dEZKbUIwT1padFFwczBOa2hIMkRqSTNiaGY2VXczalRZUUtGakxjNUtEZUl4aDctS0ZNN3hGQ1FqUFBIX0t3bHlNeGU?oc=5
+   https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM1NwTkN5MkQtd0dDeU8xREl5TVZlSlpNU1ZTX2NKQlFYOFpsLWRuZ3J0U2pvbVVIbDRnNHM2ajcwT0dJeTE5VmNnREZDY1FvaWs1VEJUZHpQS1M2SVZDUnpyWHhpdjYtdTdObVlycF9CVlA1QXhreE1BN3ZTN2ZmR3RieUp1aDVKUHBxSVhrUURtMUNKbFhQV3lMX3VlXzVhU09JRU5leTBMZ0NwNktxOVdvOWZ1bk9ROThkT0NZSGk5MUlMeWRqUTB4cUJ3WWhubk5sQkhJRQ?oc=5
 
-7. [WARM 48] TPG nears take-private deal for payments group Bill Holdings
-   Sponsors · Financial Times · 18 Nov
-   Why: A reported deal involving TPG in fintech: a comp in the making.
-   Call: Note the mooted multiple and who is bidding; call any sponsor in the frame.
-   https://news.google.com/rss/articles/CBMihAFBVV95cUxPN0h4U1hmbmZxdnNvOGZoNXNYWml0VUZDNVlWLVhKSjZTY0h1UUtRdTZMYTkweHFuUl9SUkYzTERSRUlQWVZTRDE0dk1ZOTlZd2hMUmxoclpYNjRId0hxdnBGLUtCQ3hpVktuRXBVaXRKUVRPVlE2NlB5c0ZvaDlZQndObkg?oc=5
+5. [WARM 46] SoftBank Shares Slip Toward 52-Week Low as Anthropic Debut Exposes AI Payback Fears
+   Sponsors · ad-hoc-news.de · 22 Nov
+   Why: SoftBank shipped a platform move in AI: it changes what a target in that stack is worth.
+   Call: Fold it into the tech view on every AI target in the pipeline.
+   https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWUxtaVl6OW05cndYUy1ZSEVEMk01S1hHZ0VfT0M0ZW51SzJFa20tVXNLeFZta2M1RWx0dDR6ZWRCX3A4c2RobTQzVDZ1YlhUamEzQ2dHVVgycXBKLVRnNG54dWZFMS1wZ2FLZmpQM2FMeVBEcEZ2TzJhZk1hQ0xqQzMzeHYyOGZQRGdtTU1pSzA4MEJ6VE45R2Fib0doRUhhZjVaWkdCMUhvakZfS0hybTBHY05zZWNZRWpXbTNpYWp6TVBkZXZBT2IzR2dNT1RsZjgwSDlSVDFESjhQbkx0ZFdRLXUtWnl3N0VN?oc=5
 
-8. [WARM 47] Chamath Palihapitiya: Anthropic's $2 Trillion IPO Leaves Only Ten AI Winners — and Buybacks Are Now a Confession
-   IPOs · BigGo Finance · 21 Nov
-   Why: Leaves has filed to list ($2 Trillion) in AI.
+6. [WARM 43] Asian stocks tumble as AI spending fears outweigh Anthropic record IPO
+   IPOs · FXStreet · 20 Nov
+   Why: Anthropic has filed to list in Asia in AI.
    Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUZEtRNUdjS2xIQjNNMm92RThoOFRPNTRYZW51ZzdrbVNIUk1XOG1PcWtlYVJ0Q2tKbkpHNzU5N1JxYm1ZbDNXZktNalByZy0wQ0puamUzRktkNkU?oc=5
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxNNW00M3NXV2VsX000ZmtRNG0wWmdiNFh0c0xTZkxTaHZaZUdaUTBlRHpGWU9VZkxLX19qNkFRTGdhY3dlNDlpUVNiTU9kQjdEN1VYRm16bWFRWHRxdnoyTm0yZ0tQei1iMHA1a3F0bkhTcEdDaHYtV1hRcnFsUnltYVFRRXJqT09TNFBZMkxRa1Z0cmIxUGxieDJNb2NHbzBDQnBXeGstRW1rTEc4UG9LcTZtbw?oc=5
 
-9. [WARM 47] CrowdStrike, Zscaler Merger Would Create Cybersecurity Giant
-   M&A · Investor's Business Daily · 21 Nov
-   Why: An acquisition involving Create in software: a fresh comp for the targets SSG watches.
-   Call: Record the multiple and the buyer’s rationale; use it in the next software pitch.
-   https://news.google.com/rss/articles/CBMinAFBVV95cUxNRjNJdENkek5FY190R3h0ZGl6cjFVRE5SWVhqNkNkNDlTeWdPaEJvUllRYXN5dF9wdWh5enFMLUdKOHc4aHFOY2NLaGg3MHJRMTNFTTVXVjhFb1pnc1BaY3hicTFrNXUxLTBPQnRNUGFRX2dXY1NWLUlDS0FpSFhWRU4zRFZBMkctckRrTGRpeXVMQlV2bE4wVmdrVDE?oc=5
+7. [WARM 43] Nikkei Average Plunges as Much as 2,800 Points, Briefly Falls Below 57,000 on Spillover From U.S. AI Stock Selloff After Anthropic Listing
+   IPOs · BigGo Finance · 20 Nov
+   Why: A market move around Average Plunges in North Asia.
+   Call: Note it for the comps discussion.
+   https://news.google.com/rss/articles/CBMidkFVX3lxTE40OFZWU2lrcFB3TEFkOHF5VVplODJRWlJUM2Y0a0ZqVTRtRG1qMkkzd1NjRU02YzVPUjVZUEdXRmUwQU5oS0Uwd3ZkeWlmQWNaWmh1VkdLdDF2dW1VRzd6NU05Wkk5VGFRZVJ5UHo2QkpUU2R0aVE?oc=5
 
-10. [WARM 47] Anthropic's IPO raises $81B, valuing the AI fir...
-   Targets · Pluang · 20 Nov
-   Why: Anthropic has filed to list ($81B) in AI.
+8. [37] Ed Zitron Calls Anthropic IPO ‘Exit Liquidity’, Warns AI Sell-Off Could Get Worse — ‘Things Are Only Going To Keep Going Down’
+   IPOs · Yahoo Finance · 22 Nov
+   Why: Liquidity Warns is heading for a listing in AI: the comps are about to reset.
    Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMilAFBVV95cUxPelc3WkE3WGZKb2tzWk1LOXBCeFJoMWZmVW5PQ2Fsa3I3NlFtUmFkZ1I0ZVRfN2p2ZDJuMXhKTHIzUFVJZms5b0ZXZnp5eWphbFk2VlJhU1Z4aUZacXUzOEtWWTRLM2RhcktJRFgwbDNHbV95aHU4WUxXZnhjMDVXb0Z0TkJnNHU1SGVzZ1MzNHhkaUx0?oc=5
+   https://news.google.com/rss/articles/CBMimAFBVV95cUxQeUhCSWFJV1pKZ1N2a0EtcDNyTzVNUS1HeWZSdGZnaXJMdG94N1JwVUd1Ymp2N2Fta3N0X01XMEUtMXZWYUYyZjJCbnlXS2hieVVERmhjVmZtYUtXYTkxcWRITktYcjJ5a0k0NU1iUUNNLUc4MF9WeVgzcWNJM1VFMUMzNjRnazhwTURZa3kxekIwQkt3MGVZNg?oc=5
+
+9. [37] Anthropic’s IPO Makes AI Safety a Business Test
+   IPOs · WeRSM · 22 Nov
+   Why: Safety has filed to list in AI.
+   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
+   https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhTXJKVE1ITTY5cVFSeHExNm5BREJkYVFQdlF6VFdneUJwXzdQM0VFcFA3U196aFBGZWhZSnhfQXRibkVrbG1FandOV25SRFZwZE4tVUJ1VXZaYzBRbGJlMUtza3dLU0U?oc=5
+
+10. [36] AI Market Shocks, Anthropic’s Stock Slide, Gemini Releases, and Elon’s $435M Bet | #314｜Peter Diamandis
+   Platforms · BigGo Finance · 22 Nov
+   Why: A market move around Slide Gemini Releases ($435M).
+   Call: Note it for the comps discussion.
+   https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aQWhnd0hEbXRNdDBtVF9nd3hyMlVVbDNYZEF5MXppdjNQbThXSHhOTU9DeDFhYllTU3lSNUlFU0FXNE9zWlp3U0hyTklRTXFVMGtaWjJSZFIwNUVxWDRR?oc=5
 
 Full page: https://jw0ngo.github.io/ssg-newstracker/brief/
