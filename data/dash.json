@@ -82,10 +82,46 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 15307,
- "candidates": 290,
+ "archived": 15373,
+ "candidates": 295,
  "fromSignals": 31,
  "boltons": [
+  {
+   "n": 1,
+   "date": "2026-11-22",
+   "month": "2026-11",
+   "firm": "ta-associates",
+   "portco": "viridian-financial-group",
+   "buyer": "Viridian Financial Group",
+   "title": "Viridian grows advice capacity with third acquisition of 2026",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbkJxWnRYOTVPd19aazZsUnhUelhfV1QtZHRyaW1XUDJHWGh3Qlg0TUdNaVZnR09SSFJhQUpDeWhmQVQwSEEyMy1TTkMzSGt1WXBhNGUzcndqbW44TDZVNG1pNUFiRkJsakdJVTRJQmhHQ19QRUlPSWZiZTJ6WUJONFV2UFh5Ti1uVlBsakdsQ3dicXNNZXpzVEgzRkFYQQ?oc=5",
+   "publisher": "Money Management",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-11-22",
+   "month": "2026-11",
+   "firm": "ta-associates",
+   "portco": "viridian-financial-group",
+   "buyer": "Viridian Financial Group",
+   "title": "Viridian acquires Wealth Arena",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1NZ1k1T2R3X29sUGNndkU0M1VxemNZWFdKYmFwamFGWHpHcXg0SS1DY2FodDV0dVFwdUFiVFRYbTBqWk9sZXQzUEVyclhiUHktc2lLcmxQVDhZQU9femRHWWhrN1Q?oc=5",
+   "publisher": "ifa",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-11-19",
+   "month": "2026-11",
+   "firm": "ta-associates",
+   "portco": "payroll-inc",
+   "buyer": "Payroll Inc.",
+   "title": "Payroll giant ADP acquires Austin startup ZenBusiness",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOc05mMnE4SVI4TDRhNGdFQnBZRWdXV0gwdXhXY2Y5aFZxem1IZmdadzFPVUJ1YV8wdVVoZUcwNlRJejltbzFvS2NZQW9vVFF5TGd2WE4yUnJ3SG00WVBGSllEd2FjSXROeGNCMHdPUGtnZVo1NXg3YlRMUkMwY1Bjdlh1WmZid1N2TFQzWGIyUXBpZzVVa0JkcUhMRTZpV0E?oc=5",
+   "publisher": "The Business Journals",
+   "stage": "signed"
+  },
   {
    "n": 1,
    "date": "2026-11-17",
@@ -726,7 +762,7 @@
    "fromSignal": true
   },
   {
-   "n": 9,
+   "n": 10,
    "date": "2026-06-03",
    "month": "2026-06",
    "firm": "eqt",
@@ -1642,6 +1678,18 @@
    "title": "Ness Digital Engineering Acquires Intricity - a New York based company specializing in data strategy, governance, modernization, and monetization",
    "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPQzVkcTR3R2luUW9UejJJRllFR3BpM1JxVkppQ0JwMDhHekFpTm45d0JfTW5veTNKZmRwb1ItMTF2MktSWnk2NkpXR3ZQY2NRaUMzWXZxb2NsLVI4SmhFdkpvZFVIRUdYekVHOU5Bd2puNUROT09kTXA5cDc2bzRGdkVzWEtVaVdTcGhNWDFxYmgwVGNQTkdYSEZ3dXlWU3lPVFRnMmhmVFB5S2RVeHUzWnhlTVJqLTRJSUNlQWVHR2V6OVItU3lFYkp0THFpMVJUVTZiRldzT2Fzc3BYUnVuUERRT2dlSmI0VUNONGxWTUZuTzVBYUtuMGh0eXM1d1I4dENxTzFpcG1CeXZkOFQ4ZDIzZEc3b0pIQzBESmdn?oc=5",
    "publisher": "PR Newswire Canada",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2024-05-02",
+   "month": "2024-05",
+   "firm": "eqt",
+   "portco": "storable",
+   "buyer": "Storable",
+   "title": "Corrs advises Storable on its acquisition of Newbook",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdjhlMHpJU2FyZnJ5RHJ2SV81UzVqb2tweXRUS0hYbDh2RUJVRVlrMUFLbDEwdzBvcS1RM0JRbzZTZnUwYU5CbS1HUHYwT1pZQ0FGdFRhYWg0T3BwVkk5aDdDRVVUZnFwOWZHR2V4RFh5MUpjVzlwcW5SMVd1WEhrMUpPa0dpaVpNSVlLMDFSbXdISlRW?oc=5",
+   "publisher": "Corrs Chambers Westgarth",
    "stage": "signed"
   },
   {

@@ -40,20 +40,14 @@ _Published Mon 23 Nov 2026, 08:06 SGT · covers Mon 16 – Sun 22 Nov · built f
 ### TA Associates
 - **IGEL:** Vitruvian agreed an investment in the TA-backed software firm at a $1bn-plus valuation. [PEI, 19 Nov](https://news.google.com/rss/articles/CBMivwFBVV95cUxOZEF6cVM2WFJIVzhsT3pGN3Y0ZGNWWThRejhLVFp1aEhiNUVYR0Q4QUFmS2JUTjlISlhwcXRaQ01BNm12NkxNSkpqRkRsTW9Td2lRcUx2ZG05Tm9ab21GV0ZaWlMxeW95WEs3V0tSaTN2QXM1ZjV4N1RKdjVhbE5xck81WHJUNV9sZS04SnNtbkFlSkNRb0RBMkNwaHptVll1MmZyZU5ZMGY4aEo5bktQOUkzSUp3S0tSc1hCRzZ5TQ?oc=5)
 
-### Affinity Partners
-- Nothing above the bar this week.
-
-### Affinity Equity Partners
-- Nothing above the bar this week.
-
 ### Partners Group
 - **EdgeCore:** KKR is weighing an $8bn–10bn deal for the Partners Group data-centre developer. [Investing.com, 21 Nov](https://news.google.com/rss/articles/CBMivwFBVV95cUxPS0NsQU5sUlFXNzFkSm9hVzc2S3BKN3BYWkxIUjZyZTZLZkJfcnAtbG1sSWtZSkZ0ZUFJSXFoTDJLMW0tcU95TGJfdUJEaTRfWXZFRHd1aXVYUnF0cmpfNHBJaGsyR3Z6Vl9DazhRMHM1amZWalJIc0E4OUxCZlE5NGtGY0x4alJLeGtQOEh0X2VQRjNTXzNXWW1rSHpDd3Bvd19GSXJkR1RNMGFDNzByOElGc0kwYkM3ZEZhNFVYaw?oc=5)
 
 ### Brookfield
 - **Nuvama (India):** Brookfield dropped out of the stake sale ahead of binding bids. [Moneycontrol, 18 Nov](https://news.google.com/rss/articles/CBMi7wFBVV95cUxPemcwLUJHbXZxejZUbFRLUWliczVkaFlIMUJJWE5aS044TVFqYkM1VFA5Ty1iYy1mN1E4MEtjS1FsaFN0ZmlYWWJDUE1XUW1EblZRNUo1aEdldGJoSzFpZ01nd0ZDNThhbTQxV1lsSTVBNDRmd2lxY0hDV1pCVy1nSm1rOVR1UHREcktDdFhzay1LUk81RmFWQnNFbzdodXFaanFOUzVSdzJKYk01dW5ES29sMm9YaVMzemFlTDhrdE9nbEwtTlAwYUV0OUotcmVvS3lPeGMzZTVRNVNMSlNtNlhxdmpHRFlUUDJzZVVtMNIB9AFBVV95cUxQM2E4aWlmRFRSN2c0S1IwMFg5aW9aV0FpNnFOOWVFdjVmSTZPYnpWTlp2bjBzVkxSY2QyZkdnRnB5eGdzOExCZUlmWmNWSVVTclJKYjJua2dPdWx5OHlTX3RSblFKTmhSeUcydEZqRW15Q0kwaEE3S2I1NVhsN0dvWDdUS1h1ZWZhV2drUjBBeU9oQzliVm8wSGsyNUowRV9JM3kxbVQ5VVF0SVFLYTYzWnNNU0xydFhIdG5xYkt1VFJtOTRzSmV6V3BQQ1lXNjRIS1N0MWh5TUw3LUo4S3k2bmlVTks3dzdPSWd2Y3lkX091bWNE?oc=5)
 
-### Navis Capital and Macquarie Capital
-- **Macquarie Capital:** as Nuix's largest shareholder it supports the Haveli process. Navis: nothing above the bar this week. [Rask Media, 18 Nov](https://www.raskmedia.com.au/2026/11/18/nuix-asxnxl-share-price-soars-49-on-2-75-per-share-takeover-offer/)
+### Macquarie Capital
+- **Nuix (Australia):** as Nuix's largest shareholder, Macquarie Capital supports the Haveli process. [Rask Media, 18 Nov](https://www.raskmedia.com.au/2026/11/18/nuix-asxnxl-share-price-soars-49-on-2-75-per-share-takeover-offer/)
 
 ## VC moves
 ### Sequoia Capital
@@ -62,17 +56,8 @@ _Published Mon 23 Nov 2026, 08:06 SGT · covers Mon 16 – Sun 22 Nov · built f
 ### Peak XV Partners
 - **Funding Societies (Singapore):** Paytm will invest up to Rs 200 crore in its subsidiaries and take 19.1% of CardUp; Lumov eyes a Surge-led round. [Business Today, 19 Nov](https://news.google.com/rss/articles/CBMi-gFBVV95cUxOQUZwZUhoZWVDZXotZDE5Y005alRTMnNhbVptTHc5WEhJa3ViMHJLRzdKcUJYZVBPV2l5b1haSmhUZWMxS2s0Yk9VblZVWGhNS3I5ejdEQ2ptbE9TZXpNVHp4V09KX2VKZUxZWEh4YnZXQzVLazMteWNrN1cxZmRoX3B6XzhTeUR6SFV2bmNiaUxMWk43amNMU2RKYTF1bkU5MnhnRjF1UHozaTR0SVRtcTJnS214Ti1ZSVdPYlZvUGdNT3k3ZHpOeC10U2dXNUQ4YlRJUnhsU3h3dXRMbWwxMXQ0bXZKME5PN1Q1cTB2NGdZZWRKclFTdW530gH_AUFVX3lxTE5IZHI4QnE0ZjNFSEhCWmt3Yll2ZWVSS3dyaGdKNVZ6ZjRtMk04Uk1NR3Y3QndCMWVmUzhtNVl4TzhzblF0OC1Uem8wSmFpVnVSM0gwWlBGNkgweDVwOVZuRU5zWkhUNUR2YUpMTnpySkFjdDF0bFV5MXJWN2d6S3g5UWczUWxHUjZ2ODlteTVtaXA4em1CVjJyc3g2dk5fcmxTdUtCamxjNWowOHJ4SV83cUxfMWo0QTNXbTFpc2VOYnhNZUZZUXFSZkhSRTNlajhHRTV1NnhGNENjODFQbnhBN3VucUstRWVXZDlRUzRRWHJqb2l2bHl3U09NbkswNA?oc=5) [Inc42, 17 Nov](https://news.google.com/rss/articles/CBMijwFBVV95cUxQbkZEekVDel95ZmZkbTJ4d29EY0hZZVZTRlJnYzRWUGVORnB0NUVHQnZiWGtpOVdxQmMxV1dnejc1aWw2c2htTG9Yb05rSHlUSVBzLTVfLXFLMFZyblF0SjJsb090OHNwdzZMZHlZcC1qMGQ4NmRGb3NFRVJKaWdLaXNNZTNzTWVmb1Q5YVFiTQ?oc=5)
 
-### Jungle Ventures
-- Nothing above the bar this week.
-
-### Openspace Ventures
-- Nothing above the bar this week.
-
 ### Golden Gate Ventures
 - **Funding Societies (Singapore):** the portfolio SME lender's payments arm drew up to $21m from India's Paytm. [TNGlobal, 20 Nov](https://news.google.com/rss/articles/CBMirAFBVV95cUxNdHk2WWs1cDlGNHItZ3hsekdUSGk0YnhSYW9jdWtnUjE2ZlNIam5lS0RJRGxlMlB3bnhEbVdvM0ZXcE9vU05lWXZUMXhDRUp6RFdBb3BDU0R0akJWem5PQkxjUDlHTTFLdG9haXhHdWtKMjhQRExMR3Z4MXdkUUZGQTloeTduTUQ3ZzNCRlE5WnZJWGJtWUktQkNCUnBEYjlhOFRQdG1GeW5DRFhh?oc=5)
-
-### Wavemaker Partners
-- Nothing above the bar this week.
 
 ## AI & Tech: deals and listings that set comps
 - **Security consolidation:** CrowdStrike is in talks to buy Zscaler (about $32bn market value); Palo Alto Networks signed a $4.5bn all-stock deal for Applied Compute. [Bloomberg, 20 Nov](https://www.bloomberg.com/news/articles/2026-11-20/crowdstrike-is-in-talks-to-buy-cybersecurity-firm-zscaler) [Palo Alto Networks, 18 Nov](https://www.prnewswire.com/news-releases/palo-alto-networks-to-acquire-applied-compute-bringing-secure-open-weight-ai-to-the-enterprise-302944421.html)
