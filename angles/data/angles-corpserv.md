@@ -1,5 +1,5 @@
-# SSG Angles · Corporate services · week of 16 November 2026
-_Published Wed 18 Nov 2026 · five angles in company secretarial, fund administration, trustee and payroll services · from the roster, the targets and the week's stories_
+# SSG Angles · Corporate services · week of 23 November 2026
+_Published Mon 23 Nov 2026 · five angles in company secretarial, fund administration, trustee and payroll services · from the roster, the targets and the week's stories_
 
 ## 1. Equity Trustees: confirmatory tech DD and a day-one plan while TPG bids against BGH
 Transform · TPG · Equity Trustees · Melbourne, Australia

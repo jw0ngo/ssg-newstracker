@@ -1,5 +1,5 @@
-# SSG Angles · Fintech, remittance & stablecoin · week of 16 November 2026
-_Published Wed 18 Nov 2026 · five angles in cross-border payments, remittance and stablecoin rails · from the roster, the targets and the week's stories_
+# SSG Angles · Fintech, remittance & stablecoin · week of 23 November 2026
+_Published Mon 23 Nov 2026 · five angles in cross-border payments, remittance and stablecoin rails · from the roster, the targets and the week's stories_
 
 ## 1. MoMo: vendor tech DD as Warburg Pincus sells into a contested stake sale
 Sell-side · Warburg Pincus · MoMo · Ho Chi Minh City, Vietnam
