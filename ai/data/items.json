@@ -468,6 +468,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "030e55c77ae7",
+  "theme": "targets",
+  "title": "Microfinance group with Middle East operations raises $7.4 million in Pakistan’s first fintech IPO",
+  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWkh0aUpKbXN6cXd4YjJDTWYzM3AweDNJQjJjMklKRkh6b3hxSDB1aEQzNXY4N0tncmo2czZlNE11VWlEbklYdjU2c3liWVJNcUE3SEZBcDRTZTllVWVRQmVWRnBYLUJkWkRkM1pkbTNoaTc2QXcyU0VicHdKX2dyZmlIMktBc3dsQms0LUNuNmNaRnkxZ0l5em1UY3BHUWRJcExzQm9wQmltQTZYd3lEckprMUM1V0RvaXpqN3lUN1FNYlQzemQ1UUlHcW9GSzByV2c?oc=5",
+  "date": "2026-11-24T12:18:01.000Z",
+  "summary": "",
+  "publisher": "Arab News PK",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "0317c70c5b81",
   "theme": "ma",
   "title": "Freshworks to Extend Freshservice into AI and Software Spend Governance with Agreement to Acquire Torii",
@@ -1368,6 +1380,18 @@
   "firstSeen": "2026-11-12T23:48:01.628Z"
  },
  {
+  "id": "08647158a3f5",
+  "theme": "platforms",
+  "title": "Anthropic Launches Claude Ship to Fix and Approve Code",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWWlSWUo2eGlMaXZCdUdNYzBWZ0VLZWhxWDdPLWtnX3prVFZTY3o1X3JCemkzN1Z3NDVnM0l4RV9qZ0ZUWWVGcXZ1eHdIUzIwRzRnTUY0bnVBbWNfM2ZqNmxfTFBlYml5bXh3bkxKN3ltNXgtSWItNEQtZmZrc1dla0NqX0xob05NYjdsVGZvb0x3UQ?oc=5",
+  "date": "2026-11-24T03:45:30.000Z",
+  "summary": "",
+  "publisher": "The Defiant",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "087062e17e1c",
   "theme": "targets",
   "title": "Sentra raises $150M to control what AI agents can reach in corporate data",
@@ -1966,6 +1990,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-05T07:46:33.871Z"
+ },
+ {
+  "id": "0bf4c8a50d25",
+  "theme": "platforms",
+  "title": "Workday Completes Acquisition of C1.ai to Expand AI Agent Identity Governance and Security",
+  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU2ZraE5yckRfS2I0ZDRGN2x4UTZsbkl5TWpkeVFUS0htV1p2dmlMNkpMZFIwYUtNVUF5T0t1Z1FUN0tjQ29ndTQ4bnRUaW5ueHJCWkRPMGVhWnZ2Y2xpUjYtVGRHM3lIdS1FY1ZSMk1aemYyYkFtb1ViTDlUNFMxdnRXdDRWc0ZwQlhmODhDYW9CRVhrTy1SVzY3MXdfTkpTSXQ0SVNWTTlCY3VoYndrM2tWaDc5OEJUbUdTSU05YWgxM3dzdi1RNQ?oc=5",
+  "date": "2026-11-23T22:27:45.000Z",
+  "summary": "",
+  "publisher": "citybiz",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "0c4cbbcd8109",
@@ -2880,6 +2916,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "12a6855afc8c",
+  "theme": "platforms",
+  "title": "Can Workday's C1.ai Acquisition Advance Its AI Growth Prospects?",
+  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVUhlMHlaUFdaY2Z3eWNkZDNEQ21Qb0hIVlRrbzh1a2djb091ZXluakpzOHIySnRONzItSENHVEM1WXFZSGxJZ0k4ZHRXOFd1X0psZEZaUUJwck9wZ0dvbU81MkpnTk9ON2dKUl9EWV9yVG5XYTB4UFpFTGlrWUk0RWhQazhTc1NpYlhGVlhqTlY5TVZwQm9KNjVmdlRMNF9GNXNDSnhBaXhFNk45UEZSTElKdWZYYzdGaDBV?oc=5",
+  "date": "2026-11-24T14:59:00.000Z",
+  "summary": "",
+  "publisher": "TradingView",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "12b0768740b0",
   "theme": "targets",
   "title": "Healthtech Startup CureBay Raises Rs 100 Crore To Expand Rural Clinics",
@@ -3106,6 +3154,18 @@
   "source": "incumbents",
   "official": false,
   "firstSeen": "2026-10-22T23:49:28.706Z"
+ },
+ {
+  "id": "14867599da0e",
+  "theme": "platforms",
+  "title": "Anthropic Launches Claude Ship to Review, Fix and Approve Pull Requests",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYjk3R1JuTVozQlFhWGFwd1dva3hCNkJ4WEVXUXJDRFNXVEl3TmxrbkJqVXZLMWJmWXVZcW13Y0c5a2VBWFR6bDIwYXU2Ry1GY3BTU2pCZ1hSTWRrZTdDZm51MGVzLWRfdHBRNnJQQWZYajVCcExTT0pYckRuTC1zSE1fQ3ZMSmExQkFrZVlVM0pKa0xRUEx1U3RhNzh6dXVJQ0E?oc=5",
+  "date": "2026-11-24T11:22:00.000Z",
+  "summary": "",
+  "publisher": "Technology Org",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "149b58176a67",
@@ -4558,6 +4618,18 @@
   "source": "rounds",
   "official": false,
   "firstSeen": "2026-11-13T23:47:08Z"
+ },
+ {
+  "id": "1e7d64268f90",
+  "theme": "ma",
+  "title": "Cosmo N.V. acquires 23% stake in surgical AI startup Scialytics",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX1lELWZoSmk4WUh1RHltSlRCWUZDdDZ3enYxLU1RbEJOOXU4UlZKYVNNR3RnZjJVbDQ1YVZ1R0U1YW1McUMxWEpnYUswSXhvTkJyVVJabWJzRkVMUFgzaUM0WTVnRlllLUhDejFHYk9ocHYzQWVsUXJvdHpDWk96OFFkZE5rUkFlaS1EMnRIcGRhTUZGWF94SlZMY1N3MXYxbEV6dHM1R1RudGdPSl80MXJiRkZoNHFxbUIzWmdfdnY2QQ?oc=5",
+  "date": "2026-11-24T08:15:32.000Z",
+  "summary": "",
+  "publisher": "TradingView",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "1e7f8becafdb",
@@ -6060,6 +6132,18 @@
   "firstSeen": "2026-10-09T23:48:08.047Z"
  },
  {
+  "id": "285d6bd2e6de",
+  "theme": "platforms",
+  "title": "Anthropic Unveils Claude Ship as Autonomous AI Agents Take Over Code Review, Remediation, and Approval Pipelines + Video",
+  "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5vNUVqWTRlTmp6UGtzUS14YVhfelh5a3JSdXlETXNBQjh1aGFFZ0NZWjhPam5fZmlaYk0w?oc=5",
+  "date": "2026-11-24T09:40:12.000Z",
+  "summary": "",
+  "publisher": "Howl.Link",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "28a9362031ba",
   "theme": "platforms",
   "title": "Anthropic launches Claude Haiku 5.5 at $0.10/$0.50 per million tokens",
@@ -6238,6 +6322,18 @@
   "source": "ipos",
   "official": false,
   "firstSeen": "2026-11-18T23:46:43Z"
+ },
+ {
+  "id": "2a8463ed4984",
+  "theme": "platforms",
+  "title": "OpenAI Releases GPT-6.2 Astra and GPT-6.2 Sol",
+  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5OGhpMTltamRYZFlFODgzXzhKMERsdHJ4cDhUeFJoUXhnOGk5cldRMXVDYVZteS1yQkhIX1NDWDBjaVlBZWEzRVE1cF8tV1c0Rzg5c0xqMnRHTkxTX2RkaE56T1lhTUww?oc=5",
+  "date": "2026-11-18T17:30:07.000Z",
+  "summary": "",
+  "publisher": "CASRAI",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "2ab2aa613cd5",
@@ -6766,6 +6862,18 @@
   "source": "incumbents",
   "official": false,
   "firstSeen": "2026-10-26T23:51:11.810Z"
+ },
+ {
+  "id": "2df8c10c256a",
+  "theme": "platforms",
+  "title": "Salesforce Contact Center Launches in Australia and New Zealand",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbkZWZzhaVEZRckx0X29JeVJ2Q0NOX2VaZW5pYTJ1U01UcWFiUmlmcUJjRkxlWDJicmJBV0xmSS1INldIQUgwWFhnVzhPOTVwc1RneVc0MUdERl9LRzdWampnMVRDak05NnptdlJ4X1lkNGdWRUNWS0hlUHlQTnBDdG5iRmw1YTgwd1Jsb09oQVZIa1c3LXhJ?oc=5",
+  "date": "2026-11-24T09:35:28.000Z",
+  "summary": "",
+  "publisher": "CX Today",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "2dfd5f07ead2",
@@ -8052,18 +8160,6 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
-  "id": "37afddfb8f67",
-  "theme": "listings",
-  "title": "【US Pre-Market】Nvidia Earnings Due Tonight; Software Stocks Fall Broadly as Intuit Tumbles Nearly 12%",
-  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcXlkalhyZWx0ZEp0alVkT0FsTzRuWjNmTjJOcERFaUljd1U2QndoV3MyWEdRTEh1RXpnZnFtWFhkVUF2ZHlELWNuYUF5WHkyZVNuTGRVam0yQnJaRjJ0U0RmUHhrV29Ca05qeXVLRkRSTFcwa3dEUlE0bENpaUU1cTNmSnBoOVJXd0E4eC1selA3T3BsMXpRVXdQU2pHenFRWVQ4NzJGalNaaXJERDJVNUcwQmtWQQ?oc=5",
-  "date": "2026-08-26T07:00:00.000Z",
-  "summary": "",
-  "publisher": "TradingKey",
-  "source": "comps",
-  "official": false,
-  "firstSeen": "2026-10-07T11:38:17.671Z"
- },
- {
   "id": "37c5c2a7697b",
   "theme": "ma",
   "title": "Qualcomm to Acquire Robotics Software Firm PickNik to Bolster Physical AI and Robotics Software Ecosystem",
@@ -8352,6 +8448,18 @@
   "firstSeen": "2026-10-14T23:46:58.861Z"
  },
  {
+  "id": "3a5d1383da88",
+  "theme": "ma",
+  "title": "Exclusive | Palo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYzJMRVRpMDh6UlVrLWNaa0JYTmZhMkUxWWdweFJuWDdJZWE2NmVsSFczcFMwT3FVYzRxVV93TXlrSVhfWDBnRTBsSTNRcjMxUF9KMnp5UVNYOTRKSlJPa0tRMC1Mc2FTN3I4RGpZRVJxZ3FCOUVkaEZkQTlDUzNpZ1V2VS1UOXZRdEkyODVCMTJuMC1pSWd2QnN1Skw1eTFWS0Z3dzd1enk?oc=5",
+  "date": "2026-11-18T21:00:00.000Z",
+  "summary": "",
+  "publisher": "WSJ",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "3a5f3a77838a",
   "theme": "platforms",
   "title": "Anthropic IPO: Why token usage could become a key metric for AI investors",
@@ -8434,6 +8542,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-14T23:46:58.861Z"
+ },
+ {
+  "id": "3afaf1eb7c77",
+  "theme": "targets",
+  "title": "Ionic Wealth raises Rs177 crore to scale wealth platform",
+  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNXzRQUVpvTFplQUpyWnMyZzd6NFFBY2U2OUdLYkl5SjdQbXZIQ0ZaczNYTHhzMEhOSU52RDZQVk9oc3hZLWFOd3Z5UmhZM2xrNmJNaWwtN2xCQXFsM0RudHNrcFBFTnZLOGxVZW43NHlydzYzNktFcHE0a19NMzJvSWhLNVNkYnBiMjRXNUtVN1V0Z3RBVWc?oc=5",
+  "date": "2026-11-24T15:49:29.000Z",
+  "summary": "",
+  "publisher": "FinTech Global",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "3b5181dae354",
@@ -8880,6 +9000,18 @@
   "firstSeen": "2026-11-11T23:48:24.761Z"
  },
  {
+  "id": "3e4ff122f4ff",
+  "theme": "platforms",
+  "title": "Anthropic Releases Code Review Agent Bundle Called 'Claude Ship'",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRHk5S3NHTnc0MGJFNTlFbVdBRVhMRWFFUlozVzVrNk5lT0tsMHRfeW15ajY4SHptM0tCVkwtemNqYkJ0ekFGOW9IcWpCdjR6LVRFMHpUWmQ1QmFtcWtqbENhbzVYMVFNQm1iekh4YzJ3Wk5xNlJIVFNFLXVfbEVyamVDVWoyc1YyMW5mUDY4czRUODcyVmRaOExxelJHemwyRUVIdjlkWE5NUUw2S0IxUW1RdFZGdw?oc=5",
+  "date": "2026-11-24T03:08:34.000Z",
+  "summary": "",
+  "publisher": "Gizmodo",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "3e5a8f35d274",
   "theme": "ma",
   "title": "BCPE Blitz proposes higher tender offer for Kakaku.com",
@@ -8890,6 +9022,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-29T22:51:46Z"
+ },
+ {
+  "id": "3e7198a4caea",
+  "theme": "platforms",
+  "title": "Model Release: Gemini 4 Neon, GPT-6.2-Astra-Sol target business productivity",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRHphN3RHUmwxdVhoR3RvLUp6aTRJcUdWc1NYNy1Qd2NzVkJ0V1Q1VWtMRTlRcktXMFZ2SDYwNUhZWGNfa2VEOTZIYk1ZY3VJVTJZa3VWdVdMSHBUdVJ3c2JsZmx0RWFxYUVrOFNFdDdvZXFlcExMZWhkVEc1N3lBU3hubVRFemQtanM5U3pQQ1RhOHNjN0VRQ01GQnBBU1lfZTl2d3FBVEJ2M3JrMi1xalBR?oc=5",
+  "date": "2026-11-23T13:15:37.000Z",
+  "summary": "",
+  "publisher": "TechTarget",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "3e7bfd297e07",
@@ -9744,6 +9888,18 @@
   "firstSeen": "2026-11-02T23:51:32Z"
  },
  {
+  "id": "445a9c5437dd",
+  "theme": "listings",
+  "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
+  "date": "2026-11-24T20:47:56.000Z",
+  "summary": "",
+  "publisher": "Reuters",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "44625e875534",
   "theme": "listings",
   "title": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast",
@@ -9838,6 +9994,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-05T07:46:33.871Z"
+ },
+ {
+  "id": "4571105d1202",
+  "theme": "listings",
+  "title": "UP Fintech Holding Limited Reports Unaudited Third Quarter 2026 Financial Results",
+  "url": "https://globenewswire.com/news-release/2026/11/24/3409027/0/en/up-fintech-holding-limited-reports-unaudited-third-quarter-2026-financial-results.html",
+  "date": "2026-11-24T00:00:00.000Z",
+  "summary": "UP Fintech (Tiger Brokers), the Singapore- and China-rooted online brokerage listed on Nasdaq, reported Q3 2026 total revenues of US$172.6m, down 1.5% year on year, with interest-related income up 12.5% to US$85.5m.",
+  "publisher": "UP Fintech (GlobeNewswire)",
+  "source": "official",
+  "official": true,
+  "firstSeen": "2026-11-24T22:51:26Z"
  },
  {
   "id": "45715ec5a673",
@@ -12264,6 +12432,18 @@
   "firstSeen": "2026-11-04T01:29:25.534Z"
  },
  {
+  "id": "57798c4464f2",
+  "theme": "platforms",
+  "title": "Microsoft Ignite '26 Sends Key Signal: Security Becomes Core Foundation in the AI Agent Era; Citi Reiterates Bullish Outlook on Palo Alto Networks (PANW.US) and Rubrik (RBRK.US)",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNEtZOHpIX2xaN0JhbkhYbm1YVzktQzNtekFTYVR6T0xWZ2RWQ0RSNG5UdXp6NFlWWUpaN2lna0dCd3I3TWVKZTFmZVhrVVdibzdNaXBreklxSkNUTUJWaEphWHk1TWNtNUhqUFlMOUJTZExFclZjWHB0SHBlcEwwWjUtVGE4UVloQ0JhWG1ZTHJjc1N5T21MNzF1YUpxYjE1NGlkXzRvR21sLVI1WnVLVlBn?oc=5",
+  "date": "2026-11-24T04:42:57.000Z",
+  "summary": "",
+  "publisher": "富途牛牛",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "577b7b6eb083",
   "theme": "infra",
   "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment",
@@ -12346,6 +12526,18 @@
   "source": "pe",
   "official": false,
   "firstSeen": "2026-10-26T23:51:11.810Z"
+ },
+ {
+  "id": "57f6da861770",
+  "theme": "platforms",
+  "title": "Anthropic launches Claude Ship to automate code review and validation",
+  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMjBXX3NMQWdtZk5ZU2UyWUJFdHlwbW54YkIzSGlURjJ1OU5qM1lRMDMzMGpzSzVjZTVfT0pNRU5vXzB1alY3LXJYNnhhdXRHVlJuYmhJcnlQQ0xPUVVYVWNkNmt0ZzlWa3Zma2gtakRib09BczBPUURNVUVUYnZob3UwdzVkXzBSY3Z6SHdpQzUyQjcyc0xtcEZJSURnRDAxYTgxUkZOYTJ5RTY3QTlaV2t1WmNJRjFrT3p1d2dTdw?oc=5",
+  "date": "2026-11-24T08:29:39.000Z",
+  "summary": "",
+  "publisher": "marketscreener.com",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "57ff03f05118",
@@ -12562,6 +12754,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-12T22:51:22Z"
+ },
+ {
+  "id": "596a253c43a3",
+  "theme": "platforms",
+  "title": "Scoop: Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release",
+  "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWnJmY2hLTWlhTHcwN3pVSEhYOXlYUThYQXJ3RWxobVlPR2lweWpSQUY1NklSLVNVUHI4c0wwdnN3azBiV05wTVV6ZmRMTllRR1dvcmNYdjRheHZDOUNVaTBxUFpuS3BZUVBvZ2tpMlpTSS1oYWZ3SC16RVZEME51a0FB?oc=5",
+  "date": "2026-11-24T10:49:26.000Z",
+  "summary": "",
+  "publisher": "Axios",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "59ae8b975550",
@@ -12960,6 +13164,18 @@
   "firstSeen": "2026-11-11T00:05:42.750Z"
  },
  {
+  "id": "5ccd774df5af",
+  "theme": "platforms",
+  "title": "STARTRADER Launches Anthropic Stock CFDs Following Nasdaq Debut",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTWk5OEtkZEpuTmlZaFhjc1VKN0VDVGxDV3Zyck5JS2Y0MXRRSXBWa3lleDRSV2VTRlh6YlRFN05xQXU5S2V6ZFZ2SjBWX3gzYnY1X3I0Y2s4QVBKX1BXbE1iS25KRHdPM2l2LXU5alQtZEM1NkJQOW1KN3VQQmlKT3ZEUFZPX2ZXRUVQOTY0UlBDZFVFQkREYVZ2TURhU0gyVC1WaVBuT1E?oc=5",
+  "date": "2026-11-20T12:20:00.000Z",
+  "summary": "",
+  "publisher": "Yahoo Finance",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "5cdf2650469f",
   "theme": "listings",
   "title": "Anthropic Files For IPO, Reveals $80B Loss",
@@ -12970,6 +13186,18 @@
   "source": "ipos",
   "official": false,
   "firstSeen": "2026-10-27T23:51:51.619Z"
+ },
+ {
+  "id": "5cebf1c70d4a",
+  "theme": "platforms",
+  "title": "Anthropic Launches EFS to Give Enterprises Data Control, Unveils Claude Ship Tool",
+  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQVhnQlBtTHY5MHFlYm54SVVnTE0wUktZbkp6T21SZ09aT2NpV1FkMWtGbkZFVlBia3Bwd2N1NHlUWEFIeFU1QVBMNTc1Y1NES0oyMFZZb21SUzNmZ01XMnBtQTgxS2FQYnRIWklVVkxrS0hDdkI3cVdtV2EtTGxtSWhneGZOOXZmWlFFeGZRQVV1Q0NNSnhCRlEyMThza0FqSW1ZMGwwcFlyYmx2SUt1OS1pMlk?oc=5",
+  "date": "2026-11-24T04:07:09.000Z",
+  "summary": "",
+  "publisher": "KuCoin",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "5d51d2f86a64",
@@ -13150,6 +13378,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-11-20T23:46:44Z"
+ },
+ {
+  "id": "5f13dba58ed7",
+  "theme": "platforms",
+  "title": "OpenAI launches OpenWorks, offers up to $8,000 a month to coach small businesses on AI",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVVBHT2p2dHdoaXdHOE9rUkpqWHZPbjlNd1RuV0RCY1dPNE9EYUdvSC00VmhIN1M4X0lmQnB2a0p6TTRmYi1EaDViR1BzcWpyVzBHc1FoaFlMOHBEX0d3ckpmMTdHcFN6VndzNFplU0t1aklON3N3bUQ3TE1iNzdsNWIxRjQtS25FR2ZYUk45Zno4a0lqX2d1TTVOU05oQnhqYUR1TS1kcTZ5cUk?oc=5",
+  "date": "2026-11-24T09:34:16.000Z",
+  "summary": "",
+  "publisher": "ForkLog",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "5f21bb397a40",
@@ -13872,6 +14112,18 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "64fd46b28de8",
+  "theme": "listings",
+  "title": "Anthropic's IPO Raised $81 Billion. Here’s Which Artificial Intelligence (AI) Stocks Will Benefit From Where the Money Goes.",
+  "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYXNrd19NSzVMdGFnQzZ6OFV1M3Jjd2dZdlNlM29WQmtSU0E1OWZsTFRHTXJFNjQ4X2c3blBzNk04UWtjTVdYVEZ3OU9aVEhIMmRZbVdJc0dvQWZOSGpnWWlLYUlfRTBPS3RpZEVKWGtHWkl0TjdIU0s1TUJPTWFWY0RIWnNXSkF2NHhrRlctYUlIZjAyamw1QWJzNFJxeDZVOEVVT0t0UU1KY29xNXpKTGQyT1BLaUNaaW1ubnE5TWNoRHdFR0FiQTlGS042ZER4Wk9DbGJCdG0zdmRITmtnbnVpc093bnJVVFJOWFlYcmhrUkJoRlhteA?oc=5",
+  "date": "2026-11-24T17:23:02.000Z",
+  "summary": "",
+  "publisher": "The Motley Fool",
+  "source": "ipos",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "65192a0f8d65",
   "theme": "ma",
   "title": "Progress Software Completes Acquisition of Domo's AI and Data Platform Business",
@@ -14578,6 +14830,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-05T07:46:33.871Z"
+ },
+ {
+  "id": "6a9e1d310ab5",
+  "theme": "platforms",
+  "title": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNblBUSndodVFfOEtKM1lpQ0NKeDdibnh0VFpZc0NiVVJzdTQtTkNGWjVHdzQ4Ry1Idi1wMTRMNE1paEpBemprQVFBcVJkWXZUQUt3NjBqbXVodmhmeWRzc2h0Z0pXT1BtUjFzVGFtYjNwZHhqNGxhVEZJbkRrUW5KZmRNb2tMWEXSAYcBQVVfeXFMTW5QVEp3aHVRXzhLSjNZaUNDSng3Ym54dFRaWXNDYlVSc3U0LU5DRlo1R3c0OEctSHYtcDE0TDRNaWhKQXpqa0FRQXFSZFl2VEFLdzYwam11aHZoZnlkc3NodGdKV09QbVIxc1RhbWIzcGR4ajRsYVRGSW5Ea1FuSmZkTW9rTFhF?oc=5",
+  "date": "2026-11-24T14:16:53.000Z",
+  "summary": "",
+  "publisher": "MarkTechPost",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "6ab2777c55f6",
@@ -15420,6 +15684,18 @@
   "firstSeen": "2026-10-24T23:47:42.818Z"
  },
  {
+  "id": "702c70d0a632",
+  "theme": "platforms",
+  "title": "Anthropic launches Claude Ship to automate code reviews and approvals",
+  "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5lUVEtbnN1LTJyYm5CdmZCV1BTX3dnb3dMdGQya3pGQXdPSTkzYVItNENNcHNvUmQ2NnREdWtITzA0YUMzTzZaZVpuTURXUXAyWmNhbkxITlRzV1pxSmwzay0xcw?oc=5",
+  "date": "2026-11-23T21:31:51.000Z",
+  "summary": "",
+  "publisher": "Crypto Briefing",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "7034d78773fe",
   "theme": "platforms",
   "title": "Microsoft launches new Postgres database, adds to Fabric capabilities",
@@ -16006,6 +16282,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-05T07:46:33.871Z"
+ },
+ {
+  "id": "74a311091b36",
+  "theme": "platforms",
+  "title": "Anthropic launches Claude Ship, extending AI-assisted development to pull request approvals",
+  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbnFTMEt6QTl2eHk2Z1lKMVpZNW1ieWF6TGRSUENiWTF0QWFFekVRUDZxT0pmb29jaU1rM21uMk1TenFYdUNJck4wMGdFdmplMElnTlZIUVFGc1VCRG90cFdRVEFPWm9QQzNMaVZRX0k4UU5uNEt4ZTNOcUZjNjk0c3V4WGl3VmNod1ZNM21CaHo3Vy1ZMGRMeTZLaHZLVnczQ0JUcXdOZjlNeV9lSlhrUTZ0ZDFqbm04b0FZcTJReVpYOE02cUxqWTkzV3JaTUVUREx3?oc=5",
+  "date": "2026-11-24T11:14:26.000Z",
+  "summary": "",
+  "publisher": "InfoWorld",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "74ac271309b2",
@@ -17112,6 +17400,18 @@
   "firstSeen": "2026-11-05T00:01:43.824Z"
  },
  {
+  "id": "7be8358bc913",
+  "theme": "platforms",
+  "title": "Anthropic Releases Beta Feature That Turns Claude Artifacts Into Standalone Mac/Windows Apps",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55eU9sSDI4OTRhVWdmTW43aGFYQVNfMk9BbVd3djB5WUxyNk82MUE1RkFfa29ZTGs1UkVoS04wdWlhSHVYVDU1TXQ3VTJ1ZDZOVlhpazJ6enVoUmdUQ1VKZk5nTHdGRGstSUx1VnlzMzZ4MjE0Q3c?oc=5",
+  "date": "2026-11-24T20:25:00.000Z",
+  "summary": "",
+  "publisher": "BigGo Finance",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "7bead92b12d6",
   "theme": "platforms",
   "title": "SAP launches Supply Chain Centre of Excellence in ANZ",
@@ -17554,18 +17854,6 @@
   "source": "ipos",
   "official": false,
   "firstSeen": "2026-11-15T23:47:28Z"
- },
- {
-  "id": "7f66ddda8ef4",
-  "theme": "ma",
-  "title": "Australia's top software firm WiseTech slumps 10% as e2open acquisition costs weigh",
-  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbmMyeFZ2aUZ3WDBxNm1FME5ueEJPSDI2SUs0dXBfekdpSHphQTlxZ3h4cmMta3VORFZvQzVReWZWT2lPektyTGY2NGF5bGdEbEc4LWNiOWVVUjdwZkl4Ylc2cnNkQU1RNmpEYS1YU05LWG96NHk2c3FPZ0Uybl9RajR4WXk3bV8xX0hqUXhScEFSV1FHR0gxNHhaZGYtRTd0SVV4Yk1hZjd2U2lhN2pMMnVEd3E5aDdEUWNBZy1R?oc=5",
-  "date": "2026-08-26T07:00:00.000Z",
-  "summary": "",
-  "publisher": "Reuters",
-  "source": "coverage",
-  "official": false,
-  "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
   "id": "7f79ae4e9254",
@@ -18228,6 +18516,18 @@
   "firstSeen": "2026-11-12T23:48:01.628Z"
  },
  {
+  "id": "84b8c237ab3d",
+  "theme": "platforms",
+  "title": "Naver and Kakao will launch AI agents that book and pay for users",
+  "url": "https://aimatterin.substack.com/p/naver-and-kakao-will-launch-ai-agents",
+  "date": "2026-11-15T00:00:00.000Z",
+  "summary": "Korean internet platforms Naver and Kakao are set to launch AI agents that can book and pay for services on users' behalf, with Kakao starting a closed beta and Naver planning a personal AI agent app this year.",
+  "publisher": "AI Matters (Substack)",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-24T22:51:26Z"
+ },
+ {
   "id": "84bd36787f5a",
   "theme": "platforms",
   "title": "Meta launches new AI models to compete with OpenAI and Anthropic",
@@ -18768,6 +19068,18 @@
   "firstSeen": "2026-10-07T11:38:17.671Z"
  },
  {
+  "id": "88a4b3bbf2cc",
+  "theme": "targets",
+  "title": "Sierra Raises $1.75B Series F at $30B Valuation to Expand Enterprise AI Agents",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pS1lWVVNlSjZiTEZNZDNmeFpFS0x5TFo3dEhQNzZPRlRWb1Jodkk2OHFPYU1zdEpDdWhFZDFCS3BWaEpVY0R5SC1Ic1BSMTByc2tuejllTmF3YjBKUE1RQzdVRGh1RUJ0MG82a2MyV0VBZzVsSEHSAXZBVV95cUxPaUtZVlVTZUo2YkxGTWQzZnhaRUtMeUxaN3RIUDc2T0ZUVm9SaHZJNjhxT2FNc3RKQ3VoRWQxQktwVmhKVWNEeUgtSHNQUjEwcnNrbno5ZU5hd2IwSlBNUUM3VURodUVCdDBvNmtjMldFQWc1bEhB?oc=5",
+  "date": "2026-11-23T22:48:41.000Z",
+  "summary": "",
+  "publisher": "Ventureburn",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "88c65b9f2481",
   "theme": "sponsors",
   "title": "SoftBank's AI Spending Meets a Costlier Credit Market",
@@ -18898,6 +19210,18 @@
   "source": "incumbents",
   "official": false,
   "firstSeen": "2026-10-26T23:51:11.810Z"
+ },
+ {
+  "id": "8a7ccae1e33b",
+  "theme": "platforms",
+  "title": "Anthropic launches Claude Ship for developers — Channel NewsAsia",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcTBNcXBfeTBfVEF6ZGNla01jOFBlQzFORUt0cFg4OE1ZQkpXU0RQV0JaMWwwbHA3TmxIaFZDMW52SndoR2h2X1dvQU9qbWMwZXllZV9qX2I1bGdKZG5BTWlsZXoxTmlWZXcwVS1tT0k0M1JOZDFiNmZ3SHQ0bmJQakNlVFJmMHRRamwza0J6R09SaGtnS2kwNk9tVTJKV3FCLTJJc2NFNXhpa0I2?oc=5",
+  "date": "2026-11-23T20:37:50.000Z",
+  "summary": "",
+  "publisher": "UA.NEWS",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "8a8a6159d8f0",
@@ -19212,6 +19536,18 @@
   "firstSeen": "2026-10-19T22:51:59Z"
  },
  {
+  "id": "8c94b039ff20",
+  "theme": "platforms",
+  "title": "Binance Launches Anthropic (ANT) Stock Options Following Nasdaq Debut",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81TTV1aHNrRENIQ2QtWTJLMUpXUzRzVHRCN0lBeG9EX0gwWDJ6cFE4dmNsZzZZRnRPanBFSlcwTDhQM0xGT3l4SzM0MmJXa1hGalpOYjkxc0F3WkJ4eTNXd2FkcnYyUExtNmVkemx1aDhscC0x?oc=5",
+  "date": "2026-11-24T08:47:00.000Z",
+  "summary": "",
+  "publisher": "Kriptofoni",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "8cc55e637d9d",
   "theme": "platforms",
   "title": "Microsoft rolls out AI ‘Guardian Agents’",
@@ -19246,6 +19582,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-11-20T23:46:44Z"
+ },
+ {
+  "id": "8ce08b67200c",
+  "theme": "platforms",
+  "title": "Envigo launches DualRank to measure brand visibility across ChatGPT, Gemini, Claude and Perplexity",
+  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeTJjTTNwbmtmSi1YX0xMTVhzQnFnd0xtb2FtVmY2VmZpUzd3MkxuTnp5SE5fRkZ4a1ViNlRTS0c1NXJUQkM2NVJDOWozT2JkYmgyWExSeEhzTWJlQUtwVkZJWkVzTkIyQWc2RGdQWUFpc1g4MG1CYWxuV0piTXBxTVprNFd0ZmFyMFFZTmN0SzFyUTRtbTVxcjFOTWpwcnJaWkxhc3FnUWl0VnltX0Z3X2xpZ1FpNTNLaWdQZ3pQVXlOV2M?oc=5",
+  "date": "2026-11-23T12:46:59.000Z",
+  "summary": "",
+  "publisher": "MediaNews4U",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "8d00fa57ba17",
@@ -20160,6 +20508,30 @@
   "firstSeen": "2026-10-05T07:46:33.871Z"
  },
  {
+  "id": "9401086805a3",
+  "theme": "platforms",
+  "title": "Microsoft Ignite 2026 introduces AI agent transparency initiative | ETIH EdTech News",
+  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOVotcERMUE9XQXF5UDNYbHFYUWZaVjRObzhnSjBuVlJhUkN2NkVKaTBQYnBfNXllYVpfQnN0QUFFZWptT2VJc2ZudXNmZVdZTGhITnd1VUNhZ09EUUltekNrZWo2QlVaTGhydWw4UHR1dWFVUVZMNTczS2hFeV9PbGNLbnpyaVBUWWs5LUE0ODFXT0tjQWpua1RQQkpfcnF4TVoxQnFIZTFUV21XcEJyam9fdVhwN2w3SkZN?oc=5",
+  "date": "2026-11-20T00:46:14.000Z",
+  "summary": "",
+  "publisher": "EdTech Innovation Hub",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
+  "id": "940a0545fb45",
+  "theme": "listings",
+  "title": "China’s next AI deals clouded by sell-off after Anthropic IPO",
+  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcUhUSDlQU2E1c1dhM3RHYU9rSEg3cEszMFV4anBRX2ozZGNycWpqeWtXRll6c3hNM1QzYTdnSS1vdzFhaXpmMDN3RE56d1NQZlJydndXZjVoSk9JQl9YTFFEUWNtSm13Q1VGYkMxWTRwQTJvbmZoaW1UM2xnamRGUlYzQ3Y1empaTDBGNHFjNHczWFFma2I1U1BLZTdUcmkwTmx5SGNnNA?oc=5",
+  "date": "2026-11-23T08:51:00.000Z",
+  "summary": "",
+  "publisher": "The Business Times",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "940fd2af3d1e",
   "theme": "listings",
   "title": "Anthropic Makes Record-Breaking IPO as First AI Lab to Go Public",
@@ -20386,6 +20758,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-11-05T00:01:43.824Z"
+ },
+ {
+  "id": "954822d4ede4",
+  "theme": "platforms",
+  "title": "Defiance Launches ANTC and ANTQ: 2X Long and 2X Short Daily ETFs for Anthropic",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZFZJRG9JWVl6dGNRRGVTX2NJSVhPYnZxSG5JbU03UnlpUlRmNzV0eTJyY1JqOVcycnRWTFpLdFBBd1R0c1RxeU1TZGpEd2pldm51TU5hRER6ZjN2N3lDSUs3YndPLURnemtmeUxHeEhpcWRlZE1JZTQ2Y0hSd09uNG1lemc1U09ic0RmemEwWFo0YWZCYVlCMHVRSV8?oc=5",
+  "date": "2026-11-23T12:00:00.000Z",
+  "summary": "",
+  "publisher": "Yahoo Finance",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "955d7a3188de",
@@ -21084,6 +21468,18 @@
   "firstSeen": "2026-11-23T23:46:33Z"
  },
  {
+  "id": "9b71f834e874",
+  "theme": "platforms",
+  "title": "Anthropic Launches Claude Ship for Automated Code Review and Approval",
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWDRCVkNDNVRSeFU3WkVuSWNkSjNBOXA0YVB4bjMwcDJqYVhEbTVUR2k5Q1hTdjN0bEVjUm9zMFBRTnRsa3V1aDNJbndhekhtdWhOLVJUZUZnZV91bl9scXZSYko0UHhLeHlaeFdlQWhnb0dCVTVPTHc5aWNrbmlvbGNpNHZIcGl5T0VnU1YtNFd1aFJtS2lvdQ?oc=5",
+  "date": "2026-11-24T10:18:21.000Z",
+  "summary": "",
+  "publisher": "ForkLog",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "9b791d631e3e",
   "theme": "sponsors",
   "title": "Carlyle, KKR commit $475m to music rights platform; Goldman leads fintech round",
@@ -21684,6 +22080,18 @@
   "firstSeen": "2026-10-26T23:51:11.810Z"
  },
  {
+  "id": "a07a2db780e4",
+  "theme": "ma",
+  "title": "Amazon to acquire AI startup Decart's chip software, hire founders",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hSmFaemUzUldRaWhTb3diNE4wU2dQb29ab2FXLS16UzcwdFU1a2tjUVh5Y2t0WEJweGREQ1JIMVczYXhmZGRQT3pXa0FUU0xFZWEzVGpnT2Q4MUdhWEVFMWhmRkNyZXVNbkdqa2xpdW03QWFT0gF6QVVfeXFMTjg2VVVOYlVHWHJaNUhWUHZMNjFQQ2Q5MmptU1JiektEbXNWMUN4SzR6OWxRSjVUTFZuakcwSEtHUjU4MUluQi1QUXQtc2xvWnhSY0NXNm9SUXZraElHZ290VTlUMlloSXhBSVRGbEhBcmVRYXZreFdjc2c?oc=5",
+  "date": "2026-11-23T18:23:55.000Z",
+  "summary": "",
+  "publisher": "CNBC",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "a07f49b218c0",
   "theme": "platforms",
   "title": "Microsoft says ConnectWise breach let Chinese spies loose on 2,250 cloud tenants",
@@ -21730,6 +22138,18 @@
   "source": "coverage",
   "official": false,
   "firstSeen": "2026-10-18T22:51:39Z"
+ },
+ {
+  "id": "a0f953465900",
+  "theme": "platforms",
+  "title": "Attentive MCP Launches on Snowflake Marketplace",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZGZsUW45cDF6LVROS19MVFpiaVcwNXRVWVdXNjVpWWVmS2V5RFZNa1pRWG5MV1ZOZDBJbm9RVm0zUWg3WGxIRTd6ZEVKMmRnSUl0UU5TZXE3VllYMldJRFF3RmdSVFdxM1BaUjRJdkd2NGszN0tqalJleWl1dFJ0SmpkaVdjcWZNUkVPd3pjc0FfeUo4ajJRSm1LdzRzc2VHNlFWYkFaTk1Fd1kx?oc=5",
+  "date": "2026-11-23T14:00:00.000Z",
+  "summary": "",
+  "publisher": "Yahoo Finance",
+  "source": "incumbents",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "a102868c486f",
@@ -22908,6 +23328,18 @@
   "firstSeen": "2026-11-14T23:46:49Z"
  },
  {
+  "id": "a8f62c23dcc8",
+  "theme": "platforms",
+  "title": "Anthropic Launches Claude Ship To Speed Up Software Development",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZmx3bmZqV0VZaVhJMXBuY3BGMUxFNjBnUUR6NW9QcmI0Tk0xWUtadllCdDVMUXNMYXlwQWhmclVEZlozc1E3NlNGMUlNLTAtMGRVR21HNmZhek02cm16bzQweUtQamt3RWFYZlNpMlZBZkJva0YtNVlIS3pxeUVuX21xcFUyMmQ3NzEzallsTVFVRUpBWmVBUGJWMFJXczF4Y2Z5ZjB6QUFqLVhS?oc=5",
+  "date": "2026-11-24T01:28:41.000Z",
+  "summary": "",
+  "publisher": "BusinessToday Malaysia",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "a8fcaed226f6",
   "theme": "platforms",
   "title": "SAP to acquire TechWolf to augment its SuccessFactors HCM platform",
@@ -22954,6 +23386,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-10-27T23:51:51.619Z"
+ },
+ {
+  "id": "a94df6347578",
+  "theme": "platforms",
+  "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMjByMkk5NUVrVi13T1pkcE05SXlXS0JSd3JMeVRNZnZBalFYTFhISEYtbWxJMEQ0V2Nsa3JDVktMSzhRWXVpdXFzUFNkTExkZzRoUk5KR0daY2VEaGZCOVlfZVdDTXVKbUVBZXVsdlBlZGcwYnFQUk5EV0hxU0xIQmhZVVowbHZ1bWNVN3RsV01LOEx1a2s1cVJKdmdDSnBLSTd2NzRCNWJQa0s5Yzkzbzh3?oc=5",
+  "date": "2026-11-24T11:26:23.000Z",
+  "summary": "",
+  "publisher": "The Decoder",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "a94ed8fb0fa9",
@@ -23182,6 +23626,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-07T00:18:46.308Z"
+ },
+ {
+  "id": "ab99e761e63c",
+  "theme": "platforms",
+  "title": "Anthropic Launches Claude Ship, Handing Code Review, Fixes and Approvals to AI Agents",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoZUtiX2tjTjVMSGhkTGVvanpYQnJNcFQ0cGhWZEswSjdMNTAxS2FPM3BVUDR1dmlhTmo4Q3RPejl1bnQ2dEpxbndQdW5iaUl0cEg4?oc=5",
+  "date": "2026-11-24T19:54:36.000Z",
+  "summary": "",
+  "publisher": "Wowtale",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "aba2e5ecd84d",
@@ -24348,6 +24804,18 @@
   "firstSeen": "2026-11-22T23:46:37Z"
  },
  {
+  "id": "b5344513284a",
+  "theme": "targets",
+  "title": "Payhawk Raises $280M Series C at $2B Valuation to Build an AI Finance OS",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbGlzZHlsUzdKV09ZcTRiQzhRNzh0U1lteXh3cjkzQ2pJd2lGa0xpZlJLMThoY2pmRDFPbE5CTkhzU2pONXM0cm12d0UtMHFxSFRTWnl4UDhPVU9oSlFTQzFxU3JNR0psb3hTU1NyZjFaRHFralN1ek94S1dyaEh3T3R0Z2ZjbnhXUU9TOHQwM2ZLNms4SmpN?oc=5",
+  "date": "2026-11-18T15:48:02.000Z",
+  "summary": "",
+  "publisher": "Unite.AI",
+  "source": "rounds",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "b542d644a72b",
   "theme": "listings",
   "title": "Asian Markets Today: Nikkei, Kospi Crash 4%. Why Couldn't Anthropic's 34% IPO Pop Revive The AI Trade?",
@@ -25332,6 +25800,30 @@
   "firstSeen": "2026-11-08T23:54:52.325Z"
  },
  {
+  "id": "bedafb7c5614",
+  "theme": "platforms",
+  "title": "US blacklists Nvidia-linked Megaspeed and Alibaba's Singapore subsidiary over China chip probe",
+  "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTlJKWk9xRkdoOXUya2dKN1Q4ZHZSWjA0VFd2aVVPUTdZVjczdWJTeEhmY0JBSGMxdi1HYnAxMXI2bUZCMVZEU1VEZVZhTXZ5Tkt3VVhtaFlOS2YyaEhYRjc1Q29DemFPakR3dVhsVzFlY1FsOFVybm5wVWx0YXcxMExkaVNOUGUyeFNuVEc0aGhNcU5ZbTFrWl9TUXE2SXNxMU1IQTZkT01MWXJFNGhYTElRQ01xZ08yRDZZSlNnMGdWTExFMExoMUFrdkxROTJ6Z2RZM2czaEljM1hCQ0E?oc=5",
+  "date": "2026-11-24T19:34:11.000Z",
+  "summary": "",
+  "publisher": "The American Bazaar",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
+  "id": "bee9b3743e55",
+  "theme": "sponsors",
+  "title": "SoftBank Group (TSE:9984) Lands Malaysia AI Deal, But Is The Valuation Opportunity Real",
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObk4ySXNxVXg4Z0NVSUdQaFdaZ01NOHdOVUV3SVBoSEtxa25iVHpnUkdxNGtKRUIxWi03UWhwMFR2aFZieGlQU1UxdGFxaDRmNFlhb2ZzbE5iZzR5aVNidW1rVnUzLXMxbDJYRTNueHF3YzVMUXpBTXhWbE0yNFVySVE0TkpCdTJwdGpNQ0NNNThEN1NLTFEtcg?oc=5",
+  "date": "2026-11-11T08:00:00.000Z",
+  "summary": "",
+  "publisher": "Yahoo Finance",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "bf2d55e8b061",
   "theme": "ma",
   "title": "Adastra Announces Acquisition of Infinite Services, a Leading Poland-Based Data and AI Partner",
@@ -26064,6 +26556,18 @@
   "firstSeen": "2026-10-26T23:51:11.810Z"
  },
  {
+  "id": "c3dbde3c5c36",
+  "theme": "platforms",
+  "title": "Australia accepted an apology, California sued OpenAI over its rogue agents.",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVWNLSE5lY3FWb0pPUFJKSTNVcG9YSnJobk45Y09rUFAwakpQRzlpTS02OXhSNjJQc1hiNmFLdXZad0RuLTZXcTVmUjZ1UGNQamRpU0xmc1VrWjA2TTdlRWhaQzY0MmViZEhZX2p6ZUo1VTNnTUhOZWJVVF9MWVpKUnJUZk1jVUlUV3VWTndyNzhOdUlEUUZlM3lMOUUzT0VQTWxDNXdrWHFBNHdJOWl1SjBBbnRJZGtJWGZBUURfX0xHQQ?oc=5",
+  "date": "2026-11-24T18:00:00.000Z",
+  "summary": "",
+  "publisher": "Politico",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "c3e2d9279f15",
   "theme": "listings",
   "title": "Anthropic IPO: Some Investors Reportedly Weigh Lower $1.5 Trillion Valuation As AI Lab’s Revenue Growth Slows",
@@ -26182,6 +26686,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-10-22T23:49:28.706Z"
+ },
+ {
+  "id": "c51382a6c009",
+  "theme": "platforms",
+  "title": "Atos Launches its Sovereign Agentic Studio in China to Accelerate Enterprise AI from Pilot to Scale",
+  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNl9DWVRpOXFBaTNjMkhwZy1XZjZFdDVSUDU0UXJvVGsxZ240Y1Zrc3dQNmluZzFINkV5VDBQZm9MQnF3Y1ZkUHIyeGh6ODlPREJVWU14Nnl3OXdhOFhPY1ZuTXZYb3I1dVlXcFBDMjZJRldvWDVWQnI2QWhtSlhBOGVjVVY1bzdMaTVDMGI4elg?oc=5",
+  "date": "2026-11-24T07:00:00.000Z",
+  "summary": "",
+  "publisher": "Yahoo Finance UK",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "c518ddc53e6a",
@@ -28284,6 +28800,18 @@
   "firstSeen": "2026-10-23T23:47:54.054Z"
  },
  {
+  "id": "d38176512314",
+  "theme": "ma",
+  "title": "Amazon acquires key assets of AI startup Decart for reported $7.5B",
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaXR5TS11S0V5ZmZCOERDYlI1OG9vWG9UX3ZQZHoyYndOX0VrdExNYmNVbjBFNzBqdGMwY0ZDM0RjdWhxVWJFU0o0eG04N2oyZzNMVGdTbVRVMV9SUFNld3FaSnlOcl9ZSGQ4OGhLNXdYdzJwNFI2Mkh6M3BfLVIwN0hzVkF3Q3diQmxzN3BNUkVxREZsZHBJRmRfalVMTXc5dE55LQ?oc=5",
+  "date": "2026-11-24T01:40:00.000Z",
+  "summary": "",
+  "publisher": "SiliconANGLE",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "d383b34b3ea9",
   "theme": "targets",
   "title": "Archa raises AUD 61 mln (USD 42.7 mln) for credit cards",
@@ -28330,6 +28858,18 @@
   "source": "ipos",
   "official": false,
   "firstSeen": "2026-11-18T23:46:43Z"
+ },
+ {
+  "id": "d3950a64b89c",
+  "theme": "platforms",
+  "title": "Claude AI can review pull requests and ship fixes on its own now",
+  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUW42Q3gySjYzdURoTHRGX0FaQ28yT1NUa0lETl9yVnNfT3h5OTdSOGpabm1wZVFaT1FJdUtKS1B4N1c4UFNzUXNlZHJGeU9oZmZBU2k0R2tScGhFNkNiTW82T0lhTnRRX3dwb0stQnZzaGNyeC1Mb012WlhZdWtwaEJIdTFDUUtUMC04eldWaDVJM1Z0MlFWeE9EaTZ2UTA?oc=5",
+  "date": "2026-11-23T20:00:00.000Z",
+  "summary": "",
+  "publisher": "The Verge",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "d3a6d835412c",
@@ -28738,6 +29278,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-11-14T23:46:49Z"
+ },
+ {
+  "id": "d7435b2790a0",
+  "theme": "listings",
+  "title": "Earnings call transcript: Workday tops Q3 2026 estimates but shares fall",
+  "url": "https://investing.com/news/transcripts/earnings-call-transcript-workday-tops-q3-2026-estimates-but-shares-fall-93CH-5049275",
+  "date": "2026-11-24T00:00:00.000Z",
+  "summary": "HR and finance SaaS company Workday beat Q3 estimates with adjusted EPS of $2.82 on $2.71bn revenue and raised fiscal 2027 guidance, but shares fell about 7% after hours on a cautious near-term outlook and weaker free cash flow.",
+  "publisher": "Investing.com",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-24T22:51:26Z"
  },
  {
   "id": "d743c0d6b57c",
@@ -29964,6 +30516,18 @@
   "firstSeen": "2026-11-17T23:46:54Z"
  },
  {
+  "id": "e10550d64fc0",
+  "theme": "platforms",
+  "title": "Anthropic Launches \"I Feel Lucky\" for AI Coding",
+  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdG9zUVJUU3F1VE13RVd6VGc5STZIcUpZUUtuUVpIZV92X2NLMGE0ZzhhSUJZNXJSLTFscWt4TGxCYmdvZmtlb2wxWHE4TjFhRzlRUXV2ZUQ0S2tOR08zSEZOY0xHSEpmN1RxYkFKTnNCWnBHRUloZFQ3YmM5WXMyajJvYkN2UQ?oc=5",
+  "date": "2026-11-24T04:06:57.000Z",
+  "summary": "",
+  "publisher": "Brief IA",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "e12362c42f54",
   "theme": "listings",
   "title": "Tencent-backed AI cloud unicorn said to file for Hong Kong IPO",
@@ -30250,6 +30814,18 @@
   "source": "apac",
   "official": false,
   "firstSeen": "2026-10-05T07:46:33.871Z"
+ },
+ {
+  "id": "e294efed0989",
+  "theme": "ma",
+  "title": "EQT to acquire a leading Australian digital auction marketplace Pickles from the Apax Funds",
+  "url": "https://eqtgroup.com/news/eqt-to-acquire-a-leading-australian-digital-auction-marketplace-pickles-from-the-apax-funds-2026-11-19",
+  "date": "2026-11-19T00:00:00.000Z",
+  "summary": "EQT's BPEA Private Equity Fund IX agreed to buy Pickles Auctions, a Sydney-based digital auction marketplace for salvage, vehicles and equipment operating in Australia and Malaysia, from Apax-advised funds. Terms not disclosed.",
+  "publisher": "EQT",
+  "source": "official",
+  "official": true,
+  "firstSeen": "2026-11-24T22:51:26Z"
  },
  {
   "id": "e2af792bd1ce",
@@ -30826,6 +31402,18 @@
   "source": "rounds",
   "official": false,
   "firstSeen": "2026-10-29T23:48:27.049Z"
+ },
+ {
+  "id": "e7253ce4357a",
+  "theme": "platforms",
+  "title": "Anthropic Launches Beta for Claude’s Abuse Detection Without Data Retention",
+  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTTBDSThjdkt5YXpZZHZDRnRwdTZCcUt6SlpJbmVucENPR2l1SG1MSm50REhBdFIySmZKMnRrY2x4VHpqMGZ3enpweW5UY2dDMzRwMzdZcTR4dXRKSkxUNWJIdFg0QS1tdHJKc1B1ZE5yRkRqTGoweE14OWVvaDlYaFhEN3d6Z0JwYTliWHBGcUZEVjQ2blA4MzNmQ29pdDg?oc=5",
+  "date": "2026-11-24T13:32:57.000Z",
+  "summary": "",
+  "publisher": "ForkLog",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "e73b300eefc9",
@@ -32004,6 +32592,18 @@
   "firstSeen": "2026-11-20T23:46:44Z"
  },
  {
+  "id": "f09d6e5fc73c",
+  "theme": "listings",
+  "title": "Autodesk shares fall despite Q3 earnings beat, strong guidance",
+  "url": "https://investing.com/news/transcripts/autodesk-shares-fall-despite-q3-earnings-beat-strong-guidance-5049017",
+  "date": "2026-11-24T00:00:00.000Z",
+  "summary": "Design software maker Autodesk reported Q3 EPS of $3.20 vs $3.07 expected and revenue of $2.16bn vs $2.13bn, guided Q4 EPS to $3.21–3.26 above consensus, yet shares fell about 4% after hours.",
+  "publisher": "Investing.com",
+  "source": "coverage",
+  "official": false,
+  "firstSeen": "2026-11-24T22:51:26Z"
+ },
+ {
   "id": "f09fcfe0945e",
   "theme": "capital",
   "title": "Moonshot AI Approaches $50 Billion Valuation Ahead of Planned 2027 IPO",
@@ -32400,6 +33000,18 @@
   "firstSeen": "2026-10-22T23:49:28.706Z"
  },
  {
+  "id": "f2fe0ecaaeb8",
+  "theme": "targets",
+  "title": "Kaszek Ventures raises $650 million AI startup fund for Latin America",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOUFXUVpHZUtHNklVX0J5NEx3LTFnQUdjTXJXNnNzMjJrQzBGN3owUk1maXNWQnJRUnV1TURaWl9JaTBmQU5DSXp4OWMyb21QYXg4bXVyVjRTbUpaZHlieXBNOXRuMlFmRmF2bURwOTI2dGVmeW9qRFo4ZTJEQ2N4bEY1eF9DdURIaDVZZDNJUTF6aGVqbFdWaFlMY3YyZw?oc=5",
+  "date": "2026-11-24T14:35:48.000Z",
+  "summary": "",
+  "publisher": "Traders Union",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "f312cca89fcb",
   "theme": "platforms",
   "title": "Oracle launches AI-powered setup registry for Fusion Applications",
@@ -32676,6 +33288,18 @@
   "firstSeen": "2026-10-07T00:18:46.308Z"
  },
  {
+  "id": "f459330cc629",
+  "theme": "platforms",
+  "title": "Anthropic Launches Zero-Retention Enterprise Frontier Safeguards Beta",
+  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdGU1TTVERW90dUNDNVlSV3BPYlpvdWY4QkY3LThITDRvSVU2eUFaUjEwOC1semxjTHU5WVZsazNjd0poTE9XMXd4VEM1aDhOWngyWWVaUHJ5YWJNd3lVMlpPM09TT05KYlpsczlsbjlMbnM4ckRDZk1iUTZ6VkNqdXJKd2U4aXZ2Q2lTU01JcG9ia3l1QVE?oc=5",
+  "date": "2026-11-23T18:20:04.000Z",
+  "summary": "",
+  "publisher": "Unite.AI",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
+ },
+ {
   "id": "f462e900e7b1",
   "theme": "sponsors",
   "title": "SoftBank Leads Asia Bond Losses as AI Rout Spreads to Credit",
@@ -32950,6 +33574,18 @@
   "source": "labs",
   "official": false,
   "firstSeen": "2026-11-19T23:46:57Z"
+ },
+ {
+  "id": "f627aeff37f7",
+  "theme": "platforms",
+  "title": "Anthropic, OpenAI safety concerns threaten frontier model releases",
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbFZGUXFtZHZhZGRhc2I5YVNOdGp5TjV0R2xGSDV5TFBpcWp5c1FrNmRqMW56eklqWDdKUVdLblNBR1gzWmhuaDdSQzd6UHFKb2xwaTJycjNIbUtoQnQzdjFBeXFSMkNuSmtUMlN6REM2S3hYM0hBRGRNMUpYMlJBSnFHNUhWYjVjODBKYURDVFluOTdOajRXcjJVMXhYaUFoYVZpVg?oc=5",
+  "date": "2026-11-24T10:57:26.000Z",
+  "summary": "",
+  "publisher": "Traders Union",
+  "source": "labs",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "f63fea24158e",
@@ -33334,6 +33970,18 @@
   "source": "rounds",
   "official": false,
   "firstSeen": "2026-10-14T23:46:58.861Z"
+ },
+ {
+  "id": "f9ce5c4866b2",
+  "theme": "sponsors",
+  "title": "SoftBank acquires Marc Raibert’s Robotics and AI Institute",
+  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdFVpMkxPaEw4NVUzdTZmNHM3amdYLVRJc0tfcWdlSWpUR1hrczBVNTVXMC1PVWY1X2tQeWRHNldFOWxKN3NmajU1QTduMG1NOG45OVlncm44VnVuOWZhUlNZd08xclRoTFdkN1huSWtjN1lfb241Q0JXOXk2b2VKYkc2SFNxdHc4Si1rX3RrRU1mdnM?oc=5",
+  "date": "2026-11-24T14:56:00.000Z",
+  "summary": "",
+  "publisher": "The Robot Report",
+  "source": "apac",
+  "official": false,
+  "firstSeen": "2026-11-24T23:46:47Z"
  },
  {
   "id": "f9e9987f7852",
