@@ -6500,6 +6500,12 @@
   "summary": "PLDT-founded Philippine fintech (Maya Bank, PayMaya wallet) that turned profitable in Dec 2024; KKR first invested Oct 2018 alongside Tencent and holds c.20-30%; KKR hired Goldman in Jan 2025 to sell its stake and PLDT is negotiating with KKR over a Philippines/US IPO targeted for H2 2026, with a trade sale as the alternative.",
   "signals": [
    {
+    "date": "2026-10-29",
+    "publisher": "Philstar",
+    "title": "Maya's potential listing 2027",
+    "url": "https://www.philstar.com/business/2026/10/29/2566524/mayas-potential-listing-2027"
+   },
+   {
     "date": "2026-06-10",
     "publisher": "BusinessMirror",
     "title": "PLDT in talks with KKR to resolve Maya IPO issues",
@@ -6519,7 +6525,7 @@
    }
   ],
   "exit": {
-   "note": "BusinessMirror, 10 Jun 2026: PLDT and KKR still negotiating Maya IPO (Philippines + US, H2 2026 target) or a KKR trade sale; Goldman mandated Jan 2025.",
+   "note": "Philstar, 29 Oct 2026: Maya IPO now seen as a 2027 event (PH and possibly US listing); an IPO would let KKR (investor since 2018) exit. Earlier: BusinessMirror, 10 Jun 2026, PLDT-KKR talks on IPO issues.",
    "status": "process"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
