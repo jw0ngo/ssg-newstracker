@@ -1,64 +1,64 @@
-SSG Newstracker · Morning Brief · AI & Tech · Wed 25 Nov, 07:46 SGT
-42 new stories since the last publish, 1 hot.
+SSG Newstracker · Morning Brief · AI & Tech · Thu 26 Nov, 07:47 SGT
+25 new stories since the last publish.
 
-1. [HOT 65] UP Fintech Holding Limited Reports Unaudited Third Quarter 2026 Financial Results
-   IPOs · UP Fintech (GlobeNewswire) · 24 Nov
-   Why: Unaudited reported numbers in Southeast Asia: the public comp for the sector moved.
-   Call: Update the comps set before the next pitch.
-   https://globenewswire.com/news-release/2026/11/24/3409027/0/en/up-fintech-holding-limited-reports-unaudited-third-quarter-2026-financial-results.html
-
-2. [WARM 57] SoftBank acquires Marc Raibert’s Robotics and AI Institute
-   Sponsors · The Robot Report · 24 Nov
-   Why: An acquisition involving SoftBank in Asia in AI: a fresh comp for the targets SSG watches.
+1. [WARM 56] Billion-dollar deal: Amazon acquires Israeli AI startup Decart for $7.5 billion
+   M&A · Israel Today · 24 Nov
+   Why: An acquisition involving Israeli AI ($7.5 billion) in AI: a fresh comp for the targets SSG watches.
    Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
-   https://news.google.com/rss/articles/CBMikwFBVV95cUxPdFVpMkxPaEw4NVUzdTZmNHM3amdYLVRJc0tfcWdlSWpUR1hrczBVNTVXMC1PVWY1X2tQeWRHNldFOWxKN3NmajU1QTduMG1NOG45OVlncm44VnVuOWZhUlNZd08xclRoTFdkN1huSWtjN1lfb241Q0JXOXk2b2VKYkc2SFNxdHc4Si1rX3RrRU1mdnM?oc=5
+   https://news.google.com/rss/articles/CBMiswFBVV95cUxOSWVVLUxFLXo2bVQ1ZFk2LTRSQmZqNlByenl6eGVMQm9SSlY3Qmpoc09jVGJxQUZRN1M0eEpJNmpvLVlSS0pfVkYydWZsYnYwMGw2OUJrQlFXWFZHYUFMdFRZTjlOQTFubEh2WThvQktnenNSV2puNzNXQXhpdW9TVC00RkFlWFZqcU5RamJXeFYwZkM2bWw1UHRtVW9GaW1KMlpCUEducWc2Rk9pTzFraGRpWQ?oc=5
 
-3. [WARM 56] Amazon acquires key assets of AI startup Decart for reported $7.5B
-   M&A · SiliconANGLE · 24 Nov · 2 outlets
-   Why: An acquisition involving Decart ($7.5B) in AI: a fresh comp for the targets SSG watches.
-   Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
-   https://news.google.com/rss/articles/CBMipAFBVV95cUxOaXR5TS11S0V5ZmZCOERDYlI1OG9vWG9UX3ZQZHoyYndOX0VrdExNYmNVbjBFNzBqdGMwY0ZDM0RjdWhxVWJFU0o0eG04N2oyZzNMVGdTbVRVMV9SUFNld3FaSnlOcl9ZSGQ4OGhLNXdYdzJwNFI2Mkh6M3BfLVIwN0hzVkF3Q3diQmxzN3BNUkVxREZsZHBJRmRfalVMTXc5dE55LQ?oc=5
-
-4. [WARM 53] China’s next AI deals clouded by sell-off after Anthropic IPO
-   IPOs · The Business Times · 23 Nov · 2 outlets
-   Why: Anthropic has filed to list in North Asia in AI.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMipwFBVV95cUxOcUhUSDlQU2E1c1dhM3RHYU9rSEg3cEszMFV4anBRX2ozZGNycWpqeWtXRll6c3hNM1QzYTdnSS1vdzFhaXpmMDN3RE56d1NQZlJydndXZjVoSk9JQl9YTFFEUWNtSm13Q1VGYkMxWTRwQTJvbmZoaW1UM2xnamRGUlYzQ3Y1empaTDBGNHFjNHczWFFma2I1U1BLZTdUcmkwTmx5SGNnNA?oc=5
-
-5. [WARM 49] Atos Launches its Sovereign Agentic Studio in China to Accelerate Enterprise AI from Pilot to Scale
-   Platforms · Yahoo Finance UK · 24 Nov
-   Why: Regulation touching Atos in North Asia in AI.
-   Call: Check which targets in the pipeline it reaches.
-   https://news.google.com/rss/articles/CBMikAFBVV95cUxQNl9DWVRpOXFBaTNjMkhwZy1XZjZFdDVSUDU0UXJvVGsxZ240Y1Zrc3dQNmluZzFINkV5VDBQZm9MQnF3Y1ZkUHIyeGh6ODlPREJVWU14Nnl3OXdhOFhPY1ZuTXZYb3I1dVlXcFBDMjZJRldvWDVWQnI2QWhtSlhBOGVjVVY1bzdMaTVDMGI4elg?oc=5
-
-6. [WARM 48] Salesforce Contact Center Launches in Australia and New Zealand
-   Platforms · CX Today · 24 Nov
-   Why: Salesforce Contact shipped a platform move in AI: it changes what a target in that stack is worth.
-   Call: Fold it into the tech view on every AI target in the pipeline.
-   https://news.google.com/rss/articles/CBMilwFBVV95cUxNbkZWZzhaVEZRckx0X29JeVJ2Q0NOX2VaZW5pYTJ1U01UcWFiUmlmcUJjRkxlWDJicmJBV0xmSS1INldIQUgwWFhnVzhPOTVwc1RneVc0MUdERl9LRzdWampnMVRDak05NnptdlJ4X1lkNGdWRUNWS0hlUHlQTnBDdG5iRmw1YTgwd1Jsb09oQVZIa1c3LXhJ?oc=5
-
-7. [WARM 48] EQT to acquire a leading Australian digital auction marketplace Pickles from the Apax Funds
-   M&A · EQT · 19 Nov
-   Why: An acquisition involving EQT in Southeast Asia in a marketplace: a fresh comp for the targets SSG watches.
-   Call: Record the multiple and the buyer’s rationale; use it in the next a marketplace pitch.
-   https://eqtgroup.com/news/eqt-to-acquire-a-leading-australian-digital-auction-marketplace-pickles-from-the-apax-funds-2026-11-19
-
-8. [WARM 47] Anthropic's IPO Raised $81 Billion. Here’s Which Artificial Intelligence (AI) Stocks Will Benefit From Where the Money Goes.
-   IPOs · The Motley Fool · 25 Nov
-   Why: Which Artificial Intelligence has filed to list ($81 Billion) in AI.
-   Call: Check the sponsor-backed names in the same sector; a listing window reopens exits.
-   https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYXNrd19NSzVMdGFnQzZ6OFV1M3Jjd2dZdlNlM29WQmtSU0E1OWZsTFRHTXJFNjQ4X2c3blBzNk04UWtjTVdYVEZ3OU9aVEhIMmRZbVdJc0dvQWZOSGpnWWlLYUlfRTBPS3RpZEVKWGtHWkl0TjdIU0s1TUJPTWFWY0RIWnNXSkF2NHhrRlctYUlIZjAyamw1QWJzNFJxeDZVOEVVT0t0UU1KY29xNXpKTGQyT1BLaUNaaW1ubnE5TWNoRHdFR0FiQTlGS042ZER4Wk9DbGJCdG0zdmRITmtnbnVpc093bnJVVFJOWFlYcmhrUkJoRlhteA?oc=5
-
-9. [WARM 45] Ionic Wealth raises Rs177 crore to scale wealth platform
-   Targets · FinTech Global · 24 Nov
-   Why: Ionic raised a round in India or ANZ (Rs177 crore): a future target, priced today.
+2. [WARM 54] Matters.AI Raises ₹115 Crore ($12 Million) To Expand Data Security For AI Agents And Employees
+   Targets · Pulse 2.0 · 26 Nov
+   Why: Matters.AI raised a round in India or ANZ (₹115 Crore) in AI: a future target, priced today.
    Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMilgFBVV95cUxNXzRQUVpvTFplQUpyWnMyZzd6NFFBY2U2OUdLYkl5SjdQbXZIQ0ZaczNYTHhzMEhOSU52RDZQVk9oc3hZLWFOd3Z5UmhZM2xrNmJNaWwtN2xCQXFsM0RudHNrcFBFTnZLOGxVZW43NHlydzYzNktFcHE0a19NMzJvSWhLNVNkYnBiMjRXNUtVN1V0Z3RBVWc?oc=5
+   https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS3AxRV9nQy1yOUktMVBCQnpNR0xXM3o5MldFZHZZY3hLcWxybUw4MHJodmdVTzQ4SE9US19UX1RET2tnSWl1YzMxT08zWG82b0xVRGNNM0hNZWZOUFlNdnNENzZWZHJFZE1PWkN3N21MV2RuUmtwRThRcVBrdTFDRlk4Tkx4U21RRDRkZGhBaG5WRlUwMFBRZHpST09raEVCbVhDS3pfQ3hnUERfWDVETHJGdFJwbXVCWkpZ?oc=5
 
-10. [WARM 44] US blacklists Nvidia-linked Megaspeed and Alibaba's Singapore subsidiary over China chip probe
-   Platforms · The American Bazaar · 25 Nov
-   Why: Regulation touching Nvidia-linked Megaspeed in Southeast Asia.
-   Call: Check which targets in the pipeline it reaches.
-   https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTlJKWk9xRkdoOXUya2dKN1Q4ZHZSWjA0VFd2aVVPUTdZVjczdWJTeEhmY0JBSGMxdi1HYnAxMXI2bUZCMVZEU1VEZVZhTXZ5Tkt3VVhtaFlOS2YyaEhYRjc1Q29DemFPakR3dVhsVzFlY1FsOFVybm5wVWx0YXcxMExkaVNOUGUyeFNuVEc0aGhNcU5ZbTFrWl9TUXE2SXNxMU1IQTZkT01MWXJFNGhYTElRQ01xZ08yRDZZSlNnMGdWTExFMExoMUFrdkxROTJ6Z2RZM2czaEljM1hCQ0E?oc=5
+3. [WARM 53] Workday buys C1.ai for $850M as AI pivot collides with layoffs
+   Platforms · Dealroom · 26 Nov · 3 outlets
+   Why: An acquisition involving C1.ai ($850M) in AI: a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next AI pitch.
+   https://news.google.com/rss/articles/CBMimwFBVV95cUxON1E1WmxOMS1BQ1A5SUw5bmxPY3JwQU5fckZzZm5IcTh1SUZiVll5VzVNTjJqOUNLSEtJYktTRnBxR0Z1NFlTTk82YURfOFEwSHV0OTVOeklHVVNiWUNfdWdNdWNhX0NXVlVaa051aldsbmN0M1ZLQklMVEhxcFRaQUJjTEhjS1BSQTZwcjV6czEyVFVoMGZ0MWd0dw?oc=5
+
+4. [WARM 51] SoftBank's AI Funding Tab Comes Under Scrutiny as Shares Slide and Default Insurance Costs Jump
+   Sponsors · ad-hoc-news.de · 26 Nov
+   Why: SoftBank raised a round in Asia in AI: a future target, priced today.
+   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
+   https://news.google.com/rss/articles/CBMi-wFBVV95cUxOd0VDbGVkWHdNdmNtYVpNQ01rcUNzekpmb3FvVE5XV0h1TXhYRHQ4dTdHUksxU3k4MmRNU1J6TjJSTHVYVUFycklIRXFTVzdwNDlWU190d2tURC1zQjNhbG8zblJLaHNWa1ZXeGpfMVNBZmVIOGhUUDItSzViaExkZTJtWW1sX3owelBUbld5QUw1YUFuOFl2NGplS3J1YTNUY1VWMDhUT3ZhOHhNZWpTTGRDNHB5bHFyX3RFa0wtWlE2VjhrN0FvTHNhV19VWWFaWEMxaGVHSHJteUk2Z0VMMTBFQUdnS0dtV1RRSWZCMGtzU3BHWEpad19mcw?oc=5
+
+5. [WARM 49] Arm stock falls 8% as SoftBank selloff and AI concerns weigh on shares
+   Sponsors · Invezz · 26 Nov · 3 outlets
+   Why: A market move around SoftBank in Asia.
+   Call: Note it for the comps discussion.
+   https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZzNsenpDSzN6aEk0dmZsMFp2M2dtblJpTEZzeWdyd2lmaEYzSTZYLTl5UURFendRTzQ5LXR0UkUyWDNuVFE4VXFYRGtkMnZXN09FVmwxc01KeGgzN05lNm96RkE3bnpVSS1zWXhGWThJc25RZmUxM3JESjc1d2JnOEpXOVAzVXV0QVVTSHRUMWJDdjVWOEtkaURWUldaQVN0NHczSlp3dG4?oc=5
+
+6. [WARM 44] Cloud9 Acquires Canadian Fintech Monix Pay to Expand Cross-Border Payments
+   M&A · TechAfrica News · 25 Nov
+   Why: An acquisition involving Cloud9 in fintech: a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next fintech pitch.
+   https://news.google.com/rss/articles/CBMimAFBVV95cUxOeTI0Rl9oZWktVmg3bC1lSVdBTE9LYklMVkRoT0llcXdMMWM0NXYydnBjdmxuT0F4cUlKUzdpNzRKSk1BOHhCclRQUkUtc0Y1RWlHZFZsV1JiVnZHR0p3NnYwTXlQUGwtT2RlTDM3WThPMkpDcWFfQXJkZ3Zva3lpeUpKcnp6aC11cUQ4ZU9JRmhnZFFuUlktSQ?oc=5
+
+7. [WARM 44] Bill agrees to $6bn acquisition by TPG and Corpay
+   Sponsors · FinTech Futures · 23 Nov
+   Why: An acquisition involving Bill ($6bn): a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next pitch.
+   https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUmJaMFRmLU5uNmY5UXctdllpUjJRZUw4c1pCN0QwMEYyZXdhVEZCN05OMkZSS0VIbHcwYmdUc3JmbmFjbm9GejJtejV4RktzbFNhYVgyazdHTi1ULU82cW12MXlOT1RVdXMwdWwtZ2RmWGlmZzI5VVdZYjV2b01hU2ZuU3FwUkQ1dHV3?oc=5
+
+8. [WARM 42] Endeavor seeks UBS valuation documents in $13bn Silver Lake buyout dispute
+   Sponsors · Private Equity Wire · 25 Nov
+   Why: An acquisition involving Endeavor ($13bn): a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next pitch.
+   https://news.google.com/rss/articles/CBMirAFBVV95cUxQNmRJT24zMnFRZm5tYkhRdHZWM1I4RXQ0ZXdlR2JyWEx6cW4wNmdCS2txMHo0Y2lXdTN4UnR1Wm40d0pJbFlYNVBYR0dzXzJLZnQwSTcwa2pPMUYtdDM0QXNyQmIzUE5nUWZYamFtN0VLRGVFQ2phWVFnMTZHZ1k5ZWNPTGtiS3Y3N1k2dHFlVktiMVdjMnRlZk1VOFhTdTA2R18zWEJndC02ZFh6?oc=5
+
+9. [WARM 41] Walmart-backed PhonePe restarts IPO process, eyes up to $15 billion valuation in market debut, source says
+   IPOs · Reuters · 26 Nov
+   Why: Walmart PhonePe has listed ($15 billion): a public comp from today.
+   Call: Update the comps set; tell the sponsors holding similar assets.
+   https://news.google.com/rss/articles/CBMixgFBVV95cUxNbkVTQU5UZjA4Wnc3STdBc0xPZnhhdzE5VWxlbUJHTG5XWjFlRHRiZWFUcHdHeThRQTJZVkZqOXFMRWNJR0lQVnlLQkEtSllnQ1ZXVVl4ZmJhTkNxaGwwcGh6bHZIZjZDRmttX09iOU5nS3BKMDB6aWhybHNyc1BiVlRNQ1loSXBUSFB0Z1UwbXJtTW9WRW9wMVBJOU5PU3N0Ul9mT2dibTk4NXZnbVV5Ny1UZFZwdG5vc1BiZXVRemFXT0NFbmc?oc=5
+
+10. [39] Apis acquires stake in African logistics fintech Korridor
+   M&A · Africa Business Communities · 25 Nov
+   Why: An acquisition involving Apis in fintech: a fresh comp for the targets SSG watches.
+   Call: Record the multiple and the buyer’s rationale; use it in the next fintech pitch.
+   https://news.google.com/rss/articles/CBMipwFBVV95cUxQRTcwQ0VSWWRlRFp2cEZzRWRDcTh2eFRZSDVUdjlNa1FoUmdJM0hNeVVBSUdCTmZqZkJqZktNVk5CallCdE1xRU9ld3lJemFJY2lxeXR0QkF1SmhtMUJRaHR1LUtfSFNOeXMyYUxkd25KNVJYYkt1bko5TzZCa0dTRmdBM0hYUVVwazA4b0FDdU81M1VGcmJPUncxcmRtbnRNTy01eklydw?oc=5
 
 Full page: https://jw0ngo.github.io/ssg-newstracker/brief/
