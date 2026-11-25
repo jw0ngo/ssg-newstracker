@@ -18839,6 +18839,12 @@
   "summary": "Korea's dominant taxi-hailing and mobility app (Kakao T), spun out of Kakao; a TPG Capital Asia-led consortium (with Carlyle) invested in 2017 and 2021 and holds c.29% as second-largest shareholder; after 2025 stake-sale talks with Mubadala/Goldman/VIG and Tencent did not close, the company resolved in August 2026 to pursue a US ADR listing that is widely described as TPG's exit route.",
   "signals": [
    {
+    "date": "2026-11-25",
+    "publisher": "EDAILY",
+    "title": "[Market In] TPG Directors' Terms Nearing Expiration… Will Kakao Mobility's Board Be Restructured?",
+    "url": "https://en.edaily.co.kr/news/eda202611255501/"
+   },
+   {
     "date": "2026-10-30",
     "publisher": "EDAILY",
     "title": "[Market In] “Kakao Is Obstructing ADR Listing”… TPG, Kamo’s Second-Largest Shareholder, Considers International Lawsuit",
@@ -18858,7 +18864,7 @@
    }
   ],
   "exit": {
-   "note": "EDAILY, 30 Oct 2026: TPG weighing international lawsuit over Kakao board's opposition to US ADR listing; exit stalled, law firms retained (Nov).",
+   "note": "EDAILY, 25 Nov 2026: stake sale and US ADR listing both stalled this year; TPG filed ICC arbitration against Kakao (23 Nov); TPG directors' terms nearing expiry.",
    "status": "process"
   },
   "firstSeen": "2026-10-09T07:11:58Z"

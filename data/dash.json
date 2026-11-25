@@ -1,5 +1,5 @@
 {
- "at": "2026-11-24T23:37:10Z",
+ "at": "2026-11-25T23:36:33Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,8 +82,8 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 15543,
- "candidates": 297,
+ "archived": 15668,
+ "candidates": 300,
  "fromSignals": 31,
  "boltons": [
   {
@@ -468,6 +468,18 @@
    "title": "Novotech Health Holdings Pte. Ltd. agreed to acquire Agilex Biolabs Pty. Ltd. from Healius Limited for approximately AUD 160 million.",
    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPS1ZqaXEyWGxfbmRTM1hXcUl4VkxuLU1adXdRVU02bTNGeEt4bXlxQWYtNWZfaF9uLTdBQ1FwVlpvdnhZQ3RmYU4wVkp5MkgwQmpYUTdrZkVtTWU3VjUxTmdYZU9KWUtOYll1U0IwVzlHeTBuSG5rcjZTVmFWeU1KN2FnMjdpeTFBenBvWmlKX1FNSFdGczk0cm50elNQNlBrX0M3MkNTS2pYVkpzcmMyT0VDdkpSbkNnd2FUaEVFUTl6WkZtaF9KUHVXSG5waHEtWWswc3lVNnEzM1AzUGdWR0hYcw?oc=5",
    "publisher": "marketscreener.com",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-09-21",
+   "month": "2026-09",
+   "firm": "tpg",
+   "portco": "delinea",
+   "buyer": "Delinea",
+   "title": "Delinea acquires StrongDM (March 2026)",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNXU3NlRGUnd6UWY3eVM3VVZ2Q0tPOXdGU3owSXdlSHFkTEQ2TXVrMEgyNXd4M2c1SzVDeXE4OFBvVjlTUnZjTzdjM3JUMHBLS1ctNjVXM2xYUDR1ZnYyR3RRemxPOW1TeUZ3TnVUd0t0WVZwMV81U3c1TmdtcW43dnJRSGZJdU1Hd3JsLUZ4MWUyUQ?oc=5",
+   "publisher": "Dealroom",
    "stage": "signed"
   },
   {
@@ -918,6 +930,18 @@
    "title": "GeBBS Healthcare Solutions Announces Acquisition of RND OptimizAR",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQjJHcktHT3l1dWNvblFwTHhUQ1E4RFExcjN1Nm9tZUN6LTVKMzBwa2QtZ3hoaHNweXQzQTB3NTBrbmNDM1N6TmczMVZGUkJVYUJNWGh4Vkktci12M0hZZ0pMUDBTaVo5NGZrSk15ZlZsdk1MczN2c0dvZFVWM0ZEeDhhUVhLY2gzZzhCSy1OOUJ3REVXWmF4SFEwY0ZlcHVQSjZaT3hkajRZemsxQzd3WTZB?oc=5",
    "publisher": "Lelezard",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-03-22",
+   "month": "2026-03",
+   "firm": "warburg-pincus",
+   "portco": "capillary-technologies",
+   "buyer": "Capillary Technologies",
+   "title": "Wieland Expands Product Portfolio to Include Capillary Tubes with Acquisition of Small Tube Products",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZXQ3UWZGalR4MU5heF9zNGxQZThxdlVjS0FkdjEyNU5lME1tSDlmNkRtbXdNWlpHTG5GeXFqUldjQ1dFVXduLWllb2kyQXNsaXByZS1GNUNQdjFnODBnd3ZTVkcxUGw2ZDI5bmJZenZ6emlPelY3ZkE3RHFrM1ZaOFJGclVaSkNOT0xGSFl2ZHZKWkhXbmx6cFNETExHeElkdGxtMDJLdzJxeWpGdmlNT1NsWUFpRDVfTnhvWW9LMV93Y0pNam1HY0Y1Zkt3Rzk0UXdodg?oc=5",
+   "publisher": "NaturalRefrigerants.com",
    "stage": "signed"
   },
   {
@@ -1498,15 +1522,15 @@
    "stage": "signed"
   },
   {
-   "n": 1,
-   "date": "2024-12-19",
+   "n": 2,
+   "date": "2024-12-17",
    "month": "2024-12",
    "firm": "tpg",
    "portco": "boomi",
    "buyer": "Boomi",
-   "title": "Carlsquare advised Boomi on the acquisition of data integration provider Rivery",
-   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNVGhULVIwQUNBVEJXVXF1WkFEa0RrWlQzSUtGYnRDdjhZM3BKMjc1Z2dicktHV3h4SE1OMzFkeXkzV09ENGE2YU90QXFyd1gyekJvckNDZ1dMOFpRX2R0YTBVR2p3N28yTWtqVXdVTUVVR1Jhb0NYMGIwandIZkpWek81aDI5dmhGcmV2dFlHUWstS2dwa1I0YjRGb2lFM1I5NXJ5eF9ZSUNzbm9idnNwS2V6clprOGc0YkFQM19wdXVyT2hmWkpzcUh5QVM0Y2NuMXFnUC1LUldHSkdmb0FHMlpSZ0Y2NWZuY2I0dUVNRjl5S0xnN3ZMbHdnQmhrdktfMWw3NGFtVHlQTFd3Rk1FdnlB?oc=5",
-   "publisher": "Carlsquare Corporate Finance",
+   "title": "Boomi acquires Rivery, adds data integration tools to iPaaS stack",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQUQ5U0d1RHRLUHlvbWJLOWc3ZF9JSDVTTVlpd3dJY2JocHRkR1NKaEVVZHRfenZCaVlXSEFKeC1rYjVYclFoYnZvUE5LMFBweFBMSktJajQzN2NZV2E5QzVSVUFHd1ZmajlfcGV0LTItYlVSbFg4VzdLSF83RXl1SVJNWk1fbkFMUzRpdTNLLVFqYXBuZUFnVUFLemYzWHZ5TkFGVWIxbGUydw?oc=5",
+   "publisher": "Constellation Research",
    "stage": "signed"
   },
   {
