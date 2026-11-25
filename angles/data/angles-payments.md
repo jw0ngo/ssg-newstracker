@@ -1,5 +1,5 @@
 # SSG Angles · Fintech, remittance & stablecoin · week of 23 November 2026
-_Published Mon 23 Nov 2026 · five angles in cross-border payments, remittance and stablecoin rails · from the roster, the targets and the week's stories_
+_Published Wed 25 Nov 2026 · ten angles in cross-border payments, remittance and stablecoin rails · from the roster, the targets and the week's stories_
 
 ## 1. MoMo: vendor tech DD as Warburg Pincus sells into a contested stake sale
 Sell-side · Warburg Pincus · MoMo · Ho Chi Minh City, Vietnam
@@ -8,28 +8,67 @@ Sell-side · Warburg Pincus · MoMo · Ho Chi Minh City, Vietnam
 - **The pitch to Warburg:** a vendor-side technology and data fact base on the wallet, the payments core and the lending and risk models, so three bidders diligence one version of the truth.
 - **Why SSG:** Product and Tech DD written for both a bank and financial sponsors, which shortens confirmatory work and protects price.
 
-## 2. Banking Circle: an APAC payments story for the sale EQT has been exploring
+## 2. Maya: exit-readiness for KKR as the IPO slips to 2027
+Sell-side · KKR · Maya · Manila, Philippines
+- **Why now:** Maya's listing is now seen as a 2027 event, in the Philippines and possibly the US, after PLDT and KKR spent this year negotiating the IPO terms. [Philstar, 29 Oct](https://www.philstar.com/business/2026/10/29/2566524/mayas-potential-listing-2027) [BusinessMirror, 10 Jun](https://businessmirror.com.ph/2026/06/10/pldt-in-talks-with-kkr-to-resolve-maya-ipo-issues/)
+- **The owner's position:** KKR has held since 2018 and hired Goldman in January 2025 to sell its stake; a trade sale is the alternative if the listing slips again. [Reuters via Interaksyon, 17 Jan 25](https://interaksyon.philstar.com/business/2025/01/17/290457/kkr-hires-goldman-for-selling-stake-in-philippine-fintech-maya-sources-say/)
+- **The pitch to KKR:** a vendor technology report on the wallet, the digital bank core and the credit models, written once for a prospectus and for a trade buyer.
+- **Why SSG:** Product and Tech DD on a wallet-plus-bank stack, which is what both an IPO investor and a strategic buyer test first.
+
+## 3. Banking Circle: an APAC payments story for the sale EQT has been exploring
 Sell-side · EQT · Banking Circle · Luxembourg, Luxembourg
 - **Why now:** Banking Circle said this month it is targeting Asia-Pacific's cross-border payments market and rolled out a PayID feature for Australian payment providers, while EQT's sale exploration has no reported buyer. [The Business Times, 10 Nov](https://news.google.com/rss/articles/CBMihgJBVV95cUxNTy1iY3Q5Zy16QnhsdEZuNXF6TElHOWJwZ3pZQUhvVzF2aUY3NkxOV3ZWXzdyRVk0dmkyRnZ6WUw0YmQ1UW1ueGs2ZUloRTJEM0dTZDc3MFJobUtmLTRWUTlHVG5YWXg1TV96LWh4RjhHSjlmM0FUMkowaHlIZTZpRHM2N3FtQU1GOFB5b3BCel83TEEzX1J4SVMtaGdvWlY1TFVJQjFaS3E4a3BYZlRtZmFsOGw2MTdtbFpyX25RX2dzUTJnQ0xzVUF4ZGNCZkRobUktazRsMzB1ejBUMnctMXYwY2JJbmlURlUwQ1pfQ1g2QnpnWDlTR3pyZTNURVVWVDNCSmtB?oc=5) [SMBtech, 11 Nov](https://news.google.com/rss/articles/CBMipwFBVV95cUxQcTE5ZGhROXhQZE0zQXJ6TWRHVlFPS0tzRVU5RTl2VmNXSVg1NzctV1V4T3VKc29TQnlvSWswclllZHNPZ21UQVdIZjllUGhlaFdJTmNxclhldW9Eck1uZDNPNDhzbVgwZWtXVTk1UFVocE9vbnZheVlkeWp1SFo2dkZVNmVLcEhBMjdNSy0xbzBnQ1VaZDBwTWU1NDFieW44UVpyVXozQQ?oc=5) [Reuters, 11 Sep 24](https://investing.com/news/stock-market-news/buyout-firm-eqt-explores-2-billion-sale-of-banking-circle-sources-say-3611949)
 - **The owner's problem:** EQT has held since July 2018 and the process has run since 2024; a buyer needs to believe the APAC growth leg before paying US$2bn or more.
 - **The pitch to EQT:** a vendor technology assessment of the payments and FX rails, including what connecting to APAC real-time schemes costs and how stablecoin settlement changes the correspondent-banking case.
 - **Why SSG:** Product and Tech DD with an APAC market view, from the team that sits in the region the equity story now depends on.
 
-## 3. M-DAQ Global: an integration and exit-readiness plan for Affinity's ASEAN payments hub
+## 4. M-DAQ Global: an integration and exit-readiness plan for Affinity's ASEAN payments hub
 Sell-side · Affinity Equity Partners · M-DAQ Global · Singapore, Singapore
 - **Why now:** revenue fell and losses grew as M-DAQ chases bigger clients, after it added EasyPay in Malaysia, Wallex in Indonesia and METech in Vietnam. [Tech in Asia, 17 Aug](https://news.google.com/rss/articles/CBMihgFBVV95cUxOLUVCQjRaZlJHblFoVEx5Zk11WlFZNzBmcnJ3Ykx2OE9tbkdyMkZqdExuRWRPcXZaZXo2bGgtTXAxY0k4WUdzRVdtdnpuNjFwaTFmRXhac2hHLUlUTjE5Z3I2SnBSVkM5b0JjSnhUZ1pGNlluSXRlUFpqVEpyZWplbFNGbndfQQ?oc=5) [AAP / PR Newswire, 7 Jul](https://www.aap.com.au/aapreleases/cision20260707ae99248/)
 - **The owner's position:** Affinity put in S$200m for joint control in August 2021, so the fund is past year five with three acquired platforms and five licences still to knit together. [FinTech Global, 18 Aug 21](https://fintech.global/2021/08/18/m-daq-receives-147m-investment-from-private-equity-firm-paytech/)
 - **The pitch to Affinity:** one platform plan across the acquired licences and ledgers, with the cost to run and the product gaps a buyer will ask about.
 - **Why SSG:** Carve-out and Integration skills applied before a sale, with a vendor tech report as the output.
 
-## 4. Xweave: stablecoin rails for M-DAQ Global to buy
+## 5. Nium: a Singapore cross-border payments platform for Warburg Pincus, before the delayed IPO
+Buy-side · Warburg Pincus · Nium · Singapore
+Industry: Fintech
+- **The target:** Nium runs cross-border payments infrastructure for businesses, with card issuance its largest revenue line; it is venture-backed and last raised US$50m in June 2024 at US$1.4bn, down from US$2bn. No sale process is reported, so this is an approach, not an auction. [Fintech News SG](https://fintechnews.sg/125120/payments/nium-loss-2024/)
+- **Why it fits Warburg Pincus:** the US IPO was pushed back to end-2026 with no filing reported, while 2024 revenue grew 50% to US$120m; Warburg already backs wallets in Vietnam and the Philippines. [Bloomberg, 9 Sept 24](https://www.bloomberg.com/news/articles/2024-09-09/gic-backed-nium-pushes-back-ipo-plans-to-refocus-on-growth) [Fintech News SG](https://fintechnews.sg/101104/payments/nium-postponed-ipo-end-2026/)
+- **What changed:** Nium bought crypto wallet and card issuer Cypher in July, adding stablecoin rails to the network. [Nium, 8 Jul](https://www.nium.com/newsroom/nium-acquires-cypher)
+- **The pitch to Warburg:** an outside-in technology and licence review ahead of a pre-IPO or take-out offer: the payments core, card issuing, and how Cypher fits.
+- **Why SSG:** Product and Tech DD on payments infrastructure, with AI DD on the fraud and compliance models.
+
+## 6. Thunes: a wallet-to-wallet payments network for TPG to back at scale
+Buy-side · TPG · Thunes · Singapore
+Industry: Fintech
+- **The target:** Thunes links mobile wallets, bank accounts and stablecoin wallets across borders; it raised US$150m in April 2025 from growth investors Apis Partners and Vitruvian, who hold minority stakes. No sale process is reported, so this is an approach, not an auction. [Finextra](https://www.finextra.com/newsarticle/45886/thunes-raises-150-million-in-series-d)
+- **Why it fits TPG:** TPG is taking Airtel Money, a mobile-money platform, to market, and Thunes is the network such wallets settle across; it reported a run-rate above US$100m in 2024 and opened a New York hub this June. [PR Newswire, Aug 24](https://prnewswire.com/apac/news-releases/thunes-hits-major-growth-milestones-as-network-expansion-accelerates-302219410.html) [PR Newswire, 9 Jun](https://tools.prnewswire.com/en-us/live/20813/release/20260609EN78463)
+- **The pitch to TPG:** a technology and network-quality review before approaching the board: settlement architecture, the integration of recent acquisitions, and licence coverage by corridor.
+- **Why SSG:** Product and Tech DD, with an integration read on a platform built partly by acquisition.
+
+## 7. Aspire: a break-even Singapore SME finance platform for KKR
+Buy-side · KKR · Aspire · Singapore
+- **The target:** Aspire offers accounts, cards and cross-border payments to more than 50,000 businesses; Peak XV has backed it since 2021, and its last priced round was in February 2023. No sale process is reported, so this is an approach, not an auction. [Fortune, 7 Apr](https://fortune.com/2026/04/07/aspire-built-a-financial-stack-used-by-50000-firms-now-its-coming-to-the-u-s-to-take-on-ramp-and-mercury/) [TechCrunch, 13 Feb 23](https://techcrunch.com/2023/02/13/aspire-100m-seriesc)
+- **Why it fits KKR:** the chief executive says Aspire has run at break-even since that round, and it launched in the US in April; KKR already owns SME software in the region. [Peak XV portfolio, 5 Nov](https://www.peakxv.com/companies/aspire)
+- **The pitch to KKR:** buy-side tech DD on the ledger, the card and FX stack and the bank partnerships each market depends on.
+- **Why SSG:** Product and Tech DD on an SME finance platform three years past its last round.
+
+## 8. YouTrip: a profitable multi-currency wallet for Navis to take regional
+Buy-side · Navis Capital · YouTrip · Singapore
+Industry: Fintech
+- **The target:** YouTrip runs a multi-currency travel wallet and card, and an SME card, in Singapore and Thailand; it is venture-backed and reported as profitable. No sale process is reported, so this is an approach, not an auction. [Fintech News SG](https://fintechnews.sg/104234/e-wallets/youtrip-ipo/)
+- **Why it fits Navis:** a profitable Southeast Asian consumer fintech of mid-market size that launched in Australia last December and wants a further round before an IPO in two to three years. [Skift, 2 Dec 25](https://skift.com/2025/12/02/singapores-youtrip-expands-to-australia-with-a-pitch-of-lower-travel-costs/)
+- **The pitch to Navis:** a technology and unit-economics review of the wallet: FX sourcing, card processing and what each new market's licence requires.
+- **Why SSG:** Product and Tech DD sized for a growth-buyout cheque.
+
+## 9. Xweave: stablecoin rails for M-DAQ Global to buy
 Buy-side · Affinity Equity Partners (via M-DAQ Global) · Xweave · Singapore
 - **The target:** Xweave is a non-custodial orchestration layer for instant cross-border transfers on stablecoin rails, used for remittances, treasury flows and merchant payouts; Jungle Ventures has backed it since 2025. No sale process is reported, so this is an approach, not an auction. [Jungle Ventures portfolio, 5 Nov](https://www.jungle.vc/portfolio)
 - **Why it fits M-DAQ:** M-DAQ has bought its way into Malaysia, Indonesia and Vietnam for licences; stablecoin settlement is the rail those licences do not yet have, and Circle paid US$400m for Singapore's Tazapay in September. [The Malaysian Reserve, 7 Aug 24](https://news.google.com/rss/articles/CBMimwFBVV95cUxOTWpFLWl2ek40WGZLT3RMUWpRbXBoVkxwcjFqWGZVU0NRWUZnRjluM2lBOXhoSVc1dmRPeEtvZ1o4dDF2d0VES3BkX2lFSEhPNnExcWd6dVA1YWVLWnpKei1KYmtETnhPV2Z4SVVjd1pndVItWll2Q180Y0NWUlVmUHNfWXpSc2piVjgxQmdxQktoM3hqQUlWMzNpSQ?oc=5) [BackScoop, 11 Sep](https://news.google.com/rss/articles/CBMilgFBVV95cUxNbDJGYXpEX3BlRmRxU0NWZm1Ta2pib2VMV2MyWFg2QzBkVGVlOGRPNE9hTGd4NjRYbzBUbTFKNGhKbGx0QmhYREFWSGhWb1lBaGs1MWloeWRQMGNFWEZyN0FWbnZCTGI1djlwZjlINWNMbEk2Z0RyUmpxaWh5d0tqNnl2S3NlLXpFRDY2blU1TVlLMUZTY0E?oc=5)
 - **The pitch to Affinity:** tech and compliance DD on Xweave's orchestration layer and how it would sit beside M-DAQ's FX engine and licensed entities.
 - **Why SSG:** Product and Tech DD on an early-stage platform, with the integration view a small acquisition by a portfolio company needs.
 
-## 5. iPiD: account validation for Banking Circle's APAC push
+## 10. iPiD: account validation for Banking Circle's APAC push
 Buy-side · EQT (via Banking Circle) · iPiD · Singapore
 - **The target:** iPiD runs a global bank-account validation and proxy-addressing service that cuts failed cross-border payments and fraud; Jungle Ventures has backed it since 2022. No sale process is reported, so this is an approach, not an auction. [Jungle Ventures portfolio, 5 Nov](https://www.jungle.vc/portfolio)
 - **Why it fits Banking Circle:** its newest APAC product is a PayID feature for Australian payment providers, and payee validation across more schemes is the next step of the same service. [SMBtech, 11 Nov](https://news.google.com/rss/articles/CBMipwFBVV95cUxQcTE5ZGhROXhQZE0zQXJ6TWRHVlFPS0tzRVU5RTl2VmNXSVg1NzctV1V4T3VKc29TQnlvSWswclllZHNPZ21UQVdIZjllUGhlaFdJTmNxclhldW9Eck1uZDNPNDhzbVgwZWtXVTk1UFVocE9vbnZheVlkeWp1SFo2dkZVNmVLcEhBMjdNSy0xbzBnQ1VaZDBwTWU1NDFieW44UVpyVXozQQ?oc=5)
