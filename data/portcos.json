@@ -10833,6 +10833,12 @@
   "summary": "Circles.Life leads the consumer sector with digital products and flexible mobile plans, redefining customer experience in digital services.",
   "signals": [
    {
+    "date": "2026-11-24",
+    "publisher": "CNA",
+    "title": "StarHub-M1 merger pending approval, Circles.Life acquisition by H1 2027",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWDl5MmxyTEl5cGNSUlBPSFR0cG0wZk5OaXU2QXp5UEdCWktUX3RRWjJ6dEhHTXJQU3ZtSHZJNGhzNHBZdWdyOHhWQWw4QnJWcS1yNEpadXdiTHpxYTZEdE9NZS13VXZYRlR4Y05ROXJjakNxeGNsT2dUMnFlcVBSUE0xajc4Uk5WTmtDb0FDSURhT3pPWENmNzRKOUxkMXdpT2d5SHAyTzdMdDlvemtTOU9R?oc=5"
+   },
+   {
     "date": "2026-11-05",
     "publisher": "Peak XV Partners portfolio page",
     "title": "Circles.Life on Peak XV Partners' portfolio page (partnered 2017)",
@@ -10840,8 +10846,8 @@
    }
   ],
   "exit": {
-   "note": "",
-   "status": "none"
+   "note": "CNA, 24 Nov 2026: StarHub exercised its call option to acquire Circles.Life Singapore; completion targeted by H1 2027",
+   "status": "process"
   },
   "firstSeen": "2026-11-05T04:22:12Z"
  },
@@ -19833,10 +19839,17 @@
    "url": null
   },
   "summary": "Singapore digital-telco group running the Circles X SaaS platform for operators (customers include KDDI, e&, AT&T, Telkomsel), the Circles.Life consumer MVNO brand and the Jetpac eSIM travel product; Warburg Pincus has been a minority growth investor since 2019 alongside Peak XV, Founders Fund and EDBI, and the company remains on Warburg's active portfolio as of June 2026.",
-  "signals": [],
+  "signals": [
+   {
+    "date": "2026-11-24",
+    "publisher": "CNA",
+    "title": "StarHub-M1 merger pending approval, Circles.Life acquisition by H1 2027",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWDl5MmxyTEl5cGNSUlBPSFR0cG0wZk5OaXU2QXp5UEdCWktUX3RRWjJ6dEhHTXJQU3ZtSHZJNGhzNHBZdWdyOHhWQWw4QnJWcS1yNEpadXdiTHpxYTZEdE9NZS13VXZYRlR4Y05ROXJjakNxeGNsT2dUMnFlcVBSUE0xajc4Uk5WTmtDb0FDSURhT3pPWENmNzRKOUxkMXdpT2d5SHAyTzdMdDlvemtTOU9R?oc=5"
+   }
+  ],
   "exit": {
-   "note": "",
-   "status": "none"
+   "note": "CNA, 24 Nov 2026: StarHub exercised its call option to acquire Circles.Life Singapore; completion targeted by H1 2027",
+   "status": "process"
   },
   "firstSeen": "2026-10-09T07:11:58Z"
  },

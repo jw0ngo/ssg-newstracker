@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T23:36:33Z",
+ "at": "2026-11-26T23:36:55Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,10 +82,46 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 15668,
- "candidates": 300,
+ "archived": 15775,
+ "candidates": 306,
  "fromSignals": 31,
  "boltons": [
+  {
+   "n": 1,
+   "date": "2026-11-25",
+   "month": "2026-11",
+   "firm": "eqt",
+   "portco": "vistra",
+   "buyer": "Vistra",
+   "title": "Vistra Underperforms Industry in the Past Year: Time to Buy or Wait?",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU1ZuOGxpLXptV3RDLXN0bk0wZEtTTU1zTEhHd2hrYThVMVJJRUF1LUxIM0ZlbWtIaWFHWVg3Qmc4TjZad1V3NFhPRXp6ODJ6SmFhSUdxbHcyNm9iX2lOSE9ydFRadG5TY2lfanpsMEViS0R4bUE1Q1FyR3JhYVZ3eU1ORjlIWjhTTkdvY2FEaHRGWllUQ010THdoRnEtUGZLMGM5dDh2VWVPRk0?oc=5",
+   "publisher": "Zacks Investment Research",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-11-24",
+   "month": "2026-11",
+   "firm": "eqt",
+   "portco": "musinsa",
+   "buyer": "Musinsa",
+   "title": "Musinsa Acquires ‘Regional Headquarters for Multinational Enterprises’ Certification from Shanghai, China… “Support for Partner Brands’ Overseas Expansion Gains Momentum”",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FMTFpRW9hZEh1bW1fb0k0Z1hOemNsOUpLdExkb2hsU3RiRU5kTUVFbU5Cb1pjU3dRZzItZ01UWXNJdXJFV3NpbU9CcnVxaE9jWmh6WnpPc091OEtkM1NWWGhUX3E?oc=5",
+   "publisher": "무신사",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2026-11-24",
+   "month": "2026-11",
+   "firm": "kkr",
+   "portco": "musinsa",
+   "buyer": "Musinsa",
+   "title": "Musinsa Acquires ‘Regional Headquarters for Multinational Enterprises’ Certification from Shanghai, China… “Support for Partner Brands’ Overseas Expansion Gains Momentum”",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FMTFpRW9hZEh1bW1fb0k0Z1hOemNsOUpLdExkb2hsU3RiRU5kTUVFbU5Cb1pjU3dRZzItZ01UWXNJdXJFV3NpbU9CcnVxaE9jWmh6WnpPc091OEtkM1NWWGhUX3E?oc=5",
+   "publisher": "무신사",
+   "stage": "signed"
+  },
   {
    "n": 1,
    "date": "2026-11-22",
@@ -1534,27 +1570,15 @@
    "stage": "signed"
   },
   {
-   "n": 2,
-   "date": "2024-12-07",
+   "n": 4,
+   "date": "2024-12-04",
    "month": "2024-12",
    "firm": "kkr",
    "portco": "ness-digital-engineering",
    "buyer": "Ness Digital Engineering",
-   "title": "Ness Digital Engineering Acquires Raja Software Labs to Strengthen Product Engineering Expertise",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNN2F3cFRSaGZ1MjJ6b0FiNXNRMzZyR2xVbGVTYWF6VVdwMnpGY3BiNHZQTmpPSnAyYm5kbmdlY3hoZHgweTBnOE9JUVYxNWVWV0lIUkdrallKd3hVaVJHZS16My1CMG5ZX3FIRTdrQkREOEMxOFNIUGdIN2J0MXpWcld2N0RYZ1lTNkZHSk1KS3BNcjNMQ0xwS05FM0R5eEdnR3htNm8yYk9HeGZNQjlBV1g1UE42ZEZISEQtQURRSmI2bkVmWWhuTmxR?oc=5",
-   "publisher": "Machine Maker",
-   "stage": "signed"
-  },
-  {
-   "n": 1,
-   "date": "2024-12-07",
-   "month": "2024-12",
-   "firm": "kkr",
-   "portco": "ness-digital-engineering",
-   "buyer": "Ness Digital Engineering",
-   "title": "Global tech heavyweight Ness Digital Engineering acquires software company RSL",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTXlBQmdXUURVYzdnWjNPWU9ubU5xbk5BMmZ6ZFUtbWxZeDNGOWZqSGhUalRVamE4Z1dEdUdiQmo0UHdzcEw0djFMenRXUGdrZi1DaGNwa3ZQcjIzVnl3cEZ1YmRGODBmdU9KYWpsRjZVRmxaNVlRWW1pNGJKZnBjZER3X3RFcFJiSG1XeC1VV2RkV1BOeUpUczVHM0VzdlRibFZPT0RXSmR2TUdObUJuSA?oc=5",
-   "publisher": "Novobrief",
+   "title": "Ness Digital Engineering Acquires Raja Software Labs (RSL), a Silicon Valley-based product engineering company specializing in high volume mobile, web and IoT applications",
+   "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPZTdMdm00R2FKZDlWZktzX0pMTFJpNVkwRnlRbkdEVE4taUlscFRMNDB1RnR4UnhzNUNLUUYxM2doSkFqNGJzbE5MOGhBVU1EM0tnbC1Pdm9YY202YnAyUkk5Y0NjOHRsLXVyLXNKNUlCQnZyQTloVHZfb3phaFRUTjMwaWlMZW83bzhfT21lVUZGY0E4MWVkd3BoUEp1WWIyaWtiY1R4c3haazJtODQ2Q0tlLXZxT2kzRkZiaXRxUXJpcllyUXRva2JXTG9GczEyNTVLUDF0MTl5SnkwQ1FPMy1zalo4elBwSFQ0VzliQmw4em44QXN1WnhSZFFGVDgxbzVvTjRCNDlLM1kybUtialFXVlRLSDN6N29IVmMzUlc2VUk3aW1oeC1wOF92RUhMd0ozSnRIamJnNm5SUkNCdURlZjZfaC1pTWc?oc=5",
+   "publisher": "PR Newswire",
    "stage": "signed"
   },
   {
@@ -1629,6 +1653,18 @@
    "title": "RLDatix Acquires SocialClimb, Empowering Healthcare Organizations with Enhanced Provider Reputation Management and Patient Experience Data Insights",
    "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOYm5pSjRjOE1jR1RTaVh3TTk4NnVfMDNwN2RIQWZiR2JQbWE1bnNrai1VaExUUk16OHRFSzQ2VXVrQS1YWmNOR3dxYUY1Ui1iMGhJQ2VYQ052cnJfUUx1bVl3T2g3UEJQYzlYV1NqbmtyXzM5SVpTMGkyZ1ZVbmxiQ1Fma0tfcTJGY0ZVd1BhaDAyZ1ppNUt3UmgwQjRaQlRDRkxJakFSZl9FZ0liMzlhUE8teV9NakFFOFZYU3ZQblpwNHFnakp1cnlwY3dBM1JpY1BKT09QQVYtRDJGaGNWOE4xZl9tTTRvMm1LUTRMa21KUzVOOHRIZTAtM1VGTlBreHo2dHMwZkpPOFNHWS1ZdFZhWnlyU3R5TTlNbFpwWjExOXZUNEF0My13?oc=5",
    "publisher": "PR Newswire",
+   "stage": "signed"
+  },
+  {
+   "n": 1,
+   "date": "2024-09-05",
+   "month": "2024-09",
+   "firm": "ta-associates",
+   "portco": "netsmart-technologies",
+   "buyer": "Netsmart Technologies",
+   "title": "Netsmart acquires data analytics company based in Oregon",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWmhrMDRjUUtLUmpKZnM0NTR2Y3A3Q29DNnlfUE5WTU55ZHBOT2xFSEVHVWlJcDFSb202WmgybmVPa3ZYZ2ppYndXcXdNX1ZFYnlFeW1ObzRSbDM1VTU5MFF5bFBoVW1oVDlIaV9Mb0FTMFJ1Z0VNLWVOMUNYWUtzcjE1aFg3VFZJZlA5bFpRZjlDQmtY?oc=5",
+   "publisher": "The Business Journals",
    "stage": "signed"
   },
   {
@@ -1814,6 +1850,18 @@
    "publisher": "Warburg Pincus (press release)",
    "stage": "signed",
    "fromSignal": true
+  },
+  {
+   "n": 1,
+   "date": "2023-12-12",
+   "month": "2023-12",
+   "firm": "tpg",
+   "portco": "nintex",
+   "buyer": "Nintex",
+   "title": "Nintex acquires Skuid, a low-code application development platform",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQk5LWkxyRjgyY1BFMHQwVWtiVjU0b1A5YUNoT283UkhJVl9hZWVYajRHVGZIVklTVlozbmo4WV9aQ1dpS3BpMWZVSEJCVDNfcEtrUjBLSTZBZHl2Q3A3NDR5NGxjcVMyZVJXSVRndDFmTjVEMHBDYXRjdEJMY21FWU9ZY1VHMHBVdmZiS29aQnZOdTBGd2ZqMTcwYkM?oc=5",
+   "publisher": "GeekWire",
+   "stage": "signed"
   },
   {
    "n": 1,
