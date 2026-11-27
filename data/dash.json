@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26T23:36:55Z",
+ "at": "2026-11-27T23:37:11Z",
  "from": "2020-06",
  "to": "2026-11",
  "months": [
@@ -82,10 +82,22 @@
   "2026-10",
   "2026-11"
  ],
- "archived": 15775,
- "candidates": 306,
+ "archived": 15861,
+ "candidates": 308,
  "fromSignals": 31,
  "boltons": [
+  {
+   "n": 1,
+   "date": "2026-11-26",
+   "month": "2026-11",
+   "firm": "eqt",
+   "portco": "vistra",
+   "buyer": "Vistra",
+   "title": "Vistra buys Cogentrix from Quantum in $4.7B gas-fleet deal",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdExJenhfSTZ5M0NsU3FNQjF1QjlUa3d2MldGQ3FQUkFrMFlQRHBvZXd1MXFNVGtNdzJ1ZEJLTVpCa3VUcGhMMnFsZkZzdGltdkMxRnZzRDVSek0wTl9jbGlhOVhEZjh4UmRDU2syWmxEUlNkRkotMkpZX3NwNkdEd3JpVnB1Z3k0UjVVbFJBQnVpQVBrMHc?oc=5",
+   "publisher": "Dealroom",
+   "stage": "signed"
+  },
   {
    "n": 1,
    "date": "2026-11-25",
@@ -1507,7 +1519,7 @@
    "fromSignal": true
   },
   {
-   "n": 2,
+   "n": 3,
    "date": "2025-01-22",
    "month": "2025-01",
    "firm": "eqt",
