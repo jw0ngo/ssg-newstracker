@@ -1,64 +1,64 @@
-SSG Newstracker · Morning Brief · AI & Tech · Fri 27 Nov, 07:47 SGT
-30 new stories since the last publish.
+SSG Newstracker · Morning Brief · AI & Tech · Sat 28 Nov, 07:46 SGT
+15 new stories since the last publish.
 
-1. [WARM 57] Kamgras 1 Slightly Raises Kakaku.com Tender Offer Price and Extends Bid Period
-   M&A · The Globe and Mail (TipRanks) · 26 Nov
-   Why: Kamgras raised a round in North Asia: a future target, priced today.
+1. [WARM 52] MBK began talks with Samsung 4 months ago ahead of 1 trillion won Wacom tender offer
+   M&A · MoneyToday · 27 Nov
+   Why: MBK raised a round in North Asia (1 trillion): a future target, priced today.
    Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://www.theglobeandmail.com/investing/markets/stocks/KKKUF/pressreleases/7809401/kamgras-1-slightly-raises-kakaku-com-tender-offer-price-and-extends-bid-period/
+   https://www.mt.co.kr/en/stock/2026/11/27/2026112714130336337
 
-2. [WARM 56] Cognizant in talks to take over parts of S&P Global's Capital IQ operations, sources say
-   M&A · Investing.com (Reuters) · 25 Nov
-   Why: A sale process or bid talks involving Cognizant in India or ANZ: an asset in play in a sector SSG diligences.
-   Call: Map which sponsors are natural buyers and get the tech view ready before they call.
-   https://www.investing.com/news/stock-market-news/cognizant-in-talks-to-take-over-parts-of-sp-globals-capital-iq-operations-sources-say-5049812
+2. [WARM 49] Analysis: SoftBank eyes quantum-AI data centers by 2029
+   Sponsors · digitimes · 27 Nov
+   Why: A reported development at SoftBank in Asia.
+   Call: Watch; no call yet.
+   https://news.google.com/rss/articles/CBMinAFBVV95cUxPMmZ3amJvSnJJZnhZMFJoVWMxNVRoT3FlRjZWT2hCQ3piWDNQTlljQVFVcktvWEZIeDBKV3RRWGVOT3BPako1X2g0NlJKVDhRMFMxS2p0THp1bUdaREdxSWtERmpnTWJhSEM3WE9aYUVKa0FObHQySGs1RXFNVVdqVDJxa1JkNU9BNFJEdzZpaHd1Q2tKZ2NkNElGOGk?oc=5
 
-3. [WARM 55] Fintech firm Finnable raises Rs 405 Cr in Series C
-   Targets · Exchange4Media · 26 Nov
-   Why: Finnable raised a round in India or ANZ (Rs 405 Cr) in fintech: a future target, priced today.
-   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ3paRFZpSVZLSWlqVERNTU1COGNwSldTOXhGY0U3N1BJOVNPOHBQakc0N1UybWZPLXctendmMmJVSUVpcU5jdUFBamdXV0dVR1ZieEVJTEJLU251bS1jeDNWdGM4VjRNeVJscXBLMUdEQjlhQ2NjV2NqZHYxZDlqUVJJWUxuTEJYSk0yeE9DLWxuRjhta29wSm5lRlYxcjVaSkZ1cWk1b3ZkSHhsREhHcHNR?oc=5
-
-4. [WARM 54] 16-year-old drops out of school to build an AI startup, raises Rs 4.4 crore from Y Combinator
-   Targets · Education Times · 26 Nov
-   Why: Y Combinator raised a round in India or ANZ (Rs 4.4 crore) in AI: a future target, priced today.
-   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTzIwZFJ3Y3hfbHRXX0tCZFpmNGk3NUxmY1hfTFRVMEZ3VWdYcDV4SXlMQVh2S1k3RFNJeVBQWXNINTBESEtNR1BUemRKTWRwOXZ4ekIzTkRTRktsNlgwMWNPOTdKTFFtdzlEMVY5SF80emo1SWlZNHBwWnhiMEFRYlRJc3J4VU92MEpFRDJJczM1QkxteGZWUjRoU3pZNl9LRHZEMEd2Nk5wWHRLY3lHZ0NJTU4td3lBWXdNWjBHWDVVb3NKYWdTamlRb1ZRdWFCLW1JNEVQb1pTOFl2V3ZGbDFpMURVdTM4NU1ib1BiMA?oc=5
-
-5. [WARM 54] Lakshya Aerotech Raises Rs 2.5 Crore Seed Funding to Turn Physical AI Research Into Market-Ready Products
-   Targets · https://ascendants.in/ · 25 Nov
-   Why: Lakshya Aerotech raised a round in India or ANZ (Rs 2.5 Crore) in AI: a future target, priced today.
-   Call: Add it to the watchlist and note the investors; the next round or exit is where SSG comes in.
-   https://news.google.com/rss/articles/CBMinwFBVV95cUxPcE80V2dKcVZ2VDNRRThQZmQ0Nkw4QmdXYjJ4STAxR0Z4OEJUYjlaRURUN1lTYXFnVkRhTFFENDQ2bnNyQ0FNd0tpYVN2YkJ3V1lhSDRrcG1TMzFlLWI0T2ppeU9mOHQ0M2hHQkllN2hyMzRyNjRBam5fWGZZZ0ZNeThPekhiNjA2UUJqX0RVNk5UQ2tseEMyMmVWREdTdWc?oc=5
-
-6. [WARM 49] SoftBank Credit Risk Tops 500 Basis Points as AI Worries Mount
-   Sponsors · Bloomberg.com · 26 Nov
+3. [WARM 49] SoftBank credit risk hits four-year high as AI worries mount - report (SFTBY:OTCMKTS)
+   Sponsors · Seeking Alpha · 26 Nov
    Why: A pricing move by SoftBank in AI: margins and moats in the category shift with it.
    Call: Re-run the pricing assumption on any AI target under review.
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxQNlk4TkVRZ1drRENTTmhYN05Mc1NhVlUwVzJ0YVJRMHQ2NUxSVklCaS1lMTZ4WFBHN2hjTFlvR05zM3pMVF9sZ1I1VWZlRFlRLWpUWHdVdkc5aVY1VUJZYllTdk14S1AxcG9DaUVuUHpseEowYXdxN3JRa0txdENjYWhadWFIRHRLYldmTXgzSzduWHU1LXlwaTViczVKeHVkQ0ZsOHJ6VWs3eXh3WDRoUTc3Zw?oc=5
+   https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSWQ1Tlhvc3NSckwwb2pscUt2LWt1amRhR09CcE1XbXNpRnY0X09zZVE0V0oyRnZYbm4wUnpwWFk2bzl1b3JpQU8yVHFIa29QenRNX1FWS3FOemVNTDA3TlhMZlhBYWo3T1ZtbGlMSy1pX3hVWEJFal9xaU01bmg2SzBPNFkzdXlNRUJiNXk3WUtqR2Z6cUNOVUI5cF9PY3c4cGxqQno2WXN4d2s?oc=5
 
-7. [WARM 49] SoftBank Group Stocks Crash 14.83% as AI Selloff Hits OpenAI Backer
-   Sponsors · Yahoo Finance · 26 Nov
-   Why: A market move around SoftBank in Asia.
-   Call: Note it for the comps discussion.
-   https://news.google.com/rss/articles/CBMimwFBVV95cUxQQnAwc2t4YnlTVjR2S3g0cDEzY3Z2b3QtRmRDSks3dkFSNFBHSDI3LWVmcEJmRmtmV25pZ01MdVZmUGVLTEpOMkFvTnh6eS1sRVRvRzdHaUxmU1dCaXRNZHB2RlJvLUpqb1gyWU80YmxSalcwWURNdkVfcFZfTzUwNXEwMFBYY0tYQVJlYUR0T2EyRE40ZEQ3bVphRQ?oc=5
-
-8. [WARM 48] Pine Labs Launches AI Agents for Indian Merchants
-   Platforms · Passionate In Marketing · 25 Nov · 3 outlets
-   Why: Pine Labs shipped a platform move in AI: it changes what a target in that stack is worth.
+4. [WARM 48] Salesforce launches AI contact centre in Australia, NZ
+   Platforms · TelcoNews Australia · 27 Nov
+   Why: Salesforce shipped a platform move in AI: it changes what a target in that stack is worth.
    Call: Fold it into the tech view on every AI target in the pipeline.
-   https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUS1QdnFDOV9pNlptWkFZOVdIX1kzUVQtTXNONWlfZmN0SUROVldSZFZLWWQxMnhqdFFsRnVIeEVSNWFxeGNRLVF1dWdKbXg5M1B3ckpVdHNkQm5CR2xFWVRmQVdpQldZM3k0WlpKVWtuTVl5RkdUNmRISm1CYnh0OURodFQwcDRhS19HR3kzRG1zcTlHRm5Kb3BYdTRIaktZTEFWSjh2ZnpWQm1wNlIxVU1seGo3eVZQUGpzZzh5RFQ?oc=5
+   https://news.google.com/rss/articles/CBMijAFBVV95cUxNZXJTdk1SUmI2SENZRXVadVFTVGMzekMtcXRyVG5fRGg5UUl1YVRkSWRBNkt2ZHJDYVVaMTM3UEJDQjlGdU5vbHlBX2dkWnlmbi15Rmh0czFzWmRFZVpKRVo5LXVJZnhodklwbGpWU1Q5RVhLYm5GZzZjYjNQNmg0VGNyaG9aZTk1emxSeA?oc=5
 
-9. [WARM 48] Salesforce Contact Centre now generally available in Australia and New Zealand
-   Platforms · iTWire · 25 Nov
-   Why: Generally available shipped a platform move in AI: it changes what a target in that stack is worth.
+5. [WARM 42] Noma Expands Cloud Hosting to Australia and Singapore for Asia-Pacific Enterprises
+   Platforms · PR Newswire · 24 Nov
+   Why: Noma shipped a platform move in AI: it changes what a target in that stack is worth.
    Call: Fold it into the tech view on every AI target in the pipeline.
-   https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWDZEWWJnVUhTMHEyRmttRnl6cUJnWVNMRjJSRUNqUzBqSURWU0FqU1N1bENleTZoY19sWW52bHZ1cXNOOVc0Zl9JRmZ6OVdZX1dPbmUyT2xIcDRvNHlUSXlTUkxXc1hUNjVRZE5RbGhlSXhiSHpkQVFJLTVIbzk3TnhEZHI1akVPdTQzaWVOYkNSdF8wMmtnd0lCbDJTMTZRbHU3bXhKNEc0MlRIa21aT1R3Z3R0RURNYmVZ?oc=5
+   https://www.prnewswire.com/news-releases/noma-expands-cloud-hosting-to-australia-and-singapore-for-asia-pacific-enterprises-302949900.html
 
-10. [WARM 42] NBFC Firm Finnable Raises Rs 405 Cr In Series C Led By Bharat Value Fund
-   Targets · BW Disrupt · 26 Nov
-   Why: A sponsor has raised a fund (Rs 405 Cr) in India or ANZ: dry powder for the sectors SSG works in.
-   Call: Relationship touchpoint: ask where it deploys in APAC.
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxNTFRQa1ZKanlrTDZJel9rSy14VWJYNERHSElnczVOb2tmQjFfRzc3dnNhcjVHVXVYckF1ekZKcjZnLUFQWVRLTW9yc0VzN0ZWckNsSlBDVXEwN1h3dnhSYjdxd3RNSUFjRzR3dzBKMkRtbmpwdnp0YnRBY1ZmSjRJS3RGVklqNjVGb1ExWnhFTTR4WExmYmd6MERmaWtBcEhzOFRJVVQtZXBfUEYtTkV0b3A4VQ?oc=5
+6. [28] Quest launches AI data modeling tool for Databricks Lakebase
+   Platforms · Portal ERP · 28 Nov
+   Why: Quest shipped a platform move in AI: it changes what a target in that stack is worth.
+   Call: Fold it into the tech view on every AI target in the pipeline.
+   https://news.google.com/rss/articles/CBMikAFBVV95cUxPUktJMzh0blUtRThjWWVSbXJ1WVZGekFILVZnc3V4cy1aN3VOeUppT1ZvWE9Wb083eFJCNjExMWVwekxFQlAyRzJqVDFtVEFRR09wLXBieEt3cVJnb1E2STFYdWthVTIwQzRuYkFSemJPbm93cTZha2dMR1JmTzBvQ00yd2xlUzZHVXUzdXhIdU0?oc=5
+
+7. [28] Harbor Capital launches Anthropic AI Lab Ecosystem ETF, with Bitcoin miners among top holdings
+   Platforms · Crypto Briefing · 27 Nov
+   Why: Harbor Capital shipped a platform move in AI: it changes what a target in that stack is worth.
+   Call: Fold it into the tech view on every AI target in the pipeline.
+   https://news.google.com/rss/articles/CBMiekFVX3lxTFBTal8zSmR2dVdnSy1jQS1oRk5zNWhqeUJOdDdPRUZNSXV6OXZQbnVVWUU3UnB3WWJKYWNKOGc5VHR1UjgybHd3U1U0VFNoa0RUUzdDNVA1TlpDSGQ1RlFiQnNRQVpiTlFBVHA4Q0hKdV9LT1FCanNqWTFB?oc=5
+
+8. [28] Nvidia reinstates Jensen Huang and Microsoft launches ads in AI Overviews: Latest industry moves
+   Platforms · Performance Marketing World · 27 Nov
+   Why: Jensen Huang shipped a platform move in AI: it changes what a target in that stack is worth.
+   Call: Fold it into the tech view on every AI target in the pipeline.
+   https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdzJpWjN5ZXFldE9TMUxuTHVWMDdtQldrYmZkeFcwS01sLUxGY29pSl9kQlNGUkt2d1JzNWhwUFlfU0pjZDBqVGpmUWJodzVxNFp6eGFiUTVTMzM0RXRxaVNCeE0xYmxBZ3pzMHlMeE5zY1ZnMVBwc3Z5MHVtUXlTZ0trZlB5YXNpZU1SVVdWeTJkS0dRTEJkM2lJYk8zU0lsLTFyU1l0LTIzWm9ESkhQVlYxRXNySGhnWUZoRWsxeWQxQWRuLVY5VHhjM29ndnR5R3NRbWJ6ek93YUJlMWlz?oc=5
+
+9. [28] Claude Ship: How Anthropic's AI Agents Approve Your Code
+   Platforms · Memeburn · 27 Nov · 2 outlets
+   Why: Code shipped a platform move in AI: it changes what a target in that stack is worth.
+   Call: Fold it into the tech view on every AI target in the pipeline.
+   https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYNXl5Um5BcDJydlNIaDd0VldkdUhWcHJlNmk2Ym10dEh2Q18zQkhHZVlMTFl3VWRCcTgzRTMyR2pKQnhvQXdpSHVxUTZtclFIZEFpNkRwWHVzckdRMjlQTmJMemtJYUY1?oc=5
+
+10. [28] Anthropic launches Claude Ship AI agents for code management
+   Platforms · Industry Odisha · 27 Nov · 3 outlets
+   Why: Claude Ship AI shipped a platform move in AI: it changes what a target in that stack is worth.
+   Call: Fold it into the tech view on every AI target in the pipeline.
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxOMXpDaklUbHB3UzZ0LTRTLUh3YTB2dUQ2eXZuQVYzcTI4WFhRSl95eS1TT1BWeVhOZ29IX2IyRlE5NnJtU2tIRllaLW85cnE2WFF0WWhXbFJGdXdhazRnd1c2bzctRnU2YjlhTFk2QjE5QlZscnpIQ0ZBQ05ySWdvYXhQV1pqOWNITXgwd3RpUk1mcllzSDZFYTNQZ20tOXFXd3daQQ?oc=5
 
 Full page: https://jw0ngo.github.io/ssg-newstracker/brief/
